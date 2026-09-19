@@ -3,7 +3,7 @@
 
 **Prepared for:** Robert E. Lee Ringler
 **Phase:** 1–4 complete (Research · Historiography · Architecture · Source Matrix)
-**Status:** Manuscript drafting **not begun**, per instruction. Awaiting `BEGIN MANUSCRIPT`.
+**Status:** Superseded by the completed manuscript. Drafting ran from this dossier; see `README.md` and `manuscript/full_manuscript.md`.
 **Date:** 19 September 2026
 
 ---
@@ -397,6 +397,6 @@ chapters/   (empty — drafting not begun)
 manuscript/ (empty)
 ```
 
-**Next phase:** Phase 5, drafting, beginning with Chapter 1, "The Lodge at Midnight."
+**Phases 5-7 complete.** Manuscript assembled at `manuscript/full_manuscript.md`; audits logged in `audits/`.
 
-**Held pending instruction.** Awaiting: `BEGIN MANUSCRIPT`.
+**Drafting complete.** All 54 chapters and the epilogue are written; see `README.md`.

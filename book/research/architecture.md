@@ -53,7 +53,7 @@ The research phase forced five structural revisions:
 | 11 | **The Alchemical Work** | 2,000 | Prima materia, sulphur-mercury-salt, *solve et coagula*, death and rebirth. Principe and Newman on the laboratory reality behind the imagery. Why alchemy's death-and-rebirth grammar looks like the third degree — and why that is not evidence. |
 | 12 | **Rosicrucian Fire** | 2,000 | The manifestos of 1614–16; Andreae's *ludibrium*; a brotherhood that never existed and changed Europe anyway. Böhme and the inward light. The template for every subsequent claim of invisible superiors. |
 
-## PART III — THE MASONIC MACHINE (10 chapters · 20,500 words)
+## PART III — THE MASONIC MACHINE (11 chapters · 22,500 words)
 
 | # | Title | Words | Core content |
 |---|---|---|---|
@@ -137,7 +137,7 @@ The research phase forced five structural revisions:
 |---|---|---|
 | I | 5 | 9,500 |
 | II | 7 | 14,000 |
-| III | 10 | 20,500 |
+| III | 11 | 22,500 |
 | IV | 6 | 12,500 |
 | V | 5 | 10,300 |
 | VI | 9 | 19,300 |

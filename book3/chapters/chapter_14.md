@@ -175,6 +175,46 @@ output as evidence.
 
 ---
 
+### The Greek control
+
+A test available for gematria that nobody in the esoteric literature seems to run,
+and which settles a good deal.
+
+**Greek does the same thing, and nobody thinks Greek is a sacred language.**
+
+Greek letters served as numerals: alpha 1 through theta 9, iota 10 through koppa
+90, rho 100 through sampi 900. The system is structurally identical to Hebrew's, and
+for the same practical reason.
+
+**And Greek developed the same technique.** *Isopsephy* — from *isos*, equal, and
+*psephos*, a counting-pebble — is number-word interpretation, attested in graffiti,
+in oracles, in riddles, and in at least one very famous passage of scripture.
+
+**Revelation 13:18** gives the number of the beast, and tells the reader that it
+requires wisdom to calculate. This is an isopsephic puzzle, understood as such since
+antiquity, and the proposed solutions have multiplied for two thousand years —
+Nero Caesar in Hebrew transliteration being the most widely accepted, which requires
+choosing a language, a spelling and a transliteration, each of which is a fork.
+
+**Now the control question.** If gematria's striking results indicate something
+special about Hebrew, then Greek isopsephy should produce fewer of them.
+
+**It does not.** It produces exactly the same density of coincidence, because the
+phenomenon is a property of alphabets doing double duty as numerals, not of the
+languages they write.
+
+**And English, which never had letter-numerals, produces the same density again**
+once a scheme is invented for it — as the preceding volume demonstrated with
+household objects.
+
+**Three languages. Three completely different histories. Identical yield.**
+
+That is a control test in the proper sense, and it points where all the controls in
+this book point: **the procedure is not detecting a property of the material. It is
+generating a property of the arithmetic.**
+
+---
+
 ### And in English
 
 One last observation, needed for Part V.

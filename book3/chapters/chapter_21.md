@@ -144,6 +144,45 @@ something, and the weakest possible evidence about what.
 
 ---
 
+### What the second degree is for
+
+A structural puzzle worth addressing, since this chapter has treated the three
+degrees as a sequence and the middle one is the least discussed in the literature.
+
+**The Fellow Craft degree is, on most accounts, the least dramatic of the three**,
+and Masonic writers have periodically said so. It lacks the first degree's shock of
+admission and the third's staged death.
+
+**And it does something the other two do not: it teaches a curriculum.**
+
+The second-degree material is where the seven liberal arts appear, where geometry is
+expounded, where the winding staircase and its stages carry an educational scheme
+inherited from the medieval *trivium* and *quadrivium*.
+
+**It is the degree about learning**, positioned between the degree about entry and
+the degree about mortality.
+
+**Which makes a certain sense of the sequence.** Admission, instruction, and then
+the limit of instruction — because what the third degree announces is precisely that
+the sequence does not complete. A man who had been through the first two might
+reasonably expect the third to graduate him. It tells him instead that the thing
+the curriculum was leading toward is not available.
+
+**Read that way, the second degree is the setup and the third is the reversal**, and
+the curriculum matters because it establishes the expectation that learning
+culminates in possession.
+
+**I offer this as a reading and tag it accordingly.** There is no evidence that
+anyone planned the three degrees as a unit — the third was added decades after the
+first two, by persons unknown, under institutional pressure, and Chapter 18 argues
+for narrative rather than philosophical origins throughout.
+
+**But the effect does not require the intention**, which is this book's standing
+position: the sequence works on the men who pass through it whether or not anybody
+arranged for it to.
+
+---
+
 ### Leaving Part IV
 
 The Masonic material is now on the table. A word that functions as a credential; a

@@ -161,6 +161,43 @@ whose proportions were reached by trial still stands up.
 
 ---
 
+### The widow's son
+
+One detail of the legend deserves separate treatment, because it is the strongest
+verbal link to scripture and it shows what a real borrowing looks like.
+
+**Hiram the craftsman is identified in 1 Kings 7:14 as the son of a widow** of the
+tribe of Naphtali, his father a man of Tyre.
+
+The phrase is distinctive. It is not a generic descriptor; it is a specific
+biographical detail, supplied by the biblical text, and the Masonic material picks
+it up and uses it — "the widow's son" becoming a recognised designation.
+
+**This is what verbal dependence looks like**, and it is worth pausing on because
+this book has spent so much time reporting its absence.
+
+We have a source text, available in English from 1611 and in Hebrew and Latin long
+before. We have a distinctive phrase in the source. We have the same phrase doing
+identifiable work in the derived material. We have a route — the Bible was in every
+church and most houses. And the borrowing is **specific rather than thematic**: not
+"both traditions mention widows," but this phrase, about this figure, in this
+role.
+
+**Compare the proposed Egyptian, Templar and Kabbalistic borrowings**, which offer
+resemblance of theme and no verbal dependence whatever. There is no Osirian phrase
+in the Masonic material. There is no Kabbalistic terminology. There is nothing that
+had to come from those sources because it could not have come from anywhere else.
+
+**The Masonic legend's sources are visible precisely because it has real ones**, and
+they are all in the same place: Kings and Chronicles, in the English Bible, on the
+shelf.
+
+**A tradition that borrowed from Egypt would carry Egyptian phrases the way this one
+carries biblical ones.** It does not, and the contrast within a single chapter's
+material is about as clean a demonstration as the subject allows.
+
+---
+
 ### The part that is not invented
 
 One closing observation, since this chapter has been largely negative.

@@ -157,6 +157,48 @@ being made, and the claim is made by the person, not the arithmetic.
 
 ---
 
+### The techniques as a diagnostic
+
+A practical use for the material in this chapter that has nothing to do with
+Freemasonry, and which is worth setting out because it generalises.
+
+**The presence of these techniques in a body of material is a dating signal.**
+
+Gematria, notarikon and temurah have a documented history. They appear in rabbinic
+literature from roughly the second century, develop in the medieval Kabbalistic
+tradition, and pass into Christian use from Pico in 1486 and into occultism from
+Lévi in the 1850s.
+
+**So a text using them belongs to one of those streams, and which stream it belongs
+to is usually recoverable from how it uses them.**
+
+**Rabbinic usage** is bounded, homiletic, and applied to the Hebrew canon. It
+proposes rather than proves, and it operates within a community that can reject a
+strained reading.
+
+**Christian-Kabbalistic usage** applies the same techniques to the same canon and
+extracts Christian conclusions. The technique is inherited; the target is new. Pico
+finding the Trinity in *bereshit* is a recognisable move with a recognisable date.
+
+**Occult usage** applies them to anything — to non-Hebrew words, to proper names, to
+modern material — and the target lexicon expands to whatever the interpreter
+accepts. **This is the stage at which the constraints are gone entirely**, and it
+begins in the nineteenth century.
+
+**Which gives a rough but serviceable test.** A claim applying Hebrew
+letter-technique to a non-Hebrew word almost certainly belongs to the third stream,
+and therefore postdates 1850, whatever antiquity it asserts for itself.
+
+**The Atbash-on-Baphomet claim of the next chapter is a textbook instance**, and its
+actual date — 1984 — is exactly what the test predicts.
+
+This is not a substitute for checking. It is a prior, and a well-founded one: **the
+degradation of these techniques from bounded exegesis to universal solvent is a
+historical process with a direction and a timetable**, and where a claim sits in
+that process is usually visible from the claim itself.
+
+---
+
 ### Forward to Masonry
 
 None of these techniques appears in Masonic ritual.

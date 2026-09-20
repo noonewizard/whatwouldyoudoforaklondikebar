@@ -125,6 +125,47 @@ chapter, where it has produced a name that never existed.
 
 ---
 
+### How the script constrains what can be claimed
+
+Two specific consequences of consonantal writing that recur throughout Part IX and
+are worth isolating.
+
+**First: the same consonantal string can be several different words.**
+
+Hebrew *d-b-r* can be vocalised as *davar* (word, thing), *dibber* (he spoke),
+*dever* (pestilence), *dover* (speaking), and more. The consonants are identical.
+**Context decides, and where context is thin, the reader decides.**
+
+This is ordinary and native speakers handle it without effort. But it means that a
+transformation producing a consonantal output has not produced a word. It has
+produced a *set* of possible words, and the analyst selects among them — which is a
+choice, made after seeing the output, and therefore exactly the kind of choice
+Chapter 42's Test 4 was written about.
+
+**Second: spelling is genuinely variable.**
+
+The *matres lectionis* are optional in many words. The same word appears in the
+Hebrew Bible with and without a *waw* or *yod*, and both spellings are correct —
+the variation is one of the tools textual scholars use for dating.
+
+**So a Hebrew word does not have *a* spelling to transform.** It has a small family
+of admissible spellings, and the analyst picks one.
+
+**Multiply the two.** Choice of spelling, then choice of vocalisation of the output.
+Each multiplies the search space, and neither is visible in a published claim,
+which typically reports a single input and a single output as though both were
+given.
+
+**This is the mechanical reason that Hebrew is such productive material for
+decipherment claims**, and it has nothing to do with the language being sacred. It
+is a property of consonantal writing with optional vowel-letters, and Arabic —
+which shares the property — supports a similar literature for the same reason.
+
+**A script that requires the reader to supply information is a script in which the
+reader can supply what they were hoping to find.**
+
+---
+
 ### What follows for the transformations
 
 This chapter is technical groundwork and it pays off in Part IX, so it is worth

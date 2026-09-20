@@ -155,6 +155,53 @@ the temptation to claim otherwise is strongest.
 
 ---
 
+### The successor problem
+
+A general difficulty that the Temple case displays with unusual clarity, and which
+every institution in this book has had to face.
+
+**What happens when the authorising centre of a system stops existing?**
+
+There are only three moves available.
+
+**Pretend it is still there.** Continue as though nothing has changed, asserting that
+the authority persists. This is sustainable only as long as nobody checks, and it is
+the move that produced von Hund's Unknown Superiors and Mathers's Secret Chiefs —
+both of which collapsed when the check came.
+
+**Abandon the system.** Conclude that without the centre the practice is void, and
+stop. This is the most logically consistent option and it is almost never taken,
+because institutions do not willingly dissolve.
+
+**Adopt a declared substitute.** Acknowledge the absence, continue with something
+that stands in, and say that it does.
+
+**The third is the only move that is both honest and survivable**, and it is
+remarkable how often it is taken by traditions with no contact with each other.
+
+Rabbinic Judaism took it: prayer for sacrifice, study for Temple service,
+substitution declared and theorised. **Nobody pretended the Temple was still
+standing.**
+
+Christian communions took it after the deaths of the apostles: succession
+formalised, authority transmitted through an institution rather than through persons
+who had been present.
+
+Legal systems take it when a founding sovereign dies.
+
+**And the Masonic third degree takes it**, with a word.
+
+**This is the strongest form of the convergence argument in this book**, because the
+three options are exhaustive. There is no fourth move. A community facing this
+situation has a choice among exactly these, and the honest-and-survivable one is
+unique — which means that traditions arriving at it independently is not surprising
+and not evidence of anything.
+
+**What would be evidence is the arbitrary detail**: the same substitute, the same
+wording, the same explanation. Nobody has produced any.
+
+---
+
 ### The thing that remains
 
 One closing observation.

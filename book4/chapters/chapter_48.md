@@ -96,7 +96,7 @@ Lost Word.
 
 Freemasonry, notably, has no uncrossable threshold. Every door in the system is
 one a member may eventually pass. Whatever the tradition inherited from the Temple,
-it did not inherit the veil — and Part XIII will argue that this single structural
+it did not inherit the veil — and Chapter 82 will argue that this single structural
 difference explains more about the character of Masonic secrecy than any amount of
 speculation about content.
 

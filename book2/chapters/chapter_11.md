@@ -164,6 +164,46 @@ recur in every chapter of this part.
 
 ---
 
+### The alternatives that were not chosen
+
+The neutrality argument becomes considerably stronger when one asks what else was available,
+because the candidates were numerous and every one of them fails on the same criterion.
+
+**Noah's Ark.** Scriptural, ancient, a construction project with stated dimensions, and
+carrying a ready-made moral about obedience and preservation. It has, in fact, a minor
+Masonic presence. But it belongs unambiguously to the Christian and Jewish narrative as
+Christians and Jews read it, and it is a vessel rather than a building — nothing can be
+modelled on it, because there is nothing to stand inside.
+
+**The Tower of Babel.** A famous building, a famous architectural ambition, and
+catastrophically wrong in its moral: a structure raised in pride and destroyed for it. A
+fraternity organised around building could hardly take as its emblem the one building God
+demolished.
+
+**A cathedral.** The obvious choice for a craft descended from operative masonry, and
+impossible. Every cathedral in England had been, within recent memory, the object of a
+confessional quarrel serious enough to kill people over. Taking one as an emblem would have
+answered the question Anderson's religious formula existed to leave open.
+
+**A classical temple.** Available, prestigious, and increasingly fashionable — the Palladian
+moment was underway. But a classical temple is pagan, and the Craft's whole religious
+settlement depended on not asking members to affiliate with anything that would trouble a
+Christian conscience.
+
+**The Temple of Solomon** survives all four objections at once. It is scriptural, so it is
+respectable. It is architectural, so it can be modelled. Its moral is construction rather
+than destruction. It is shared across three traditions and owned operationally by none of
+them in this context. And — the decisive property — **it does not exist**, so no one can
+visit it, no confession maintains it, and no clergy has jurisdiction over its meaning.
+
+The choice looks, laid out that way, less like the recovery of an ancient mystery and more
+like the only remaining option after the constraints are applied. Which is what this chapter
+has been arguing, and what the pattern of the whole book keeps producing: a practical
+solution, arrived at under pressure, acquiring a mystical explanation once the pressure that
+produced it had been forgotten.
+
+---
+
 ### NOTES
 
 [^1]: 1 Kings 6–7; 2 Chronicles 3–4; Ezekiel 40–48. Jerónimo Prado and Juan Bautista

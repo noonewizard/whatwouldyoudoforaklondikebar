@@ -78,6 +78,39 @@ Whether the eighteenth century meant that, I cannot say. It is what the ceremony
 
 ---
 
+### The raising as the system's one positive claim
+
+The third point above deserves more weight than a stage direction usually gets, because it is
+the only place in the whole Craft system where something is unambiguously *supplied* rather
+than withheld.
+
+Follow the pattern of the degrees. The candidate is told he will receive light, and receives
+an ordinary lighted room. He is told of a secret, and finds it is a mode of recognition. He
+is brought to the climax of the system and told the essential word is lost. At every point
+where a tradition would normally deliver, this one defers.
+
+**And then a man takes his hand and lifts him off the floor.**
+
+That is not deferred, not symbolic in the sense the rest of it is symbolic, and not a
+substitute for something absent. It happens, physically, and it is the one event in the
+ceremony that requires another person's body to be present. A candidate can be talked to at a
+distance; he cannot be raised at one.
+
+It is worth being careful here, because this is the kind of observation that invites more
+than it can carry. The grip is a Masonic mode of recognition with an institutional function,
+and reading it as a statement about human solidarity is an interpretation, not a finding.
+The eighteenth-century sources do not say that this is what it means, and Chapter 21's
+disagreement principle applies: had they intended a doctrine, they would probably have
+recorded one.
+
+What can be said without interpretation is structural, and the structure is consistent.
+**In a system organised around what is not given, the one thing given is another person.**
+Whether that was designed, arrived at, or is an artefact of the fact that somebody has to
+get the candidate up, the arrangement is what it is — and Chapter 47's argument that the
+Craft's measurable effects are the social ones rather than the private ones begins here.
+
+---
+
 ### The raising and the obligation
 
 A structural observation connecting this to Chapter 10.

@@ -129,6 +129,42 @@ happened.
 
 ---
 
+### Three objections to the design reading
+
+The account above treats the third degree as a solution to an institutional problem, and it
+should be said what is speculative in that and what is not.
+
+**"Nobody designed it."** Almost certainly true in the strong sense. There is no document
+recording a decision, no named author, and the degree appears in the record already formed
+rather than announced. Eighteenth-century ritual development was cumulative and largely
+anonymous, and it is a mistake — one this book has warned against repeatedly — to imagine a
+committee arriving at a scheme. What can be said is weaker and still worth saying: the
+degree that emerged has this structure, the structure solves the problem, and structures that
+do not solve the problem did not survive. That is selection rather than design, and it
+accounts for the outcome without requiring anyone to have intended it.
+
+**"The loss is just narrative necessity."** A murdered master cannot pass on his word; the
+substitution follows from the plot, not from a philosophy. This is likely correct as history
+and does not affect the argument. The question is not why the plot required the loss but why
+*this plot*, of all the plots available, was the one the tradition kept and elaborated for
+three centuries. A legend in which the word is recovered was equally constructible — the
+Royal Arch constructed one within twenty years. The Craft kept the version that withholds.
+
+**"This over-reads a piece of tavern theatre."** The degree was performed, in its early
+decades, by amateurs in upper rooms with improvised properties, and treating it as a
+considered piece of ritual engineering may be dignifying something that was assembled for
+effect. The objection has force, and the answer to it is the one Chapter 6 gives: what
+matters for this book is not the sophistication of the makers but the behaviour of the
+result. A device can be built carelessly and still work, and three centuries of continuous
+use is the relevant evidence about whether this one does.
+
+The claim, then, at the strength the evidence supports: **the third degree has a structure
+that withholds at its climax, that structure is unusual among initiatory systems, it was
+almost certainly arrived at rather than planned, and it is the feature that everything in
+Parts VII and X depends on.**
+
+---
+
 ### Death and fidelity
 
 One further observation about the content, because the modern reading has almost entirely

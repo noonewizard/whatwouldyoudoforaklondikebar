@@ -118,6 +118,43 @@ compose operations.
 
 ---
 
+### Testing the distinction
+
+The operator/candidate distinction is doing a great deal of work, so it should be checked
+against cases it might get wrong.
+
+**A tradition with both.** The Golden Dawn is the obvious test and it passes: it initiated
+candidates through graded ceremonies *and* trained its members to compose and perform
+operations, and it accordingly required both an initiatory apparatus and a correspondence
+system. It took the first from Masonry and the second from the Agrippan tradition, and the
+seam between them is visible in its own documents, where the grade rituals and the knowledge
+lectures are separate bodies of material serving different purposes.
+
+**A tradition with operators and no initiation.** Much of early modern learned magic is of
+this kind — a reader with a book, working alone, composing operations from tables. It has the
+grammar and no ceremony at all, which is what the distinction predicts.
+
+**A tradition with initiation and no operators.** This is Masonry, and also a great deal of
+religious sacramental practice: a fixed rite, performed on people, by functionaries who are
+not composing anything. None of these traditions develops correspondence tables, and where
+tables-like material appears in them it is usually classificatory rather than generative —
+a list of what things mean, not a grammar for combining them.
+
+**The apparent counter-example.** Ritual magic orders that inherited Masonic structure but
+did little operative work — some of the fringe Masonic bodies of the nineteenth century — did
+sometimes accumulate correspondence material without using it. This is the case the
+distinction does not straightforwardly explain, and the explanation available is sociological
+rather than functional: by 1890 a correspondence system had become a marker of seriousness,
+something an esoteric order was expected to possess whether or not anyone in it was
+composing operations. A grammar can be acquired as a credential.
+
+That last case is worth holding onto, because it is how a great deal of esoteric material
+travels. Not because anyone needs it, but because having it signals what kind of body you
+are — which is also, precisely, how the Agrippan material came to be attached to
+Freemasonry's name in the nineteenth century without ever entering its ritual.
+
+---
+
 ### The one correspondence Masonry does have
 
 An exception, and it is instructive.

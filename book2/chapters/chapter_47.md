@@ -127,6 +127,81 @@ only describe one, and a description does not perform.
 
 ---
 
+### Three objections to the career thesis
+
+The claim is strong enough to deserve its strongest counter-arguments stated rather than
+implied.
+
+**First: this is selection, not effect.** The men who serve thirty years are the men in whom
+it took; the career does not produce the commitment, the commitment produces the career. This
+objection is serious and it cannot be dismissed. What can be said against it is that the
+progression is not simply a matter of enthusiasm. It is an institutional ladder with places
+on it, and lodges have historically had to fill offices from whoever was available. Men
+were pressed into the chairs because somebody had to sit in them, and a number of those men
+went on to forty-year attendance records. That is not decisive — the pressed man may have
+been disposed to stay anyway — but it means the causal arrow is not obviously one-way.
+
+The honest formulation is that career and commitment are mutually reinforcing, which is
+harder to study than either alone and is exactly why nobody has.
+
+**Second: this is not distinctively ritual.** Any organisation with a graded office
+structure — a choir, a regiment, a trade union — produces long-serving members who know the
+procedures from every side, and nobody calls that a technology of transformation. Why should
+the lodge be different?
+
+The answer, if there is one, lies in what is being repeated. What a Past Master rehearses is
+not a set of administrative procedures but a script about mortality, obligation, and the
+insufficiency of what one knows, delivered in the first person to a man who does not yet know
+what is coming. Whether that content makes a difference to the effect is an empirical
+question this book cannot settle. It is at least a difference in kind from taking the minutes.
+
+**Third: the members themselves do not describe it this way.** Masonic testimony
+overwhelmingly foregrounds the night of initiation. If the career were doing the work, one
+might expect members to say so.
+
+But one would not, actually, expect that — and the reason is one of the better-established
+findings in the psychology this book has used. Vivid, singular, emotionally marked events
+are massively over-represented in autobiographical recall relative to their causal weight.
+A gradual thirty-year process has no retrieval cue attached to it. The night has one. Asked
+what Masonry did to him, a man reports the memory that comes to mind, which is the memory
+that was encoded to be memorable. That his testimony centres on the evening is evidence
+about memory, not about mechanism.
+
+---
+
+### What the records would show
+
+Because this is offered as a testable claim and not a rhetorical flourish, it is worth
+saying what a test would consist of.
+
+The materials exist in very large quantity: minute books recording attendance meeting by
+meeting; office rolls recording who held which chair and when; membership registers
+recording initiation, progression, resignation, exclusion and death; and, for the nineteenth
+century onward, printed lodge histories compiled from all three.
+
+From these one could construct, for thousands of individuals, a career trajectory — date of
+initiation, attendance density in each subsequent year, offices held, year of the chair,
+duration of post-chair attendance, and mode of exit. That is a dataset, and the questions it
+would answer are specific ones.
+
+Does attendance density in years two to five predict retention at year twenty? Does holding
+early office predict it better than attendance alone? Is there a threshold — an office, a
+year, a number of ceremonies witnessed — after which lapse becomes rare? Do members who
+reach the chair differ in their pre-chair records from those who do not, or does the
+difference appear only afterwards? Is charitable subscription, which the accounts also
+record, related to career stage?
+
+None of these requires a theory of ritual efficacy to ask. They are questions about
+trajectories in an administrative record, of a kind historians of other voluntary
+associations answer routinely.
+
+What makes them worth asking here is that the answers would discriminate between the two
+models. If effect is concentrated in the ceremony, career variables should add little beyond
+the initial period. If the career is the intervention, they should dominate — and the shape
+of the curve would tell us where.
+
+---
+
 ### What this means for the test
 
 Part XI set out to assess whether Masonic ritual changes people, and Chapter 44 gave the

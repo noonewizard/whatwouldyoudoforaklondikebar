@@ -131,6 +131,93 @@ The method works. That is precisely what is wrong with it.
 
 ---
 
+### A worked demolition: sacred geometry in a blank grid
+
+The gematria test was arithmetic. Here is the same lesson in two dimensions, because the
+geometric version of this error is commoner than the numerical one and harder to see through.
+
+The procedure for discovering sacred geometry in a building goes like this. Obtain a plan.
+Identify significant points — corners, column centres, door thresholds, altar position. Draw
+lines between some of them. Observe that certain of the lines meet at angles close to
+seventy-two degrees, or that certain distances stand close to the golden ratio, or that a
+pentagram can be fitted so that its vertices fall near five of the points.
+
+Every step in that procedure is a decision, and none of the decisions is constrained.
+
+**Which points count as significant?** A medieval church offers hundreds — every pier, every
+respond, every boss, the corners of every bay, the centre of every window. A modern
+supermarket car park offers just as many: light standards, drainage gullies, the corners of
+the painted bays, the entrance gates.
+
+**How close is close enough?** Seventy-two degrees, or anything between sixty-nine and
+seventy-five? The golden ratio is 1.618; is 1.61 a hit, or 1.65, or 1.58? The literature
+almost never says, and when the tolerance is not stated in advance it is set, unconsciously,
+by whether the answer came out.
+
+**How many attempts were made?** A pentagram has five vertices and can be rotated through
+three hundred and sixty degrees, scaled freely, and placed anywhere on the plan. The number
+of positions available is effectively unlimited. Finding one that lands five vertices near
+five of several hundred candidate points is not a discovery; it is a certainty.
+
+So I ran it, on a grid that certainly contains no sacred geometry.
+
+I generated a plain rectangular lattice — twelve by eight, ninety-six points, the spacing of
+an ordinary street grid or a car park, with a small random jitter added to each point so that
+it resembles a surveyed plan rather than a perfect abstraction. Nothing was designed into it.
+It is a grid.
+
+I then searched for a regular pentagram whose five vertices fall on lattice points. Four
+hundred thousand random placements of centre, radius and rotation were tried, and the best
+was refined by local optimisation.
+
+**Result: a pentagram whose five vertices land on five lattice points with a maximum
+deviation of 0.20 grid units — 5.7 per cent of its own circumradius.**[^4a]
+
+On a drawing at any normal scale, that is a pentagram. The line weight alone would swallow
+most of the error. Reproduced as a figure with the five points marked and the other
+ninety-one omitted — which is how such figures are always reproduced — it would look like a
+finding.
+
+It is a grid.
+
+The point is not that no building has designed proportions. Buildings certainly do, and where
+a designer left drawings or a specification we can say so with confidence. The point is that
+the method of *retrospective fitting* cannot distinguish a building with designed proportions
+from one without, because it returns a positive result either way. A test that cannot come
+back negative is not a test.
+
+---
+
+### How to teach yourself the false positive
+
+The uncomfortable part of this chapter is that knowing all of the above does not immunise
+anyone, including its author. The pull of a striking coincidence is not defeated by
+understanding it; it is defeated only by procedure.
+
+So here is the procedure, stated as a practice rather than a principle.
+
+**Write the method down before you run it**, in enough detail that somebody else could
+execute it without asking you a question. The moment you find yourself adding a clause to
+accommodate a result, you have stopped testing and started fitting.
+
+**Count the attempts, including the ones you abandoned.** A researcher who tried HIRAM,
+CHIRAM and HURAM, and reports only the spelling that worked, has made three attempts and
+reported one. Keep a log. The log will be embarrassing, which is what it is for.
+
+**Build the control first.** Not afterwards, when the exciting result is already in hand and
+the control has become an obstacle to it. Choose the control corpus before you know what the
+real corpus will yield. I chose the root vegetables before computing a single value, and I
+recommend the practice precisely because I did not enjoy the outcome.
+
+**Say in advance what would make you drop the claim.** If nothing would, the claim is not
+about the world.
+
+None of this is sophisticated, and none of it requires statistical training. It requires only
+the willingness to run the procedure that might take the discovery away — which is the
+single thing the literature under examination in this chapter never does.
+
+---
+
 ### What is actually real
 
 Having run the demolition, the other half of the job — because a chapter that only debunks
@@ -211,6 +298,14 @@ examples of Masonic use, with dates and holdings.]**
 exegesis, see Gershom Scholem, *Major Trends in Jewish Mysticism* (New York: Schocken, 1946),
 and Joseph Dan, *Kabbalah: A Very Short Introduction* (New York: Oxford University Press,
 2006).
+
+[^4a]: **The pentagram fitting described above was performed by the author.** A 12 × 8
+lattice of 96 points with uniform jitter of ±0.03 units was generated; 400,000 random
+placements of a regular pentagram (centre, circumradius, rotation) were tested for vertices
+falling within 0.5 units of a lattice point; the best was refined by local optimisation. The
+reported figure — maximum vertex deviation 0.20 units, 5.7 per cent of the circumradius — is
+the output of that procedure. The procedure and the tolerance were fixed before the search
+was run.
 
 [^4]: **The gematria calculations in this chapter were performed by the author using simple
 English gematria (A=1 … Z=26) on the two twenty-word sets listed in the text. The complete

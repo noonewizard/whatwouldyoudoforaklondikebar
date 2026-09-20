@@ -109,6 +109,65 @@ those measures for other reasons.
 
 ---
 
+### The comparison case: friendly societies
+
+There is one control available for the charity finding, and it is worth running because it
+tests whether anything specifically Masonic is doing the work.
+
+The eighteenth and nineteenth centuries produced a large family of mutual-aid bodies —
+friendly societies, benefit clubs, burial societies, the Oddfellows, the Foresters, and
+dozens of smaller organisations. Many had initiation ceremonies. Many had regalia, passwords,
+lodge structures and graded offices. Most provided exactly what Masonic relief provided:
+sickness payments, funeral benefit, provision for widows.
+
+If preferential relief to fellow-members were the fingerprint of *Masonic* obligation
+specifically, the friendly societies should not show it. They show it comprehensively.
+
+This substantially weakens the inference. What the charity evidence establishes is that
+**sworn membership in a mutual body with a ceremony produces preferential relief**, which is
+a real finding about ritual obligation in general. It does not establish that the square, the
+level, the Hiramic legend or anything else distinctive of Freemasonry contributed to it. The
+Oddfellows achieved the same result with different symbols.
+
+The honest reading, then, is one level more general than the affirmative verdict above
+suggested. The effect is real. Its cause is the obligation and the membership, not the
+iconography — which is consistent with everything this chapter's closing section says about
+where the machine acts.
+
+There is one feature the friendly societies do not share, and it should be noted rather than
+inflated: the geographical reach. A friendly society's benefit was payable by the branch a
+member subscribed to. The Masonic claim travelled — a stranger in a foreign port, with no
+subscription relationship to anyone present, could make it and frequently have it honoured.
+Whether that reflects something about the obligation or merely about the Craft's unusual
+international distribution is not settled by the records this study consulted.
+
+---
+
+### Why the negative result matters
+
+It would be easy to treat case three — no evidence for moral improvement — as an
+embarrassment to be got past quickly. It is worth dwelling on instead, because a negative
+result of this shape is informative.
+
+The Craft has made the same claim about itself for three hundred years, in public, in
+printed constitutions, in sermons and in orations, to a literate and frequently hostile
+audience. It has had every incentive to produce evidence. Its opponents have had every
+incentive to produce counter-evidence. Neither side has produced any, and the reason is not
+negligence on either part.
+
+The reason is that the claim was never built to be checked. An instruction to square one's
+conduct has no criterion, no assessor and no failure condition. That is not a flaw that crept
+in; it is what makes the instruction usable for a lifetime, by men of every trade and
+temperament, in every century, without anyone ever being told they have finished. Chapter 50
+argues that the same property — permanent incompletion — is the central design feature of the
+whole system.
+
+So the absence of evidence here is not a gap in the record. It is a consequence of what kind
+of claim it is, and a reader who understands that will be properly sceptical of anyone, in
+any century, who says the matter has been settled either way.
+
+---
+
 ### What symbols plausibly do instead
 
 Having failed to establish the strong claim, it is worth asking what the weaker one might be,

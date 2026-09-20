@@ -2,9 +2,11 @@
 ### Freemasonry, Sacred Language, and the Problem of Knowing
 **Robert E. Lee Ringler**
 
-**Status: RESEARCH DOSSIER COMPLETE. Awaiting `BEGIN MANUSCRIPT`.**
+**Status: MANUSCRIPT COMPLETE.**
 
-Per §LV, drafting has not begun and no chapter has been written.
+52 chapters, prologue, epilogue, ten appendices.
+**90,983 words of chapter text; 104,865 assembled.** Within the brief's
+90,000–110,000.
 
 ---
 
@@ -87,3 +89,67 @@ who already had the answer.
   running Atbash against an independently compiled machine-readable lexicon. Listed
   as gap 6 and printed in the book.
 - **Two script errors** are logged and retained rather than deleted.
+
+---
+
+## MANUSCRIPT
+
+```
+book3/
+  manuscript/       front_matter · full_manuscript · illustration_list · index_framework
+  chapters/         chapter_00_prologue → chapter_52, chapter_53_epilogue
+  appendices/       A timeline · B Hebrew alphabet · C Atbash table · D ciphers
+                    E gematria · F Masonic symbols · G divine names
+                    H evidence classification · I hidden-message protocol
+                    J primary source guide
+  audits/           PRE_DRAFTING_AUDITS · FINAL_AUDITS
+  research/computational_verification/   all scripts, including the one with the error
+```
+
+| Requirement | Asked | Delivered |
+|---|---|---|
+| Words | 90,000–110,000 | **104,865** |
+| Chapters | 45–55 | **52** + prologue + epilogue |
+| Sources | 125+ | **138** |
+| Illustrations | 50–75 | **58** |
+| Appendices | A–J | **10** |
+| Final audits | §XLVIII | **10, all pass** |
+
+## THE TWELVE PARTS
+
+I The Lost Thing · II Words of Creation · III The Hebrew Problem ·
+IV The Masonic Word · V The Secret Language · VI Magic and Language ·
+VII Kabbalah and the Word · VIII Numbers · **IX The Cipher Problem** ·
+X The Temple as Text · XI The Word as Knowledge · XII The Final Chamber
+
+Part IX is the floor of the descent and the book's portable contribution: ten tests
+for any claim that something is concealed in a text, a name, a number or a
+building, with four worked examples of which **two pass**.
+
+## WHAT THE BOOK FOUND
+
+- **There is no lost word.** No text uses it; no document reports its loss. The loss
+  is a feature of a legend composed in the 1720s.
+- **A word cannot be lost.** What goes is the pronunciation, the authority, the
+  setting, or the condition of the speaker.
+- **Masonry's word is a credential** — one factor among six, and the weakest, which
+  is why publishing it in 1730 changed nothing.
+- **Masonry used no cryptography worth the name.** Key space of 1, against four
+  centuries of available better methods.
+- **The Hebrew techniques are real and are not ciphers.** 25.8% of ordinary Hebrew
+  words collide in gematria value.
+- **Every Kabbalistic reading postdates 1854** — except the Royal Arch, left open at
+  E4.
+- **No Masonic number is arbitrary.** Every one is entailed by a room, a curriculum,
+  a treatise, the moon, an administrative total, or a position in Euclid.
+
+## HONEST LIMITS
+
+- **30 verification markers**, chiefly the pigpen artefacts and the document-level
+  check on "letter and halve it."
+- **The Royal Arch stays open at E4.** The general thesis has one genuine exception
+  and names it.
+- **This study's Hebrew is machine-checked, not independent**, and the text says so.
+- **One control the book asks of others it has not fully performed on itself** —
+  running Atbash against an independently compiled lexicon. Printed as a gap.
+- **Two script errors** are logged and retained, not deleted.

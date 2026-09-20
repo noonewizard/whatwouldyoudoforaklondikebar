@@ -81,7 +81,7 @@ This has a direct and important consequence. The figure who occupies the centre 
 the third degree in the eighteenth century and after cannot be shown, on this
 evidence, to descend from an operative tradition preserving his name. The name in
 the operative documents is precisely the part that did not survive intact. Chapter
-41 takes up the Hiramic legend directly and in detail; what the Old Charges
+22 took up the name Hiram Abiff directly and in detail; what the Old Charges
 establish here is what was and was not available to be inherited.
 
 ---

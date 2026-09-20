@@ -122,6 +122,51 @@ alone in the dark long enough to drift.
 
 ---
 
+### The absent altered state, taken seriously
+
+The negative finding above is easy to state in a sentence and is worth more than a sentence,
+because it is one of the few places where this book's evidence points firmly against an
+expectation that nearly everyone brings to the subject.
+
+**The expectation.** Sensory deprivation, disorientation, sustained arousal and a staged
+confrontation with death are precisely the conditions under which other traditions report
+visions, trance and dissociation. Vigils, fasts, ordeals and darkness retreats across a wide
+range of societies produce altered states reliably enough that the connection is treated as
+established. Masonic initiation has the conditions. It does not produce the reports.
+
+**The first possible explanation: the dose is too low.** This is probably the largest part of
+the answer. A Masonic ceremony lasts an evening. The deprivation is measured in minutes, not
+days; there is no fasting of consequence, no sleep deprivation, no drug, no physical pain
+beyond discomfort, and no isolation at all — the candidate is accompanied throughout. Set
+beside a three-day vigil or a Kavadi procession, the intensity is an order of magnitude lower,
+and the honest reading is that this is simply not enough to move anyone out of ordinary
+consciousness.
+
+**The second: the design prevents it.** The candidate is kept continuously occupied. He is
+moved, challenged, required to answer, required to repeat words, required to attend to
+instructions and act on them. Drift is what produces the states in question, and the ceremony
+never allows a gap long enough for drift. Whether this is deliberate cannot be known; the
+effect is consistent.
+
+**The third: expectation is absent.** The literature on altered states is clear that cultural
+framing shapes both their occurrence and their reporting. A candidate in a vision-seeking
+tradition knows a vision is the point, and looks for one. A candidate in an eighteenth-century
+English lodge has been told he is joining a society of moral improvement, and has no
+category into which an unusual experience would fit.
+
+These are not competing so much as compounding, and together they account for the absence
+without requiring anything mysterious.
+
+**What follows for the book's argument.** It rules out an entire class of explanation.
+Whatever Masonic initiation does, it does not do it by putting anyone into an unusual state
+of consciousness, and any account of the ritual's efficacy that depends on one — a good deal
+of the occult literature does — is contradicted by three centuries of testimony from both
+friendly and hostile witnesses. The apparatus works, if it works, on a fully awake and
+ordinary mind. That is a stronger constraint than it first appears, and Parts VIII and XI
+are written under it.
+
+---
+
 ### What the attention is spent on
 
 Which raises the question that makes this chapter matter.

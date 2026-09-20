@@ -127,6 +127,38 @@ regularity — found in that a congenial emblem. No cult required.
 
 ---
 
+### The half-of-everything rule
+
+The clockwise case is worth generalising, because it names a fallacy this book meets in
+almost every chapter and the name is useful.
+
+**Where a feature has only a small number of possible forms, a match between two traditions
+carries almost no information.** Circumambulation can go clockwise or anticlockwise. A
+candidate can be blindfolded or not. An initiation can happen at night or in daylight. A
+ritual space can be oriented on a cardinal direction or not — and if it is, there are four
+options, one of which is east, and east is where the sun rises, which is the reason any
+tradition that picks one tends to pick it.
+
+The literature treats such matches as evidence because each one, considered alone, feels
+striking. The correct question is never *how likely is this match?* but **how many things
+could the match have been?** Two traditions agreeing on a binary feature agree by chance half
+the time. Two traditions agreeing on a four-way feature agree by chance a quarter of the time.
+Agreement across four such features — night, blindfold, clockwise, east — looks overwhelming
+and has a chance probability of about one in sixty-four, which, set against the hundreds of
+initiatory traditions available for comparison and the freedom to choose which features to
+count, is not a finding at all.
+
+**What would carry information is a match on something arbitrary.** Not the direction of
+movement but a specific number of circuits with a specific challenge at a specific point,
+expressed in idiosyncratic wording, where dozens of alternatives were available and no
+functional reason selects this one. That is the evidence of descent textual critics use, and
+it is what Chapter 48 looks for across the whole comparative field and does not find.
+
+The rule, stated for use: **count the alternatives before being impressed.** Most of the
+parallels in this literature survive only because nobody does.
+
+---
+
 ### The east that isn't east
 
 And now the observation that disposes of an entire genre.

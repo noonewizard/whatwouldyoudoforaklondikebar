@@ -154,6 +154,40 @@ existed that could address it, and he was asking it about the right object.
 
 ---
 
+### The uses of a wrong answer
+
+Leadbeater is the clearest case in this book of something worth stating as a general
+principle, because the temptation to file a refuted writer and move on is strong and it
+costs more than it saves.
+
+**A wrong answer to a real question is more useful than no answer, and much more useful than
+a refusal to ask.** Leadbeater's account of what happens during a Masonic ceremony — the
+specific mechanisms, the claimed sequence of effects, the assertion that the ritual acts on
+the participant in a describable way — is wrong in every particular that can be checked.
+It is also the only sustained attempt anyone made, before the late twentieth century, to
+describe the ceremony as a process with an output.
+
+The alternative literature of his period does not do this. Devotional Masonic writing
+describes what the symbols mean. Anti-Masonic writing describes what the institution is
+alleged to be doing politically. Neither asks what the apparatus does to the man in the
+room, because both take the answer for granted: moral improvement in one case, corruption in
+the other.
+
+**What Leadbeater got right was the shape of the question**, and the shape is not trivial.
+He assumed the ceremony had a mechanism; that the mechanism could be described; that the
+description would be specific rather than edifying; and that different parts of the ritual
+did different jobs. Every one of those assumptions is one this book proceeds on. He then
+filled the mechanism with subtle bodies and coloured rays, because that was the vocabulary
+available to him in 1926, and the fill is worthless.
+
+**And the lesson runs in both directions.** This book's own mechanism is filled with
+attention, memory, embodiment and social ratification, because that is the vocabulary
+available now, and there is no reason to think the present vocabulary is final. What should
+survive, if anything does, is the question and the discipline about evidence — not the
+particular contents, which are as much a product of their century as his were of his.
+
+---
+
 ### The mirror again
 
 So the pattern of Part X completes itself.

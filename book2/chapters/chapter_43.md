@@ -159,6 +159,42 @@ the interpretations came from and when.
 
 ---
 
+### What would have to be true for the figure to be real
+
+Because "does not survive examination" is a conclusion rather than an argument, it is worth
+specifying what evidence an inner circle would have left, and then observing that none of it
+exists.
+
+**An inner circle requires a selection mechanism.** Somebody has to decide which members are
+told. That decision leaves traces: a body that meets, a correspondence that discusses
+candidates, a criterion. Masonic administration is among the most heavily documented of any
+voluntary association — minutes, registers, returns to grand lodge, correspondence in
+quantity — and no such mechanism appears anywhere in it.
+
+**It requires a curriculum.** If material is transmitted to a selected few, the material
+exists in some form: a text, a lecture, a set of instructions. The esoteric orders that
+*did* do this left theirs, abundantly. The Golden Dawn's knowledge lectures survive. The Élus
+Coëns' instructions survive. Nothing comparable exists as a Masonic inner teaching, and the
+absence is not explicable by secrecy, since the Golden Dawn was secret too and its papers are
+in libraries.
+
+**It requires the initiated few to behave differently.** They would, at minimum, need to
+recognise each other and to conduct their business somewhere. Three centuries of hostile
+investigation — parliamentary, journalistic, ecclesiastical, police — have looked for exactly
+this, with subpoena powers in some cases, and have found lodges arguing about subscriptions.
+
+**And it requires the ordinary membership not to notice.** This is the weakest point. Masonic
+lodges are small, their members know each other well over decades, and their proceedings are
+minuted by one of their number. A systematic internal distinction, maintained across
+thousands of lodges and many generations, with nobody writing it down and nobody resentful
+enough to disclose it, is not a secret; it is a fantasy about how institutions work.
+
+The argument from absence is weak where records are thin. Here the records are not thin. The
+inner circle is missing from a body of documentation in which it could hardly have hidden,
+and that is about as close to a negative finding as historical method produces.
+
+---
+
 ### NOTES
 
 [^1]: Albert Pike, *Morals and Dogma of the Ancient and Accepted Scottish Rite of

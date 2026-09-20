@@ -66,6 +66,40 @@ uses the recovered faculty on a book and two tools.
 
 ---
 
+### Why darkness first, and not simply light
+
+One feature of the sequence deserves isolating, because it is the part that is designed
+rather than inherited and it is easy to read past.
+
+The ceremony could have begun in a lighted room. A candidate could be brought in, seated,
+and instructed. Every moral lesson the degree contains would survive intact; nothing in the
+teaching requires that the pupil be blindfolded first.
+
+**The darkness is not there to make the light meaningful in a literary sense. It is there
+because a contrast has to be manufactured before it can be delivered.**
+
+This is a point about perception rather than about symbolism, and it is unusually secure.
+A man who has been in darkness for some minutes is in a measurably different state from one
+who has not: the eye adapts, and the same illumination that reads as ordinary to an adapted
+observer reads as ordinary to nobody else. The restoration of light in a lodge is not
+impressive because candles are impressive. It is impressive because the apparatus spent the
+preceding quarter of an hour ensuring that this particular set of eyes would find it so.
+
+The same logic governs the rest of the preparation. The disorientation makes the fixed
+positions meaningful; the silence makes the voice meaningful; the restriction makes the
+investiture meaningful. **In each case the ceremony produces the deficit it then relieves**,
+which is the single most consistent design principle in the whole apparatus and the one
+least often noticed, because from inside it feels like a sequence of things happening rather
+than a mechanism being operated.
+
+It is worth saying what this does and does not establish. It does not show that the
+compilers understood the physiology; there is no reason to think they did, and dark-adaptation
+was not described in the terms we would use until much later. It shows that they arrived at
+an arrangement that exploits it — which is what accumulated practical refinement produces,
+and which Chapter 48 argues is the general shape of how these systems came to be.
+
+---
+
 ### What he is shown
 
 And this is where the design becomes interesting, because the content is so slight.

@@ -135,6 +135,45 @@ evidence for design.
 
 ---
 
+### Numbers that were chosen, and left a trace
+
+To balance the chapter, a case where a Masonic number *was* chosen, and where we can
+see the choosing — because it shows what the evidence looks like when it exists.
+
+**Thirty-three.**
+
+The Ancient and Accepted Scottish Rite has thirty-three degrees. The number is not
+entailed: it does not follow from the requirements of a room, a curriculum or a
+sequence. It could have been thirty-one or thirty-five.
+
+**And we know exactly where it came from.** The Supreme Council established at
+Charleston in 1801 arrived at the count by consolidating the twenty-five degrees of
+the Rite of Perfection with additional material. The process is documented. The
+date is fixed. The people are named.
+
+**So here is an arbitrary Masonic number with a known origin, and the origin is
+administrative.**
+
+**Which makes it the ideal test case**, because it lets us compare what the evidence
+shows against what numerological reading produces. And the numerological reading is
+available: thirty-three as the thirty-two paths of *Sefer Yetzirah* plus one, or the
+vertebrae of the spine, or the years of Christ's life. All three circulate.
+
+**Every one of them requires the number to have been chosen for meaning**, and we
+can see that it was chosen for arithmetic — two rites added together.
+
+**The general lesson is the one this part has been building toward.** Where a
+number's origin is documented, the documentation is always mundane. Where it is
+undocumented, mystical readings flourish. **That correlation is not a coincidence
+about numbers; it is a fact about what happens to unexplained things.**
+
+**The prediction it licenses**: if a document ever surfaces explaining why Masonic
+ritual has three degrees rather than two or four, the explanation will be
+institutional, and the numerological readings will not survive it — exactly as they
+did not survive at Charleston.
+
+---
+
 ### The honest position on numbers
 
 Part VIII's conclusion, stated plainly.

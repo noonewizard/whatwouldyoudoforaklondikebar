@@ -134,6 +134,28 @@ things it means to *know* a word, and a return to the room we started in.
 
 ---
 
+A word about what kind of book this is.
+
+It is the third of a series and it does not require the others. Where a question was
+settled earlier — where Masonic symbolism came from, what the ritual does to the
+people who undergo it — this book states the finding in a sentence and points to the
+volume that argued it, rather than re-arguing it from the beginning.
+
+It is also, unavoidably, a book with a great deal of Hebrew in it, and a reader
+without Hebrew should not be deterred. Everything is transliterated. Every
+calculation is shown. The one technical fact that matters — that Hebrew was written
+without vowels — is explained in Chapter 11 and is not difficult, and almost
+everything else follows from it.
+
+And it is a book that computes rather than asserts. Where a cipher is discussed, the
+cipher was run. Where a numerical claim appears, the arithmetic was done and the
+script is published with the book. Two of those scripts contained errors during the
+research, and both errors are described in the text where they occur — because a
+book that spends a part of its length asking readers to check other people's
+work has no business hiding its own corrections.
+
+---
+
 A warning, offered early so that nobody feels tricked.
 
 This book does not decode anything. It contains no revelation. At no point does a

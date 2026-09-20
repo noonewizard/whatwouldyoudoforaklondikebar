@@ -149,6 +149,48 @@ have encountered them, and the adoption is a fact about the late nineteenth cent
 
 ---
 
+### Why alphabets spread and syllabaries did not
+
+A historical observation that bears on the whole question of whether the Hebrew
+letters are special.
+
+**The alphabet was invented once.**
+
+Every alphabetic script in use today — Latin, Greek, Cyrillic, Hebrew, Arabic and
+the rest — descends from a single ancestor, a consonantal script developed in the
+Semitic-speaking world in the second millennium BCE, which passed to the
+Phoenicians and from them to Greece and onward.
+
+**One invention. Everything else is inheritance.**
+
+That is worth holding in mind when a tradition claims that its particular letters
+are the elements of creation. **Hebrew's letters are cousins of Greek's, which are
+cousins of Latin's**, and the family resemblance is a matter of documented descent:
+the Greek *alpha* and the Hebrew *alef* are the same sign with different jobs, and
+the ox that lies behind both is the same ox.
+
+**Two consequences.**
+
+**A claim that Hebrew letters are cosmologically primary has to explain the
+cousins.** If *alef* is the first element of creation, what is *alpha*? The usual
+answer — that the other alphabets are degraded copies — is available and is a
+theological commitment rather than a finding.
+
+**And the numerical values were inherited too.** The practice of using letters as
+numerals passed with the script. Greek isopsephy and Hebrew gematria are not
+independent inventions converging on a similar idea; they are one practice,
+transmitted, adapted to two languages.
+
+**Which is a genuine transmission**, documented, with a route and a direction — and
+it is instructive to see what one looks like beside the undemonstrated ones this
+book keeps examining. **The alphabet's history is known because it left evidence at
+every stage.** Inscriptions, intermediate forms, datable adaptations.
+
+That is the standard. Nothing proposed as a source for Masonic ritual comes close to
+meeting it.
+
+---
+
 ### The Masonic letters
 
 Masonry has exactly one letter-symbol of importance, and its history illustrates

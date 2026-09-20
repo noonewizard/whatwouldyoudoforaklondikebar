@@ -129,6 +129,45 @@ to mean, and this is a model for reading a great deal of Masonic material.
 
 ---
 
+### Seventy-two, and why it is not here
+
+A useful absence, since this chapter has been about a number that is present.
+
+**Seventy-two has enormous traditional weight.** The Shemhamphorash, the
+seventy-two-fold divine name of Jewish and later occult tradition, derived from
+three verses of Exodus 14. Seventy-two angels. Seventy-two conspirators against
+Osiris. Seventy-two translators of the Septuagint in the traditional account.
+Seventy-two goetic spirits in the *Lesser Key*.
+
+**It is one of the numbers most heavily loaded in the Western esoteric repertoire**,
+and it appears in the sources this book has surveyed constantly.
+
+**It is not in Masonic ritual.**
+
+Not in the catechisms, not in the exposures, not in the degrees. No seventy-two of
+anything. It appears in the later high-degree systems and in the occult literature
+about Masonry, both of which are nineteenth-century or later and neither of which
+is Craft practice.
+
+**Consider what that implies.** If the Craft degrees had been assembled by people
+working from Kabbalistic or Hermetic materials, seventy-two is among the first
+numbers one would expect to find, because it is among the most prominent in exactly
+those materials.
+
+**Its absence is a negative finding of some strength**, and it has the virtue of
+being the kind of negative finding that could have come out otherwise. This is not
+an argument from silence about an obscure detail; it is the absence of one of the
+most conspicuous numbers in the tradition that Masonry is alleged to have inherited.
+
+**The numbers that are present are the ones a room, a curriculum and an
+architectural treatise supply.** The numbers that are absent are the ones a
+Kabbalist would have brought.
+
+That is about as clean a test of the transmission hypothesis as the material
+permits, and it comes out negative.
+
+---
+
 ### The verification problem
 
 One matter of scholarly hygiene, stated because this book has to hold itself to the

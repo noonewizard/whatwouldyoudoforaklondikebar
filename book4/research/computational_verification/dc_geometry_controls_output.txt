@@ -1,0 +1,79 @@
+==========================================================================
+HEXAGRAM-IN-A-POINT-SET: CONTROL DISTRIBUTION
+tries per run = 60,000   capture radius = 0.5   seeds = 3
+==========================================================================
+point set                                 pts  best dev   % of R
+--------------------------------------------------------------------------
+jittered lattice  6 x  5                   30    0.2401   11.19%
+                                           30    0.2237   10.22%
+                                           30    0.2179   10.22%
+--------------------------------------------------------------------------
+jittered lattice 10 x  7                   70    0.2001    9.31%
+                                           70    0.2481   19.09%
+                                           70    0.2278   17.62%
+--------------------------------------------------------------------------
+jittered lattice 14 x 10                  140    0.2237   10.25%
+                                          140    0.1834    8.56%
+                                          140    0.1937    9.12%
+--------------------------------------------------------------------------
+jittered lattice 20 x 14                  280    0.2162    3.64%
+                                          280    0.1841    4.33%
+                                          280    0.2115    9.68%
+--------------------------------------------------------------------------
+uniform random cloud, 140 pts in 14x10    140    0.2418    8.97%
+                                          140    0.2367    4.99%
+                                          140    0.2239    7.55%
+--------------------------------------------------------------------------
+
+MEAN BEST-FIT DEVIATION BY POINT COUNT
+point set                                 pts   mean % of R
+jittered lattice  6 x  5                   30        10.54%
+jittered lattice 10 x  7                   70        15.34%
+jittered lattice 14 x 10                  140         9.31%
+jittered lattice 20 x 14                  280         5.88%
+uniform random cloud, 140 pts in 14x10    140         7.17%
+
+PREDICTION CHECK — PARTIALLY CONFIRMED, AND THE FAILURE IS THE INTERESTING PART
+The prediction made before the run was that fit quality improves with point
+density on sets containing nothing by construction.
+
+It is only partly borne out, and this is reported rather than quietly dropped.
+
+(a) ABSOLUTE best-fit deviation is essentially FLAT across every configuration
+    tested -- roughly 0.18 to 0.25 units whether the point set has 30 points or
+    280, lattice or random cloud. It is set by the capture radius and the
+    jitter, i.e. by the resolution of the search, not by the density of the
+    target.
+
+(b) The PERCENTAGE figure (deviation as a share of circumradius) does fall at
+    the highest density, but NOT monotonically: the 10x7 lattice scores worse
+    than the 6x5. The reason is that the denominator R is not fixed -- it is a
+    free parameter the search chooses, and a search that happens to settle on a
+    larger circle reports a smaller percentage for the same absolute error.
+
+(c) A uniform random cloud with no lattice structure at all performs as well as
+    the lattice of equal size.
+
+So the prediction's direction is weakly present and its mechanism was wrong.
+The finding that replaces it is sharper and worse for the claim genre:
+
+WHAT THIS MEANS FOR THE CLAIM GENRE
+THE PERCENTAGE FIGURE THIS LITERATURE REPORTS HAS A FREE DENOMINATOR. "The
+figure fits to within 3%" is not a measurement of fit; it is a measurement of
+fit divided by a radius the analyst's own search selected. Fitting a larger
+figure to the same city makes the same absolute sloppiness look more precise.
+
+A percentage figure for "how closely the streets fit the figure" is therefore
+uninterpretable on its own. It is a function of how many candidate points the
+analyst allowed themselves, how many placements they tried, how large a capture
+radius they accepted, and what size of figure the search happened to land on --
+none of which the published claims report.
+
+The honest form of such a claim would state: the number of candidate points
+in the source set, the tolerance fixed in advance, the number of figures
+searched for, and the fit achieved by the same procedure on a control set of
+equal density. This book has never seen a published claim in this genre that
+reports any of the four.
+
+(elapsed 4.4s)
+

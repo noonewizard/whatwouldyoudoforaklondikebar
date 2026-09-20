@@ -1,0 +1,102 @@
+======================================================================
+GOLDEN RATIO TEST — SYSTEMATIC CONTROLS
+phi = 1.618034   tolerance = 5%   seed = 20260920
+======================================================================
+
+TARGET — Solomon's Temple (1 Kings 6-7 stated dimensions)
+  values: [60, 20, 30, 20, 10, 20, 20, 20, 5, 6, 7]
+  ordered pairs tested: 110
+  HITS: 1
+    10/6 = 1.6667  (error 3.01%)
+
+(A) NAMED COMPARISON BUILDINGS (11 values each, same method)
+  set                                               pairs  hits
+  Iron Age four-room house (illustrative)             110     5
+  'Ain Dara temple (approx., whole units)             110     6
+  Tabernacle (Exodus 26-27, cubits)                   110     2
+  Ezekiel's temple, selected (Ezek 40-41, cubits)     110     2
+  Noah's ark (Genesis 6, cubits)                      110     3
+  Parthenon (approx. metres, whole)                   110     3
+  Pantheon Rome (approx. metres, whole)               110     1
+  Stonehenge sarsen circle (approx. metres)           110     2
+  Typical Gothic bay (approx. metres)                 110     4
+  Arbitrary small integers (no building)              110     4
+
+  comparison mean hits: 3.20   median: 3.0   range: 1-6
+  Temple hits: 1
+  comparison sets scoring >= the Temple: 10/10
+
+(B) SYNTHETIC NULL — 20,000 random 11-value sets drawn from [5,60]
+  mean hits: 3.931
+  median hits: 4.0
+  proportion with >= 1 hit: 0.9566
+  proportion with >= 1 hit(s) (the Temple's count): 0.9566
+  hit-count distribution:
+     0 hit(s):    869 ( 4.35%)
+     1 hit(s):   1645 ( 8.22%)
+     2 hit(s):   2853 (14.27%)
+     3 hit(s):   3481 (17.41%)
+     4 hit(s):   3667 (18.34%)
+     5 hit(s):   3059 (15.29%)
+     6 hit(s):   2153 (10.76%)
+     7 hit(s):   1131 ( 5.66%)
+     8 hit(s):    628 ( 3.14%)
+     9 hit(s):    289 ( 1.44%)
+    10 hit(s):    129 ( 0.65%)
+    11 hit(s):     64 ( 0.32%)
+    12 hit(s):     22 ( 0.11%)
+    13 hit(s):      5 ( 0.03%)
+    14 hit(s):      3 ( 0.01%)
+    15 hit(s):      1 ( 0.01%)
+    16 hit(s):      1 ( 0.01%)
+
+======================================================================
+VERDICT
+======================================================================
+
+The Temple's stated dimensions produce 1 ratio within 5% of phi out
+of 110 ordered pairs tested.
+
+A random 11-value integer set drawn from the same range produces at least that
+many 95.7% of the time. The method's own null distribution therefore
+reproduces the Temple's result in roughly 96 runs out of 100.
+
+This is not evidence that the Temple encodes phi. It is a measurement of what
+the METHOD does: search enough pairs of plausible building numbers under a 5%
+band and a hit is the ordinary outcome, not the exceptional one.
+
+Stated as a rule for the chapter: a positive result that a matched control
+reproduces at a comparable rate is not a positive result. It is a description
+of the search.
+
+======================================================================
+POST-HOC DIAGNOSTIC (flagged as post-hoc, not pre-registered)
+======================================================================
+  Temple: 11 values, 7 distinct, 35 distinct ordered ratios out of 110 pairs
+  Iron Age four-room house (illustrative)        11 distinct values,  90 distinct ratios
+  'Ain Dara temple (approx., whole units)        11 distinct values,  52 distinct ratios
+  Tabernacle (Exodus 26-27, cubits)               9 distinct values,  39 distinct ratios
+  Ezekiel's temple, selected (Ezek 40-41, cubi   11 distinct values,  72 distinct ratios
+  Noah's ark (Genesis 6, cubits)                 11 distinct values,  50 distinct ratios
+  Parthenon (approx. metres, whole)              11 distinct values, 104 distinct ratios
+  Pantheon Rome (approx. metres, whole)          10 distinct values,  75 distinct ratios
+  Stonehenge sarsen circle (approx. metres)      11 distinct values,  90 distinct ratios
+  Typical Gothic bay (approx. metres)            11 distinct values,  52 distinct ratios
+  Arbitrary small integers (no building)         11 distinct values,  82 distinct ratios
+
+The Temple's dimension list contains 11 values but only
+7 distinct ones -- 20 occurs four times (house width, Holy of
+Holies length, width and height) and the remainder are [5, 6, 7, 10, 20, 30, 60].
+Its 110 ordered pairs therefore collapse to only
+35 distinct ratios, and those ratios are dominated by
+clean small-integer values (3, 2, 6, 1.5, 0.5, ...) which sit far from phi.
+
+A random integer set of the same size has many more distinct values and
+therefore many more distinct ratios, giving phi more chances to be approached.
+
+So the Temple scores BELOW the controls for a reason that is itself the
+chapter's point: the building's stated dimensions are simple and
+small-integer-related, which is the OPPOSITE of what an irrational-ratio design
+would produce. The numbers are not merely non-phi. They are the kind of numbers
+that make phi hard to hit.
+

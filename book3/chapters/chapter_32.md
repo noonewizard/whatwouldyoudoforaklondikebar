@@ -151,6 +151,44 @@ pillars in its symbolism without needing any Kabbalah at all.
 
 ---
 
+### What the diagram made possible
+
+A consequence of the printed Tree that deserves separate notice, because it explains
+the shape of everything after 1516.
+
+**A diagram can be filled in.**
+
+The Jewish sources describe the *sefirot* in prose, at length, with the
+relationships among them expounded rather than plotted. Prose resists addition: to
+say something new you must argue for it, and your argument sits alongside everyone
+else's.
+
+**A diagram has slots.** Ten positions and twenty-two paths constitute an empty
+framework, and an empty framework invites completion. Once the Tree is drawn, the
+question *what goes on this path?* has a form that the prose tradition never posed.
+
+And the assignments are not fixed by the Jewish material. Which letter belongs to
+which path is not settled in the sources, and authorities differ.
+
+**That latitude is what the nineteenth century filled.** Lévi's tarot
+correspondence, the planetary attributions, the colour scales, the Egyptian deities,
+the perfumes and plants and precious stones of Crowley's *777* — all of it fits into
+slots that the diagram created and the tradition left open.
+
+**None of this could have happened to a prose doctrine.** You cannot cross-map a
+paragraph.
+
+So the Tree of Life's career as the master key of Western occultism is in part an
+artefact of its having been drawn, and drawn in a medium — print — that made one
+version standard. The diagram is not a neutral representation of the doctrine. It is
+a technology that changed what could be done with it.
+
+**And it is why Chapter 39's warning about over-determination lands hardest here.**
+A framework with slots will accept anything offered, and a framework that accepts
+anything discriminates nothing.
+
+---
+
 ### The tempting error
 
 One methodological note, because this chapter's material is where the temptation is

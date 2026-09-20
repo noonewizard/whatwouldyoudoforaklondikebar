@@ -161,6 +161,51 @@ wants the result.
 
 ---
 
+### The body, the year and the world
+
+One structural feature of *Sefer Yetzirah* deserves attention because it recurs
+across the traditions in this book and is usually misdescribed.
+
+The text assigns its letters to three domains simultaneously: **the world** (space
+and the elements), **the year** (time, months, seasons), and **the soul** (the human
+body, its organs and functions).
+
+Three registers, one set of letters, mapped in parallel.
+
+**This is the structure usually called a doctrine of correspondences**, and it is
+worth being precise about what such a doctrine claims. It is not merely that the
+three domains resemble one another. It is that they share a common articulation —
+that the same twenty-two principles organise space, time and the person, so that
+learning the structure of one is learning the structure of all.
+
+**The macrocosm-microcosm idea in its Hebrew form.**
+
+Two observations, and they pull in opposite directions.
+
+**The idea is genuinely widespread**, appearing in Greek, Chinese, Indian and Islamic
+material with no plausible common source, and the reason is not mysterious: a
+culture that thinks systematically about the world, the year and the body will
+notice that all three have parts and cycles, and the analogy is available to
+anybody. Convergence again, and Chapter 46's rule applies.
+
+**And the *specific* assignments are arbitrary** — which is exactly what makes them
+evidentially useful. That *alef* goes with air rather than fire, that a particular
+letter governs a particular month or organ: none of this is entailed. It could have
+been otherwise.
+
+**So a shared correspondence *scheme* would be strong evidence of transmission**, in
+a way that a shared correspondence *idea* is not.
+
+This is the test of Chapter 38 applied to structure rather than to number, and it
+is the one that matters for assessing every proposed link in Part VII. The question
+is never whether two systems both correspond things. It is whether they correspond
+the same things to the same things, in ways that had no reason to come out that way.
+
+Masonic ritual contains no correspondence scheme at all, which settles the matter
+before the test is needed.
+
+---
+
 ### What Sefer Yetzirah gave the West
 
 To close on what the text did do rather than what it did not.

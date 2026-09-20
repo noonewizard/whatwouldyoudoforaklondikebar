@@ -98,6 +98,44 @@ agrees what went wrong.
 
 ---
 
+### Why nobody fixed it
+
+A question worth asking, because the answer says something about the whole subject.
+
+The misreading has been understood for a very long time. Hebraists knew by the
+seventeenth century; scholarly opinion has been unambiguous since at least the
+nineteenth. Reference works say so. It is not controversial and never really was.
+
+**And it has made no difference whatever to usage.**
+
+The form is in hymns that congregations have sung for centuries. It is in the
+Authorised Version at four places, and in the Revised Version more widely. It named
+a nineteenth-century religious movement. It is on church noticeboards.
+
+Three reasons, and each recurs in this book.
+
+**Usage is not driven by scholarship.** A form that has entered liturgy, hymnody and
+devotional habit is maintained by those practices, not by the philological facts.
+Nobody singing a hymn is consulting a lexicon.
+
+**The correction has no constituency.** Nothing is gained by anyone in particular
+from changing it, and a good deal of familiar material would have to be rewritten.
+
+**And the error had become a name.** This is the interesting one. After four
+centuries of use, *Jehovah* refers — people know who is meant, the chain of use is
+intact, and by the account of naming in Chapter 2 that is precisely what a name
+requires. It is a name whose origin was a misreading and which has, by ordinary
+linguistic means, become a real designation.
+
+**So the philological correction and the linguistic fact are both true**, and they
+do not conflict. The vowels are wrong. The word works.
+
+That is worth holding onto, because it is a case where "this is a mistake" and
+"this functions perfectly well" are simultaneously accurate — and this book has
+several more of those coming.
+
+---
+
 ### What the Name probably sounded like, and how confident anyone can be
 
 The scholarly reconstruction generally favours something like *Yahweh*, and the

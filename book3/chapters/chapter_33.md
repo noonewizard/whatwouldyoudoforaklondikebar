@@ -118,6 +118,46 @@ Convergence, again, in a place where descent would be convenient.
 
 ---
 
+### Why the opposition mattered
+
+Abulafia was condemned, and the condemnation is worth a section because it tells us
+what the tradition itself thought was at stake.
+
+Solomon ibn Adret — the Rashba, the foremost halakhic authority of his generation in
+Spain — moved against him, and the objection was not that the technique was
+ineffective. It was that it was **dangerous and presumptuous**: that a man claiming
+prophecy was claiming something the tradition held to have ceased, and that the
+practice invited exactly the kind of individual religious authority that a
+law-centred tradition is organised to prevent.
+
+**Note the shape of the objection.** Nobody argued that permuting letters does
+nothing. The argument was about who may do what, and on whose authority — which is
+an argument about *standing*, and therefore the same argument this book has been
+tracking since Chapter 3.
+
+**A tradition that regulates a practice is a tradition that takes it seriously.**
+The condemnation is evidence that Abulafia's technique was understood by competent
+contemporaries as a real operation with real consequences, whatever one concludes
+about what those consequences were.
+
+And it supplies a contrast with the material of Part VI. The grimoire tradition was
+condemned too, by ecclesiastical authorities, and on similar grounds: unauthorised
+traffic, individual claims to power, procedures performed outside the institution's
+control.
+
+**Both traditions were regulated because both were operative.**
+
+**Masonic ritual was never regulated in this way by anybody**, and the absence is
+informative. It was attacked, repeatedly — by churches, by governments, by
+journalists — and the attacks concerned secrecy, oaths, political conspiracy and
+social exclusivity.
+
+**Nobody condemned Masonic ritual as a magical operation**, because nobody outside
+the later occult literature thought it was one, and the hostile parties had every
+incentive to say so if they had.
+
+---
+
 ### The Masonic non-connection
 
 Brief, because the material does not support anything longer.

@@ -153,6 +153,40 @@ available but recorded.
 
 ---
 
+### The seven that is not in the ritual
+
+A useful negative case, because it shows the test working in the other direction.
+
+If Masonry were organised around a numerical doctrine, we would expect the
+canonical numbers to appear *systematically* — not merely to be present, but to
+structure things.
+
+Take seven. It is a number with enormous traditional weight: seven planets, seven
+days, seven liberal arts, seven branches of the menorah, seven seals, seven
+sacraments in one tradition, seven deadly sins.
+
+**Masonic ritual uses it twice, in passing, and neither use is structural.**
+
+The seven liberal arts appear in a lecture as an inherited curriculum. The quorum
+formula is an administrative rule. **Nothing in the lodge is arranged in sevens.**
+There are not seven officers, or seven stations, or seven steps, or seven
+ornaments, or seven degrees.
+
+**Compare a system that genuinely is organised numerically.** The Golden Dawn's
+grade structure maps onto the ten sephirot, deliberately and completely — each grade
+assigned to a position, with the correspondences stated in the order's own papers.
+That is what a numerical organising principle looks like from inside, and it is
+visible without any decipherment.
+
+**Masonry has three of some things, two of others, five of a few, and no discernible
+scheme**, which is exactly what one would expect from a ceremony assembled over
+decades from whatever was to hand.
+
+**An organising number organises.** Where it is genuinely present, you do not have
+to hunt for it.
+
+---
+
 ### The base-rate problem, previewed
 
 One further consideration, which Chapter 39 formalises.

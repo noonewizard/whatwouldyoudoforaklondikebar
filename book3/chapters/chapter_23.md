@@ -144,6 +144,45 @@ to look like.
 
 ---
 
+### Codes, ciphers, and the distinction that matters
+
+A terminological point that does real work, because the words are used
+interchangeably in popular writing and mean different things.
+
+**A cipher operates on letters.** Each unit of the plaintext is transformed
+individually, by rule. Substitution and transposition are both ciphers.
+
+**A code operates on meanings.** A codebook assigns a symbol to a whole word or
+concept — this number means *army*, that group means *the Ambassador* — and there is
+no rule connecting the symbol to what it stands for. The relation is arbitrary and
+must be looked up.
+
+The difference has two consequences that matter for this book.
+
+**A code is much harder to break by analysis**, because there is no internal
+structure to exploit. Frequency analysis works on a cipher because the underlying
+letters have statistical properties that survive substitution. A codebook has no
+such properties: the number for *army* tells you nothing about the number for
+*navy*.
+
+**And a code requires a physical object.** Both parties must hold the same
+codebook, which must be produced, distributed and protected. Codes are
+administratively expensive in exactly the way Chapter 25's nomenclators were.
+
+**Masonic practice has neither**, which is worth stating plainly. The grid is a
+cipher of the weakest kind, and there is no Masonic codebook — no list assigning
+concealed meanings to words, no glossary requiring possession.
+
+**What Masonry does have is *jargon*, and jargon is a third thing.** Technical
+vocabulary — terms with specialised meanings understood within a trade or body — is
+not concealment. Every profession has it. It makes outsiders feel excluded and it
+exists to be precise, not to hide, and the exposures translated it without
+difficulty.
+
+A great deal of what is taken for Masonic secrecy is jargon read as code.
+
+---
+
 ### The question to ask
 
 Reduce all of the above to a single diagnostic and it comes out like this.

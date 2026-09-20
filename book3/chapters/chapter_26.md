@@ -122,6 +122,43 @@ public monument in a churchyard.
 
 ---
 
+### The gravestone problem
+
+There is something genuinely odd about the pigpen material and it is worth dwelling
+on, because it inverts the usual assumption about what secrecy is for.
+
+**The most conspicuous surviving use of the Masonic cipher is on public
+monuments.**
+
+Consider what a gravestone is. It stands in a churchyard, in the open, where anyone
+may walk. It is designed to be seen, and to be seen indefinitely. It is, of all
+possible objects, the least suitable place to put something you wish to conceal.
+
+And that is where the cipher is.
+
+**So what was being done?**
+
+Not concealment from posterity, plainly. Not concealment from the parish, who knew
+perfectly well who in the village was a Mason — lodges processed publicly, wore
+regalia, attended church in a body, and laid foundation stones with ceremony.
+
+**What the inscription does is mark a category and filter its readers.** A brother
+passing through reads it. A stranger sees marks. The stone says two different things
+to two audiences, simultaneously, and the difference is the point.
+
+**This is secrecy as display**, and the preceding volume found the same structure
+throughout Masonic practice: an institution that advertises its own opacity, whose
+buildings are signposted and whose members are identifiable, and which nonetheless
+maintains a language of concealment.
+
+The cipher on a gravestone is that structure in stone. It is not hiding the man's
+membership. **It is performing it** — declaring, in a script that announces itself as
+restricted, something everybody in the village already knew.
+
+A body genuinely concealing something does not carve it where the public walks.
+
+---
+
 ### The name
 
 A final matter, because the brief for this book is explicit about it.

@@ -150,6 +150,41 @@ what they did use, and what it was for.
 
 ---
 
+### The nomenclator, and what serious practice looked like
+
+One more item, because it shows by contrast exactly what Masonic cipher use was
+not.
+
+From the fifteenth century onward, European diplomacy ran on the **nomenclator** —
+a hybrid system combining a substitution alphabet with a codebook. Common words,
+names of rulers, cities and ministers each received a symbol or a number, while the
+rest of the message was enciphered letter by letter.
+
+These documents are substantial. A working nomenclator might run to hundreds or
+thousands of entries, and maintaining one was an administrative undertaking: copies
+had to be produced, distributed securely, kept current, and replaced when
+compromised.
+
+**Consider what that implies.** A state using a nomenclator has a cipher secretary,
+a distribution problem, a key-management procedure, and a replacement schedule. The
+Papal and Venetian services employed professional cryptanalysts. Codebreaking was a
+recognised office with a salary.
+
+**This is what a body with something to hide actually does**, and the documentary
+traces are everywhere: the codebooks survive, the correspondence about them
+survives, the salaries are in the accounts.
+
+**Now compare the Masonic record.** No codebook. No cipher secretary. No key
+management, because there is no key. No correspondence about compromise. No
+replacement when the system was published. Nothing in the minutes about any of it.
+
+The pigpen grid required none of this because it protected nothing that required
+it, and the complete absence of administrative traces is as strong a negative
+finding as this subject offers. **Concealment at scale leaves paperwork**, and there
+is none.
+
+---
+
 ### The modern coda, briefly
 
 Two further dates, because Chapter 49 will need them.

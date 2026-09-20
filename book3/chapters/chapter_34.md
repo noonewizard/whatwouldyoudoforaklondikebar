@@ -120,6 +120,42 @@ reason this book insists on four terms where the popular literature uses one.
 
 ---
 
+### What the Christian Hebraists got right
+
+The argument of this chapter has been that Christian Kabbalah transformed its
+material for polemical ends, and it would be unjust to leave it there, because the
+enterprise also produced something of real and lasting value.
+
+**They learned the language.**
+
+Reuchlin produced the first Hebrew grammar by a Christian. The Christian Hebraist
+movement established Hebrew as a university subject in Europe, generated
+dictionaries and grammars, and made possible a kind of biblical scholarship that had
+not existed since Jerome.
+
+**The polyglot Bibles are the monument.** Complutensian, Antwerp, Paris, London —
+enormous collaborative editions setting Hebrew, Greek, Latin, Aramaic and Syriac in
+parallel columns, produced at vast expense over decades. The scholarship in them is
+serious, and modern textual criticism is a descendant.
+
+**And the preservation was real.** Reuchlin's defence of Hebrew books against
+confiscation was mounted on instrumental grounds — Christians need them — and it
+saved a great deal.
+
+**None of this excuses the polemical framing**, and the framing was not incidental:
+Pico's thesis was that the Jews possess a tradition which condemns them, and that is
+the argument the whole enterprise was built to make.
+
+But the same movement that misused the material also transmitted it, indexed it,
+and taught Europe to read it — and by the eighteenth century a scholar could
+approach Hebrew sources without sharing the polemical purpose, because the
+apparatus existed.
+
+**Two things at once**, and this book has tried throughout to be able to say so
+rather than picking the convenient half.
+
+---
+
 ### The availability argument, and its limits
 
 Now the question this chapter exists to answer for Book III.

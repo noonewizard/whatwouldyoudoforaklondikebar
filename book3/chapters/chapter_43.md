@@ -127,6 +127,50 @@ not a test.
 
 ---
 
+### The gematria case, worked
+
+A second example, because it is the commonest claim in the corpus and the
+arithmetic makes it checkable.
+
+**The claim**, in its general form: certain Masonic words share numerical values
+under A=1 to Z=26, and the sharing indicates design.
+
+**The observations are accurate.** LEVEL and LIGHT both come to 56. APRON and PLUMB
+both come to 64. The sums are right and anyone can verify them.
+
+**The procedure was not specified in advance.** A=1 or A=0? Include or exclude
+vowels? Reverse the alphabet? Sum the letters, or take the product? Use the English
+spelling or a biblical one — HIRAM, CHIRAM or HURAM? **Each choice is defensible and
+each gives different numbers**, and a researcher who tries several and reports the
+one that worked has selected a pattern rather than found one.
+
+**No control was run.** The preceding volume ran one: twenty Masonic words against
+twenty household objects and root vegetables, both lists fixed in advance, identical
+procedure. **Three internal pairs on each side. One significant-number hit on each
+side.** TESCO = PUDDLE = 62; KETTLE = SAUSAGE = 73; POTATO = SPANNER = 87; PARSNIP =
+93.
+
+**The parsnips performed exactly as well as the pillars.**
+
+**And the base rate explains it entirely.** Twenty words make 190 possible pairs,
+spread over a range of about eighty values. Two or three collisions is what chance
+predicts. Three is what both sets produced.
+
+**Nothing was hidden in either list**, and the collisions are a property of the
+arithmetic rather than of the words.
+
+**There is also a chronological problem that disposes of the claim independently.**
+English letters have no numerical values and never had. Any A=1 to Z=26 scheme is a
+modern invention with no tradition behind it — unlike Hebrew, where the letters
+genuinely served as numerals. Applying "gematria" to English Masonic vocabulary is
+not the use of an ancient technique. It is a new procedure with an old name, and it
+could not have been used by anyone in the eighteenth century because it did not
+exist.
+
+That is a Test 8 failure, and it is fatal on its own.
+
+---
+
 ### Why people do this
 
 Three reasons, none of them contemptible.

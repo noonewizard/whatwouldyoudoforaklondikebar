@@ -124,6 +124,48 @@ be using the one channel that does not carry doctrine.
 
 ---
 
+### Why interpretation does not transmit
+
+The asymmetry stated above — ritual preserves performance well and interpretation
+badly — deserves more than an assertion, because it carries a good deal of weight in
+this book's argument.
+
+**The evidence is Masonic practice itself, and it is unusually clean.**
+
+The ceremonies have transmitted with remarkable fidelity. A visitor from an English
+lodge can follow an Australian one; the structure, the sequence, the officers, the
+essential actions are recognisable across three centuries and six continents. Where
+variation exists it is local and traceable, and the jurisdictions are aware of their
+differences.
+
+**The interpretations have not converged at all.** Asked what the Lost Word
+signifies, Masonic commentary has proposed truth, the divine name, moral character,
+lost innocence, the knowledge of God, consciousness, identity, the self before the
+Fall, and the secret of Masonry itself — and every one of these readings remains in
+circulation, because nothing exists that could retire one.
+
+**Same tradition. Same transmission channel. Opposite outcomes.**
+
+The explanation is structural rather than mysterious. **A performance can be checked
+in real time.** If an officer says the wrong word or moves at the wrong moment,
+everyone present notices and someone corrects him. Error is detected and repaired at
+every meeting, which is a remarkably effective error-correcting mechanism.
+
+**An interpretation cannot be checked at all**, because the Craft has no authority
+competent to rule on one. Anderson's 1723 settlement removed doctrinal authority in
+order to admit men of differing religions, and the consequence — very likely
+unintended — is that no Masonic body can say that a reading is wrong.
+
+So errors in performance are corrected and variations in interpretation accumulate.
+Over three centuries the first converges and the second explodes.
+
+**And this is a strong argument against a claim this book has been examining
+throughout.** A tradition allegedly carrying an ancient doctrine in its ritual would
+be using the one channel that demonstrably does not carry doctrine. What ritual
+transmits is what to do.
+
+---
+
 ### What the career does
 
 A final observation, carried from the preceding volume because Part XI needs it.

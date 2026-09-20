@@ -109,6 +109,48 @@ would probably be dead. This one produced an infinite literature and is not.
 
 ---
 
+### What three volumes have found
+
+This is the last chapter of the last book, and it is the place to say what the
+series amounts to.
+
+**Book I asked where it came from**, and found that Freemasonry did not inherit the
+Western magical tradition. The occult material that everyone associates with the
+Craft is nineteenth-century, arriving through Lévi and reaching Masonry through
+Pike in 1871, and every link in that chain is documented. What Masonry supplied to
+the esoteric world was *form* — grade structure, ceremonial offices, initiation by
+degrees — which the magical orders borrowed in the 1880s, in that direction only.
+
+**Book II asked what it does**, and found a set of techniques — controlled
+restriction, staged death, compressed symbol, embodied action, public obligation,
+progressive disclosure — that appear independently across unrelated societies. Not
+transmitted. Convergent. Effects smaller than the tradition claims and larger than
+its critics allow, distributed unevenly, and visible over decades rather than in an
+evening.
+
+**Book III asked what a word is**, and found that words are not the sort of thing
+that can be lost — that every case of a "lost word" turns out to be the loss of an
+authority, a setting, a pronunciation or a condition, with the letters sitting in
+plain view throughout.
+
+**The same shape in all three.** Something that looks like inheritance turns out to
+be convergence. Something that looks like design turns out to be arrival. Something
+that looks like concealment turns out to be a category the seeker brought with them.
+
+I did not set out to find that. It is what the evidence kept producing, from three
+different directions, and I have come to think it is the most interesting thing the
+series has to report — more interesting than any of the transmissions it failed to
+confirm.
+
+**Because the alternative reading was always available and always duller.** If
+Masonry had inherited a doctrine, the story would be a chain of custody. What
+actually happened is that people in a tavern in the 1720s, solving ordinary
+institutional problems with the materials in front of them, built something that
+has worked on human beings for three hundred years — and could not have told you
+why, because they did not know they had done it.
+
+---
+
 ### The room afterwards
 
 He will go in, and it will take about an hour, and then the lodge will close.

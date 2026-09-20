@@ -131,6 +131,52 @@ regularity found in that a congenial emblem.
 
 ---
 
+### The one spatial feature that is arbitrary
+
+The argument of this chapter has been that Masonic spatial features are entailed
+rather than chosen, and a chapter making that argument should look for the
+exception rather than waiting to be shown one.
+
+There is one, and it is worth examining because of how it behaves.
+
+**The three principal officers are placed at east, west and south — and not north.**
+
+The north is explicitly treated as a place of darkness in most workings, and it is
+left without a principal station. Now, is that entailed?
+
+Partly. A room needs stations distributed around it, and three stations in a
+rectangular space will naturally take positions that are not adjacent. But the
+specific exclusion of the north, and its characterisation as dark, is not forced by
+anything about rooms.
+
+**The explanation offered in the sources is solar**: the sun never reaches the
+north, in northern latitudes, and a building oriented east-west has a north side
+that receives no direct light.
+
+**And that explanation is correct and is a fact about latitude.** In the northern
+hemisphere the north face of a building is the one that stays in shadow. Anyone who
+has lived in a house knows which rooms are cold.
+
+Which makes it entailed after all — by the sun's actual behaviour at the latitudes
+where the ritual was composed.
+
+**And it generates a testable prediction**, which is the useful part. If the
+north-as-darkness feature is a fact about latitude rather than a transmitted
+doctrine, then it should sit awkwardly in the southern hemisphere, where the
+relation reverses.
+
+**It does, and Masonic practice has simply carried it over unchanged.** Australian
+and South African lodges retain the northern symbolism in a hemisphere where the
+sun does not behave that way.
+
+This is exactly what a transmitted convention looks like when it outruns the
+conditions that produced it — and exactly what a live cosmological doctrine would
+not look like, since a tradition that genuinely held the north to be dark because of
+the sun would have noticed. **The symbolism was inherited as furniture, not as
+astronomy.**
+
+---
+
 ### The rule, stated for use
 
 Part X's methodological contribution, and it generalises well beyond this subject.

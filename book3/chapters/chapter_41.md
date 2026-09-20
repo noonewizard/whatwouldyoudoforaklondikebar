@@ -136,6 +136,47 @@ for design is the pattern, there is no evidence for design.
 
 ---
 
+### A fifth case that fails, and why it belongs here
+
+The four cases above all pass, which risks giving the impression that the tests are
+easy once a claim is genuine. A borderline case is more instructive.
+
+**The Voynich manuscript.** An illustrated codex, carbon-dated to the early
+fifteenth century, written in an unknown script that has resisted every attempt at
+decipherment for a century.
+
+Run the tests on the *claim that it encodes a message*.
+
+**Provenance: passes.** The manuscript exists, its ownership can be traced back some
+centuries, and the vellum is dated.
+
+**Dating: passes.** Early fifteenth century, established physically.
+
+**Encoding rule: fails.** No rule has been documented. Dozens have been proposed and
+none has been independently confirmed.
+
+**Replication: fails, spectacularly.** This is the decisive one. Many people have
+announced solutions. **No two have agreed**, and no proposed method has enabled a
+stranger to reproduce the result unaided.
+
+**Intentionality: passes.** Somebody wrote it, deliberately, at length, with
+illustrations. The labour is undeniable.
+
+So the Voynich passes the tests that concern the object and fails the tests that
+concern the decipherments. **This is exactly the right result**, and it shows the
+protocol discriminating properly: there is certainly something there — somebody made
+it on purpose — and no one has shown what.
+
+**The honest position on the Voynich is that it is an unsolved problem**, which is a
+rarer and more respectable category than either "decoded" or "meaningless." A
+protocol that could not produce that verdict would be too blunt to be useful.
+
+And it supplies the contrast this chapter needs. Where a genuine encoding exists and
+has been solved, the solutions converge — everyone with the pigpen grid reads the
+same inscription. Where they do not converge, that is itself the finding.
+
+---
+
 ### The asymmetry, and why it is fair
 
 A final observation, because the standard above may look severe.

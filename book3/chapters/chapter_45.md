@@ -145,6 +145,47 @@ relation to technique.
 
 ---
 
+### What the medieval masons actually did
+
+A section in fairness to the operative craft, because the deflationary argument
+above can be heard as a claim that medieval builders had no geometry, and that is
+badly wrong.
+
+**They had a great deal, and it was practical.**
+
+A mason setting out a foundation, cutting a voussoir for an arch, or raising a
+vault is performing geometrical operations. The methods were transmitted by
+apprenticeship and by drawing, and where lodge books and setting-out drawings
+survive we can see them: constructions with compasses and straightedge, techniques
+for deriving one dimension from another, methods for generating a complex shape from
+a simple one.
+
+**The technique of *ad quadratum* and *ad triangulum* construction is real** —
+deriving a building's proportions by rotating a square within a square, or by
+equilateral triangles — and it is documented in the surviving material. The
+argument at Milan cathedral in the 1390s, in which the masons disputed which system
+to use and the proceedings were recorded, is the best-known instance.
+
+**This is genuine historical sacred geometry and it has the feature Chapter 41
+requires: the design is documented independently of the measurement.** We know
+because the masons said so, in writing, while arguing.
+
+**And note what it is not.** It is a set of *construction techniques* — ways of
+getting a building to come out right with a rope, a square and a pair of compasses.
+It is not a system of numerical symbolism, and the surviving material does not
+suggest the masons thought their ratios encoded doctrine. They thought they were
+building something that would stand up and look right.
+
+**The distance between that and modern sacred-geometry literature is the distance
+between a craft and a cosmology**, and the literature's habit of citing medieval
+practice in support of numerical mysticism reverses what the practice actually
+was.
+
+Which is, incidentally, the same reversal Chapter 37 identified in the Masonic case:
+**geometry as technique, later read as geometry as revelation.**
+
+---
+
 ### The three geometries
 
 To close the chapter with the distinction the brief requires.

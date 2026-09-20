@@ -98,6 +98,44 @@ it or stumbled into it, the arrangement is what it is.
 
 ---
 
+### Ambiguity as a property, not a defect
+
+There is a reading of Masonic symbolism that treats its vagueness as a failure — as
+though the tradition had meant to say something and had said it badly, and the
+commentator's job is to recover the intended meaning.
+
+**Fifty chapters of evidence suggest the vagueness is the operative feature.**
+
+Consider what a precisely specified symbol would do. Suppose the ritual stated that
+the rough ashlar signifies the unregenerate soul in a particular theological sense.
+That statement would be true for the members who shared the theology and false, or
+offensive, for the rest — and the Craft's whole institutional settlement, from 1723
+onward, depends on admitting men who do not share a theology.
+
+**An unexplained symbol is the only kind that can be held in common by people who
+disagree.**
+
+The rough ashlar works for a Christian, a Jew, a deist and a man with no settled
+views, because each supplies the content. A specified symbol would work for one of
+them and exclude the others.
+
+This is not a mystical property. It is a design consequence of a practical
+constraint, and it is the same mechanism this book has found everywhere: **a
+solution arrived at under pressure, acquiring a profound appearance once the
+pressure that produced it is forgotten.**
+
+**And it has a cost**, which the Craft has paid for three hundred years. A tradition
+that will not specify cannot correct, and the interpretive literature therefore
+accumulates without limit — including the nineteenth-century occult overlay that
+Book I traced and that three volumes have now spent considerable effort peeling
+back.
+
+The vagueness that made the institution possible is the same vagueness that made it
+a magnet for readings it never authorised. Those are not two facts. They are one
+fact seen from two sides.
+
+---
+
 ### The philosophy of secrecy
 
 The brief asks for a treatment of a question that Part XII is the right place for:

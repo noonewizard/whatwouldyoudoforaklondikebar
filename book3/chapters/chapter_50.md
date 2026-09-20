@@ -130,6 +130,45 @@ designed it.
 
 ---
 
+### The objection: this is selection, not effect
+
+The strongest counter to everything in Part XI should be stated, because it is
+serious and this book has not answered it.
+
+**The minority in whom initiation appears to take are the minority who were already
+disposed to it.**
+
+Men who present themselves for admission to a moral fraternity are not a random
+sample. They are, by the act of applying, people already inclined toward
+associational life, already possessed of the fee, already known to a member willing
+to propose them, and already attracted to whatever they understood the institution
+to offer.
+
+If long-serving Masons show a distinctive pattern of conduct, the ceremony is one
+candidate explanation and prior disposition is another. **Nothing in the historical
+record can separate them**, because there is no comparison group of similar men who
+applied and were not initiated.
+
+**And the same objection applies to the career.** Men who serve thirty years are the
+men in whom it took; the career does not obviously produce the commitment, and the
+commitment plainly produces the career.
+
+What can be said against this is limited but real. The progression through lodge
+offices is not purely a matter of enthusiasm — it is an institutional ladder with
+places on it, and lodges have historically had to fill offices from whoever was
+available. Men were pressed into chairs because somebody had to sit in them, and
+some of those men went on to forty-year attendance records.
+
+That is not decisive. **The honest formulation is that disposition and involvement
+reinforce each other**, which is harder to study than either alone, and which is
+why nobody has.
+
+**I record the objection without an answer** because the alternative — producing an
+answer the evidence does not support — is the thing this book exists to argue
+against.
+
+---
+
 ### What the ceremony can honestly claim
 
 To end Part XI at the strength the evidence supports, and no further.

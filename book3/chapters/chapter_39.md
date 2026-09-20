@@ -166,6 +166,65 @@ two cases apart.**
 
 ---
 
+### The garden of forking paths
+
+One further mechanism, subtler than the others and harder to guard against, because
+it does not feel like searching at all.
+
+A researcher sets out to test a single hypothesis. Along the way, dozens of small
+decisions have to be made: which spelling to use, whether to include a borderline
+case, where to set a boundary, which of two plausible definitions to adopt. **Each
+decision is made in good faith, one at a time, on its merits.**
+
+And each decision is made *after* seeing some of the data.
+
+The result is that the researcher has effectively explored a large space of possible
+analyses without ever feeling that they were exploring anything. They ran one
+analysis. But the analysis they ran was shaped, at every fork, by what they had
+already seen — and the number of analyses they *would* have run, had the data come
+out differently, is the real denominator.
+
+The statistician Andrew Gelman named this **the garden of forking paths**, and its
+importance is that it does not require any dishonesty, any fishing, or any
+awareness of doing something questionable.[^4]
+
+**Almost every claim in this book's subject matter was produced this way.** A writer
+looks at Masonic material with an idea, makes reasonable choices as he goes, and
+arrives somewhere. The choices were reasonable. The path was one of thousands. And
+the write-up records the destination without the map.
+
+I can state this with some confidence because it happened to me. The target list in
+Chapter 16 was not assembled dishonestly. It was assembled word by word, each entry
+defensible, by someone who had already seen the answer — and the accumulated effect
+of those defensible choices was a list that guaranteed the result.
+
+---
+
+### Why the remedy is procedural, not personal
+
+Which leads to the point this whole part is organised around.
+
+**None of these failures is corrigible by being careful.**
+
+Care is what the researcher in the garden was exercising. Each decision was made
+carefully; that is precisely why the path felt like a straight line. Care operates
+locally, at each fork, and the problem is global.
+
+Nor is the remedy expertise. Chapter 40 argues the reverse: greater learning
+supplies more material to find patterns in and better resources for explaining away
+failures.
+
+**What works is committing to the procedure before seeing the data**, because a
+procedure fixed in advance cannot be shaped by what it encounters. That is the whole
+content of Test 4, and it is why that test is the decisive one.
+
+It also explains why the remedy feels so unsatisfying to people who are confident
+they are being rigorous. Writing the method down in advance is an admission that
+one's future judgement cannot be trusted — and the people most certain that theirs
+can are the ones for whom the admission is most necessary.
+
+---
+
 ### And the opposite danger
 
 Because a chapter that only warns against finding patterns has taught half a lesson.
@@ -192,6 +251,10 @@ rough uniformity; the point survives any reasonable adjustment.
 
 [^2]: Computed by the author. Script, seed, trial count and output in Appendix I
 and published with this book.
+
+[^4]: Andrew Gelman and Eric Loken, "The Garden of Forking Paths" (working paper,
+2013), and "The Statistical Crisis in Science," *American Scientist* 102 (2014):
+460–65. **[PAGE VERIFICATION REQUIRED.]**
 
 [^3]: On apophenia and related phenomena see Thomas Gilovich, *How We Know What
 Isn't So* (New York: Free Press, 1991); Michael Shermer, "Patternicity," *Scientific

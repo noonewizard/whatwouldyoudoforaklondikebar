@@ -136,6 +136,39 @@ book that goes wrong goes wrong by publishing the hypothesis.
 
 ---
 
+### The special case of near-misses
+
+A mechanism worth isolating, because it does a great deal of work in the material
+this book examines and is rarely named.
+
+**Approximate matches are experienced as exact ones.**
+
+A ratio of 1.61 is reported as the golden section. An angle of 71 degrees is
+reported as a pentagonal 72. A gematria value that is one off is adjusted by the
+inclusion or exclusion of a letter, and the adjustment is not recorded as an
+adjustment.
+
+What happens perceptually is that the near-miss is **corrected on the way in**. The
+observer does not experience "1.61, which is close to 1.618." They experience "the
+golden ratio," and the small discrepancy is absorbed as noise — measurement error,
+construction tolerance, scribal variation.
+
+**And the absorption is sometimes right.** Real buildings do have construction
+tolerances. Real manuscripts do have scribal variation. The move is not
+illegitimate in principle.
+
+What makes it dangerous is that **the tolerance is almost never stated in advance**,
+and an unstated tolerance expands silently to whatever is needed. If 1.61 counts,
+does 1.65? If 71 degrees counts, does 68? The literature is nearly silent on this,
+and the silence is not evasion — it is that the question does not occur, because the
+correction happened before anything reached consciousness.
+
+**The remedy is one sentence, written before looking: *a hit is a value within X of
+the target.*** Chapter 42 makes it part of Test 4, and it is the cheapest
+methodological improvement available in this entire field.
+
+---
+
 ### The honest position
 
 Which yields a stance the rest of Part IX formalises.

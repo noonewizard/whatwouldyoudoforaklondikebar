@@ -133,6 +133,59 @@ possibility of such evidence for any historical period.
 
 ---
 
+### Where the layers come apart in practice
+
+The scheme earns its keep in cases where the layers separate visibly, and three are
+worth setting out.
+
+**The scholar.** A historian of Freemasonry may know the ritual better than most
+members — its textual history, its variants, the dating of every element. Layers one
+and two, comprehensively. He has no standing whatever, has undergone nothing, and
+the institution would not receive him as a visitor.
+
+This is not a deficiency in his knowledge. It is a fact about what kind of thing
+membership is, and it is the reason scholarship on this subject is possible at all:
+**the layers the researcher needs are the layers that are public.**
+
+**The lapsed member.** He has three and four — he was initiated, he holds the
+standing — and has exercised neither for twenty years. Authority unused does not
+vanish; he could be received tomorrow. But the preceding volume found that lapse is
+the commonest outcome of initiation, probably the majority outcome, and a man in
+this position has layers three and four and nothing above.
+
+**And the Past Master.** He has all six, or as much of six as anyone gets. He also
+knows exactly how the ceremony works from the operator's side — where the candidate
+will be moved, when the hoodwink comes off, what is about to be said. **The mystery
+is entirely dissolved for him, structurally and permanently.**
+
+And he goes on attending.
+
+**That fact is fatal to any account of Masonic efficacy that depends on the
+candidate's ignorance.** Whatever holds a man of thirty years' standing, it is not
+suspense. He knows the whole thing. He is the one producing it.
+
+Which tells us that whatever the system supplies at the upper layers is not
+information, and was never information — because he has all the information and it
+has not exhausted anything.
+
+---
+
+### A note on what the scheme is not
+
+It would be easy to read the six layers as a claim that Masonry delivers a graded
+ascent through them, and I want to close that reading off.
+
+**It does not.** The ceremony confers layers one, three and four, does some work at
+two, and has no mechanism whatever for five and six. There is no examination in
+embodiment, no assessment of wisdom, no point at which anyone is certified as having
+arrived.
+
+The scheme is a tool for **sorting claims**, not a description of a journey. Its
+value is that when somebody says a Mason "knows the word," the question *which
+layer?* can be asked — and the answer usually dissolves the disagreement.
+
+---
+
 ### And the layer that is withheld
 
 Which brings the scheme to the point it was built for.

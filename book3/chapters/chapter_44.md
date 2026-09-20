@@ -140,6 +140,45 @@ have also used chequered floors and starry ceilings is not evidence of contact.
 
 ---
 
+### The portable temple
+
+One consequence of the emplacement thesis deserves separate treatment, because it
+is the Craft's most underrated technical achievement and it bears directly on Part
+V's negative findings.
+
+**If sacrality is conferred by designation rather than found in a site, then the
+apparatus is portable.**
+
+And Masonry's is, radically. A lodge requires a room that can be closed, some
+furniture that can be improvised, and the agreement of enough qualified people.
+That is all. There is no consecrated ground, no relic, no building that must be
+used, no bishop who must attend.
+
+**The consequence is that Masonry went everywhere.** Lodges have been held in
+taverns, in private houses, in ships' cabins, in military camps under canvas, and —
+documented repeatedly — in prisoner-of-war camps, where men with no regalia and no
+furniture held meetings from memory.
+
+Compare a tradition whose sacrality is located in a place. It can be exported only
+by building, which requires money, permanence and permission.
+
+**Masonry's portability is a direct consequence of its having nothing physically
+sacred**, and it is the reason a fraternity that began in a handful of British
+lodges is now on six continents.
+
+**Which is also a piece of evidence about what the Craft was doing.** A body that
+concealed a doctrine in the proportions of its buildings would not have been
+indifferent to the buildings. Masonry was indifferent to them for two centuries,
+meeting wherever there was a room, and only began building monumentally from the
+1850s — long after everything this book examines was in place, and, as the preceding
+volume argued, for reasons of affluence and respectability rather than doctrine.
+
+**The tradition's expansive period was its portable one.** When it acquired
+buildings it acquired fixed costs and fixed locations, and the century in which it
+forgot that it needed neither is the century in which it began to contract.
+
+---
+
 ### What a building cannot do
 
 The chapter's limit, stated before Chapter 45 examines proportion.

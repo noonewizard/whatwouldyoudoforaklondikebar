@@ -116,6 +116,41 @@ warnings — which works in a small world and not otherwise.
 
 ---
 
+### What the comparison illuminates about secrecy
+
+There is a concept in modern security practice that describes the Masonic situation
+better than anything in the esoteric literature, and it is worth introducing because
+it settles an old confusion.
+
+**Security through obscurity** is the practice of relying on an adversary's
+ignorance of your method rather than on the strength of the method itself. It is
+considered poor practice, for the reason Kerckhoffs gave in 1883: methods leak, and
+a system that fails when the method becomes known fails permanently.
+
+**Masonic cipher practice is security through obscurity in its purest form.** The
+pigpen grid protects nothing once the layout is known, and the layout is in puzzle
+books.
+
+**Masonic ritual practice is not.**
+
+This is the distinction that resolves the three-hundred-year argument about whether
+Masonry has secrets. The ritual was published in 1730 — the method became entirely
+public — and the system did not fail. By the standard above, that means the system
+was never relying on obscurity.
+
+**What it relies on is that the valuable parts are not transmissible as
+information.** Standing is conferred, not learned. Competence is practised, not
+read. Membership is a relation, not a fact.
+
+In modern terms: **the Craft's security model does not depend on keeping a secret,
+and it was therefore immune to the disclosure that should have destroyed it.**
+
+That is a genuinely good design, and — as with everything else in this chapter — there
+is no reason to think anyone designed it. It is what you get when the valuable
+things in a system happen not to be the kind of thing that can be written down.
+
+---
+
 ### What the comparison is for
 
 Two things, and then the warning again.

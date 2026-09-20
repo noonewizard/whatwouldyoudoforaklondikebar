@@ -172,6 +172,61 @@ having.
 
 ---
 
+### Applying the tests to a claim you like
+
+The protocol is easy to use on other people's claims and hard to use on your own,
+and a chapter that did not say so would be incomplete.
+
+Three observations from having tried.
+
+**The tests are experienced as obstacles once a result is in hand.** Before the
+result, a control is an obvious precaution. Afterwards, it is a thing standing
+between you and an interesting finding, and the mind supplies reasons why it is not
+quite applicable here. I felt this distinctly at the second stage of the Atbash work
+and I am not confident I would have gone on to the third if the book had not been
+committed to printing its method.
+
+**Test 4 is the one people exempt themselves from.** Everybody agrees in principle
+that the procedure should be specified in advance. Almost nobody does it, because at
+the moment when it would have to be done — before starting — it feels premature. You
+do not yet know what you are looking for. That is the point, and it is also why the
+discipline feels wrong from inside.
+
+**And Test 10 is the one that is quietly skipped.** A striking pattern feels like
+evidence of intention, so strongly that the question *what independent evidence is
+there that someone placed this?* can seem pedantic. It is not pedantic. It is the
+entire difference between an observation and a finding.
+
+**The practical remedy is to write the tests down as a checklist and go through them
+in order, in writing, including the ones that seem obviously satisfied.** This
+sounds bureaucratic. It is bureaucratic. Bureaucracy is what you use when judgement
+is known to be unreliable, and Chapter 40 established that on this particular
+question everyone's judgement is unreliable, including the judgement of people who
+have read Chapter 40.
+
+---
+
+### What the protocol cannot do
+
+Three limits, stated so the reader does not over-trust it.
+
+**It cannot establish that nothing is hidden.** Failing the tests means a claim is
+not demonstrated, not that it is false. The Royal Arch question in Chapter 19 sits
+at E4 for exactly this reason: no route has been shown, and no route has been shown
+not to exist.
+
+**It cannot weigh a claim that makes no testable move at all.** A reading that
+declines to specify a procedure — "the symbolism suggests" — is not failing the
+tests; it is outside their scope. Such readings may be valuable as interpretation,
+and Chapter 52 argues that interpretation is what Masonic symbolism mostly invites.
+They are simply not claims about what anybody encoded.
+
+**And it cannot supply the historical knowledge that Tests 1, 2 and 8 require.**
+Provenance, dating and plausibility are answered by archives, not by procedure. The
+protocol tells you what to ask; the answers come from work.
+
+---
+
 ### The distinction underneath everything
 
 Stated once, plainly, because it governs all ten tests.

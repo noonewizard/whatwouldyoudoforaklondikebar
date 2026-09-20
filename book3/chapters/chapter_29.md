@@ -129,6 +129,48 @@ That is not a proof. It is a prior, and it is a reasonable one.
 
 ---
 
+### What Kelley was doing
+
+The question everyone asks, and the honest answer is that we do not know.
+
+Three accounts have been offered and the evidence does not settle among them.
+
+**Deliberate fraud.** Kelley had a criminal history, he was financially dependent on
+Dee, and the angels' pronouncements were on several occasions conspicuously
+convenient to him — most notoriously in the instruction that the two men share their
+wives, which Dee accepted with evident anguish and which is difficult to read
+charitably.
+
+**Genuine experience of some kind.** Scrying practices of the sort Kelley used —
+sustained attention on a reflective surface in low light — are the kind of conditions
+under which people do report imagery, and the phenomenon does not require any
+supernatural account. Whether Kelley was experiencing something and interpreting it,
+or reporting what he thought he ought to see, or inventing, may not have been a
+question he could have answered himself.
+
+**A mixture, shifting over seven years.** Which is what I would guess, and a guess
+is what it is.
+
+**What matters for this book is that the question does not affect the finding.**
+
+Whatever Kelley's mental state, the material was produced in that room, by those two
+men, between those dates. The manuscripts are in Dee's hand. The tables were
+constructed. The language did not exist in 1581 and did in 1589.
+
+**A sacred language came into being in recorded time, and we have the paperwork.**
+
+And note the asymmetry with every other case in this book. We can ask what Kelley
+was doing **because the documentation is complete enough to make the question
+meaningful.** For the compilers of the Masonic third degree, for the author of
+*Sefer Yetzirah*, for whoever assembled the *Zohar*, the question cannot even be
+posed in that form — there is no diary, no dated session, no named participant.
+
+**The one case we can interrogate is the one that was made.** That is not proof about
+the others. It is a fact about what happens when the evidence is good enough to
+answer with.
+
+---
+
 ### The afterlife
 
 Enochian did not stay in Dee's manuscripts.

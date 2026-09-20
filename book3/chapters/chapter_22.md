@@ -143,6 +143,43 @@ text and several readers.
 
 ---
 
+### What the practice looks like as a protocol
+
+Worth setting out formally, because the formal version shows what the ordinary
+description obscures.
+
+A **challenge-response** exchange has this structure. The verifier issues a
+challenge that the claimant could not have prepared for. The claimant must produce
+a response that depends on both the challenge and the shared secret. The verifier
+checks it.
+
+**The essential property is that observing a completed exchange does not enable an
+observer to pass a future one**, because the next challenge will be different.
+
+Now the Masonic exchange. The challenger begins a word; the respondent must continue
+it; the challenger continues; and the point at which the respondent is required to
+supply the next portion **is chosen by the challenger, not fixed in advance.**
+
+**That choice is the challenge.** A claimant who has overheard one exchange knows the
+word — but he has to produce the continuation from wherever this challenger chooses
+to stop, and if he is bluffing he cannot.
+
+**And the exchange doubles as a mutual authentication.** The respondent is also
+learning that the challenger holds the word, because the challenger has to produce
+his own portions correctly. Neither party has to trust the other first. This is a
+nontrivial property that modern protocols take some trouble to achieve.
+
+**None of this was theorised.** There is no eighteenth-century Masonic text setting
+out a security model. What there is, is a practice that has these properties, and
+the properties are why it worked.
+
+**Which is the pattern of this entire book.** Good solutions to stable problems are
+arrived at by people who could not have described what they had arrived at, and are
+describable afterwards in a vocabulary that did not yet exist. Convergence, not
+descent — and the convergence is on the problem, not on anybody's tradition.
+
+---
+
 ### The general lesson
 
 This case is small and it is the book's best illustration of something large.

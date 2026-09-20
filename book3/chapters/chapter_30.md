@@ -125,6 +125,45 @@ visible in their handwriting.
 
 ---
 
+### What a real unknown script looks like
+
+A useful contrast, because it shows how little the magical alphabets actually
+conceal.
+
+Genuine undeciphered scripts exist — Linear A, the Indus Valley script, Rongorongo.
+Their resistance has particular causes: an unknown underlying language, insufficient
+surviving text, no bilingual inscription, uncertainty about whether the signs are
+alphabetic, syllabic or logographic.
+
+**Deciphering one is a major intellectual achievement.** Ventris on Linear B took
+years and required a statistical approach, a guess about the underlying language
+that most experts thought wrong, and a confirming inscription that arrived
+afterwards.
+
+**Now consider Malachim.** Twenty-two or twenty-six signs, one-to-one with a known
+alphabet, written left to right or right to left according to the underlying
+language, with word division preserved and the underlying language being Latin or
+Hebrew or English.
+
+**It takes about ten minutes with the table, and the table is in Agrippa.**
+
+The comparison is not made to mock. It is made because the magical alphabets are
+routinely described as though they belonged to the first category, and they belong
+to neither — they are not undeciphered scripts and they are not ciphers in any
+meaningful sense. **They are typefaces.**
+
+**And that is the right way to think about their function.** A typeface signals
+register. Blackletter on a certificate, italic for a title, a particular face for a
+brand — none of this conceals anything, and all of it communicates something about
+what kind of text you are looking at.
+
+Celestial script says *this writing is addressed elsewhere*. That is a real
+communicative act and it is not concealment, and the tradition that used it was not
+confused about the difference. The confusion is entirely modern, and it comes from
+reading "secret alphabet" and supplying the wrong noun.
+
+---
+
 ### Why the mistake gets made
 
 Three reasons, and they compound.

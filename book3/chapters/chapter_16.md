@@ -185,6 +185,44 @@ and fails the rest.
 
 ---
 
+### The Templar problem, independently
+
+Set the computation aside entirely and the claim has a historical difficulty that
+would sink it even if the arithmetic had held.
+
+**"Baphomet" is not a Templar word in any secure sense.**
+
+It appears in the depositions taken during the proceedings against the order from
+1307 — testimony extracted under judicial torture, in a prosecution with a
+predetermined outcome, by interrogators working from a prepared list of charges.
+
+**The forms vary wildly.** Baphomet, Baffometi, Baphometh, and others. Witnesses
+described the alleged object of veneration in mutually incompatible terms: a head,
+a cat, an idol with three faces, a bearded figure. **The testimony does not agree
+with itself**, which is what testimony under torture characteristically looks like.
+
+And there is a strong philological alternative that has been available for a long
+time: that *Baphomet* is a corruption of *Mahomet* — that the charge was of
+venerating an idol of Muhammad, which was a standard accusation against groups
+suspected of eastern contamination, and which Christians of the period wrongly
+believed Muslims practised.
+
+**That explanation requires nothing but the ordinary behaviour of medieval
+polemic**, and it accounts for the variant forms as transmission noise.
+
+**So the claim asks us to apply a Hebrew cipher to a word of uncertain form, from
+coerced testimony, attributed to an order with no demonstrated knowledge of Hebrew
+or of Atbash, in order to recover a Greek term.**
+
+Test 1 and Test 8, and each is fatal on its own.
+
+**And the Masonic relevance is nil even if every step held**, because it would be a
+finding about the Templars, and the documentary chain from the Templars to
+Freemasonry fails at the fifteenth-to-eighteenth-century gap — which Book I of this
+series established at length and which no subsequent work has repaired.
+
+---
+
 ### Why the sequence is printed
 
 I could have reported only the third attempt. It would have been shorter and I

@@ -154,6 +154,50 @@ years.
 
 ---
 
+### The comparison that makes the case
+
+There is one piece of evidence for the "designed absence" reading that is stronger
+than anything else available, and it comes from what happened next in France.
+
+**Between roughly 1740 and 1780, French Masonry generated hundreds of higher
+degrees.**
+
+The scale is genuinely remarkable. Rites of twenty-five degrees, of thirty-three, of
+ninety and more. Systems proliferated, competed, merged, collapsed. The Rite of
+Perfection, the Strict Observance, the Élus Coëns, Memphis-Misraïm and dozens of
+smaller bodies now known only from their own paperwork.
+
+**And what nearly all of them did was supply.**
+
+Higher degrees offered more: more knowledge, more titles, more elaborate
+ceremonies, and — repeatedly — the recovery of what the Craft had withheld. Secrets
+promised, lineages asserted, unknown superiors invoked. Von Hund's Strict Observance
+was organised entirely around the claim that hidden masters were directing it, and
+he could never produce one.
+
+**The market wanted delivery, and the market was served.**
+
+Against that background the Craft's refusal is not a default. It is a **choice that
+was made repeatedly and could have been unmade at any point**, in a period when
+every commercial and institutional pressure ran the other way, and when the people
+making the choice could see their competitors making the opposite one.
+
+**English Craft Masonry kept three degrees and a substituted word while the
+Continent was selling ninety degrees and the secret of the ages.**
+
+I do not think anyone articulated a reason. What I think is that the version that
+kept the space empty went on working, and the versions that filled it mostly did
+not — Wilhelmsbad investigated the Strict Observance's Templar claim in 1782 and
+rejected it, and that body did not survive the rejection.
+
+**A claim that cannot be checked will eventually be checked.** A declared absence
+cannot be falsified, because it asserts nothing.
+
+That is a selective advantage, and three centuries is long enough for selection to
+operate.
+
+---
+
 ### Two readings I am not endorsing
 
 **That the lost word is the Tetragrammaton.** Widely asserted and unevidenced for

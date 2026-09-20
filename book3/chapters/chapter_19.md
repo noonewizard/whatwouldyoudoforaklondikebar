@@ -162,6 +162,43 @@ have been assembled from Christian materials, and that nobody has shown which.
 
 ---
 
+### A note on what jurisdictional variation means
+
+This book has repeatedly said that Masonic practice varies between constitutions,
+and it is worth pausing on what that implies, because it is treated in the popular
+literature as a minor administrative fact and it is not.
+
+**There is no such thing as Masonic ritual.** There are Masonic rituals, plural,
+which differ in wording, in staging, in the number and function of officers, in
+lectures, in what is explained and what is left alone — and which differ enough that
+a visitor from one constitution attending another will notice constantly.
+
+**Three consequences bear on everything in this book.**
+
+**Any claim about "the Masonic word" must specify whose.** A great deal of writing
+on this subject quotes a form, from an unstated jurisdiction, at an unstated date,
+and proceeds as though it were universal. The form is then subjected to
+transformation, and the transformation's output depends entirely on the choice of
+form.
+
+**Variation is itself evidence about origins.** A text transmitted from a single
+authoritative source and guarded would not diverge this way. What diverges like this
+is material transmitted orally, locally, by memory and apprenticeship, with
+periodic local revision — which is exactly what the documentary record shows
+happening.
+
+**And variation constrains what can be carrying information.** Chapter 38's test
+applies: a feature that differs between jurisdictions is not stable, and an unstable
+feature cannot be encoding a doctrine. The substituted word varies; the structural
+fact of substitution does not.
+
+**What survives divergence is what nobody was willing to change**, and across three
+centuries and six continents the Craft has been willing to change nearly everything
+except the shape of the thing: a word, a manner of exchanging it, a loss at the
+summit, and a substitute declared as one.
+
+---
+
 ### What substitution teaches
 
 Return to the Craft, and to the difference between the two degrees.

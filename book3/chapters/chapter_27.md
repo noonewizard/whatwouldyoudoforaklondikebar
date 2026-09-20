@@ -155,6 +155,51 @@ gets.
 
 ---
 
+### The problem of the practitioner's testimony
+
+A methodological difficulty that Part VI has to face, because it governs what can be
+said about any of this material.
+
+**Almost everything we know about magical practice comes from practitioners.**
+
+The papyri are working documents. The grimoires are manuals. The Enochian material
+is Dee's own record. In each case the source is a person committed to the practice,
+describing it from inside.
+
+This creates a problem with two horns.
+
+**Discount the testimony and you have no evidence at all.** There is no external
+observer of a fourth-century Egyptian operation, no disinterested party in Dee's
+study. Refusing practitioner testimony leaves the subject empty.
+
+**Accept it uncritically and you have adopted the practitioners' framework**,
+including their account of what happened and why.
+
+**The way through is to distinguish what the testimony is good evidence *for*.**
+
+It is excellent evidence for **what was done**: the words, the materials, the
+timing, the sequence. These are procedural details a practitioner has no motive to
+misreport and every motive to record accurately, since the procedure was held to
+require precision.
+
+It is good evidence for **what was believed**, which is what the practitioner is
+directly reporting.
+
+It is poor evidence for **what occurred**, because that is precisely where the
+practitioner's framework does its work — and the honest historian's position is that
+the question is not answerable by this route.
+
+**This book applies that division throughout.** Where it reports that a grimoire
+prescribes fasting and a circle, it is reporting a fact. Where it reports that a
+practitioner believed a spirit appeared, it is reporting a belief. It does not
+report that a spirit appeared, and it does not report that none did.
+
+**That is the Type E decline**, and it is not an evasion. It is the recognition that
+historical method has a range, and that claims about supernatural efficacy fall
+outside it in both directions.
+
+---
+
 ### Why the mistake persists
 
 If the distinction is this clean, why does the occult reading of Masonic words

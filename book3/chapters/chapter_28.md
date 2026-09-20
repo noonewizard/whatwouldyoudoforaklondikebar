@@ -125,6 +125,48 @@ modality from the conjuration and it is at least as widespread.
 
 ---
 
+### The efficacy problem, from inside
+
+Something the grimoire literature does that repays attention, because it shows a
+tradition managing exactly the difficulty Chapter 42 was written about.
+
+**The texts are heavily concerned with failure.**
+
+Instructions are hedged with conditions. The operator must fast, must be in a state
+of grace, must use materials prepared at the correct hour, must not deviate. And the
+literature is explicit that failure to observe these renders the operation void.
+
+**This is unfalsifiability by construction**, and it is worth saying plainly that
+the construction is not necessarily cynical. A tradition genuinely believing that
+precision matters will elaborate the conditions, and the elaboration will have the
+side effect of explaining every negative result.
+
+**Every failed operation has an available cause that is not the theory.** The
+operator erred. The hour was wrong. The parchment was improperly prepared. The
+practitioner was insufficiently pure.
+
+Compare the structure of a claim that can fail. *If this procedure is performed
+correctly, X will occur* is testable only if "performed correctly" can be
+established independently of whether X occurred. In the grimoire tradition it
+cannot, because correctness is judged partly by the result.
+
+**This is the same circularity that Chapter 42's Test 4 addresses in a different
+domain**, and the parallel is exact: a criterion fixed after the outcome is known
+cannot test anything.
+
+**I am not offering this as a refutation**, and it should not be read as one. It is
+an observation about the logical structure of the claims, which does not settle
+whether any of them are true. A true claim can be stated unfalsifiably — the
+unfalsifiability is a property of the formulation rather than of the fact.
+
+**What it does establish is that the tradition cannot be assessed on its own
+evidence**, because its evidence is constructed so that nothing counts against it.
+Anyone wanting to know whether grimoire operations work would have to build a test
+from outside, with the success conditions fixed in advance — which is what Part IX
+describes and what has never, to this study's knowledge, been done.
+
+---
+
 ### The Masonic comparison, one more time
 
 Run the whole apparatus against Craft ritual and the result is the same as Chapter

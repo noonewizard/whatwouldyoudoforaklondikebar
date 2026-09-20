@@ -117,6 +117,44 @@ somewhere, and it goes somewhere unexpected.
 
 ---
 
+### The one place a word really was lost
+
+Before dismissing the category, it is worth looking at the nearest thing to a
+genuine case, because it shows what a real loss looks like and how different it is.
+
+**Etruscan.**
+
+The language was spoken in central Italy for centuries, written in an alphabet
+derived from Greek, and left thousands of inscriptions. The script is entirely
+legible — anyone can transliterate an Etruscan inscription and say what sounds it
+records.
+
+**And the language is largely not understood**, because it is an isolate with no
+close relative, and the surviving corpus is overwhelmingly short formulaic
+material: funerary inscriptions, dedications, names and dates. There is no
+literature, no bilingual text of any length, and nothing that would let the
+vocabulary be reconstructed.
+
+**That is a genuine loss and note its shape.** Not the letters — those survive. Not
+the sounds — the script records them. What is gone is the **connection between the
+words and what they meant**, because the community that held that connection ceased
+to exist and wrote nothing down that would preserve it.
+
+**And it is unrecoverable by ingenuity.** No transformation applied to Etruscan
+inscriptions will yield their meaning. Only new evidence would — a substantial
+bilingual text, which is why the discovery of the Pyrgi tablets in 1964, with
+parallel Etruscan and Phoenician, was such an event.
+
+**Apply this to the Masonic case and the contrast is total.** The Masonic word is
+not an untranslatable string from a dead language. It is a word in a known language,
+in continuous use, transmitted without interruption, whose meaning nobody has ever
+doubted.
+
+**What the third degree says is missing is not meaning.** It is something else, and
+Chapter 18 spends its length on what.
+
+---
+
 ### The thing that cannot be lost
 
 A word is not an object. This sounds like a quibble and it is the hinge of the

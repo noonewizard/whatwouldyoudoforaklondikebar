@@ -113,6 +113,47 @@ its work.
 
 ---
 
+### The name you are given and the name you take
+
+A distinction that matters for what Masonry does, and which the philosophical
+literature on naming tends to pass over because it is social rather than semantic.
+
+**Most names are imposed.** You did not choose yours. It was conferred by others,
+before you could object, and the conferring established a chain that you inherited
+rather than joined.
+
+**Some names are assumed.** A religious name taken at profession. A regnal name. A
+pen name. A name taken at conversion, or on entering an order.
+
+**The difference is not semantic — both refer perfectly well — but social, and it is
+large.** An assumed name marks a discontinuity: the person who bears it is
+presenting themselves as, in some respect, not the person who bore the previous one.
+Every tradition that renames at initiation is using this.
+
+**Masonry does something in between, and the in-between is interesting.**
+
+A candidate keeps his name. He is not renamed, and the Craft has no tradition of
+religious names or motto-names of the kind several other initiatory bodies use.
+
+**But he is given a designation** — Entered Apprentice, Fellow Craft, Master Mason —
+which is conferred rather than assumed, applies only within the institution, and
+changes as he progresses.
+
+**And he is given words which are neither.** The word of a degree is not a name for
+him; it does not designate him, and he does not answer to it. It is something he
+*carries*, and its function is to be produced on demand.
+
+**Three different relations to language, in one ceremony**: a personal name he keeps,
+a status name he receives, and a token he holds. The commentary tradition has
+frequently merged the second and third, treating the Masonic word as though it
+described the candidate's spiritual condition.
+
+**It does not.** The degree name classifies him. The word identifies him. Chapter 8
+sets out why those are different operations, and keeping them apart resolves a good
+deal of confusion about what the Lost Word could possibly have signified.
+
+---
+
 ### Address, and the dark
 
 Return to the room.

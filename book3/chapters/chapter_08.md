@@ -146,6 +146,46 @@ are the Adamic programme in miniature, and they inherit its problem.
 
 ---
 
+### Who is permitted to name
+
+A dimension of the Genesis scene that its theological readings tend to pass over,
+and that bears directly on this book's argument about authority.
+
+**Naming rights are distributed and contested in every society that has them.**
+
+Parents name children — but registrars can refuse. Discoverers name species — but
+under rules, enforced by bodies, with procedures for invalidation. Scientists name
+elements, after a committee has ruled. Monarchs name successors. Conquerors rename
+cities, and the renaming is understood by everybody as an assertion of possession.
+
+**What this makes visible is that naming is not one act but two**: the utterance,
+and the *standing to make it stick.*
+
+**A name conferred without standing does not take.** A man who declares a new name
+for a mountain has said something; the mountain's name has not changed. The same
+utterance from a national mapping authority changes the maps.
+
+Which is Chapter 3's distinction arriving in a different domain. **The words are
+identical and the authority is not**, and the authority is where the effect lives.
+
+**And it reframes what Genesis 2 is doing.** God does not merely watch the man name
+the animals; the text specifies that whatever he called them, *that was its name.*
+**The ratification is the grant.** What the human being receives is not the ability to
+utter names — anyone can utter — but the standing for his utterances to take effect.
+
+**That is the thing the Masonic third degree says is unavailable.**
+
+Not a string. Not a meaning. The candidate has the room, the office and the
+preparation, and is told that the word which would complete the sequence cannot be
+supplied — which, read through this chapter, is a statement about where the chain of
+ratification stops.
+
+Chapter 18 develops this. It is noted here because Genesis 2 is where the
+distinction between saying and being-entitled-to-say first appears in the Western
+material, and everything in Part XI depends on it.
+
+---
+
 ### The Masonic connection, stated narrowly
 
 A candidate in a Masonic ceremony is not asked to name anything. There is no

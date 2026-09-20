@@ -114,6 +114,51 @@ That is convergence, and it is the finding of all three volumes of this series.
 
 ---
 
+### How many names is too many
+
+A structural observation about the divine names that has consequences for the whole
+of Part III.
+
+**A tradition with one name for its deity and a tradition with many are in different
+situations**, and the difference is not merely quantitative.
+
+**One name** makes the name a designator in the simplest sense. To use it is to refer,
+and there is no question of choosing.
+
+**Many names** makes naming a *selection*, and selection implies aspect. To call God
+*Elohim* rather than *YHWH*, or *Shaddai* rather than *Adonai*, is to say something —
+or at least, later readers will take it to.
+
+**And this is precisely where the interpretive tradition enters.**
+
+Once a text uses several names, the alternation becomes data. Why this name here?
+Rabbinic interpretation developed an elaborate answer: *Elohim* associated with
+justice, *YHWH* with mercy, and the alternation in a narrative read as indicating
+which divine attribute is operative.
+
+**Modern source criticism developed a different answer**: the alternation reflects
+distinct literary sources combined by a redactor, and the pattern is evidence about
+the text's composition rather than about divine attributes.
+
+**Both readings treat the alternation as significant, and they cannot both be
+right about why.**
+
+This book does not adjudicate between them, and a reader should be suspicious of any
+account that does so casually — the documentary hypothesis and its successors are a
+technical field with a century and a half of argument, and the rabbinic reading is a
+theological tradition with its own coherence.
+
+**What matters here is the shape of the situation.** A feature of a text — the
+choice among several available names — is undeniably present, and two sophisticated
+traditions have built incompatible explanations on it.
+
+**That is what a genuinely ambiguous datum looks like**, and it is a useful
+calibration for Part IX. Not every pattern is spurious. Some are real, significant,
+and genuinely underdetermined by the evidence — and the honest response is to name
+the competing accounts rather than to pick.
+
+---
+
 ### The Name and its keeping
 
 One further matter, because it is the hinge between this chapter and Part III.

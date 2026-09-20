@@ -164,6 +164,46 @@ produce identical evidence.
 
 ---
 
+### Silence and the impossibility of checking
+
+One further function, and it is the one with the sharpest implications for this
+book's later parts.
+
+**Silence removes the possibility of correction.**
+
+A tradition that states its doctrines can be argued with. Its claims can be compared
+across generations, checked against sources, found inconsistent. Statement creates a
+surface that criticism can get purchase on.
+
+**A tradition that shows and does not explain offers no such surface.**
+
+This is not an accusation of evasion. Masonic ritual does not explain itself for a
+documented institutional reason: Anderson's 1723 settlement removed doctrinal
+authority in order to admit men of differing religions, and a body that cannot
+adjudicate religion cannot adjudicate the meaning of its own symbols either.
+
+**But the consequence is the same whatever the motive.** Nobody can be wrong about
+what the rough ashlar means, because nothing authorises a correction.
+
+**Two things follow, and they pull in opposite directions.**
+
+**The tradition became extraordinarily accommodating.** A Christian, a Jew, a deist
+and a sceptic can all work the same ceremony and take from it whatever their
+convictions allow. This is why Masonry spread across confessional boundaries that
+almost nothing else crossed in the eighteenth century, and it is a genuine
+achievement.
+
+**And the tradition became extraordinarily vulnerable to annexation.** If no reading
+can be ruled out, then the occult reading cannot be ruled out either, and Chapter 35
+describes what happened when the nineteenth century arrived with a system looking
+for a home.
+
+**The vacancy that made the Craft universal is the vacancy that made it
+colonisable.** Those are not two facts about Freemasonry. They are one fact, and
+this book will meet it repeatedly.
+
+---
+
 ### Back in the room
 
 The candidate is still standing in the dark, and nobody has spoken for a while.

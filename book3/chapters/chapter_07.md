@@ -165,6 +165,49 @@ any account that presents either side as settled.
 
 ---
 
+### Translation as transformation
+
+A point that belongs here because the Logos material is the clearest instance, and
+because it governs how this book reads every translated source.
+
+**Translation is not transfer. It is reconstruction, and the reconstruction makes
+commitments the original did not.**
+
+*Logos* is the demonstration. Any translator rendering it into English must choose:
+*word*, *reason*, *account*, *principle*, *discourse*. The Greek carries all of
+these at once. English has no term that does, so every rendering is a selection, and
+the selection imports a commitment the original left open.
+
+**"In the beginning was the Word" is a choice**, and a reader of the English
+receives a text about *speech* where the Greek is at least as much about *order* and
+*reason*. Four centuries of English-language theology and devotion have been shaped
+by a decision made by translators.
+
+**Three consequences for this book.**
+
+**Arguments from translated vocabulary are weak.** A correspondence between an
+English rendering of a Greek term and an English rendering of a Hebrew one may
+reflect the translators' shared vocabulary rather than any relation between the
+sources. Chapter 42's Test 3 applies: the rule has to be documented, and "both were
+translated into English using the same word" is not a rule about the originals.
+
+**The Septuagint is the great case.** Rendering YHWH as *kyrios* — *Lord* — was a
+translational decision with enormous downstream effect, since it is through the
+Greek that most of Europe received the material, and *Lord* carries connotations of
+social hierarchy that the Hebrew proper name does not.
+
+**And every Western esoteric appropriation of Kabbalah runs through translation.**
+Mathers translated Knorr's Latin, which translated Aramaic. **Two translations, two
+sets of choices, two opportunities for commitment** — and the readers of the English
+generally did not know they were reading a translation of a translation.
+
+Chapter 34 traces that chain. The point here is that translation is where a great
+deal of apparent transmission actually happens: not the movement of ideas, but the
+movement of *words*, acquiring content at every step from the languages they land
+in.
+
+---
+
 ### What the Western reader inherits
 
 The point of this chapter is not that Freemasonry took anything from any of it. It

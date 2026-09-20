@@ -162,6 +162,49 @@ stays under pressure.**
 
 ---
 
+### Why the substitute is not a lie
+
+A question that occurs to most people who encounter the third degree, and which the
+performative framework answers cleanly.
+
+**If the word is a substitute, is the ceremony deceiving anybody?**
+
+No, and the reason is structural rather than a matter of good intentions.
+
+**Deception requires a false representation.** The candidate is told, explicitly,
+that what he is receiving stands in place of something unavailable. The
+representation is accurate. He knows what he has and he knows what it is not.
+
+Compare the alternatives the compilers could have taken. They could have given him a
+word and called it the Master's Word, which would have been a false representation
+and which nobody could have contradicted. They could have promised it in a further
+degree and charged for it, which the Continent did on an industrial scale within
+twenty years.
+
+**They did neither, and the declaration is in the ceremony.**
+
+**In Austin's terms, the Craft declares its own infelicity.** It performs a rite
+while announcing that one of the conditions for the full performance is not met, and
+it tells the person being acted upon.
+
+**This is a rarer institutional posture than it sounds.** Most bodies in this
+position conceal the gap — the succession is asserted to be unbroken, the authority
+to be intact, the transmission to be complete. Declaring an incompleteness invites
+exactly the question that institutions least want asked.
+
+**And the preceding volume noted the same restraint elsewhere in the Craft.** At the
+summit of the system there are no hidden masters, no unknown superiors, no secret
+chiefs. Every order that came after filled that space — von Hund with Unknown
+Superiors, Blavatsky with Masters, Mathers with Secret Chiefs. The Craft left it
+empty and said so.
+
+**Whether that reflects honesty or merely a lack of opportunity cannot be settled**,
+and Chapter 18 declines to settle it. What can be said is that the design held, and
+that a ceremony which tells a man the truth about what he is receiving has done
+something most ceremonies do not.
+
+---
+
 ### The obligation
 
 One last application, and it is the strongest instance in the Craft.

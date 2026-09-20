@@ -149,6 +149,47 @@ and this book's standing rule applies: they may not be exchanged mid-argument.
 
 ---
 
+### The names that survived
+
+A detail that disposes of the "concealment" reading more effectively than any
+argument, and which is hiding in plain sight in the biblical text.
+
+**Hebrew personal names are full of the divine Name.**
+
+Every name ending in *-iah* or *-yahu* carries an element of it: Isaiah, Jeremiah,
+Obadiah, Zechariah, Hezekiah. Every name beginning *Jeho-* or *Yeho-* does the same:
+Jehoshaphat, Jehoiakim, Jehonathan.
+
+**These names went on being given for centuries after the Name itself ceased to be
+pronounced**, and they are pronounced daily, by everyone, without difficulty or
+anxiety.
+
+**Consider what that means.** If the restriction were about preventing access to a
+powerful word — if the concern were that an outsider might obtain the Name and use
+it — then names containing it would be a catastrophic leak. They are spoken
+constantly, by anybody, in public, and they preserve a substantial part of the
+vocalisation.
+
+**Nobody minded, and nobody has ever minded.**
+
+Which tells us that the restriction was never about access. **It was about use.** The
+Name is not to be uttered *as the Name*, in the way one utters a designation. Its
+presence inside a personal name is a different act, and the tradition has always
+treated it as one.
+
+**And it is the principal evidence for the reconstruction discussed above.** The
+theophoric names preserve a living vocalisation of the element — *Yeho-* at the
+start, *-yahu* at the end — transmitted continuously in a tradition that never
+stopped saying them. That is why scholars can say anything at all about how the
+Name sounded.
+
+**The thing that was allowed to lapse is precisely the thing nobody needed for any
+other purpose.** What was useful — the names of one's ancestors and neighbours —
+survived intact, because it was in constant use and because using it was never the
+thing that was restricted.
+
+---
+
 ### What a Mason inherits
 
 The candidate in the third degree is not being taught any of this. The Craft does

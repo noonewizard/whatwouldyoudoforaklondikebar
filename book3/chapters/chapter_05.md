@@ -134,6 +134,45 @@ claims — including, at one point, on a claim this book got wrong first time.
 
 ---
 
+### The question that cannot be asked
+
+One structural feature of catechetical transmission deserves notice, because it
+shapes what a tradition of this kind can and cannot contain.
+
+**A catechism transmits answers to fixed questions and has no place for a question
+nobody thought to ask.**
+
+Consider what this excludes. A candidate cannot ask why the ceremony has the shape
+it has. He cannot ask when it was composed, or by whom, or what it replaced. He
+cannot ask whether the explanation he has been given is the original one. The form
+does not accommodate these, because the form is a sequence of prepared exchanges and
+there is no slot for an unprepared one.
+
+**This is not censorship.** Nothing forbids a Mason from asking historical questions,
+and Masonic scholarship — the Quatuor Coronati tradition from 1886 onward — has
+asked them rigorously and published the answers.
+
+**But the ritual itself is silent**, and silence in a transmission channel has a
+specific effect: **what is not transmitted is not merely absent but invisible.** A
+member who knows the catechism has no way of knowing what the catechism does not
+contain.
+
+**Which is one reason the Craft's own history came as a surprise to it.** The
+discovery, largely in the twentieth century, that the third degree dates from the
+1720s rather than from antiquity was made by scholars working with documents, and
+it contradicted what generations of members had been told in lectures that the
+ritual itself never authorised.
+
+**The ceremony transmits the ceremony. It does not transmit a history**, and the
+history that filled the vacancy — Anderson's traditional account in 1723, and its
+elaborations — was supplied from outside and has been steadily dismantled since.
+
+That is a useful thing to know before reading the rest of this book, because a good
+deal of what follows consists in asking questions that the tradition's own
+transmission channel had no way to pose.
+
+---
+
 ### What is being withheld from the reader
 
 A final note in the spirit of the chapter, since a book about withholding should be

@@ -140,6 +140,47 @@ evidence about them.
 
 ---
 
+### Speech, and what it does not require
+
+An observation about Genesis 1 that is easy to miss and that bears on everything in
+Part VI.
+
+**Divine speech in Genesis requires no technique, no preparation and no
+conditions.**
+
+Compare what the magical traditions of Chapter 28 specify. The operator must fast,
+wash, abstain, prepare instruments, consecrate a space, observe planetary hours,
+pronounce with precision. **Dozens of conditions, any of which may void the
+operation.**
+
+Genesis has none. God says, and it is.
+
+**This asymmetry is theologically deliberate and it is worth naming.** A power that
+requires technique is a power constrained by something — by the nature of the
+materials, by the cooperation of other agents, by the correctness of procedure. The
+Genesis account is specifically refusing to describe a constrained power.
+
+**And it has a consequence that runs through this entire book.** The text describes
+creative speech and supplies no method, which means that **nothing in it can be
+imitated.** There is no formula to learn, no sequence to reproduce, no name to
+pronounce.
+
+Contrast the traditions that *do* supply methods. Every one of them, from the Greek
+papyri to the grimoires, offers procedures — because a tradition teaching
+practitioners must give them something to do.
+
+**Genesis is not teaching practitioners.** It is making a claim about how things came
+to be, addressed to a community that is not being invited to try it.
+
+**Which is why the later appropriation had to add so much.** When Hebrew divine
+names enter the magical literature, they arrive accompanied by an apparatus the
+Hebrew Bible does not contain and would not have countenanced: hours, seals,
+circles, compulsions. The names were taken; the restraint was left behind.
+
+That is a datable transformation, and Chapter 28 traces it.
+
+---
+
 ### The thing Genesis does not say
 
 One more observation, and it is the one that connects this chapter to the rest.

@@ -42,7 +42,7 @@ officers could be read against a Temple triad, and the tradition duly developed
 such readings, with the particular identifications varying between rites and
 jurisdictions.
 
-Apply Chapter 8's disagreement principle. When jurisdictions agree on the
+Apply the disagreement principle. When jurisdictions agree on the
 structure of offices but disagree about which Temple figures those offices
 represent, the structure was inherited and the identification was supplied. That
 is what the evidence shows here.

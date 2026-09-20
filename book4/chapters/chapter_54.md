@@ -102,7 +102,7 @@ used it for.
 
 Its great vice is that comprehensiveness is indistinguishable from unfalsifiability.
 A system in which everything corresponds to everything will always produce a
-correspondence, and Chapter 9's warning applies with full force: a method that
+correspondence, and Chapter 72's warning applies with full force: a method that
 cannot fail to find a pattern has told you nothing when it finds one.
 
 Both things are true at once. It is a serious intellectual artefact and a poor

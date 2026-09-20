@@ -1,3 +1,5 @@
+# PART X — THE TEMPLE AND CONSCIOUSNESS
+
 # CHAPTER FORTY-SIX
 ## Architecture Changes Behavior
 

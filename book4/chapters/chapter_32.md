@@ -69,7 +69,8 @@ He is not, in these documents, called Hiram Abiff.
 
 ### What the unstable name tells us
 
-A great deal, if we apply the disagreement principle from Chapter 8.
+A great deal, if we apply the disagreement principle carried from the preceding
+volumes.
 
 When sources agree closely on a name, the name was carried. When sources disagree
 wildly on a name while agreeing on the role, **the role was carried and the name
@@ -116,7 +117,7 @@ resisted.
 The first is to mine them for hints — to read the two pillars of Lamech's children
 as Jachin and Boaz in disguise, or the Euclid material as a coded transmission. The
 texts do not support this, and the method that finds such things will find them in
-any corpus large enough. Chapter 9 explained why.
+any corpus large enough. Chapter 15 explained why.
 
 The second is to dismiss them as a fanciful pedigree attached to a builders' union.
 This underrates what they actually accomplished. For three centuries, a trade with

@@ -1,3 +1,5 @@
+# PART IX — THE TEMPLE OF THE HUMAN BEING
+
 # CHAPTER FORTY-ONE
 ## The Body as Temple
 
@@ -103,7 +105,7 @@ rebuilding one's life, breaking down and putting back together. Popular self-hel
 uses them constantly.
 
 It is tempting to present this as a survival — the old Temple language resurfacing
-in secular form. The temptation should be resisted, for the reason Chapter 9 gave.
+in secular form. The temptation should be resisted, for the reason Chapter 5 gave.
 Construction metaphors are near-universal in languages spoken by people who build
 things, because the source domain is concrete, manipulable, and shared. Their
 appearance in one place is no evidence of transmission from another.

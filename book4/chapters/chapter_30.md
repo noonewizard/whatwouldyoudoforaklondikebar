@@ -1,3 +1,5 @@
+# PART VII — FROM TEMPLE TO FREEMASONRY
+
 # CHAPTER THIRTY
 ## The Temple Enters Masonry
 

@@ -43,7 +43,8 @@ medieval and Renaissance Europe. It is one of the most widely distributed ideas 
 the history of thought.
 
 That distribution, however, is precisely what makes it evidentially weak for
-transmission purposes. By Chapter 9's rule, an idea that appears nearly everywhere
+transmission purposes. By the half-of-everything rule, an idea appearing nearly
+everywhere
 carries almost no information about lineage. Finding microcosm doctrine in two
 traditions is not evidence that either learned it from the other.
 

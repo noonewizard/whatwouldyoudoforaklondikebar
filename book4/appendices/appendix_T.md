@@ -17,8 +17,8 @@ distinction in Parts XI–XII.
 taken away, or altered without harm (ch 56).
 
 **Disagreement principle.** When sources agree on a role but disagree widely on the
-details attached to it, the role was transmitted and the details were not (chs 8,
-32, 40).
+details attached to it, the role was transmitted and the details were not (chs 32,
+40). Carried from the preceding volumes.
 
 **Emplacement.** Jonathan Z. Smith's thesis that ritual works substantially by
 declaring where it is, making ordinary actions significant by location (chs 34,
@@ -32,7 +32,7 @@ gives a single analysis the error rate of many (ch 72).
 
 **Half-of-everything rule.** A feature with very low cardinality — a shape anyone
 can draw, a direction with two options — carries almost no information about
-descent (chs 9, 26, 36).
+descent (chs 5, 26, 36, 39). Carried from the preceding volumes.
 
 **Hekhalot / Merkavah.** Late-antique Jewish visionary literature of ascent through
 heavenly palaces to the divine throne-chariot (ch 52).

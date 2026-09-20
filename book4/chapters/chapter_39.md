@@ -46,7 +46,8 @@ discussing the man who bears fortune well. Chinese moral literature uses the
 carpenter's square and compasses as a standing figure for correct conduct. English
 has "on the square" and "a square deal" as ordinary idiom.
 
-This distribution is exactly what Chapter 9's half-of-everything rule warns about.
+This distribution is exactly what the half-of-everything rule of Chapter 5 warns
+about.
 A tool that every builder owns, producing a figure that every culture with
 right-angled buildings needs, generating a metaphor that any language might reach
 for — such a symbol carries almost no information about lines of descent. Its

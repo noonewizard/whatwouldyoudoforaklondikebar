@@ -2,10 +2,14 @@
 ### Sacred Architecture, Memory, and the Masonic Imagination
 **Robert E. Lee Ringler**
 
-**Status: RESEARCH DOSSIER COMPLETE. Awaiting `BEGIN MANUSCRIPT`.**
+**Status: COMPLETE.** Research dossier and full manuscript.
 
-Per the master prompt's First Command, drafting has not begun and no chapter has
-been written.
+Assembled manuscript: `manuscript/full_manuscript.md` — **98,668 words**,
+90 chapters in 18 parts, prologue, epilogue, 20 appendices, illustration list,
+bibliography, index framework. Rebuild with `python3 manuscript/assemble.py`.
+
+Final audits: `audits/FINAL_AUDITS.md` — six audits, with the failures they found
+and what was changed.
 
 ---
 
@@ -49,10 +53,10 @@ Plus, beyond the required list: `research/research_gaps.md` and
 |---|---|---|
 | Sources | 150+ | **162** |
 | Chapters | ~90 | **90** (brief's own outline; no reconciliation needed) |
-| Words | 90,000–110,000 | **~105,000–108,000 projected** |
+| Words | 90,000–110,000 | **98,668 assembled** |
 | Illustrations | 60–90 | **78** |
-| Appendices | A–T (20) | Scoped in architecture; full text pending manuscript |
-| Computational verification | required | **Executed, not planned** — 4 scripts run |
+| Appendices | A–T (20) | **20, written** (`appendices/`) |
+| Computational verification | required | **Executed, not planned** — 6 scripts run |
 | Executive thesis | 3,000–5,000 w | **3,179** |
 | Prospectus | 3,000–5,000 w | **3,470** |
 
@@ -60,7 +64,7 @@ Plus, beyond the required list: `research/research_gaps.md` and
 
 ## THE COMPUTATIONAL RESULT THAT ORGANIZES PART XV
 
-All four scripts in `research/computational_verification/` are re-runnable.
+All six scripts in `research/computational_verification/` are re-runnable.
 
 - **Temple dimensions**: raw MT ratios (3:1, 2:1, 2:3); the Holy of Holies as a
   stated 20-cubit cube; the Molten Sea's implied π=3, with the rim/bore
@@ -69,6 +73,12 @@ All four scripts in `research/computational_verification/` are re-runnable.
   dimensions, with a matched control building. **The control reproduces the
   Temple set's hit rate** — the method cannot distinguish designed from
   arbitrary dimensions.
+- **Golden ratio, systematic controls** (the gap this README originally declared,
+  now closed): 10 named 11-value comparison sets and a 20,000-run synthetic null.
+  **The Temple returns 1 hit and scores at or below all ten comparisons; 95.66%
+  of random sets match or beat it.** A post-hoc diagnostic, flagged as post-hoc,
+  attributes this to its 11 values collapsing to 7 distinct values and 35
+  distinct ratios dominated by clean small integers.
 - **Gematria/Atbash**: 18 Temple/Solomon/Hiram terms against Book III's
   independent 62-word lexicon. **0/18 hits, as the base rate predicts.** One
   input-sanitization bug crashed the script on first run; fixed and logged
@@ -77,6 +87,12 @@ All four scripts in `research/computational_verification/` are re-runnable.
   by construction — produces a Seal-of-Solomon hexagram at a **tighter**
   tolerance (8.8% of circumradius) than the online "Masonic geometry of
   Washington" literature typically claims for the actual city plan.
+- **D.C. hexagram, systematic controls**: extended across four lattice densities
+  and a structureless random cloud. The pre-registered prediction (fit improves
+  with density) **only partly held** and is reported as a partial failure in
+  ch.79: absolute deviation is flat across every configuration, and the
+  percentage figure the claim literature reports turns out to have a denominator
+  the analyst's own search selects.
 
 ---
 
@@ -92,3 +108,32 @@ All four scripts in `research/computational_verification/` are re-runnable.
   fact, not an obstacle to reconstruct around.
 - **This study's Hebrew is machine-checked, not independently expert**, per
   the standing disclosure carried from Book III.
+
+
+---
+
+## THE MANUSCRIPT
+
+| Component | Words |
+|---|---|
+| Front matter | 511 |
+| Prologue | 1,046 |
+| 90 chapters | ~82,400 |
+| Epilogue ("The House We Build") | 1,132 |
+| 20 appendices (A–T) | ~8,500 |
+| Illustration list, bibliography, index framework | ~5,000 |
+| **Assembled total** | **98,668** |
+
+### What the final audits found
+
+Audit 1 caught eleven wrong cross-references and corrected them — ten citing
+methodological rules to chapters that do not contain them (the rules are carried
+from the preceding volumes), and one sending the reader to Chapter 41 for Hiram
+Abiff, who is Chapter 22.
+
+Audit 5 records three reported failures rather than concealing them: a declared
+control gap that was closed before drafting, a script crash that was published
+rather than silently patched, and a pre-registered prediction that only partly
+held.
+
+Nothing was removed to make a chapter tidier, and no failed test was suppressed.

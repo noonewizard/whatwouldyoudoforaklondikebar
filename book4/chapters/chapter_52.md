@@ -1,3 +1,5 @@
+# PART XI — THE TEMPLE IN KABBALAH AND HERMETICISM
+
 # CHAPTER FIFTY-TWO
 ## The Temple in Jewish Mysticism
 

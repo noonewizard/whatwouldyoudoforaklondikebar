@@ -76,8 +76,8 @@ nineteenth-century. The Christian Kabbalist Temple is part of the general Europe
 intellectual weather in which Freemasonry formed. It is not shown to be inside
 Freemasonry's ritual.
 
-The distinction is exactly the one Chapter 9 insisted on. **Availability is not
-transmission.** *Kabbala Denudata* sat in libraries from 1677; men who founded
+The distinction is exactly the one this book has insisted on throughout.
+**Availability is not transmission.** *Kabbala Denudata* sat in libraries from 1677; men who founded
 lodges in 1717 could in principle have read it; a few of them very likely had. That
 establishes possibility. It establishes nothing about what was actually put into a
 ceremony, which is a question that can only be answered by documents about the

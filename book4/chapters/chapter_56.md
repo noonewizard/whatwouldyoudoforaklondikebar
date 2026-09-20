@@ -1,3 +1,5 @@
+# PART XII — THE TEMPLE IN WESTERN ESOTERICISM
+
 # CHAPTER FIFTY-SIX
 ## Renaissance Architects
 

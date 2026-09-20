@@ -1,3 +1,5 @@
+# PART XIII — THE TEMPLE, EMPIRE, AND POWER
+
 # CHAPTER SIXTY-ONE
 ## Temple and Kingship
 

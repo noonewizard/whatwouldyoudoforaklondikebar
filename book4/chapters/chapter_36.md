@@ -52,7 +52,7 @@ the sun rises in the east, the east is the source of light, and light is the
 governing metaphor of the degrees. This is internally coherent and requires no
 Temple at all. It is also extremely widespread — the association of east with
 dawn, origin, and illumination is close to a human universal, and by the
-half-of-everything rule of Chapter 9, a feature that common carries almost no
+half-of-everything rule restated in Chapter 5, a feature that common carries no
 information about descent.
 
 **The ecclesiastical explanation** is the strongest historically. Christian
@@ -65,7 +65,8 @@ exactly, and matches the Temple not at all.
 
 **The Temple explanation** requires either ignoring the reversal or reinterpreting
 it, and Masonic lectures in various jurisdictions have done both, with
-explanations that differ from one another — a pattern Chapter 8 taught us to read
+explanations that differ from one another — a pattern the disagreement principle
+teaches us to read
 as evidence that the arrangement arrived *before* its justification.
 
 ---

@@ -132,6 +132,37 @@ The structure is identical. The honesty is not.
 
 ---
 
+### The one qualification
+
+The modesty argument needs a qualification, because stated without one it flatters the Craft
+in a way the evidence does not support.
+
+**The Craft did not manufacture a living superior. Its descendants did it constantly, and
+they did it while calling themselves Masonic.** The Rite of Strict Observance, with its
+Unknown Superiors, was a Masonic body by its own account and its members' understanding. The
+higher-degree systems that proliferated in eighteenth-century France attached themselves to
+the Craft and traded on its name. Pike's Scottish Rite built a thirty-three-grade hierarchy
+on top of the three and put a Sovereign Grand Commander at its head.
+
+So the restraint being praised here is the restraint of a specific and rather small thing —
+the three Craft degrees as settled in England — and not of the tradition that grew from it.
+The empty space at the top of the Craft turned out to be an invitation, and the history of
+Masonic higher degrees is substantially the history of what got put in it.
+
+**A second qualification, of a different kind.** The Craft's refusal to claim a living
+superior is not straightforwardly evidence of honesty, because it may simply reflect what
+was available. An institution founded in a printed, litigious, journalistically active London
+had limited scope for inventing hidden masters. Von Hund's Unknown Superiors worked in
+Germany partly because they could not be checked; Anderson's traditional history was checkable
+in principle and was in fact checked, unkindly, by his contemporaries.
+
+Whether the Craft was more honest or merely more exposed cannot be settled from the record.
+What can be said is that the structure it left behind — an empty summit, an explicit
+statement that the essential thing is lost — has proved unusually resistant to the kind of
+claim that surrounded it on all sides. Whatever the motive, the design held.
+
+---
+
 ### Knowledge that cannot be checked
 
 One final mechanism, and it is the one that makes this whole subject epistemically

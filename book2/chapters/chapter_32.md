@@ -105,6 +105,44 @@ particular institutional regime, and the strata can be separated by ordinary his
 
 ---
 
+### The test: what fails to compress
+
+A definition that explains why some symbols accumulate meaning is only useful if it also
+predicts which ones will not, so it is worth applying to cases where compression demonstrably
+failed.
+
+**Symbols that arrived already explained.** The all-seeing eye entered Masonic use with its
+meaning attached: divine observation of human conduct, stated plainly in the sources that
+introduce it. It has accumulated almost nothing since. A reader encountering it in 1800 and
+one encountering it in 1980 receive the same single reading, because the meaning was fixed at
+the point of entry and there was nothing for a later generation to add.
+
+**Symbols with no functional anchor.** The chequered pavement means mingled good and evil.
+That is where it began and where it has stayed. It is a pattern rather than an instrument;
+nothing can be done with it; and the reading it carries is a straightforward visual analogy
+that offers no purchase for a second layer. Compare the square, which a man can pick up, test
+an angle with, fail a test against, and discover in his own hands what the instruction means.
+
+**Symbols that were adjudicated.** This is the instructive category, because it is where the
+institutional condition shows its force. In the bodies that *did* fix interpretation —
+notably the Scottish Rite after Pike, where a substantial authorised commentary exists —
+symbols carry the meanings the commentary assigns them, and later accretion is markedly
+thinner. An authority that answers the question closes it.
+
+The three failures map exactly onto the three conditions, which is what a working definition
+should do. Compression is not what symbols do; it is what happens to an object that is
+concrete, usable, and left unexplained, in an institution that lasts a long time and declines
+to rule.
+
+**And this has a consequence for the esoteric reading.** If compression is a historical
+deposit rather than a property of profound symbols, then the depth a modern Mason finds in
+the square is not evidence that a profound meaning was placed there. It is evidence that
+many people, over many years, were permitted to put something there — and the fact that no
+authority ever removed any of it is a feature of Anderson's 1723 settlement, not of the
+Hermetic tradition.
+
+---
+
 ### The question of efficacy
 
 Now the harder part, and the one where I have to be most careful about what kind of claim I

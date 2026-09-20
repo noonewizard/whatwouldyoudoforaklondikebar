@@ -127,6 +127,43 @@ and thought the universe looked designed.
 
 ---
 
+### The objection, and why it does not hold
+
+The Newtonian reading has an obvious counter and it should be met.
+
+**The objection.** Geometry was not invented in 1687. The Old Charges call Masonry a
+geometrical science, and the *Regius* manuscript of the 1390s already makes the
+identification. Geometry is therefore the oldest continuous element in the whole tradition,
+predating Newton by three centuries, and explaining it by the *Principia* is anachronism of
+exactly the kind this book keeps warning against.
+
+**The objection is correct about the fact and wrong about what follows.** Geometry is indeed
+the oldest element, and the medieval identification of Masonry with geometry requires no
+Newtonian explanation at all: it is the identification a guild of stonemasons would make
+because geometry is what stonemasons use. Setting out a foundation, cutting a voussoir,
+raising a vault — these are geometrical operations performed by hand, and a craft that does
+them daily will call itself a geometrical science without any philosophical prompting.
+
+What changes in the 1720s is not the presence of geometry but **what geometry is taken to
+be evidence of.** For the operative craft it was a technique. For Anderson's circle it had
+become the language in which the universe was written, and the difference is visible in what
+they do with it: the claim that geometry underlies not merely building but all the arts and
+sciences, and the elevation of a proposition of Euclid to the foundation of the whole
+institution, are not craft statements. They are philosophical ones, and they are made by men
+who had watched Desaguliers demonstrate the mechanics of the solar system.
+
+So the two readings are not competitors. **The word was inherited from the operative craft;
+its cosmic significance was supplied by the eighteenth century**, and the seam between them
+is visible in the 1723 text itself, where a traditional history of the craft sits beside a
+claim about the nature of things that no fourteenth-century mason would have made.
+
+This is, incidentally, a model for how a good deal of Masonic material should be read.
+Continuity of vocabulary is not continuity of meaning, and the fact that a word survives
+from the *Regius* manuscript tells us nothing about what the men using it in 1723 took it to
+mean.
+
+---
+
 ### Geometry as a moral instrument
 
 And then the transfer, which is the part that is genuinely clever.

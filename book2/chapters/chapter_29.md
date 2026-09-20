@@ -136,6 +136,44 @@ through Pike's unattributed use of him, and can be dated.
 
 ---
 
+### The Royal Arch problem, stated as an open question
+
+The concession above is the one place in this book where a Hebraic element in Masonry resists
+the dating argument, and it should be set out properly rather than conceded in a sentence and
+passed over.
+
+**What makes it a problem.** The Royal Arch's subject is the recovery of a concealed divine
+Name. That is not a generic biblical borrowing of the kind the Craft degrees make; the
+concealment and recovery of the Name is a specific preoccupation with a long history in
+Jewish tradition. It appears in a Masonic context in the 1740s — a century before Lévi, and
+therefore not explicable by the route that explains everything else.
+
+**What would resolve it in either direction.** If the material were transmitted, we should be
+able to find the route: a person, a text, a translation, a correspondence. Christian Hebraism
+was not a closed world in the 1740s; Knorr von Rosenroth's *Kabbala Denudata* had been in
+print since 1677, and men who read Latin could read it. A documented connection between a
+reader of that literature and the compilers of the degree would settle the matter.
+
+If it were independently arrived at, we should expect what convergence always leaves: the
+structure without the arbitrary detail. A recovery-of-the-Name narrative can be constructed
+from the biblical and post-biblical material available to any educated Protestant of the
+period, without contact with Jewish mystical tradition at all, and the fact that the degree's
+apparatus is architectural and vault-centred rather than sefirotic is weak evidence in that
+direction.
+
+**Where this study leaves it.** Neither has been established. The route has not been found and
+its absence is not decisive, because eighteenth-century ritual compilation is exactly the kind
+of activity that leaves no paper. The convergence reading is available and is not
+demonstrated either.
+
+What can be said is narrower and worth saying, because it is the kind of statement this book
+prefers to a resolution: **the Royal Arch is the strongest remaining candidate for genuine
+Hebraic transmission into Masonic ritual, it has not been established as one, and it deserves
+work that this study is not equipped to do.** It is listed among the unresolved questions and
+it stays there.
+
+---
+
 ### The technique warning
 
 One last thing, because it belongs here and Chapter 38 will need it.

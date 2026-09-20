@@ -142,6 +142,41 @@ theatrical for three centuries without anyone noticing that they were never enfo
 
 ---
 
+### The counter-case: where the thin secret fails
+
+The argument of this chapter is that Masonic secrecy works precisely because the withheld
+content is slight, and the argument is strong enough that it should be tested where it
+predicts failure.
+
+If a thin secret is a functional secret, then organisations whose secrets are *thick* — where
+real, consequential, checkable information is withheld — should behave differently, and they
+do.
+
+**A thick secret can be destroyed.** When the substance is genuine information, disclosure
+ends it. Intelligence services, commercial laboratories and criminal conspiracies all
+organise around this fact, and their security practices are correspondingly expensive:
+compartmentalisation, vetting, surveillance of members, sanctions that are real rather than
+symbolic.
+
+**Masonry does none of this**, and has never needed to. Its penalties are ceremonial and were
+recognised as such by the courts and by the members. Its membership is, in most jurisdictions
+and most periods, a matter of public record — regalia is worn in processions, lodge buildings
+are signposted, obituaries name membership. An organisation with something to lose by
+disclosure does not advertise its membership on gravestones.
+
+**And the historical test has been run.** Masonic ritual was published in 1730, repeatedly
+thereafter, and is now available instantly and free to anyone. If the secret were
+informational, the institution should have collapsed three centuries ago. It did not, and
+neither did the practice of secrecy within it, which continued unchanged through every wave
+of exposure.
+
+The contrast makes the point sharper than the positive argument can. It is not that Masonry
+keeps an unimportant secret badly. It is that what Masonry does is not the same operation as
+keeping information from people, and it has never been vulnerable to the thing that destroys
+information-keeping, because it was never doing it.
+
+---
+
 ### The asymmetry
 
 One observation to close, and it is the finding of this chapter.

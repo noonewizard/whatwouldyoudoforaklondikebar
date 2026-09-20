@@ -188,6 +188,39 @@ glass.
 
 ---
 
+### The mirror has a limit
+
+The mirror image is useful and it can be pushed too far, so its limit should be stated before
+the metaphor closes the chapter.
+
+**A mirror shows only the observer. Masonry showed each of these men something more than
+themselves, or they would not have bothered with it.** Lévi, Pike, Mathers and Leadbeater had
+access to a great many ritual systems, real and invented, and they could have projected their
+theories onto any of them. They kept returning to this one.
+
+What the Craft actually supplied, and what made it worth projecting onto, is a real property
+of the object and not a reflection of the viewer: **a working ritual apparatus, portable,
+already international, with a graded structure, an initiatory form, a body of symbolism
+sufficiently unexplained to accept interpretation, and — decisively — no doctrinal authority
+to say that an interpretation was wrong.**
+
+That combination is genuinely rare. Most ritual systems of comparable reach belong to
+religions, and religions have clergy, creeds and mechanisms for rejecting readings. Masonry
+had the form of a religion's initiatory apparatus with none of its immune system.
+
+So the accurate formulation is not that these men saw only themselves. It is that they saw an
+unclaimed structure and claimed it — and the structure's availability was a fact about
+Masonry, produced by Anderson's 1723 settlement, not a fact about their imaginations.
+
+**Which matters for how the next century is read.** If the occult interpretation were purely
+projection, it would tell us nothing about Freemasonry and could be set aside as a chapter in
+the history of occultism. It is not purely projection. It is a series of attempts, by
+intelligent and serious people, to account for an apparatus whose effects they had
+experienced and for which no adequate description existed. They got the history wrong, and
+the question they were trying to answer is the question of this book.
+
+---
+
 ### NOTES
 
 [^1]: Aleister Crowley, *Magick in Theory and Practice* (Paris, 1929–30), Introduction.

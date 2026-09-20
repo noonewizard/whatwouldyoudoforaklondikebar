@@ -146,6 +146,57 @@ and of this entire book.
 
 ---
 
+### Why a question about a word is not a trivial question
+
+There is a temptation, having established that the dispute turns on vocabulary, to conclude
+that the dispute is therefore empty — that the parties agree on the facts and are merely
+arguing about labels, and that nothing follows from the outcome.
+
+That would be wrong, and it is worth saying why, because the same temptation disposes of a
+great many real arguments too quickly.
+
+**Words carry consequences that survive the redefinition.** Whether Masonic initiation counts
+as magic determines how it is classified in libraries, whether it is taught in departments of
+religion or of social history, which scholars consider it their business, what a clergyman
+tells a parishioner who asks about joining, and what a reader expects when they open a book
+about it. None of those consequences is settled by agreeing that the underlying practice is
+what it is. They follow from the label, and the label is contested for exactly that reason.
+
+**And the redefinition was not neutral.** When Lévi moved magic inward, he did not merely
+relabel a set of practices; he built a theory under the new boundary, and the theory came
+with commitments — about will, about symbol, about the operator — that were not present in
+what he was relabelling. A Masonic lodge in 1740 was not doing what Lévi's theory describes.
+It was doing something a later theory would describe in its own terms, which is a different
+relation entirely.
+
+This is the distinction the occult interpreters of Masonry consistently lost. Recognising
+that a practice fits a description is not the same as finding that the practice was an
+instance of what the description was invented for. The first is a classification. The second
+is a historical claim, and it requires the evidence the first does not.
+
+---
+
+### What is left when the word is set aside
+
+Strip the vocabulary question out entirely and ask what remains, in terms that neither party
+would dispute.
+
+A group of men in a room, using darkness, restriction, staged death, compressed symbol,
+embodied movement, public obligation and progressive disclosure, to do something to a
+participant which the participant cannot do for himself by deciding to.
+
+That description contains no contested term. It is what the ritual does, stated in language
+that commits to nothing about hidden mechanisms, spiritual agencies, or the history of
+European esotericism. Both the practitioner who calls it magic and the sceptic who calls it
+theatre can read it and recognise their subject.
+
+Whether the sentence makes anyone want to call it magic is, at this point, a matter of
+temperament. What this book has tried to establish is that the sentence is true, that each of
+its components can be documented, and that the argument about what to call it can proceed
+afterwards without any of them being at stake.
+
+---
+
 ### The residue
 
 So: does Masonic initiation qualify as magic?

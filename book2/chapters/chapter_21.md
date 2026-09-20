@@ -44,6 +44,65 @@ in the ordinary way.
 
 ---
 
+### The disagreement principle, and its limits
+
+The dating argument above is strong enough to be worth testing against cases where it should
+fail, since a principle that always confirms what one hoped is the subject of Chapter 38's
+warning rather than a tool.
+
+**Where it holds.** The Blazing Star is one case. The letter G is another and cleaner one:
+present in some workings and absent in others, explained as Geometry in some sources and as
+God in others, with both explanations offered simultaneously by authorities who plainly did
+not regard the matter as settled. A symbol transmitted with a meaning does not behave this
+way.
+
+**Where it does not hold.** The square and the compasses are explained with striking
+consistency across three centuries and many jurisdictions — regulation of action,
+circumscription of desire — and the consistency is not evidence of ancient transmission. It
+is evidence that the meaning is *entailed* by the object. A square makes right angles;
+right-angled conduct is an obvious metaphor and would be reinvented by anyone asked to supply
+one. Consistency of interpretation proves nothing when the interpretation is the first thing
+anybody would think of.
+
+So the principle has to be stated with its condition attached: **disagreement among a
+tradition's own sources is evidence that a symbol arrived unexplained, but agreement is
+evidence of transmission only where the agreed meaning is arbitrary rather than obvious.**
+
+That condition disposes of a large amount of argument in the esoteric literature, where
+consistency across traditions is routinely offered as proof of a common source. Many
+societies have used the sun as an image of what is life-giving and inescapable. This is not a
+transmission; it is what the sun is like.
+
+---
+
+### A note on the five-pointed form
+
+One detail deserves separate handling because it carries more weight in the literature than
+it can bear.
+
+The Blazing Star is usually, though not invariably, drawn with five points, and the
+five-pointed star is also the form of the pentagram used in ceremonial magic. The inference
+drawn from this is immediate and appears in book after book.
+
+It should not be drawn, for three reasons that are worth setting out because they generalise.
+
+**The form is not distinctive.** A five-pointed star is among the small number of shapes
+producible by an untrained hand in a single continuous stroke, and it appears independently
+in contexts with no relation to each other: heraldry, national flags, military insignia,
+tavern signs, children's drawings. A shape that everybody draws is not a signature.
+
+**The Masonic star is not consistently five-pointed.** Six- and seven-pointed forms occur, as
+do purely radiant suns with no determinate number of points. A transmitted magical sigil
+would not vary in the one feature that gives it its magical identity.
+
+**And the chronology runs the wrong way.** The interpretation of the pentagram as an
+instrument of power with a defined orientation and a doctrine attached belongs, in its
+influential form, to Lévi in the 1850s — as the next section sets out in detail. Masonic
+tracing boards carried stars for a century before there was a doctrine for them to be an
+instance of.
+
+---
+
 ### Lévi's pentagram
 
 Then, in the 1850s, something is added, and it can be dated to the year.

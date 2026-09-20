@@ -133,6 +133,64 @@ the problem requires.
 
 ---
 
+### The problem, stated more carefully
+
+That formulation is loose, and the looseness matters, because "human beings are resistant to
+deliberate change" is the kind of sentence that sounds profound and explains nothing until it
+is made specific.
+
+What the traditions in this book are actually addressing is narrower. It is not that people
+cannot change — people change constantly, through age, circumstance, illness, love and
+employment. It is that **change which the person themselves intends, in a direction they have
+chosen, against an existing disposition, is unusually difficult to bring about.** That is the
+problem, and it is a real one with a modern literature of its own: the gap between intention
+and behaviour is one of the more robust findings in psychology, and the interventions that
+close it are known to be few.
+
+Stated that way, the convergence looks less mysterious and more explicable. Any technique
+addressing that specific problem is working against the same obstacles — a disposition
+already in place, an intention that decays, an environment unchanged by the resolution, and
+no external check on whether anything has happened. A solution has to do something about each
+of those or it fails.
+
+Look at the six components against that list and the mapping is close to exact. Sustained
+attention and embodied practice work on the disposition, because dispositions are habits and
+habits answer to repetition rather than to argument. Social ratification and relationship
+work on the decay of intention, by attaching the resolution to people who will notice.
+An external standard supplies the check that introspection cannot. Repetition over long
+periods addresses the fact that none of it happens quickly.
+
+**The six are not a mystical formula. They are the shape of the obstacle, seen from the
+other side.** Which is precisely why unrelated traditions arrive at them: they are not
+discovering a doctrine, they are running into the same wall and finding the same small number
+of ways round it.
+
+---
+
+### What this does not license
+
+Two restrictions, because the argument above is the kind that invites overreach.
+
+**It does not make the traditions equivalent.** Saying that Masonic initiation, alchemical
+practice and Neoplatonic theurgy converge on six components is not saying they are the same
+thing, that their practitioners wanted the same outcome, or that any of them would have
+recognised the description. They differ in what they thought they were doing, in what they
+thought was acting, and in what they expected to result. The convergence is at the level of
+technique, and technique is the shallowest level at which two practices can agree.
+
+**And it does not establish that the components work.** This chapter has argued that
+independent traditions converge on them, and convergence is evidence that people found them
+useful, which is not the same as evidence that they are effective. Traditions converge on
+ineffective practices too, and the history of medicine is largely a record of it. Bloodletting
+was independently invented many times. What Part XI could establish about actual effects is
+set out in Chapters 44 to 47, and it is considerably more modest than the elegance of the
+six-component scheme would suggest.
+
+The scheme is a description of what these traditions do. Whether doing it accomplishes
+anything is a separate question, asked earlier and answered thinly.
+
+---
+
 ### The disconfirming instance
 
 I have to record the counter-evidence here, in the chapter that would most like to ignore it.

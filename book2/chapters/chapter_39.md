@@ -122,6 +122,63 @@ listed among the book's unresolved questions and it will still be there at the e
 
 ---
 
+### Three ways the undecidable question has been evaded
+
+Because the openness is uncomfortable, the literature has developed standard ways of closing
+it that do not work, and naming them is more useful than repeating that the question is open.
+
+**The appeal to numbers.** Many men have found it valuable; a practice that has persisted for
+three centuries across many cultures must be doing something. This confuses persistence with
+efficacy. Institutions persist for a great many reasons — sociability, status, business
+utility, habit, inertia, the sunk cost of thirty years — and the Craft supplies all of them
+independently of any transformative effect. A practice can be worth belonging to without
+being efficacious in the way its doctrine claims.
+
+**The appeal to the insider's authority.** Only those who have been through it can judge; the
+uninitiated are disqualified from the question. This is the exact structure of the problem
+rather than a solution to it. If the only people permitted to assess the claim are those
+selected and shaped by the process, the assessment carries no information. The objection is
+not that initiates are dishonest; it is that their testimony is what both the true case and
+the false case predict.
+
+**The appeal to the fruits.** Look at the men it produced. This would be evidence if we had a
+comparison — men of similar background, disposition and circumstance who did not undergo it —
+and we do not, for the reasons Chapter 44 sets out at length. Without it, the argument reduces
+to noticing that some Masons were admirable, which is true of the members of every large
+organisation that has ever existed.
+
+None of these is offered in bad faith. All three are what one reaches for when a question
+matters and the evidence will not settle it, and this book has felt the pull of each.
+
+---
+
+### What would break the deadlock
+
+It is worth stating, because an undecidable question and an unexamined one look identical
+from outside, and they are not the same.
+
+The deadlock would break if the claimed transformation acquired a public face — if there
+were something a transformed man could *do* that an untransformed one could not, assessable
+by someone who lacks the transformation. That is Polanyi's test and it is not an unreasonable
+demand: every other kind of tacit knowledge meets it.
+
+What would that look like? Not a claim about inner states, which are not inspectable, but a
+behavioural regularity: a consistent difference in how such men respond to some situation,
+measurable by someone blind to whether the subject is an initiate. The Craft's own doctrine
+implies several — judgement under pressure, conduct toward strangers, the keeping of
+undertakings when keeping them is costly. Any one of them could in principle be operationalised.
+
+Nobody has, and it should be said clearly that the Craft has no obligation to. It is not a
+research programme, and it has never asked to be believed on experimental grounds. But the
+absence means that the strong version of the claim sits permanently in the category of
+things that might be true, that their holders sincerely believe, and that no one can check —
+which is a large category, containing much that is false and some that is not.
+
+This book's position is that the category should be named rather than emptied. Chapter 49
+takes up what remains sayable once it has been.
+
+---
+
 ### Why it matters beyond Freemasonry
 
 One closing observation, because this problem is not confined to lodges.

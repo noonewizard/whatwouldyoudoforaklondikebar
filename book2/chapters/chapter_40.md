@@ -174,6 +174,67 @@ Not a survival. A recent acquisition, with a receipt.
 
 ---
 
+### How a recent acquisition comes to look ancient
+
+The mechanism deserves description, because it is not peculiar to Freemasonry and the same
+process is at work in a great many traditions that believe themselves older than they are.
+
+**Step one: an authority writes.** Pike was not a fringe figure. He was Sovereign Grand
+Commander of the Southern Jurisdiction, and *Morals and Dogma* was distributed to candidates
+as a matter of course for the best part of a century. Material arriving by that route does
+not arrive as one man's opinion; it arrives as what the institution says.
+
+**Step two: the source is invisible.** Pike did not cite Lévi. This was not, by the standards
+of his century and his genre, unusual, and it is not evidence of bad faith. But the effect is
+decisive: a reader in 1890 encountering the astral light in a Masonic publication had no way
+of knowing it had been in print in French for thirty-four years and in Masonry for nineteen.
+
+**Step three: the material is absorbed into the tradition's self-description.** Later Masonic
+writers, reading Pike as a Masonic source, repeat what they find there. Within two
+generations the claim is no longer "Pike says" but "Masonry teaches," and the attribution has
+dropped out entirely.
+
+**Step four: antiquity is inferred from the absence of a date.** Because nobody can say when
+the doctrine entered, it is assumed always to have been there. This is the crucial move and
+it is a logical error of a specific and common kind: treating the limit of one's own records
+as the limit of the thing recorded.
+
+**Step five: the assumption becomes evidence.** A later writer, seeking to establish that
+Masonry preserves ancient Kabbalistic teaching, cites the Masonic literature in which it
+appears — which is to say, cites the downstream consequences of Pike's transcription as
+independent confirmation of it. This is circulation mistaken for corroboration, and it is the
+single most productive error in the whole field.
+
+The chain is only 150 years long and every link is documented. What makes it instructive is
+that it is documented *and still generally believed*, which should temper anyone's confidence
+about chains of comparable length that happen to fall in a period where the documents did not
+survive.
+
+---
+
+### Why Pike is not the villain
+
+It would be easy to end this chapter with Pike as a forger and he was not one, and the
+distinction matters for how the book treats the whole nineteenth century.
+
+Pike believed what he wrote. His procedure — assembling comparative religious material from
+the best sources available to him and arranging it as commentary — was ordinary
+nineteenth-century practice, and the scholarship he drew on was the scholarship of his
+period, which was confident about Egyptian and Indian antiquity in ways no longer tenable.
+He was reading Lévi as a source of genuine knowledge rather than as a contemporary author
+with a system of his own, because that is what Lévi presented himself as.
+
+His error was not deception. It was the absence of a method for distinguishing a tradition
+from a synthesis — precisely the method Chapter 5 sets out and which was not generally
+available in 1871.
+
+That should produce some humility in the other direction too. The apparatus this book uses
+was assembled over the following century and a half, by people working on other problems,
+and it is not obvious which of its assumptions will look to a later reader the way Pike's
+Egyptology looks to us.
+
+---
+
 ### NOTES
 
 [^1]: Albert Pike, *Morals and Dogma of the Ancient and Accepted Scottish Rite of

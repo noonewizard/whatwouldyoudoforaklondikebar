@@ -41,6 +41,49 @@ enigmatic. Nothing is argued.
 
 ---
 
+### The catechism as a verification device
+
+Before it is anything symbolic, the question-and-answer form is a piece of practical
+technology, and the practical purpose explains more of its features than any esoteric reading
+does.
+
+The problem it solves is concrete. A man arrives at a lodge in a town where nobody knows him
+and says he is a Mason. There are no membership cards in 1696, no central register, no
+photographs, no telephone. The lodge has to decide whether to admit him — and admission
+carries real consequences, since a member in distress has a claim on relief.
+
+A catechism solves this in a way that a password does not. A single word can be overheard,
+guessed, or sold. A structured examination of thirty exchanges cannot: it requires the
+candidate to produce the right answer to an unpredictable question, in the right form, with
+the right responses to follow-up. It tests not possession of a token but **fluency in a
+system**, which can only be acquired by having been taught it by someone who had it.
+
+Several otherwise puzzling features follow directly from this function.
+
+**Why it is memorised verbatim rather than paraphrased.** A paraphrase would pass a test of
+understanding and fail a test of provenance. The examiner is not checking whether the visitor
+grasps the meaning; he is checking whether the visitor learned the words from a legitimate
+source. Exact wording is the evidence. This is why jurisdictional variation matters so much
+in practice and why visitors from other constitutions have historically needed accommodation.
+
+**Why the questions are asked by one man and answered by another.** The form distributes the
+knowledge: neither party holds the whole thing alone, and the exchange only exists when both
+are present. Chapter 36 develops this into the argument about what kind of thing the Masonic
+secret is.
+
+**And why it survived the exposures.** A published catechism can be memorised by an impostor,
+and this is exactly what the lodges feared when *Masonry Dissected* appeared in 1730. The
+institution's response — the alteration of certain details, the reliance on personal vouching
+alongside examination — tells us that the form was understood at the time as a security
+mechanism and was defended as one.
+
+None of this excludes the other things the catechism does, which the rest of this chapter
+examines. But an account of ritual language that begins with mystery and works backward will
+miss the fact that the oldest surviving content in Freemasonry has an entirely mundane job to
+do, and does it well.
+
+---
+
 ### Why formulae
 
 The fixity has an obvious practical explanation and it is correct as far as it goes: **fixed

@@ -14,6 +14,10 @@ and does not decide what data is worth. Those boundaries are the design,
 not omissions; `docs/architecture/minimal-protocol.md` explains why each
 one is where it is.
 
+**Start with [`ASSESSMENT.md`](ASSESSMENT.md)** if you want the verdict
+before the machinery: what survived a deliberate attempt to kill the
+thesis, what did not, and the two open questions that are not technical.
+
 ## Run it
 
 Everything below runs locally, with no network and no services.

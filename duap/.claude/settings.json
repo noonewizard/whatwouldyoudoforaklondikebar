@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -qE 'git +commit'; then duap/.claude/hooks/check-no-pii.sh && duap/.claude/hooks/check-generated.sh && duap/.claude/hooks/check-markers.sh; fi",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(cargo build:*)",
+      "Bash(cargo test:*)",
+      "Bash(cargo clippy:*)",
+      "Bash(cargo fmt:*)",
+      "Bash(cargo bench:*)",
+      "Bash(cargo run -p duap-demo:*)",
+      "Bash(cargo run -p duap-conformance:*)",
+      "Bash(go test:*)",
+      "Bash(go vet:*)",
+      "Bash(go build:*)",
+      "Bash(go run ./cmd/duap-verify:*)",
+      "Bash(python3 ontology/build_ontology.py:*)",
+      "Bash(python3 ontology/gen_code.py:*)"
+    ],
+    "deny": [
+      "Read(./**/*.key)",
+      "Read(./**/*.pem)",
+      "Read(./**/secrets/**)"
+    ]
+  }
+}

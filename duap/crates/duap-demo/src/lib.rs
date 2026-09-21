@@ -50,7 +50,7 @@ use duap_provenance::DerivationPolicy;
 use duap_sdk::prelude::*;
 use serde::Serialize;
 
-/// Fixed clock: 2025-09-21T00:00:00Z.
+/// Fixed clock: 2026-09-21T00:00:00Z.
 pub const T0: u64 = 1_758_412_800;
 
 pub fn t(offset_secs: u64) -> Timestamp {

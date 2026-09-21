@@ -1,6 +1,6 @@
 # Formal models
 
-**Status:** REFERENCE · 2025-09-21
+**Status:** REFERENCE · 2026-09-21
 
 Two TLA+ specifications, both model-checked exhaustively in CI by
 `check.sh`.

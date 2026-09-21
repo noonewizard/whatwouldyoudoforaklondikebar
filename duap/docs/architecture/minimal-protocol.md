@@ -1,6 +1,6 @@
 # The minimal protocol
 
-**Status:** SPECIFIED · 2025-09-21 · supersedes nothing
+**Status:** SPECIFIED · 2026-09-21 · supersedes nothing
 
 This document answers the question the whole project turns on: what is the
 *smallest* thing that has to be standardised for a data usage accounting

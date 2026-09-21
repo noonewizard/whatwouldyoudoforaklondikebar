@@ -1,6 +1,6 @@
 # Protocol invariants
 
-**Status:** SPECIFIED · 2025-09-21
+**Status:** SPECIFIED · 2026-09-21
 
 Every invariant here is (a) stated precisely enough to be false, (b) mapped
 to the mechanism that enforces it, and (c) mapped to the executable test or

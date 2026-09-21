@@ -88,7 +88,7 @@ rather than porting the Rust.
 
 ## PERF-01 — Inclusion-proof generation is O(n) (open)
 
-**Found by:** the benchmark run of 2025-09-21.
+**Found by:** the benchmark run of 2026-09-21.
 **Severity:** perf. Generating one audit path in a 100,000-entry tree takes
 14.99 ms; verifying the same path takes 2.5 us. `MerkleLog::inclusion_proof`
 recomputes sibling subtree roots on demand instead of caching them, so proof
@@ -99,7 +99,7 @@ unacceptable on the gateway's `/v1/log/proof` endpoint, where it is a
 denial-of-service lever — an attacker can spend 15 ms of server time per
 cheap request.
 
-**Reproduction:** `benchmarks/results/2025-09-21-ci-runner.md`, scenario
+**Reproduction:** `benchmarks/results/2026-09-21-ci-runner.md`, scenario
 `log.inclusion_proof`.
 
 **Proposed fix:** cache complete-subtree roots as entries are appended (the

@@ -1,0 +1,269 @@
+{
+  "status": "EXPERIMENTAL",
+  "model": "ridge regression, closed form, lambda=1e-2",
+  "utility": "negative test mean squared error",
+  "agreement": {
+    "n_train": 14,
+    "d": 4,
+    "seed": 7,
+    "mislabelled_indices": [
+      0,
+      1
+    ],
+    "exact_shapley": {
+      "values": [
+        -5.2974164677958,
+        -13.512449556777062,
+        -0.2675742794433834,
+        2.5560241107087633,
+        4.451972120834944,
+        1.355854340033539,
+        0.72223207721508,
+        1.328212837828908,
+        0.11867387036361497,
+        0.6482391432101307,
+        3.0054639544271504,
+        0.8107414100918973,
+        1.8085672338575713,
+        0.8523429928635865
+      ],
+      "utility_evaluations": 16384,
+      "seconds": 0.39352899599998636
+    },
+    "loo": {
+      "values": [
+        -1.7038100928834297,
+        -1.0326390067739661,
+        0.2662531789579048,
+        0.09759677906630948,
+        2.87003194112141,
+        0.8770533896345327,
+        0.284978251739493,
+        0.1456416353158101,
+        0.04018455383144692,
+        0.02541297577603263,
+        0.13282008408415624,
+        0.5829221387214862,
+        0.10598696846109501,
+        0.12254550426514221
+      ],
+      "seconds": 0.00037461800002347445
+    },
+    "influence": {
+      "values": [
+        -1.579361418016282,
+        -1.1104584624401652,
+        0.22580334114682113,
+        0.036265966506329475,
+        1.1407006511471425,
+        0.45457537882102456,
+        0.22859172240956055,
+        0.046737136208586785,
+        0.02975544013858516,
+        0.019252206640680475,
+        0.0646550616241432,
+        0.22126675901307644,
+        0.08118329041028456,
+        0.08997815912451004
+      ],
+      "seconds": 0.00017214899980899645
+    },
+    "tmc_200": {
+      "spearman_vs_exact": 0.9076923076923077,
+      "utility_evaluations": 2800,
+      "seconds": 0.046686310000040976
+    },
+    "mc": {
+      "10": {
+        "spearman_vs_exact": 0.7142857142857143,
+        "top3_overlap_vs_exact": 0.6666666666666666,
+        "max_abs_error": 7.806778198359575,
+        "mean_abs_error": 2.21499593129626,
+        "utility_evaluations": 140,
+        "seconds": 0.0024431809997622622
+      },
+      "50": {
+        "spearman_vs_exact": 0.8725274725274725,
+        "top3_overlap_vs_exact": 0.6666666666666666,
+        "max_abs_error": 2.7023745538555453,
+        "mean_abs_error": 1.0741090366769555,
+        "utility_evaluations": 700,
+        "seconds": 0.010562075000052573
+      },
+      "200": {
+        "spearman_vs_exact": 0.9076923076923077,
+        "top3_overlap_vs_exact": 0.6666666666666666,
+        "max_abs_error": 1.1429486944881704,
+        "mean_abs_error": 0.4280788934569772,
+        "utility_evaluations": 2800,
+        "seconds": 0.04180380400066497
+      },
+      "1000": {
+        "spearman_vs_exact": 0.9516483516483516,
+        "top3_overlap_vs_exact": 1.0,
+        "max_abs_error": 0.6207307711575272,
+        "mean_abs_error": 0.2471449937997857,
+        "utility_evaluations": 14000,
+        "seconds": 0.22024384700034716
+      }
+    },
+    "agreement": {
+      "spearman_loo_vs_shapley": 0.5296703296703297,
+      "spearman_if_vs_shapley": 0.4989010989010989,
+      "spearman_if_vs_loo": 0.9472527472527472,
+      "top3_loo_vs_shapley": 0.3333333333333333,
+      "top3_if_vs_shapley": 0.3333333333333333
+    },
+    "detection": {
+      "shapley_ranks_mislabelled_last": [
+        1,
+        0
+      ],
+      "loo_ranks_mislabelled_last": [
+        0,
+        1
+      ],
+      "if_ranks_mislabelled_last": [
+        0,
+        1
+      ]
+    }
+  },
+  "stability": {
+    "permutations": 200,
+    "trials": 8,
+    "per_point_spread": [
+      1.5467635315180468,
+      2.3627498186120555,
+      1.7350923924091708,
+      1.5153241517774667,
+      1.3544828222253855,
+      0.7338950489956925,
+      1.3611237326001557,
+      0.7996718541898585,
+      1.2644021618806704,
+      1.650303498309163,
+      2.4155685772347537,
+      0.9746789733416208,
+      1.300227478129747,
+      1.4397693695845466
+    ],
+    "max_spread": 2.4155685772347537,
+    "max_spread_relative_to_largest_value": 0.17876614947459651,
+    "mean_pairwise_spearman": 0.8788069073783359,
+    "rank_of_top_point_across_trials": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  "dilution": [
+    {
+      "n": 8,
+      "total_utility_gain": 0.9142202305364209,
+      "median_share": 0.08236230268495792,
+      "max_share": 0.40779530667218133,
+      "gini_of_positive_contribution": 0.5218647491685624,
+      "median_share_times_n": 0.6588984214796634,
+      "utility_evaluations": 1600
+    },
+    {
+      "n": 16,
+      "total_utility_gain": 3.401971959288816,
+      "median_share": 0.0626922143092154,
+      "max_share": 0.12210330190779499,
+      "gini_of_positive_contribution": 0.3571039527324702,
+      "median_share_times_n": 1.0030754289474464,
+      "utility_evaluations": 3200
+    },
+    {
+      "n": 32,
+      "total_utility_gain": 3.4414102857702518,
+      "median_share": 0.026868070323526443,
+      "max_share": 0.09237312358125088,
+      "gini_of_positive_contribution": 0.4277719956994037,
+      "median_share_times_n": 0.8597782503528462,
+      "utility_evaluations": 6400
+    },
+    {
+      "n": 64,
+      "total_utility_gain": 4.176051036892184,
+      "median_share": 0.010212559991960614,
+      "max_share": 0.07461592810231656,
+      "gini_of_positive_contribution": 0.4984427688802009,
+      "median_share_times_n": 0.6536038394854793,
+      "utility_evaluations": 12800
+    },
+    {
+      "n": 128,
+      "total_utility_gain": 3.912737026921135,
+      "median_share": 0.005005986143036578,
+      "max_share": 0.0459154533594308,
+      "gini_of_positive_contribution": 0.5158404109529282,
+      "median_share_times_n": 0.640766226308682,
+      "utility_evaluations": 25600
+    },
+    {
+      "n": 256,
+      "total_utility_gain": 3.9445471345009078,
+      "median_share": 0.0026609641061151384,
+      "max_share": 0.04562186744853842,
+      "gini_of_positive_contribution": 0.563666011593629,
+      "median_share_times_n": 0.6812068111654754,
+      "utility_evaluations": 51200
+    },
+    {
+      "n": 512,
+      "total_utility_gain": 4.040683364331743,
+      "median_share": 0.0010258361549838545,
+      "max_share": 0.12525358484448582,
+      "gini_of_positive_contribution": 0.6429049724873386,
+      "median_share_times_n": 0.5252281113517335,
+      "utility_evaluations": 102400
+    }
+  ],
+  "cost_model": [
+    {
+      "n": 10,
+      "loo_utility_evaluations": 11,
+      "exact_shapley_log10_evaluations": 3.0,
+      "mc_200_permutations_evaluations": 2000
+    },
+    {
+      "n": 20,
+      "loo_utility_evaluations": 21,
+      "exact_shapley_log10_evaluations": 6.0,
+      "mc_200_permutations_evaluations": 4000
+    },
+    {
+      "n": 100,
+      "loo_utility_evaluations": 101,
+      "exact_shapley_log10_evaluations": 30.1,
+      "mc_200_permutations_evaluations": 20000
+    },
+    {
+      "n": 1000,
+      "loo_utility_evaluations": 1001,
+      "exact_shapley_log10_evaluations": 301.0,
+      "mc_200_permutations_evaluations": 200000
+    },
+    {
+      "n": 10000,
+      "loo_utility_evaluations": 10001,
+      "exact_shapley_log10_evaluations": 3010.3,
+      "mc_200_permutations_evaluations": 2000000
+    },
+    {
+      "n": 1000000,
+      "loo_utility_evaluations": 1000001,
+      "exact_shapley_log10_evaluations": 301030.0,
+      "mc_200_permutations_evaluations": 200000000
+    }
+  ],
+  "numpy_version": "2.4.6"
+}

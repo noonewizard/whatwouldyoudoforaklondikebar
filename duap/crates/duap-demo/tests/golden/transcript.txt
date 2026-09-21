@@ -1,0 +1,80 @@
+ 1. [setup] Clearing node org:duap/clearing-eu-1 enrolled 4 keys; node signs with ed25519+ml-dsa-44
+      registry_size=4
+      node_suite=ed25519+ml-dsa-44
+      node_suite_pq=true
+ 2. [authorization] Subject sub1:eccd66f68ebf2e82b33c62f036f05cc0 granted org:duap/acme-example-corp four priced permissions and three prohibitions
+      grant=gr1:55555555555555555555555555555555
+      epoch=1
+      terms=7
+      default_effect=Deny
+      signers=1
+      digest=sha2-256:f3154c4bafb950f5abeed7fe46ca998a1f8ee36528b06b924314123730c07f50
+ 3. [collection] Acme collected one coarse-location record under term 1
+      unit=record
+      commitment=sha2-256:566fffdf057ac01b2a3f09eab76bdfbabcf9f6756cd412f6e6b0de102b004b9e
+      raw_value_transmitted=false
+ 4. [processing] 4200 service queries recorded across two metering intervals
+      queries=4200
+      term=1
+ 5. [derivation] 120 contextual-advertising inferences produced a derived segment
+      output=sha2-256:8623e3d312a7f1459e16b21459c6ce1cc12388541452426837f3b377cd366742
+      unit=inference
+ 6. [refusal] Behavioural advertising refused: no term permits that purpose
+      outcome=Rejected(Authorization { reason: DefaultEffect })
+ 7. [refusal] Precise location refused by the subject's explicit prohibition
+      denied_by_term_10=true
+ 8. [refusal] Sale refused: term 12 denies transfer.sale outright
+      outcome_is_denial=true
+ 9. [transfer] Licensed 40 aggregate records to org:duap/buyer-mediaco; an identical transfer to org:duap/unlisted-broker was refused by the allowlist obligation
+      allowlisted_transfer=accepted
+      unlisted_transfer=refused
+10. [ai_training] 18400 tokens of the subject's reviews entered a fine-tuning run
+      model=sha2-256:1d26264fa4f09f8aa5ecadcabf159ddc37a818a2bc9384b3e881f703810c2988
+      unit=token
+      attribution_claim=inclusion_only
+11. [double_counting] The processor reported the same aggregation the controller had already reported
+      detected=true
+      policy=controller_wins
+12. [revocation] Subject withdrew AI-training permission with one hour's notice; service use continues
+      effective_from=2025-09-21T08:00:00Z
+      retroactive=DeleteSourceAndDerived
+      training_after=refused
+      service_after=accepted
+      already_trained_model=NOT_UNLEARNED
+13. [accounting] Period closed: 6 receipts, 1 invoice(s), total 0.39 EUR
+      batch_root=sha2-256:b93dd2e7bffd50cb2e644d0a33e4428840b276ad887b804b3895e3b3984fbd25
+      total_charged=0.39 EUR
+      subject_share=0.19 EUR
+      journal_entries=1
+      trial_balance_zero=true
+14. [billing] Invoice inv1:3cc6c0e3c31997e0a6f6cfd5b2f79904 to org:duap/acme-example-corp for 0.39 EUR across 6 lines
+      line1: 1 x record of location.coarse for service.core -> 0.00 EUR (subject 0.00 EUR)
+      line2: 4500 x query of location.coarse for service.core -> 0.18 EUR (subject 0.09 EUR)
+      line3: 120 x inference of behavior.web_browsing for marketing.advertising.contextual -> 0.05 EUR (subject 0.02 EUR)
+      line4: 40 x record of transaction.purchase for improvement.analytics -> 0.04 EUR (subject 0.02 EUR)
+      line5: 40 x record of transaction.purchase for commerce.licensing -> 0.04 EUR (subject 0.02 EUR)
+      line6: 18400 x token of content.user_generated for improvement.ai_training -> 0.08 EUR (subject 0.04 EUR)
+15. [audit] An independent verifier re-checked every receipt from the public key alone
+      receipts=6
+      all_verified_and_anchored=true
+      claims_established=30
+      claims_explicitly_not_established=30
+16. [provenance] The fine-tuned model attributes to 1 subject(s); 0 of the weight terminated
+      model=sha2-256:1d26264fa4f09f8aa5ecadcabf159ddc37a818a2bc9384b3e881f703810c2988
+      depth=2
+      descendants_of_profile=1
+      claim=inclusion, NOT influence, NOT economic contribution
+17. [dispute] A quantity dispute was filed, weighed against verifiable evidence, and settled
+      verifiable_evidence=3
+      assertions=1
+      state=Settled
+      adjustment=0.01 EUR
+      trial_balance_zero=true
+18. [settlement] Released 2.28 EUR to the subject; 0.000000000 minor EUR carried forward
+      payouts=1
+      paid=2.28 EUR
+      outstanding=0.000000000 minor EUR
+      threshold=1.00 EUR
+      simulated_extra_periods=11
+      trial_balance_zero=true
+summary accepted=8 refused=6 receipts=6 total=0.39 EUR subject=0.19 EUR paid=2.28 EUR log=10 balanced=true verified=true

@@ -9,6 +9,10 @@ members = [
     "crates/duap-meter",
     "crates/duap-valuation",
     "crates/duap-ledger",
+    "crates/duap-receipt",
+    "crates/duap-clearing",
+    "crates/duap-sdk",
+    "crates/duap-demo",
 ]
 
 [workspace.package]

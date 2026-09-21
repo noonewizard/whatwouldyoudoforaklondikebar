@@ -46,6 +46,20 @@ pub enum PricingRule {
         unit_price: Precise,
     },
 
+    /// Prices for several units at once.
+    ///
+    /// A single authorization term routinely covers operations that are
+    /// metered differently -- collection in records, querying in queries,
+    /// profiling in inferences. Forcing one unit per term either splits
+    /// every term several ways or leaves usage unpriced. The table keeps the
+    /// term readable and makes the unit coverage explicit.
+    #[serde(rename = "unit_table")]
+    UnitTable {
+        /// Ascending by unit code, so the canonical encoding is unique.
+        #[serde(rename = "p")]
+        prices: Vec<(Unit, Precise)>,
+    },
+
     /// A volume schedule. Tiers are marginal: units are charged at the rate of
     /// the tier they fall into, not the whole volume at the last tier's rate.
     #[serde(rename = "tiered")]
@@ -106,17 +120,38 @@ pub enum PricingRule {
 }
 
 impl PricingRule {
-    /// The unit this rule prices, where it has one.
+    /// The unit this rule prices, where it prices exactly one.
     pub fn unit(&self) -> Option<Unit> {
         match self {
             PricingRule::PerUnit { unit, .. }
             | PricingRule::Tiered { unit, .. }
             | PricingRule::Negotiated { unit, .. }
             | PricingRule::Auction { unit, .. } => Some(*unit),
-            PricingRule::Free | PricingRule::RevenueShare { .. } | PricingRule::Schedule { .. } => {
-                None
-            }
+            PricingRule::Free
+            | PricingRule::RevenueShare { .. }
+            | PricingRule::Schedule { .. }
+            | PricingRule::UnitTable { .. } => None,
         }
+    }
+
+    /// Whether this rule can price usage measured in `unit`.
+    ///
+    /// Rules that do not depend on the unit at all (free, revenue share)
+    /// cover every unit; a rule pinned to one unit covers only that one.
+    pub fn covers_unit(&self, unit: Unit) -> bool {
+        match self {
+            PricingRule::Free | PricingRule::RevenueShare { .. } => true,
+            PricingRule::Schedule { .. } => true,
+            PricingRule::UnitTable { prices } => prices.iter().any(|(u, _)| *u == unit),
+            other => other.unit() == Some(unit),
+        }
+    }
+
+    /// Build a unit table, normalising the order.
+    pub fn unit_table(prices: impl IntoIterator<Item = (Unit, Precise)>) -> PricingRule {
+        let mut v: Vec<(Unit, Precise)> = prices.into_iter().collect();
+        v.sort_by_key(|(u, _)| u.code());
+        PricingRule::UnitTable { prices: v }
     }
 
     /// Structural checks that do not need market data.
@@ -183,6 +218,40 @@ impl PricingRule {
                         reason: "a revenue share above 100% is rejected as a modelling error"
                             .into(),
                     });
+                }
+                Ok(())
+            }
+            PricingRule::UnitTable { prices } => {
+                if prices.is_empty() {
+                    return Err(ModelError::Invalid {
+                        field: "pricing.unit_table",
+                        reason: "a unit table needs at least one entry".into(),
+                    });
+                }
+                let mut seen = std::collections::BTreeSet::new();
+                let mut last: Option<&str> = None;
+                for (u, p) in prices {
+                    if !seen.insert(u.code()) {
+                        return Err(ModelError::Invalid {
+                            field: "pricing.unit_table",
+                            reason: format!("duplicate unit {}", u.code()),
+                        });
+                    }
+                    if let Some(l) = last {
+                        if u.code() < l {
+                            return Err(ModelError::Invalid {
+                                field: "pricing.unit_table",
+                                reason: "unit table entries must be sorted by unit code".into(),
+                            });
+                        }
+                    }
+                    last = Some(u.code());
+                    if p.nmu < 0 {
+                        return Err(ModelError::Invalid {
+                            field: "pricing.unit_table",
+                            reason: format!("negative price for {}", u.code()),
+                        });
+                    }
                 }
                 Ok(())
             }

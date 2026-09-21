@@ -252,16 +252,20 @@ pub fn evaluate(
         }
     }
 
-    // Pricing: the most specific permitting term that states one wins; ties
-    // are broken by the lowest term id so that the choice is deterministic.
-    let mut best: Option<(&crate::grant::Term, u32)> = None;
+    // Pricing: among the permitting terms that state a rule, prefer one
+    // whose rule can actually price the unit this event is metered in, then
+    // the most specific, then the lowest term id. Unit coverage comes first
+    // because a more specific rule in the wrong unit prices nothing at all;
+    // the tie-breaks keep the choice deterministic. (Vertical-slice
+    // finding VS-3.)
+    let mut best: Option<(&crate::grant::Term, (bool, u32))> = None;
     for t in &permits {
-        if t.pricing.is_some() {
-            let spec = t.matcher.specificity();
+        if let Some(rule) = &t.pricing {
+            let score = (rule.covers_unit(event.quantity.unit), t.matcher.specificity());
             match best {
-                None => best = Some((t, spec)),
-                Some((bt, bs)) if spec > bs || (spec == bs && t.id < bt.id) => {
-                    best = Some((t, spec))
+                None => best = Some((t, score)),
+                Some((bt, bs)) if score > bs || (score == bs && t.id < bt.id) => {
+                    best = Some((t, score))
                 }
                 _ => {}
             }

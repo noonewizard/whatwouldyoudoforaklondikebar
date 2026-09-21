@@ -95,6 +95,29 @@ macro_rules! opaque_id {
 }
 
 opaque_id!(EventId, "evt1", "Identifier of a data usage event.");
+
+impl EventId {
+    /// Derive an event identifier from an agent's stream and sequence index.
+    ///
+    /// Deterministic derivation is preferred to a random identifier for
+    /// three reasons: an embedded agent need not reach for entropy on the
+    /// hot path; the identifier becomes recomputable by anyone holding the
+    /// stream and index, so a claim that two events are the same is
+    /// checkable; and a collision can only mean a reused sequence slot,
+    /// which the meter already treats as a conflict. The event's canonical
+    /// identity remains its digest -- this is a human-facing handle.
+    pub fn for_sequence(stream: &ContentId, index: u64) -> EventId {
+        let mut input = Vec::with_capacity(80);
+        input.extend_from_slice(stream.to_string().as_bytes());
+        input.push(0);
+        input.extend_from_slice(&index.to_be_bytes());
+        EventId::from_digest(&duap_canon::Digest::of(
+            duap_canon::HashAlg::Sha2_256,
+            "duap.event-id.v1",
+            &input,
+        ))
+    }
+}
 opaque_id!(
     SubjectRef,
     "sub1",

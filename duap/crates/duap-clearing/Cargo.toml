@@ -1,0 +1,33 @@
+[package]
+name = "duap-clearing"
+description = "DUAP clearing node: ingest pipeline, period close, receipts, invoicing, settlement"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+duap-canon = { path = "../duap-canon", version = "0.1.0" }
+duap-crypto = { path = "../duap-crypto", version = "0.1.0" }
+duap-model = { path = "../duap-model", version = "0.1.0" }
+duap-auth = { path = "../duap-auth", version = "0.1.0" }
+duap-provenance = { path = "../duap-provenance", version = "0.1.0" }
+duap-meter = { path = "../duap-meter", version = "0.1.0" }
+duap-valuation = { path = "../duap-valuation", version = "0.1.0" }
+duap-ledger = { path = "../duap-ledger", version = "0.1.0" }
+duap-receipt = { path = "../duap-receipt", version = "0.1.0" }
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+rusqlite = { workspace = true, optional = true }
+
+[features]
+default = []
+sqlite = ["dep:rusqlite"]
+
+[dev-dependencies]
+proptest.workspace = true
+criterion.workspace = true
+

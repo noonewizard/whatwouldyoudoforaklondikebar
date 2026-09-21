@@ -149,6 +149,17 @@ impl PriceEngine {
                 self.check_unit(*unit, key.unit)?;
                 (*unit_price, format!("per_unit {unit_price} per {}", unit.code()))
             }
+            PricingRule::UnitTable { prices } => {
+                match prices.iter().find(|(u, _)| *u == key.unit) {
+                    Some((u, p)) => (*p, format!("unit_table {p} per {}", u.code())),
+                    None => {
+                        return Err(PricingError::UnitMismatch {
+                            rule_unit: "unit_table",
+                            usage_unit: key.unit.code(),
+                        });
+                    }
+                }
+            }
             PricingRule::Negotiated {
                 unit,
                 unit_price,

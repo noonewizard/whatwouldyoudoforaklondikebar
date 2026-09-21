@@ -413,7 +413,7 @@ impl fmt::Display for Precise {
         let abs = self.nmu.unsigned_abs();
         write!(
             f,
-            "{}{}.{:09} {}(minor)",
+            "{}{}.{:09} minor {}",
             if neg { "-" } else { "" },
             abs / NANO as u128,
             abs % NANO as u128,

@@ -1,0 +1,78 @@
+# DELIVERABLE 29 — PROVENANCE SCHEMA
+# One provenance.yml per figure directory.
+# Never fabricate a field. Use UNKNOWN / NOT_VERIFIED / NOT_APPLICABLE.
+# "NOT_VERIFIED" is the correct answer more often than researchers like.
+
+figure_id:        FIG-04-037
+title:            ""
+type:             ""          # from Deliverable 4 vocabulary
+book:             4
+chapter:          67
+purpose:          ""          # the argument this figure serves
+
+sources:
+  - citation:     ""          # full bibliographic form
+    role:         primary     # primary | secondary | data | comparative | basemap
+    location:     ""          # folio, plate, sheet. NEVER a guessed page number
+    consulted:    ""          # direct | facsimile | reproduction | NOT_VERIFIED
+    access_date:  ""
+
+archival:                     # when the figure reproduces a held object
+  institution:    ""
+  collection:     ""
+  object_id:      ""          # shelfmark or accession number
+  object_title:   ""
+  creator:        ""
+  object_date:    ""
+  repository_url: ""
+  rights:         ""
+  license:        ""
+  access_date:    ""
+  reproduction_permission: "" # granted | pending | not-required | denied
+  modifications:              # EVERY alteration, itemized
+    - ""                      # e.g. "cropped to plate area; original retained in source/"
+
+data:
+  source:         ""
+  transformation: ""
+  file:           ""
+
+construction:
+  creator:        ""
+  software:       []
+  date:           ""
+  methodology:    ""          # how the drawing was derived from the sources
+  script:         ""
+  random_seed:    null
+  environment:    ""
+
+evidence_status:        ""    # documented|supported|disputed|speculative|unsupported|conceptual
+interpretation_status:  ""    # descriptive|interpretive|reconstructive|speculative
+
+# What the figure claims, and — equally required — what it does not.
+claims:             ""
+does_not_claim:     ""
+
+# Where the figure is uncertain, and how that is shown.
+uncertainty:
+  present:        true
+  elements:       []          # which parts are inferred or conjectural
+  encoding:       ""          # how uncertainty is made visible in the drawing
+
+competing_reconstructions:    # REQUIRED when evidence_status == disputed
+  - proposer:     ""
+    citation:     ""
+    shown:        false       # is it drawn in this figure?
+    note:         ""
+
+rights:
+  holder:         ""
+  license:        ""
+  status:         ""
+  attribution:    ""
+  obtained_date:  ""
+  expires:        ""
+
+notes:            ""
+limitations:      ""          # what a careful reader should distrust
+research_required: []         # open questions blocking approval

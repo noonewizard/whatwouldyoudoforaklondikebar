@@ -1,0 +1,81 @@
+# DELIVERABLE 6 — ILLUSTRATION REGISTER SCHEMA
+# Validated by scripts/validate_register.py in CI.
+# Fields marked REQUIRED fail the build when absent or empty.
+# Never invent a value. Use UNKNOWN / NOT_VERIFIED / NOT_APPLICABLE.
+
+$schema: ringler-illustration-register/v1
+
+figure:
+  figure_id:            {type: string, pattern: '^FIG-0[1-6]-\d{3}$', required: true}
+  quarto_label:         {type: string, pattern: '^@fig-[a-z0-9-]+$',  required: true}
+  book:                 {type: integer, enum: [1,2,3,4,5,6], required: true}
+  chapter:              {type: [integer, string], required: true}
+  title:                {type: string, required: true}
+  subtitle:             {type: string, required: false}
+
+  figure_class:         {enum: [evidence-bearing, analytical, computational, atmospheric], required: true}
+  figure_type:          {type: string, required: true}   # from Deliverable 4 vocabulary
+  evidence_status:      {enum: [documented, supported, disputed, speculative, unsupported, conceptual], required: true}
+  interpretation_status: {enum: [descriptive, interpretive, reconstructive, speculative], required: true}
+  priority:             {enum: [A, B, C, D], required: true}
+
+  description:          {type: string, required: true}
+  purpose:              {type: string, required: true}   # what argument it serves
+  does_not_show:        {type: string, required: true}   # what the reader must NOT infer
+
+  sources:
+    required: true      # non-empty unless figure_class == atmospheric
+    items:
+      citation:         {type: string, required: true}
+      role:             {enum: [primary, secondary, data, comparative, basemap], required: true}
+      location:         {type: string, required: false}  # folio/plate; never a guessed page
+
+  data:
+    source:             {type: string}
+    transformation:     {type: string}
+    file:               {type: string}
+
+  construction:
+    creator:            {type: string, required: true}
+    software:           {type: array,  required: true}
+    date:               {type: date,   required: true}
+    methodology:        {type: string, required: true}
+    script:             {type: string}
+    random_seed:        {type: integer}
+    environment:        {type: string}
+
+  ai_generation:        # REQUIRED when any AI tool appears in construction.software
+    used:               {type: boolean, required: true}
+    tool:               {type: string}
+    model_version:      {type: string}
+    prompt:             {type: string}
+    date:               {type: date}
+    human_edits:        {type: string}
+    historically_constrained: {type: boolean}
+    role:               {enum: [illustration, atmosphere], required: true}   # never "evidence"
+
+  rights:
+    holder:             {type: string, required: true}
+    license:            {type: string, required: true}
+    status:             {enum: [public-domain, licensed, permission-granted, permission-pending, fair-use-claimed, own-work], required: true}
+    attribution:        {type: string, required: true}
+    obtained_date:      {type: date}
+    expires:            {type: date}
+
+  files:
+    original:           {type: string}
+    export_print:       {type: string, required: true}   # .pdf or .tif
+    export_web:         {type: string, required: true}   # .svg or .png
+    export_epub:        {type: string}
+
+  caption:              {type: string, required: true}
+  alt_text:             {type: string, maxLength: 250, required: true}
+  long_description:     {type: string}                   # required for architectural/math/cipher/institutional
+  cross_references:     {type: array}
+
+  revision:             {type: integer, required: true}
+  date_modified:        {type: date, required: true}
+  status:               {enum: [proposed, research-required, in-progress, review, approved, withdrawn], required: true}
+  qa_status:            {enum: [not-started, content, evidence, design, technical, accessibility, argument-audit, passed], required: true}
+  notes:                {type: string}
+  limitations:          {type: string}

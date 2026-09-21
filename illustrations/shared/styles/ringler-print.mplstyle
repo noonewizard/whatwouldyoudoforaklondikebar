@@ -1,0 +1,55 @@
+# Ringler series — print figure style
+# Palette validated: node validate_palette.js "#3A5FA8,#C08420,#0E8C72,#A83A33" \
+#   --mode light --surface "#FAF8F4" --pairs all  -> ALL CHECKS PASS
+# Identity is carried by texture first; color is auxiliary. Never cycle hues.
+
+figure.figsize      : 5.5, 3.6
+figure.dpi          : 300
+savefig.dpi         : 300
+savefig.format      : pdf
+savefig.bbox        : tight
+savefig.pad_inches  : 0.02
+savefig.transparent : False
+
+figure.facecolor    : FAF8F4
+axes.facecolor      : FAF8F4
+savefig.facecolor   : FAF8F4
+
+font.family         : serif
+font.serif          : EB Garamond, Georgia, DejaVu Serif
+font.size           : 7.0
+axes.titlesize      : 9.0
+axes.labelsize      : 7.0
+xtick.labelsize     : 6.5
+ytick.labelsize     : 6.5
+legend.fontsize     : 7.0
+
+text.color          : 1A1917
+axes.labelcolor     : 55524C
+xtick.color         : 8A857C
+ytick.color         : 8A857C
+axes.edgecolor      : 8A857C
+
+axes.spines.top     : False
+axes.spines.right   : False
+axes.linewidth      : 0.6
+
+axes.grid           : True
+grid.color          : 1A1917
+grid.alpha          : 0.06
+grid.linewidth      : 0.4
+axes.axisbelow      : True
+
+# Fixed slot order. Assign by entity, never by rank; never extend by generating a hue.
+axes.prop_cycle     : cycler('color', ['3A5FA8', 'C08420', '0E8C72', 'A83A33'])
+
+lines.linewidth     : 1.0
+lines.markersize    : 3.5
+patch.linewidth     : 0.6
+hatch.linewidth     : 0.5
+
+legend.frameon      : False
+legend.handlelength : 1.6
+
+pdf.fonttype        : 42
+ps.fonttype         : 42

@@ -31,8 +31,12 @@ fn model_terms() -> Vec<Term> {
         Term::permit(
             1,
             Matcher::any()
-                .classes(ClassSelector::In { values: vec![DataClass::LocationCoarse] })
-                .purposes(PurposeSelector::Exact { values: vec![Purpose::ServiceCore] }),
+                .classes(ClassSelector::In {
+                    values: vec![DataClass::LocationCoarse],
+                })
+                .purposes(PurposeSelector::Exact {
+                    values: vec![Purpose::ServiceCore],
+                }),
         )
         .with_pricing(PricingRule::Free),
         Term::permit(
@@ -49,7 +53,9 @@ fn model_terms() -> Vec<Term> {
         Term::deny(
             3,
             Matcher::any()
-                .classes(ClassSelector::In { values: vec![DataClass::ContactEmail] })
+                .classes(ClassSelector::In {
+                    values: vec![DataClass::ContactEmail],
+                })
                 .purposes(PurposeSelector::Exact {
                     values: vec![Purpose::ServiceCore, Purpose::MarketingDirect],
                 }),
@@ -60,7 +66,9 @@ fn model_terms() -> Vec<Term> {
                 .classes(ClassSelector::In {
                     values: vec![DataClass::LocationCoarse, DataClass::ContactEmail],
                 })
-                .purposes(PurposeSelector::Exact { values: vec![Purpose::MarketingDirect] }),
+                .purposes(PurposeSelector::Exact {
+                    values: vec![Purpose::MarketingDirect],
+                }),
         ),
     ]
 }
@@ -122,9 +130,10 @@ fn for_each_configuration(mut f: impl FnMut(&Grant, DataUsageEvent, DataClass, P
 #[test]
 fn deny_overrides() {
     for_each_configuration(|g, ev, class, purpose| {
-        let any_deny = g.terms.iter().any(|t| {
-            t.effect == Effect::Deny && t.matcher.matches(&ev)
-        });
+        let any_deny = g
+            .terms
+            .iter()
+            .any(|t| t.effect == Effect::Deny && t.matcher.matches(&ev));
         let d = evaluate(g, &[], &ev, &EvalContext::verified());
         if any_deny {
             assert!(
@@ -157,7 +166,9 @@ fn revocation_is_prospective() {
     let g = grant_with(model_terms());
     let rev = Revocation::for_grant(
         &g,
-        RevocationScope::Purposes { purposes: vec![Purpose::ServiceCore] },
+        RevocationScope::Purposes {
+            purposes: vec![Purpose::ServiceCore],
+        },
         Timestamp::from_secs(T0 + 100),
         RetroactiveRequest::None,
     )

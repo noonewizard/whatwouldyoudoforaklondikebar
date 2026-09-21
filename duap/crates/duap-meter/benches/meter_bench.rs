@@ -9,7 +9,9 @@ fn mk(i: u64) -> DataUsageEvent {
         EventId((i as u128).to_be_bytes()),
         AgentRef::new("bench", "0"),
         controller,
-        SubjectScope::Subject { subject: SubjectRef(((i % 10_000) as u128).to_be_bytes()) },
+        SubjectScope::Subject {
+            subject: SubjectRef(((i % 10_000) as u128).to_be_bytes()),
+        },
         Jurisdiction::new("DE").unwrap(),
         DataClass::LocationCoarse,
         Operation::AccessQuery,

@@ -25,7 +25,7 @@ pub mod multiplier;
 pub mod schedule;
 
 pub use auction::{AuctionResult, BidCommitment, BidReveal, Lot, SealedBidAuction, bid_commitment};
-pub use distribution::{Allocation, Balance, PayoutAccumulator, Payout, distribute};
+pub use distribution::{Allocation, Balance, Payout, PayoutAccumulator, distribute};
 pub use engine::{PriceBreakdown, PriceEngine, PricingError, PricingInputs};
 pub use multiplier::{AppliedMultiplier, MultiplierContext, MultiplierPolicy};
 pub use schedule::{PricingSchedule, ScheduleEntry, ScheduleRegistry};

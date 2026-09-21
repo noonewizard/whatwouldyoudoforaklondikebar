@@ -54,7 +54,9 @@ pub mod revocation;
 
 /// Common imports for callers.
 pub mod prelude {
-    pub use crate::evaluate::{AuthorizationStore, Decision, DecisionReason, EvalContext, evaluate};
+    pub use crate::evaluate::{
+        AuthorizationStore, Decision, DecisionReason, EvalContext, evaluate,
+    };
     pub use crate::grant::{Effect, Grant, GrantBuilder, RevocationPolicy, Term};
     pub use crate::matcher::{ClassSelector, Matcher, PurposeSelector, Selector};
     pub use crate::obligation::{DerivationContext, Obligation};

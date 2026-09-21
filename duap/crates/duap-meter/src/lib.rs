@@ -28,9 +28,7 @@ pub mod doublecount;
 pub mod evidence;
 pub mod pipeline;
 
-pub use aggregate::{
-    AggregateError, Aggregator, ScopeTag, UsageCounter, UsageKey, WindowSize,
-};
+pub use aggregate::{AggregateError, Aggregator, ScopeTag, UsageCounter, UsageKey, WindowSize};
 pub use dedup::{Admission, DedupIndex, GapReport, RejectReason, WindowConfig};
 pub use doublecount::{
     Collision, CountDecision, DoubleCountDetector, ResolutionPolicy, fingerprint,

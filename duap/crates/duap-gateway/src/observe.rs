@@ -19,8 +19,8 @@
 //! client library.
 
 use std::collections::BTreeMap;
-use std::sync::atomic::{AtomicU64, Ordering};
 use std::sync::Mutex;
+use std::sync::atomic::{AtomicU64, Ordering};
 use std::time::Instant;
 
 /// The nine ingest stages, for per-stage timing.
@@ -139,7 +139,9 @@ pub struct Histogram {
 impl Default for Histogram {
     fn default() -> Self {
         Histogram {
-            bounds: vec![50, 100, 250, 500, 1_000, 2_500, 5_000, 10_000, 50_000, 250_000],
+            bounds: vec![
+                50, 100, 250, 500, 1_000, 2_500, 5_000, 10_000, 50_000, 250_000,
+            ],
             counts: vec![0; 11],
             sum: 0,
             n: 0,
@@ -192,7 +194,9 @@ impl Metrics {
     pub fn render(&self) -> String {
         let mut out = String::with_capacity(2048);
         let g = |name: &str, help: &str, kind: &str, v: u64, out: &mut String| {
-            out.push_str(&format!("# HELP {name} {help}\n# TYPE {name} {kind}\n{name} {v}\n"));
+            out.push_str(&format!(
+                "# HELP {name} {help}\n# TYPE {name} {kind}\n{name} {v}\n"
+            ));
         };
         g(
             "duap_gateway_requests_total",
@@ -247,7 +251,12 @@ impl Metrics {
             "# HELP duap_gateway_rejections_by_stage_total Rejections by pipeline stage.\n\
              # TYPE duap_gateway_rejections_by_stage_total counter\n",
         );
-        for (k, v) in self.rejections_by_stage.lock().expect("metrics mutex").iter() {
+        for (k, v) in self
+            .rejections_by_stage
+            .lock()
+            .expect("metrics mutex")
+            .iter()
+        {
             out.push_str(&format!(
                 "duap_gateway_rejections_by_stage_total{{stage=\"{k}\"}} {v}\n"
             ));

@@ -1,0 +1,159 @@
+# DUAP continuous integration.
+#
+# Every gate here corresponds to a project rule. A rule that nothing checks
+# is a rule that erodes, and several of these checks existed in the
+# repository for some time with nothing running them -- which is how VS-9
+# happened.
+name: duap
+
+on:
+  push:
+    paths: ['duap/**', '.github/workflows/duap.yml']
+  pull_request:
+    paths: ['duap/**', '.github/workflows/duap.yml']
+
+defaults:
+  run:
+    working-directory: duap
+
+env:
+  CARGO_TERM_COLOR: always
+  RUSTFLAGS: -D warnings
+
+jobs:
+  rust:
+    name: Rust build, lint and tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: duap
+      - name: Formatting
+        run: cargo fmt --all --check
+      - name: Clippy
+        run: cargo clippy --workspace --all-targets -- -D warnings
+      - name: Tests
+        run: cargo test --workspace
+      - name: Documentation builds without broken intra-doc links
+        run: cargo doc --workspace --no-deps
+        env:
+          RUSTDOCFLAGS: -D warnings
+
+  conformance:
+    name: Conformance vectors
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: duap
+      # The committed vectors must match the generator exactly. A changed
+      # vector is a wire-format change and needs an ADR, not a regeneration.
+      - name: Vectors match the generator
+        run: cargo run -p duap-conformance -- check spec/vectors
+      - name: Regeneration is a no-op
+        run: |
+          cargo run -p duap-conformance -- generate spec/vectors
+          git diff --exit-code -- spec/vectors
+
+  gateway:
+    name: Independent Go implementation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+          cache-dependency-path: duap/gateway/go.sum
+      - name: Vet
+        run: go vet ./...
+        working-directory: duap/gateway
+      - name: Tests
+        run: go test ./...
+        working-directory: duap/gateway
+      # The point of this job: a second implementation, written against the
+      # specification rather than ported, checking the same vectors. It found
+      # VS-4, which the Rust could not have found.
+      - name: Verify the committed vectors
+        run: go run ./cmd/duap-verify ../spec/vectors
+        working-directory: duap/gateway
+
+  formal:
+    name: Model checking
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Cache tla2tools
+        uses: actions/cache@v4
+        with:
+          path: duap/formal/tla2tools.jar
+          key: tla2tools-v1.7.4
+      # Three configurations must pass and two must FAIL. check.sh asserts
+      # the expected outcome of each, so a non-vacuity check that starts
+      # passing fails the build -- which is the point of having it.
+      - name: Check all five configurations
+        run: ./check.sh
+        working-directory: duap/formal
+
+  generated:
+    name: Generated files are regenerated, not edited
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Taxonomy regenerates identically
+        run: |
+          python3 ontology/gen_code.py
+          git diff --exit-code -- crates/duap-model/src/taxonomy.rs \
+                                  sdk/python/duap/taxonomy.py \
+                                  sdk/typescript/src/taxonomy.ts
+      - name: Economic model regenerates identically
+        run: |
+          python3 economics/model.py
+          git diff --exit-code -- economics/results.md
+
+  documentation:
+    name: Documentation rules
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      # Rule 08: a citation that cannot be followed is worse than none,
+      # because a reader assumes it was checked.
+      - name: Every referenced path exists
+        run: python3 tools/check_links.py
+      # specs/invariants.md must not cite a test or model invariant that
+      # does not exist.
+      - name: Invariants cite real tests
+        run: python3 tools/check_invariant_tests.py
+      # Rule 07: no real personal data, anywhere, including in prose.
+      - name: No personal data
+        run: .claude/hooks/check-no-pii.sh --all
+      # Rule 01: a public module without a maturity marker is a defect.
+      - name: Maturity markers present
+        run: .claude/hooks/check-markers.sh --all
+
+  security:
+    name: Dependency and advisory scanning
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Install cargo-deny
+        run: cargo install --locked cargo-deny || true
+      # Rule 05 requires an ADR to add a dependency on the trust path, and
+      # this is the check that notices when one arrives without it.
+      - name: Advisories, licences, bans and sources
+        run: cargo deny check

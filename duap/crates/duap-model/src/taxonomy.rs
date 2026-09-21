@@ -9,13 +9,14 @@
 
 #![allow(clippy::match_like_matches_macro)]
 
-use serde::{Deserialize, Serialize};
 use crate::error::TaxonomyError;
+use serde::{Deserialize, Serialize};
 
 /// Version of the ontology these definitions were generated from.
 pub const ONTOLOGY_VERSION: &str = "1.0.0-draft";
 /// SHA-256 of the ontology document, for cross-implementation checks.
-pub const ONTOLOGY_SHA256: &str = "68fcb23de2d63a4f2a216df14e048d519fbac744e1dfdecb0f69bd80d4fe4a41";
+pub const ONTOLOGY_SHA256: &str =
+    "68fcb23de2d63a4f2a216df14e048d519fbac744e1dfdecb0f69bd80d4fe4a41";
 
 /// How much harm disclosure of this data would do to the subject.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash, Serialize, Deserialize)]
@@ -73,7 +74,10 @@ impl SensitivityTier {
             "t2" => Ok(SensitivityTier::T2),
             "t3" => Ok(SensitivityTier::T3),
             "t4" => Ok(SensitivityTier::T4),
-            other => Err(TaxonomyError::UnknownCode { kind: "SensitivityTier", code: other.to_owned() }),
+            other => Err(TaxonomyError::UnknownCode {
+                kind: "SensitivityTier",
+                code: other.to_owned(),
+            }),
         }
     }
 
@@ -97,16 +101,22 @@ impl std::fmt::Display for SensitivityTier {
 
 impl std::str::FromStr for SensitivityTier {
     type Err = TaxonomyError;
-    fn from_str(s: &str) -> Result<Self, TaxonomyError> { Self::parse(s) }
+    fn from_str(s: &str) -> Result<Self, TaxonomyError> {
+        Self::parse(s)
+    }
 }
 
 impl TryFrom<String> for SensitivityTier {
     type Error = TaxonomyError;
-    fn try_from(s: String) -> Result<Self, TaxonomyError> { Self::parse(&s) }
+    fn try_from(s: String) -> Result<Self, TaxonomyError> {
+        Self::parse(&s)
+    }
 }
 
 impl From<SensitivityTier> for String {
-    fn from(v: SensitivityTier) -> String { v.code().to_owned() }
+    fn from(v: SensitivityTier) -> String {
+        v.code().to_owned()
+    }
 }
 
 /// A class of data in the DUAP taxonomy.
@@ -525,7 +535,10 @@ impl DataClass {
             "derived.dp_aggregate" => Ok(DataClass::DerivedDpAggregate),
             "derived.synthetic" => Ok(DataClass::DerivedSynthetic),
             "derived.model_parameters" => Ok(DataClass::DerivedModelParameters),
-            other => Err(TaxonomyError::UnknownCode { kind: "DataClass", code: other.to_owned() }),
+            other => Err(TaxonomyError::UnknownCode {
+                kind: "DataClass",
+                code: other.to_owned(),
+            }),
         }
     }
 
@@ -740,7 +753,10 @@ impl DataClass {
     /// The dotted namespace prefix, e.g. `location` for `location.precise`.
     pub fn namespace(self) -> &'static str {
         let c = self.code();
-        match c.find('.') { Some(i) => &c[..i], None => c }
+        match c.find('.') {
+            Some(i) => &c[..i],
+            None => c,
+        }
     }
 }
 
@@ -752,16 +768,22 @@ impl std::fmt::Display for DataClass {
 
 impl std::str::FromStr for DataClass {
     type Err = TaxonomyError;
-    fn from_str(s: &str) -> Result<Self, TaxonomyError> { Self::parse(s) }
+    fn from_str(s: &str) -> Result<Self, TaxonomyError> {
+        Self::parse(s)
+    }
 }
 
 impl TryFrom<String> for DataClass {
     type Error = TaxonomyError;
-    fn try_from(s: String) -> Result<Self, TaxonomyError> { Self::parse(&s) }
+    fn try_from(s: String) -> Result<Self, TaxonomyError> {
+        Self::parse(&s)
+    }
 }
 
 impl From<DataClass> for String {
-    fn from(v: DataClass) -> String { v.code().to_owned() }
+    fn from(v: DataClass) -> String {
+        v.code().to_owned()
+    }
 }
 
 /// How data was obtained.
@@ -906,7 +928,10 @@ impl CollectionMethod {
             "acquisition.public" => Ok(CollectionMethod::AcquisitionPublic),
             "acquisition.scrape" => Ok(CollectionMethod::AcquisitionScrape),
             "inference.derived" => Ok(CollectionMethod::InferenceDerived),
-            other => Err(TaxonomyError::UnknownCode { kind: "CollectionMethod", code: other.to_owned() }),
+            other => Err(TaxonomyError::UnknownCode {
+                kind: "CollectionMethod",
+                code: other.to_owned(),
+            }),
         }
     }
 
@@ -946,16 +971,22 @@ impl std::fmt::Display for CollectionMethod {
 
 impl std::str::FromStr for CollectionMethod {
     type Err = TaxonomyError;
-    fn from_str(s: &str) -> Result<Self, TaxonomyError> { Self::parse(s) }
+    fn from_str(s: &str) -> Result<Self, TaxonomyError> {
+        Self::parse(s)
+    }
 }
 
 impl TryFrom<String> for CollectionMethod {
     type Error = TaxonomyError;
-    fn try_from(s: String) -> Result<Self, TaxonomyError> { Self::parse(&s) }
+    fn try_from(s: String) -> Result<Self, TaxonomyError> {
+        Self::parse(&s)
+    }
 }
 
 impl From<CollectionMethod> for String {
-    fn from(v: CollectionMethod) -> String { v.code().to_owned() }
+    fn from(v: CollectionMethod) -> String {
+        v.code().to_owned()
+    }
 }
 
 /// A measurement unit for metered quantities.
@@ -1056,7 +1087,10 @@ impl Unit {
             "retrieval" => Ok(Unit::Retrieval),
             "gradient_step" => Ok(Unit::GradientStep),
             "share" => Ok(Unit::Share),
-            other => Err(TaxonomyError::UnknownCode { kind: "Unit", code: other.to_owned() }),
+            other => Err(TaxonomyError::UnknownCode {
+                kind: "Unit",
+                code: other.to_owned(),
+            }),
         }
     }
 
@@ -1090,16 +1124,22 @@ impl std::fmt::Display for Unit {
 
 impl std::str::FromStr for Unit {
     type Err = TaxonomyError;
-    fn from_str(s: &str) -> Result<Self, TaxonomyError> { Self::parse(s) }
+    fn from_str(s: &str) -> Result<Self, TaxonomyError> {
+        Self::parse(s)
+    }
 }
 
 impl TryFrom<String> for Unit {
     type Error = TaxonomyError;
-    fn try_from(s: String) -> Result<Self, TaxonomyError> { Self::parse(&s) }
+    fn try_from(s: String) -> Result<Self, TaxonomyError> {
+        Self::parse(&s)
+    }
 }
 
 impl From<Unit> for String {
-    fn from(v: Unit) -> String { v.code().to_owned() }
+    fn from(v: Unit) -> String {
+        v.code().to_owned()
+    }
 }
 
 /// Top-level operation families.
@@ -1493,7 +1533,10 @@ impl Operation {
             "lifecycle.delete" => Ok(Operation::LifecycleDelete),
             "lifecycle.restrict" => Ok(Operation::LifecycleRestrict),
             "lifecycle.port" => Ok(Operation::LifecyclePort),
-            other => Err(TaxonomyError::UnknownCode { kind: "Operation", code: other.to_owned() }),
+            other => Err(TaxonomyError::UnknownCode {
+                kind: "Operation",
+                code: other.to_owned(),
+            }),
         }
     }
 
@@ -1693,16 +1736,22 @@ impl std::fmt::Display for Operation {
 
 impl std::str::FromStr for Operation {
     type Err = TaxonomyError;
-    fn from_str(s: &str) -> Result<Self, TaxonomyError> { Self::parse(s) }
+    fn from_str(s: &str) -> Result<Self, TaxonomyError> {
+        Self::parse(s)
+    }
 }
 
 impl TryFrom<String> for Operation {
     type Error = TaxonomyError;
-    fn try_from(s: String) -> Result<Self, TaxonomyError> { Self::parse(&s) }
+    fn try_from(s: String) -> Result<Self, TaxonomyError> {
+        Self::parse(&s)
+    }
 }
 
 impl From<Operation> for String {
-    fn from(v: Operation) -> String { v.code().to_owned() }
+    fn from(v: Operation) -> String {
+        v.code().to_owned()
+    }
 }
 
 /// A purpose of processing, forming a lattice.
@@ -1965,7 +2014,10 @@ impl Purpose {
             "research.scientific" => Ok(Purpose::ResearchScientific),
             "research.public_interest" => Ok(Purpose::ResearchPublicInterest),
             "research.commercial" => Ok(Purpose::ResearchCommercial),
-            other => Err(TaxonomyError::UnknownCode { kind: "Purpose", code: other.to_owned() }),
+            other => Err(TaxonomyError::UnknownCode {
+                kind: "Purpose",
+                code: other.to_owned(),
+            }),
         }
     }
 
@@ -2068,7 +2120,9 @@ impl Purpose {
     pub fn covers(self, other: Purpose) -> bool {
         let mut cur = Some(other);
         while let Some(p) = cur {
-            if p == self { return true; }
+            if p == self {
+                return true;
+            }
             cur = p.parent();
         }
         false
@@ -2076,8 +2130,12 @@ impl Purpose {
 
     /// Distance to the root of the lattice.
     pub fn depth(self) -> usize {
-        let mut d = 0; let mut cur = self.parent();
-        while let Some(p) = cur { d += 1; cur = p.parent(); }
+        let mut d = 0;
+        let mut cur = self.parent();
+        while let Some(p) = cur {
+            d += 1;
+            cur = p.parent();
+        }
         d
     }
 }
@@ -2090,16 +2148,22 @@ impl std::fmt::Display for Purpose {
 
 impl std::str::FromStr for Purpose {
     type Err = TaxonomyError;
-    fn from_str(s: &str) -> Result<Self, TaxonomyError> { Self::parse(s) }
+    fn from_str(s: &str) -> Result<Self, TaxonomyError> {
+        Self::parse(s)
+    }
 }
 
 impl TryFrom<String> for Purpose {
     type Error = TaxonomyError;
-    fn try_from(s: String) -> Result<Self, TaxonomyError> { Self::parse(&s) }
+    fn try_from(s: String) -> Result<Self, TaxonomyError> {
+        Self::parse(&s)
+    }
 }
 
 impl From<Purpose> for String {
-    fn from(v: Purpose) -> String { v.code().to_owned() }
+    fn from(v: Purpose) -> String {
+        v.code().to_owned()
+    }
 }
 
 /// A regulatory regime tag. A recording category, not a legal determination.
@@ -2262,10 +2326,12 @@ impl Regime {
             "cn.pipl" => Ok(Regime::CnPipl),
             "au.privacy_act" => Ok(Regime::AuPrivacyAct),
             "za.popia" => Ok(Regime::ZaPopia),
-            other => Err(TaxonomyError::UnknownCode { kind: "Regime", code: other.to_owned() }),
+            other => Err(TaxonomyError::UnknownCode {
+                kind: "Regime",
+                code: other.to_owned(),
+            }),
         }
     }
-
 }
 
 impl std::fmt::Display for Regime {
@@ -2276,16 +2342,22 @@ impl std::fmt::Display for Regime {
 
 impl std::str::FromStr for Regime {
     type Err = TaxonomyError;
-    fn from_str(s: &str) -> Result<Self, TaxonomyError> { Self::parse(s) }
+    fn from_str(s: &str) -> Result<Self, TaxonomyError> {
+        Self::parse(s)
+    }
 }
 
 impl TryFrom<String> for Regime {
     type Error = TaxonomyError;
-    fn try_from(s: String) -> Result<Self, TaxonomyError> { Self::parse(&s) }
+    fn try_from(s: String) -> Result<Self, TaxonomyError> {
+        Self::parse(&s)
+    }
 }
 
 impl From<Regime> for String {
-    fn from(v: Regime) -> String { v.code().to_owned() }
+    fn from(v: Regime) -> String {
+        v.code().to_owned()
+    }
 }
 
 /// A lawful-basis assertion made by the controller.
@@ -2364,10 +2436,12 @@ impl LawfulBasis {
             "legitimate_interests" => Ok(LawfulBasis::LegitimateInterests),
             "opt_out_respected" => Ok(LawfulBasis::OptOutRespected),
             "protocol_authorization" => Ok(LawfulBasis::ProtocolAuthorization),
-            other => Err(TaxonomyError::UnknownCode { kind: "LawfulBasis", code: other.to_owned() }),
+            other => Err(TaxonomyError::UnknownCode {
+                kind: "LawfulBasis",
+                code: other.to_owned(),
+            }),
         }
     }
-
 }
 
 impl std::fmt::Display for LawfulBasis {
@@ -2378,15 +2452,20 @@ impl std::fmt::Display for LawfulBasis {
 
 impl std::str::FromStr for LawfulBasis {
     type Err = TaxonomyError;
-    fn from_str(s: &str) -> Result<Self, TaxonomyError> { Self::parse(s) }
+    fn from_str(s: &str) -> Result<Self, TaxonomyError> {
+        Self::parse(s)
+    }
 }
 
 impl TryFrom<String> for LawfulBasis {
     type Error = TaxonomyError;
-    fn try_from(s: String) -> Result<Self, TaxonomyError> { Self::parse(&s) }
+    fn try_from(s: String) -> Result<Self, TaxonomyError> {
+        Self::parse(&s)
+    }
 }
 
 impl From<LawfulBasis> for String {
-    fn from(v: LawfulBasis) -> String { v.code().to_owned() }
+    fn from(v: LawfulBasis) -> String {
+        v.code().to_owned()
+    }
 }
-

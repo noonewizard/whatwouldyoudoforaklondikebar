@@ -66,7 +66,10 @@ fn unbalanced_entries_are_refused() {
                 AccountId::receivable(&org("org:duap/acme")),
                 Money::new(Currency::EUR, 100),
             ),
-            Posting::credit(AccountId::clearing_fee_revenue(), Money::new(Currency::EUR, 99)),
+            Posting::credit(
+                AccountId::clearing_fee_revenue(),
+                Money::new(Currency::EUR, 99),
+            ),
         ],
     );
     assert!(matches!(l.post(e), Err(LedgerError::Unbalanced { .. })));
@@ -87,13 +90,19 @@ fn balanced_entries_post_and_the_trial_balance_stays_zero() {
                     AccountId::receivable(&org("org:duap/acme")),
                     Money::new(Currency::EUR, 137),
                 ),
-                Posting::credit(AccountId::clearing_fee_revenue(), Money::new(Currency::EUR, 137)),
+                Posting::credit(
+                    AccountId::clearing_fee_revenue(),
+                    Money::new(Currency::EUR, 137),
+                ),
             ],
         );
         l.post(e).unwrap();
         assert!(l.is_balanced(), "trial balance broke at entry {i}");
     }
-    assert_eq!(l.balance(&AccountId::receivable(&org("org:duap/acme"))), 20 * 137);
+    assert_eq!(
+        l.balance(&AccountId::receivable(&org("org:duap/acme"))),
+        20 * 137
+    );
     assert_eq!(l.balance(&AccountId::clearing_fee_revenue()), -20 * 137);
     let dc = l.debits_and_credits();
     let (d, c) = dc["EUR"];
@@ -113,7 +122,10 @@ fn duplicate_entry_ids_are_refused() {
                     AccountId::receivable(&org("org:duap/acme")),
                     Money::new(Currency::EUR, 1),
                 ),
-                Posting::credit(AccountId::clearing_fee_revenue(), Money::new(Currency::EUR, 1)),
+                Posting::credit(
+                    AccountId::clearing_fee_revenue(),
+                    Money::new(Currency::EUR, 1),
+                ),
             ],
         )
     };
@@ -133,16 +145,26 @@ fn postings_must_match_the_account_currency() {
                 AccountId::receivable(&org("org:duap/acme")),
                 Money::new(Currency::USD, 100),
             ),
-            Posting::credit(AccountId::clearing_fee_revenue(), Money::new(Currency::USD, 100)),
+            Posting::credit(
+                AccountId::clearing_fee_revenue(),
+                Money::new(Currency::USD, 100),
+            ),
         ],
     );
-    assert!(matches!(l.post(e), Err(LedgerError::CurrencyMismatch { .. })));
+    assert!(matches!(
+        l.post(e),
+        Err(LedgerError::CurrencyMismatch { .. })
+    ));
 }
 
 #[test]
 fn a_mixed_currency_entry_cannot_balance_by_accident() {
     let mut l = setup();
-    l.ensure_account(AccountId::new("acct:usd"), AccountKind::Asset, Currency::USD);
+    l.ensure_account(
+        AccountId::new("acct:usd"),
+        AccountKind::Asset,
+        Currency::USD,
+    );
     let e = JournalEntry::new(
         "je:mixed",
         t(T0),
@@ -174,7 +196,10 @@ fn reversal_is_an_entry_not_an_edit() {
                 AccountId::receivable(&org("org:duap/acme")),
                 Money::new(Currency::EUR, 500),
             ),
-            Posting::credit(AccountId::clearing_fee_revenue(), Money::new(Currency::EUR, 500)),
+            Posting::credit(
+                AccountId::clearing_fee_revenue(),
+                Money::new(Currency::EUR, 500),
+            ),
         ],
     );
     l.post(e.clone()).unwrap();
@@ -231,10 +256,22 @@ fn invoice_arithmetic_is_checked() {
         Currency::EUR,
     );
     let root = Digest::of(HashAlg::Sha2_256, "x", b"y");
-    b.line(usage_key(None), root, breakdown(1_500_000_000), "queries", None)
-        .unwrap();
-    b.line(usage_key(None), root, breakdown(2_500_000_000), "more queries", None)
-        .unwrap();
+    b.line(
+        usage_key(None),
+        root,
+        breakdown(1_500_000_000),
+        "queries",
+        None,
+    )
+    .unwrap();
+    b.line(
+        usage_key(None),
+        root,
+        breakdown(2_500_000_000),
+        "more queries",
+        None,
+    )
+    .unwrap();
     let inv = b.build(&NoTax, t(T0), t(T0 + 30 * 86_400)).unwrap();
     assert_eq!(inv.subtotal, Money::new(Currency::EUR, 4));
     assert_eq!(inv.total, inv.subtotal);
@@ -258,8 +295,14 @@ fn invoice_rounding_residue_is_accounted() {
     let root = Digest::of(HashAlg::Sha2_256, "x", b"y");
     let amounts = [1_234_567_890i128, 987_654_321, 5_000_000_000, 499_999_999];
     for (i, a) in amounts.iter().enumerate() {
-        b.line(usage_key(None), root, breakdown(*a), format!("line {i}"), None)
-            .unwrap();
+        b.line(
+            usage_key(None),
+            root,
+            breakdown(*a),
+            format!("line {i}"),
+            None,
+        )
+        .unwrap();
     }
     let inv = b.build(&NoTax, t(T0), t(T0 + 1)).unwrap();
     let exact: i128 = amounts.iter().sum();
@@ -304,7 +347,10 @@ fn invoice_posts_a_balanced_entry_with_subject_shares() {
     assert_eq!(inv.subtotal, Money::new(Currency::EUR, 100));
     assert_eq!(inv.taxes[0].amount, Money::new(Currency::EUR, 19));
     assert_eq!(inv.total, Money::new(Currency::EUR, 119));
-    assert_eq!(inv.lines[0].subject_share, Some(Money::new(Currency::EUR, 70)));
+    assert_eq!(
+        inv.lines[0].subject_share,
+        Some(Money::new(Currency::EUR, 70))
+    );
 
     let mut l = setup();
     for (id, kind) in inv.required_accounts() {
@@ -317,7 +363,10 @@ fn invoice_posts_a_balanced_entry_with_subject_shares() {
     assert_eq!(l.balance(&AccountId::subject_payable(&subject)), -70);
     assert_eq!(l.balance(&AccountId::tax_payable("DE", Currency::EUR)), -19);
     assert_eq!(l.balance(&AccountId::clearing_fee_revenue()), -30);
-    assert_eq!(l.balance(&AccountId::receivable(&org("org:duap/acme"))), 119);
+    assert_eq!(
+        l.balance(&AccountId::receivable(&org("org:duap/acme"))),
+        119
+    );
 }
 
 #[test]
@@ -358,7 +407,10 @@ fn a_priced_counter_flows_through_to_an_invoice() {
     inv.check_arithmetic().unwrap();
     // 100_000 queries x 250_000 nmu x 2 (t2 sensitivity) = 5e10 nmu = 50 minor.
     assert_eq!(inv.subtotal, Money::new(Currency::EUR, 50));
-    assert_eq!(inv.lines[0].subject_share, Some(Money::new(Currency::EUR, 25)));
+    assert_eq!(
+        inv.lines[0].subject_share,
+        Some(Money::new(Currency::EUR, 25))
+    );
 }
 
 // ---------------------------------------------------------------------------
@@ -389,7 +441,9 @@ fn a_dispute_needs_verifiable_evidence() {
         DisputeId([2u8; 16]),
         "claimant",
         org("org:duap/acme"),
-        Claim::UnreportedUsage { description: "they profiled me".into() },
+        Claim::UnreportedUsage {
+            description: "they profiled me".into(),
+        },
         vec![Evidence::Assertion {
             by: "claimant".into(),
             statement: "I know they did".into(),
@@ -406,15 +460,20 @@ fn dispute_state_machine_rejects_shortcuts() {
         d.transition(DisputeState::Closed, t(T0 + 1), None),
         Err(DisputeError::BadTransition { .. })
     ));
-    d.transition(DisputeState::UnderReview, t(T0 + 1), None).unwrap();
+    d.transition(DisputeState::UnderReview, t(T0 + 1), None)
+        .unwrap();
     // Upholding without an adjustment is refused.
     assert!(matches!(
         d.transition(DisputeState::Upheld, t(T0 + 2), None),
         Err(DisputeError::AdjustmentRequired)
     ));
     d.propose_adjustment(Money::new(Currency::EUR, -20));
-    d.transition(DisputeState::Upheld, t(T0 + 2), Some("event unprovable".into()))
-        .unwrap();
+    d.transition(
+        DisputeState::Upheld,
+        t(T0 + 2),
+        Some("event unprovable".into()),
+    )
+    .unwrap();
     d.transition(DisputeState::Closed, t(T0 + 3), None).unwrap();
     assert!(d.state.is_terminal());
     assert_eq!(d.resolved_at, Some(t(T0 + 2)));
@@ -448,7 +507,8 @@ fn an_upheld_dispute_produces_a_balanced_adjustment() {
 
     let mut d = a_dispute();
     d.invoice = Some(inv.id);
-    d.transition(DisputeState::UnderReview, t(T0 + 1), None).unwrap();
+    d.transition(DisputeState::UnderReview, t(T0 + 1), None)
+        .unwrap();
     d.propose_adjustment(Money::new(Currency::EUR, 40));
     d.transition(DisputeState::Settled, t(T0 + 2), Some("agreed".into()))
         .unwrap();
@@ -471,10 +531,26 @@ fn an_upheld_dispute_produces_a_balanced_adjustment() {
 #[test]
 fn netting_conserves_positions_and_bounds_transfers() {
     let obligations = vec![
-        Obligation { from: "a".into(), to: "b".into(), amount: Money::new(Currency::EUR, 100) },
-        Obligation { from: "b".into(), to: "c".into(), amount: Money::new(Currency::EUR, 80) },
-        Obligation { from: "c".into(), to: "a".into(), amount: Money::new(Currency::EUR, 50) },
-        Obligation { from: "a".into(), to: "c".into(), amount: Money::new(Currency::EUR, 20) },
+        Obligation {
+            from: "a".into(),
+            to: "b".into(),
+            amount: Money::new(Currency::EUR, 100),
+        },
+        Obligation {
+            from: "b".into(),
+            to: "c".into(),
+            amount: Money::new(Currency::EUR, 80),
+        },
+        Obligation {
+            from: "c".into(),
+            to: "a".into(),
+            amount: Money::new(Currency::EUR, 50),
+        },
+        Obligation {
+            from: "a".into(),
+            to: "c".into(),
+            amount: Money::new(Currency::EUR, 20),
+        },
     ];
     let (transfers, positions) = net(&obligations, Currency::EUR).unwrap();
 
@@ -491,15 +567,26 @@ fn netting_conserves_positions_and_bounds_transfers() {
         *after.get_mut(&tr.from).unwrap() += tr.amount.minor;
         *after.get_mut(&tr.to).unwrap() -= tr.amount.minor;
     }
-    assert!(after.values().all(|v| *v == 0), "netting must settle every position");
+    assert!(
+        after.values().all(|v| *v == 0),
+        "netting must settle every position"
+    );
     assert!(transfers.len() <= positions.len() - 1);
 }
 
 #[test]
 fn netting_refuses_mixed_currencies() {
     let obligations = vec![
-        Obligation { from: "a".into(), to: "b".into(), amount: Money::new(Currency::EUR, 10) },
-        Obligation { from: "b".into(), to: "a".into(), amount: Money::new(Currency::USD, 10) },
+        Obligation {
+            from: "a".into(),
+            to: "b".into(),
+            amount: Money::new(Currency::EUR, 10),
+        },
+        Obligation {
+            from: "b".into(),
+            to: "a".into(),
+            amount: Money::new(Currency::USD, 10),
+        },
     ];
     assert!(net(&obligations, Currency::EUR).is_err());
 }
@@ -544,7 +631,10 @@ fn settlement_state_machine_and_journal() {
                 AccountId::receivable(&org("org:duap/acme")),
                 Money::new(Currency::EUR, 70),
             ),
-            Posting::credit(AccountId::subject_payable(&subject), Money::new(Currency::EUR, 70)),
+            Posting::credit(
+                AccountId::subject_payable(&subject),
+                Money::new(Currency::EUR, 70),
+            ),
         ],
     ))
     .unwrap();

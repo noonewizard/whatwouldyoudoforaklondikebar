@@ -38,12 +38,11 @@ use duap_auth::prelude::*;
 use duap_canon::digest::{Digest, HashAlg};
 use duap_clearing::{ClearingConfig, ClearingNode, IngestOutcome, PeriodResult, RejectAt};
 use duap_crypto::{
-    Envelope, KeyRecord, KeyRegistry, KeyRole, SecretKey, SuiteId, SuitePolicy,
-    VerificationContext,
+    Envelope, KeyRecord, KeyRegistry, KeyRole, SecretKey, SuiteId, SuitePolicy, VerificationContext,
 };
 use duap_ledger::{
-    AccountId, Claim as DisputeClaim, Dispute, DisputeState, Evidence, NoTax, Posting,
-    JournalEntry, Rail, SettlementInstruction, SettlementState,
+    AccountId, Claim as DisputeClaim, Dispute, DisputeState, Evidence, JournalEntry, NoTax,
+    Posting, Rail, SettlementInstruction, SettlementState,
 };
 use duap_model::prelude::*;
 use duap_provenance::DerivationPolicy;
@@ -154,7 +153,12 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
         SecretKey::from_seed(SuiteId::Ed25519MlDsa44, [0x44; 32]),
         ClearingConfig::reference(Currency::EUR),
     );
-    enrol(&mut node.registry, &c.acme_key, &c.acme, vec![KeyRole::EventSigner]);
+    enrol(
+        &mut node.registry,
+        &c.acme_key,
+        &c.acme,
+        vec![KeyRole::EventSigner],
+    );
     enrol(
         &mut node.registry,
         &c.vendor_key,
@@ -179,8 +183,7 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
         "setup",
         format!(
             "Clearing node {} enrolled 4 keys; node signs with {}",
-            c.clearing,
-            c.node_key.suite
+            c.clearing, c.node_key.suite
         ),
         vec![
             format!("registry_size={}", node.registry.len()),
@@ -361,9 +364,9 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
     let mut envelopes: Vec<(String, Envelope)> = Vec::new();
 
     let offer = |node: &mut ClearingNode,
-                     _label: &str,
-                     env: Envelope,
-                     at: Timestamp|
+                 _label: &str,
+                 env: Envelope,
+                 at: Timestamp|
      -> Result<IngestOutcome, Box<dyn std::error::Error>> {
         let o = node.ingest(&env, at)?;
         Ok(o)
@@ -453,7 +456,10 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
         t(10_800),
     )?;
     let o = offer(&mut node, "derive", env.clone(), t(10_801))?;
-    assert!(o.accepted(), "contextual profiling must be authorised: {o:?}");
+    assert!(
+        o.accepted(),
+        "contextual profiling must be authorised: {o:?}"
+    );
     accepted += 1;
     envelopes.push(("derive".into(), env));
     step(
@@ -582,7 +588,10 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
         t(18_000),
     )?;
     let o = offer(&mut node, "license", env.clone(), t(18_001))?;
-    assert!(o.accepted(), "licensing to the allowlisted buyer must pass: {o:?}");
+    assert!(
+        o.accepted(),
+        "licensing to the allowlisted buyer must pass: {o:?}"
+    );
     accepted += 1;
     envelopes.push(("license".into(), env));
 
@@ -693,7 +702,10 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
             "policy=controller_wins".into(),
         ],
     );
-    assert!(caught, "a second reporter of one operation must be detected");
+    assert!(
+        caught,
+        "a second reporter of one operation must be detected"
+    );
 
     // -----------------------------------------------------------------
     // 9. Revocation
@@ -731,13 +743,24 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
             t(25_200 + 2 * 3600),
         )
         .provenance(Provenance {
-            output: Some(ContentId::of_bytes("duap.object.v1", b"acme:review-model:ft-later")),
+            output: Some(ContentId::of_bytes(
+                "duap.object.v1",
+                b"acme:review-model:ft-later",
+            )),
             ..Default::default()
         }),
         t(25_200 + 2 * 3600),
     )?;
-    let after = offer(&mut node, "finetune-after-revocation", env, t(25_200 + 2 * 3600 + 1))?;
-    assert!(!after.accepted(), "post-revocation training must be refused");
+    let after = offer(
+        &mut node,
+        "finetune-after-revocation",
+        env,
+        t(25_200 + 2 * 3600 + 1),
+    )?;
+    assert!(
+        !after.accepted(),
+        "post-revocation training must be refused"
+    );
     refused += 1;
 
     // Service queries are untouched: the revocation was scoped.
@@ -757,8 +780,16 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
         }),
         t(25_200 + 3 * 3600),
     )?;
-    let still_ok = offer(&mut node, "query-after-revocation", env.clone(), t(25_200 + 3 * 3600 + 1))?;
-    assert!(still_ok.accepted(), "a scoped revocation must not stop unrelated use");
+    let still_ok = offer(
+        &mut node,
+        "query-after-revocation",
+        env.clone(),
+        t(25_200 + 3 * 3600 + 1),
+    )?;
+    assert!(
+        still_ok.accepted(),
+        "a scoped revocation must not stop unrelated use"
+    );
     accepted += 1;
     envelopes.push(("query-after-revocation".into(), env));
 
@@ -795,7 +826,10 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
             result.total_charged
         ),
         vec![
-            format!("batch_root={}", sealed.map(|(_, r)| r.to_string()).unwrap_or_default()),
+            format!(
+                "batch_root={}",
+                sealed.map(|(_, r)| r.to_string()).unwrap_or_default()
+            ),
             format!("total_charged={}", result.total_charged),
             format!("subject_share={}", result.total_subject_share),
             format!("journal_entries={}", result.journal_entries.len()),
@@ -823,7 +857,9 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
                     l.line_no,
                     l.description,
                     l.amount,
-                    l.subject_share.map(|m| m.to_string()).unwrap_or_else(|| "-".into())
+                    l.subject_share
+                        .map(|m| m.to_string())
+                        .unwrap_or_else(|| "-".into())
                 )
             })
             .collect(),
@@ -870,7 +906,10 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
             format!("claims_explicitly_not_established={}", claim_counts.1),
         ],
     );
-    assert!(all_verified, "every issued receipt must verify and be anchored");
+    assert!(
+        all_verified,
+        "every issued receipt must verify and be anchored"
+    );
 
     // -----------------------------------------------------------------
     // 12. Provenance and attribution
@@ -891,7 +930,10 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
         vec![
             format!("model={model}"),
             format!("depth={}", node.provenance.depth(&model)?),
-            format!("descendants_of_profile={}", node.provenance.descendants(&profile).len()),
+            format!(
+                "descendants_of_profile={}",
+                node.provenance.descendants(&profile).len()
+            ),
             "claim=inclusion, NOT influence, NOT economic contribution".into(),
         ],
     );
@@ -945,7 +987,10 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
         "dispute",
         "A quantity dispute was filed, weighed against verifiable evidence, and settled".into(),
         vec![
-            format!("verifiable_evidence={}", dispute.verifiable_evidence_count()),
+            format!(
+                "verifiable_evidence={}",
+                dispute.verifiable_evidence_count()
+            ),
             format!("assertions={}", 1),
             format!("state={:?}", dispute.state),
             format!("adjustment={adjustment}"),
@@ -981,10 +1026,7 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
     // as a simulation, not as observed usage -- and then releases.
     let per_period = result.total_subject_share;
     let simulated_periods = 11i128;
-    let extra = Money::new(
-        Currency::EUR,
-        per_period.minor * simulated_periods,
-    );
+    let extra = Money::new(Currency::EUR, per_period.minor * simulated_periods);
     node.ledger.post(JournalEntry::new(
         "je:demo:simulated-periods",
         t(95_500),
@@ -994,11 +1036,8 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
             Posting::credit(AccountId::subject_payable(&c.subject_pseudonym), extra),
         ],
     ))?;
-    node.payouts.accrue(
-        c.subject_pseudonym,
-        Precise::from_money(extra)?,
-        t(95_500),
-    )?;
+    node.payouts
+        .accrue(c.subject_pseudonym, Precise::from_money(extra)?, t(95_500))?;
 
     // The node releases the subject's balance if it crosses the threshold.
     let released = node.payouts.release(t(96_000))?;
@@ -1027,7 +1066,8 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
         if released.is_empty() {
             format!(
                 "Subject balance {} is below the {} payout threshold and was carried forward",
-                outstanding, node.payouts.threshold()
+                outstanding,
+                node.payouts.threshold()
             )
         } else {
             format!("Released {paid} to the subject; {outstanding} carried forward")
@@ -1066,8 +1106,8 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
 /// Verify that the opening of the demonstration's commitment checks out.
 /// Included because a commitment nobody ever opens proves nothing.
 pub fn check_commitment() -> bool {
-    let (c, o) = Commitment::commit(b"synthetic:city=Berlin;district=Mitte")
-        .expect("entropy available");
+    let (c, o) =
+        Commitment::commit(b"synthetic:city=Berlin;district=Mitte").expect("entropy available");
     c.verify(b"synthetic:city=Berlin;district=Mitte", &o)
         && !c.verify(b"synthetic:city=Munich;district=Mitte", &o)
 }

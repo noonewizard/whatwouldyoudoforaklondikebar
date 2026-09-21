@@ -148,9 +148,7 @@ fn lineage_is_recorded_separately_from_influence() {
         "the weights are declared uniform and must say so"
     );
     assert!(
-        node.inputs
-            .iter()
-            .all(|e| e.basis != WeightBasis::Measured),
+        node.inputs.iter().all(|e| e.basis != WeightBasis::Measured),
         "nothing here was measured, and nothing may claim to have been"
     );
 }
@@ -189,7 +187,11 @@ fn severing_keeps_lineage_and_stops_attribution() {
         .attribution(&released, &DerivationPolicy::default())
         .expect("attribution computes");
     assert!(shares.is_empty(), "a severed edge carries no attribution");
-    assert_eq!(dropped, Ratio::ONE, "and the whole weight is accounted as terminated");
+    assert_eq!(
+        dropped,
+        Ratio::ONE,
+        "and the whole weight is accounted as terminated"
+    );
 
     // The lineage is still there. An auditor can see what it came from.
     assert_eq!(g.get(&released).expect("present").inputs[0].from, src);

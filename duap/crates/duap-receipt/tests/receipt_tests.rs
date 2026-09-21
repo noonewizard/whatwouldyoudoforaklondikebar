@@ -14,7 +14,13 @@ fn org(s: &str) -> OrgId {
 
 fn event_digests(n: usize) -> Vec<Digest> {
     (0..n)
-        .map(|i| Digest::of(HashAlg::Sha2_256, "duap.event.v1", &(i as u64).to_be_bytes()))
+        .map(|i| {
+            Digest::of(
+                HashAlg::Sha2_256,
+                "duap.event.v1",
+                &(i as u64).to_be_bytes(),
+            )
+        })
         .collect()
 }
 
@@ -35,7 +41,9 @@ fn base_receipt(n: usize) -> Receipt {
     ReceiptBuilder::new(
         org("org:duap/clearing-eu"),
         org("org:duap/acme"),
-        SubjectScope::Subject { subject: SubjectRef([1u8; 16]) },
+        SubjectScope::Subject {
+            subject: SubjectRef([1u8; 16]),
+        },
         TimeRange::new(Timestamp::from_secs(T0), Timestamp::from_secs(T0 + 86_400)).unwrap(),
         coverage(n),
         AuthorizationRef {
@@ -119,7 +127,10 @@ fn validation_rejects_structurally_impossible_receipts() {
 
     let mut r = base_receipt(3);
     r.subject_share = Some(Money::new(Currency::EUR, 1_000));
-    assert!(r.validate().is_err(), "the subject share cannot exceed the charge");
+    assert!(
+        r.validate().is_err(),
+        "the subject share cannot exceed the charge"
+    );
 
     let mut r = base_receipt(3);
     r.decision.permitting_terms.clear();
@@ -142,7 +153,9 @@ fn a_deriving_operation_must_commit_to_its_output() {
     let b = ReceiptBuilder::new(
         org("org:duap/clearing-eu"),
         org("org:duap/acme"),
-        SubjectScope::Subject { subject: SubjectRef([1u8; 16]) },
+        SubjectScope::Subject {
+            subject: SubjectRef([1u8; 16]),
+        },
         TimeRange::new(Timestamp::from_secs(T0), Timestamp::from_secs(T0 + 10)).unwrap(),
         c.clone(),
         AuthorizationRef {
@@ -150,7 +163,11 @@ fn a_deriving_operation_must_commit_to_its_output() {
             grant_digest: Digest::of(HashAlg::Sha2_256, "duap.grant.v1", b"g"),
             epoch: 1,
         },
-        DecisionSummary { permitting_terms: vec![1], obligations: vec![], deferred: vec![] },
+        DecisionSummary {
+            permitting_terms: vec![1],
+            obligations: vec![],
+            deferred: vec![],
+        },
         Money::new(Currency::EUR, 1),
         Digest::of(HashAlg::Sha2_256, "duap.price.v1", b"p"),
         Timestamp::from_secs(T0 + 10),
@@ -313,10 +330,15 @@ fn claims_distinguish_what_is_and_is_not_established() {
     let established: Vec<&Claim> = claims.iter().filter(|c| c.established).collect();
     let not: Vec<&Claim> = claims.iter().filter(|c| !c.established).collect();
 
-    assert_eq!(established.len(), 4, "an unanchored receipt establishes four things");
+    assert_eq!(
+        established.len(),
+        4,
+        "an unanchored receipt establishes four things"
+    );
     assert!(not.len() >= 6);
     assert!(
-        not.iter().any(|c| c.statement.contains("actually took place")),
+        not.iter()
+            .any(|c| c.statement.contains("actually took place")),
         "the receipt must say that it does not prove the operation happened"
     );
     assert!(not.iter().all(|c| c.basis.contains("NOT ESTABLISHED")));
@@ -340,5 +362,8 @@ fn claims_distinguish_what_is_and_is_not_established() {
             alg: HashAlg::Sha2_256,
         },
     });
-    assert_eq!(anchored.claims().iter().filter(|c| c.established).count(), 5);
+    assert_eq!(
+        anchored.claims().iter().filter(|c| c.established).count(),
+        5
+    );
 }

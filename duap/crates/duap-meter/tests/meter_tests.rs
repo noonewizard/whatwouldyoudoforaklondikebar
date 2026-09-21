@@ -24,7 +24,9 @@ fn ev_at(id: u8, secs: u64) -> DataUsageEvent {
         EventId([id; 16]),
         AgentRef::new("test", "0"),
         controller(),
-        SubjectScope::Subject { subject: SubjectRef([7u8; 16]) },
+        SubjectScope::Subject {
+            subject: SubjectRef([7u8; 16]),
+        },
         Jurisdiction::new("DE").unwrap(),
         DataClass::LocationCoarse,
         Operation::AccessQuery,
@@ -85,7 +87,9 @@ fn sequence_gaps_are_detected() {
             EventId([i as u8; 16]),
             AgentRef::new("test", "0"),
             controller(),
-            SubjectScope::Subject { subject: SubjectRef([7u8; 16]) },
+            SubjectScope::Subject {
+                subject: SubjectRef([7u8; 16]),
+            },
             Jurisdiction::new("DE").unwrap(),
             DataClass::LocationCoarse,
             Operation::AccessQuery,
@@ -97,7 +101,10 @@ fn sequence_gaps_are_detected() {
         .sequence(EventSequence { stream, index: i })
         .build()
         .unwrap();
-        assert_eq!(idx.admit(&e, e.digest().unwrap(), now()), Admission::Accepted);
+        assert_eq!(
+            idx.admit(&e, e.digest().unwrap(), now()),
+            Admission::Accepted
+        );
     }
     let gaps = idx.gaps();
     assert_eq!(gaps.len(), 1);
@@ -114,7 +121,9 @@ fn a_late_arrival_closes_its_gap() {
             EventId([tag; 16]),
             AgentRef::new("test", "0"),
             controller(),
-            SubjectScope::Subject { subject: SubjectRef([7u8; 16]) },
+            SubjectScope::Subject {
+                subject: SubjectRef([7u8; 16]),
+            },
             Jurisdiction::new("DE").unwrap(),
             DataClass::LocationCoarse,
             Operation::AccessQuery,
@@ -133,7 +142,10 @@ fn a_late_arrival_closes_its_gap() {
     }
     assert_eq!(idx.gaps()[0].missing, vec![1]);
     let late = mk(1, 11);
-    assert_eq!(idx.admit(&late, late.digest().unwrap(), now()), Admission::Accepted);
+    assert_eq!(
+        idx.admit(&late, late.digest().unwrap(), now()),
+        Admission::Accepted
+    );
     assert!(idx.gaps().is_empty());
 }
 
@@ -146,7 +158,9 @@ fn a_reused_sequence_index_with_different_content_is_a_conflict() {
             EventId([tag; 16]),
             AgentRef::new("test", "0"),
             controller(),
-            SubjectScope::Subject { subject: SubjectRef([7u8; 16]) },
+            SubjectScope::Subject {
+                subject: SubjectRef([7u8; 16]),
+            },
             Jurisdiction::new("DE").unwrap(),
             DataClass::LocationCoarse,
             Operation::AccessQuery,
@@ -191,7 +205,9 @@ fn same_operation_two_reporters() -> (DataUsageEvent, DataUsageEvent) {
             EventId([if processor.is_some() { 2 } else { 1 }; 16]),
             AgentRef::new(agent, "0"),
             controller(),
-            SubjectScope::Subject { subject: SubjectRef([7u8; 16]) },
+            SubjectScope::Subject {
+                subject: SubjectRef([7u8; 16]),
+            },
             Jurisdiction::new("DE").unwrap(),
             DataClass::LocationCoarse,
             Operation::AccessQuery,
@@ -247,7 +263,10 @@ fn first_wins_and_suspend_both_policies() {
     let (a, b) = same_operation_two_reporters();
     let mut d = DoubleCountDetector::new(ResolutionPolicy::FirstWins);
     d.offer(&a, a.digest().unwrap());
-    assert!(matches!(d.offer(&b, b.digest().unwrap()), CountDecision::Suppress(_)));
+    assert!(matches!(
+        d.offer(&b, b.digest().unwrap()),
+        CountDecision::Suppress(_)
+    ));
 
     let mut d = DoubleCountDetector::new(ResolutionPolicy::SuspendBoth);
     d.offer(&a, a.digest().unwrap());
@@ -297,7 +316,10 @@ fn aggregation_groups_by_pricing_dimensions() {
 fn aggregation_refuses_non_additive_units() {
     let mut agg = Aggregator::new(WindowSize::Hour);
     let mut e = ev_at(1, T0);
-    e.quantity = Quantity { unit: Unit::Share, amount: 1 };
+    e.quantity = Quantity {
+        unit: Unit::Share,
+        amount: 1,
+    };
     assert!(matches!(
         agg.add(&e, e.digest().unwrap()),
         Err(AggregateError::NonAdditive(_))
@@ -407,7 +429,10 @@ fn pipeline_rejects_invalid_events() {
     );
     let mut e = ev_at(1, T0);
     e.quantity.unit = Unit::Token; // wrong meter for access.query
-    assert!(matches!(p.offer(&e, now()).unwrap(), MeterOutcome::Invalid(_)));
+    assert!(matches!(
+        p.offer(&e, now()).unwrap(),
+        MeterOutcome::Invalid(_)
+    ));
     assert_eq!(p.stats.invalid, 1);
 }
 

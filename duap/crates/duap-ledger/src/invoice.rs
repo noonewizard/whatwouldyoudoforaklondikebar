@@ -168,7 +168,10 @@ impl Invoice {
         if sum != self.subtotal {
             return Err(ModelError::Invalid {
                 field: "invoice.subtotal",
-                reason: format!("lines sum to {sum} but the subtotal states {}", self.subtotal),
+                reason: format!(
+                    "lines sum to {sum} but the subtotal states {}",
+                    self.subtotal
+                ),
             });
         }
         let mut total = self.subtotal;
@@ -178,7 +181,10 @@ impl Invoice {
         if total != self.total {
             return Err(ModelError::Invalid {
                 field: "invoice.total",
-                reason: format!("subtotal plus tax is {total} but the total states {}", self.total),
+                reason: format!(
+                    "subtotal plus tax is {total} but the total states {}",
+                    self.total
+                ),
             });
         }
         Ok(())

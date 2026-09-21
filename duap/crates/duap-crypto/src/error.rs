@@ -54,7 +54,9 @@ pub enum CryptoError {
     #[error("envelope carries no signature satisfying the policy")]
     NoAcceptableSignature,
 
-    #[error("signature by {kid} was created at {created}, outside the accepted skew window [{lo}, {hi}]")]
+    #[error(
+        "signature by {kid} was created at {created}, outside the accepted skew window [{lo}, {hi}]"
+    )]
     ClockSkew {
         kid: String,
         created: u64,

@@ -204,7 +204,11 @@ type R = Result<(), String>;
 
 fn run(cli: Cli) -> R {
     match cli.command {
-        Command::Keygen { suite, out, seed_hex } => keygen(&suite, &out, seed_hex.as_deref()),
+        Command::Keygen {
+            suite,
+            out,
+            seed_hex,
+        } => keygen(&suite, &out, seed_hex.as_deref()),
         Command::Id { key, suite } => show_id(&key, &suite),
         Command::Registry { entries, out } => build_registry(&entries, &out),
         Command::Canon(c) => canon_cmd(c),
@@ -218,7 +222,14 @@ fn run(cli: Cli) -> R {
             purpose,
             quantity,
             currency,
-        } => price(&rule, &data_class, &operation, &purpose, quantity, &currency),
+        } => price(
+            &rule,
+            &data_class,
+            &operation,
+            &purpose,
+            quantity,
+            &currency,
+        ),
         Command::Conformance(c) => conformance_cmd(c),
         Command::Taxonomy { what } => taxonomy(&what),
     }
@@ -397,8 +408,7 @@ fn canon_cmd(c: CanonCmd) -> R {
         }
         CanonCmd::Digest { input, domain, alg } => {
             let bytes = read(&input)?;
-            duap_canon::decode(&bytes)
-                .map_err(|e| format!("input is not canonical: {e}"))?;
+            duap_canon::decode(&bytes).map_err(|e| format!("input is not canonical: {e}"))?;
             let alg = HashAlg::parse(&alg).map_err(|e| e.to_string())?;
             println!("{}", Digest::of(alg, &domain, &bytes));
             Ok(())
@@ -419,7 +429,10 @@ fn canon_cmd(c: CanonCmd) -> R {
                     Ok(())
                 }
                 Err(e) => {
-                    println!("{}", serde_json::json!({ "canonical": false, "reason": e.to_string() }));
+                    println!(
+                        "{}",
+                        serde_json::json!({ "canonical": false, "reason": e.to_string() })
+                    );
                     Err("input is not canonical".into())
                 }
             }
@@ -495,7 +508,10 @@ fn event_cmd(e: EventCmd) -> R {
                     Ok(())
                 }
                 Err(err) => {
-                    println!("{}", serde_json::json!({ "valid": false, "reason": err.to_string() }));
+                    println!(
+                        "{}",
+                        serde_json::json!({ "valid": false, "reason": err.to_string() })
+                    );
                     Err("event failed validation".into())
                 }
             }
@@ -620,7 +636,9 @@ fn price(
         .ok_or_else(|| format!("unknown currency {currency}; supply its ISO 4217 exponent"))?;
 
     let key = duap_meter::UsageKey {
-        controller: "org:duap/cli".parse().map_err(|e: ModelError| e.to_string())?,
+        controller: "org:duap/cli"
+            .parse()
+            .map_err(|e: ModelError| e.to_string())?,
         processor: None,
         subject: Some(SubjectRef([0u8; 16])),
         scope_tag: duap_meter::ScopeTag::Subject,
@@ -641,7 +659,12 @@ fn price(
     };
     let engine = duap_valuation::PriceEngine::new(cur);
     let b = engine
-        .price(&key, &counter, &rule, &duap_valuation::PricingInputs::default())
+        .price(
+            &key,
+            &counter,
+            &rule,
+            &duap_valuation::PricingInputs::default(),
+        )
         .map_err(|e| e.to_string())?;
     let (money, residue) = b.amount.round_to_money(Rounding::HalfEven);
     println!(
@@ -691,7 +714,11 @@ fn conformance_cmd(c: ConformanceCmd) -> R {
             for f in &s.failures {
                 eprintln!("FAIL {}: {}", f.id, f.detail);
             }
-            if s.ok() { Ok(()) } else { Err("conformance check failed".into()) }
+            if s.ok() {
+                Ok(())
+            } else {
+                Err("conformance check failed".into())
+            }
         }
     }
 }
@@ -739,7 +766,10 @@ fn taxonomy(what: &str) -> R {
         ),
         other => return Err(format!("unknown taxonomy view {other:?}")),
     };
-    println!("{}", serde_json::to_string_pretty(&out).map_err(|e| e.to_string())?);
+    println!(
+        "{}",
+        serde_json::to_string_pretty(&out).map_err(|e| e.to_string())?
+    );
     eprintln!(
         "ontology {} (sha256 {})",
         duap_model::taxonomy::ONTOLOGY_VERSION,

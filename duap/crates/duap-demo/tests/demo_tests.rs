@@ -42,7 +42,10 @@ fn the_subject_share_is_what_the_configuration_says() {
 fn the_demonstration_is_deterministic() {
     let a = once();
     let b = once();
-    assert_eq!(a.log_root, b.log_root, "the transparency-log root must reproduce");
+    assert_eq!(
+        a.log_root, b.log_root,
+        "the transparency-log root must reproduce"
+    );
     assert_eq!(a.invoice_total, b.invoice_total);
     assert_eq!(a.attribution, b.attribution);
     assert_eq!(a.steps.len(), b.steps.len());
@@ -66,7 +69,11 @@ fn each_refusal_exercises_a_distinct_control() {
         .filter(|s| s.stage == "refusal" || s.stage == "double_counting" || s.stage == "transfer")
         .map(|s| &s.detail)
         .collect();
-    assert!(refusal_steps.iter().any(|d| d.contains("Behavioural advertising")));
+    assert!(
+        refusal_steps
+            .iter()
+            .any(|d| d.contains("Behavioural advertising"))
+    );
     assert!(refusal_steps.iter().any(|d| d.contains("Precise location")));
     assert!(refusal_steps.iter().any(|d| d.contains("Sale refused")));
     assert!(refusal_steps.iter().any(|d| d.contains("allowlist")));
@@ -94,7 +101,11 @@ fn receipts_publish_their_own_limits() {
         .find_map(|f| f.strip_prefix("claims_explicitly_not_established="))
         .and_then(|v| v.parse().ok())
         .expect("non-claims counted");
-    assert_eq!(established, 5 * r.receipts as u32, "anchored receipts establish five things each");
+    assert_eq!(
+        established,
+        5 * r.receipts as u32,
+        "anchored receipts establish five things each"
+    );
     assert_eq!(not, 5 * r.receipts as u32);
 }
 
@@ -111,7 +122,9 @@ fn revocation_is_prospective_and_says_so() {
     assert!(rev.facts.iter().any(|f| f == "training_after=refused"));
     assert!(rev.facts.iter().any(|f| f == "service_after=accepted"));
     assert!(
-        rev.facts.iter().any(|f| f == "already_trained_model=NOT_UNLEARNED"),
+        rev.facts
+            .iter()
+            .any(|f| f == "already_trained_model=NOT_UNLEARNED"),
         "the demonstration must not imply the model forgot anything"
     );
 }
@@ -120,7 +133,10 @@ fn revocation_is_prospective_and_says_so() {
 fn attribution_is_exact_and_labelled() {
     let r = once();
     assert_eq!(r.attribution.len(), 1);
-    assert_eq!(r.attribution[0].1, "1", "the sole contributor holds the whole share");
+    assert_eq!(
+        r.attribution[0].1, "1",
+        "the sole contributor holds the whole share"
+    );
     let prov = r
         .steps
         .iter()
@@ -148,10 +164,8 @@ fn transcript_matches_the_committed_golden_file() {
     let expected = std::fs::read_to_string(path).unwrap_or_default();
     if expected.trim() != rendered.trim() {
         if std::env::var("DUAP_UPDATE_GOLDEN").is_ok() {
-            std::fs::create_dir_all(
-                std::path::Path::new(path).parent().expect("has a parent"),
-            )
-            .expect("golden directory is writable");
+            std::fs::create_dir_all(std::path::Path::new(path).parent().expect("has a parent"))
+                .expect("golden directory is writable");
             std::fs::write(path, &rendered).expect("golden file is writable");
             return;
         }
@@ -166,7 +180,10 @@ fn transcript_matches_the_committed_golden_file() {
 fn render(r: &DemoResult) -> String {
     let mut s = String::new();
     for step in &r.steps {
-        s.push_str(&format!("{:>2}. [{}] {}\n", step.n, step.stage, step.detail));
+        s.push_str(&format!(
+            "{:>2}. [{}] {}\n",
+            step.n, step.stage, step.detail
+        ));
         for f in &step.facts {
             s.push_str(&format!("      {f}\n"));
         }

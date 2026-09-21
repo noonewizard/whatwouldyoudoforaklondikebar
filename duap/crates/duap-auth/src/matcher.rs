@@ -254,10 +254,7 @@ impl Matcher {
         if !self.countries.matches(&ev.jurisdiction.country) {
             return false;
         }
-        let counterparty = ev
-            .economics
-            .as_ref()
-            .and_then(|e| e.counterparty.clone());
+        let counterparty = ev.economics.as_ref().and_then(|e| e.counterparty.clone());
         match (&self.counterparties, &counterparty) {
             (Selector::Any, _) => {}
             (_, None) => {

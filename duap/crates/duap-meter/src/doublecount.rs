@@ -73,7 +73,11 @@ pub fn fingerprint(ev: &DataUsageEvent, window_micros: u64) -> Digest {
             },
         ),
     ]);
-    Digest::of(HashAlg::Sha2_256, FINGERPRINT_DOMAIN, &duap_canon::encode(&parts))
+    Digest::of(
+        HashAlg::Sha2_256,
+        FINGERPRINT_DOMAIN,
+        &duap_canon::encode(&parts),
+    )
 }
 
 /// Two events that appear to describe the same operation.
@@ -112,7 +116,10 @@ pub enum CountDecision {
     Count,
     /// Collides, and policy says this event is the one to count. The
     /// incumbent must be reversed.
-    CountAndReverse { reversed: Digest, collision: Collision },
+    CountAndReverse {
+        reversed: Digest,
+        collision: Collision,
+    },
     /// Collides, and policy says not to count this one.
     Suppress(Collision),
     /// Collides, and policy says to count neither.
@@ -152,7 +159,9 @@ impl DoubleCountDetector {
     /// The reporter of an event: the processor if one is named, else the
     /// controller.
     fn reporter(ev: &DataUsageEvent) -> OrgId {
-        ev.processor.clone().unwrap_or_else(|| ev.controller.clone())
+        ev.processor
+            .clone()
+            .unwrap_or_else(|| ev.controller.clone())
     }
 
     pub fn offer(&mut self, ev: &DataUsageEvent, digest: Digest) -> CountDecision {
@@ -163,10 +172,8 @@ impl DoubleCountDetector {
 
         match self.seen.get(&key).cloned() {
             None => {
-                self.seen.insert(
-                    key,
-                    (digest, reporter, ev.processor.clone()),
-                );
+                self.seen
+                    .insert(key, (digest, reporter, ev.processor.clone()));
                 CountDecision::Count
             }
             Some((incumbent, inc_reporter, inc_processor)) => {

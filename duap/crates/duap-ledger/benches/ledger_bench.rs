@@ -8,7 +8,11 @@ fn bench(c: &mut Criterion) {
     g.bench_function("post_entry", |b| {
         let mut l = Ledger::new();
         l.ensure_account(AccountId::new("acct:a"), AccountKind::Asset, Currency::EUR);
-        l.ensure_account(AccountId::new("acct:b"), AccountKind::Revenue, Currency::EUR);
+        l.ensure_account(
+            AccountId::new("acct:b"),
+            AccountKind::Revenue,
+            Currency::EUR,
+        );
         let mut i = 0u64;
         b.iter(|| {
             i += 1;

@@ -32,8 +32,9 @@ fn request_at(secs: u64, expires: u64) -> NegotiationMessage {
         id: nid(),
         requester: "org:duap/buyer".parse().expect("valid org id"),
         subject: Some(subject()),
-        wants: Matcher::any()
-            .classes(ClassSelector::Namespace { namespaces: vec!["location".into()] }),
+        wants: Matcher::any().classes(ClassSelector::Namespace {
+            namespaces: vec!["location".into()],
+        }),
         disclosure: "synthetic: deliver area weather alerts".into(),
         duration_hours: 24,
         proposed_pricing: Some(PricingRule::PerUnit {
@@ -132,14 +133,18 @@ fn acceptance_binds_an_offer() {
         sent_at: Timestamp::from_secs(T0 + 20),
     });
     assert!(
-        matches!(n.apply(&forged), Err(NegotiationError::OfferMismatch { .. })),
+        matches!(
+            n.apply(&forged),
+            Err(NegotiationError::OfferMismatch { .. })
+        ),
         "accepting terms that were never offered must be refused"
     );
     assert_eq!(n.state, NegotiationState::Offered);
 
     // And an offer that answers a request nobody sent.
     let mut m = Negotiation::new(nid());
-    m.apply(&request_at(T0, T0 + 3600)).expect("request applies");
+    m.apply(&request_at(T0, T0 + 3600))
+        .expect("request applies");
     let wrong = NegotiationMessage::Offer(AccessOffer {
         id: nid(),
         request_digest: duap_canon::Digest::of(
@@ -154,7 +159,10 @@ fn acceptance_binds_an_offer() {
         expires_at: Timestamp::from_secs(T0 + 1800),
         counter: false,
     });
-    assert!(matches!(m.apply(&wrong), Err(NegotiationError::RequestMismatch { .. })));
+    assert!(matches!(
+        m.apply(&wrong),
+        Err(NegotiationError::RequestMismatch { .. })
+    ));
 }
 
 /// INV-N3. A grant follows an acceptance: `settle` refuses in any state
@@ -175,7 +183,8 @@ fn grant_follows_acceptance() {
     ));
     assert_eq!(n.state, NegotiationState::Offered);
 
-    n.apply(&accept_of(&offer, T0 + 20)).expect("acceptance applies");
+    n.apply(&accept_of(&offer, T0 + 20))
+        .expect("acceptance applies");
 
     // A grant that does not name the accepted offer is refused.
     let unbound = GrantBuilder::new(
@@ -189,10 +198,14 @@ fn grant_follows_acceptance() {
     .term(Term::permit(1, Matcher::any()).with_pricing(PricingRule::Free))
     .build()
     .expect("valid grant");
-    assert!(matches!(n.settle(unbound), Err(NegotiationError::OfferMismatch { .. })));
+    assert!(matches!(
+        n.settle(unbound),
+        Err(NegotiationError::OfferMismatch { .. })
+    ));
     assert_eq!(n.state, NegotiationState::Accepted);
 
-    n.settle(grant_binding(&offer)).expect("a bound grant settles");
+    n.settle(grant_binding(&offer))
+        .expect("a bound grant settles");
     assert_eq!(n.state, NegotiationState::Granted);
 }
 
@@ -206,7 +219,8 @@ fn terminal_is_absorbing() {
     n.apply(&req).expect("request applies");
     let offer = offer_answering(&req, T0 + 10, T0 + 1800);
     n.apply(&offer).expect("offer applies");
-    n.apply(&accept_of(&offer, T0 + 20)).expect("acceptance applies");
+    n.apply(&accept_of(&offer, T0 + 20))
+        .expect("acceptance applies");
     n.settle(grant_binding(&offer)).expect("settles");
     assert!(n.is_terminal());
 
@@ -219,7 +233,8 @@ fn terminal_is_absorbing() {
 
     // Closed.
     let mut m = Negotiation::new(nid());
-    m.apply(&request_at(T0, T0 + 3600)).expect("request applies");
+    m.apply(&request_at(T0, T0 + 3600))
+        .expect("request applies");
     m.apply(&NegotiationMessage::Withdraw(Rejection {
         id: nid(),
         code: RejectCode::Unspecified,
@@ -231,7 +246,10 @@ fn terminal_is_absorbing() {
     assert!(m.is_terminal());
 
     let offer2 = offer_answering(&request_at(T0, T0 + 3600), T0 + 10, T0 + 1800);
-    assert!(m.apply(&offer2).is_err(), "a closed negotiation accepts nothing");
+    assert!(
+        m.apply(&offer2).is_err(),
+        "a closed negotiation accepts nothing"
+    );
     assert_eq!(m.state, NegotiationState::Closed);
 }
 
@@ -245,7 +263,8 @@ fn outcome_is_unique() {
     n.apply(&req).expect("request applies");
     let offer = offer_answering(&req, T0 + 10, T0 + 1800);
     n.apply(&offer).expect("offer applies");
-    n.apply(&accept_of(&offer, T0 + 20)).expect("acceptance applies");
+    n.apply(&accept_of(&offer, T0 + 20))
+        .expect("acceptance applies");
     n.settle(grant_binding(&offer)).expect("settles");
 
     // A rejection arriving after the grant cannot un-grant it.
@@ -311,7 +330,8 @@ fn a_counter_offer_supersedes_the_previous_one() {
         ),
         "the superseded offer must no longer be acceptable"
     );
-    n.apply(&accept_of(&second, T0 + 31)).expect("the live offer is acceptable");
+    n.apply(&accept_of(&second, T0 + 31))
+        .expect("the live offer is acceptable");
     assert_eq!(n.state, NegotiationState::Accepted);
 }
 
@@ -337,6 +357,7 @@ fn expiry_binds_every_message_except_rejection() {
         sent_at: Timestamp::from_secs(T0 + 500),
         message: None,
     });
-    n.apply(&late_reject).expect("a late rejection is always permitted");
+    n.apply(&late_reject)
+        .expect("a late rejection is always permitted");
     assert_eq!(n.state, NegotiationState::Closed);
 }

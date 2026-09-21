@@ -48,7 +48,11 @@ pub enum DecisionReason {
     /// A matching permit was withdrawn.
     RevokedTerm { term: u32 },
     /// An obligation attached to the permission was violated.
-    ObligationViolated { term: u32, obligation: String, detail: String },
+    ObligationViolated {
+        term: u32,
+        obligation: String,
+        detail: String,
+    },
     /// The grant was not in force at the time of the operation.
     OutsideGrantWindow,
     /// The event referenced a different grant, epoch or digest.
@@ -139,19 +143,28 @@ pub fn evaluate(
     let aref = &event.authorization;
     if aref.grant != grant.id {
         return Decision::deny(DecisionReason::GrantMismatch {
-            detail: format!("event cites grant {} but was evaluated against {}", aref.grant, grant.id),
+            detail: format!(
+                "event cites grant {} but was evaluated against {}",
+                aref.grant, grant.id
+            ),
         });
     }
     if aref.epoch != grant.epoch {
         return Decision::deny(DecisionReason::GrantMismatch {
-            detail: format!("event cites epoch {} but the grant is at epoch {}", aref.epoch, grant.epoch),
+            detail: format!(
+                "event cites epoch {} but the grant is at epoch {}",
+                aref.epoch, grant.epoch
+            ),
         });
     }
     match grant.digest() {
         Ok(d) if d == aref.grant_digest => {}
         Ok(d) => {
             return Decision::deny(DecisionReason::GrantMismatch {
-                detail: format!("event cites grant digest {} but the grant hashes to {d}", aref.grant_digest),
+                detail: format!(
+                    "event cites grant digest {} but the grant hashes to {d}",
+                    aref.grant_digest
+                ),
             });
         }
         Err(e) => {
@@ -261,7 +274,10 @@ pub fn evaluate(
     let mut best: Option<(&crate::grant::Term, (bool, u32))> = None;
     for t in &permits {
         if let Some(rule) = &t.pricing {
-            let score = (rule.covers_unit(event.quantity.unit), t.matcher.specificity());
+            let score = (
+                rule.covers_unit(event.quantity.unit),
+                t.matcher.specificity(),
+            );
             match best {
                 None => best = Some((t, score)),
                 Some((bt, bs)) if score > bs || (score == bs && t.id < bt.id) => {

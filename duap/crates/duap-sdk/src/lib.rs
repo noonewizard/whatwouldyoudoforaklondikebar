@@ -121,7 +121,13 @@ pub fn create_invoice<T: TaxPolicy>(
     payer: OrgId,
     period: TimeRange,
     currency: Currency,
-    lines: Vec<(UsageKey, duap_canon::Digest, PriceBreakdown, String, Option<Ratio>)>,
+    lines: Vec<(
+        UsageKey,
+        duap_canon::Digest,
+        PriceBreakdown,
+        String,
+        Option<Ratio>,
+    )>,
     tax: &T,
     issued_at: Timestamp,
 ) -> Result<(Invoice, JournalEntry), SdkError> {

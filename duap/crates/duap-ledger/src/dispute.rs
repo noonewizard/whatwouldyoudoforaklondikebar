@@ -67,13 +67,21 @@ pub enum Evidence {
     /// A signed event.
     Event { digest: Digest },
     /// A signed grant at a specific epoch.
-    Grant { id: GrantId, epoch: u32, digest: Digest },
+    Grant {
+        id: GrantId,
+        epoch: u32,
+        digest: Digest,
+    },
     /// A revocation.
     Revocation { digest: Digest },
     /// A receipt.
     Receipt { digest: Digest },
     /// An inclusion proof in the transparency log.
-    LogInclusion { entry: Digest, log: String, size: u64 },
+    LogInclusion {
+        entry: Digest,
+        log: String,
+        size: u64,
+    },
     /// An opening of a value commitment.
     CommitmentOpening { commitment: Digest },
     /// An invoice line.
@@ -162,7 +170,10 @@ pub struct Dispute {
 #[derive(Debug, thiserror::Error, Clone, PartialEq, Eq)]
 pub enum DisputeError {
     #[error("cannot move a dispute from {from:?} to {to:?}")]
-    BadTransition { from: DisputeState, to: DisputeState },
+    BadTransition {
+        from: DisputeState,
+        to: DisputeState,
+    },
     #[error("a dispute must carry at least one item of verifiable evidence")]
     NoVerifiableEvidence,
     #[error("an adjustment is required when a dispute is upheld or settled")]
@@ -224,7 +235,10 @@ impl Dispute {
         self.state = to;
         if matches!(
             to,
-            DisputeState::Upheld | DisputeState::Rejected | DisputeState::Settled | DisputeState::Withdrawn
+            DisputeState::Upheld
+                | DisputeState::Rejected
+                | DisputeState::Settled
+                | DisputeState::Withdrawn
         ) {
             self.resolved_at = Some(at);
         }

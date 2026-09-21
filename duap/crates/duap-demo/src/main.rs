@@ -35,8 +35,14 @@ fn main() {
             println!("  transparency log entries ... {}", r.log_size);
             println!("  log root ................... {}", r.log_root);
             println!("  trial balance is zero ...... {}", r.trial_balance_zero);
-            println!("  independent verification ... {}", r.independent_verification_passed);
-            println!("  commitment opens correctly . {}", duap_demo::check_commitment());
+            println!(
+                "  independent verification ... {}",
+                r.independent_verification_passed
+            );
+            println!(
+                "  commitment opens correctly . {}",
+                duap_demo::check_commitment()
+            );
             for (s, share) in &r.attribution {
                 println!("  attribution {s} = {share}");
             }

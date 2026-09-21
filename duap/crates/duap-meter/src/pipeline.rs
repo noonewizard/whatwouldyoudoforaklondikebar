@@ -15,7 +15,10 @@ pub enum MeterOutcome {
     /// Counted.
     Counted { digest: Digest },
     /// Counted, and an earlier conflicting event was reversed.
-    CountedWithReversal { digest: Digest, collision: Box<Collision> },
+    CountedWithReversal {
+        digest: Digest,
+        collision: Box<Collision>,
+    },
     /// Not counted, and why.
     Rejected(RejectReason),
     /// Not counted because another party already claimed the operation.
@@ -92,9 +95,7 @@ impl MeterPipeline {
                         self.stats.out_of_window += 1
                     }
                     RejectReason::SequenceConflict { .. }
-                    | RejectReason::SequenceRegression { .. } => {
-                        self.stats.sequence_problems += 1
-                    }
+                    | RejectReason::SequenceRegression { .. } => self.stats.sequence_problems += 1,
                 }
                 return Ok(MeterOutcome::Rejected(r));
             }

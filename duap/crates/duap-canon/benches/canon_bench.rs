@@ -1,5 +1,8 @@
 use criterion::{Criterion, criterion_group, criterion_main};
-use duap_canon::{Value, codec, digest::{Digest, HashAlg}};
+use duap_canon::{
+    Value, codec,
+    digest::{Digest, HashAlg},
+};
 use std::hint::black_box;
 
 fn sample_event() -> Value {
@@ -14,10 +17,16 @@ fn sample_event() -> Value {
         ("pur", Value::text("personalization")),
         ("jur", Value::text("EU-DE")),
         ("auth", Value::Bytes(vec![9u8; 32])),
-        ("q", Value::map([("unit", Value::text("record")), ("n", Value::Uint(1))])),
+        (
+            "q",
+            Value::map([("unit", Value::text("record")), ("n", Value::Uint(1))]),
+        ),
         (
             "prov",
-            Value::Array(vec![Value::Bytes(vec![1u8; 32]), Value::Bytes(vec![2u8; 32])]),
+            Value::Array(vec![
+                Value::Bytes(vec![1u8; 32]),
+                Value::Bytes(vec![2u8; 32]),
+            ]),
         ),
     ])
 }

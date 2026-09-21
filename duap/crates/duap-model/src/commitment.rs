@@ -58,8 +58,7 @@ impl Commitment {
     /// Commit to `value` with a fresh random salt.
     pub fn commit(value: &[u8]) -> crate::error::Result<(Commitment, Opening)> {
         let mut salt = [0u8; 32];
-        getrandom::fill(&mut salt)
-            .map_err(|e| crate::error::ModelError::Entropy(e.to_string()))?;
+        getrandom::fill(&mut salt).map_err(|e| crate::error::ModelError::Entropy(e.to_string()))?;
         Ok((Commitment::with_salt(value, salt), Opening { salt }))
     }
 

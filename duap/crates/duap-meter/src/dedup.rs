@@ -44,13 +44,23 @@ pub enum RejectReason {
     /// Already seen. Idempotent: the caller should treat this as success.
     Duplicate { first_seen: Timestamp },
     /// Older than the replay window.
-    TooOld { occurred_at: Timestamp, horizon: Timestamp },
+    TooOld {
+        occurred_at: Timestamp,
+        horizon: Timestamp,
+    },
     /// Dated further into the future than the tolerated skew.
-    TooNew { occurred_at: Timestamp, horizon: Timestamp },
+    TooNew {
+        occurred_at: Timestamp,
+        horizon: Timestamp,
+    },
     /// The sequence index was already used by a different event.
     SequenceConflict { stream: String, index: u64 },
     /// The sequence index went backwards within a stream.
-    SequenceRegression { stream: String, index: u64, seen_up_to: u64 },
+    SequenceRegression {
+        stream: String,
+        index: u64,
+        seen_up_to: u64,
+    },
 }
 
 /// Outcome of offering an event to the meter.
@@ -132,12 +142,7 @@ impl DedupIndex {
     }
 
     /// Offer an event, at wall-clock time `now`.
-    pub fn admit(
-        &mut self,
-        event: &DataUsageEvent,
-        digest: Digest,
-        now: Timestamp,
-    ) -> Admission {
+    pub fn admit(&mut self, event: &DataUsageEvent, digest: Digest, now: Timestamp) -> Admission {
         if event.occurred_at.0 + self.config.max_age < now.0 {
             return Admission::Rejected(RejectReason::TooOld {
                 occurred_at: event.occurred_at,

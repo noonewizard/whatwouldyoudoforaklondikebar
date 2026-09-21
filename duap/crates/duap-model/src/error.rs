@@ -13,10 +13,7 @@ pub enum ModelError {
     BadId(String),
 
     #[error("invalid {field}: {reason}")]
-    Invalid {
-        field: &'static str,
-        reason: String,
-    },
+    Invalid { field: &'static str, reason: String },
 
     #[error("currency mismatch: {a} and {b}")]
     CurrencyMismatch { a: String, b: String },

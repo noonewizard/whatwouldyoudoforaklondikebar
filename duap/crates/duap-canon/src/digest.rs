@@ -33,7 +33,9 @@ use std::str::FromStr;
 pub const DIGEST_PREFIX: &[u8] = b"DUAP/1";
 
 /// Hash algorithms in the DUAP registry.
-#[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash, serde::Serialize, serde::Deserialize)]
+#[derive(
+    Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash, serde::Serialize, serde::Deserialize,
+)]
 #[serde(rename_all = "kebab-case")]
 pub enum HashAlg {
     /// SHA-256 (FIPS 180-4). The mandatory-to-implement algorithm.
@@ -147,8 +149,8 @@ impl FromStr for Digest {
             .split_once(':')
             .ok_or_else(|| CanonError::BadDigest(format!("missing ':' in {s:?}")))?;
         let alg = HashAlg::parse(alg)?;
-        let raw =
-            hex::decode(hexs).map_err(|e| CanonError::BadDigest(format!("bad hex in {s:?}: {e}")))?;
+        let raw = hex::decode(hexs)
+            .map_err(|e| CanonError::BadDigest(format!("bad hex in {s:?}: {e}")))?;
         let bytes: [u8; 32] = raw
             .try_into()
             .map_err(|_| CanonError::BadDigest(format!("expected 32 bytes in {s:?}")))?;

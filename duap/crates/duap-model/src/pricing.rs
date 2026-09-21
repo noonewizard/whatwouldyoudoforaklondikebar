@@ -255,7 +255,9 @@ impl PricingRule {
                 }
                 Ok(())
             }
-            PricingRule::Free | PricingRule::Schedule { .. } | PricingRule::Auction { .. } => Ok(()),
+            PricingRule::Free | PricingRule::Schedule { .. } | PricingRule::Auction { .. } => {
+                Ok(())
+            }
         }
     }
 }

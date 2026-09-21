@@ -84,9 +84,7 @@ pub fn encode_into(v: &Value, out: &mut Vec<u8>) {
             // bytewise on UTF-8 -- which is NOT BTreeMap's ordering, so the
             // keys are re-sorted here rather than taken in map order.
             let mut keys: Vec<&String> = m.keys().collect();
-            keys.sort_unstable_by(|a, b| {
-                (a.len(), a.as_bytes()).cmp(&(b.len(), b.as_bytes()))
-            });
+            keys.sort_unstable_by(|a, b| (a.len(), a.as_bytes()).cmp(&(b.len(), b.as_bytes())));
             for k in keys {
                 head(out, MT_TEXT, k.len() as u64);
                 out.extend_from_slice(k.as_bytes());
@@ -219,9 +217,7 @@ impl<'a> Decoder<'a> {
             }
             27 => {
                 let s = self.take(8)?;
-                let v = u64::from_be_bytes([
-                    s[0], s[1], s[2], s[3], s[4], s[5], s[6], s[7],
-                ]);
+                let v = u64::from_be_bytes([s[0], s[1], s[2], s[3], s[4], s[5], s[6], s[7]]);
                 if v <= 0xffff_ffff {
                     return Err(CanonError::NonCanonical {
                         at: self.pos - 9,
@@ -363,7 +359,10 @@ impl<'a> Decoder<'a> {
             max: MAX_INPUT_LEN,
         })?;
         if self.pos + n > self.b.len() {
-            return Err(CanonError::UnexpectedEof { at: self.pos, want: n });
+            return Err(CanonError::UnexpectedEof {
+                at: self.pos,
+                want: n,
+            });
         }
         Ok(n)
     }

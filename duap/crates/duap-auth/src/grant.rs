@@ -225,7 +225,10 @@ impl Grant {
             return bad("epoch 1 must not chain to a previous epoch".into());
         }
         if self.epoch > 1 && self.previous.is_none() {
-            return bad(format!("epoch {} must chain to its predecessor", self.epoch));
+            return bad(format!(
+                "epoch {} must chain to its predecessor",
+                self.epoch
+            ));
         }
         if let Some(ex) = self.expires_at {
             if ex <= self.not_before {

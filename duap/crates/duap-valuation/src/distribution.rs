@@ -121,7 +121,8 @@ pub fn distribute<K: Ord + Clone>(
     order.sort_by(|&a, &b| {
         let ra = rows[a].rem_num * rows[b].rem_den;
         let rb = rows[b].rem_num * rows[a].rem_den;
-        rb.cmp(&ra).then_with(|| rows[a].recipient.cmp(&rows[b].recipient))
+        rb.cmp(&ra)
+            .then_with(|| rows[a].recipient.cmp(&rows[b].recipient))
     });
     let mut extra: BTreeMap<usize, i128> = BTreeMap::new();
     let mut i = 0;
@@ -281,7 +282,9 @@ impl<K: Ord + Clone> PayoutAccumulator<K> {
         Ok(self
             .balances
             .iter()
-            .filter(|(_, b)| b.updated_at < before && b.accrued.nmu < threshold_nmu && b.accrued.nmu > 0)
+            .filter(|(_, b)| {
+                b.updated_at < before && b.accrued.nmu < threshold_nmu && b.accrued.nmu > 0
+            })
             .map(|(k, b)| (k.clone(), b.accrued))
             .collect())
     }

@@ -203,8 +203,8 @@ impl TransparencyLog {
         issued_at: Timestamp,
     ) -> Result<Envelope, LogError> {
         let head = self.head(issued_at);
-        let mut env = Envelope::seal(STH_DOMAIN, &head)
-            .map_err(|e| LogError::BadSignature(e.to_string()))?;
+        let mut env =
+            Envelope::seal(STH_DOMAIN, &head).map_err(|e| LogError::BadSignature(e.to_string()))?;
         env.sign(key, issued_at.0, None)
             .map_err(|e| LogError::BadSignature(e.to_string()))?;
         Ok(env)

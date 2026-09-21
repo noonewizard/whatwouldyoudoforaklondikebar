@@ -22,7 +22,9 @@ use clap::Parser;
 use duap_auth::prelude::*;
 use duap_canon::HashAlg;
 use duap_clearing::{ClearingConfig, ClearingNode, IngestOutcome};
-use duap_crypto::{Envelope, KeyRecord, KeyRegistry, KeyRole, SecretKey, SuiteId, SuitePolicy, VerificationContext};
+use duap_crypto::{
+    Envelope, KeyRecord, KeyRegistry, KeyRole, SecretKey, SuiteId, SuitePolicy, VerificationContext,
+};
 use duap_model::prelude::*;
 use duap_sdk::prelude::*;
 use serde::Serialize;
@@ -107,7 +109,9 @@ fn env_block() -> Environment {
         cores: std::thread::available_parallelism()
             .map(|n| n.get())
             .unwrap_or(0),
-        rustc: option_env!("DUAP_RUSTC").unwrap_or("unknown; set DUAP_RUSTC").to_owned(),
+        rustc: option_env!("DUAP_RUSTC")
+            .unwrap_or("unknown; set DUAP_RUSTC")
+            .to_owned(),
         profile: if cfg!(debug_assertions) {
             "debug (NOT a valid performance measurement)".to_owned()
         } else {
@@ -143,7 +147,11 @@ fn build(n: usize) -> Scenario {
         ClearingConfig::reference(Currency::EUR),
     );
     for (pk, holder, roles) in [
-        (acme_key.public_key(), acme.to_string(), vec![KeyRole::EventSigner]),
+        (
+            acme_key.public_key(),
+            acme.to_string(),
+            vec![KeyRole::EventSigner],
+        ),
         (
             subject_key.public_key(),
             format!("subject:{pseudonym}"),
@@ -250,7 +258,10 @@ fn main() {
             }
         },
     ));
-    assert_eq!(accepted as usize, cli.events, "every benchmark event must be accepted");
+    assert_eq!(
+        accepted as usize, cli.events,
+        "every benchmark event must be accepted"
+    );
 
     // ---------------- agent-side event production ----------------
     let mut produced = 0u64;
@@ -265,7 +276,9 @@ fn main() {
                     .agent
                     .record_usage(
                         UsageRecord::new(
-                            SubjectScope::Subject { subject: sc.subject },
+                            SubjectScope::Subject {
+                                subject: sc.subject,
+                            },
                             DataClass::LocationCoarse,
                             Operation::AccessQuery,
                             Purpose::ServiceCore,
@@ -325,7 +338,9 @@ fn main() {
             .agent
             .record_usage(
                 UsageRecord::new(
-                    SubjectScope::Subject { subject: sc.subject },
+                    SubjectScope::Subject {
+                        subject: sc.subject,
+                    },
                     DataClass::LocationCoarse,
                     Operation::AccessQuery,
                     Purpose::ServiceCore,
@@ -501,16 +516,24 @@ fn main() {
     let mut ed_env =
         Envelope::from_payload_bytes(duap_model::event::EVENT_DOMAIN, event_bytes.clone())
             .expect("canonical");
-    ed_env.sign(&ed_key, 1_700_000_000_000_000, None).expect("signs");
+    ed_env
+        .sign(&ed_key, 1_700_000_000_000_000, None)
+        .expect("signs");
     let mut hy_env =
         Envelope::from_payload_bytes(duap_model::event::EVENT_DOMAIN, event_bytes.clone())
             .expect("canonical");
-    hy_env.sign(&hy_key, 1_700_000_000_000_000, None).expect("signs");
+    hy_env
+        .sign(&hy_key, 1_700_000_000_000_000, None)
+        .expect("signs");
 
     let sizes = Sizes {
         event_canonical_bytes: event_bytes.len(),
-        envelope_ed25519_bytes: duap_canon::to_canonical_cbor(&ed_env).expect("encodes").len(),
-        envelope_hybrid_bytes: duap_canon::to_canonical_cbor(&hy_env).expect("encodes").len(),
+        envelope_ed25519_bytes: duap_canon::to_canonical_cbor(&ed_env)
+            .expect("encodes")
+            .len(),
+        envelope_hybrid_bytes: duap_canon::to_canonical_cbor(&hy_env)
+            .expect("encodes")
+            .len(),
         receipt_canonical_bytes: receipt.to_canonical().expect("encodes").len(),
         receipt_envelope_hybrid_bytes: duap_canon::to_canonical_cbor(&receipt_env)
             .expect("encodes")
@@ -567,16 +590,34 @@ fn main() {
     println!("\n## Sizes\n");
     println!("| object | bytes |");
     println!("|---|---:|");
-    println!("| event, canonical | {} |", report.sizes.event_canonical_bytes);
-    println!("| event envelope, ed25519 | {} |", report.sizes.envelope_ed25519_bytes);
-    println!("| event envelope, ed25519+ml-dsa-44 | {} |", report.sizes.envelope_hybrid_bytes);
-    println!("| grant, canonical | {} |", report.sizes.grant_canonical_bytes);
-    println!("| receipt, canonical | {} |", report.sizes.receipt_canonical_bytes);
+    println!(
+        "| event, canonical | {} |",
+        report.sizes.event_canonical_bytes
+    );
+    println!(
+        "| event envelope, ed25519 | {} |",
+        report.sizes.envelope_ed25519_bytes
+    );
+    println!(
+        "| event envelope, ed25519+ml-dsa-44 | {} |",
+        report.sizes.envelope_hybrid_bytes
+    );
+    println!(
+        "| grant, canonical | {} |",
+        report.sizes.grant_canonical_bytes
+    );
+    println!(
+        "| receipt, canonical | {} |",
+        report.sizes.receipt_canonical_bytes
+    );
     println!(
         "| receipt envelope with anchor, hybrid | {} |",
         report.sizes.receipt_envelope_hybrid_bytes
     );
-    println!("| log entry, canonical | {} |", report.sizes.log_entry_bytes);
+    println!(
+        "| log entry, canonical | {} |",
+        report.sizes.log_entry_bytes
+    );
     println!(
         "| dedup index payload per event | {} |",
         report.sizes.dedup_index_bytes_per_event_estimate

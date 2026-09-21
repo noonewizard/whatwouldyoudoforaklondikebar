@@ -251,7 +251,10 @@ impl Negotiation {
     }
 
     /// Apply a message, advancing the state machine.
-    pub fn apply(&mut self, msg: &NegotiationMessage) -> Result<NegotiationState, NegotiationError> {
+    pub fn apply(
+        &mut self,
+        msg: &NegotiationMessage,
+    ) -> Result<NegotiationState, NegotiationError> {
         if msg.id() != self.id {
             return Err(NegotiationError::WrongNegotiation {
                 want: self.id.to_string(),
@@ -354,6 +357,9 @@ impl Negotiation {
     }
 
     pub fn is_terminal(&self) -> bool {
-        matches!(self.state, NegotiationState::Granted | NegotiationState::Closed)
+        matches!(
+            self.state,
+            NegotiationState::Granted | NegotiationState::Closed
+        )
     }
 }

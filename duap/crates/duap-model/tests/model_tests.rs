@@ -26,7 +26,9 @@ fn base_builder(class: DataClass, op: Operation, purpose: Purpose) -> EventBuild
         SubjectScope::Subject {
             subject: SubjectRef([3u8; 16]),
         },
-        Jurisdiction::new("DE").unwrap().with_regimes([Regime::EuGdpr]),
+        Jurisdiction::new("DE")
+            .unwrap()
+            .with_regimes([Regime::EuGdpr]),
         class,
         op,
         purpose,
@@ -61,7 +63,9 @@ fn purpose_covers_is_reflexive_and_transitive() {
     }
     assert!(Purpose::Marketing.covers(Purpose::MarketingAdvertisingBehavioral));
     assert!(Purpose::MarketingAdvertising.covers(Purpose::MarketingAdvertisingContextual));
-    assert!(!Purpose::MarketingAdvertisingContextual.covers(Purpose::MarketingAdvertisingBehavioral));
+    assert!(
+        !Purpose::MarketingAdvertisingContextual.covers(Purpose::MarketingAdvertisingBehavioral)
+    );
     assert!(!Purpose::Service.covers(Purpose::MarketingDirect));
 }
 
@@ -143,14 +147,22 @@ fn org_id_syntax() {
     assert!(OrgId::new("org:/acme").is_err());
     assert!(OrgId::new("org:DUAP/acme").is_err());
     assert!(OrgId::new("org:duap/with space").is_err());
-    assert_eq!(OrgId::new("org:lei/5493001KJTIIGC8Y1R12").unwrap().authority(), "lei");
+    assert_eq!(
+        OrgId::new("org:lei/5493001KJTIIGC8Y1R12")
+            .unwrap()
+            .authority(),
+        "lei"
+    );
 }
 
 #[test]
 fn ids_round_trip_through_text() {
     let e = EventId([9u8; 16]);
     assert_eq!(e.to_string().parse::<EventId>().unwrap(), e);
-    assert!("gr1:00".parse::<EventId>().is_err(), "prefix must match the type");
+    assert!(
+        "gr1:00".parse::<EventId>().is_err(),
+        "prefix must match the type"
+    );
 }
 
 #[test]
@@ -233,7 +245,16 @@ fn money_refuses_cross_currency_arithmetic() {
 
 #[test]
 fn rounding_conserves_value() {
-    for nmu in [-2_500_000_000i128, -1, 0, 1, 499_999_999, 500_000_000, 1_500_000_000, 999_999_999_999] {
+    for nmu in [
+        -2_500_000_000i128,
+        -1,
+        0,
+        1,
+        499_999_999,
+        500_000_000,
+        1_500_000_000,
+        999_999_999_999,
+    ] {
         let p = Precise::new(Currency::USD, nmu);
         for mode in [
             Rounding::HalfUp,
@@ -259,11 +280,21 @@ fn half_even_is_unbiased_where_half_up_is_not() {
     let halves: Vec<i128> = (0..4).map(|k| k * NANO + NANO / 2).collect();
     let he: i128 = halves
         .iter()
-        .map(|n| Precise::new(Currency::USD, *n).round_to_money(Rounding::HalfEven).0.minor)
+        .map(|n| {
+            Precise::new(Currency::USD, *n)
+                .round_to_money(Rounding::HalfEven)
+                .0
+                .minor
+        })
         .sum();
     let hu: i128 = halves
         .iter()
-        .map(|n| Precise::new(Currency::USD, *n).round_to_money(Rounding::HalfUp).0.minor)
+        .map(|n| {
+            Precise::new(Currency::USD, *n)
+                .round_to_money(Rounding::HalfUp)
+                .0
+                .minor
+        })
         .sum();
     let exact_doubled: i128 = halves.iter().map(|n| n * 2 / NANO).sum::<i128>();
     assert_eq!(he * 2, exact_doubled, "half-even should not drift");
@@ -525,7 +556,9 @@ fn compact_wire_names_are_used() {
     .unwrap();
     let v = duap_canon::to_value(&ev).unwrap();
     let m = v.as_map().unwrap();
-    for k in ["v", "id", "ts", "rt", "ag", "ct", "sb", "ju", "dc", "sn", "op", "pp", "az", "qy"] {
+    for k in [
+        "v", "id", "ts", "rt", "ag", "ct", "sb", "ju", "dc", "sn", "op", "pp", "az", "qy",
+    ] {
         assert!(m.contains_key(k), "missing wire field {k}");
     }
     assert!(!m.contains_key("data_class"));

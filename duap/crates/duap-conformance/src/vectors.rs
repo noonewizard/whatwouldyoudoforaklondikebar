@@ -16,7 +16,13 @@ use duap_model::prelude::*;
 use duap_provenance::merkle;
 use serde_json::json as j;
 
-fn v(id: &str, level: Level, requirement: &str, input: serde_json::Value, expect: serde_json::Value) -> Vector {
+fn v(
+    id: &str,
+    level: Level,
+    requirement: &str,
+    input: serde_json::Value,
+    expect: serde_json::Value,
+) -> Vector {
     Vector {
         id: id.to_owned(),
         level,
@@ -71,7 +77,10 @@ fn canonical_samples() -> Vec<(&'static str, Value)> {
             "deep",
             Value::map([(
                 "a",
-                Value::map([("b", Value::Array(vec![Value::map([("c", Value::Bytes(vec![1, 2, 3]))])]))]),
+                Value::map([(
+                    "b",
+                    Value::Array(vec![Value::map([("c", Value::Bytes(vec![1, 2, 3]))])]),
+                )]),
             )]),
         ),
     ]
@@ -79,12 +88,36 @@ fn canonical_samples() -> Vec<(&'static str, Value)> {
 
 fn non_canonical_samples() -> Vec<(&'static str, Vec<u8>, &'static str)> {
     vec![
-        ("non_shortest_uint", vec![0x18, 0x05], "uint(5) must encode as 0x05"),
-        ("indefinite_array", vec![0x9f, 0x01, 0xff], "indefinite lengths are rejected"),
-        ("float32", vec![0xfa, 0x47, 0xc3, 0x50, 0x00], "floats are outside the data model"),
-        ("float16", vec![0xf9, 0x3c, 0x00], "floats are outside the data model"),
-        ("tag0", vec![0xc0, 0x61, 0x61], "tags are outside the data model"),
-        ("int_map_key", vec![0xa1, 0x01, 0x02], "map keys must be text"),
+        (
+            "non_shortest_uint",
+            vec![0x18, 0x05],
+            "uint(5) must encode as 0x05",
+        ),
+        (
+            "indefinite_array",
+            vec![0x9f, 0x01, 0xff],
+            "indefinite lengths are rejected",
+        ),
+        (
+            "float32",
+            vec![0xfa, 0x47, 0xc3, 0x50, 0x00],
+            "floats are outside the data model",
+        ),
+        (
+            "float16",
+            vec![0xf9, 0x3c, 0x00],
+            "floats are outside the data model",
+        ),
+        (
+            "tag0",
+            vec![0xc0, 0x61, 0x61],
+            "tags are outside the data model",
+        ),
+        (
+            "int_map_key",
+            vec![0xa1, 0x01, 0x02],
+            "map keys must be text",
+        ),
         (
             "duplicate_key",
             vec![0xa2, 0x61, 0x61, 0x01, 0x61, 0x61, 0x02],
@@ -100,8 +133,16 @@ fn non_canonical_samples() -> Vec<(&'static str, Vec<u8>, &'static str)> {
             vec![0xa2, 0x62, 0x61, 0x61, 0x01, 0x61, 0x62, 0x02],
             "canonical order is length-first",
         ),
-        ("undefined", vec![0xf7], "undefined is outside the data model"),
-        ("trailing_bytes", vec![0x01, 0x02], "trailing data is rejected"),
+        (
+            "undefined",
+            vec![0xf7],
+            "undefined is outside the data model",
+        ),
+        (
+            "trailing_bytes",
+            vec![0x01, 0x02],
+            "trailing data is rejected",
+        ),
         ("truncated", vec![0x62, 0x61], "truncated input is rejected"),
     ]
 }
@@ -259,7 +300,9 @@ pub fn merkle_vectors() -> VectorFile {
         }
         if n >= 2 {
             let old = (n as u64) / 2;
-            let cp = log.consistency_proof(old, n as u64).expect("sizes in range");
+            let cp = log
+                .consistency_proof(old, n as u64)
+                .expect("sizes in range");
             out.push(v(
                 &format!("merkle/consistency/{n}"),
                 Level::L3,
@@ -368,9 +411,21 @@ pub fn events() -> VectorFile {
         .extensions
         .insert("duap.reserved".into(), Value::Uint(1));
     for (name, e, why) in [
-        ("unit_mismatch", bad_unit, "the quantity unit must be the operation's meter"),
-        ("sensitivity_below_class", bad_sens, "sensitivity may not fall below the class default"),
-        ("reserved_extension", bad_ext, "the duap. extension namespace is reserved"),
+        (
+            "unit_mismatch",
+            bad_unit,
+            "the quantity unit must be the operation's meter",
+        ),
+        (
+            "sensitivity_below_class",
+            bad_sens,
+            "sensitivity may not fall below the class default",
+        ),
+        (
+            "reserved_extension",
+            bad_ext,
+            "the duap. extension namespace is reserved",
+        ),
     ] {
         out.push(v(
             &format!("event/reject/{name}"),
@@ -541,9 +596,24 @@ pub fn authorization() -> VectorFile {
     };
 
     let cases = [
-        ("permit_service_location", DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore),
-        ("deny_commercial", DataClass::LocationCoarse, Operation::CommercialAdvertise, Purpose::MarketingAdvertisingBehavioral),
-        ("default_deny_other_class", DataClass::ContactEmail, Operation::AccessQuery, Purpose::ServiceCore),
+        (
+            "permit_service_location",
+            DataClass::LocationCoarse,
+            Operation::AccessQuery,
+            Purpose::ServiceCore,
+        ),
+        (
+            "deny_commercial",
+            DataClass::LocationCoarse,
+            Operation::CommercialAdvertise,
+            Purpose::MarketingAdvertisingBehavioral,
+        ),
+        (
+            "default_deny_other_class",
+            DataClass::ContactEmail,
+            Operation::AccessQuery,
+            Purpose::ServiceCore,
+        ),
     ];
 
     let mut out = vec![v(
@@ -584,7 +654,11 @@ pub fn authorization() -> VectorFile {
         RetroactiveRequest::None,
     )
     .expect("revocation builds");
-    let ev = mk(DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let ev = mk(
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     let d = evaluate(&grant, &[rev.clone()], &ev, &EvalContext::verified());
     out.push(v(
         "authz/revoked",
@@ -646,9 +720,18 @@ pub fn pricing() -> VectorFile {
             PricingRule::Tiered {
                 unit: Unit::Record,
                 tiers: vec![
-                    Tier { up_to: Some(1_000), unit_price: Precise::new(Currency::EUR, 1_000_000) },
-                    Tier { up_to: Some(10_000), unit_price: Precise::new(Currency::EUR, 500_000) },
-                    Tier { up_to: None, unit_price: Precise::new(Currency::EUR, 100_000) },
+                    Tier {
+                        up_to: Some(1_000),
+                        unit_price: Precise::new(Currency::EUR, 1_000_000),
+                    },
+                    Tier {
+                        up_to: Some(10_000),
+                        unit_price: Precise::new(Currency::EUR, 500_000),
+                    },
+                    Tier {
+                        up_to: None,
+                        unit_price: Precise::new(Currency::EUR, 100_000),
+                    },
                 ],
             },
         ),
@@ -816,10 +899,8 @@ pub fn all() -> Vec<(&'static str, VectorFile)> {
 /// Re-derive every vector and compare with the committed expectation.
 pub fn self_check(files: &[(String, VectorFile)]) -> Summary {
     let mut s = Summary::default();
-    let generated: std::collections::BTreeMap<String, VectorFile> = all()
-        .into_iter()
-        .map(|(n, f)| (n.to_owned(), f))
-        .collect();
+    let generated: std::collections::BTreeMap<String, VectorFile> =
+        all().into_iter().map(|(n, f)| (n.to_owned(), f)).collect();
     for (name, committed) in files {
         match generated.get(name) {
             None => s.record(CheckResult {

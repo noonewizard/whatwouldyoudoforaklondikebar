@@ -55,7 +55,9 @@ fn bench(c: &mut Criterion) {
         });
     }
     let (grant, _) = setup(16);
-    g.bench_function("grant_digest", |b| b.iter(|| black_box(&grant).digest().unwrap()));
+    g.bench_function("grant_digest", |b| {
+        b.iter(|| black_box(&grant).digest().unwrap())
+    });
     g.finish();
 }
 

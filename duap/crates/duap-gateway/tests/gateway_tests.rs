@@ -61,18 +61,27 @@ impl Harness {
 
     fn get(&self, path: &str) -> (u16, serde_json::Value) {
         let (s, b) = self.request("GET", path, "application/json", b"");
-        (s, serde_json::from_str(&b).unwrap_or(serde_json::Value::Null))
+        (
+            s,
+            serde_json::from_str(&b).unwrap_or(serde_json::Value::Null),
+        )
     }
 
     fn post_cbor(&self, path: &str, body: &[u8]) -> (u16, serde_json::Value) {
         let (s, b) = self.request("POST", path, "application/duap+cbor", body);
-        (s, serde_json::from_str(&b).unwrap_or(serde_json::Value::Null))
+        (
+            s,
+            serde_json::from_str(&b).unwrap_or(serde_json::Value::Null),
+        )
     }
 
     fn post_json(&self, path: &str, v: serde_json::Value) -> (u16, serde_json::Value) {
         let body = serde_json::to_vec(&v).expect("serialises");
         let (s, b) = self.request("POST", path, "application/json", &body);
-        (s, serde_json::from_str(&b).unwrap_or(serde_json::Value::Null))
+        (
+            s,
+            serde_json::from_str(&b).unwrap_or(serde_json::Value::Null),
+        )
     }
 }
 
@@ -288,7 +297,9 @@ fn every_rejection_names_the_stage_it_failed_at() {
     let (_e, _d, env) = agent
         .record_usage(
             UsageRecord::new(
-                SubjectScope::Subject { subject: fx.subject_pseudonym },
+                SubjectScope::Subject {
+                    subject: fx.subject_pseudonym,
+                },
                 DataClass::LocationCoarse,
                 Operation::AccessQuery,
                 Purpose::ServiceCore,
@@ -310,7 +321,9 @@ fn every_rejection_names_the_stage_it_failed_at() {
     let (_e, _d, env) = agent
         .record_usage(
             UsageRecord::new(
-                SubjectScope::Subject { subject: fx.subject_pseudonym },
+                SubjectScope::Subject {
+                    subject: fx.subject_pseudonym,
+                },
                 DataClass::BehaviorWebBrowsing,
                 Operation::CommercialAdvertise,
                 Purpose::MarketingAdvertisingBehavioral,
@@ -326,7 +339,12 @@ fn every_rejection_names_the_stage_it_failed_at() {
     );
     assert_eq!(s, 403, "{v}");
     assert_eq!(v["stage"], "authorize");
-    assert!(v["detail"].as_str().expect("detail").contains("denied_by_term"));
+    assert!(
+        v["detail"]
+            .as_str()
+            .expect("detail")
+            .contains("denied_by_term")
+    );
 }
 
 #[test]
@@ -353,7 +371,8 @@ fn a_grant_must_be_signed_by_the_key_it_names() {
     .build()
     .expect("builds");
     let mut env = duap_crypto::Envelope::seal(duap_auth::GRANT_DOMAIN, &grant).expect("seals");
-    env.sign(&fx.acme_key, Timestamp::now().0, None).expect("signs");
+    env.sign(&fx.acme_key, Timestamp::now().0, None)
+        .expect("signs");
     let (s, v) = h.post_cbor(
         "/v1/grants",
         &duap_canon::to_canonical_cbor(&env).expect("encodes"),

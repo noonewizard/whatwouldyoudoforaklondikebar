@@ -365,6 +365,11 @@ impl Drop for SecretKey {
 
 impl fmt::Debug for SecretKey {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        write!(f, "SecretKey({}, {}, <redacted>)", self.suite, self.key_id())
+        write!(
+            f,
+            "SecretKey({}, {}, <redacted>)",
+            self.suite,
+            self.key_id()
+        )
     }
 }

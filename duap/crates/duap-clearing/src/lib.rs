@@ -24,6 +24,6 @@ pub use node::{
     ACK_DOMAIN, Acknowledgement, ClearingConfig, ClearingError, ClearingNode, IngestOutcome,
     NodeStats, PeriodResult, RejectAt,
 };
-pub use store::{EventStore, MemoryStore, StoreError, StoredEvent};
 #[cfg(feature = "sqlite")]
 pub use store::SqliteStore;
+pub use store::{EventStore, MemoryStore, StoreError, StoredEvent};

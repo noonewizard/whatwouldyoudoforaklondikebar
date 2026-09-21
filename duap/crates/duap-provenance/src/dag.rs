@@ -156,7 +156,12 @@ pub struct ProvNode {
 }
 
 impl ProvNode {
-    pub fn source(id: ContentId, controller: OrgId, subject: SubjectRef, at: Timestamp) -> ProvNode {
+    pub fn source(
+        id: ContentId,
+        controller: OrgId,
+        subject: SubjectRef,
+        at: Timestamp,
+    ) -> ProvNode {
         ProvNode {
             id,
             kind: NodeKind::Source,
@@ -351,7 +356,9 @@ impl ProvenanceGraph {
             .ok_or_else(|| GraphError::Unknown(key.clone()))?;
         let mut d = 0u8;
         for e in &n.inputs {
-            let di = self.depth_inner(&e.from, memo, guard + 1)?.saturating_add(1);
+            let di = self
+                .depth_inner(&e.from, memo, guard + 1)?
+                .saturating_add(1);
             d = d.max(di);
         }
         memo.insert(key, d);
@@ -439,7 +446,8 @@ impl ProvenanceGraph {
         }
         // Terminal by differential privacy budget.
         if n.kind == NodeKind::DpRelease {
-            if let (Some(limit), Some(eps)) = (policy.dp_terminates_at_or_below_micro, n.epsilon_micro)
+            if let (Some(limit), Some(eps)) =
+                (policy.dp_terminates_at_or_below_micro, n.epsilon_micro)
             {
                 if eps <= limit {
                     *dropped = dropped.add(share)?;

@@ -61,7 +61,11 @@ pub struct SigStructure {
     /// Signer-asserted creation time, microseconds since the Unix epoch, UTC.
     pub t: u64,
     /// Optional anti-replay nonce.
-    #[serde(default, skip_serializing_if = "Option::is_none", with = "crate::bytes_serde::opt")]
+    #[serde(
+        default,
+        skip_serializing_if = "Option::is_none",
+        with = "crate::bytes_serde::opt"
+    )]
     pub n: Option<Vec<u8>>,
 }
 
@@ -97,7 +101,11 @@ pub struct Signature {
     pub suite: SuiteId,
     pub kid: KeyId,
     pub created: u64,
-    #[serde(default, skip_serializing_if = "Option::is_none", with = "crate::bytes_serde::opt")]
+    #[serde(
+        default,
+        skip_serializing_if = "Option::is_none",
+        with = "crate::bytes_serde::opt"
+    )]
     pub nonce: Option<Vec<u8>>,
     #[serde(with = "crate::bytes_serde")]
     pub sig: Vec<u8>,

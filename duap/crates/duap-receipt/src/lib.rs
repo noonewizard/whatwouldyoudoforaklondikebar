@@ -222,7 +222,10 @@ impl Receipt {
             return bad(format!("unsupported receipt schema {}", self.schema));
         }
         if self.protocol != duap_canon::PROTOCOL_ID {
-            return bad(format!("unexpected protocol identifier {:?}", self.protocol));
+            return bad(format!(
+                "unexpected protocol identifier {:?}",
+                self.protocol
+            ));
         }
         if self.coverage.event_count == 0 {
             return bad("a receipt must cover at least one event".into());
@@ -395,8 +398,7 @@ impl Receipt {
             Claim {
                 statement: "The described operations actually took place".into(),
                 established: false,
-                basis: "NOT ESTABLISHED: no signature can attest to a fact about the world"
-                    .into(),
+                basis: "NOT ESTABLISHED: no signature can attest to a fact about the world".into(),
             },
             Claim {
                 statement: "No other operations on this data went unreported".into(),

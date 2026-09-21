@@ -31,7 +31,6 @@ use serde::{Deserialize, Serialize};
 use std::fmt;
 use std::str::FromStr;
 
-
 /// Serde helper encoding `i128` as a canonical decimal string.
 ///
 /// The DUAP canonical data model caps integers at the 64-bit CBOR range, but
@@ -84,15 +83,42 @@ pub struct Currency {
 }
 
 impl Currency {
-    pub const USD: Currency = Currency { code: *b"USD", exponent: 2 };
-    pub const EUR: Currency = Currency { code: *b"EUR", exponent: 2 };
-    pub const GBP: Currency = Currency { code: *b"GBP", exponent: 2 };
-    pub const JPY: Currency = Currency { code: *b"JPY", exponent: 0 };
-    pub const CHF: Currency = Currency { code: *b"CHF", exponent: 2 };
-    pub const BRL: Currency = Currency { code: *b"BRL", exponent: 2 };
-    pub const INR: Currency = Currency { code: *b"INR", exponent: 2 };
-    pub const KRW: Currency = Currency { code: *b"KRW", exponent: 0 };
-    pub const BHD: Currency = Currency { code: *b"BHD", exponent: 3 };
+    pub const USD: Currency = Currency {
+        code: *b"USD",
+        exponent: 2,
+    };
+    pub const EUR: Currency = Currency {
+        code: *b"EUR",
+        exponent: 2,
+    };
+    pub const GBP: Currency = Currency {
+        code: *b"GBP",
+        exponent: 2,
+    };
+    pub const JPY: Currency = Currency {
+        code: *b"JPY",
+        exponent: 0,
+    };
+    pub const CHF: Currency = Currency {
+        code: *b"CHF",
+        exponent: 2,
+    };
+    pub const BRL: Currency = Currency {
+        code: *b"BRL",
+        exponent: 2,
+    };
+    pub const INR: Currency = Currency {
+        code: *b"INR",
+        exponent: 2,
+    };
+    pub const KRW: Currency = Currency {
+        code: *b"KRW",
+        exponent: 0,
+    };
+    pub const BHD: Currency = Currency {
+        code: *b"BHD",
+        exponent: 3,
+    };
 
     /// Look up a currency by ISO 4217 code.
     ///
@@ -225,7 +251,13 @@ impl fmt::Display for Money {
         let major = abs / scale as u128;
         let minor = abs % scale as u128;
         if self.currency.exponent == 0 {
-            write!(f, "{}{} {}", if neg { "-" } else { "" }, major, self.currency)
+            write!(
+                f,
+                "{}{} {}",
+                if neg { "-" } else { "" },
+                major,
+                self.currency
+            )
         } else {
             write!(
                 f,
@@ -444,10 +476,10 @@ struct RatioRepr {
 impl TryFrom<RatioRepr> for Ratio {
     type Error = ModelError;
     fn try_from(r: RatioRepr) -> Result<Ratio> {
-        let num: i128 = r
-            .n
-            .parse()
-            .map_err(|_| ModelError::Invalid { field: "ratio.n", reason: r.n.clone() })?;
+        let num: i128 = r.n.parse().map_err(|_| ModelError::Invalid {
+            field: "ratio.n",
+            reason: r.n.clone(),
+        })?;
         Ratio::new(num, r.d)
     }
 }

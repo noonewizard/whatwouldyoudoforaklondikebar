@@ -8,7 +8,9 @@
 //! produces are signed authorization documents.
 
 use crate::controller::SdkError;
-use duap_auth::{Grant, GrantBuilder, RetroactiveRequest, Revocation, RevocationPolicy, RevocationScope, Term};
+use duap_auth::{
+    Grant, GrantBuilder, RetroactiveRequest, Revocation, RevocationPolicy, RevocationScope, Term,
+};
 use duap_crypto::{Envelope, SecretKey};
 use duap_model::prelude::*;
 

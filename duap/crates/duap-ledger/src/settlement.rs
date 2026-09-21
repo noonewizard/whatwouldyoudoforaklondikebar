@@ -127,7 +127,10 @@ pub enum Rail {
     /// `docs/adr/0005-transparency-log-not-blockchain.md`, not required by
     /// anything in the protocol. Recorded here so a deployment that chooses
     /// it can do so without a format change.
-    DistributedLedger { network: String, address_ref: String },
+    DistributedLedger {
+        network: String,
+        address_ref: String,
+    },
 }
 
 impl Rail {

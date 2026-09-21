@@ -185,9 +185,10 @@ impl Aggregator {
             return Err(AggregateError::NonAdditive(ev.quantity.unit.code()));
         }
         let key = self.key_for(ev);
-        let log = self.evidence.entry(key.clone()).or_insert_with(|| {
-            duap_provenance_merkle::MerkleLog::new(HashAlg::Sha2_256)
-        });
+        let log = self
+            .evidence
+            .entry(key.clone())
+            .or_insert_with(|| duap_provenance_merkle::MerkleLog::new(HashAlg::Sha2_256));
         log.append(&digest.bytes);
         let root = log.root();
         let size = log.len();
@@ -218,11 +219,7 @@ impl Aggregator {
     /// and erasing it would hide the reversal. Instead the counter's quantity
     /// is reduced and the reversal is itself recorded as evidence, so the
     /// root advances. An auditor replaying the bucket sees both.
-    pub fn reverse(
-        &mut self,
-        ev: &DataUsageEvent,
-        digest: Digest,
-    ) -> Result<(), AggregateError> {
+    pub fn reverse(&mut self, ev: &DataUsageEvent, digest: Digest) -> Result<(), AggregateError> {
         let key = self.key_for(ev);
         if let Some(c) = self.counters.get_mut(&key) {
             c.quantity = c.quantity.saturating_sub(ev.quantity.amount);

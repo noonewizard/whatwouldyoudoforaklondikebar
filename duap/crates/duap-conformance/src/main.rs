@@ -24,7 +24,11 @@ fn main() {
             for (name, file) in vectors::all() {
                 total += file.vectors.len();
                 std::fs::write(dir.join(name), file.to_json()).expect("vector file is writable");
-                println!("wrote {} ({} vectors)", dir.join(name).display(), file.vectors.len());
+                println!(
+                    "wrote {} ({} vectors)",
+                    dir.join(name).display(),
+                    file.vectors.len()
+                );
             }
             println!("{total} vectors in {} files", vectors::all().len());
         }
@@ -49,7 +53,10 @@ fn main() {
                 files.push((name.to_owned(), f));
             }
             let s = vectors::self_check(&files);
-            println!("conformance self-check: {} passed, {} failed", s.passed, s.failed);
+            println!(
+                "conformance self-check: {} passed, {} failed",
+                s.passed, s.failed
+            );
             for f in &s.failures {
                 println!("  FAIL {}: {}", f.id, f.detail);
             }

@@ -37,8 +37,8 @@ use crate::ids::{AgentRef, ContentId, EventId, GrantId, OrgId, SubjectRef};
 use crate::jurisdiction::Jurisdiction;
 use crate::money::Money;
 use crate::taxonomy::{
-    CollectionMethod, DataClass, LawfulBasis, Operation, OperationFamily, Purpose,
-    SensitivityTier, Unit,
+    CollectionMethod, DataClass, LawfulBasis, Operation, OperationFamily, Purpose, SensitivityTier,
+    Unit,
 };
 use crate::time::Timestamp;
 use duap_canon::Value;

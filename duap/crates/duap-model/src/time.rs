@@ -121,10 +121,13 @@ impl FromStr for Timestamp {
     type Err = ModelError;
     fn from_str(s: &str) -> Result<Timestamp> {
         if let Some(rest) = s.strip_prefix('@') {
-            return rest.parse::<u64>().map(Timestamp).map_err(|_| ModelError::Invalid {
-                field: "timestamp",
-                reason: s.to_owned(),
-            });
+            return rest
+                .parse::<u64>()
+                .map(Timestamp)
+                .map_err(|_| ModelError::Invalid {
+                    field: "timestamp",
+                    reason: s.to_owned(),
+                });
         }
         Timestamp::parse_rfc3339(s)
     }

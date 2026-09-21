@@ -38,12 +38,8 @@
 use crate::store::{EventStore, MemoryStore, StoreError};
 use duap_auth::{AuthorizationStore, Decision, DecisionReason, Effect, EvalContext};
 use duap_canon::digest::{Digest, HashAlg};
-use duap_crypto::{
-    Envelope, KeyRegistry, KeyRole, SecretKey, SuitePolicy, VerificationContext,
-};
-use duap_ledger::{
-    Account, AccountId, AccountKind, InvoiceBuilder, Ledger, NoTax, TaxPolicy,
-};
+use duap_crypto::{Envelope, KeyRegistry, KeyRole, SecretKey, SuitePolicy, VerificationContext};
+use duap_ledger::{Account, AccountId, AccountKind, InvoiceBuilder, Ledger, NoTax, TaxPolicy};
 use duap_meter::{
     MeterOutcome, MeterPipeline, ResolutionPolicy, UsageCounter, UsageKey, WindowConfig, WindowSize,
 };
@@ -98,7 +94,9 @@ pub enum IngestOutcome {
         decision: Box<Decision>,
     },
     /// Already held. Idempotent: not an error.
-    Duplicate { event: Digest },
+    Duplicate {
+        event: Digest,
+    },
     Rejected(RejectAt),
 }
 
@@ -321,10 +319,13 @@ impl ClearingNode {
         // The signer must be acting for the controller or the named
         // processor. Without this, any enrolled organisation could report
         // usage in another's name.
-        let expected: Vec<String> = [Some(event.controller.to_string()), event.processor.as_ref().map(|p| p.to_string())]
-            .into_iter()
-            .flatten()
-            .collect();
+        let expected: Vec<String> = [
+            Some(event.controller.to_string()),
+            event.processor.as_ref().map(|p| p.to_string()),
+        ]
+        .into_iter()
+        .flatten()
+        .collect();
         let holder_ok = signers.iter().any(|kid| {
             self.registry
                 .get(kid)
@@ -625,7 +626,11 @@ impl ClearingNode {
                     } else {
                         decision.permitting_terms.clone()
                     },
-                    obligations: decision.obligations.iter().map(|o| o.label().to_owned()).collect(),
+                    obligations: decision
+                        .obligations
+                        .iter()
+                        .map(|o| o.label().to_owned())
+                        .collect(),
                     deferred: decision.deferred.clone(),
                 },
                 charge,
@@ -720,12 +725,11 @@ impl ClearingNode {
                 self.ledger
                     .open_account(Account::new(id, kind, self.config.currency, name));
             }
-            self.ledger
-                .ensure_account(
-                    AccountId::receivable(&payer),
-                    AccountKind::Asset,
-                    self.config.currency,
-                );
+            self.ledger.ensure_account(
+                AccountId::receivable(&payer),
+                AccountKind::Asset,
+                self.config.currency,
+            );
             let entry = inv.to_journal_entry(at)?;
             let id = entry.id.clone();
             self.ledger.post(entry)?;

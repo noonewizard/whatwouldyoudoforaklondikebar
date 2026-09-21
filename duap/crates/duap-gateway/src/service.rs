@@ -253,7 +253,9 @@ impl Gateway {
                 )
             }
             IngestOutcome::Duplicate { event } => {
-                self.metrics.events_duplicate.fetch_add(1, Ordering::Relaxed);
+                self.metrics
+                    .events_duplicate
+                    .fetch_add(1, Ordering::Relaxed);
                 // 200, not an error: retransmission must be safe.
                 Response::json(
                     200,
@@ -470,9 +472,9 @@ impl Gateway {
         }
         let kid = pk.key_id();
         let mut node = self.node.lock().expect("node mutex");
-        if let Err(e) = node
-            .registry
-            .enroll(KeyRecord::new(pk, body.holder.clone(), roles, 0, None))
+        if let Err(e) =
+            node.registry
+                .enroll(KeyRecord::new(pk, body.holder.clone(), roles, 0, None))
         {
             return bad(409, "enrolment_failed", &e.to_string());
         }
@@ -496,7 +498,10 @@ impl Gateway {
                 201,
                 serde_json::json!({ "sealed": true, "log_index": index, "batch_root": root.to_string() }),
             ),
-            Ok(None) => Response::json(200, serde_json::json!({ "sealed": false, "detail": "nothing pending" })),
+            Ok(None) => Response::json(
+                200,
+                serde_json::json!({ "sealed": false, "detail": "nothing pending" }),
+            ),
             Err(e) => bad(500, "seal_failed", &e.to_string()),
         }
     }

@@ -167,9 +167,9 @@ impl Obligation {
                     }
                 },
             },
-            Obligation::DeleteBy { .. } => S::Deferred(
-                "deletion deadline recorded; discharged by a lifecycle.delete event",
-            ),
+            Obligation::DeleteBy { .. } => {
+                S::Deferred("deletion deadline recorded; discharged by a lifecycle.delete event")
+            }
             Obligation::NoDerivative => {
                 if ev.operation.derives() {
                     S::Violated(format!(

@@ -125,8 +125,8 @@ pub struct SqliteStore {
 #[cfg(feature = "sqlite")]
 impl SqliteStore {
     pub fn open(path: &str) -> Result<Self, StoreError> {
-        let conn = rusqlite::Connection::open(path)
-            .map_err(|e| StoreError::Backend(e.to_string()))?;
+        let conn =
+            rusqlite::Connection::open(path).map_err(|e| StoreError::Backend(e.to_string()))?;
         Self::init(conn)
     }
 
@@ -186,7 +186,10 @@ impl EventStore for SqliteStore {
         let mut rows = stmt
             .query(rusqlite::params![digest.to_string()])
             .map_err(|e| StoreError::Backend(e.to_string()))?;
-        match rows.next().map_err(|e| StoreError::Backend(e.to_string()))? {
+        match rows
+            .next()
+            .map_err(|e| StoreError::Backend(e.to_string()))?
+        {
             None => Ok(None),
             Some(r) => {
                 let seq: i64 = r.get(0).map_err(|e| StoreError::Backend(e.to_string()))?;
@@ -215,14 +218,17 @@ impl EventStore for SqliteStore {
             ])
             .map_err(|e| StoreError::Backend(e.to_string()))?;
         let mut out = Vec::new();
-        while let Some(r) = rows.next().map_err(|e| StoreError::Backend(e.to_string()))? {
+        while let Some(r) = rows
+            .next()
+            .map_err(|e| StoreError::Backend(e.to_string()))?
+        {
             let seq: i64 = r.get(0).map_err(|e| StoreError::Backend(e.to_string()))?;
             let d: String = r.get(1).map_err(|e| StoreError::Backend(e.to_string()))?;
             let body: Vec<u8> = r.get(2).map_err(|e| StoreError::Backend(e.to_string()))?;
             out.push(StoredEvent {
-                digest: d.parse().map_err(|e: duap_canon::CanonError| {
-                    StoreError::Backend(e.to_string())
-                })?,
+                digest: d
+                    .parse()
+                    .map_err(|e: duap_canon::CanonError| StoreError::Backend(e.to_string()))?,
                 sequence: seq as u64,
                 event: DataUsageEvent::from_canonical(&body)?,
             });

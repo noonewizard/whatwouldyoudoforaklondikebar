@@ -127,7 +127,11 @@ opaque_id!(GrantId, "gr1", "Identifier of an authorization grant.");
 opaque_id!(BatchId, "bat1", "Identifier of an ingestion batch.");
 opaque_id!(InvoiceId, "inv1", "Identifier of an invoice.");
 opaque_id!(DisputeId, "dsp1", "Identifier of a dispute case.");
-opaque_id!(SettlementId, "stl1", "Identifier of a settlement instruction.");
+opaque_id!(
+    SettlementId,
+    "stl1",
+    "Identifier of a settlement instruction."
+);
 
 /// Identifier of an organisation.
 ///
@@ -147,11 +151,13 @@ impl OrgId {
         let body = s
             .strip_prefix("org:")
             .ok_or_else(|| ModelError::BadId(format!("expected org: prefix in {s:?}")))?;
-        let (authority, local) = body
-            .split_once('/')
-            .ok_or_else(|| ModelError::BadId(format!("expected org:<authority>/<local> in {s:?}")))?;
+        let (authority, local) = body.split_once('/').ok_or_else(|| {
+            ModelError::BadId(format!("expected org:<authority>/<local> in {s:?}"))
+        })?;
         if authority.is_empty() || local.is_empty() {
-            return Err(ModelError::BadId(format!("empty authority or local part in {s:?}")));
+            return Err(ModelError::BadId(format!(
+                "empty authority or local part in {s:?}"
+            )));
         }
         if !authority
             .bytes()

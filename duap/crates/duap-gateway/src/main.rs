@@ -8,7 +8,11 @@ use duap_model::prelude::*;
 use std::sync::Arc;
 
 #[derive(Parser)]
-#[command(name = "duap-gateway", version, about = "DUAP reference ingest gateway")]
+#[command(
+    name = "duap-gateway",
+    version,
+    about = "DUAP reference ingest gateway"
+)]
 struct Cli {
     /// Address to bind.
     #[arg(long, default_value = "127.0.0.1:8787")]
@@ -37,9 +41,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let key = match &cli.seed_hex {
         Some(h) => {
             let raw = hex::decode(h)?;
-            let seed: [u8; 32] = raw
-                .try_into()
-                .map_err(|_| "seed must be 32 bytes of hex")?;
+            let seed: [u8; 32] = raw.try_into().map_err(|_| "seed must be 32 bytes of hex")?;
             SecretKey::from_seed(suite, seed)
         }
         None => SecretKey::generate(suite)?,

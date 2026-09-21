@@ -147,7 +147,10 @@ impl PriceEngine {
             }
             PricingRule::PerUnit { unit, unit_price } => {
                 self.check_unit(*unit, key.unit)?;
-                (*unit_price, format!("per_unit {unit_price} per {}", unit.code()))
+                (
+                    *unit_price,
+                    format!("per_unit {unit_price} per {}", unit.code()),
+                )
             }
             PricingRule::UnitTable { prices } => {
                 match prices.iter().find(|(u, _)| *u == key.unit) {
@@ -192,7 +195,8 @@ impl PriceEngine {
                     }
                 }
                 let amount = total.mul_ratio(factor)?;
-                let (amount, floored) = self.apply_floor(amount, counter.quantity, inputs, factor)?;
+                let (amount, floored) =
+                    self.apply_floor(amount, counter.quantity, inputs, factor)?;
                 return Ok(PriceBreakdown {
                     base_unit_price: Precise::zero(self.currency),
                     quantity: counter.quantity,
@@ -203,30 +207,32 @@ impl PriceEngine {
                     floored,
                 });
             }
-            PricingRule::RevenueShare { share, floor } => {
-                match inputs.declared_revenue {
-                    Some(rev) => {
-                        let p = Precise::from_money(rev)?.mul_ratio(*share)?;
-                        let amount = p.mul_ratio(factor)?;
-                        let (amount, floored) =
-                            self.apply_floor(amount, counter.quantity, inputs, factor)?;
-                        return Ok(PriceBreakdown {
-                            base_unit_price: Precise::zero(self.currency),
-                            quantity: counter.quantity,
-                            multipliers: items,
-                            combined_factor: factor,
-                            amount,
-                            rule: format!("revenue_share {share} of {rev}"),
-                            floored,
-                        });
-                    }
-                    None => match floor {
-                        Some(f) => (*f, "revenue_share fallback to floor".to_owned()),
-                        None => return Err(PricingError::RevenueNotDeclared),
-                    },
+            PricingRule::RevenueShare { share, floor } => match inputs.declared_revenue {
+                Some(rev) => {
+                    let p = Precise::from_money(rev)?.mul_ratio(*share)?;
+                    let amount = p.mul_ratio(factor)?;
+                    let (amount, floored) =
+                        self.apply_floor(amount, counter.quantity, inputs, factor)?;
+                    return Ok(PriceBreakdown {
+                        base_unit_price: Precise::zero(self.currency),
+                        quantity: counter.quantity,
+                        multipliers: items,
+                        combined_factor: factor,
+                        amount,
+                        rule: format!("revenue_share {share} of {rev}"),
+                        floored,
+                    });
                 }
-            }
-            PricingRule::Auction { market, unit, reserve } => {
+                None => match floor {
+                    Some(f) => (*f, "revenue_share fallback to floor".to_owned()),
+                    None => return Err(PricingError::RevenueNotDeclared),
+                },
+            },
+            PricingRule::Auction {
+                market,
+                unit,
+                reserve,
+            } => {
                 self.check_unit(*unit, key.unit)?;
                 match inputs.settled_auction_price {
                     Some(p) => (p, format!("auction {market} settled")),

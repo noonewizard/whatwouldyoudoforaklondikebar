@@ -80,7 +80,12 @@ fn ctx() -> EvalContext {
 #[test]
 fn deny_by_default() {
     let g = builder().build().unwrap();
-    let ev = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let ev = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     let d = evaluate(&g, &[], &ev, &ctx());
     assert!(!d.permitted());
     assert_eq!(d.reason, DecisionReason::DefaultEffect);
@@ -92,7 +97,12 @@ fn permit_when_a_term_matches() {
         .term(Term::permit(1, Matcher::any()).with_pricing(PricingRule::Free))
         .build()
         .unwrap();
-    let ev = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let ev = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     let d = evaluate(&g, &[], &ev, &ctx());
     assert!(d.permitted());
     assert_eq!(d.permitting_terms, vec![1]);
@@ -119,7 +129,10 @@ fn deny_overrides_permit_in_both_orders() {
             Purpose::MarketingAdvertisingBehavioral,
         );
         let d = evaluate(&g, &[], &ev, &ctx());
-        assert!(!d.permitted(), "order ({a},{b}) let a commercial use through");
+        assert!(
+            !d.permitted(),
+            "order ({a},{b}) let a commercial use through"
+        );
         assert_eq!(d.reason, DecisionReason::DeniedByTerm { term: b });
     }
 }
@@ -164,11 +177,20 @@ fn namespace_selector_matches_whole_family() {
         ))
         .build()
         .unwrap();
-    for c in [DataClass::LocationCoarse, DataClass::LocationPrecise, DataClass::LocationTrajectory] {
+    for c in [
+        DataClass::LocationCoarse,
+        DataClass::LocationPrecise,
+        DataClass::LocationTrajectory,
+    ] {
         let ev = event_for(&g, c, Operation::AccessQuery, Purpose::ServiceCore);
         assert!(evaluate(&g, &[], &ev, &ctx()).permitted(), "{}", c.code());
     }
-    let ev = event_for(&g, DataClass::ContactEmail, Operation::AccessQuery, Purpose::ServiceCore);
+    let ev = event_for(
+        &g,
+        DataClass::ContactEmail,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     assert!(!evaluate(&g, &[], &ev, &ctx()).permitted());
 }
 
@@ -183,9 +205,19 @@ fn max_tier_selector_bounds_sensitivity() {
         ))
         .build()
         .unwrap();
-    let ok = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let ok = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     assert!(evaluate(&g, &[], &ok, &ctx()).permitted());
-    let no = event_for(&g, DataClass::BiometricTemplate, Operation::AccessQuery, Purpose::ServiceCore);
+    let no = event_for(
+        &g,
+        DataClass::BiometricTemplate,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     assert!(!evaluate(&g, &[], &no, &ctx()).permitted());
 }
 
@@ -195,8 +227,16 @@ fn max_tier_selector_bounds_sensitivity() {
 
 #[test]
 fn event_must_cite_the_exact_grant_document() {
-    let g = builder().term(Term::permit(1, Matcher::any())).build().unwrap();
-    let mut ev = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let g = builder()
+        .term(Term::permit(1, Matcher::any()))
+        .build()
+        .unwrap();
+    let mut ev = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     assert!(evaluate(&g, &[], &ev, &ctx()).permitted());
 
     // Tamper with the cited digest: the controller cannot claim to have
@@ -210,22 +250,45 @@ fn event_must_cite_the_exact_grant_document() {
 
 #[test]
 fn unverified_grants_never_permit() {
-    let g = builder().term(Term::permit(1, Matcher::any())).build().unwrap();
-    let ev = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let g = builder()
+        .term(Term::permit(1, Matcher::any()))
+        .build()
+        .unwrap();
+    let ev = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     let unverified = EvalContext::default();
     assert!(!evaluate(&g, &[], &ev, &unverified).permitted());
 }
 
 #[test]
 fn party_mismatch_denies() {
-    let g = builder().term(Term::permit(1, Matcher::any())).build().unwrap();
-    let mut ev = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let g = builder()
+        .term(Term::permit(1, Matcher::any()))
+        .build()
+        .unwrap();
+    let mut ev = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     ev.controller = "org:duap/other".parse().unwrap();
     let d = evaluate(&g, &[], &ev, &ctx());
     assert!(matches!(d.reason, DecisionReason::PartyMismatch { .. }));
 
-    let mut ev = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
-    ev.subject = SubjectScope::Subject { subject: SubjectRef([9u8; 16]) };
+    let mut ev = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
+    ev.subject = SubjectScope::Subject {
+        subject: SubjectRef([9u8; 16]),
+    };
     let d = evaluate(&g, &[], &ev, &ctx());
     assert!(matches!(d.reason, DecisionReason::PartyMismatch { .. }));
 }
@@ -237,7 +300,12 @@ fn outside_the_window_denies() {
         .not_before(Timestamp::from_secs(T0 + 1_000))
         .build()
         .unwrap();
-    let ev = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let ev = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     assert_eq!(
         evaluate(&g, &[], &ev, &ctx()).reason,
         DecisionReason::OutsideGrantWindow
@@ -251,10 +319,7 @@ fn outside_the_window_denies() {
 #[test]
 fn violated_obligation_denies() {
     let g = builder()
-        .term(
-            Term::permit(1, Matcher::any())
-                .with_obligations(vec![Obligation::NoAiTraining]),
-        )
+        .term(Term::permit(1, Matcher::any()).with_obligations(vec![Obligation::NoAiTraining]))
         .build()
         .unwrap();
     let ev = event_for(
@@ -306,12 +371,19 @@ fn obligations_union_across_matching_permits() {
 fn transfer_allowlist_enforced() {
     let allowed: OrgId = "org:duap/partner".parse().unwrap();
     let g = builder()
-        .term(Term::permit(1, Matcher::any()).with_obligations(vec![
-            Obligation::TransferOnlyTo { orgs: vec![allowed.clone()] },
-        ]))
+        .term(
+            Term::permit(1, Matcher::any()).with_obligations(vec![Obligation::TransferOnlyTo {
+                orgs: vec![allowed.clone()],
+            }]),
+        )
         .build()
         .unwrap();
-    let ev = event_for(&g, DataClass::TransactionPurchase, Operation::TransferSale, Purpose::CommerceSale);
+    let ev = event_for(
+        &g,
+        DataClass::TransactionPurchase,
+        Operation::TransferSale,
+        Purpose::CommerceSale,
+    );
     assert!(evaluate(&g, &[], &ev, &ctx()).permitted());
 
     let mut bad = ev.clone();
@@ -325,13 +397,19 @@ fn transfer_allowlist_enforced() {
 #[test]
 fn retention_obligation_checks_declared_policy() {
     let g = builder()
-        .term(Term::permit(1, Matcher::any()).with_obligations(vec![
-            Obligation::MaxRetentionDays { days: 30 },
-        ]))
+        .term(
+            Term::permit(1, Matcher::any())
+                .with_obligations(vec![Obligation::MaxRetentionDays { days: 30 }]),
+        )
         .build()
         .unwrap();
 
-    let mut ev = event_for(&g, DataClass::LocationCoarse, Operation::StorePersist, Purpose::ServiceCore);
+    let mut ev = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::StorePersist,
+        Purpose::ServiceCore,
+    );
     // No retention declared at all: denied, because the obligation is not
     // satisfiable from the record.
     assert!(!evaluate(&g, &[], &ev, &ctx()).permitted());
@@ -362,15 +440,27 @@ fn retention_obligation_checks_declared_policy() {
 fn deferred_obligations_are_reported_not_enforced() {
     let g = builder()
         .term(Term::permit(1, Matcher::any()).with_obligations(vec![
-            Obligation::DeleteBy { at: Timestamp::from_secs(T0 + 86_400) },
+            Obligation::DeleteBy {
+                at: Timestamp::from_secs(T0 + 86_400),
+            },
             Obligation::NotifyOnUse,
         ]))
         .build()
         .unwrap();
-    let ev = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let ev = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     let d = evaluate(&g, &[], &ev, &ctx());
     assert!(d.permitted());
-    assert_eq!(d.deferred.len(), 2, "both promises must be surfaced: {:?}", d.deferred);
+    assert_eq!(
+        d.deferred.len(),
+        2,
+        "both promises must be surfaced: {:?}",
+        d.deferred
+    );
     assert!(d.deferred.iter().any(|s| s.starts_with("delete_by")));
 }
 
@@ -379,7 +469,9 @@ fn cohort_and_epsilon_obligations() {
     let g = builder()
         .term(Term::permit(1, Matcher::any()).with_obligations(vec![
             Obligation::MinCohort { k: 100 },
-            Obligation::MaxEpsilonMicro { epsilon_micro: 1_000_000 },
+            Obligation::MaxEpsilonMicro {
+                epsilon_micro: 1_000_000,
+            },
         ]))
         .build()
         .unwrap();
@@ -417,7 +509,10 @@ fn cohort_and_epsilon_obligations() {
     assert!(mk(1000, Some(500_000)).permitted());
     assert!(!mk(10, Some(500_000)).permitted(), "cohort too small");
     assert!(!mk(1000, Some(5_000_000)).permitted(), "epsilon too large");
-    assert!(!mk(1000, None).permitted(), "a DP release must report epsilon");
+    assert!(
+        !mk(1000, None).permitted(),
+        "a DP release must report epsilon"
+    );
 }
 
 // ---------------------------------------------------------------------------
@@ -440,12 +535,22 @@ fn revocation_suppresses_from_its_effective_time() {
     .unwrap();
 
     let before = {
-        let mut e = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+        let mut e = event_for(
+            &g,
+            DataClass::LocationCoarse,
+            Operation::AccessQuery,
+            Purpose::ServiceCore,
+        );
         e.occurred_at = Timestamp::from_secs(T0 + 10);
         e.recorded_at = e.occurred_at;
         e
     };
-    let after = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let after = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
 
     assert!(evaluate(&g, &[rev.clone()], &before, &ctx()).permitted());
     let d = evaluate(&g, &[rev], &after, &ctx());
@@ -467,9 +572,17 @@ fn notice_period_delays_effect() {
         RetroactiveRequest::DeleteSource,
     )
     .unwrap();
-    assert_eq!(rev.effective_from, Timestamp::from_secs(T0).saturating_add(24 * HOUR));
+    assert_eq!(
+        rev.effective_from,
+        Timestamp::from_secs(T0).saturating_add(24 * HOUR)
+    );
 
-    let during = event_for(&g, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let during = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     assert!(evaluate(&g, &[rev.clone()], &during, &ctx()).permitted());
 
     let mut later = during.clone();
@@ -481,12 +594,18 @@ fn notice_period_delays_effect() {
 #[test]
 fn scoped_revocation_only_hits_its_scope() {
     let g = builder()
-        .term(Term::permit(1, Matcher::any().purposes(PurposeSelector::Under {
-            roots: vec![Purpose::Marketing],
-        })))
-        .term(Term::permit(2, Matcher::any().purposes(PurposeSelector::Under {
-            roots: vec![Purpose::Service],
-        })))
+        .term(Term::permit(
+            1,
+            Matcher::any().purposes(PurposeSelector::Under {
+                roots: vec![Purpose::Marketing],
+            }),
+        ))
+        .term(Term::permit(
+            2,
+            Matcher::any().purposes(PurposeSelector::Under {
+                roots: vec![Purpose::Service],
+            }),
+        ))
         .build()
         .unwrap();
     let rev = Revocation {
@@ -494,7 +613,9 @@ fn scoped_revocation_only_hits_its_scope() {
         grant: g.id,
         epoch: g.epoch,
         grant_digest: g.digest().unwrap(),
-        scope: RevocationScope::Purposes { purposes: vec![Purpose::Marketing] },
+        scope: RevocationScope::Purposes {
+            purposes: vec![Purpose::Marketing],
+        },
         declared_at: Timestamp::from_secs(T0),
         effective_from: Timestamp::from_secs(T0),
         retroactive: RetroactiveRequest::None,
@@ -506,7 +627,12 @@ fn scoped_revocation_only_hits_its_scope() {
         Operation::CommercialAdvertise,
         Purpose::MarketingAdvertisingBehavioral,
     );
-    let service = event_for(&g, DataClass::BehaviorWebBrowsing, Operation::AccessQuery, Purpose::ServiceCore);
+    let service = event_for(
+        &g,
+        DataClass::BehaviorWebBrowsing,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     assert!(!evaluate(&g, &[rev.clone()], &marketing, &ctx()).permitted());
     assert!(evaluate(&g, &[rev], &service, &ctx()).permitted());
 }
@@ -514,7 +640,10 @@ fn scoped_revocation_only_hits_its_scope() {
 /// INV-A5: amending a grant must not resurrect a revoked permission.
 #[test]
 fn amendment_cannot_escape_a_revocation() {
-    let g1 = builder().term(Term::permit(1, Matcher::any())).build().unwrap();
+    let g1 = builder()
+        .term(Term::permit(1, Matcher::any()))
+        .build()
+        .unwrap();
     let rev = Revocation::for_grant(
         &g1,
         RevocationScope::All,
@@ -523,10 +652,18 @@ fn amendment_cannot_escape_a_revocation() {
     )
     .unwrap();
     let g2 = g1
-        .amend(vec![Term::permit(1, Matcher::any())], Timestamp::from_secs(T0 + 20))
+        .amend(
+            vec![Term::permit(1, Matcher::any())],
+            Timestamp::from_secs(T0 + 20),
+        )
         .unwrap();
 
-    let ev = event_for(&g2, DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let ev = event_for(
+        &g2,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     let d = evaluate(&g2, &[rev], &ev, &ctx());
     assert!(
         !d.permitted(),
@@ -536,8 +673,16 @@ fn amendment_cannot_escape_a_revocation() {
 
 #[test]
 fn grants_chain_by_digest() {
-    let g1 = builder().term(Term::permit(1, Matcher::any())).build().unwrap();
-    let g2 = g1.amend(vec![Term::permit(1, Matcher::any())], Timestamp::from_secs(T0 + 20)).unwrap();
+    let g1 = builder()
+        .term(Term::permit(1, Matcher::any()))
+        .build()
+        .unwrap();
+    let g2 = g1
+        .amend(
+            vec![Term::permit(1, Matcher::any())],
+            Timestamp::from_secs(T0 + 20),
+        )
+        .unwrap();
     assert_eq!(g2.epoch, 2);
     assert_eq!(g2.previous, Some(g1.digest().unwrap()));
 
@@ -548,7 +693,11 @@ fn grants_chain_by_digest() {
 
     // A forged epoch 2 that does not chain is refused.
     let mut forged = g2.clone();
-    forged.previous = Some(duap_canon::Digest::of(duap_canon::HashAlg::Sha2_256, "x", b"y"));
+    forged.previous = Some(duap_canon::Digest::of(
+        duap_canon::HashAlg::Sha2_256,
+        "x",
+        b"y",
+    ));
     let mut store2 = AuthorizationStore::new();
     store2.insert_grant(g1).unwrap();
     assert!(store2.insert_grant(forged).is_err());
@@ -596,13 +745,18 @@ fn grant_validation_rules() {
 fn grants_round_trip_canonically() {
     let g = builder()
         .term(
-            Term::permit(1, Matcher::any().classes(ClassSelector::MaxTier { tier: SensitivityTier::T2 }))
-                .with_obligations(vec![Obligation::MaxRetentionDays { days: 30 }])
-                .with_pricing(PricingRule::PerUnit {
-                    unit: Unit::Record,
-                    unit_price: Precise::new(Currency::EUR, 250_000),
-                })
-                .with_label("Location for service delivery"),
+            Term::permit(
+                1,
+                Matcher::any().classes(ClassSelector::MaxTier {
+                    tier: SensitivityTier::T2,
+                }),
+            )
+            .with_obligations(vec![Obligation::MaxRetentionDays { days: 30 }])
+            .with_pricing(PricingRule::PerUnit {
+                unit: Unit::Record,
+                unit_price: Precise::new(Currency::EUR, 250_000),
+            })
+            .with_label("Location for service delivery"),
         )
         .build()
         .unwrap();
@@ -631,7 +785,9 @@ fn most_specific_priced_term_wins_deterministically() {
             Term::permit(
                 2,
                 Matcher::any()
-                    .classes(ClassSelector::In { values: vec![DataClass::LocationPrecise] })
+                    .classes(ClassSelector::In {
+                        values: vec![DataClass::LocationPrecise],
+                    })
                     .purposes(PurposeSelector::Commercial { value: true }),
             )
             .with_pricing(dear.clone()),
@@ -647,7 +803,12 @@ fn most_specific_priced_term_wins_deterministically() {
     let d = evaluate(&g, &[], &ev, &ctx());
     assert_eq!(d.pricing, Some(dear));
 
-    let ev2 = event_for(&g, DataClass::ContactEmail, Operation::AccessRead, Purpose::ServiceCore);
+    let ev2 = event_for(
+        &g,
+        DataClass::ContactEmail,
+        Operation::AccessRead,
+        Purpose::ServiceCore,
+    );
     assert_eq!(evaluate(&g, &[], &ev2, &ctx()).pricing, Some(cheap));
 }
 
@@ -664,7 +825,9 @@ fn negotiation_happy_path() {
         id,
         requester: "org:duap/buyer".parse().unwrap(),
         subject: Some(subject()),
-        wants: Matcher::any().classes(ClassSelector::Namespace { namespaces: vec!["location".into()] }),
+        wants: Matcher::any().classes(ClassSelector::Namespace {
+            namespaces: vec!["location".into()],
+        }),
         disclosure: "Deliver weather alerts for your area.".into(),
         duration_hours: 24 * 30,
         proposed_pricing: Some(PricingRule::PerUnit {
@@ -698,7 +861,10 @@ fn negotiation_happy_path() {
     });
     assert_eq!(n.apply(&acc).unwrap(), NegotiationState::Accepted);
 
-    let mut g = builder().term(Term::permit(1, Matcher::any())).build().unwrap();
+    let mut g = builder()
+        .term(Term::permit(1, Matcher::any()))
+        .build()
+        .unwrap();
     g.extensions.insert(
         "negotiation.offer".into(),
         duap_canon::Value::text(mo.digest().unwrap().to_string()),
@@ -720,7 +886,10 @@ fn negotiation_rejects_out_of_order_replay_and_mismatch() {
         offer_digest: duap_canon::Digest::of(duap_canon::HashAlg::Sha2_256, "x", b"y"),
         sent_at: Timestamp::from_secs(T0),
     });
-    assert!(matches!(n.apply(&acc), Err(NegotiationError::OutOfOrder { .. })));
+    assert!(matches!(
+        n.apply(&acc),
+        Err(NegotiationError::OutOfOrder { .. })
+    ));
 
     let req = NegotiationMessage::Request(AccessRequest {
         id,
@@ -764,7 +933,10 @@ fn negotiation_rejects_out_of_order_replay_and_mismatch() {
         expires_at: Timestamp::from_secs(T0 + 2_000),
         counter: false,
     });
-    assert!(matches!(n.apply(&late), Err(NegotiationError::Expired { .. })));
+    assert!(matches!(
+        n.apply(&late),
+        Err(NegotiationError::Expired { .. })
+    ));
 }
 
 // ---------------------------------------------------------------------------

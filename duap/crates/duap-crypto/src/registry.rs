@@ -231,11 +231,13 @@ impl KeyRegistry {
 
     /// Mark a key rotated, recording the successor.
     pub fn rotate(&mut self, old: &KeyId, new: &KeyId, at: u64) -> Result<()> {
-        let old_key = self.keys.get(&old.to_string()).cloned().ok_or_else(|| {
-            CryptoError::UnknownKey {
-                kid: old.to_string(),
-            }
-        })?;
+        let old_key =
+            self.keys
+                .get(&old.to_string())
+                .cloned()
+                .ok_or_else(|| CryptoError::UnknownKey {
+                    kid: old.to_string(),
+                })?;
         if !self.keys.contains_key(&new.to_string()) {
             return Err(CryptoError::UnknownKey {
                 kid: new.to_string(),

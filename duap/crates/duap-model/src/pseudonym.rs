@@ -73,8 +73,7 @@ impl SubjectRoot {
 
     pub fn generate() -> Result<SubjectRoot> {
         let mut s = [0u8; 32];
-        getrandom::fill(&mut s)
-            .map_err(|e| crate::error::ModelError::Entropy(e.to_string()))?;
+        getrandom::fill(&mut s).map_err(|e| crate::error::ModelError::Entropy(e.to_string()))?;
         Ok(SubjectRoot { secret: s })
     }
 

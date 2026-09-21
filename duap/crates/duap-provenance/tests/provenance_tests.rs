@@ -1,7 +1,9 @@
 //! Tests for the transparency log and derivation graph.
 
 use duap_canon::HashAlg;
-use duap_crypto::{KeyRecord, KeyRegistry, KeyRole, SecretKey, SuiteId, SuitePolicy, VerificationContext};
+use duap_crypto::{
+    KeyRecord, KeyRegistry, KeyRole, SecretKey, SuiteId, SuitePolicy, VerificationContext,
+};
 use duap_model::prelude::*;
 use duap_provenance::*;
 use proptest::prelude::*;
@@ -21,7 +23,10 @@ fn build(n: usize) -> MerkleLog {
 #[test]
 fn empty_and_single_trees() {
     let l = MerkleLog::new(HashAlg::Sha2_256);
-    assert_eq!(l.root(), duap_provenance::merkle::empty_root(HashAlg::Sha2_256));
+    assert_eq!(
+        l.root(),
+        duap_provenance::merkle::empty_root(HashAlg::Sha2_256)
+    );
     let l = build(1);
     assert_eq!(l.root(), l.leaf(0).unwrap());
 }
@@ -87,7 +92,18 @@ fn historical_roots_are_recoverable() {
 
 #[test]
 fn consistency_proofs_verify() {
-    for (old, new) in [(1u64, 2u64), (1, 8), (3, 8), (4, 8), (6, 8), (7, 8), (2, 100), (50, 100), (99, 100), (100, 100)] {
+    for (old, new) in [
+        (1u64, 2u64),
+        (1, 8),
+        (3, 8),
+        (4, 8),
+        (6, 8),
+        (7, 8),
+        (2, 100),
+        (50, 100),
+        (99, 100),
+        (100, 100),
+    ] {
         let l = build(new as usize);
         let p = l.consistency_proof(old, new).expect("proof exists");
         let old_root = l.root_at(old).unwrap();
@@ -160,7 +176,10 @@ fn log_monitor_rejects_regression_and_forks() {
     ));
 
     // Advancing without a proof is refused.
-    let h21 = TreeHead { size: 21, ..h20.clone() };
+    let h21 = TreeHead {
+        size: 21,
+        ..h20.clone()
+    };
     assert!(matches!(
         mon.advance(h21, None),
         Err(LogError::Inconsistent { .. })
@@ -219,7 +238,12 @@ fn inclusion_witness_verifies_end_to_end() {
     let mut bad = witness.clone();
     bad.entry.sequenced_at = Timestamp::from_secs(1);
     assert!(matches!(
-        bad.verify(&env, &registry, &SuitePolicy::draft_default(), &VerificationContext::archival(at.0)),
+        bad.verify(
+            &env,
+            &registry,
+            &SuitePolicy::draft_default(),
+            &VerificationContext::archival(at.0)
+        ),
         Err(LogError::NotIncluded { .. })
     ));
 }
@@ -254,7 +278,12 @@ fn a_key_without_the_log_role_cannot_sign_heads() {
         head: log.head(at),
     };
     assert!(matches!(
-        w.verify(&env, &registry, &SuitePolicy::draft_default(), &VerificationContext::archival(at.0)),
+        w.verify(
+            &env,
+            &registry,
+            &SuitePolicy::draft_default(),
+            &VerificationContext::archival(at.0)
+        ),
         Err(LogError::BadSignature(_))
     ));
 }
@@ -337,7 +366,8 @@ fn attribution_sums_over_multiple_paths() {
     // One subject feeds two branches that recombine.
     let mut g = ProvenanceGraph::new();
     let s = SubjectRef([9u8; 16]);
-    g.insert(ProvNode::source(cid("src"), org(), s, t())).unwrap();
+    g.insert(ProvNode::source(cid("src"), org(), s, t()))
+        .unwrap();
     for b in ["a", "b"] {
         g.insert(ProvNode::derived(
             cid(b),
@@ -359,7 +389,9 @@ fn attribution_sums_over_multiple_paths() {
         Operation::ProcessMatch,
     ))
     .unwrap();
-    let (shares, _) = g.attribution(&cid("join"), &DerivationPolicy::default()).unwrap();
+    let (shares, _) = g
+        .attribution(&cid("join"), &DerivationPolicy::default())
+        .unwrap();
     assert_eq!(shares[&s], Ratio::ONE);
 }
 
@@ -373,7 +405,9 @@ fn severed_edges_stop_attribution_but_keep_lineage() {
     let severed_id = cid("model-severed");
     node.id = severed_id;
     g.insert(node).unwrap();
-    let (shares, dropped) = g.attribution(&severed_id, &DerivationPolicy::default()).unwrap();
+    let (shares, dropped) = g
+        .attribution(&severed_id, &DerivationPolicy::default())
+        .unwrap();
     assert!(shares.is_empty());
     assert_eq!(dropped, Ratio::ONE);
     // Lineage is still visible even though attribution does not flow.
@@ -385,7 +419,8 @@ fn severed_edges_stop_attribution_but_keep_lineage() {
 fn dp_release_terminates_attribution_when_policy_says_so() {
     let mut g = ProvenanceGraph::new();
     let s = SubjectRef([1u8; 16]);
-    g.insert(ProvNode::source(cid("src"), org(), s, t())).unwrap();
+    g.insert(ProvNode::source(cid("src"), org(), s, t()))
+        .unwrap();
     let mut dp = ProvNode::derived(
         cid("dp"),
         NodeKind::DpRelease,
@@ -398,7 +433,9 @@ fn dp_release_terminates_attribution_when_policy_says_so() {
     g.insert(dp).unwrap();
 
     // Default policy: DP does not terminate, so the subject is attributed.
-    let (shares, _) = g.attribution(&cid("dp"), &DerivationPolicy::default()).unwrap();
+    let (shares, _) = g
+        .attribution(&cid("dp"), &DerivationPolicy::default())
+        .unwrap();
     assert_eq!(shares[&s], Ratio::ONE);
 
     // Policy that terminates at epsilon <= 0.5.
@@ -415,17 +452,23 @@ fn dp_release_terminates_attribution_when_policy_says_so() {
 fn tiny_shares_are_dropped_and_accounted() {
     let mut g = ProvenanceGraph::new();
     let s = SubjectRef([1u8; 16]);
-    g.insert(ProvNode::source(cid("src"), org(), s, t())).unwrap();
+    g.insert(ProvNode::source(cid("src"), org(), s, t()))
+        .unwrap();
     g.insert(ProvNode::derived(
         cid("d"),
         NodeKind::Derived,
         org(),
         t(),
-        vec![Edge::uniform(cid("src"), Ratio::new(1, 1_000_000_000).unwrap())],
+        vec![Edge::uniform(
+            cid("src"),
+            Ratio::new(1, 1_000_000_000).unwrap(),
+        )],
         Operation::ProcessTransform,
     ))
     .unwrap();
-    let (shares, dropped) = g.attribution(&cid("d"), &DerivationPolicy::default()).unwrap();
+    let (shares, dropped) = g
+        .attribution(&cid("d"), &DerivationPolicy::default())
+        .unwrap();
     assert!(shares.is_empty(), "a nanoshare must not create a claim");
     assert_eq!(dropped, Ratio::new(1, 1_000_000_000).unwrap());
 }
@@ -433,8 +476,20 @@ fn tiny_shares_are_dropped_and_accounted() {
 #[test]
 fn weight_sum_is_checked_not_normalised() {
     let mut g = ProvenanceGraph::new();
-    g.insert(ProvNode::source(cid("a"), org(), SubjectRef([1u8; 16]), t())).unwrap();
-    g.insert(ProvNode::source(cid("b"), org(), SubjectRef([2u8; 16]), t())).unwrap();
+    g.insert(ProvNode::source(
+        cid("a"),
+        org(),
+        SubjectRef([1u8; 16]),
+        t(),
+    ))
+    .unwrap();
+    g.insert(ProvNode::source(
+        cid("b"),
+        org(),
+        SubjectRef([2u8; 16]),
+        t(),
+    ))
+    .unwrap();
     let half = Ratio::new(1, 2).unwrap();
     g.insert(ProvNode::derived(
         cid("ok"),
@@ -452,12 +507,18 @@ fn weight_sum_is_checked_not_normalised() {
         NodeKind::Derived,
         org(),
         t(),
-        vec![Edge::uniform(cid("a"), Ratio::ONE), Edge::uniform(cid("b"), Ratio::ONE)],
+        vec![
+            Edge::uniform(cid("a"), Ratio::ONE),
+            Edge::uniform(cid("b"), Ratio::ONE),
+        ],
         Operation::ProcessAggregate,
     ))
     .unwrap();
     assert!(
-        matches!(g.check_weights(&cid("inflated")), Err(GraphError::WeightsDoNotSum { .. })),
+        matches!(
+            g.check_weights(&cid("inflated")),
+            Err(GraphError::WeightsDoNotSum { .. })
+        ),
         "doubling the weights must be reported, not silently normalised"
     );
 }
@@ -476,7 +537,13 @@ fn depth_and_descendants() {
 #[test]
 fn depth_limit_is_enforced() {
     let mut g = ProvenanceGraph::new();
-    g.insert(ProvNode::source(cid("s"), org(), SubjectRef([1u8; 16]), t())).unwrap();
+    g.insert(ProvNode::source(
+        cid("s"),
+        org(),
+        SubjectRef([1u8; 16]),
+        t(),
+    ))
+    .unwrap();
     let mut prev = cid("s");
     for i in 0..20 {
         let id = cid(&format!("n{i}"));
@@ -491,7 +558,10 @@ fn depth_limit_is_enforced() {
         .unwrap();
         prev = id;
     }
-    let policy = DerivationPolicy { max_depth: 5, ..Default::default() };
+    let policy = DerivationPolicy {
+        max_depth: 5,
+        ..Default::default()
+    };
     assert!(matches!(
         g.attribution(&prev, &policy),
         Err(GraphError::DepthExceeded(5))

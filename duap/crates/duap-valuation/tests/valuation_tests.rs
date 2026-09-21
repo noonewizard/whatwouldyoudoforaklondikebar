@@ -47,7 +47,9 @@ fn per_unit_pricing_is_exact() {
         // 1_250_000 nmu = 0.00125 minor units = 0.0000125 EUR per query.
         unit_price: Precise::new(Currency::EUR, 1_250_000),
     };
-    let b = e.price(&k, &counter(1_000_000), &rule, &PricingInputs::default()).unwrap();
+    let b = e
+        .price(&k, &counter(1_000_000), &rule, &PricingInputs::default())
+        .unwrap();
     // 1e6 queries x 1.25e6 nmu = 1.25e12 nmu = 1250 minor units = 12.50 EUR.
     assert_eq!(b.amount.nmu, 1_250_000_000_000);
     let (money, residue) = b.amount.round_to_money(Rounding::HalfEven);
@@ -88,7 +90,10 @@ fn multipliers_are_itemised_and_explainable() {
     assert_eq!(f, b.combined_factor);
     assert_eq!(
         b.amount.nmu,
-        Precise::new(Currency::EUR, 1_000_000).mul_ratio(b.combined_factor).unwrap().nmu
+        Precise::new(Currency::EUR, 1_000_000)
+            .mul_ratio(b.combined_factor)
+            .unwrap()
+            .nmu
     );
 }
 
@@ -101,14 +106,19 @@ fn sensitivity_ordering_is_monotone_in_price() {
     };
     let mut last = 0i128;
     for class in [
-        DataClass::SensorEnvironmental,   // t0
-        DataClass::DeviceConfiguration,   // t1
-        DataClass::LocationCoarse,        // t2
-        DataClass::ContentUserGenerated,  // t3
-        DataClass::HealthClinical,        // t4
+        DataClass::SensorEnvironmental,  // t0
+        DataClass::DeviceConfiguration,  // t1
+        DataClass::LocationCoarse,       // t2
+        DataClass::ContentUserGenerated, // t3
+        DataClass::HealthClinical,       // t4
     ] {
         let b = e
-            .price(&key(class, Unit::Query), &counter(1), &rule, &PricingInputs::default())
+            .price(
+                &key(class, Unit::Query),
+                &counter(1),
+                &rule,
+                &PricingInputs::default(),
+            )
             .unwrap();
         assert!(
             b.amount.nmu > last,
@@ -127,19 +137,34 @@ fn tiered_pricing_is_marginal_not_cliff_edged() {
     let rule = PricingRule::Tiered {
         unit: Unit::Record,
         tiers: vec![
-            Tier { up_to: Some(1_000), unit_price: Precise::new(Currency::EUR, 1_000_000) },
-            Tier { up_to: Some(10_000), unit_price: Precise::new(Currency::EUR, 500_000) },
-            Tier { up_to: None, unit_price: Precise::new(Currency::EUR, 100_000) },
+            Tier {
+                up_to: Some(1_000),
+                unit_price: Precise::new(Currency::EUR, 1_000_000),
+            },
+            Tier {
+                up_to: Some(10_000),
+                unit_price: Precise::new(Currency::EUR, 500_000),
+            },
+            Tier {
+                up_to: None,
+                unit_price: Precise::new(Currency::EUR, 100_000),
+            },
         ],
     };
     // 1000 at 1e6 + 9000 at 5e5 + 5000 at 1e5 = 1e9 + 4.5e9 + 5e8 = 6e9
-    let b = e.price(&k, &counter(15_000), &rule, &PricingInputs::default()).unwrap();
+    let b = e
+        .price(&k, &counter(15_000), &rule, &PricingInputs::default())
+        .unwrap();
     assert_eq!(b.amount.nmu, 6_000_000_000);
 
     // Crossing a boundary by one unit must raise the total by exactly the
     // next tier's rate, not reprice the whole volume.
-    let a = e.price(&k, &counter(1_000), &rule, &PricingInputs::default()).unwrap();
-    let c = e.price(&k, &counter(1_001), &rule, &PricingInputs::default()).unwrap();
+    let a = e
+        .price(&k, &counter(1_000), &rule, &PricingInputs::default())
+        .unwrap();
+    let c = e
+        .price(&k, &counter(1_001), &rule, &PricingInputs::default())
+        .unwrap();
     assert_eq!(c.amount.nmu - a.amount.nmu, 500_000);
 }
 
@@ -221,7 +246,12 @@ fn free_is_distinct_from_unpriced() {
     let e = PriceEngine::new(Currency::EUR);
     let k = key(DataClass::HealthClinical, Unit::Query);
     let b = e
-        .price(&k, &counter(1000), &PricingRule::Free, &PricingInputs::default())
+        .price(
+            &k,
+            &counter(1000),
+            &PricingRule::Free,
+            &PricingInputs::default(),
+        )
         .unwrap();
     assert_eq!(b.amount.nmu, 0);
     assert_eq!(b.rule, "free");
@@ -271,17 +301,29 @@ fn schedule() -> PricingSchedule {
 fn schedule_resolves_most_specific_first() {
     let s = schedule();
     s.validate().unwrap();
-    let r = s.resolve(DataClass::LocationPrecise, Operation::AccessQuery, Purpose::ServiceCore);
+    let r = s.resolve(
+        DataClass::LocationPrecise,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     assert!(matches!(
         r,
         Some(PricingRule::PerUnit { unit_price, .. }) if unit_price.nmu == 900
     ));
-    let r = s.resolve(DataClass::LocationCoarse, Operation::AccessQuery, Purpose::ServiceCore);
+    let r = s.resolve(
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     assert!(matches!(
         r,
         Some(PricingRule::PerUnit { unit_price, .. }) if unit_price.nmu == 100
     ));
-    let r = s.resolve(DataClass::ContactEmail, Operation::AccessQuery, Purpose::ServiceCore);
+    let r = s.resolve(
+        DataClass::ContactEmail,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
     assert!(matches!(r, Some(PricingRule::Free)));
 }
 
@@ -484,7 +526,10 @@ fn unallocated_share_stays_with_the_payer() {
     shares.insert("b", Ratio::new(1, 4).unwrap());
     let (alloc, residual) = distribute(Money::new(Currency::EUR, 100), &shares).unwrap();
     assert_eq!(alloc.iter().map(|a| a.amount.minor).sum::<i128>(), 50);
-    assert_eq!(residual.minor, 50, "the unattributed half is not given away");
+    assert_eq!(
+        residual.minor, 50,
+        "the unattributed half is not given away"
+    );
 }
 
 #[test]
@@ -521,8 +566,12 @@ fn tiny_balances_accumulate_rather_than_vanish() {
     // 0.0004 EUR a month == 0.04 minor units == 4e7 nano-minor-units.
     const PER_MONTH: i128 = 40_000_000;
     for m in 0..30 {
-        acc.accrue(s, Precise::new(Currency::EUR, PER_MONTH), Timestamp::from_secs(T0 + m * 86_400))
-            .unwrap();
+        acc.accrue(
+            s,
+            Precise::new(Currency::EUR, PER_MONTH),
+            Timestamp::from_secs(T0 + m * 86_400),
+        )
+        .unwrap();
     }
     assert!(
         acc.release(Timestamp::from_secs(T0)).unwrap().is_empty(),
@@ -530,15 +579,26 @@ fn tiny_balances_accumulate_rather_than_vanish() {
     );
     let b = acc.balance(&s).unwrap();
     assert_eq!(b.accrued.nmu, 30 * PER_MONTH);
-    assert!(b.accrued.nmu > 0, "the balance is owed even though it is unpaid");
+    assert!(
+        b.accrued.nmu > 0,
+        "the balance is owed even though it is unpaid"
+    );
 
     // Keep accruing until the threshold is crossed: 125 months in total.
     for m in 0..100 {
-        acc.accrue(s, Precise::new(Currency::EUR, PER_MONTH), Timestamp::from_secs(T0 + m)).unwrap();
+        acc.accrue(
+            s,
+            Precise::new(Currency::EUR, PER_MONTH),
+            Timestamp::from_secs(T0 + m),
+        )
+        .unwrap();
     }
     let payouts = acc.release(Timestamp::from_secs(T0 + 10_000)).unwrap();
     assert_eq!(payouts.len(), 1);
-    assert_eq!(payouts[0].amount.minor, 5, "130 x 0.04 == 5.2 minor units, paid as 5");
+    assert_eq!(
+        payouts[0].amount.minor, 5,
+        "130 x 0.04 == 5.2 minor units, paid as 5"
+    );
     assert_eq!(
         acc.balance(&s).unwrap().accrued.nmu,
         200_000_000,
@@ -554,7 +614,12 @@ fn payout_accumulator_conserves_value() {
     for i in 0..100u32 {
         let amount = 1_234_567_891i128 * (i as i128 + 1);
         total += amount;
-        acc.accrue(i, Precise::new(Currency::EUR, amount), Timestamp::from_secs(T0)).unwrap();
+        acc.accrue(
+            i,
+            Precise::new(Currency::EUR, amount),
+            Timestamp::from_secs(T0),
+        )
+        .unwrap();
     }
     let payouts = acc.release(Timestamp::from_secs(T0 + 1)).unwrap();
     let paid: i128 = payouts.iter().map(|p| p.amount.minor).sum::<i128>() * NANO;
@@ -570,8 +635,14 @@ fn payout_accumulator_conserves_value() {
 fn dust_is_identifiable() {
     let mut acc: PayoutAccumulator<u32> =
         PayoutAccumulator::new(Currency::EUR, Money::new(Currency::EUR, 100));
-    acc.accrue(1, Precise::new(Currency::EUR, 5), Timestamp::from_secs(T0)).unwrap();
-    acc.accrue(2, Precise::new(Currency::EUR, 500 * NANO), Timestamp::from_secs(T0)).unwrap();
+    acc.accrue(1, Precise::new(Currency::EUR, 5), Timestamp::from_secs(T0))
+        .unwrap();
+    acc.accrue(
+        2,
+        Precise::new(Currency::EUR, 500 * NANO),
+        Timestamp::from_secs(T0),
+    )
+    .unwrap();
     let dust = acc.dust(Timestamp::from_secs(T0 + 1)).unwrap();
     assert_eq!(dust.len(), 1);
     assert_eq!(dust[0].0, 1);

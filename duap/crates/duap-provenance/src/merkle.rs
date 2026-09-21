@@ -79,7 +79,11 @@ pub fn root_of(alg: HashAlg, leaves: &[Digest]) -> Digest {
         1 => leaves[0],
         n => {
             let k = split_point(n);
-            node_hash(alg, &root_of(alg, &leaves[..k]), &root_of(alg, &leaves[k..]))
+            node_hash(
+                alg,
+                &root_of(alg, &leaves[..k]),
+                &root_of(alg, &leaves[k..]),
+            )
         }
     }
 }

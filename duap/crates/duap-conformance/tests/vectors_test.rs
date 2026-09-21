@@ -72,6 +72,9 @@ fn every_level_is_covered() {
             .flat_map(|(_, f)| f.vectors.iter())
             .filter(|v| v.level == level)
             .count();
-        assert!(n > 0, "no vectors at {level:?}; a claimed level with no vectors is unverifiable");
+        assert!(
+            n > 0,
+            "no vectors at {level:?}; a claimed level with no vectors is unverifiable"
+        );
     }
 }

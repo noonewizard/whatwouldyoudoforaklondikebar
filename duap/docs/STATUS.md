@@ -54,7 +54,7 @@ Two readings that are applied consistently here:
 | `duap-canon` | REFERENCE | L1 vectors; property tests for encoder/decoder agreement; reproduced by the Go implementation | No coverage-guided fuzzing of the decoder. It parses adversary-supplied bytes, so this is the highest-value missing test in the repository. |
 | `duap-crypto` | REFERENCE | L2 vectors; Ed25519, ML-DSA-44/65 and the hybrid suite tested against them | Not audited. A cryptographic subsystem cannot reach PRODUCTION without an independent audit however well it is tested, and none has been commissioned. |
 | `duap-model` | REFERENCE | Event and taxonomy vectors; round-trip and strict-decode tests | VS-5 open: nothing prevents a constant pseudonym salt. |
-| `duap-auth` | REFERENCE | L4 vectors; `Authorization.tla` exhaustive within bounds; mirror tests | VS-6 and VS-7 open. VS-6 must close before the wire format freezes. |
+| `duap-auth` | REFERENCE | L4 vectors; `Authorization.tla` and `Negotiation.tla` exhaustive within bounds; two sets of mirror tests | VS-6 open, and it must close before the wire format freezes. |
 | `duap-provenance` | REFERENCE | L3 Merkle vectors; RFC 6962 inclusion and consistency proofs; dataset-commitment tests | PERF-01 open: inclusion-proof generation is O(n), 14.99 ms in a 100,000-entry tree. Blocks PRODUCTION_CANDIDATE and must be fixed before network exposure. |
 | `duap-receipt` | REFERENCE | L3 receipt vectors; anchored-receipt verification from the public key alone | No independent review. |
 | `duap-valuation` | REFERENCE | L5 pricing vectors; apportionment and rounding tests | No independent review. The coefficients are parameters, not measurements, and no status raises that. |
@@ -76,7 +76,7 @@ Two readings that are applied consistently here:
 | `spec/vectors/` | REFERENCE | 93 vectors across 8 files, checked by `cargo test` and by the Go verifier | L4 and L5 have no second implementation. |
 | `specs/protocol-v0.1.md` | SPECIFIED | An independent L1–L3 implementation was built from it | Not frozen. VS-6 must close before it is. |
 | `specs/invariants.md` | SPECIFIED | 25 invariants, each mapped to an enforcement point and a test or model; `tools/check_invariant_tests.py` confirms all 59 cited tests and 7 cited model invariants exist | The checker verifies that a cited test exists, not that it tests the invariant. That judgement is a review responsibility and has not been independently exercised. |
-| `formal/` | REFERENCE | Two models, exhaustive within stated bounds (15,237 and 1,920 states); non-vacuity guard | No refinement proof. The models are not extracted from or verified against the Rust, and `formal/Negotiation.tla` is referenced by code but does not exist (VS-7). |
+| `formal/` | REFERENCE | Three models, exhaustive within stated bounds (15,237, 1,920 and 244 states); two non-vacuity guards | No refinement proof. The models are not extracted from or verified against the Rust; the mirror tests are agreement on specific cases. |
 | `ontology/` | REFERENCE | Generates the taxonomy for three languages from one source; regeneration checked | Regeneration is not yet checked in CI, because there is no CI. |
 | `research/ai-attribution/` | EXPERIMENTAL | Five findings with measured numbers, seeds and cost; the headline result is negative | It is an experiment and stays one. Its conclusion — that no estimator is a defensible basis for payment — is what keeps attribution off the protocol's critical path. |
 | `sdk/python` | CONCEPT | A generated taxonomy module and nothing else | No client, no signing, no tests. Must not be described as a Python SDK. |
@@ -108,3 +108,4 @@ Two readings that are applied consistently here:
 | Date | Change | Evidence |
 |---|---|---|
 | 2026-09-21 | Register created. Eleven crates lowered from PRODUCTION to REFERENCE or PROTOTYPE. | VS-8; `docs/reviews/vertical-slice-review.md` §2 and decision 8. No crate had been independently reviewed, none audited, and three held open findings that rule 10 forbids at PRODUCTION. |
+| 2026-09-21 | `duap-auth::negotiation` module marker lowered PRODUCTION → REFERENCE. Crate status unchanged. | VS-7 closed: `formal/Negotiation.tla` written and model-checked (244 states, exhaustive), eight mirror tests added. Nothing in the vertical slice negotiates, so the module is not exercised end to end. |

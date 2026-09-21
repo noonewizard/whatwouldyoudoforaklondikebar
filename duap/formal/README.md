@@ -2,13 +2,14 @@
 
 **Status:** REFERENCE · 2026-09-21
 
-Two TLA+ specifications, both model-checked exhaustively in CI by
+Three TLA+ specifications, all model-checked exhaustively in CI by
 `check.sh`.
 
 | Model | Checks | Invariants |
 |---|---|---|
 | `Authorization.tla` | the combining algorithm and revocation semantics | INV-A1, A2, A4, A5 |
 | `Accounting.tla` | double entry and the rounding boundary | INV-L1, L2, L3 |
+| `Negotiation.tla` | the authorization negotiation state machine | INV-N1 .. N6 |
 
 ## What is modelled, and what is not
 
@@ -42,18 +43,46 @@ netting; the account taxonomy beyond four accounts.
 **Bounds:** amounts in −3..3, three entries, accruals to 25. Exhaustive:
 1,920 distinct states.
 
+### Negotiation
+
+**Modelled:** the six states and every transition; the digest chain, so an
+offer names the request it answers and an acceptance names the offer it
+accepts; counter-offers superseding the live offer; replay rejection;
+expiry, with rejection exempt because a party may always refuse.
+
+**Not modelled:** signatures and envelopes — every message is assumed
+authenticated, so the model says nothing about forgery; the content of
+terms, prices and matchers, so it cannot say whether an offer is sensible,
+only whether the exchange is well-formed; transport, retransmission and
+message loss; concurrent negotiations.
+
+**Bounds:** two counter-offers, a three-tick clock. Exhaustive: 244
+distinct states, zero left on the queue.
+
+**Deadlock checking is off, deliberately.** A negotiation that has reached
+Granted or Closed with the clock exhausted has no enabled action, which TLC
+reports as deadlock. Here termination is the intended outcome and
+`TerminalIsAbsorbing` is the invariant that asserts it on purpose.
+
 ## Non-vacuity
 
-`NonVacuity.cfg` asserts `NoPermitIsEverReachable`, which the model
-**violates**. That violation is the point: it demonstrates that the
-authorization model can reach a Permit, so the four real invariants are not
-true merely because nothing happens. `check.sh` fails if this check ever
+Two configurations assert that a desirable outcome is unreachable, and both
+must **fail**:
+
+| Config | Asserts | Demonstrates when it fails |
+|---|---|---|
+| `NonVacuity.cfg` | no Permit is ever reachable | the authorization model can reach a Permit |
+| `Negotiation_NonVacuity.cfg` | no Grant is ever reachable | the negotiation model can reach a Grant |
+
+The violations are the point: without them the real invariants could be
+true merely because nothing happens. `check.sh` fails if either check ever
 *passes*.
 
 ## Mirroring
 
 Every model invariant has a Rust test of the same name, in
-`crates/duap-auth/tests/model_mirror.rs` and
+`crates/duap-auth/tests/model_mirror.rs`,
+`crates/duap-auth/tests/negotiation_model_mirror.rs` and
 `crates/duap-ledger/tests/model_mirror.rs`. The mirror tests exist so that a
 change to the implementation that breaks a modelled property fails the
 ordinary test suite, not only the model check that a contributor might not
@@ -76,6 +105,6 @@ invariants"*.
 ## Running
 
 ```
-./check.sh                 # fetches a pinned tla2tools.jar and runs all three
+./check.sh                 # fetches a pinned tla2tools.jar and runs all five
 TLA_JAR=/path/to.jar ./check.sh
 ```

@@ -22,7 +22,7 @@ unusual capability or produces a wrong but bounded result), **low**
 | PERF-01 | perf | duap-provenance | open | Inclusion-proof generation is O(n) |
 | VS-5 | low | duap-model | open | Pseudonym derivation accepts a salt with no control against a constant one |
 | VS-6 | low | duap-auth | open | Two representations of the same pricing concept |
-| VS-7 | low | duap-auth | open | `negotiation` is speculative machinery in a non-experimental crate |
+| VS-7 | low | duap-auth | fixed | `negotiation` referenced a formal model that did not exist |
 | VS-8 | medium | all crates | open | Crate maturity markers claim PRODUCTION without meeting the entry criteria |
 | VS-9 | medium | duap-conformance | fixed | The conformance vectors were not checked by `cargo test` |
 | RISK-01 | n/a | protocol | accepted | A dishonest clearing node can issue a receipt for usage it never evaluated |
@@ -187,19 +187,41 @@ is frozen. After freezing, it is permanent.
 **Owner:** `economics-engineer`, with `protocol-engineer` for the vectors.
 **Status:** open, must close before the L5 vectors are declared stable.
 
-## VS-7 — Speculative machinery in a normative-looking crate (open)
+## VS-7 — Speculative machinery in a normative-looking crate (fixed)
 
 **Found by:** the vertical-slice review of 2026-09-21.
-**Severity:** low. `crates/duap-auth/src/negotiation.rs` references
-`formal/Negotiation.tla`, which does not exist, and no slice step negotiates
-anything. Sitting in the authorization crate's public surface, it implies a
-protocol interaction that has not been specified.
+**Severity:** low. `crates/duap-auth/src/negotiation.rs` referenced
+`formal/Negotiation.tla`, which did not exist, and no slice step negotiates
+anything. Sitting in the authorization crate's public surface at a
+`PRODUCTION` marker, it implied a protocol interaction that had not been
+specified.
 
-**Proposed fix:** either write the model and exercise it in the slice, or
-mark the module `EXPERIMENTAL` and remove it from the crate's public
-surface.
+**Fix:** the review offered two routes -- write the model, or demote the
+module. Both were taken, because they answer different halves of the
+finding.
 
-**Owner:** `protocol-engineer`. **Status:** open.
+`formal/Negotiation.tla` now models the six states and every transition,
+the digest chain binding an offer to its request and an acceptance to its
+offer, counter-offers superseding the live offer, replay rejection, and
+expiry with the rejection exemption. Six invariants hold exhaustively over
+244 distinct states with none left on the queue, and
+`Negotiation_NonVacuity.cfg` asserts a grant is unreachable and must fail,
+which it does. `check.sh` runs both and gates on the expected outcome of
+each.
+
+`crates/duap-auth/tests/negotiation_model_mirror.rs` mirrors the six
+invariants by name, plus two behaviours the model abstracts: that a
+counter-offer supersedes the previous one so the superseded offer can no
+longer be accepted, and that expiry binds every message except rejection.
+Eight tests.
+
+The marker moved from `PRODUCTION` to `REFERENCE`, with the reason stated
+in the module header: nothing in the vertical slice negotiates, so the
+module is exercised by its own tests and not end to end.
+
+**What is still not established:** that the Rust implements the model. The
+mirror tests are agreement on specific cases, not a refinement proof, and
+`formal/README.md` says so for every model in the repository.
 
 ## VS-8 — Maturity markers claim more than the evidence supports (open)
 

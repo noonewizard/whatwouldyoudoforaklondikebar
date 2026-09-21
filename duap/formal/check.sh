@@ -3,10 +3,11 @@
 #
 # STATUS: PRODUCTION (CI gate).
 #
-# Two of the three checks must pass. The third -- NonVacuity -- must FAIL:
-# it asserts that no Permit is ever reachable, and a counterexample is the
-# evidence that the real invariants are not holding vacuously. A model whose
-# invariants are true because nothing interesting happens reassures nobody.
+# Three of the five checks must pass. Two -- the NonVacuity configurations
+# -- must FAIL: each asserts that a desirable outcome is unreachable, and the
+# counterexample is the evidence that the real invariants are not holding
+# vacuously. A model whose invariants are true because nothing interesting
+# happens reassures nobody.
 set -uo pipefail
 cd "$(dirname "$0")"
 
@@ -59,7 +60,9 @@ run() { # name, config, expect_pass(0|1)
 
 run Authorization Authorization.cfg 0
 run Authorization NonVacuity.cfg 1
-run Accounting Accounting.cfg 0
+run Accounting   Accounting.cfg 0
+run Negotiation  Negotiation.cfg 0
+run Negotiation  Negotiation_NonVacuity.cfg 1
 
 rm -rf states
 exit $fail

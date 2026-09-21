@@ -1,7 +1,11 @@
 //! Machine-to-machine authorization negotiation.
 //!
-//! STATUS: PRODUCTION (state machine and message types); transport bindings
-//! live in `duap-sdk` and the gateway.
+//! STATUS: REFERENCE. The state machine and message types are implemented,
+//! model-checked in `formal/Negotiation.tla` and mirrored by
+//! `tests/negotiation_model_mirror.rs`. Transport bindings live in
+//! `duap-sdk` and the gateway. No step of the vertical slice negotiates
+//! anything, so this module is exercised by its own tests and not
+//! end to end -- which is why it is REFERENCE and not higher.
 //!
 //! Two parties that have never spoken need to agree on an authorization
 //! without a human in the loop. The exchange is deliberately small:
@@ -21,7 +25,10 @@
 //! extensions, so the negotiation that produced an authorization is auditable.
 //!
 //! The state machine below rejects out-of-order and replayed messages. It is
-//! the same structure as `formal/Negotiation.tla`.
+//! the same structure as `formal/Negotiation.tla`, whose six invariants are
+//! checked exhaustively within bounds and mirrored as Rust tests of the same
+//! names. The model does not cover signatures, message content, transport or
+//! concurrent negotiations; `formal/README.md` states the bounds.
 
 use crate::grant::{Grant, Term};
 use crate::matcher::Matcher;

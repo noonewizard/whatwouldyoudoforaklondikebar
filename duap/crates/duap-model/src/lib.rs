@@ -16,7 +16,7 @@
 //! use duap_model::prelude::*;
 //! # fn main() -> std::result::Result<(), Box<dyn std::error::Error>> {
 //! let controller: OrgId = "org:duap/acme".parse()?;
-//! let root = SubjectRoot::from_secret([7u8; 32]);
+//! let root = SubjectRoot::generate()?;
 //!
 //! let ev = EventBuilder::new(
 //!     EventId::random()?,
@@ -71,7 +71,9 @@ pub mod prelude {
     pub use crate::jurisdiction::Jurisdiction;
     pub use crate::money::{Currency, Money, NANO, Precise, Ratio, Rounding};
     pub use crate::pricing::{PricingRule, Tier};
-    pub use crate::pseudonym::SubjectRoot;
+    #[cfg(feature = "insecure-fixed-secret")]
+    pub use crate::pseudonym::InsecureFixedSecret;
+    pub use crate::pseudonym::{OsEntropy, RootSecretSource, SubjectRoot};
     pub use crate::taxonomy::{
         CollectionMethod, DataClass, LawfulBasis, ONTOLOGY_SHA256, ONTOLOGY_VERSION, Operation,
         OperationFamily, Purpose, Regime, SensitivityTier, Unit,

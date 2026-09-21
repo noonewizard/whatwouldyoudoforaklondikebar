@@ -8,6 +8,14 @@ license.workspace = true
 repository.workspace = true
 authors.workspace = true
 
+[features]
+# Enables `InsecureFixedSecret`, a fixed subject root secret for
+# deterministic tests, examples and the demonstration. A crate that does not
+# opt in cannot construct one, so a constant root secret cannot reach a
+# production dependency graph without appearing in a Cargo.toml diff.
+# See VS-5 in security/findings.md.
+insecure-fixed-secret = []
+
 [dependencies]
 duap-canon = { path = "../duap-canon", version = "0.1.0" }
 duap-crypto = { path = "../duap-crypto", version = "0.1.0" }
@@ -19,5 +27,9 @@ time.workspace = true
 getrandom.workspace = true
 
 [dev-dependencies]
+# Self dev-dependency so this crate's own tests can construct an
+# `InsecureFixedSecret`. Without it `cargo test -p duap-model` would depend
+# on another workspace member happening to turn the feature on.
+duap-model = { path = ".", features = ["insecure-fixed-secret"] }
 duap-crypto = { path = "../duap-crypto", version = "0.1.0" }
 proptest.workspace = true

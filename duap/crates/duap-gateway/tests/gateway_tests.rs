@@ -106,7 +106,9 @@ impl Fixtures {
     fn new() -> Fixtures {
         let acme: OrgId = "org:duap/acme".parse().expect("valid");
         let clearing: OrgId = "org:duap/clearing-test".parse().expect("valid");
-        let root = SubjectRoot::from_secret([0x31; 32]);
+        let root =
+            SubjectRoot::from_source(&InsecureFixedSecret::for_tests_and_examples([0x31; 32]))
+                .expect("a fixed secret always yields a root");
         let pseudonym = root.pseudonym_for(&acme);
         let skey = root.key_for(&acme, SuiteId::Ed25519);
         Fixtures {

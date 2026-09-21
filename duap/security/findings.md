@@ -20,7 +20,7 @@ unusual capability or produces a wrong but bounded result), **low**
 | VS-3 | medium | duap-auth | fixed | Pricing selection ignored the metered unit |
 | VS-4 | medium | duap-canon | fixed | JSON view required arbitrary-precision parsing for one value |
 | PERF-01 | perf | duap-provenance | fixed | Inclusion-proof generation was O(n) |
-| VS-5 | low | duap-model | open | Pseudonym derivation accepts a salt with no control against a constant one |
+| VS-5 | low | duap-model | fixed | Pseudonym derivation accepted a constant root secret with no control |
 | VS-6 | low | duap-model | fixed | Two wire representations of the same pricing concept |
 | VS-7 | low | duap-auth | fixed | `negotiation` referenced a formal model that did not exist |
 | VS-8 | medium | all crates | open | Crate maturity markers claim PRODUCTION without meeting the entry criteria |
@@ -176,28 +176,54 @@ of the design.
 **Accepted by:** `chief-architect`, recorded in
 `docs/research/0003-uninstrumented-participants.md`.
 
-## VS-5 — Nothing prevents a constant pseudonym salt (open)
+## VS-5 — Nothing prevented a constant subject root secret (fixed)
 
 **Found by:** the vertical-slice review of 2026-09-21.
-**Severity:** low as it stands, high if the pattern escapes. The
-demonstration uses `DEMO_SALT: [u8; 32] = [0xA5; 32]` so its transcript is
-deterministic, which is correct there. A constant salt anywhere else makes
-per-controller pseudonyms identical across controllers, which destroys the
-only unlinkability property the protocol offers: two controllers could join
-their records on the pseudonym alone.
+**Severity:** low as it stood, high if the pattern escaped. Every privacy
+property in `duap-model::pseudonym` rests on the root secret being unique
+per subject. Two subjects sharing a root derive identical pseudonyms for
+the same controller, and two *controllers* can then join their records on
+the pseudonym alone -- destroying the only unlinkability the protocol
+offers.
 
-**Current control:** a comment saying real agents must use fresh salts. A
-comment is not a control.
+`SubjectRoot::from_secret([u8; 32])` accepted `[0u8; 32]` as readily as
+real entropy, and the demonstration passed `[0x11; 32]` because its
+transcript must be deterministic. The only guard was a comment saying real
+agents must use fresh secrets. A comment is not a control.
 
-**Reproduction:** `crates/duap-demo/src/lib.rs`, `DEMO_SALT`. Constructing
-`SubjectPseudonym` with the same salt under two different controller
-identities yields values that are equal whenever the subject root is equal.
+**Fix, in three layers, because one was not enough:**
 
-**Proposed fix:** require a `SaltSource` with no `Default`, no `const`
-constructor, and one explicitly named test-only implementation, so the
-compiler refuses the mistake rather than a reviewer catching it.
+1. `from_secret` is gone. The only constructor is
+   `SubjectRoot::from_source(&impl RootSecretSource)`, and the only source
+   available by default is `OsEntropy`.
+2. A fixed secret requires `InsecureFixedSecret`, gated behind
+   `duap-model`'s `insecure-fixed-secret` feature. There is no `Default`
+   and no `const` constructor; the only way to build one is
+   `InsecureFixedSecret::for_tests_and_examples(...)`, which names itself
+   at every call site and greps trivially.
+3. A crate that has not opted in **cannot name the type at all**. Verified
+   empirically: adding a use of it to `duap-sdk`, which does not opt in,
+   fails with `use of undeclared type InsecureFixedSecret`. That is a
+   compiler refusal, which is what the review asked for.
 
-**Owner:** `privacy-engineer`. **Status:** open, blocking any SDK release.
+`duap-gateway` uses it only in tests, so it opts in as a *dev*-dependency
+and the library itself still cannot construct one.
+
+**What stops the opt-in list growing quietly:**
+`tools/check_insecure_features.py` fails when a crate enables a gated
+feature as a normal dependency unless it is on an allowlist with a stated
+reason -- currently `duap-demo` and `duap-bench`, neither of which anyone
+deploys. The checker was negative-controlled: enabling the feature on
+`duap-sdk` makes it exit 1 and name the crate.
+
+**What is still true:** a fixed root secret in a deployment remains
+possible if someone enables the feature and ignores the name, the
+allowlist and the checker. The control raises the cost of the mistake from
+"write a literal" to "opt in, in a Cargo.toml, past a named check". It
+does not make it impossible, and no type system would.
+
+**Owner:** `privacy-engineer`. **Status:** fixed. No longer blocks an SDK
+release.
 
 ## VS-6 — Two wire representations of one pricing concept (fixed)
 

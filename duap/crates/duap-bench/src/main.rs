@@ -136,7 +136,8 @@ struct Scenario {
 fn build(n: usize) -> Scenario {
     let acme = org("org:duap/acme-example-corp");
     let clearing = org("org:duap/clearing-bench");
-    let root = SubjectRoot::from_secret([0x11; 32]);
+    let root = SubjectRoot::from_source(&InsecureFixedSecret::for_tests_and_examples([0x11; 32]))
+        .expect("a fixed secret always yields a root");
     let pseudonym = root.pseudonym_for(&acme);
     let subject_key = root.key_for(&acme, SuiteId::Ed25519);
     let acme_key = SecretKey::from_seed(SuiteId::Ed25519, [0x22; 32]);

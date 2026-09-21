@@ -84,7 +84,7 @@ What can be said about the shape, marked as design rather than measurement:
 | Agent signing key | The reporting system | Per deployment. Compromise invalidates later signatures, not earlier ones — unless the revocation reason is Compromise or PolicyViolation, in which case `KeyRegistry::check_usable` stops honouring earlier signatures too |
 | Clearing node signing key | The node | Rare, high-consequence. Every receipt depends on it |
 | Log signing key | The log operator | Rare. Rotation must be published in the log itself |
-| Pseudonym root secret | The subject's agent | Never leaves it. **VS-5 is open**: nothing in the type system prevents a constant salt, which would make pseudonyms linkable across controllers and destroy the only unlinkability property the protocol offers |
+| Pseudonym root secret | The subject's agent | Never leaves it. A constant root would make pseudonyms linkable across controllers and destroy the only unlinkability the protocol offers; since VS-5 closed, a crate that has not enabled `insecure-fixed-secret` cannot construct one at all |
 
 **No key-management implementation exists.** There is no HSM integration,
 no KMS integration, and no key-rotation procedure that has been executed.
@@ -99,7 +99,7 @@ dominates the storage decision more than the CPU one.
 | Setting | Requirement |
 |---|---|
 | `/v1/log/proof` rate limit | Must be in the shipped default configuration, not in prose, while PERF-01 is open |
-| Pseudonym salt | Must come from a source with no default and no const constructor (VS-5) |
+| Subject root secret | Must come from `OsEntropy`. A deployment whose dependency graph enables `insecure-fixed-secret` has made a mistake; `tools/check_insecure_features.py` is the check |
 | Dedup window | Must exceed the maximum expected reporting delay, or legitimate events are rejected as replays |
 | Retention | Must outlive the dispute window. `economics/results.md` models 12–84 months; the correct value is a legal question |
 | Log auditor endpoints | At least two independent ones, or the detection property is not operational |

@@ -29,4 +29,10 @@ hex.workspace = true
 clap.workspace = true
 
 [dev-dependencies]
+# Only the gateway's tests may construct a fixed subject root; the library
+# itself must not, so this is a dev-dependency rather than a feature on the
+# normal one.
+duap-model = { path = "../duap-model", version = "0.1.0", features = [
+    "insecure-fixed-secret",
+] }
 duap-sdk = { path = "../duap-sdk", version = "0.1.0" }

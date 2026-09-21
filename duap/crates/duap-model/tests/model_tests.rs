@@ -180,19 +180,22 @@ fn content_ids_are_stable_and_type_separated() {
 
 #[test]
 fn pseudonyms_differ_per_controller_and_are_stable() {
-    let root = SubjectRoot::from_secret([5u8; 32]);
+    let root = SubjectRoot::from_source(&InsecureFixedSecret::for_tests_and_examples([5u8; 32]))
+        .expect("a fixed secret always yields a root");
     let a: OrgId = "org:duap/acme".parse().unwrap();
     let b: OrgId = "org:duap/globex".parse().unwrap();
     assert_eq!(root.pseudonym_for(&a), root.pseudonym_for(&a));
     assert_ne!(root.pseudonym_for(&a), root.pseudonym_for(&b));
 
-    let other = SubjectRoot::from_secret([6u8; 32]);
+    let other = SubjectRoot::from_source(&InsecureFixedSecret::for_tests_and_examples([6u8; 32]))
+        .expect("a fixed secret always yields a root");
     assert_ne!(root.pseudonym_for(&a), other.pseudonym_for(&a));
 }
 
 #[test]
 fn subject_keys_are_separate_from_pseudonyms() {
-    let root = SubjectRoot::from_secret([5u8; 32]);
+    let root = SubjectRoot::from_source(&InsecureFixedSecret::for_tests_and_examples([5u8; 32]))
+        .expect("a fixed secret always yields a root");
     let a: OrgId = "org:duap/acme".parse().unwrap();
     let key = root.key_for(&a, duap_crypto::SuiteId::Ed25519);
     // The key id must not equal the pseudonym: leaking one must not leak the
@@ -640,7 +643,8 @@ proptest! {
 
     #[test]
     fn pseudonyms_are_collision_free_over_controllers(n in 0usize..64) {
-        let root = SubjectRoot::from_secret([11u8; 32]);
+        let root = SubjectRoot::from_source(&InsecureFixedSecret::for_tests_and_examples([11u8; 32]))
+        .expect("a fixed secret always yields a root");
         let orgs: Vec<OrgId> = (0..=n).map(|i| format!("org:duap/o{i}").parse().unwrap()).collect();
         let mut seen = std::collections::BTreeSet::new();
         for o in &orgs {

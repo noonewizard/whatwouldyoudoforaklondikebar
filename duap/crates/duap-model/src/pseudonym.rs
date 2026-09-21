@@ -60,6 +60,74 @@ pub const PSEUDONYM_DOMAIN: &str = "duap.pseudonym.v1";
 /// Domain label for per-controller subject key derivation.
 pub const SUBJECT_KEY_DOMAIN: &str = "duap.subject-key.v1";
 
+/// Where a subject's root secret comes from.
+///
+/// This trait exists to make one specific mistake hard to commit. Every
+/// privacy property in this module rests on the root secret being unique
+/// per subject: two subjects sharing a root derive identical pseudonyms
+/// for the same controller, and two *controllers* can then join their
+/// records on the pseudonym alone -- destroying the only unlinkability the
+/// protocol offers.
+///
+/// A constant root secret is the natural thing to write in a test, a
+/// demonstration or an example, and it is catastrophic anywhere else. The
+/// previous interface was `SubjectRoot::from_secret([u8; 32])`, which
+/// accepted `[0u8; 32]` as readily as real entropy and was guarded only by
+/// a comment. A comment is not a control (VS-5).
+///
+/// So: the only source available by default is [`OsEntropy`]. A fixed
+/// secret requires [`InsecureFixedSecret`], which lives behind the
+/// `insecure-fixed-secret` feature — a crate that has not opted in cannot
+/// construct one at all, and one that has opted in has said so in its
+/// `Cargo.toml` where a reviewer will see it.
+pub trait RootSecretSource {
+    /// Produce a 256-bit root secret.
+    fn root_secret(&self) -> Result<[u8; 32]>;
+}
+
+/// Operating-system entropy. The only source suitable for a real subject.
+///
+/// STATUS: REFERENCE.
+#[derive(Debug, Clone, Copy)]
+pub struct OsEntropy;
+
+impl RootSecretSource for OsEntropy {
+    fn root_secret(&self) -> Result<[u8; 32]> {
+        let mut s = [0u8; 32];
+        getrandom::fill(&mut s).map_err(|e| crate::error::ModelError::Entropy(e.to_string()))?;
+        Ok(s)
+    }
+}
+
+/// A fixed root secret, for deterministic tests, examples and the
+/// demonstration.
+///
+/// STATUS: REFERENCE, and never suitable for a real subject.
+///
+/// Available only with the `insecure-fixed-secret` feature. The name is
+/// deliberately alarming and deliberately greppable: a production
+/// dependency graph that contains it has made a mistake that shows up in a
+/// `Cargo.toml` diff rather than in a comment nobody reads.
+#[cfg(feature = "insecure-fixed-secret")]
+#[derive(Debug, Clone, Copy)]
+pub struct InsecureFixedSecret([u8; 32]);
+
+#[cfg(feature = "insecure-fixed-secret")]
+impl InsecureFixedSecret {
+    /// Construct a fixed secret. There is no `Default` and no `const`
+    /// constructor, so every use names itself at the call site.
+    pub fn for_tests_and_examples(secret: [u8; 32]) -> InsecureFixedSecret {
+        InsecureFixedSecret(secret)
+    }
+}
+
+#[cfg(feature = "insecure-fixed-secret")]
+impl RootSecretSource for InsecureFixedSecret {
+    fn root_secret(&self) -> Result<[u8; 32]> {
+        Ok(self.0)
+    }
+}
+
 /// A data subject's root secret. Never leaves the subject's own device or
 /// agent.
 pub struct SubjectRoot {
@@ -67,14 +135,19 @@ pub struct SubjectRoot {
 }
 
 impl SubjectRoot {
-    pub fn from_secret(secret: [u8; 32]) -> SubjectRoot {
-        SubjectRoot { secret }
+    /// Derive a root from a [`RootSecretSource`].
+    ///
+    /// This is the only constructor. See [`RootSecretSource`] for why it
+    /// does not accept a `[u8; 32]` directly.
+    pub fn from_source(source: &impl RootSecretSource) -> Result<SubjectRoot> {
+        Ok(SubjectRoot {
+            secret: source.root_secret()?,
+        })
     }
 
+    /// Generate a root from operating-system entropy.
     pub fn generate() -> Result<SubjectRoot> {
-        let mut s = [0u8; 32];
-        getrandom::fill(&mut s).map_err(|e| crate::error::ModelError::Entropy(e.to_string()))?;
-        Ok(SubjectRoot { secret: s })
+        SubjectRoot::from_source(&OsEntropy)
     }
 
     fn mix(&self, domain: &str, org: &OrgId) -> Digest {

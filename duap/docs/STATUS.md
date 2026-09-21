@@ -53,7 +53,7 @@ Two readings that are applied consistently here:
 |---|---|---|---|
 | `duap-canon` | REFERENCE | L1 vectors; property tests for encoder/decoder agreement; reproduced by the Go implementation | No coverage-guided fuzzing of the decoder. It parses adversary-supplied bytes, so this is the highest-value missing test in the repository. |
 | `duap-crypto` | REFERENCE | L2 vectors; Ed25519, ML-DSA-44/65 and the hybrid suite tested against them | Not audited. A cryptographic subsystem cannot reach PRODUCTION without an independent audit however well it is tested, and none has been commissioned. |
-| `duap-model` | REFERENCE | Event and taxonomy vectors; round-trip and strict-decode tests | VS-5 open: nothing prevents a constant pseudonym salt. |
+| `duap-model` | REFERENCE | Event and taxonomy vectors; round-trip and strict-decode tests; a constant root secret is refused by the compiler outside opted-in crates | No independent review. |
 | `duap-auth` | REFERENCE | L4 vectors; `Authorization.tla` and `Negotiation.tla` exhaustive within bounds; two sets of mirror tests | No independent review. |
 | `duap-provenance` | REFERENCE | L3 Merkle vectors; RFC 6962 inclusion and consistency proofs; dataset-commitment tests; cached and recursive constructions proven to agree for every tree size in 0..=130 | PERF-01 closed (14.99 ms → 3.3 µs). Reaching PRODUCTION_CANDIDATE now needs independent review, and the gateway still needs a default rate limit on the proof endpoint. |
 | `duap-receipt` | REFERENCE | L3 receipt vectors; anchored-receipt verification from the public key alone | No independent review. |
@@ -62,7 +62,7 @@ Two readings that are applied consistently here:
 | `duap-meter` | PROTOTYPE | Dedup, double-count and gap-detection tests; the incremental accumulator is proven byte-identical to the recursive construction | No vectors, by design — counters are inputs to pricing, not protocol objects. Reaching REFERENCE requires deciding whether the operation fingerprint is normative, which the vertical-slice review left open. |
 | `duap-ledger` | PROTOTYPE | Double-entry tests; `Accounting.tla` exhaustive within bounds; mirror tests | No vectors, by design — ledger internals are implementation-specific. What is normative (rounding mode, residue posting) is covered by the L5 set. |
 | `duap-clearing` | PROTOTYPE | Exercised end to end by `duap-demo` and pinned by the golden transcript | No tests of its own. Single process: horizontal scaling, multi-region operation and durable replication are UNIMPLEMENTED. |
-| `duap-sdk` | PROTOTYPE | Exercised end to end by `duap-demo` | No tests of its own. VS-5 is open against the pseudonym derivation it exposes and blocks any release. |
+| `duap-sdk` | PROTOTYPE | Exercised end to end by `duap-demo`; cannot construct a fixed subject root secret (VS-5 closed) | No tests of its own. |
 | `duap-gateway` | PROTOTYPE | Integration tests over the nine observable stages | Not a production HTTP stack (ADR-0011). PERF-01 is fixed, so the proof endpoint is no longer a denial-of-service lever, but it still needs a rate limit in the shipped default configuration rather than in prose. |
 | `duap-cli` | PROTOTYPE | Compiles and runs; used to produce the vectors and the demonstration | No tests of its own. |
 | `duap-bench` | PROTOTYPE | Produced `benchmarks/results/2026-09-21-ci-runner.md` | Single-threaded, in-memory, no network, no durable storage. A benchmark harness that cannot measure concurrency cannot support a scaling claim, and none is made. |

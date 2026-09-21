@@ -153,6 +153,12 @@ jobs:
       # Rule 01: a public module without a maturity marker is a defect.
       - name: Maturity markers present
         run: .claude/hooks/check-markers.sh --all
+      # VS-5: a crate that could construct a constant subject root secret
+      # could destroy the protocol's only unlinkability property. The
+      # feature gate is the control; this is what stops the opt-in list
+      # growing quietly.
+      - name: No production crate enables an insecure feature
+        run: python3 tools/check_insecure_features.py
 
   security:
     name: Dependency and advisory scanning

@@ -101,7 +101,8 @@ fn cast() -> Cast {
     let vendor: OrgId = "org:duap/vendor-analytics".parse().expect("valid org id");
     let buyer: OrgId = "org:duap/buyer-mediaco".parse().expect("valid org id");
     let clearing: OrgId = "org:duap/clearing-eu-1".parse().expect("valid org id");
-    let root = SubjectRoot::from_secret([0x11; 32]);
+    let root = SubjectRoot::from_source(&InsecureFixedSecret::for_tests_and_examples([0x11; 32]))
+        .expect("a fixed secret always yields a root");
     let pseudonym = root.pseudonym_for(&acme);
     let subject_key = root.key_for(&acme, SuiteId::Ed25519);
     Cast {

@@ -3,9 +3,9 @@
 //! The DUAP Rust SDK.
 //!
 //! STATUS: PROTOTYPE. Implemented and exercised end to end by
-//! `duap-demo`, but it has no tests of its own, and VS-5 (nothing
-//! prevents a constant pseudonym salt) is open against the derivation it
-//! exposes. That finding blocks any release of this crate.
+//! `duap-demo`, but it has no tests of its own. VS-5 is closed: this crate
+//! does not enable `duap-model`'s `insecure-fixed-secret` feature, so it
+//! cannot construct a fixed subject root secret even by mistake.
 //!
 //! # Design rule: expose primitives, not conveniences
 //!
@@ -32,7 +32,7 @@
 //! use duap_sdk::prelude::*;
 //! # fn main() -> std::result::Result<(), Box<dyn std::error::Error>> {
 //! let controller: OrgId = "org:duap/acme".parse()?;
-//! let root = SubjectRoot::from_secret([1u8; 32]);
+//! let root = SubjectRoot::generate()?;
 //! let subject_key = root.key_for(&controller, SuiteId::Ed25519);
 //!
 //! let mut agent = SubjectAgent::new(root, subject_key);

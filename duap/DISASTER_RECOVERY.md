@@ -72,10 +72,11 @@ and link them, destroying the property the pseudonyms exist to provide.
 Which risk to prefer is a deployment decision and it must be made
 explicitly rather than by omission.
 
-**VS-5 is open here too:** nothing currently prevents a constant salt,
-which would make pseudonyms linkable across controllers from the start.
-The fix is a `SaltSource` with no `Default` and no `const` constructor, so
-the compiler refuses the mistake.
+**The adjacent failure, now closed (VS-5):** a *constant* root secret
+would make pseudonyms linkable across controllers from the start, which is
+worse than losing one. `InsecureFixedSecret` is now feature-gated, so a
+crate that has not opted in cannot construct one and the compiler refuses
+the mistake.
 
 ## 5. Objectives
 

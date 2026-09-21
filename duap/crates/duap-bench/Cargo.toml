@@ -15,7 +15,9 @@ path = "src/main.rs"
 [dependencies]
 duap-canon = { path = "../duap-canon", version = "0.1.0" }
 duap-crypto = { path = "../duap-crypto", version = "0.1.0" }
-duap-model = { path = "../duap-model", version = "0.1.0" }
+duap-model = { path = "../duap-model", version = "0.1.0", features = [
+    "insecure-fixed-secret",
+] }
 duap-auth = { path = "../duap-auth", version = "0.1.0" }
 duap-provenance = { path = "../duap-provenance", version = "0.1.0" }
 duap-meter = { path = "../duap-meter", version = "0.1.0" }

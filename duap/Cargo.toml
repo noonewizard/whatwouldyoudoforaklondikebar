@@ -16,6 +16,7 @@ members = [
     "crates/duap-conformance",
     "crates/duap-cli",
     "crates/duap-gateway",
+    "crates/duap-bench",
 ]
 
 [workspace.package]

@@ -431,6 +431,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "duap-bench"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "duap-auth",
+ "duap-canon",
+ "duap-clearing",
+ "duap-crypto",
+ "duap-ledger",
+ "duap-meter",
+ "duap-model",
+ "duap-provenance",
+ "duap-receipt",
+ "duap-sdk",
+ "duap-valuation",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "duap-canon"
 version = "0.1.0"
 dependencies = [

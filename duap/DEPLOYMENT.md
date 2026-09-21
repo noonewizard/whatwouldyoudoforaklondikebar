@@ -98,7 +98,7 @@ dominates the storage decision more than the CPU one.
 
 | Setting | Requirement |
 |---|---|
-| `/v1/log/proof` rate limit | Must be in the shipped default configuration, not in prose, while PERF-01 is open |
+| `/v1/log/proof` rate limit | Present in the shipped default: 600 requests per 60-second window, separate from the ingest budget. The default keys on `X-Forwarded-For` where a proxy sets it and otherwise uses **one shared bucket**, so a single heavy client can exhaust everyone's. A deployment behind a proxy that can attribute requests should key it properly and raise the budget |
 | Subject root secret | Must come from `OsEntropy`. A deployment whose dependency graph enables `insecure-fixed-secret` has made a mistake; `tools/check_insecure_features.py` is the check |
 | Dedup window | Must exceed the maximum expected reporting delay, or legitimate events are rejected as replays |
 | Retention | Must outlive the dispute window. `economics/results.md` models 12–84 months; the correct value is a legal question |

@@ -412,3 +412,76 @@ fn unknown_routes_are_refused_cleanly() {
     assert_eq!(s, 404);
     assert_eq!(v["error"], "not_found");
 }
+
+/// The proof endpoints carry their own budget, and it is in the shipped
+/// default rather than in prose.
+///
+/// PERF-01 took audit-path generation from 14.99 ms to 3.3 us, which
+/// removed the denial-of-service lever. An unlimited endpoint is still
+/// unlimited, and this one is reachable without a signature, so there is
+/// no key to meter it against on the ingest path's budget. The
+/// vertical-slice review's decision 2 asked for this explicitly.
+#[test]
+fn the_proof_budget_is_finite_and_separate_by_default() {
+    let d = duap_gateway::RateLimit::default();
+    assert!(
+        d.max_proof_requests > 0,
+        "the shipped default must limit the proof endpoints, not leave them open"
+    );
+    assert!(
+        d.max_proof_requests < d.max_requests,
+        "the proof budget ({}) must be below the ingest budget ({}): proof \
+         generation is the most expensive thing an unauthenticated caller \
+         can ask for",
+        d.max_proof_requests,
+        d.max_requests
+    );
+}
+
+#[test]
+fn the_proof_endpoint_stops_serving_once_its_budget_is_spent() {
+    let fx = Fixtures::new();
+    let mut gw = Gateway::new(fx.build_node());
+    // A small budget so the test is fast; the default is asserted above.
+    gw.rate_limit = duap_gateway::RateLimit {
+        window_secs: 3600,
+        max_requests: 1_000,
+        max_proof_requests: 5,
+    };
+
+    let proof_req = || duap_gateway::Request {
+        method: "GET".into(),
+        path: "/v1/log/proof".into(),
+        query: [("index".to_owned(), "0".to_owned())].into_iter().collect(),
+        headers: Default::default(),
+        body: Vec::new(),
+    };
+
+    let mut limited_at = None;
+    for i in 1..=8 {
+        if gw.handle(&proof_req()).status == 429 {
+            limited_at = Some(i);
+            break;
+        }
+    }
+    assert_eq!(
+        limited_at,
+        Some(6),
+        "the proof endpoint should serve exactly its budget of 5 and then refuse"
+    );
+
+    // Exhausting the proof budget must not lock out anything else: the
+    // ingest path has its own, and a shared limiter that leaked between
+    // them would turn one cheap attacker into a full outage.
+    let stats = gw.handle(&duap_gateway::Request {
+        method: "GET".into(),
+        path: "/v1/stats".into(),
+        query: Default::default(),
+        headers: Default::default(),
+        body: Vec::new(),
+    });
+    assert_eq!(
+        stats.status, 200,
+        "exhausting the proof budget must not rate-limit unrelated endpoints"
+    );
+}

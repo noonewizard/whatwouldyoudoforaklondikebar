@@ -19,7 +19,7 @@ happened to its eight decisions since:
 | Decision | Status |
 |---|---|
 | 1. The slice passes the gate | Recorded |
-| 2. Fix PERF-01 before network exposure | **Done.** 14.99 ms → 3.3 µs; `benchmarks/results/2026-09-21-perf01-fix.md`. The default rate limit it also asked for is still outstanding |
+| 2. Fix PERF-01 before network exposure | **Done.** 14.99 ms → 3.3 µs (`benchmarks/results/2026-09-21-perf01-fix.md`), and the proof endpoints now carry a separate finite budget in the shipped default |
 | 3. Absorb `PricingRule::PerUnit` before the wire format freezes | **Done.** ADR-0016; vectors regenerated, golden transcript moved by two digest lines and no economic figure (VS-6) |
 | 4. Type-level control on the pseudonym salt | **Done.** `RootSecretSource`, a feature-gated `InsecureFixedSecret`, and a checker on the opt-in list (VS-5) |
 | 5. Demote or model `negotiation.rs` | **Done.** Both: `formal/Negotiation.tla` written and checked, marker lowered (VS-7) |

@@ -48,7 +48,17 @@ use std::sync::{Arc, Mutex};
 #[derive(Debug, Clone, Copy)]
 pub struct RateLimit {
     pub window_secs: u64,
+    /// Budget for ordinary requests, per caller per window.
     pub max_requests: u64,
+    /// Separate, much smaller budget for proof-generating endpoints.
+    ///
+    /// Proof generation is the most expensive thing an unauthenticated
+    /// caller can ask for, and it is asked for by a query string rather
+    /// than a signed envelope, so the ordinary per-key budget does not
+    /// apply to it. PERF-01 took audit-path generation from 14.99 ms to
+    /// 3.3 us, which removed the denial-of-service lever; an unlimited
+    /// endpoint is still unlimited, so it keeps its own budget.
+    pub max_proof_requests: u64,
 }
 
 impl Default for RateLimit {
@@ -56,6 +66,7 @@ impl Default for RateLimit {
         RateLimit {
             window_secs: 60,
             max_requests: 100_000,
+            max_proof_requests: 600,
         }
     }
 }
@@ -67,13 +78,17 @@ struct Limiter {
 
 impl Limiter {
     fn allow(&mut self, who: &str, now: Timestamp, cfg: RateLimit) -> bool {
-        let w = now.as_secs() / cfg.window_secs;
+        self.allow_within(who, now, cfg.window_secs, cfg.max_requests)
+    }
+
+    fn allow_within(&mut self, who: &str, now: Timestamp, window: u64, budget: u64) -> bool {
+        let w = now.as_secs() / window;
         let e = self.windows.entry(who.to_owned()).or_insert((w, 0));
         if e.0 != w {
             *e = (w, 0);
         }
         e.1 += 1;
-        e.1 <= cfg.max_requests
+        e.1 <= budget
     }
 }
 
@@ -111,8 +126,11 @@ impl Gateway {
             ("POST", "/v1/batches/seal") => self.seal_batch(),
             ("POST", "/v1/periods/close") => self.close_period(req),
             ("GET", "/v1/log/head") => self.log_head(),
-            ("GET", "/v1/log/proof") => self.log_proof(req),
-            ("GET", "/v1/log/consistency") => self.log_consistency(req),
+            // Proof endpoints share one budget, separate from the signed
+            // ingest path: they are reachable without a signature, so
+            // there is no key to meter them against.
+            ("GET", "/v1/log/proof") => self.limited_proof(req, |g, r| g.log_proof(r)),
+            ("GET", "/v1/log/consistency") => self.limited_proof(req, |g, r| g.log_consistency(r)),
             ("GET", "/v1/receipts") => self.list_receipts(),
             ("GET", "/v1/stats") => self.stats(),
             ("GET", "/v1/healthz") => Response::json(
@@ -570,6 +588,42 @@ impl Gateway {
                 "alg": head.alg.label(),
             }),
         )
+    }
+
+    /// Apply the proof budget, then run the handler.
+    ///
+    /// The caller is identified by `X-Forwarded-For` where a proxy sets it
+    /// and otherwise by a single shared bucket. A shared bucket is a crude
+    /// control -- one heavy client can exhaust everyone's budget -- and it
+    /// is the honest default for a reference gateway that has no identity
+    /// on this path. A deployment behind a proxy that can attribute
+    /// requests should raise the budget and key it properly; see
+    /// `DEPLOYMENT.md`.
+    fn limited_proof(
+        &self,
+        req: &Request,
+        handler: impl FnOnce(&Gateway, &Request) -> Response,
+    ) -> Response {
+        let who = req
+            .headers
+            .get("x-forwarded-for")
+            .map(|v| format!("proof:{v}"))
+            .unwrap_or_else(|| "proof:shared".to_owned());
+        let now = Timestamp::now();
+        let allowed = self.limiter.lock().expect("limiter mutex").allow_within(
+            &who,
+            now,
+            self.rate_limit.window_secs,
+            self.rate_limit.max_proof_requests,
+        );
+        if !allowed {
+            self.metrics.record_rejection("rate_limit_proof");
+            return Response::json(
+                429,
+                serde_json::json!({ "accepted": false, "error": "rate_limited" }),
+            );
+        }
+        handler(self, req)
     }
 
     fn log_proof(&self, req: &Request) -> Response {

@@ -3,8 +3,10 @@
 //! STATUS: PROTOTYPE. Suitable for conformance testing, integration work
 //! and local demonstration. Not a production HTTP stack (ADR-0011).
 //! PERF-01 is fixed, so `/v1/log/proof` is no longer a denial-of-service
-//! lever, but it still needs a rate limit in the shipped default
-//! configuration rather than in prose.
+//! lever, and the proof endpoints carry their own finite budget in the
+//! shipped default. That budget uses one shared bucket absent a proxy
+//! header, which is crude; `DEPLOYMENT.md` says what a real deployment
+//! should do instead.
 
 use clap::Parser;
 use duap_clearing::{ClearingConfig, ClearingNode};

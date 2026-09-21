@@ -2,7 +2,8 @@
 //!
 //! Pricing, auctions, and royalty distribution.
 //!
-//! STATUS: PRODUCTION (mechanism). The *coefficients* in
+//! STATUS: REFERENCE (mechanism). Tests cover the specified behaviour and
+//! L5 pricing vectors exist; no independent review. The *coefficients* in
 //! [`multiplier::MultiplierPolicy`] are parameters chosen to be ordinally
 //! defensible, not measurements of what data is worth. No claim is made that
 //! any number in this crate is the right price for anything.

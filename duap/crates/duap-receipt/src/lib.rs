@@ -3,7 +3,8 @@
 //! The Data Usage Receipt (DUR): the object the whole protocol exists to
 //! produce.
 //!
-//! STATUS: PRODUCTION (reference implementation).
+//! STATUS: REFERENCE. Tests cover the specified behaviour and L3 receipt
+//! vectors exist. Not PRODUCTION: no independent review.
 //!
 //! A receipt is a signed statement by a clearing node that, over a stated
 //! period, a stated controller performed a stated quantity of a stated

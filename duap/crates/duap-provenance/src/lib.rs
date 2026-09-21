@@ -2,7 +2,10 @@
 //!
 //! The DUAP transparency log and derivation graph.
 //!
-//! STATUS: PRODUCTION (reference implementation).
+//! STATUS: REFERENCE. Tests cover the specified behaviour and L3 Merkle
+//! vectors exist, reproduced by a second implementation. PERF-01 is open:
+//! inclusion-proof generation is O(n), which blocks PRODUCTION_CANDIDATE
+//! and makes the gateway's proof endpoint a denial-of-service lever.
 //!
 //! Two structures, two jobs:
 //!

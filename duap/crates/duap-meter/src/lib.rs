@@ -3,7 +3,9 @@
 //! Metering: turning a stream of signed events into countable, non-duplicated
 //! usage.
 //!
-//! STATUS: PRODUCTION (reference implementation).
+//! STATUS: PROTOTYPE. Implemented and tested; no conformance vectors,
+//! because the counters this crate produces are inputs to pricing rather
+//! than protocol objects.
 //!
 //! The pipeline is four independent checks, in this order, because each
 //! assumes the previous one has run:

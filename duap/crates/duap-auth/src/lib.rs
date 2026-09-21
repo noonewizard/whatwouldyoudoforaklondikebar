@@ -4,7 +4,9 @@
 //! obligations, deterministic evaluation, revocation, and machine-to-machine
 //! negotiation.
 //!
-//! STATUS: PRODUCTION (reference implementation).
+//! STATUS: REFERENCE. Tests cover the specified behaviour and L4
+//! conformance vectors exist. Not PRODUCTION: no independent review, and
+//! VS-6 and VS-7 are open in `security/findings.md`.
 //!
 //! ```
 //! use duap_auth::prelude::*;

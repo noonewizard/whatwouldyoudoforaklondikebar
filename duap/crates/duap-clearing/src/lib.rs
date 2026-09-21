@@ -5,7 +5,9 @@
 //! issues receipts, invoices the controller, posts the ledger, and accrues
 //! what is owed to data subjects.
 //!
-//! STATUS: PRODUCTION (reference implementation, single process). Horizontal
+//! STATUS: PROTOTYPE. Implemented and exercised end to end by
+//! `duap-demo`, but it has no tests of its own and no conformance
+//! vectors. Single process: horizontal
 //! scaling, multi-region operation and durable replication are
 //! UNIMPLEMENTED here and specified in `DEPLOYMENT.md` and `OPERATIONS.md`.
 //!

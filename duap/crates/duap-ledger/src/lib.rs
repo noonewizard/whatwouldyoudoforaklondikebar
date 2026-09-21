@@ -3,7 +3,12 @@
 //! Double-entry accounting, invoicing, disputes, netting and settlement
 //! instructions.
 //!
-//! STATUS: PRODUCTION for the ledger, invoicing, disputes and netting.
+//! STATUS: PROTOTYPE. The ledger, invoicing, disputes and netting are
+//! implemented, tested, and their invariants are model-checked in
+//! `formal/Accounting.tla`. There are no conformance vectors, because
+//! ledger internals are implementation-specific rather than normative;
+//! what is normative is the rounding mode and the residue-posting rule,
+//! whose vectors live in the L5 pricing set.
 //! Payment rails and tax are deliberately interfaces: DUAP records what was
 //! charged and what is owed, and hands execution to systems that exist for
 //! that purpose.

@@ -3,7 +3,10 @@
 //! Canonical data model, deterministic CBOR codec, JSON view, and content
 //! digests for the Data Usage Accounting Protocol (DUAP).
 //!
-//! STATUS: PRODUCTION (reference implementation).
+//! STATUS: REFERENCE. Tests cover the specified behaviour, L1 conformance
+//! vectors exist, and a second implementation reproduces them. Not
+//! PRODUCTION: no independent review, and no coverage-guided fuzzing has
+//! been run against the decoder, which parses adversary-supplied bytes.
 //!
 //! Everything in DUAP that is hashed, signed, logged, or compared for equality
 //! passes through this crate. The invariants it provides are:

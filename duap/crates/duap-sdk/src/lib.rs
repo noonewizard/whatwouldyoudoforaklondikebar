@@ -2,7 +2,10 @@
 //!
 //! The DUAP Rust SDK.
 //!
-//! STATUS: PRODUCTION (reference implementation).
+//! STATUS: PROTOTYPE. Implemented and exercised end to end by
+//! `duap-demo`, but it has no tests of its own, and VS-5 (nothing
+//! prevents a constant pseudonym salt) is open against the derivation it
+//! exposes. That finding blocks any release of this crate.
 //!
 //! # Design rule: expose primitives, not conveniences
 //!

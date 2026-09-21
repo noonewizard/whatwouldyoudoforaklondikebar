@@ -2,7 +2,9 @@
 //!
 //! Cross-implementation conformance vectors.
 //!
-//! STATUS: PRODUCTION.
+//! STATUS: REFERENCE. The 93 committed vectors are checked by
+//! `cargo test` and by a second implementation. Not PRODUCTION: no
+//! independent review, and the Go verifier is still run by hand.
 //!
 //! # Why this crate is the most important one in the repository
 //!

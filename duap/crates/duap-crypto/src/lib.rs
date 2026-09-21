@@ -3,9 +3,12 @@
 //! Cryptographic suites, self-certifying key identity, signed envelopes, and
 //! the key registry for the Data Usage Accounting Protocol.
 //!
-//! STATUS: PRODUCTION for Ed25519; PRODUCTION-CANDIDATE for ML-DSA and the
-//! hybrid suite. No part of this crate has been independently audited. See
-//! `SECURITY.md` for the full statement of what is and is not claimed.
+//! STATUS: REFERENCE. Tests cover the specified behaviour and L2
+//! conformance vectors exist. **No part of this crate has been
+//! independently audited**, which is the entry criterion PRODUCTION
+//! requires of a cryptographic subsystem, so it cannot hold that status
+//! however well it is tested. See `SECURITY.md` for the full statement of
+//! what is and is not claimed.
 //!
 //! ```
 //! use duap_crypto::{SecretKey, SuiteId, Envelope, KeyRegistry, KeyRecord, KeyRole,

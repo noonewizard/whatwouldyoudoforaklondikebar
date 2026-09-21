@@ -4,7 +4,9 @@
 //! usage events, typed identifiers, pseudonyms, exact money, the taxonomy, and
 //! commitments.
 //!
-//! STATUS: PRODUCTION (reference implementation).
+//! STATUS: REFERENCE. Tests cover the specified behaviour and the event
+//! and taxonomy conformance vectors exist. Not PRODUCTION: no independent
+//! review, and VS-5 is open in `security/findings.md`.
 //!
 //! The central object is [`event::DataUsageEvent`]. Everything else in the
 //! protocol either produces one, authorises one, prices one, or proves

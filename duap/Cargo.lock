@@ -352,6 +352,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "duap-auth"
+version = "0.1.0"
+dependencies = [
+ "criterion",
+ "duap-canon",
+ "duap-crypto",
+ "duap-model",
+ "proptest",
+ "serde",
+ "serde_json",
+ "thiserror",
+]
+
+[[package]]
 name = "duap-canon"
 version = "0.1.0"
 dependencies = [

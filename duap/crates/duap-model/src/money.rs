@@ -31,6 +31,44 @@ use serde::{Deserialize, Serialize};
 use std::fmt;
 use std::str::FromStr;
 
+
+/// Serde helper encoding `i128` as a canonical decimal string.
+///
+/// The DUAP canonical data model caps integers at the 64-bit CBOR range, but
+/// monetary sums need headroom above it: a billion events at nano-minor-unit
+/// precision already exceeds `u64`. Rather than widen the data model -- which
+/// would mean bignum tags, and tags are banned -- amounts are carried as
+/// decimal text with exactly one representation per value: no leading `+`, no
+/// leading zeros, no `-0`. A non-canonical spelling is rejected on parse, so
+/// two encodings of the same amount cannot both be accepted.
+pub mod i128_str {
+    use serde::{Deserialize, Deserializer, Serializer};
+
+    pub fn serialize<S: Serializer>(v: &i128, s: S) -> Result<S::Ok, S::Error> {
+        s.serialize_str(&v.to_string())
+    }
+
+    pub fn deserialize<'de, D: Deserializer<'de>>(d: D) -> Result<i128, D::Error> {
+        let s = String::deserialize(d)?;
+        parse_canonical(&s).map_err(serde::de::Error::custom)
+    }
+
+    /// Parse a canonical decimal integer, rejecting alternative spellings.
+    pub fn parse_canonical(s: &str) -> Result<i128, String> {
+        let body = s.strip_prefix('-').unwrap_or(s);
+        if body.is_empty() || !body.bytes().all(|b| b.is_ascii_digit()) {
+            return Err(format!("{s:?} is not a decimal integer"));
+        }
+        if body.len() > 1 && body.starts_with('0') {
+            return Err(format!("{s:?} has a leading zero"));
+        }
+        if s == "-0" {
+            return Err("negative zero is not a canonical amount".to_owned());
+        }
+        s.parse::<i128>().map_err(|e| format!("{s:?}: {e}"))
+    }
+}
+
 /// An ISO 4217 currency code plus the number of decimal digits in its minor
 /// unit.
 ///
@@ -109,6 +147,7 @@ impl fmt::Display for Currency {
 pub struct Money {
     pub currency: Currency,
     /// Signed count of minor units.
+    #[serde(with = "i128_str")]
     pub minor: i128,
 }
 
@@ -227,6 +266,7 @@ pub const NANO: i128 = 1_000_000_000;
 pub struct Precise {
     pub currency: Currency,
     /// Signed count of 1e-9 minor units.
+    #[serde(with = "i128_str")]
     pub nmu: i128,
 }
 

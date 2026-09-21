@@ -47,6 +47,7 @@ pub mod event;
 pub mod ids;
 pub mod jurisdiction;
 pub mod money;
+pub mod pricing;
 pub mod pseudonym;
 pub mod taxonomy;
 pub mod time;
@@ -66,7 +67,8 @@ pub mod prelude {
         SubjectRef,
     };
     pub use crate::jurisdiction::Jurisdiction;
-    pub use crate::money::{Currency, Money, Precise, Ratio, Rounding, NANO};
+    pub use crate::money::{Currency, Money, NANO, Precise, Ratio, Rounding};
+    pub use crate::pricing::{PricingRule, Tier};
     pub use crate::pseudonym::SubjectRoot;
     pub use crate::taxonomy::{
         CollectionMethod, DataClass, LawfulBasis, ONTOLOGY_SHA256, ONTOLOGY_VERSION, Operation,

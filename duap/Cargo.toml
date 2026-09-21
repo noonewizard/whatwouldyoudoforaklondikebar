@@ -4,6 +4,7 @@ members = [
     "crates/duap-canon",
     "crates/duap-crypto",
     "crates/duap-model",
+    "crates/duap-auth",
 ]
 
 [workspace.package]

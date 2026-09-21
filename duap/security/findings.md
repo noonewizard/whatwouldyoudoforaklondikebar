@@ -20,6 +20,10 @@ unusual capability or produces a wrong but bounded result), **low**
 | VS-3 | medium | duap-auth | fixed | Pricing selection ignored the metered unit |
 | VS-4 | medium | duap-canon | fixed | JSON view required arbitrary-precision parsing for one value |
 | PERF-01 | perf | duap-provenance | open | Inclusion-proof generation is O(n) |
+| VS-5 | low | duap-model | open | Pseudonym derivation accepts a salt with no control against a constant one |
+| VS-6 | low | duap-auth | open | Two representations of the same pricing concept |
+| VS-7 | low | duap-auth | open | `negotiation` is speculative machinery in a non-experimental crate |
+| VS-8 | medium | all crates | open | Crate maturity markers claim PRODUCTION without meeting the entry criteria |
 | RISK-01 | n/a | protocol | accepted | A dishonest clearing node can issue a receipt for usage it never evaluated |
 | RISK-02 | n/a | protocol | accepted | Usage outside instrumentation is invisible |
 
@@ -144,3 +148,86 @@ of the design.
 
 **Accepted by:** `chief-architect`, recorded in
 `docs/research/0003-uninstrumented-participants.md`.
+
+## VS-5 — Nothing prevents a constant pseudonym salt (open)
+
+**Found by:** the vertical-slice review of 2026-09-21.
+**Severity:** low as it stands, high if the pattern escapes. The
+demonstration uses `DEMO_SALT: [u8; 32] = [0xA5; 32]` so its transcript is
+deterministic, which is correct there. A constant salt anywhere else makes
+per-controller pseudonyms identical across controllers, which destroys the
+only unlinkability property the protocol offers: two controllers could join
+their records on the pseudonym alone.
+
+**Current control:** a comment saying real agents must use fresh salts. A
+comment is not a control.
+
+**Reproduction:** `crates/duap-demo/src/lib.rs`, `DEMO_SALT`. Constructing
+`SubjectPseudonym` with the same salt under two different controller
+identities yields values that are equal whenever the subject root is equal.
+
+**Proposed fix:** require a `SaltSource` with no `Default`, no `const`
+constructor, and one explicitly named test-only implementation, so the
+compiler refuses the mistake rather than a reviewer catching it.
+
+**Owner:** `privacy-engineer`. **Status:** open, blocking any SDK release.
+
+## VS-6 — Two representations of one pricing concept (open)
+
+**Found by:** the vertical-slice review of 2026-09-21.
+**Severity:** low now, permanent later. VS-3's fix added
+`PricingRule::UnitTable` alongside the existing single-price rule, and the
+single-price form is expressible as a one-row table. Every consumer must
+handle both, and the conformance vectors must cover both.
+
+**Proposed fix:** absorb `PerUnit` into `UnitTable` before the wire format
+is frozen. After freezing, it is permanent.
+
+**Owner:** `economics-engineer`, with `protocol-engineer` for the vectors.
+**Status:** open, must close before the L5 vectors are declared stable.
+
+## VS-7 — Speculative machinery in a normative-looking crate (open)
+
+**Found by:** the vertical-slice review of 2026-09-21.
+**Severity:** low. `crates/duap-auth/src/negotiation.rs` references
+`formal/Negotiation.tla`, which does not exist, and no slice step negotiates
+anything. Sitting in the authorization crate's public surface, it implies a
+protocol interaction that has not been specified.
+
+**Proposed fix:** either write the model and exercise it in the slice, or
+mark the module `EXPERIMENTAL` and remove it from the crate's public
+surface.
+
+**Owner:** `protocol-engineer`. **Status:** open.
+
+## VS-8 — Maturity markers claim more than the evidence supports (open)
+
+**Found by:** the vertical-slice review of 2026-09-21, auditing crate
+markers against `.claude/rules/10-status-discipline.md`.
+**Severity:** medium. Eleven crates carry `STATUS: PRODUCTION` in their
+module documentation. Rule 10's entry criteria for PRODUCTION are
+"independently reviewed; for cryptographic subsystems, independently
+audited". No crate in this repository has been independently reviewed and
+none has been audited. Rule 10 also forbids PRODUCTION while an open
+red-team finding against the subsystem is unresolved, which is separately
+violated by `duap-provenance` (PERF-01), `duap-auth` (VS-6, VS-7) and
+`duap-model` (VS-5).
+
+This is the failure mode rule 01 exists to prevent — code that looks
+finished and is not — appearing in the markers meant to prevent it. The
+markers were written subsystem by subsystem, each meaning "complete and
+tested", which is the REFERENCE criterion, not the PRODUCTION one.
+
+**Reproduction:**
+
+```
+for c in crates/*/src/lib.rs; do grep -m1 "STATUS:" "$c"; done
+```
+
+**Fix:** lower every crate to the status its evidence supports, in a
+status-only commit as rule 10 requires, and record the register in
+`docs/STATUS.md` so the claim lives in one place rather than in fifteen
+module headers that drift independently.
+
+**Owner:** `chief-architect`. **Status:** open at the time of the review;
+closed by the status-only commit that follows it.

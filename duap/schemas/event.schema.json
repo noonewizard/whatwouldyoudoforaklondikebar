@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://duap.example/schemas/event.schema.json",
+  "title": "DUAP Data Usage Event (JSON view)",
+  "description": "A recorded instance of data use. This is a signed assertion by the reporting party, not proof the described processing occurred (RISK-01).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["v", "id", "rt", "ct", "dc", "op", "pp", "qy", "ju", "sn", "ag", "az", "sb"],
+  "properties": {
+    "v": {"type": "integer", "minimum": 1},
+    "id": {"type": "string", "pattern": "^evt[0-9]+:[0-9a-f]{32}$"},
+    "rt": {"$ref": "common.schema.json#/$defs/timestamp"},
+    "ts": {"$ref": "common.schema.json#/$defs/timestamp"},
+    "ct": {"$ref": "common.schema.json#/$defs/orgId"},
+    "px": {"$ref": "common.schema.json#/$defs/orgId"},
+    "dc": {"$ref": "common.schema.json#/$defs/code"},
+    "op": {"$ref": "common.schema.json#/$defs/code"},
+    "pp": {"$ref": "common.schema.json#/$defs/code"},
+    "qy": {"$ref": "common.schema.json#/$defs/quantity"},
+    "ju": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["c"],
+      "properties": {
+        "c": {"type": "string", "pattern": "^[A-Z]{2}$"},
+        "r": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "sn": {"$ref": "common.schema.json#/$defs/sensitivity"},
+    "ag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "version"],
+      "properties": {"name": {"type": "string"}, "version": {"type": "string"}}
+    },
+    "az": {"$ref": "common.schema.json#/$defs/authorizationRef"},
+    "sb": {"$ref": "common.schema.json#/$defs/subjectScope"},
+    "sq": {
+      "description": "Per-stream sequence. Gaps are how partial suppression becomes visible; a reporter that never starts a stream is still invisible (RISK-02).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["s", "i"],
+      "properties": {
+        "s": {"$ref": "common.schema.json#/$defs/digest"},
+        "i": {"type": "integer", "minimum": 0}
+      }
+    },
+    "cm": {
+      "description": "A commitment to the data. Never the data itself.",
+      "$ref": "common.schema.json#/$defs/digest"
+    },
+    "rp": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["b"],
+      "properties": {
+        "b": {"type": "string"},
+        "d": {"type": "integer", "minimum": 0}
+      }
+    },
+    "pv": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "in": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/digest"}},
+        "out": {"$ref": "common.schema.json#/$defs/digest"},
+        "dp": {"type": "integer", "minimum": 0}
+      }
+    },
+    "ec": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {"dr": {"$ref": "common.schema.json#/$defs/money"}}
+    },
+    "lb": {"type": "string"},
+    "cx": {"type": "object"},
+    "xt": {
+      "description": "Extensions. Keys must contain a dot and must not begin 'duap.'; the reserved namespace is closed.",
+      "type": "object",
+      "propertyNames": {"pattern": "^(?!duap\\.)[^.]+\\..+$"}
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://duap.example/schemas/grant.schema.json",
+  "title": "DUAP Grant (JSON view)",
+  "description": "A machine-readable record of the terms a party asserts it granted. It is not the contract, and a lawful-basis code in an event records an assertion rather than a determination.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["v", "id", "ep", "sb", "sk", "ct", "is", "nb", "df", "cu", "tm", "rv"],
+  "properties": {
+    "v": {"type": "integer", "minimum": 1},
+    "id": {"type": "string", "pattern": "^gr[0-9]+:[0-9a-f]{32}$"},
+    "ep": {"type": "integer", "minimum": 1},
+    "pv": {
+      "description": "Digest of the previous epoch, forming the epoch hash chain. Absent only for epoch 1.",
+      "$ref": "common.schema.json#/$defs/digest"
+    },
+    "sb": {"$ref": "common.schema.json#/$defs/subjectRef"},
+    "sk": {"type": "string"},
+    "ct": {"$ref": "common.schema.json#/$defs/orgId"},
+    "is": {"$ref": "common.schema.json#/$defs/timestamp"},
+    "nb": {"$ref": "common.schema.json#/$defs/timestamp"},
+    "ex": {"$ref": "common.schema.json#/$defs/timestamp"},
+    "df": {"enum": ["permit", "deny"]},
+    "cu": {"$ref": "common.schema.json#/$defs/currency"},
+    "pc": {"$ref": "#/$defs/pricingRule"},
+    "rv": {
+      "oneOf": [
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["k"], "properties": {"k": {"const": "immediate"}}
+        },
+        {
+          "type": "object", "additionalProperties": false,
+          "required": ["k", "h"],
+          "properties": {
+            "k": {"const": "after_notice"},
+            "h": {
+              "description": "Notice period in hours. A period beyond 30 days is rejected: a withdrawal that takes effect after an arbitrary delay is a withdrawal in name only.",
+              "type": "integer", "minimum": 0, "maximum": 720
+            }
+          }
+        }
+      ]
+    },
+    "tm": {"type": "array", "items": {"$ref": "#/$defs/term"}},
+    "xt": {"type": "object", "propertyNames": {"pattern": "^(?!duap\\.)[^.]+\\..+$"}}
+  },
+  "$defs": {
+    "term": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["i", "e", "m"],
+      "properties": {
+        "i": {"type": "integer", "minimum": 0},
+        "e": {"enum": ["permit", "deny"]},
+        "m": {"$ref": "#/$defs/matcher"},
+        "ob": {"type": "array", "items": {"type": "object"}},
+        "pr": {"$ref": "#/$defs/pricingRule"},
+        "l": {"type": "string"}
+      }
+    },
+    "matcher": {
+      "description": "Every selector defaults to 'any' and is omitted when it is, so an absent field is the universal constraint rather than no constraint.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dc": {"$ref": "#/$defs/classSelector"},
+        "op": {"$ref": "#/$defs/selector"},
+        "of": {"$ref": "#/$defs/selector"},
+        "pp": {"$ref": "#/$defs/purposeSelector"},
+        "ju": {"$ref": "#/$defs/selector"},
+        "cp": {"$ref": "#/$defs/selector"}
+      }
+    },
+    "selector": {
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["k"], "properties": {"k": {"const": "any"}}},
+        {"type": "object", "additionalProperties": false, "required": ["k", "v"],
+         "properties": {"k": {"enum": ["in", "not_in"]}, "v": {"type": "array", "minItems": 1, "items": {"type": "string"}}}}
+      ]
+    },
+    "classSelector": {
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["k"], "properties": {"k": {"const": "any"}}},
+        {"type": "object", "additionalProperties": false, "required": ["k", "v"],
+         "properties": {"k": {"enum": ["in", "not_in", "ns"]}, "v": {"type": "array", "minItems": 1, "items": {"type": "string"}}}}
+      ]
+    },
+    "purposeSelector": {
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["k"], "properties": {"k": {"const": "any"}}},
+        {"type": "object", "additionalProperties": false, "required": ["k", "v"],
+         "properties": {"k": {"enum": ["in", "not_in", "under"]}, "v": {"type": "array", "minItems": 1, "items": {"type": "string"}}}},
+        {"type": "object", "additionalProperties": false, "required": ["k", "v"],
+         "properties": {"k": {"const": "commercial"}, "v": {"type": "boolean"}}}
+      ]
+    },
+    "pricingRule": {
+      "description": "A single per-unit price is a one-row unit_table. There is no per_unit tag: ADR-0016 removed it, because two wire spellings of one concept mean every consumer handles two cases.",
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["k"], "properties": {"k": {"const": "free"}}},
+        {"type": "object", "additionalProperties": false, "required": ["k", "p"],
+         "properties": {
+           "k": {"const": "unit_table"},
+           "p": {
+             "description": "Ascending by unit code, with no repeated unit, so the canonical encoding is unique.",
+             "type": "array", "minItems": 1,
+             "items": {"type": "array", "minItems": 2, "maxItems": 2,
+                       "prefixItems": [{"type": "string"}, {"$ref": "common.schema.json#/$defs/precise"}]}
+           }
+         }},
+        {"type": "object", "additionalProperties": false, "required": ["k", "u", "t"],
+         "properties": {"k": {"const": "tiered"}, "u": {"type": "string"},
+                        "t": {"type": "array", "minItems": 1, "items": {"type": "object"}}}},
+        {"type": "object", "additionalProperties": false, "required": ["k", "s"],
+         "properties": {"k": {"const": "revenue_share"}, "s": {"type": "object"}, "c": {"type": "string"}}},
+        {"type": "object", "additionalProperties": false, "required": ["k", "u", "p", "r"],
+         "properties": {"k": {"const": "negotiated"}, "u": {"type": "string"},
+                        "p": {"$ref": "common.schema.json#/$defs/precise"}, "r": {"type": "string"}}},
+        {"type": "object", "additionalProperties": false, "required": ["k", "u", "a"],
+         "properties": {"k": {"const": "auction"}, "u": {"type": "string"}, "a": {"$ref": "common.schema.json#/$defs/digest"}}},
+        {"type": "object", "additionalProperties": false, "required": ["k", "d"],
+         "properties": {"k": {"const": "schedule"}, "d": {"$ref": "common.schema.json#/$defs/digest"}}}
+      ]
+    }
+  }
+}

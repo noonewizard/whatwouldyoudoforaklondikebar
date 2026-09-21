@@ -1,0 +1,256 @@
+; DUAP/1 wire grammar (RFC 8610 CDDL).
+;
+; NORMATIVE. Objects are canonical CBOR per specs/protocol-v0.1.md section 3:
+; definite lengths only, minimal integer encodings, map keys ordered
+; length-first then lexicographically, no floats, no tags, no indefinite
+; lengths, no duplicate keys. CDDL cannot express the canonical *ordering*
+; rule, so this grammar describes the admissible values and the ordering is
+; specified in prose and enforced by the strict decoder.
+;
+; Field names are the compact wire names (ADR-0007). Every object carries
+; `v`, a schema version, as its first defined field.
+
+; --------------------------------------------------------------------------
+; Primitives
+; --------------------------------------------------------------------------
+
+; A digest, as "alg:hex", e.g. "sha2-256:a8d8...".
+digest = text .regexp "(sha2-256|sha2-512|sha3-256):[0-9a-f]+"
+
+; Opaque identifiers, "prefix:hex".
+org-id      = text .regexp "org:[a-z0-9.-]+/[a-z0-9._-]+"
+event-id    = text .regexp "evt[0-9]+:[0-9a-f]{32}"
+grant-id    = text .regexp "gr[0-9]+:[0-9a-f]{32}"
+subject-ref = text .regexp "sub[0-9]+:[0-9a-f]{32}"
+batch-id    = text .regexp "b[0-9]+:[0-9a-f]{32}"
+invoice-id  = text .regexp "inv[0-9]+:[0-9a-f]{32}"
+
+; Microseconds since the Unix epoch. Bounded below i64::MIN in magnitude;
+; see VS-4 -- negative integers are bounded at i64::MIN throughout, so no
+; implementation needs arbitrary precision.
+timestamp = uint
+
+; Exact money. `minor` is a decimal string because CBOR has no 128-bit
+; integer and money must not touch floating point (ADR-0008).
+currency = { code: [3*3 uint], exponent: uint }
+money    = { minor: text .regexp "-?[0-9]+", currency: currency }
+precise  = { nmu: text .regexp "-?[0-9]+", currency: currency }
+
+; Taxonomy codes are generated from ontology/duap-ontology-v1.json; the
+; grammar admits the code shape rather than enumerating them, so this file
+; does not have to be regenerated when the ontology grows.
+data-class = text .regexp "[a-z_]+(\.[a-z_]+)*"
+purpose    = text .regexp "[a-z_]+(\.[a-z_]+)*"
+operation  = text .regexp "[a-z_]+(\.[a-z_]+)*"
+unit       = text .regexp "[a-z_]+"
+sensitivity = "t0" / "t1" / "t2" / "t3" / "t4"
+
+quantity    = { n: uint, u: unit }
+agent-ref   = { name: text, version: text }
+jurisdiction = { c: text .regexp "[A-Z]{2}", ? r: [* text] }
+
+; Which grant authorized an operation, pinned to a grant epoch and digest.
+authorization-ref = { g: grant-id, e: uint, d: digest }
+
+; --------------------------------------------------------------------------
+; Data Usage Event -- duap.event.v1
+; --------------------------------------------------------------------------
+
+event = {
+  v:    uint,               ; schema version
+  id:   event-id,
+  rt:   timestamp,          ; recorded at
+  ct:   org-id,             ; controller
+  dc:   data-class,
+  op:   operation,
+  pp:   purpose,
+  qy:   quantity,
+  ju:   jurisdiction,
+  sn:   sensitivity,
+  ag:   agent-ref,          ; reporting agent
+  az:   authorization-ref,
+  sb:   subject-scope,
+  ? ts: timestamp,          ; occurred at, if different from recorded at
+  ? sq: sequence,           ; per-stream sequence, for suppression detection
+  ? pr: processor,
+  ? cm: digest,             ; commitment to the data, never the data
+  ? lb: text,               ; label
+  ? rp: retention,
+  ? pv: provenance,
+  ? ec: economic,
+  ? cx: { * text => any },  ; context
+  ? xt: { * text => any },  ; extensions; keys must contain "." and must
+                            ; not begin "duap."
+}
+
+subject-scope = { k: "s", r: subject-ref } / { k: "p", n: uint }
+sequence      = { s: digest, i: uint }   ; stream id, index
+processor     = org-id
+retention     = { b: text, ? d: uint }   ; basis, days
+provenance    = { ? in: [* digest], ? out: digest, ? dp: uint }
+economic      = { ? dr: money }          ; declared revenue, for royalties
+
+; --------------------------------------------------------------------------
+; Grant -- duap.grant.v1
+; --------------------------------------------------------------------------
+
+grant = {
+  v:    uint,
+  id:   grant-id,
+  ep:   uint,               ; epoch
+  sb:   subject-ref,
+  sk:   text,               ; subject key id
+  ct:   org-id,             ; controller
+  is:   timestamp,          ; issued at
+  nb:   timestamp,          ; not before
+  df:   effect,             ; default effect
+  cu:   currency,
+  tm:   [* term],
+  rv:   revocation-policy,
+  ? pv: digest,             ; previous epoch, forming the epoch hash chain
+  ? ex: timestamp,          ; expires at
+  ? pc: pricing-rule,       ; default pricing
+  ? xt: { * text => any },  ; extension keys must contain "." and must not
+                            ; begin "duap."
+}
+
+effect = "permit" / "deny"
+
+term = {
+  i:    uint,               ; term id
+  e:    effect,
+  m:    matcher,
+  ? ob: [* obligation],
+  ? pr: pricing-rule,
+  ? l:  text,
+}
+
+; Every selector defaults to "any" and is omitted when it is, so an
+; absent field is not an absent constraint -- it is the universal one.
+matcher = {
+  ? dc: class-selector,
+  ? op: selector,           ; operations
+  ? of: selector,           ; operation families
+  ? pp: purpose-selector,
+  ? ju: selector,           ; countries
+  ? cp: selector,           ; counterparties
+}
+
+selector = { k: "any" }
+         / { k: "in", v: [+ text] }
+         / { k: "not_in", v: [+ text] }
+
+class-selector   = { k: "any" }
+                 / { k: "in", v: [+ data-class] }
+                 / { k: "not_in", v: [+ data-class] }
+                 / { k: "ns", v: [+ text] }
+purpose-selector = { k: "any" }
+                 / { k: "in", v: [+ purpose] }
+                 / { k: "not_in", v: [+ purpose] }
+                 / { k: "under", v: [+ purpose] }
+                 / { k: "commercial", v: bool }
+
+obligation = { k: text, * text => any }
+
+revocation-policy = { k: "immediate" }
+                  / { k: "after_notice", h: uint }
+
+; --------------------------------------------------------------------------
+; Pricing
+;
+; A single per-unit price is a one-row unit_table. There is no separate
+; per_unit rule: ADR-0016 removed it, because two wire spellings of one
+; concept mean every consumer handles two cases.
+; --------------------------------------------------------------------------
+
+pricing-rule = { k: "free" }
+             / { k: "unit_table", p: [+ [unit, precise]] }
+             / { k: "tiered", u: unit, t: [+ tier] }
+             / { k: "revenue_share", s: ratio, ? c: unit }
+             / { k: "negotiated", u: unit, p: precise, r: text }
+             / { k: "auction", u: unit, a: digest }
+             / { k: "schedule", d: digest }
+
+tier  = { ? up: uint, p: precise }
+ratio = { num: text .regexp "-?[0-9]+", den: uint }
+
+; --------------------------------------------------------------------------
+; Receipt -- duap.receipt.v1
+;
+; The anchor is NOT part of the receipt's digest (VS-1). A receipt's
+; identity is its anchor-free core, so a holder can attach a fresher
+; inclusion proof without changing what the receipt is.
+; --------------------------------------------------------------------------
+
+receipt = {
+  v:    uint,               ; schema version
+  pr:   text,               ; protocol label, "DUAP/1"
+  is:   org-id,             ; issuer, the clearing node
+  ct:   org-id,             ; controller the receipt is about
+  at:   timestamp,          ; issued at
+  sb:   subject-scope,
+  pd:   period,
+  cv:   coverage,
+  az:   authorization-ref,
+  ds:   decision-summary,
+  ch:   money,              ; amount charged
+  pb:   digest,             ; digest of the pricing basis
+  ? px: org-id,             ; processor, where one acted
+  ? pv: digest,             ; provenance output content id
+  ? ss: money,              ; the subject's share of the charge
+  ? an: anchor,             ; detachable; see above
+}
+
+coverage = {
+  n:  uint,                 ; number of events covered
+  r:  digest,               ; Merkle root over the covered event digests
+  dc: data-class,
+  op: operation,
+  pp: purpose,
+  ju: text,
+  qy: quantity,
+}
+
+period = { start: timestamp, end: timestamp }
+
+; Why the described usage was permitted: the terms that applied and the
+; obligations they carried. `t` lists term ids, `o` obligation kinds.
+decision-summary = { ? t: [* uint], ? o: [* text] }
+
+; A log inclusion proof. Detachable: it is a proof *about* a receipt and
+; is not part of the receipt's digest (VS-1).
+anchor = { l: digest, i: uint, p: [* digest], h: digest }
+
+; --------------------------------------------------------------------------
+; Log entry -- duap.log-entry.v1
+; --------------------------------------------------------------------------
+
+log-entry = {
+  v:  uint,
+  k:  text,                 ; what kind of object is committed
+  d:  digest,               ; the committed digest
+  at: timestamp,
+  ? b: batch-id,
+}
+
+; --------------------------------------------------------------------------
+; Signature envelope -- duap.envelope.v1
+;
+; The signature is over a signature-input structure (duap.sig-input.v1)
+; that binds the context, suite, key id, payload domain, payload digest and
+; creation time -- never over the payload bytes directly.
+; --------------------------------------------------------------------------
+
+envelope = {
+  d:  text,                 ; payload domain label, e.g. "duap.event.v1"
+  p:  bytes,                ; canonical CBOR of the payload
+  s:  [+ signature],
+}
+
+signature = {
+  c:   text,                ; suite label
+  k:   text,                ; key id
+  t:   timestamp,           ; created
+  sig: bytes,
+  ? n: bytes,               ; nonce
+}

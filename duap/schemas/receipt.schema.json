@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://duap.example/schemas/receipt.schema.json",
+  "title": "DUAP Data Usage Receipt (JSON view)",
+  "description": "A clearing node's signed statement about a set of events it received. It establishes that the node made this statement and cannot alter it undetected; it does not establish that the described operations occurred (RISK-01) or that unreported usage did not (RISK-02). Receipt::claims() returns both lists as data so a verifier cannot read a receipt without reading its limits.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["v", "pr", "is", "ct", "at", "sb", "pd", "cv", "az", "ds", "ch", "pb"],
+  "properties": {
+    "v": {"type": "integer", "minimum": 1},
+    "pr": {"description": "Protocol label.", "const": "DUAP/1"},
+    "is": {"description": "Issuer: the clearing node that signed this.", "$ref": "common.schema.json#/$defs/orgId"},
+    "ct": {"$ref": "common.schema.json#/$defs/orgId"},
+    "px": {"$ref": "common.schema.json#/$defs/orgId"},
+    "at": {"$ref": "common.schema.json#/$defs/timestamp"},
+    "sb": {"$ref": "common.schema.json#/$defs/subjectScope"},
+    "pd": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["start", "end"],
+      "properties": {
+        "start": {"$ref": "common.schema.json#/$defs/timestamp"},
+        "end": {"$ref": "common.schema.json#/$defs/timestamp"}
+      }
+    },
+    "cv": {
+      "description": "What the receipt covers, with a Merkle root over the covered event digests so a subject or auditor can demand the set and check it.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["n", "r", "dc", "op", "pp", "ju", "qy"],
+      "properties": {
+        "n": {"type": "integer", "minimum": 0},
+        "r": {"$ref": "common.schema.json#/$defs/digest"},
+        "dc": {"$ref": "common.schema.json#/$defs/code"},
+        "op": {"$ref": "common.schema.json#/$defs/code"},
+        "pp": {"$ref": "common.schema.json#/$defs/code"},
+        "ju": {"type": "string", "pattern": "^[A-Z]{2}$"},
+        "qy": {"$ref": "common.schema.json#/$defs/quantity"}
+      }
+    },
+    "az": {"$ref": "common.schema.json#/$defs/authorizationRef"},
+    "ds": {
+      "description": "Why the usage was permitted: the term ids that applied and the obligation kinds they carried.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "t": {"type": "array", "items": {"type": "integer", "minimum": 0}},
+        "o": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "pv": {"$ref": "common.schema.json#/$defs/digest"},
+    "ch": {"$ref": "common.schema.json#/$defs/money"},
+    "ss": {"$ref": "common.schema.json#/$defs/money"},
+    "pb": {"description": "Digest of the pricing basis, so the charge can be recomputed.", "$ref": "common.schema.json#/$defs/digest"},
+    "an": {
+      "description": "Log inclusion proof. Detachable by design: it is a proof ABOUT the receipt and is NOT part of the receipt's digest, so a holder can attach a fresher proof without changing the receipt's identity (VS-1).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["l", "i", "p", "h"],
+      "properties": {
+        "l": {"$ref": "common.schema.json#/$defs/digest"},
+        "i": {"type": "integer", "minimum": 0},
+        "p": {"type": "array", "items": {"$ref": "common.schema.json#/$defs/digest"}},
+        "h": {"$ref": "common.schema.json#/$defs/digest"}
+      }
+    }
+  }
+}

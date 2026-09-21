@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://duap.example/schemas/common.schema.json",
+  "title": "DUAP common types (JSON view)",
+  "description": "Shared definitions for the JSON view of DUAP objects. The normative wire format is canonical CBOR; see schemas/duap-v1.cddl. These schemas describe the JSON view defined in specs/protocol-v0.1.md, which exists so an implementation without a CBOR library can read an object.",
+  "$defs": {
+    "digest": {
+      "type": "string",
+      "pattern": "^(sha2-256|sha2-512|sha3-256):[0-9a-f]+$"
+    },
+    "orgId": {
+      "type": "string",
+      "pattern": "^org:[a-z0-9.-]+/[a-z0-9._-]+$"
+    },
+    "subjectRef": {
+      "type": "string",
+      "pattern": "^sub[0-9]+:[0-9a-f]{32}$"
+    },
+    "timestamp": {
+      "description": "Microseconds since the Unix epoch.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "code": {
+      "description": "A dotted taxonomy code. The values are generated from ontology/duap-ontology-v1.json; this constrains the shape so the schema need not be regenerated when the ontology grows.",
+      "type": "string",
+      "pattern": "^[a-z_]+(\\.[a-z_]+)*$"
+    },
+    "currency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "exponent"],
+      "properties": {
+        "code": {
+          "description": "ISO 4217 alphabetic code as three byte values.",
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {"type": "integer", "minimum": 0, "maximum": 255}
+        },
+        "exponent": {"type": "integer", "minimum": 0, "maximum": 8}
+      }
+    },
+    "money": {
+      "description": "An exact amount in minor units. The amount is a decimal string, not a number: money must never touch floating point, and JSON numbers are doubles (ADR-0008).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["minor", "currency"],
+      "properties": {
+        "minor": {"type": "string", "pattern": "^-?[0-9]+$"},
+        "currency": {"$ref": "#/$defs/currency"}
+      }
+    },
+    "precise": {
+      "description": "An exact amount in nano-minor-units, for prices below one minor unit.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["nmu", "currency"],
+      "properties": {
+        "nmu": {"type": "string", "pattern": "^-?[0-9]+$"},
+        "currency": {"$ref": "#/$defs/currency"}
+      }
+    },
+    "quantity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["n", "u"],
+      "properties": {
+        "n": {"type": "integer", "minimum": 0},
+        "u": {"type": "string", "pattern": "^[a-z_]+$"}
+      }
+    },
+    "authorizationRef": {
+      "description": "Which grant authorized an operation, pinned to an epoch and the grant's digest so the term set cannot be changed after the fact.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["g", "e", "d"],
+      "properties": {
+        "g": {"type": "string", "pattern": "^gr[0-9]+:[0-9a-f]{32}$"},
+        "e": {"type": "integer", "minimum": 1},
+        "d": {"$ref": "#/$defs/digest"}
+      }
+    },
+    "subjectScope": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["k", "r"],
+          "properties": {
+            "k": {"const": "s"},
+            "r": {"$ref": "#/$defs/subjectRef"}
+          }
+        },
+        {
+          "description": "A population rather than an identified subject.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["k", "n"],
+          "properties": {
+            "k": {"const": "p"},
+            "n": {"type": "integer", "minimum": 1}
+          }
+        }
+      ]
+    },
+    "sensitivity": {"enum": ["t0", "t1", "t2", "t3", "t4"]}
+  }
+}

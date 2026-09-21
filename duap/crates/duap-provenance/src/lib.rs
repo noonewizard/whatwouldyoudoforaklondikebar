@@ -3,9 +3,10 @@
 //! The DUAP transparency log and derivation graph.
 //!
 //! STATUS: REFERENCE. Tests cover the specified behaviour and L3 Merkle
-//! vectors exist, reproduced by a second implementation. PERF-01 is open:
-//! inclusion-proof generation is O(n), which blocks PRODUCTION_CANDIDATE
-//! and makes the gateway's proof endpoint a denial-of-service lever.
+//! vectors exist, reproduced by a second implementation. PERF-01 is fixed:
+//! `MerkleLog` caches complete-subtree roots, taking audit-path generation
+//! in a 100,000-entry tree from 14.99 ms to 3.3 us at the cost of ~6-7x on
+//! append. Reaching PRODUCTION_CANDIDATE now needs independent review.
 //!
 //! Two structures, two jobs:
 //!

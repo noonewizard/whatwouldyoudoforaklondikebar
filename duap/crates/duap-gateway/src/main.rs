@@ -1,9 +1,10 @@
 //! Run the DUAP reference gateway.
 //!
 //! STATUS: PROTOTYPE. Suitable for conformance testing, integration work
-//! and local demonstration. Not a production HTTP stack (ADR-0011), and
-//! PERF-01 makes `/v1/log/proof` a denial-of-service lever until the
-//! inclusion-proof path is fixed.
+//! and local demonstration. Not a production HTTP stack (ADR-0011).
+//! PERF-01 is fixed, so `/v1/log/proof` is no longer a denial-of-service
+//! lever, but it still needs a rate limit in the shipped default
+//! configuration rather than in prose.
 
 use clap::Parser;
 use duap_clearing::{ClearingConfig, ClearingNode};

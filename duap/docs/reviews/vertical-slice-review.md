@@ -11,6 +11,25 @@ built. Nothing in `infrastructure/`, `sdk/python`, `sdk/typescript`,
 `simulations/` or `dashboard/` may be implemented until the decisions below
 are recorded and acted on.
 
+## Resolution status, added 2026-09-21 after the review
+
+This review is a point-in-time record and its body is not edited. What has
+happened to its eight decisions since:
+
+| Decision | Status |
+|---|---|
+| 1. The slice passes the gate | Recorded |
+| 2. Fix PERF-01 before network exposure | **Done.** 14.99 ms → 3.3 µs; `benchmarks/results/2026-09-21-perf01-fix.md`. The default rate limit it also asked for is still outstanding |
+| 3. Absorb `PricingRule::PerUnit` before the wire format freezes | Open (VS-6). Still the only item that becomes impossible if deferred |
+| 4. Type-level control on the pseudonym salt | Open (VS-5) |
+| 5. Demote or model `negotiation.rs` | **Done.** Both: `formal/Negotiation.tla` written and checked, marker lowered (VS-7) |
+| 6. Coverage-guided fuzzing of the decoder | Open. Still the highest-value missing test |
+| 7. Redesign the obligation context interface by ADR | Open |
+| 8. No subsystem advances while a blocker stands | In force; `docs/STATUS.md` is the register |
+
+Two findings were raised *by* this review and are also closed: VS-7 above,
+and VS-8, the maturity markers, corrected in a status-only commit.
+
 ---
 
 ## What the slice actually is

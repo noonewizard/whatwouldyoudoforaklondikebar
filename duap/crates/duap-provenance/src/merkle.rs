@@ -93,10 +93,33 @@ pub fn root_of(alg: HashAlg, leaves: &[Digest]) -> Digest {
 /// Leaf hashes are retained so that proofs can be produced for any past
 /// index. A production log stores them in a durable tile-based layout; the
 /// in-memory form here is the reference against which that is tested.
+///
+/// # Why there is a cache
+///
+/// Proof generation without one is O(n): [`subproof`] pushes the root of
+/// the sibling subtree at every level, and computing that root from leaves
+/// walks the whole subtree. Measured, that was 14.99 ms to produce one
+/// audit path in a 100,000-entry tree against 2.5 us to verify it -- a
+/// denial-of-service lever on any endpoint that serves proofs, recorded as
+/// PERF-01 in `security/findings.md`.
+///
+/// `nodes` caches the roots of *complete* subtrees, level by level:
+/// `nodes[L][j]` is the root over leaves `[j << (L+1), (j+1) << (L+1))`,
+/// present only when that range is entirely filled. Appending maintains it
+/// in amortised O(1), and it doubles the memory the log holds -- n leaf
+/// digests plus n-1 interior ones at most.
+///
+/// The cache is an optimisation and never a second definition of the tree.
+/// [`root_of`] remains the reference construction, and
+/// `cached_and_recursive_agree_for_every_size` in the crate's tests asserts
+/// they produce identical roots, proofs and consistency paths.
 #[derive(Debug, Clone)]
 pub struct MerkleLog {
     alg: HashAlg,
     leaves: Vec<Digest>,
+    /// `nodes[L][j]`: root of the complete subtree of `1 << (L + 1)` leaves
+    /// starting at `j << (L + 1)`. Level 0 holds pairs of leaves.
+    nodes: Vec<Vec<Digest>>,
 }
 
 impl MerkleLog {
@@ -104,6 +127,7 @@ impl MerkleLog {
         MerkleLog {
             alg,
             leaves: Vec::new(),
+            nodes: Vec::new(),
         }
     }
 
@@ -122,14 +146,113 @@ impl MerkleLog {
     /// Append `data`, returning its index and leaf hash.
     pub fn append(&mut self, data: &[u8]) -> (u64, Digest) {
         let h = leaf_hash(self.alg, data);
-        self.leaves.push(h);
-        (self.leaves.len() as u64 - 1, h)
+        let i = self.append_hash(h);
+        (i, h)
     }
 
     /// Append a pre-computed leaf hash.
     pub fn append_hash(&mut self, h: Digest) -> u64 {
         self.leaves.push(h);
+        self.extend_cache();
         self.leaves.len() as u64 - 1
+    }
+
+    /// Fill in every complete subtree the new leaf just closed.
+    ///
+    /// A leaf completes a subtree at level `L` exactly when the new length
+    /// is a multiple of `1 << (L + 1)`, so this loop runs once per trailing
+    /// one-bit of the previous length: O(1) amortised over appends.
+    fn extend_cache(&mut self) {
+        let n = self.leaves.len();
+        let mut level = 0usize;
+        loop {
+            let span = 1usize << (level + 1);
+            if n % span != 0 {
+                break;
+            }
+            let j = n / span - 1;
+            let (left, right) = if level == 0 {
+                (self.leaves[j * 2], self.leaves[j * 2 + 1])
+            } else {
+                let below = &self.nodes[level - 1];
+                (below[j * 2], below[j * 2 + 1])
+            };
+            let h = node_hash(self.alg, &left, &right);
+            if self.nodes.len() == level {
+                self.nodes.push(Vec::new());
+            }
+            debug_assert_eq!(self.nodes[level].len(), j);
+            self.nodes[level].push(h);
+            level += 1;
+        }
+    }
+
+    /// Root over `leaves[a..b]`, using cached complete subtrees.
+    ///
+    /// Equivalent to `root_of(alg, &leaves[a..b])` and asymptotically
+    /// cheaper: the RFC 6962 split makes every left child of this recursion
+    /// an aligned complete subtree, so each level costs one cache lookup
+    /// and the recursion only descends the right spine.
+    fn cached_root(&self, a: usize, b: usize) -> Digest {
+        debug_assert!(a <= b && b <= self.leaves.len());
+        let n = b - a;
+        match n {
+            0 => empty_root(self.alg),
+            1 => self.leaves[a],
+            _ => {
+                if n.is_power_of_two() && a % n == 0 {
+                    let level = n.trailing_zeros() as usize - 1;
+                    return self.nodes[level][a / n];
+                }
+                let k = split_point(n);
+                node_hash(
+                    self.alg,
+                    &self.cached_root(a, a + k),
+                    &self.cached_root(a + k, b),
+                )
+            }
+        }
+    }
+
+    /// Audit path for `index` within the prefix of length `size`.
+    fn cached_subproof(&self, m: usize, a: usize, b: usize, out: &mut Vec<Digest>) {
+        let n = b - a;
+        if n <= 1 {
+            return;
+        }
+        let k = split_point(n);
+        if m < k {
+            self.cached_subproof(m, a, a + k, out);
+            out.push(self.cached_root(a + k, b));
+        } else {
+            self.cached_subproof(m - k, a + k, b, out);
+            out.push(self.cached_root(a, a + k));
+        }
+    }
+
+    fn cached_consistency_subproof(
+        &self,
+        m: usize,
+        a: usize,
+        b: usize,
+        is_complete: bool,
+        out: &mut Vec<Digest>,
+    ) {
+        let n = b - a;
+        if m == n {
+            if !is_complete {
+                out.push(self.cached_root(a, b));
+            }
+            return;
+        }
+        let k = split_point(n);
+        if m <= k {
+            self.cached_consistency_subproof(m, a, a + k, is_complete, out);
+            out.push(self.cached_root(a + k, b));
+        } else {
+            self.cached_consistency_subproof(m - k, a + k, b, false, out);
+            out.push(self.cached_root(a, a + k));
+        }
     }
 
     pub fn leaf(&self, index: u64) -> Option<Digest> {
@@ -138,7 +261,7 @@ impl MerkleLog {
 
     /// Current root.
     pub fn root(&self) -> Digest {
-        root_of(self.alg, &self.leaves)
+        self.cached_root(0, self.leaves.len())
     }
 
     /// Root as of the first `size` entries.
@@ -146,7 +269,7 @@ impl MerkleLog {
         if size as usize > self.leaves.len() {
             return None;
         }
-        Some(root_of(self.alg, &self.leaves[..size as usize]))
+        Some(self.cached_root(0, size as usize))
     }
 
     /// Audit path proving that leaf `index` is in the tree of size `size`.
@@ -155,12 +278,7 @@ impl MerkleLog {
             return None;
         }
         let mut path = Vec::new();
-        subproof(
-            self.alg,
-            index as usize,
-            &self.leaves[..size as usize],
-            &mut path,
-        );
+        self.cached_subproof(index as usize, 0, size as usize, &mut path);
         Some(InclusionProof {
             index,
             size,
@@ -177,13 +295,7 @@ impl MerkleLog {
         }
         let mut path = Vec::new();
         if old > 0 && old < new {
-            consistency_subproof(
-                self.alg,
-                old as usize,
-                &self.leaves[..new as usize],
-                true,
-                &mut path,
-            );
+            self.cached_consistency_subproof(old as usize, 0, new as usize, true, &mut path);
         }
         Some(ConsistencyProof {
             old,
@@ -191,45 +303,6 @@ impl MerkleLog {
             path,
             alg: self.alg,
         })
-    }
-}
-
-fn subproof(alg: HashAlg, m: usize, leaves: &[Digest], out: &mut Vec<Digest>) {
-    let n = leaves.len();
-    if n <= 1 {
-        return;
-    }
-    let k = split_point(n);
-    if m < k {
-        subproof(alg, m, &leaves[..k], out);
-        out.push(root_of(alg, &leaves[k..]));
-    } else {
-        subproof(alg, m - k, &leaves[k..], out);
-        out.push(root_of(alg, &leaves[..k]));
-    }
-}
-
-fn consistency_subproof(
-    alg: HashAlg,
-    m: usize,
-    leaves: &[Digest],
-    is_complete: bool,
-    out: &mut Vec<Digest>,
-) {
-    let n = leaves.len();
-    if m == n {
-        if !is_complete {
-            out.push(root_of(alg, leaves));
-        }
-        return;
-    }
-    let k = split_point(n);
-    if m <= k {
-        consistency_subproof(alg, m, &leaves[..k], is_complete, out);
-        out.push(root_of(alg, &leaves[k..]));
-    } else {
-        consistency_subproof(alg, m - k, &leaves[k..], false, out);
-        out.push(root_of(alg, &leaves[..k]));
     }
 }
 

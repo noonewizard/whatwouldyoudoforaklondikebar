@@ -19,7 +19,7 @@ unusual capability or produces a wrong but bounded result), **low**
 | VS-2 | high | duap-clearing | fixed | Derivation-depth obligations always failed closed |
 | VS-3 | medium | duap-auth | fixed | Pricing selection ignored the metered unit |
 | VS-4 | medium | duap-canon | fixed | JSON view required arbitrary-precision parsing for one value |
-| PERF-01 | perf | duap-provenance | open | Inclusion-proof generation is O(n) |
+| PERF-01 | perf | duap-provenance | fixed | Inclusion-proof generation was O(n) |
 | VS-5 | low | duap-model | open | Pseudonym derivation accepts a salt with no control against a constant one |
 | VS-6 | low | duap-auth | open | Two representations of the same pricing concept |
 | VS-7 | low | duap-auth | fixed | `negotiation` referenced a formal model that did not exist |
@@ -92,29 +92,54 @@ implementations now reject anything below it.
 implementation finds, which is the argument for keeping `gateway/` honest
 rather than porting the Rust.
 
-## PERF-01 — Inclusion-proof generation is O(n) (open)
+## PERF-01 — Inclusion-proof generation was O(n) (fixed)
 
 **Found by:** the benchmark run of 2026-09-21.
-**Severity:** perf. Generating one audit path in a 100,000-entry tree takes
-14.99 ms; verifying the same path takes 2.5 us. `MerkleLog::inclusion_proof`
-recomputes sibling subtree roots on demand instead of caching them, so proof
-generation is linear in the tree size.
+**Severity:** perf, with a security consequence. Generating one audit path
+in a 100,000-entry tree took 14.99 ms while verifying the same path took
+2.5 us. `MerkleLog::inclusion_proof` recomputed sibling subtree roots from
+leaves on demand, so proof generation was linear in tree size.
 
-**Impact:** acceptable in the reference implementation and in tests;
-unacceptable on the gateway's `/v1/log/proof` endpoint, where it is a
-denial-of-service lever — an attacker can spend 15 ms of server time per
-cheap request.
+**Impact:** acceptable in a reference implementation; unacceptable on the
+gateway's `/v1/log/proof` endpoint, where it let an attacker spend 15 ms of
+server time per cheap request.
 
 **Reproduction:** `benchmarks/results/2026-09-21-ci-runner.md`, scenario
 `log.inclusion_proof`.
 
-**Proposed fix:** cache complete-subtree roots as entries are appended (the
-incremental accumulator in `duap-meter::evidence` already maintains exactly
-these), or adopt the tile-based layout used by production transparency logs.
-Until then the gateway should rate-limit the proof endpoint separately.
+**Fix:** `MerkleLog` now caches the roots of complete subtrees level by
+level, maintained in amortised O(1) on append. The RFC 6962 split rule
+makes every left child of the proof recursion an aligned complete subtree,
+so each level is a cache lookup and the recursion descends only the right
+spine.
 
-**Owner:** `provenance-engineer`. **Status:** open, not blocking the
-vertical-slice review, blocking PRODUCTION_CANDIDATE for `duap-provenance`.
+**Measured:** 14.99 ms to **3.3 us**, on a run where every untouched
+scenario was slower than before, so the improvement is understated
+(`benchmarks/results/2026-09-21-perf01-fix.md`).
+
+**What it cost, recorded because a fix reported without its cost is half a
+report:** appends went from 108 ns to 1.1 us, roughly 6-7x once the slower
+machine is discounted. That is the amortised cost of hashing interior nodes
+as they complete -- work the old code deferred and then repeated per proof.
+The trade is right here because appends are internal and batched while
+proofs are served on demand, so the expensive operation is now the one an
+attacker cannot trigger; and at 1.1 us append is about 0.5% of the 207.4 us
+ingest path. Memory roughly doubles.
+
+**Why this is not a second definition of the tree:** `root_of` remains the
+reference construction from RFC 6962 section 2.1, and
+`crates/duap-provenance/tests/merkle_cache.rs` asserts the cached and
+recursive constructions agree on every root, audit path and consistency
+path for every tree size in 0..=130 -- the range covering every shape the
+split rule can produce. If they ever disagree, the cache is wrong.
+
+**Still required before network exposure:** rate-limiting on
+`/v1/log/proof` in the shipped default configuration. 3.3 us is not a
+denial-of-service lever, but an unlimited endpoint is still an unlimited
+endpoint.
+
+**Owner:** `provenance-engineer`. **Status:** fixed. No longer blocks
+PRODUCTION_CANDIDATE for `duap-provenance`; independent review still does.
 
 ## RISK-01 — A dishonest clearing node (accepted)
 

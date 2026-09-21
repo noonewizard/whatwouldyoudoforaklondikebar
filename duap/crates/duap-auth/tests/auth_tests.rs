@@ -752,10 +752,10 @@ fn grants_round_trip_canonically() {
                 }),
             )
             .with_obligations(vec![Obligation::MaxRetentionDays { days: 30 }])
-            .with_pricing(PricingRule::PerUnit {
-                unit: Unit::Record,
-                unit_price: Precise::new(Currency::EUR, 250_000),
-            })
+            .with_pricing(PricingRule::per_unit(
+                Unit::Record,
+                Precise::new(Currency::EUR, 250_000),
+            ))
             .with_label("Location for service delivery"),
         )
         .build()
@@ -771,14 +771,8 @@ fn grants_round_trip_canonically() {
 
 #[test]
 fn most_specific_priced_term_wins_deterministically() {
-    let cheap = PricingRule::PerUnit {
-        unit: Unit::Record,
-        unit_price: Precise::new(Currency::EUR, 1),
-    };
-    let dear = PricingRule::PerUnit {
-        unit: Unit::Record,
-        unit_price: Precise::new(Currency::EUR, 1_000_000),
-    };
+    let cheap = PricingRule::per_unit(Unit::Record, Precise::new(Currency::EUR, 1));
+    let dear = PricingRule::per_unit(Unit::Record, Precise::new(Currency::EUR, 1_000_000));
     let g = builder()
         .term(Term::permit(1, Matcher::any()).with_pricing(cheap.clone()))
         .term(
@@ -830,10 +824,10 @@ fn negotiation_happy_path() {
         }),
         disclosure: "Deliver weather alerts for your area.".into(),
         duration_hours: 24 * 30,
-        proposed_pricing: Some(PricingRule::PerUnit {
-            unit: Unit::Record,
-            unit_price: Precise::new(Currency::EUR, 100_000),
-        }),
+        proposed_pricing: Some(PricingRule::per_unit(
+            Unit::Record,
+            Precise::new(Currency::EUR, 100_000),
+        )),
         currency: Currency::EUR,
         sent_at: Timestamp::from_secs(T0),
         expires_at: Timestamp::from_secs(T0 + 3600),

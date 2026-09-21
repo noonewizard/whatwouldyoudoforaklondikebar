@@ -416,14 +416,27 @@ Each obligation is classified by what a verifier can do with it:
 
 An implementation MUST NOT describe a deferred obligation as enforced.
 
-### 5.5 Pricing selection
+### 5.5 Pricing rules
+
+A pricing rule is one of `free`, `unit_table`, `tiered`, `revenue_share`,
+`negotiated`, `auction` or `schedule`.
+
+A single per-unit price is a `unit_table` with one row. There is no
+separate rule tag for it: two wire spellings of one concept would mean
+every consumer handles two cases, and an implementation handling only the
+common one would still pass most vectors. ADR-0016 records the removal.
+
+`unit_table` rows MUST be ordered ascending by unit code and MUST NOT
+repeat a unit, so that the canonical encoding of a rule is unique.
+
+### 5.6 Pricing selection
 
 Among permitting terms that state a pricing rule, an implementation MUST
 prefer one whose rule can price the event's metering unit, then the most
 specific matcher, then the lowest term identifier. The ordering is fully
 determined so that two implementations agree.
 
-### 5.6 Revocation
+### 5.7 Revocation
 
 A revocation carries the grant id, the epoch, the grant digest, a scope
 (all, listed terms, listed purposes, or listed classes), a declaration

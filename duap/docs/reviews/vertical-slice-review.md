@@ -20,7 +20,7 @@ happened to its eight decisions since:
 |---|---|
 | 1. The slice passes the gate | Recorded |
 | 2. Fix PERF-01 before network exposure | **Done.** 14.99 ms → 3.3 µs; `benchmarks/results/2026-09-21-perf01-fix.md`. The default rate limit it also asked for is still outstanding |
-| 3. Absorb `PricingRule::PerUnit` before the wire format freezes | Open (VS-6). Still the only item that becomes impossible if deferred |
+| 3. Absorb `PricingRule::PerUnit` before the wire format freezes | **Done.** ADR-0016; vectors regenerated, golden transcript moved by two digest lines and no economic figure (VS-6) |
 | 4. Type-level control on the pseudonym salt | Open (VS-5) |
 | 5. Demote or model `negotiation.rs` | **Done.** Both: `formal/Negotiation.tla` written and checked, marker lowered (VS-7) |
 | 6. Coverage-guided fuzzing of the decoder | Open. Still the highest-value missing test |

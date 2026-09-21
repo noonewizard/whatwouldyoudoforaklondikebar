@@ -54,7 +54,7 @@ Two readings that are applied consistently here:
 | `duap-canon` | REFERENCE | L1 vectors; property tests for encoder/decoder agreement; reproduced by the Go implementation | No coverage-guided fuzzing of the decoder. It parses adversary-supplied bytes, so this is the highest-value missing test in the repository. |
 | `duap-crypto` | REFERENCE | L2 vectors; Ed25519, ML-DSA-44/65 and the hybrid suite tested against them | Not audited. A cryptographic subsystem cannot reach PRODUCTION without an independent audit however well it is tested, and none has been commissioned. |
 | `duap-model` | REFERENCE | Event and taxonomy vectors; round-trip and strict-decode tests | VS-5 open: nothing prevents a constant pseudonym salt. |
-| `duap-auth` | REFERENCE | L4 vectors; `Authorization.tla` and `Negotiation.tla` exhaustive within bounds; two sets of mirror tests | VS-6 open, and it must close before the wire format freezes. |
+| `duap-auth` | REFERENCE | L4 vectors; `Authorization.tla` and `Negotiation.tla` exhaustive within bounds; two sets of mirror tests | No independent review. |
 | `duap-provenance` | REFERENCE | L3 Merkle vectors; RFC 6962 inclusion and consistency proofs; dataset-commitment tests; cached and recursive constructions proven to agree for every tree size in 0..=130 | PERF-01 closed (14.99 ms → 3.3 µs). Reaching PRODUCTION_CANDIDATE now needs independent review, and the gateway still needs a default rate limit on the proof endpoint. |
 | `duap-receipt` | REFERENCE | L3 receipt vectors; anchored-receipt verification from the public key alone | No independent review. |
 | `duap-valuation` | REFERENCE | L5 pricing vectors; apportionment and rounding tests | No independent review. The coefficients are parameters, not measurements, and no status raises that. |
@@ -74,7 +74,7 @@ Two readings that are applied consistently here:
 |---|---|---|---|
 | `gateway/` (Go verifier) | REFERENCE | Passes all 77 L1–L3 vectors; written against the specification, not ported; found VS-4 | Covers three of five levels, and the same author wrote both implementations. A third-party implementation is what would make the independence claim unqualified. |
 | `spec/vectors/` | REFERENCE | 93 vectors across 8 files, checked by `cargo test` and by the Go verifier | L4 and L5 have no second implementation. |
-| `specs/protocol-v0.1.md` | SPECIFIED | An independent L1–L3 implementation was built from it | Not frozen. VS-6 must close before it is. |
+| `specs/protocol-v0.1.md` | SPECIFIED | An independent L1–L3 implementation was built from it | Not frozen. VS-6 closed, so nothing now blocks a freeze except the decision to make one. |
 | `specs/invariants.md` | SPECIFIED | 25 invariants, each mapped to an enforcement point and a test or model; `tools/check_invariant_tests.py` confirms all 59 cited tests and 7 cited model invariants exist | The checker verifies that a cited test exists, not that it tests the invariant. That judgement is a review responsibility and has not been independently exercised. |
 | `formal/` | REFERENCE | Three models, exhaustive within stated bounds (15,237, 1,920 and 244 states); two non-vacuity guards | No refinement proof. The models are not extracted from or verified against the Rust; the mirror tests are agreement on specific cases. |
 | `ontology/` | REFERENCE | Generates the taxonomy for three languages from one source; regeneration checked | Regeneration is not yet checked in CI, because there is no CI. |

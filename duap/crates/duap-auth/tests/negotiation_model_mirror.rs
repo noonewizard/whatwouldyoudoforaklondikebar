@@ -37,10 +37,10 @@ fn request_at(secs: u64, expires: u64) -> NegotiationMessage {
         }),
         disclosure: "synthetic: deliver area weather alerts".into(),
         duration_hours: 24,
-        proposed_pricing: Some(PricingRule::PerUnit {
-            unit: Unit::Record,
-            unit_price: Precise::new(Currency::EUR, 100_000),
-        }),
+        proposed_pricing: Some(PricingRule::per_unit(
+            Unit::Record,
+            Precise::new(Currency::EUR, 100_000),
+        )),
         currency: Currency::EUR,
         sent_at: Timestamp::from_secs(secs),
         expires_at: Timestamp::from_secs(expires),

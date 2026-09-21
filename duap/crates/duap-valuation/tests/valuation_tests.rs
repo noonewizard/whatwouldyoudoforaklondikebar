@@ -42,11 +42,8 @@ fn counter(n: u64) -> UsageCounter {
 fn per_unit_pricing_is_exact() {
     let e = PriceEngine::new(Currency::EUR);
     let k = key(DataClass::DerivedAggregate, Unit::Query); // t1, no multipliers above 1
-    let rule = PricingRule::PerUnit {
-        unit: Unit::Query,
-        // 1_250_000 nmu = 0.00125 minor units = 0.0000125 EUR per query.
-        unit_price: Precise::new(Currency::EUR, 1_250_000),
-    };
+    // 1_250_000 nmu = 0.00125 minor units = 0.0000125 EUR per query.
+    let rule = PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 1_250_000));
     let b = e
         .price(&k, &counter(1_000_000), &rule, &PricingInputs::default())
         .unwrap();
@@ -62,10 +59,7 @@ fn per_unit_pricing_is_exact() {
 fn multipliers_are_itemised_and_explainable() {
     let e = PriceEngine::new(Currency::EUR);
     let k = key(DataClass::LocationPrecise, Unit::Query); // t4, reid 92, special category
-    let rule = PricingRule::PerUnit {
-        unit: Unit::Query,
-        unit_price: Precise::new(Currency::EUR, 1_000_000),
-    };
+    let rule = PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 1_000_000));
     let inputs = PricingInputs {
         exclusive: true,
         retention: Some(RetentionPolicy {
@@ -100,10 +94,7 @@ fn multipliers_are_itemised_and_explainable() {
 #[test]
 fn sensitivity_ordering_is_monotone_in_price() {
     let e = PriceEngine::new(Currency::EUR);
-    let rule = PricingRule::PerUnit {
-        unit: Unit::Query,
-        unit_price: Precise::new(Currency::EUR, 1_000_000),
-    };
+    let rule = PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 1_000_000));
     let mut last = 0i128;
     for class in [
         DataClass::SensorEnvironmental,  // t0
@@ -194,10 +185,7 @@ fn revenue_share_needs_declared_revenue() {
 fn unit_mismatch_is_refused() {
     let e = PriceEngine::new(Currency::EUR);
     let k = key(DataClass::DerivedAggregate, Unit::Query);
-    let rule = PricingRule::PerUnit {
-        unit: Unit::Token,
-        unit_price: Precise::new(Currency::EUR, 1),
-    };
+    let rule = PricingRule::per_unit(Unit::Token, Precise::new(Currency::EUR, 1));
     assert!(matches!(
         e.price(&k, &counter(1), &rule, &PricingInputs::default()),
         Err(PricingError::UnitMismatch { .. })
@@ -208,10 +196,7 @@ fn unit_mismatch_is_refused() {
 fn minimum_price_obligation_raises_the_result() {
     let e = PriceEngine::new(Currency::EUR);
     let k = key(DataClass::DerivedAggregate, Unit::Query);
-    let rule = PricingRule::PerUnit {
-        unit: Unit::Query,
-        unit_price: Precise::new(Currency::EUR, 1),
-    };
+    let rule = PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 1));
     let inputs = PricingInputs {
         minimum_unit_price: Some(Precise::new(Currency::EUR, 1_000)),
         ..Default::default()
@@ -276,20 +261,14 @@ fn schedule() -> PricingSchedule {
                 namespace: Some("location".into()),
                 operation: None,
                 purpose: None,
-                rule: PricingRule::PerUnit {
-                    unit: Unit::Query,
-                    unit_price: Precise::new(Currency::EUR, 100),
-                },
+                rule: PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 100)),
             },
             ScheduleEntry {
                 data_class: Some(DataClass::LocationPrecise),
                 namespace: None,
                 operation: None,
                 purpose: None,
-                rule: PricingRule::PerUnit {
-                    unit: Unit::Query,
-                    unit_price: Precise::new(Currency::EUR, 900),
-                },
+                rule: PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 900)),
             },
         ],
         default_rule: Some(PricingRule::Free),
@@ -308,7 +287,7 @@ fn schedule_resolves_most_specific_first() {
     );
     assert!(matches!(
         r,
-        Some(PricingRule::PerUnit { unit_price, .. }) if unit_price.nmu == 900
+        Some(PricingRule::UnitTable { prices }) if prices[0].1.nmu == 900
     ));
     let r = s.resolve(
         DataClass::LocationCoarse,
@@ -317,7 +296,7 @@ fn schedule_resolves_most_specific_first() {
     );
     assert!(matches!(
         r,
-        Some(PricingRule::PerUnit { unit_price, .. }) if unit_price.nmu == 100
+        Some(PricingRule::UnitTable { prices }) if prices[0].1.nmu == 100
     ));
     let r = s.resolve(
         DataClass::ContactEmail,
@@ -335,8 +314,8 @@ fn a_schedule_cannot_be_edited_behind_a_pinned_digest() {
     assert!(reg.get(&d).is_some());
 
     let mut edited = s;
-    if let PricingRule::PerUnit { unit_price, .. } = &mut edited.entries[0].rule {
-        *unit_price = Precise::new(Currency::EUR, 1);
+    if let PricingRule::UnitTable { prices } = &mut edited.entries[0].rule {
+        prices[0].1 = Precise::new(Currency::EUR, 1);
     }
     let d2 = reg.publish(edited).unwrap();
     assert_ne!(d, d2, "editing a schedule must change its digest");
@@ -344,7 +323,7 @@ fn a_schedule_cannot_be_edited_behind_a_pinned_digest() {
     let old = reg.get(&d).unwrap();
     assert!(matches!(
         &old.entries[0].rule,
-        PricingRule::PerUnit { unit_price, .. } if unit_price.nmu == 100
+        PricingRule::UnitTable { prices } if prices[0].1.nmu == 100
     ));
 }
 
@@ -672,7 +651,7 @@ proptest! {
     fn price_is_monotone_in_quantity(a in 1u64..10_000, b in 1u64..10_000) {
         let e = PriceEngine::new(Currency::EUR);
         let k = key(DataClass::LocationCoarse, Unit::Query);
-        let rule = PricingRule::PerUnit { unit: Unit::Query, unit_price: Precise::new(Currency::EUR, 7) };
+        let rule = PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 7));
         let pa = e.price(&k, &counter(a), &rule, &PricingInputs::default()).unwrap();
         let pb = e.price(&k, &counter(b), &rule, &PricingInputs::default()).unwrap();
         if a <= b { prop_assert!(pa.amount.nmu <= pb.amount.nmu); }

@@ -21,7 +21,7 @@ unusual capability or produces a wrong but bounded result), **low**
 | VS-4 | medium | duap-canon | fixed | JSON view required arbitrary-precision parsing for one value |
 | PERF-01 | perf | duap-provenance | fixed | Inclusion-proof generation was O(n) |
 | VS-5 | low | duap-model | open | Pseudonym derivation accepts a salt with no control against a constant one |
-| VS-6 | low | duap-auth | open | Two representations of the same pricing concept |
+| VS-6 | low | duap-model | fixed | Two wire representations of the same pricing concept |
 | VS-7 | low | duap-auth | fixed | `negotiation` referenced a formal model that did not exist |
 | VS-8 | medium | all crates | open | Crate maturity markers claim PRODUCTION without meeting the entry criteria |
 | VS-9 | medium | duap-conformance | fixed | The conformance vectors were not checked by `cargo test` |
@@ -199,19 +199,37 @@ compiler refuses the mistake rather than a reviewer catching it.
 
 **Owner:** `privacy-engineer`. **Status:** open, blocking any SDK release.
 
-## VS-6 — Two representations of one pricing concept (open)
+## VS-6 — Two wire representations of one pricing concept (fixed)
 
 **Found by:** the vertical-slice review of 2026-09-21.
-**Severity:** low now, permanent later. VS-3's fix added
-`PricingRule::UnitTable` alongside the existing single-price rule, and the
-single-price form is expressible as a one-row table. Every consumer must
-handle both, and the conformance vectors must cover both.
+**Severity:** low in effect, permanent if deferred. VS-3's fix added
+`PricingRule::UnitTable` alongside the existing single-price `PerUnit`
+variant, and the single-price form is exactly a one-row table. Every
+consumer had to handle both, the vectors had to cover both, and an
+implementation handling only the common one would still pass most tests.
 
-**Proposed fix:** absorb `PerUnit` into `UnitTable` before the wire format
-is frozen. After freezing, it is permanent.
+The review called this the one item in its list that becomes impossible to
+fix once the wire format freezes.
 
-**Owner:** `economics-engineer`, with `protocol-engineer` for the vectors.
-**Status:** open, must close before the L5 vectors are declared stable.
+**Fix:** ADR-0016. `PerUnit` is deleted; `PricingRule::per_unit(unit,
+price)` constructs a one-row `UnitTable`, so call sites read as before and
+the wire format has one spelling. `unit()` returns `Some(u)` for a
+one-row table, so a former `PerUnit` value answers identically rather than
+merely compiling.
+
+**What the change touched:** the model, the valuation engine, 21
+construction sites, five pattern matches, the L5 vectors, the
+specification's section 5.5, and the demonstration's golden transcript.
+
+**Evidence the change was confined to the encoding:** the conformance
+vector test failed until the vectors were regenerated deliberately, which
+is what it exists for, and the golden transcript moved by exactly two
+lines -- the grant digest and the batch root. Every economic figure is
+unchanged: 8 accepted, 6 refused, 6 receipts, 0.39 EUR invoiced, 0.19 EUR
+subject share, 2.28 EUR settled, trial balance zero. The wire format
+changed and the arithmetic did not.
+
+**Owner:** `economics-engineer`. **Status:** fixed.
 
 ## VS-7 — Speculative machinery in a normative-looking crate (fixed)
 

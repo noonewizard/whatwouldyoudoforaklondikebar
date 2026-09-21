@@ -35,10 +35,7 @@ fn bench(c: &mut Criterion) {
     let e = PriceEngine::new(Currency::EUR);
     let k = key();
     let ct = counter(1000);
-    let rule = PricingRule::PerUnit {
-        unit: Unit::Query,
-        unit_price: Precise::new(Currency::EUR, 12_500),
-    };
+    let rule = PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 12_500));
     let inputs = PricingInputs::default();
     let mut g = c.benchmark_group("valuation");
     g.bench_function("price_per_unit", |b| {

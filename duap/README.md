@@ -53,10 +53,10 @@ let (grant, signed) = subject.authorize(&controller, grant_id, vec![
     Term::permit(1, Matcher::any()
         .classes(ClassSelector::Namespace { namespaces: vec!["location".into()] })
         .purposes(PurposeSelector::Under { roots: vec![Purpose::Service] }))
-        .with_pricing(PricingRule::PerUnit {
-            unit: Unit::Query,
-            unit_price: Precise::new(Currency::EUR, 2_000_000),
-        }),
+        .with_pricing(PricingRule::per_unit(
+            Unit::Query,
+            Precise::new(Currency::EUR, 2_000_000),
+        )),
     Term::deny(2, Matcher::any()
         .purposes(PurposeSelector::Commercial { value: true })),
 ], now, Currency::EUR)?;

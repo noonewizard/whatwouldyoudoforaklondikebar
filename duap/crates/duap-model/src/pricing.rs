@@ -37,22 +37,21 @@ pub enum PricingRule {
     #[serde(rename = "free")]
     Free,
 
-    /// A fixed price per metered unit.
-    #[serde(rename = "per_unit")]
-    PerUnit {
-        #[serde(rename = "u")]
-        unit: Unit,
-        #[serde(rename = "p")]
-        unit_price: Precise,
-    },
-
-    /// Prices for several units at once.
+    /// Prices for one or more metered units.
     ///
     /// A single authorization term routinely covers operations that are
     /// metered differently -- collection in records, querying in queries,
     /// profiling in inferences. Forcing one unit per term either splits
     /// every term several ways or leaves usage unpriced. The table keeps the
     /// term readable and makes the unit coverage explicit.
+    ///
+    /// This is also the representation of a single per-unit price: a
+    /// one-row table. There was once a separate `PerUnit` variant saying
+    /// the same thing, and ADR-0016 removed it before the wire format
+    /// froze, because two spellings of one concept mean every consumer
+    /// handles two cases and an implementation that handles only the
+    /// common one still passes most tests. Use [`PricingRule::per_unit`]
+    /// to build one.
     #[serde(rename = "unit_table")]
     UnitTable {
         /// Ascending by unit code, so the canonical encoding is unique.
@@ -123,14 +122,18 @@ impl PricingRule {
     /// The unit this rule prices, where it prices exactly one.
     pub fn unit(&self) -> Option<Unit> {
         match self {
-            PricingRule::PerUnit { unit, .. }
-            | PricingRule::Tiered { unit, .. }
+            PricingRule::Tiered { unit, .. }
             | PricingRule::Negotiated { unit, .. }
             | PricingRule::Auction { unit, .. } => Some(*unit),
-            PricingRule::Free
-            | PricingRule::RevenueShare { .. }
-            | PricingRule::Schedule { .. }
-            | PricingRule::UnitTable { .. } => None,
+            // A one-row table prices exactly one unit, so it answers here
+            // identically to the `PerUnit` variant ADR-0016 removed.
+            PricingRule::UnitTable { prices } => match prices.as_slice() {
+                [(u, _)] => Some(*u),
+                _ => None,
+            },
+            PricingRule::Free | PricingRule::RevenueShare { .. } | PricingRule::Schedule { .. } => {
+                None
+            }
         }
     }
 
@@ -144,6 +147,16 @@ impl PricingRule {
             PricingRule::Schedule { .. } => true,
             PricingRule::UnitTable { prices } => prices.iter().any(|(u, _)| *u == unit),
             other => other.unit() == Some(unit),
+        }
+    }
+
+    /// A fixed price per metered unit: a one-row [`PricingRule::UnitTable`].
+    ///
+    /// The common case, given its own constructor so call sites read as
+    /// they did before ADR-0016 removed the separate variant.
+    pub fn per_unit(unit: Unit, unit_price: Precise) -> PricingRule {
+        PricingRule::UnitTable {
+            prices: vec![(unit, unit_price)],
         }
     }
 
@@ -195,8 +208,7 @@ impl PricingRule {
                 }
                 Ok(())
             }
-            PricingRule::PerUnit { unit_price, .. }
-            | PricingRule::Negotiated { unit_price, .. } => {
+            PricingRule::Negotiated { unit_price, .. } => {
                 if unit_price.nmu < 0 {
                     return Err(ModelError::Invalid {
                         field: "pricing.unit_price",

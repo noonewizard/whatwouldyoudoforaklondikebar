@@ -195,22 +195,13 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
     // -----------------------------------------------------------------
     // 2. Authorization
     // -----------------------------------------------------------------
-    let _per_query = PricingRule::PerUnit {
-        unit: Unit::Query,
-        unit_price: Precise::new(Currency::EUR, 2_000_000), // 0.002 minor units
-    };
-    let per_record = PricingRule::PerUnit {
-        unit: Unit::Record,
-        unit_price: Precise::new(Currency::EUR, 50_000_000), // 0.05 minor units
-    };
-    let per_inference = PricingRule::PerUnit {
-        unit: Unit::Inference,
-        unit_price: Precise::new(Currency::EUR, 20_000_000),
-    };
-    let per_token = PricingRule::PerUnit {
-        unit: Unit::Token,
-        unit_price: Precise::new(Currency::EUR, 100_000),
-    };
+    // 0.002 minor units per query.
+    let _per_query = PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 2_000_000));
+    // 0.05 minor units per record.
+    let per_record = PricingRule::per_unit(Unit::Record, Precise::new(Currency::EUR, 50_000_000));
+    let per_inference =
+        PricingRule::per_unit(Unit::Inference, Precise::new(Currency::EUR, 20_000_000));
+    let per_token = PricingRule::per_unit(Unit::Token, Precise::new(Currency::EUR, 100_000));
 
     let terms = vec![
         Term::permit(

@@ -8,7 +8,7 @@
       terms=7
       default_effect=Deny
       signers=1
-      digest=sha2-256:f3154c4bafb950f5abeed7fe46ca998a1f8ee36528b06b924314123730c07f50
+      digest=sha2-256:4f5fefb6187aebbb1de15828cc0eefd83882801862f91ab585277a072d8a6079
  3. [collection] Acme collected one coarse-location record under term 1
       unit=record
       commitment=sha2-256:566fffdf057ac01b2a3f09eab76bdfbabcf9f6756cd412f6e6b0de102b004b9e
@@ -42,7 +42,7 @@
       service_after=accepted
       already_trained_model=NOT_UNLEARNED
 13. [accounting] Period closed: 6 receipts, 1 invoice(s), total 0.39 EUR
-      batch_root=sha2-256:b93dd2e7bffd50cb2e644d0a33e4428840b276ad887b804b3895e3b3984fbd25
+      batch_root=sha2-256:bcc9642521491df7c7bc8c83e396d07752e972ca697ca9f78748739c48989b30
       total_charged=0.39 EUR
       subject_share=0.19 EUR
       journal_entries=1

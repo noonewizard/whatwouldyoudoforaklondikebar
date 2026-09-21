@@ -381,10 +381,7 @@ fn a_priced_counter_flows_through_to_an_invoice() {
         evidence_root: Digest::of(HashAlg::Sha2_256, "x", b"y"),
         evidence_size: 100_000,
     };
-    let rule = PricingRule::PerUnit {
-        unit: Unit::Query,
-        unit_price: Precise::new(Currency::EUR, 250_000),
-    };
+    let rule = PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 250_000));
     let bd = engine
         .price(&key, &counter, &rule, &PricingInputs::default())
         .unwrap();

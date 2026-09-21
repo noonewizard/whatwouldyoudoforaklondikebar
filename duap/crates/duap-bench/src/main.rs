@@ -175,10 +175,10 @@ fn build(n: usize) -> Scenario {
                         roots: vec![Purpose::Service],
                     }),
                 )
-                .with_pricing(PricingRule::PerUnit {
-                    unit: Unit::Query,
-                    unit_price: Precise::new(Currency::EUR, 2_000_000),
-                }),
+                .with_pricing(PricingRule::per_unit(
+                    Unit::Query,
+                    Precise::new(Currency::EUR, 2_000_000),
+                )),
                 Term::deny(
                     9,
                     Matcher::any().purposes(PurposeSelector::Commercial { value: true }),

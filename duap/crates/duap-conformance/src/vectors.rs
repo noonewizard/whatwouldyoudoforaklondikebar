@@ -702,20 +702,14 @@ pub fn pricing() -> VectorFile {
             DataClass::DerivedAggregate,
             Unit::Query,
             1_000_000,
-            PricingRule::PerUnit {
-                unit: Unit::Query,
-                unit_price: Precise::new(Currency::EUR, 1_250_000),
-            },
+            PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 1_250_000)),
         ),
         (
             "per_unit_high_sensitivity",
             DataClass::HealthClinical,
             Unit::Query,
             1_000,
-            PricingRule::PerUnit {
-                unit: Unit::Query,
-                unit_price: Precise::new(Currency::EUR, 1_000_000),
-            },
+            PricingRule::per_unit(Unit::Query, Precise::new(Currency::EUR, 1_000_000)),
         ),
         (
             "tiered",

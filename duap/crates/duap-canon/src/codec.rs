@@ -255,7 +255,15 @@ impl<'a> Decoder<'a> {
         let (mt, arg) = self.head()?;
         match mt {
             MT_UINT => Ok(Value::Uint(arg)),
-            MT_NINT => Ok(Value::Nint(arg)),
+            MT_NINT => {
+                if arg > crate::value::Value::MAX_NINT_PAYLOAD {
+                    return Err(CanonError::Unsupported {
+                        at: start,
+                        reason: "negative integers below i64::MIN are outside the DUAP data model",
+                    });
+                }
+                Ok(Value::Nint(arg))
+            }
             MT_BYTES => {
                 let n = self.len_of(arg)?;
                 Ok(Value::Bytes(self.take(n)?.to_vec()))

@@ -15,7 +15,7 @@ fn arb_value() -> impl Strategy<Value = Value> {
         Just(Value::Null),
         any::<bool>().prop_map(Value::Bool),
         any::<u64>().prop_map(Value::Uint),
-        any::<u64>().prop_map(Value::Nint),
+        (0u64..=Value::MAX_NINT_PAYLOAD).prop_map(Value::Nint),
         proptest::collection::vec(any::<u8>(), 0..40).prop_map(Value::Bytes),
         ".{0,40}".prop_map(Value::Text),
     ];
@@ -200,10 +200,14 @@ fn json_view_large_integers() {
     assert_eq!(s, r#"{"$u64":"18446744073709551615"}"#);
     assert_eq!(json::from_json_str(&s).unwrap(), v);
 
-    let v = Value::Nint(u64::MAX); // -(2^64)
+    let v = Value::Nint(Value::MAX_NINT_PAYLOAD); // i64::MIN
     let s = json::to_json_string(&v);
-    assert_eq!(s, r#"{"$n64":"-18446744073709551616"}"#);
+    assert_eq!(s, r#"{"$n64":"-9223372036854775808"}"#);
     assert_eq!(json::from_json_str(&s).unwrap(), v);
+
+    // One step further is outside the model, in both views.
+    assert!(json::from_json_str(r#"{"$n64":"-9223372036854775809"}"#).is_err());
+    assert!(duap_canon::decode(&[0x3b, 0x80, 0, 0, 0, 0, 0, 0, 0]).is_err());
 }
 
 #[test]

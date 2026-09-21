@@ -1,0 +1,467 @@
+{
+  "group": "canonical-encoding",
+  "protocol": "DUAP/1",
+  "description": "Deterministic CBOR encoding, strict decoding, and domain-separated digests.",
+  "vectors": [
+    {
+      "id": "canon/encode/null",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": null
+      },
+      "expect": {
+        "cbor_hex": "f6",
+        "sha2_256_under_test_domain": "sha2-256:6fb44c1674afffae21da31aaab64ddeaed4abd4b0a2a85339334777a7cd9c7d5",
+        "blake3_256_under_test_domain": "blake3-256:26bb64556f0594911b58e5939db922bcd1c19640d24f933808bc17d22c18a812"
+      }
+    },
+    {
+      "id": "canon/encode/true",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": true
+      },
+      "expect": {
+        "cbor_hex": "f5",
+        "sha2_256_under_test_domain": "sha2-256:235471132b07511659cddca32855abebf36cbda5fafe285a8e6a5a1c16099668",
+        "blake3_256_under_test_domain": "blake3-256:a9e806b81377549d11a5be8fe355094765c0096d06e4eda84046837e75fa3875"
+      }
+    },
+    {
+      "id": "canon/encode/zero",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": 0
+      },
+      "expect": {
+        "cbor_hex": "00",
+        "sha2_256_under_test_domain": "sha2-256:9f960696091a34446c85ff4e8a142065e72438bc0af0efba3a41cb25414bc816",
+        "blake3_256_under_test_domain": "blake3-256:d681785d9f14693bffb01a86f4fd94977382ff02f4bcf03584138984273beaa2"
+      }
+    },
+    {
+      "id": "canon/encode/u8_boundary",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": 23
+      },
+      "expect": {
+        "cbor_hex": "17",
+        "sha2_256_under_test_domain": "sha2-256:10516f8d3127e61f6cf77d32e55faf4324308e5b0e90a4ffe1e9f118b41c0786",
+        "blake3_256_under_test_domain": "blake3-256:4be0cce96b640870f2d19f9555a6038cb78ddb2d55fc439578a16c0a3cef4a6b"
+      }
+    },
+    {
+      "id": "canon/encode/u8_boundary_next",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": 24
+      },
+      "expect": {
+        "cbor_hex": "1818",
+        "sha2_256_under_test_domain": "sha2-256:74fff5fc26cc378c5c900fb28cca74bb5de0f6d5e0072a6f4823f6c18c5bc898",
+        "blake3_256_under_test_domain": "blake3-256:06306fcefff29274bfbb02d6fc4b85142215d43e5ececb88dfcfaf60f0e39878"
+      }
+    },
+    {
+      "id": "canon/encode/u16_boundary",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": 256
+      },
+      "expect": {
+        "cbor_hex": "190100",
+        "sha2_256_under_test_domain": "sha2-256:72693e7a2dfbbf08405066eb978e96088da87196117f2f68d97bb4d3718577a7",
+        "blake3_256_under_test_domain": "blake3-256:a3d38ad013d87cba254c90b111a119f18d654d384e4d64e6e06635105331c425"
+      }
+    },
+    {
+      "id": "canon/encode/u32_boundary",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": 65536
+      },
+      "expect": {
+        "cbor_hex": "1a00010000",
+        "sha2_256_under_test_domain": "sha2-256:26aa58ea4a092dfd01b06e98482fe0ece750396e95af5f4efcb4688b392b760f",
+        "blake3_256_under_test_domain": "blake3-256:d8554dd32d5827486bd2524411383e53673a507a7dce569d324748b5b95754f7"
+      }
+    },
+    {
+      "id": "canon/encode/u64_boundary",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": 4294967296
+      },
+      "expect": {
+        "cbor_hex": "1b0000000100000000",
+        "sha2_256_under_test_domain": "sha2-256:1eafb98f08df9ce9d6c5877e811d3488fbd2908b22dec9fd6453756117134e35",
+        "blake3_256_under_test_domain": "blake3-256:f462b370af552056b3531725da668728da997efb5f7ac11e75521d08be16092e"
+      }
+    },
+    {
+      "id": "canon/encode/u64_max",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": {
+          "$u64": "18446744073709551615"
+        }
+      },
+      "expect": {
+        "cbor_hex": "1bffffffffffffffff",
+        "sha2_256_under_test_domain": "sha2-256:01858299e9dd439d4d7e9ae6250bc2bebcf9988dfde614bfc2efe4f48c2f7d63",
+        "blake3_256_under_test_domain": "blake3-256:0e8b62d1c52d405f86cf9f28db11680f685ad79034ec91c1aa5774f29947146b"
+      }
+    },
+    {
+      "id": "canon/encode/neg_one",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": -1
+      },
+      "expect": {
+        "cbor_hex": "20",
+        "sha2_256_under_test_domain": "sha2-256:decb77f497eb40e03f48b923878747967e754e06ad6abf52c314c64800e33fad",
+        "blake3_256_under_test_domain": "blake3-256:3b4603477d0f38fffde07363f60330be74f358d1e7ed43b6b2d8d8b5e03f1e6d"
+      }
+    },
+    {
+      "id": "canon/encode/neg_i64_min",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": {
+          "$n64": "-9223372036854775808"
+        }
+      },
+      "expect": {
+        "cbor_hex": "3b7fffffffffffffff",
+        "sha2_256_under_test_domain": "sha2-256:fac99117b451d8e8f92ab751802e7680b1ef3c3954772b9ff080124a3b21caef",
+        "blake3_256_under_test_domain": "blake3-256:fb9e6556088eb8a2a910741bfeb047be52305a741ca9786169cc4edf58efaba4"
+      }
+    },
+    {
+      "id": "canon/encode/empty_text",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": ""
+      },
+      "expect": {
+        "cbor_hex": "60",
+        "sha2_256_under_test_domain": "sha2-256:23da5dc81af39434532ecc70f87c0c6d621a9ed59246b3474a8bdc9b758342a2",
+        "blake3_256_under_test_domain": "blake3-256:6e21f409bc9a41b7a844c1ba81aaa599e43c7086f4fa425fbd70fc916cfd353a"
+      }
+    },
+    {
+      "id": "canon/encode/ascii_text",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": "location.precise"
+      },
+      "expect": {
+        "cbor_hex": "706c6f636174696f6e2e70726563697365",
+        "sha2_256_under_test_domain": "sha2-256:08f82cb38e24dad4fe926fd11919d6112c0868a7f31827067bdcf6e1c451f933",
+        "blake3_256_under_test_domain": "blake3-256:651d14bf41fc4ed8e4b6747495310b1be52ff0298f29db395e4df940c5b66865"
+      }
+    },
+    {
+      "id": "canon/encode/unicode_text",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": "Grüße, 世界, 🔒"
+      },
+      "expect": {
+        "cbor_hex": "754772c3bcc39f652c20e4b896e7958c2c20f09f9492",
+        "sha2_256_under_test_domain": "sha2-256:6c7400f06f01fae746641a1e530c5a8d21886eeef814c5d19e75efccd6f90908",
+        "blake3_256_under_test_domain": "blake3-256:569a0faa06167a89772f2c2210a78b8364bdec06e29593f34263de3699dc3f9c"
+      }
+    },
+    {
+      "id": "canon/encode/empty_bytes",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": {
+          "$b64": ""
+        }
+      },
+      "expect": {
+        "cbor_hex": "40",
+        "sha2_256_under_test_domain": "sha2-256:9df0736abea3280c54b6689aad82aa0fde5128fe3a150bce60df701443fe3aa3",
+        "blake3_256_under_test_domain": "blake3-256:e14c2b6c3ddc2377b29dc379951068ab535e37539928c3099985286a21d1daf1"
+      }
+    },
+    {
+      "id": "canon/encode/bytes",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": {
+          "$b64": "AP9_gA"
+        }
+      },
+      "expect": {
+        "cbor_hex": "4400ff7f80",
+        "sha2_256_under_test_domain": "sha2-256:d467130d8b14a9b83c6c4b6b4df1b858796be79d04b82ed0ce89c9dc7b22acf3",
+        "blake3_256_under_test_domain": "blake3-256:f10e369f8887f585d57ebacf17197ceccc2d1d4c393531977a68e74f9a6fc3af"
+      }
+    },
+    {
+      "id": "canon/encode/empty_array",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": []
+      },
+      "expect": {
+        "cbor_hex": "80",
+        "sha2_256_under_test_domain": "sha2-256:511251d38d0033c9f66849f002b564cf493ab0b5b23a6be1f491147a2224128c",
+        "blake3_256_under_test_domain": "blake3-256:5704a4ec27f70280729cf5c070d967a832697a49129beccbdb339cfefcca4343"
+      }
+    },
+    {
+      "id": "canon/encode/nested_array",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": [
+          1,
+          [
+            2
+          ]
+        ]
+      },
+      "expect": {
+        "cbor_hex": "82018102",
+        "sha2_256_under_test_domain": "sha2-256:0337bdff0fec851892b29d46582315b25d2ad5293951089e678a55dd96373bcd",
+        "blake3_256_under_test_domain": "blake3-256:09521143363928221ab0d4325977364d53e005b5becc35afcce78955bbcaff4a"
+      }
+    },
+    {
+      "id": "canon/encode/empty_map",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": {}
+      },
+      "expect": {
+        "cbor_hex": "a0",
+        "sha2_256_under_test_domain": "sha2-256:7978c89523f5788bdd1a1f03c2bd1dec538be68a6d08d8e0bfdca23728d640aa",
+        "blake3_256_under_test_domain": "blake3-256:994196d985699719506a58b032a2eaec817a054284c92db93d4078e25827e4a5"
+      }
+    },
+    {
+      "id": "canon/encode/map_key_order",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": {
+          "a": 2,
+          "b": 4,
+          "zz": 1,
+          "bbb": 3
+        }
+      },
+      "expect": {
+        "cbor_hex": "a4616102616204627a7a016362626203",
+        "sha2_256_under_test_domain": "sha2-256:2f7cc06908d15836c7442c3f320ab65fdb1119a712e4da2c9c471c50f9cad153",
+        "blake3_256_under_test_domain": "blake3-256:bd5131d3513228c35f77e7290ee940709d3943f8b62c346ba172c3eb493cb5b5"
+      }
+    },
+    {
+      "id": "canon/encode/dollar_key",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": {
+          "$$b64": "literal, not a marker"
+        }
+      },
+      "expect": {
+        "cbor_hex": "a16424623634756c69746572616c2c206e6f742061206d61726b6572",
+        "sha2_256_under_test_domain": "sha2-256:f0b0ba3b0d59ed6de2d92fe32c8c93e90f056542687207d6d0a92e03a092dfff",
+        "blake3_256_under_test_domain": "blake3-256:53f997fce09c89b75ffeb8144c21f81cbf364f9d36922dc48581c8568fdb67e2"
+      }
+    },
+    {
+      "id": "canon/encode/deep",
+      "level": "L1",
+      "requirement": "encode the JSON-view input to exactly these canonical CBOR bytes, and decode those bytes back to the same value",
+      "input": {
+        "json_view": {
+          "a": {
+            "b": [
+              {
+                "c": {
+                  "$b64": "AQID"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "expect": {
+        "cbor_hex": "a16161a1616281a1616343010203",
+        "sha2_256_under_test_domain": "sha2-256:88f01246566f995de40997f1114bb5df8b854fa8b0342f30fcf0a65f98646e27",
+        "blake3_256_under_test_domain": "blake3-256:7ee9a46d97bf4bf163e628628b9f357cfc398aa8b6e181edefc57e75b7f37304"
+      }
+    },
+    {
+      "id": "canon/reject/non_shortest_uint",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "1805"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "uint(5) must encode as 0x05"
+      }
+    },
+    {
+      "id": "canon/reject/indefinite_array",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "9f01ff"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "indefinite lengths are rejected"
+      }
+    },
+    {
+      "id": "canon/reject/float32",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "fa47c35000"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "floats are outside the data model"
+      }
+    },
+    {
+      "id": "canon/reject/float16",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "f93c00"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "floats are outside the data model"
+      }
+    },
+    {
+      "id": "canon/reject/tag0",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "c06161"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "tags are outside the data model"
+      }
+    },
+    {
+      "id": "canon/reject/int_map_key",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "a10102"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "map keys must be text"
+      }
+    },
+    {
+      "id": "canon/reject/duplicate_key",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "a2616101616102"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "duplicate keys are rejected"
+      }
+    },
+    {
+      "id": "canon/reject/unsorted_keys",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "a2616201616102"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "map keys must be in canonical order"
+      }
+    },
+    {
+      "id": "canon/reject/length_first_violation",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "a262616101616202"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "canonical order is length-first"
+      }
+    },
+    {
+      "id": "canon/reject/undefined",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "f7"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "undefined is outside the data model"
+      }
+    },
+    {
+      "id": "canon/reject/trailing_bytes",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "0102"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "trailing data is rejected"
+      }
+    },
+    {
+      "id": "canon/reject/truncated",
+      "level": "L1",
+      "requirement": "reject these bytes as non-canonical or outside the data model",
+      "input": {
+        "cbor_hex": "6261"
+      },
+      "expect": {
+        "decodes": false,
+        "because": "truncated input is rejected"
+      }
+    }
+  ]
+}

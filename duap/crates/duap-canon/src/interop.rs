@@ -29,9 +29,18 @@ pub fn from_ciborium(v: &ciborium::Value) -> Result<Value> {
                     CanonError::OutOfModel("integer exceeds 64-bit CBOR range".into())
                 })?)
             } else {
-                Value::Nint(u64::try_from(-1 - n).map_err(|_| {
-                    CanonError::OutOfModel("integer exceeds 64-bit CBOR range".into())
-                })?)
+                {
+                    let payload = u64::try_from(-1 - n).map_err(|_| {
+                        CanonError::OutOfModel("integer exceeds 64-bit CBOR range".into())
+                    })?;
+                    if payload > Value::MAX_NINT_PAYLOAD {
+                        return Err(CanonError::OutOfModel(
+                            "negative integers below i64::MIN are outside the DUAP data model"
+                                .into(),
+                        ));
+                    }
+                    Value::Nint(payload)
+                }
             }
         }
         C::Bytes(b) => Value::Bytes(b.clone()),

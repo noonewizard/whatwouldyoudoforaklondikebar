@@ -13,6 +13,7 @@ members = [
     "crates/duap-clearing",
     "crates/duap-sdk",
     "crates/duap-demo",
+    "crates/duap-conformance",
 ]
 
 [workspace.package]

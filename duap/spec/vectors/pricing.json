@@ -1,0 +1,263 @@
+{
+  "group": "pricing",
+  "protocol": "DUAP/1",
+  "description": "Deterministic pricing arithmetic, rounding and apportionment.",
+  "vectors": [
+    {
+      "id": "price/per_unit_low_tier",
+      "level": "L5",
+      "requirement": "price this usage to exactly this amount, and round it to exactly this money",
+      "input": {
+        "data_class": "derived.aggregate",
+        "unit": "query",
+        "quantity": 1000000,
+        "rule": {
+          "k": "per_unit",
+          "u": "query",
+          "p": {
+            "currency": {
+              "code": [
+                69,
+                85,
+                82
+              ],
+              "exponent": 2
+            },
+            "nmu": "1250000"
+          }
+        },
+        "currency": "EUR"
+      },
+      "expect": {
+        "combined_factor": "1",
+        "amount_nmu": "1250000000000",
+        "rounded_minor": "1250",
+        "residue_nmu": "0",
+        "multipliers": [
+          {
+            "name": "sensitivity",
+            "factor": {
+              "n": "1",
+              "d": 1
+            },
+            "because": "tier t1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "price/per_unit_high_sensitivity",
+      "level": "L5",
+      "requirement": "price this usage to exactly this amount, and round it to exactly this money",
+      "input": {
+        "data_class": "health.clinical",
+        "unit": "query",
+        "quantity": 1000,
+        "rule": {
+          "k": "per_unit",
+          "u": "query",
+          "p": {
+            "currency": {
+              "code": [
+                69,
+                85,
+                82
+              ],
+              "exponent": 2
+            },
+            "nmu": "1000000"
+          }
+        },
+        "currency": "EUR"
+      },
+      "expect": {
+        "combined_factor": "583443/40000",
+        "amount_nmu": "14586075000",
+        "rounded_minor": "15",
+        "residue_nmu": "-413925000",
+        "multipliers": [
+          {
+            "name": "sensitivity",
+            "factor": {
+              "n": "8",
+              "d": 1
+            },
+            "because": "tier t4"
+          },
+          {
+            "name": "reidentification",
+            "factor": {
+              "n": "194481",
+              "d": 160000
+            },
+            "because": "re-identification prior 94 (4 steps above 50)"
+          },
+          {
+            "name": "special_category",
+            "factor": {
+              "n": "3",
+              "d": 2
+            },
+            "because": "tagged special category by gdpr.art9, us.hipaa.phi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "price/tiered",
+      "level": "L5",
+      "requirement": "price this usage to exactly this amount, and round it to exactly this money",
+      "input": {
+        "data_class": "derived.aggregate",
+        "unit": "record",
+        "quantity": 15000,
+        "rule": {
+          "k": "tiered",
+          "u": "record",
+          "t": [
+            {
+              "u": 1000,
+              "p": {
+                "currency": {
+                  "code": [
+                    69,
+                    85,
+                    82
+                  ],
+                  "exponent": 2
+                },
+                "nmu": "1000000"
+              }
+            },
+            {
+              "u": 10000,
+              "p": {
+                "currency": {
+                  "code": [
+                    69,
+                    85,
+                    82
+                  ],
+                  "exponent": 2
+                },
+                "nmu": "500000"
+              }
+            },
+            {
+              "p": {
+                "currency": {
+                  "code": [
+                    69,
+                    85,
+                    82
+                  ],
+                  "exponent": 2
+                },
+                "nmu": "100000"
+              }
+            }
+          ]
+        },
+        "currency": "EUR"
+      },
+      "expect": {
+        "combined_factor": "1",
+        "amount_nmu": "6000000000",
+        "rounded_minor": "6",
+        "residue_nmu": "0",
+        "multipliers": [
+          {
+            "name": "sensitivity",
+            "factor": {
+              "n": "1",
+              "d": 1
+            },
+            "because": "tier t1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "price/unit_table",
+      "level": "L5",
+      "requirement": "price this usage to exactly this amount, and round it to exactly this money",
+      "input": {
+        "data_class": "location.coarse",
+        "unit": "record",
+        "quantity": 40,
+        "rule": {
+          "k": "unit_table",
+          "p": [
+            [
+              "query",
+              {
+                "currency": {
+                  "code": [
+                    69,
+                    85,
+                    82
+                  ],
+                  "exponent": 2
+                },
+                "nmu": "2000000"
+              }
+            ],
+            [
+              "record",
+              {
+                "currency": {
+                  "code": [
+                    69,
+                    85,
+                    82
+                  ],
+                  "exponent": 2
+                },
+                "nmu": "30000000"
+              }
+            ]
+          ]
+        },
+        "currency": "EUR"
+      },
+      "expect": {
+        "combined_factor": "2",
+        "amount_nmu": "2400000000",
+        "rounded_minor": "2",
+        "residue_nmu": "400000000",
+        "multipliers": [
+          {
+            "name": "sensitivity",
+            "factor": {
+              "n": "2",
+              "d": 1
+            },
+            "because": "tier t2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "price/distribute-sevenths",
+      "level": "L5",
+      "requirement": "apportion the pool so the parts sum exactly to the whole",
+      "input": {
+        "pool_minor": 1000,
+        "recipients": 7,
+        "share": "1/7"
+      },
+      "expect": {
+        "amounts": [
+          "143",
+          "143",
+          "143",
+          "143",
+          "143",
+          "143",
+          "142"
+        ],
+        "residual_minor": "0"
+      }
+    }
+  ]
+}

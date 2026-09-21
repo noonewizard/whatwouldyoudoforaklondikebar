@@ -33,6 +33,14 @@ pub enum Value {
     /// CBOR major type 0: 0 ..= 2^64-1.
     Uint(u64),
     /// CBOR major type 1. The payload `n` encodes the value `-1 - n`.
+    ///
+    /// Restricted to `n <= i64::MAX`, so every negative value in the model
+    /// fits an `i64`. Full CBOR allows `n` up to `2^64-1`, i.e. values down
+    /// to `-2^64`, but nothing in DUAP uses a value below `-2^63` and
+    /// supporting it forces every implementation to reach for
+    /// arbitrary-precision arithmetic to parse one JSON-view edge case. An
+    /// independent Go implementation hit exactly that; see
+    /// `docs/reviews/vertical-slice-review.md` finding VS-4.
     Nint(u64),
     /// CBOR major type 2 (definite length only).
     Bytes(Vec<u8>),
@@ -57,6 +65,10 @@ impl Value {
             _ => None,
         }
     }
+
+    /// Largest permitted `Nint` payload: the model's most negative value is
+    /// `-1 - MAX_NINT_PAYLOAD == i64::MIN`.
+    pub const MAX_NINT_PAYLOAD: u64 = i64::MAX as u64;
 
     /// Build an integer value from any signed integer.
     pub fn int(v: i64) -> Value {
@@ -220,9 +232,12 @@ impl<'de> serde::de::Visitor<'de> for ValueVisitor {
                 .map(Value::Uint)
                 .map_err(|_| E::custom("integer exceeds the 64-bit CBOR range"))
         } else {
-            u64::try_from(-1 - v)
-                .map(Value::Nint)
-                .map_err(|_| E::custom("integer exceeds the 64-bit CBOR range"))
+            match u64::try_from(-1 - v) {
+                Ok(n) if n <= Value::MAX_NINT_PAYLOAD => Ok(Value::Nint(n)),
+                _ => Err(E::custom(
+                    "negative integer is outside the DUAP data model (below i64::MIN)",
+                )),
+            }
         }
     }
 

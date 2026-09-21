@@ -172,6 +172,11 @@ pub fn from_json(j: &J) -> Result<Value> {
                         let n = u64::try_from(-1 - i).map_err(|_| {
                             CanonError::JsonView(format!("{M_N64} literal {s:?} out of range"))
                         })?;
+                        if n > crate::value::Value::MAX_NINT_PAYLOAD {
+                            return Err(CanonError::JsonView(format!(
+                                "{M_N64} literal {s:?} is below i64::MIN, outside the data model"
+                            )));
+                        }
                         return Ok(Value::Nint(n));
                     }
                     (M_B64 | M_U64 | M_N64, other) => {

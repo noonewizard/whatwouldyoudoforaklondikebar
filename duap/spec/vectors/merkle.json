@@ -1,0 +1,546 @@
+{
+  "group": "merkle",
+  "protocol": "DUAP/1",
+  "description": "RFC 6962 tree heads, inclusion proofs and consistency proofs.",
+  "vectors": [
+    {
+      "id": "merkle/root/0",
+      "level": "L3",
+      "requirement": "compute this Merkle tree head over the given leaf payloads",
+      "input": {
+        "leaves": [],
+        "alg": "sha2-256"
+      },
+      "expect": {
+        "root": "sha2-256:fb24221c9525ec387946112a04a91a060cb70bc370a78ea7e0be368e8c6b0b93"
+      }
+    },
+    {
+      "id": "merkle/root/1",
+      "level": "L3",
+      "requirement": "compute this Merkle tree head over the given leaf payloads",
+      "input": {
+        "leaves": [
+          "leaf-0"
+        ],
+        "alg": "sha2-256"
+      },
+      "expect": {
+        "root": "sha2-256:e0f0157d2c1bb135c91fbc56b2ed0af62d54cedbf9e9eb3c6e6ebed78464bdf1"
+      }
+    },
+    {
+      "id": "merkle/inclusion/1",
+      "level": "L3",
+      "requirement": "verify this inclusion proof against the root",
+      "input": {
+        "leaf_payload": "leaf-0",
+        "index": 0,
+        "size": 1,
+        "path": []
+      },
+      "expect": {
+        "root": "sha2-256:e0f0157d2c1bb135c91fbc56b2ed0af62d54cedbf9e9eb3c6e6ebed78464bdf1",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/root/2",
+      "level": "L3",
+      "requirement": "compute this Merkle tree head over the given leaf payloads",
+      "input": {
+        "leaves": [
+          "leaf-0",
+          "leaf-1"
+        ],
+        "alg": "sha2-256"
+      },
+      "expect": {
+        "root": "sha2-256:549825b4b4240d2ca835175887158dcb459de0337fc658971a02a7bb5778ee9f"
+      }
+    },
+    {
+      "id": "merkle/inclusion/2",
+      "level": "L3",
+      "requirement": "verify this inclusion proof against the root",
+      "input": {
+        "leaf_payload": "leaf-1",
+        "index": 1,
+        "size": 2,
+        "path": [
+          "sha2-256:e0f0157d2c1bb135c91fbc56b2ed0af62d54cedbf9e9eb3c6e6ebed78464bdf1"
+        ]
+      },
+      "expect": {
+        "root": "sha2-256:549825b4b4240d2ca835175887158dcb459de0337fc658971a02a7bb5778ee9f",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/consistency/2",
+      "level": "L3",
+      "requirement": "verify this consistency proof between the two tree heads",
+      "input": {
+        "old_size": 1,
+        "new_size": 2,
+        "path": [
+          "sha2-256:b64134fe99f5a1c0a002f091eb03f9cb97d12f3e606f28ca6f60eb8562fbf7f4"
+        ]
+      },
+      "expect": {
+        "old_root": "sha2-256:e0f0157d2c1bb135c91fbc56b2ed0af62d54cedbf9e9eb3c6e6ebed78464bdf1",
+        "new_root": "sha2-256:549825b4b4240d2ca835175887158dcb459de0337fc658971a02a7bb5778ee9f",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/root/3",
+      "level": "L3",
+      "requirement": "compute this Merkle tree head over the given leaf payloads",
+      "input": {
+        "leaves": [
+          "leaf-0",
+          "leaf-1",
+          "leaf-2"
+        ],
+        "alg": "sha2-256"
+      },
+      "expect": {
+        "root": "sha2-256:4a7353c7ee33ba21d96b689562e1710657b2f5f883a9f6b9b9c98ac0726f0059"
+      }
+    },
+    {
+      "id": "merkle/inclusion/3",
+      "level": "L3",
+      "requirement": "verify this inclusion proof against the root",
+      "input": {
+        "leaf_payload": "leaf-1",
+        "index": 1,
+        "size": 3,
+        "path": [
+          "sha2-256:e0f0157d2c1bb135c91fbc56b2ed0af62d54cedbf9e9eb3c6e6ebed78464bdf1",
+          "sha2-256:d1ee37de98763c9873f001e29b6c8986aaf1d3f89017084eb708b5407cecc1b1"
+        ]
+      },
+      "expect": {
+        "root": "sha2-256:4a7353c7ee33ba21d96b689562e1710657b2f5f883a9f6b9b9c98ac0726f0059",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/consistency/3",
+      "level": "L3",
+      "requirement": "verify this consistency proof between the two tree heads",
+      "input": {
+        "old_size": 1,
+        "new_size": 3,
+        "path": [
+          "sha2-256:b64134fe99f5a1c0a002f091eb03f9cb97d12f3e606f28ca6f60eb8562fbf7f4",
+          "sha2-256:d1ee37de98763c9873f001e29b6c8986aaf1d3f89017084eb708b5407cecc1b1"
+        ]
+      },
+      "expect": {
+        "old_root": "sha2-256:e0f0157d2c1bb135c91fbc56b2ed0af62d54cedbf9e9eb3c6e6ebed78464bdf1",
+        "new_root": "sha2-256:4a7353c7ee33ba21d96b689562e1710657b2f5f883a9f6b9b9c98ac0726f0059",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/root/4",
+      "level": "L3",
+      "requirement": "compute this Merkle tree head over the given leaf payloads",
+      "input": {
+        "leaves": [
+          "leaf-0",
+          "leaf-1",
+          "leaf-2",
+          "leaf-3"
+        ],
+        "alg": "sha2-256"
+      },
+      "expect": {
+        "root": "sha2-256:faad630a6e8036ef3260cff8f909cc31e08b93510fb826e8431b81d1827b99ea"
+      }
+    },
+    {
+      "id": "merkle/inclusion/4",
+      "level": "L3",
+      "requirement": "verify this inclusion proof against the root",
+      "input": {
+        "leaf_payload": "leaf-2",
+        "index": 2,
+        "size": 4,
+        "path": [
+          "sha2-256:e541c41d14c1aa3d079e983efbc67d3d4b2791c818f470cb1aa262a794969b0e",
+          "sha2-256:549825b4b4240d2ca835175887158dcb459de0337fc658971a02a7bb5778ee9f"
+        ]
+      },
+      "expect": {
+        "root": "sha2-256:faad630a6e8036ef3260cff8f909cc31e08b93510fb826e8431b81d1827b99ea",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/consistency/4",
+      "level": "L3",
+      "requirement": "verify this consistency proof between the two tree heads",
+      "input": {
+        "old_size": 2,
+        "new_size": 4,
+        "path": [
+          "sha2-256:f14bf9aab32827321e61f38f930c45e80992a547e9eb9f10f852e9e2f2e05a79"
+        ]
+      },
+      "expect": {
+        "old_root": "sha2-256:549825b4b4240d2ca835175887158dcb459de0337fc658971a02a7bb5778ee9f",
+        "new_root": "sha2-256:faad630a6e8036ef3260cff8f909cc31e08b93510fb826e8431b81d1827b99ea",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/root/5",
+      "level": "L3",
+      "requirement": "compute this Merkle tree head over the given leaf payloads",
+      "input": {
+        "leaves": [
+          "leaf-0",
+          "leaf-1",
+          "leaf-2",
+          "leaf-3",
+          "leaf-4"
+        ],
+        "alg": "sha2-256"
+      },
+      "expect": {
+        "root": "sha2-256:560a1317691926ac4195838145b975be9131f58e40167b55fa294a66a7c058cf"
+      }
+    },
+    {
+      "id": "merkle/inclusion/5",
+      "level": "L3",
+      "requirement": "verify this inclusion proof against the root",
+      "input": {
+        "leaf_payload": "leaf-2",
+        "index": 2,
+        "size": 5,
+        "path": [
+          "sha2-256:e541c41d14c1aa3d079e983efbc67d3d4b2791c818f470cb1aa262a794969b0e",
+          "sha2-256:549825b4b4240d2ca835175887158dcb459de0337fc658971a02a7bb5778ee9f",
+          "sha2-256:392149c4bdb9f0a45cc22ad2b1ec8d1859a50506953f3f138cd2e36181088969"
+        ]
+      },
+      "expect": {
+        "root": "sha2-256:560a1317691926ac4195838145b975be9131f58e40167b55fa294a66a7c058cf",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/consistency/5",
+      "level": "L3",
+      "requirement": "verify this consistency proof between the two tree heads",
+      "input": {
+        "old_size": 2,
+        "new_size": 5,
+        "path": [
+          "sha2-256:f14bf9aab32827321e61f38f930c45e80992a547e9eb9f10f852e9e2f2e05a79",
+          "sha2-256:392149c4bdb9f0a45cc22ad2b1ec8d1859a50506953f3f138cd2e36181088969"
+        ]
+      },
+      "expect": {
+        "old_root": "sha2-256:549825b4b4240d2ca835175887158dcb459de0337fc658971a02a7bb5778ee9f",
+        "new_root": "sha2-256:560a1317691926ac4195838145b975be9131f58e40167b55fa294a66a7c058cf",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/root/7",
+      "level": "L3",
+      "requirement": "compute this Merkle tree head over the given leaf payloads",
+      "input": {
+        "leaves": [
+          "leaf-0",
+          "leaf-1",
+          "leaf-2",
+          "leaf-3",
+          "leaf-4",
+          "leaf-5",
+          "leaf-6"
+        ],
+        "alg": "sha2-256"
+      },
+      "expect": {
+        "root": "sha2-256:0caedb63faad3f4f2c3f567b6683665a153702c07e69abb183048d0ca9e1271d"
+      }
+    },
+    {
+      "id": "merkle/inclusion/7",
+      "level": "L3",
+      "requirement": "verify this inclusion proof against the root",
+      "input": {
+        "leaf_payload": "leaf-3",
+        "index": 3,
+        "size": 7,
+        "path": [
+          "sha2-256:d1ee37de98763c9873f001e29b6c8986aaf1d3f89017084eb708b5407cecc1b1",
+          "sha2-256:549825b4b4240d2ca835175887158dcb459de0337fc658971a02a7bb5778ee9f",
+          "sha2-256:dc4c115455faa18fd97390f22eecd67621586bffc274914b0127da59d71d788e"
+        ]
+      },
+      "expect": {
+        "root": "sha2-256:0caedb63faad3f4f2c3f567b6683665a153702c07e69abb183048d0ca9e1271d",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/consistency/7",
+      "level": "L3",
+      "requirement": "verify this consistency proof between the two tree heads",
+      "input": {
+        "old_size": 3,
+        "new_size": 7,
+        "path": [
+          "sha2-256:d1ee37de98763c9873f001e29b6c8986aaf1d3f89017084eb708b5407cecc1b1",
+          "sha2-256:e541c41d14c1aa3d079e983efbc67d3d4b2791c818f470cb1aa262a794969b0e",
+          "sha2-256:549825b4b4240d2ca835175887158dcb459de0337fc658971a02a7bb5778ee9f",
+          "sha2-256:dc4c115455faa18fd97390f22eecd67621586bffc274914b0127da59d71d788e"
+        ]
+      },
+      "expect": {
+        "old_root": "sha2-256:4a7353c7ee33ba21d96b689562e1710657b2f5f883a9f6b9b9c98ac0726f0059",
+        "new_root": "sha2-256:0caedb63faad3f4f2c3f567b6683665a153702c07e69abb183048d0ca9e1271d",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/root/8",
+      "level": "L3",
+      "requirement": "compute this Merkle tree head over the given leaf payloads",
+      "input": {
+        "leaves": [
+          "leaf-0",
+          "leaf-1",
+          "leaf-2",
+          "leaf-3",
+          "leaf-4",
+          "leaf-5",
+          "leaf-6",
+          "leaf-7"
+        ],
+        "alg": "sha2-256"
+      },
+      "expect": {
+        "root": "sha2-256:d778a5b3c7fa5cf6920073ab0e56d2af68ee8cf320476d8432b22a2add7c4bec"
+      }
+    },
+    {
+      "id": "merkle/inclusion/8",
+      "level": "L3",
+      "requirement": "verify this inclusion proof against the root",
+      "input": {
+        "leaf_payload": "leaf-4",
+        "index": 4,
+        "size": 8,
+        "path": [
+          "sha2-256:f4e480067cd4c97b4fc924c2a6bc688dc754315457b5019e7d1f81dcf3876604",
+          "sha2-256:4a65c40693a114c8f194bae22eb83819243b3c77a26c86bc55982709ce19933d",
+          "sha2-256:faad630a6e8036ef3260cff8f909cc31e08b93510fb826e8431b81d1827b99ea"
+        ]
+      },
+      "expect": {
+        "root": "sha2-256:d778a5b3c7fa5cf6920073ab0e56d2af68ee8cf320476d8432b22a2add7c4bec",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/consistency/8",
+      "level": "L3",
+      "requirement": "verify this consistency proof between the two tree heads",
+      "input": {
+        "old_size": 4,
+        "new_size": 8,
+        "path": [
+          "sha2-256:bf253127ed50bdeaf30a864dd7ddb5c27d159f13c326133bf3eba3a71d69cc3d"
+        ]
+      },
+      "expect": {
+        "old_root": "sha2-256:faad630a6e8036ef3260cff8f909cc31e08b93510fb826e8431b81d1827b99ea",
+        "new_root": "sha2-256:d778a5b3c7fa5cf6920073ab0e56d2af68ee8cf320476d8432b22a2add7c4bec",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/root/100",
+      "level": "L3",
+      "requirement": "compute this Merkle tree head over the given leaf payloads",
+      "input": {
+        "leaves": [
+          "leaf-0",
+          "leaf-1",
+          "leaf-2",
+          "leaf-3",
+          "leaf-4",
+          "leaf-5",
+          "leaf-6",
+          "leaf-7",
+          "leaf-8",
+          "leaf-9",
+          "leaf-10",
+          "leaf-11",
+          "leaf-12",
+          "leaf-13",
+          "leaf-14",
+          "leaf-15",
+          "leaf-16",
+          "leaf-17",
+          "leaf-18",
+          "leaf-19",
+          "leaf-20",
+          "leaf-21",
+          "leaf-22",
+          "leaf-23",
+          "leaf-24",
+          "leaf-25",
+          "leaf-26",
+          "leaf-27",
+          "leaf-28",
+          "leaf-29",
+          "leaf-30",
+          "leaf-31",
+          "leaf-32",
+          "leaf-33",
+          "leaf-34",
+          "leaf-35",
+          "leaf-36",
+          "leaf-37",
+          "leaf-38",
+          "leaf-39",
+          "leaf-40",
+          "leaf-41",
+          "leaf-42",
+          "leaf-43",
+          "leaf-44",
+          "leaf-45",
+          "leaf-46",
+          "leaf-47",
+          "leaf-48",
+          "leaf-49",
+          "leaf-50",
+          "leaf-51",
+          "leaf-52",
+          "leaf-53",
+          "leaf-54",
+          "leaf-55",
+          "leaf-56",
+          "leaf-57",
+          "leaf-58",
+          "leaf-59",
+          "leaf-60",
+          "leaf-61",
+          "leaf-62",
+          "leaf-63",
+          "leaf-64",
+          "leaf-65",
+          "leaf-66",
+          "leaf-67",
+          "leaf-68",
+          "leaf-69",
+          "leaf-70",
+          "leaf-71",
+          "leaf-72",
+          "leaf-73",
+          "leaf-74",
+          "leaf-75",
+          "leaf-76",
+          "leaf-77",
+          "leaf-78",
+          "leaf-79",
+          "leaf-80",
+          "leaf-81",
+          "leaf-82",
+          "leaf-83",
+          "leaf-84",
+          "leaf-85",
+          "leaf-86",
+          "leaf-87",
+          "leaf-88",
+          "leaf-89",
+          "leaf-90",
+          "leaf-91",
+          "leaf-92",
+          "leaf-93",
+          "leaf-94",
+          "leaf-95",
+          "leaf-96",
+          "leaf-97",
+          "leaf-98",
+          "leaf-99"
+        ],
+        "alg": "sha2-256"
+      },
+      "expect": {
+        "root": "sha2-256:5244b812d9191d816d9fe2c7f7fb5077fe6d9647d4d4c2e91e81adcab9e9f87b"
+      }
+    },
+    {
+      "id": "merkle/inclusion/100",
+      "level": "L3",
+      "requirement": "verify this inclusion proof against the root",
+      "input": {
+        "leaf_payload": "leaf-50",
+        "index": 50,
+        "size": 100,
+        "path": [
+          "sha2-256:59afec4acf542adcba5579808554d5ef59ceb90e0f2e6dda25f3adfa2d3ea2d8",
+          "sha2-256:4cc9d5fc76b846d3483844cd5ef0c90ed81b2b7f500b4186d787bef5f80fba41",
+          "sha2-256:7ec7e5a8e669bb83e19c6c8269863f4efd228bfac9e5e9b3d610707f105103e4",
+          "sha2-256:66d7729382b24e71cdffb8704f9fc517ac839a0718e9f9dd5fe90432c59ddb33",
+          "sha2-256:c7fb847b7247fdd9d062173a4585b0daf23ce52d043ba7870aedb03364fb0ac0",
+          "sha2-256:e0ef242cf045e6744325f333086a565756f794bd73e822e23e647bd986492400",
+          "sha2-256:e64afbf32e38a3607a26e631ccb892688cc801e135efb98fd0db7b393d331999"
+        ]
+      },
+      "expect": {
+        "root": "sha2-256:5244b812d9191d816d9fe2c7f7fb5077fe6d9647d4d4c2e91e81adcab9e9f87b",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/consistency/100",
+      "level": "L3",
+      "requirement": "verify this consistency proof between the two tree heads",
+      "input": {
+        "old_size": 50,
+        "new_size": 100,
+        "path": [
+          "sha2-256:4cc9d5fc76b846d3483844cd5ef0c90ed81b2b7f500b4186d787bef5f80fba41",
+          "sha2-256:a4435a6251d3f15a1f14437c26ff39ec22e9178407b56b9b51b6f8937ee3a8f1",
+          "sha2-256:7ec7e5a8e669bb83e19c6c8269863f4efd228bfac9e5e9b3d610707f105103e4",
+          "sha2-256:66d7729382b24e71cdffb8704f9fc517ac839a0718e9f9dd5fe90432c59ddb33",
+          "sha2-256:c7fb847b7247fdd9d062173a4585b0daf23ce52d043ba7870aedb03364fb0ac0",
+          "sha2-256:e0ef242cf045e6744325f333086a565756f794bd73e822e23e647bd986492400",
+          "sha2-256:e64afbf32e38a3607a26e631ccb892688cc801e135efb98fd0db7b393d331999"
+        ]
+      },
+      "expect": {
+        "old_root": "sha2-256:7f470390a8fadb92b36df185c4f9ec918873071fa7815c14851fe227e9bef377",
+        "new_root": "sha2-256:5244b812d9191d816d9fe2c7f7fb5077fe6d9647d4d4c2e91e81adcab9e9f87b",
+        "verifies": true
+      }
+    },
+    {
+      "id": "merkle/leaf-node-separation",
+      "level": "L3",
+      "requirement": "leaf and interior hashing must be domain separated",
+      "input": {
+        "left": "a",
+        "right": "b"
+      },
+      "expect": {
+        "leaf_a": "sha2-256:4a26c20da1ecb48c1e2f1f14522b3d4bddbbc340a5c891323b47a3aa749d1e23",
+        "leaf_b": "sha2-256:b9d20d510e2e5068f26c75a751c3ed213df36e56773c68f0d051b677fb33d003",
+        "node_ab": "sha2-256:17ee99eac7616630c914bb33ff9b0e47b455290be398ae48e14ddd820da4ffc7",
+        "empty": "sha2-256:fb24221c9525ec387946112a04a91a060cb70bc370a78ea7e0be368e8c6b0b93"
+      }
+    }
+  ]
+}

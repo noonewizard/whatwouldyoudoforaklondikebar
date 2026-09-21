@@ -1,0 +1,980 @@
+{
+  "group": "taxonomy",
+  "protocol": "DUAP/1",
+  "description": "The taxonomy an implementation must reproduce exactly.",
+  "vectors": [
+    {
+      "id": "taxonomy/fingerprint",
+      "level": "L1",
+      "requirement": "an implementation must agree on every taxonomy code and its attributes",
+      "input": {
+        "ontology_version": "1.0.0-draft"
+      },
+      "expect": {
+        "ontology_sha256": "68fcb23de2d63a4f2a216df14e048d519fbac744e1dfdecb0f69bd80d4fe4a41",
+        "data_classes": [
+          {
+            "code": "identity.direct",
+            "sensitivity": "t3",
+            "reid_risk": 95,
+            "special": []
+          },
+          {
+            "code": "identity.pseudonymous",
+            "sensitivity": "t2",
+            "reid_risk": 60,
+            "special": []
+          },
+          {
+            "code": "identity.government",
+            "sensitivity": "t4",
+            "reid_risk": 98,
+            "special": [
+              "us.ssn"
+            ]
+          },
+          {
+            "code": "contact.email",
+            "sensitivity": "t2",
+            "reid_risk": 85,
+            "special": []
+          },
+          {
+            "code": "contact.phone",
+            "sensitivity": "t2",
+            "reid_risk": 88,
+            "special": []
+          },
+          {
+            "code": "contact.postal",
+            "sensitivity": "t3",
+            "reid_risk": 80,
+            "special": []
+          },
+          {
+            "code": "location.precise",
+            "sensitivity": "t4",
+            "reid_risk": 92,
+            "special": [
+              "ccpa.precise_geolocation"
+            ]
+          },
+          {
+            "code": "location.coarse",
+            "sensitivity": "t2",
+            "reid_risk": 45,
+            "special": []
+          },
+          {
+            "code": "location.inferred_home",
+            "sensitivity": "t4",
+            "reid_risk": 90,
+            "special": []
+          },
+          {
+            "code": "location.inferred_work",
+            "sensitivity": "t3",
+            "reid_risk": 78,
+            "special": []
+          },
+          {
+            "code": "location.trajectory",
+            "sensitivity": "t4",
+            "reid_risk": 96,
+            "special": [
+              "ccpa.precise_geolocation"
+            ]
+          },
+          {
+            "code": "device.identifier",
+            "sensitivity": "t2",
+            "reid_risk": 70,
+            "special": []
+          },
+          {
+            "code": "device.fingerprint",
+            "sensitivity": "t3",
+            "reid_risk": 82,
+            "special": []
+          },
+          {
+            "code": "device.configuration",
+            "sensitivity": "t1",
+            "reid_risk": 35,
+            "special": []
+          },
+          {
+            "code": "device.network",
+            "sensitivity": "t2",
+            "reid_risk": 66,
+            "special": []
+          },
+          {
+            "code": "behavior.web_browsing",
+            "sensitivity": "t2",
+            "reid_risk": 72,
+            "special": []
+          },
+          {
+            "code": "behavior.app_usage",
+            "sensitivity": "t2",
+            "reid_risk": 64,
+            "special": []
+          },
+          {
+            "code": "behavior.search",
+            "sensitivity": "t3",
+            "reid_risk": 80,
+            "special": []
+          },
+          {
+            "code": "behavior.content_consumption",
+            "sensitivity": "t2",
+            "reid_risk": 58,
+            "special": []
+          },
+          {
+            "code": "behavior.social_graph",
+            "sensitivity": "t3",
+            "reid_risk": 86,
+            "special": []
+          },
+          {
+            "code": "behavior.keystroke_dynamics",
+            "sensitivity": "t3",
+            "reid_risk": 84,
+            "special": []
+          },
+          {
+            "code": "behavior.attention",
+            "sensitivity": "t3",
+            "reid_risk": 70,
+            "special": []
+          },
+          {
+            "code": "transaction.purchase",
+            "sensitivity": "t2",
+            "reid_risk": 68,
+            "special": []
+          },
+          {
+            "code": "transaction.payment_instrument",
+            "sensitivity": "t4",
+            "reid_risk": 90,
+            "special": [
+              "pci.chd"
+            ]
+          },
+          {
+            "code": "financial.account",
+            "sensitivity": "t4",
+            "reid_risk": 88,
+            "special": [
+              "us.glba.npi"
+            ]
+          },
+          {
+            "code": "financial.creditworthiness",
+            "sensitivity": "t4",
+            "reid_risk": 85,
+            "special": [
+              "us.fcra"
+            ]
+          },
+          {
+            "code": "financial.income",
+            "sensitivity": "t3",
+            "reid_risk": 75,
+            "special": []
+          },
+          {
+            "code": "content.user_generated",
+            "sensitivity": "t3",
+            "reid_risk": 76,
+            "special": []
+          },
+          {
+            "code": "content.communications",
+            "sensitivity": "t4",
+            "reid_risk": 90,
+            "special": [
+              "us.ecpa"
+            ]
+          },
+          {
+            "code": "content.media",
+            "sensitivity": "t3",
+            "reid_risk": 82,
+            "special": []
+          },
+          {
+            "code": "biometric.template",
+            "sensitivity": "t4",
+            "reid_risk": 99,
+            "special": [
+              "gdpr.art9",
+              "us.il.bipa",
+              "ccpa.biometric"
+            ]
+          },
+          {
+            "code": "biometric.derived",
+            "sensitivity": "t4",
+            "reid_risk": 88,
+            "special": [
+              "gdpr.art9",
+              "ccpa.biometric"
+            ]
+          },
+          {
+            "code": "health.clinical",
+            "sensitivity": "t4",
+            "reid_risk": 94,
+            "special": [
+              "gdpr.art9",
+              "us.hipaa.phi"
+            ]
+          },
+          {
+            "code": "health.wearable",
+            "sensitivity": "t3",
+            "reid_risk": 80,
+            "special": [
+              "gdpr.art9"
+            ]
+          },
+          {
+            "code": "health.inferred",
+            "sensitivity": "t4",
+            "reid_risk": 86,
+            "special": [
+              "gdpr.art9"
+            ]
+          },
+          {
+            "code": "protected.race_ethnicity",
+            "sensitivity": "t4",
+            "reid_risk": 70,
+            "special": [
+              "gdpr.art9",
+              "ccpa.sensitive"
+            ]
+          },
+          {
+            "code": "protected.religion",
+            "sensitivity": "t4",
+            "reid_risk": 70,
+            "special": [
+              "gdpr.art9",
+              "ccpa.sensitive"
+            ]
+          },
+          {
+            "code": "protected.political",
+            "sensitivity": "t4",
+            "reid_risk": 72,
+            "special": [
+              "gdpr.art9",
+              "ccpa.sensitive"
+            ]
+          },
+          {
+            "code": "protected.sexual_orientation",
+            "sensitivity": "t4",
+            "reid_risk": 74,
+            "special": [
+              "gdpr.art9",
+              "ccpa.sensitive"
+            ]
+          },
+          {
+            "code": "protected.genetic",
+            "sensitivity": "t4",
+            "reid_risk": 99,
+            "special": [
+              "gdpr.art9",
+              "us.gina"
+            ]
+          },
+          {
+            "code": "protected.immigration",
+            "sensitivity": "t4",
+            "reid_risk": 76,
+            "special": [
+              "gdpr.art9"
+            ]
+          },
+          {
+            "code": "minor.any",
+            "sensitivity": "t4",
+            "reid_risk": 80,
+            "special": [
+              "us.coppa",
+              "gdpr.art8"
+            ]
+          },
+          {
+            "code": "education.record",
+            "sensitivity": "t3",
+            "reid_risk": 78,
+            "special": [
+              "us.ferpa"
+            ]
+          },
+          {
+            "code": "employment.record",
+            "sensitivity": "t3",
+            "reid_risk": 80,
+            "special": []
+          },
+          {
+            "code": "telemetry.enterprise",
+            "sensitivity": "t1",
+            "reid_risk": 25,
+            "special": []
+          },
+          {
+            "code": "telemetry.security",
+            "sensitivity": "t2",
+            "reid_risk": 55,
+            "special": []
+          },
+          {
+            "code": "telemetry.vehicle",
+            "sensitivity": "t3",
+            "reid_risk": 80,
+            "special": []
+          },
+          {
+            "code": "telemetry.iot_home",
+            "sensitivity": "t3",
+            "reid_risk": 74,
+            "special": []
+          },
+          {
+            "code": "telemetry.iot_industrial",
+            "sensitivity": "t0",
+            "reid_risk": 5,
+            "special": []
+          },
+          {
+            "code": "sensor.environmental",
+            "sensitivity": "t0",
+            "reid_risk": 3,
+            "special": []
+          },
+          {
+            "code": "sensor.imaging_public",
+            "sensitivity": "t3",
+            "reid_risk": 70,
+            "special": []
+          },
+          {
+            "code": "industrial.process",
+            "sensitivity": "t0",
+            "reid_risk": 4,
+            "special": []
+          },
+          {
+            "code": "scientific.measurement",
+            "sensitivity": "t0",
+            "reid_risk": 4,
+            "special": []
+          },
+          {
+            "code": "scientific.human_subject",
+            "sensitivity": "t4",
+            "reid_risk": 88,
+            "special": [
+              "us.common_rule",
+              "gdpr.art9"
+            ]
+          },
+          {
+            "code": "derived.profile",
+            "sensitivity": "t3",
+            "reid_risk": 84,
+            "special": []
+          },
+          {
+            "code": "derived.segment",
+            "sensitivity": "t2",
+            "reid_risk": 50,
+            "special": []
+          },
+          {
+            "code": "derived.embedding",
+            "sensitivity": "t3",
+            "reid_risk": 65,
+            "special": []
+          },
+          {
+            "code": "derived.aggregate",
+            "sensitivity": "t1",
+            "reid_risk": 12,
+            "special": []
+          },
+          {
+            "code": "derived.dp_aggregate",
+            "sensitivity": "t0",
+            "reid_risk": 2,
+            "special": []
+          },
+          {
+            "code": "derived.synthetic",
+            "sensitivity": "t1",
+            "reid_risk": 20,
+            "special": []
+          },
+          {
+            "code": "derived.model_parameters",
+            "sensitivity": "t2",
+            "reid_risk": 40,
+            "special": []
+          }
+        ],
+        "operations": [
+          {
+            "code": "collect.observe",
+            "family": "collect",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "collect.receive",
+            "family": "collect",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "collect.generate",
+            "family": "collect",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "store.persist",
+            "family": "process",
+            "meter": "subject_day",
+            "derives": false
+          },
+          {
+            "code": "store.replicate",
+            "family": "process",
+            "meter": "subject_day",
+            "derives": false
+          },
+          {
+            "code": "store.backup",
+            "family": "process",
+            "meter": "subject_day",
+            "derives": false
+          },
+          {
+            "code": "access.read",
+            "family": "process",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "access.query",
+            "family": "process",
+            "meter": "query",
+            "derives": false
+          },
+          {
+            "code": "access.index",
+            "family": "process",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "access.export_view",
+            "family": "process",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "process.transform",
+            "family": "process",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "process.aggregate",
+            "family": "process",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "process.classify",
+            "family": "process",
+            "meter": "inference",
+            "derives": true
+          },
+          {
+            "code": "process.profile",
+            "family": "process",
+            "meter": "inference",
+            "derives": true
+          },
+          {
+            "code": "process.score",
+            "family": "process",
+            "meter": "inference",
+            "derives": true
+          },
+          {
+            "code": "process.personalize",
+            "family": "process",
+            "meter": "inference",
+            "derives": false
+          },
+          {
+            "code": "process.recommend",
+            "family": "process",
+            "meter": "inference",
+            "derives": false
+          },
+          {
+            "code": "process.predict",
+            "family": "process",
+            "meter": "inference",
+            "derives": true
+          },
+          {
+            "code": "process.match",
+            "family": "process",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "process.deidentify",
+            "family": "process",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "process.anonymize",
+            "family": "process",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "process.dp_release",
+            "family": "process",
+            "meter": "query",
+            "derives": true
+          },
+          {
+            "code": "transfer.internal",
+            "family": "transfer",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "transfer.affiliate",
+            "family": "transfer",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "transfer.processor",
+            "family": "transfer",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "transfer.controller",
+            "family": "transfer",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "transfer.sale",
+            "family": "transfer",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "transfer.license",
+            "family": "transfer",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "transfer.api_access",
+            "family": "transfer",
+            "meter": "query",
+            "derives": false
+          },
+          {
+            "code": "transfer.export_jurisdiction",
+            "family": "transfer",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "transfer.publish",
+            "family": "transfer",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "ai.pretrain",
+            "family": "ai",
+            "meter": "token",
+            "derives": true
+          },
+          {
+            "code": "ai.finetune",
+            "family": "ai",
+            "meter": "token",
+            "derives": true
+          },
+          {
+            "code": "ai.instruction_tune",
+            "family": "ai",
+            "meter": "token",
+            "derives": true
+          },
+          {
+            "code": "ai.preference_data",
+            "family": "ai",
+            "meter": "comparison",
+            "derives": true
+          },
+          {
+            "code": "ai.rl_environment",
+            "family": "ai",
+            "meter": "episode",
+            "derives": true
+          },
+          {
+            "code": "ai.embed",
+            "family": "ai",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "ai.index_retrieval",
+            "family": "ai",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "ai.retrieve",
+            "family": "ai",
+            "meter": "retrieval",
+            "derives": false
+          },
+          {
+            "code": "ai.inference_input",
+            "family": "ai",
+            "meter": "inference",
+            "derives": false
+          },
+          {
+            "code": "ai.evaluate",
+            "family": "ai",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "ai.synthesize",
+            "family": "ai",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "ai.distill",
+            "family": "ai",
+            "meter": "token",
+            "derives": true
+          },
+          {
+            "code": "ai.unlearn",
+            "family": "ai",
+            "meter": "record",
+            "derives": true
+          },
+          {
+            "code": "commercial.advertise",
+            "family": "commercialize",
+            "meter": "impression",
+            "derives": false
+          },
+          {
+            "code": "commercial.measure",
+            "family": "commercialize",
+            "meter": "impression",
+            "derives": false
+          },
+          {
+            "code": "commercial.price",
+            "family": "commercialize",
+            "meter": "inference",
+            "derives": false
+          },
+          {
+            "code": "commercial.underwrite",
+            "family": "commercialize",
+            "meter": "inference",
+            "derives": false
+          },
+          {
+            "code": "commercial.market_research",
+            "family": "commercialize",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "commercial.product_improve",
+            "family": "commercialize",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "commercial.fraud_detect",
+            "family": "commercialize",
+            "meter": "inference",
+            "derives": false
+          },
+          {
+            "code": "commercial.resell",
+            "family": "commercialize",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "lifecycle.retain",
+            "family": "lifecycle",
+            "meter": "subject_day",
+            "derives": false
+          },
+          {
+            "code": "lifecycle.delete",
+            "family": "lifecycle",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "lifecycle.restrict",
+            "family": "lifecycle",
+            "meter": "record",
+            "derives": false
+          },
+          {
+            "code": "lifecycle.port",
+            "family": "lifecycle",
+            "meter": "record",
+            "derives": false
+          }
+        ],
+        "purposes": [
+          {
+            "code": "service",
+            "parent": null,
+            "commercial": false
+          },
+          {
+            "code": "service.core",
+            "parent": "service",
+            "commercial": false
+          },
+          {
+            "code": "service.account",
+            "parent": "service",
+            "commercial": false
+          },
+          {
+            "code": "service.support",
+            "parent": "service",
+            "commercial": false
+          },
+          {
+            "code": "service.personalization",
+            "parent": "service",
+            "commercial": false
+          },
+          {
+            "code": "security",
+            "parent": null,
+            "commercial": false
+          },
+          {
+            "code": "security.fraud",
+            "parent": "security",
+            "commercial": false
+          },
+          {
+            "code": "security.abuse",
+            "parent": "security",
+            "commercial": false
+          },
+          {
+            "code": "security.authentication",
+            "parent": "security",
+            "commercial": false
+          },
+          {
+            "code": "legal",
+            "parent": null,
+            "commercial": false
+          },
+          {
+            "code": "legal.obligation",
+            "parent": "legal",
+            "commercial": false
+          },
+          {
+            "code": "legal.claims",
+            "parent": "legal",
+            "commercial": false
+          },
+          {
+            "code": "legal.audit",
+            "parent": "legal",
+            "commercial": false
+          },
+          {
+            "code": "operations",
+            "parent": null,
+            "commercial": false
+          },
+          {
+            "code": "operations.reliability",
+            "parent": "operations",
+            "commercial": false
+          },
+          {
+            "code": "operations.capacity",
+            "parent": "operations",
+            "commercial": false
+          },
+          {
+            "code": "improvement",
+            "parent": null,
+            "commercial": true
+          },
+          {
+            "code": "improvement.analytics",
+            "parent": "improvement",
+            "commercial": true
+          },
+          {
+            "code": "improvement.experimentation",
+            "parent": "improvement",
+            "commercial": true
+          },
+          {
+            "code": "improvement.ai_training",
+            "parent": "improvement",
+            "commercial": true
+          },
+          {
+            "code": "improvement.ai_evaluation",
+            "parent": "improvement",
+            "commercial": true
+          },
+          {
+            "code": "marketing",
+            "parent": null,
+            "commercial": true
+          },
+          {
+            "code": "marketing.direct",
+            "parent": "marketing",
+            "commercial": true
+          },
+          {
+            "code": "marketing.advertising",
+            "parent": "marketing",
+            "commercial": true
+          },
+          {
+            "code": "marketing.advertising.contextual",
+            "parent": "marketing.advertising",
+            "commercial": true
+          },
+          {
+            "code": "marketing.advertising.behavioral",
+            "parent": "marketing.advertising",
+            "commercial": true
+          },
+          {
+            "code": "marketing.measurement",
+            "parent": "marketing",
+            "commercial": true
+          },
+          {
+            "code": "commerce",
+            "parent": null,
+            "commercial": true
+          },
+          {
+            "code": "commerce.sale",
+            "parent": "commerce",
+            "commercial": true
+          },
+          {
+            "code": "commerce.licensing",
+            "parent": "commerce",
+            "commercial": true
+          },
+          {
+            "code": "commerce.brokerage",
+            "parent": "commerce",
+            "commercial": true
+          },
+          {
+            "code": "risk",
+            "parent": null,
+            "commercial": true
+          },
+          {
+            "code": "risk.credit",
+            "parent": "risk",
+            "commercial": true
+          },
+          {
+            "code": "risk.insurance",
+            "parent": "risk",
+            "commercial": true
+          },
+          {
+            "code": "risk.pricing",
+            "parent": "risk",
+            "commercial": true
+          },
+          {
+            "code": "research",
+            "parent": null,
+            "commercial": false
+          },
+          {
+            "code": "research.scientific",
+            "parent": "research",
+            "commercial": false
+          },
+          {
+            "code": "research.public_interest",
+            "parent": "research",
+            "commercial": false
+          },
+          {
+            "code": "research.commercial",
+            "parent": "research",
+            "commercial": true
+          }
+        ],
+        "counts": {
+          "data_classes": 61,
+          "operations": 56,
+          "purposes": 39,
+          "units": 12
+        }
+      }
+    }
+  ]
+}

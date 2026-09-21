@@ -403,6 +403,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "duap-conformance"
+version = "0.1.0"
+dependencies = [
+ "duap-auth",
+ "duap-canon",
+ "duap-crypto",
+ "duap-meter",
+ "duap-model",
+ "duap-provenance",
+ "duap-receipt",
+ "duap-valuation",
+ "hex",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "duap-crypto"
 version = "0.1.0"
 dependencies = [

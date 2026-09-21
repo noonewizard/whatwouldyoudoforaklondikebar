@@ -9,6 +9,11 @@ import pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SKIP_DIRS = {"target", "node_modules", ".git", "states"}
+# A reference that is deliberately a template rather than a path. `NNNN` is
+# the ADR naming convention's placeholder for a number that does not exist
+# yet, and flagging it as dangling would train readers to ignore this
+# checker -- which is the failure mode it exists to prevent.
+PLACEHOLDERS = re.compile(r"NNNN|<[a-z-]+>|\{[a-z_]+\}")
 PATTERN = re.compile(
     r"(?<![\w./-])((?:docs|specs|spec|schemas|formal|security|benchmarks|research|"
     r"crates|sdk|gateway|ontology|infrastructure|examples|tools|compliance|simulations)"
@@ -34,7 +39,7 @@ def main() -> int:
             continue
         refs = set(PATTERN.findall(text)) | set(TOP_LEVEL.findall(text))
         for r in refs:
-            if r.endswith("/"):
+            if r.endswith("/") or PLACEHOLDERS.search(r):
                 continue
             if not (ROOT / r).exists():
                 missing.setdefault(r, set()).add(str(p.relative_to(ROOT)))

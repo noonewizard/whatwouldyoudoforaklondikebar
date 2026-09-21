@@ -156,3 +156,125 @@ impl fmt::Debug for Value {
         }
     }
 }
+
+// ---------------------------------------------------------------------------
+// serde
+// ---------------------------------------------------------------------------
+//
+// `Value` is serialisable so that protocol objects can carry open extension
+// maps without giving up the canonical model. The impls map each variant to
+// the matching serde primitive, so a `Value` embedded in a struct encodes
+// exactly as the equivalent inline field would.
+
+impl serde::Serialize for Value {
+    fn serialize<S: serde::Serializer>(&self, s: S) -> Result<S::Ok, S::Error> {
+        match self {
+            Value::Null => s.serialize_none(),
+            Value::Bool(b) => s.serialize_bool(*b),
+            Value::Uint(u) => s.serialize_u64(*u),
+            Value::Nint(n) => s.serialize_i128(-1i128 - *n as i128),
+            Value::Bytes(b) => s.serialize_bytes(b),
+            Value::Text(t) => s.serialize_str(t),
+            Value::Array(a) => s.collect_seq(a.iter()),
+            Value::Map(m) => s.collect_map(m.iter()),
+        }
+    }
+}
+
+impl<'de> serde::Deserialize<'de> for Value {
+    fn deserialize<D: serde::Deserializer<'de>>(d: D) -> Result<Self, D::Error> {
+        d.deserialize_any(ValueVisitor)
+    }
+}
+
+struct ValueVisitor;
+
+impl<'de> serde::de::Visitor<'de> for ValueVisitor {
+    type Value = Value;
+
+    fn expecting(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        f.write_str("a value in the DUAP canonical data model")
+    }
+
+    fn visit_bool<E: serde::de::Error>(self, v: bool) -> Result<Value, E> {
+        Ok(Value::Bool(v))
+    }
+
+    fn visit_u64<E: serde::de::Error>(self, v: u64) -> Result<Value, E> {
+        Ok(Value::Uint(v))
+    }
+
+    fn visit_i64<E: serde::de::Error>(self, v: i64) -> Result<Value, E> {
+        Ok(Value::int(v))
+    }
+
+    fn visit_u128<E: serde::de::Error>(self, v: u128) -> Result<Value, E> {
+        u64::try_from(v)
+            .map(Value::Uint)
+            .map_err(|_| E::custom("integer exceeds the 64-bit CBOR range"))
+    }
+
+    fn visit_i128<E: serde::de::Error>(self, v: i128) -> Result<Value, E> {
+        if v >= 0 {
+            u64::try_from(v)
+                .map(Value::Uint)
+                .map_err(|_| E::custom("integer exceeds the 64-bit CBOR range"))
+        } else {
+            u64::try_from(-1 - v)
+                .map(Value::Nint)
+                .map_err(|_| E::custom("integer exceeds the 64-bit CBOR range"))
+        }
+    }
+
+    fn visit_f64<E: serde::de::Error>(self, _v: f64) -> Result<Value, E> {
+        Err(E::custom(
+            "floating point is not part of the DUAP data model",
+        ))
+    }
+
+    fn visit_str<E: serde::de::Error>(self, v: &str) -> Result<Value, E> {
+        Ok(Value::Text(v.to_owned()))
+    }
+
+    fn visit_string<E: serde::de::Error>(self, v: String) -> Result<Value, E> {
+        Ok(Value::Text(v))
+    }
+
+    fn visit_bytes<E: serde::de::Error>(self, v: &[u8]) -> Result<Value, E> {
+        Ok(Value::Bytes(v.to_vec()))
+    }
+
+    fn visit_byte_buf<E: serde::de::Error>(self, v: Vec<u8>) -> Result<Value, E> {
+        Ok(Value::Bytes(v))
+    }
+
+    fn visit_none<E: serde::de::Error>(self) -> Result<Value, E> {
+        Ok(Value::Null)
+    }
+
+    fn visit_unit<E: serde::de::Error>(self) -> Result<Value, E> {
+        Ok(Value::Null)
+    }
+
+    fn visit_some<D: serde::Deserializer<'de>>(self, d: D) -> Result<Value, D::Error> {
+        d.deserialize_any(ValueVisitor)
+    }
+
+    fn visit_seq<A: serde::de::SeqAccess<'de>>(self, mut seq: A) -> Result<Value, A::Error> {
+        let mut out = Vec::with_capacity(seq.size_hint().unwrap_or(0).min(1024));
+        while let Some(v) = seq.next_element::<Value>()? {
+            out.push(v);
+        }
+        Ok(Value::Array(out))
+    }
+
+    fn visit_map<A: serde::de::MapAccess<'de>>(self, mut map: A) -> Result<Value, A::Error> {
+        let mut out = BTreeMap::new();
+        while let Some((k, v)) = map.next_entry::<String, Value>()? {
+            if out.insert(k.clone(), v).is_some() {
+                return Err(serde::de::Error::custom(format!("duplicate map key {k:?}")));
+            }
+        }
+        Ok(Value::Map(out))
+    }
+}

@@ -1,0 +1,1659 @@
+{
+  "$schema": "https://duap.dev/schemas/ontology-v1.json",
+  "ontology_version": "1.0.0-draft",
+  "protocol": "DUAP/1",
+  "notice": "Regime tags and lawful-basis codes are technical recording categories. They express what a participant asserts, not a determination that the assertion is correct, and nothing here is legal advice.",
+  "sensitivity_tiers": [
+    {
+      "code": "t0",
+      "name": "non-personal",
+      "rank": 0,
+      "description": "No link to an identified or identifiable natural person is expected."
+    },
+    {
+      "code": "t1",
+      "name": "low",
+      "rank": 1,
+      "description": "Personal but widely observable; disclosure is an annoyance."
+    },
+    {
+      "code": "t2",
+      "name": "moderate",
+      "rank": 2,
+      "description": "Personal and not widely observable; disclosure enables profiling."
+    },
+    {
+      "code": "t3",
+      "name": "high",
+      "rank": 3,
+      "description": "Disclosure enables targeting, discrimination or financial loss."
+    },
+    {
+      "code": "t4",
+      "name": "severe",
+      "rank": 4,
+      "description": "Disclosure risks physical safety, liberty, or irreversible harm."
+    }
+  ],
+  "data_classes": [
+    {
+      "code": "identity.direct",
+      "name": "Direct identifier",
+      "sensitivity": "t3",
+      "reid_risk": 95,
+      "special_category": [],
+      "notes": "Legal name, national identifier, passport number."
+    },
+    {
+      "code": "identity.pseudonymous",
+      "name": "Pseudonymous identifier",
+      "sensitivity": "t2",
+      "reid_risk": 60,
+      "special_category": [],
+      "notes": "Stable identifier with no direct link to a legal identity."
+    },
+    {
+      "code": "identity.government",
+      "name": "Government-issued identifier",
+      "sensitivity": "t4",
+      "reid_risk": 98,
+      "special_category": [
+        "us.ssn"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "contact.email",
+      "name": "Email address",
+      "sensitivity": "t2",
+      "reid_risk": 85,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "contact.phone",
+      "name": "Telephone number",
+      "sensitivity": "t2",
+      "reid_risk": 88,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "contact.postal",
+      "name": "Postal address",
+      "sensitivity": "t3",
+      "reid_risk": 80,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "location.precise",
+      "name": "Precise geolocation",
+      "sensitivity": "t4",
+      "reid_risk": 92,
+      "special_category": [
+        "ccpa.precise_geolocation"
+      ],
+      "notes": "Finer than 1850 m; CPRA treats this as sensitive personal information."
+    },
+    {
+      "code": "location.coarse",
+      "name": "Coarse geolocation",
+      "sensitivity": "t2",
+      "reid_risk": 45,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "location.inferred_home",
+      "name": "Inferred home location",
+      "sensitivity": "t4",
+      "reid_risk": 90,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "location.inferred_work",
+      "name": "Inferred workplace",
+      "sensitivity": "t3",
+      "reid_risk": 78,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "location.trajectory",
+      "name": "Movement trajectory",
+      "sensitivity": "t4",
+      "reid_risk": 96,
+      "special_category": [
+        "ccpa.precise_geolocation"
+      ],
+      "notes": "Four spatio-temporal points identify 95% of individuals (de Montjoye et al. 2013)."
+    },
+    {
+      "code": "device.identifier",
+      "name": "Device or advertising identifier",
+      "sensitivity": "t2",
+      "reid_risk": 70,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "device.fingerprint",
+      "name": "Passive device fingerprint",
+      "sensitivity": "t3",
+      "reid_risk": 82,
+      "special_category": [],
+      "notes": "Constructed without storage on the device; typically outside cookie consent flows."
+    },
+    {
+      "code": "device.configuration",
+      "name": "Device configuration",
+      "sensitivity": "t1",
+      "reid_risk": 35,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "device.network",
+      "name": "Network address and topology",
+      "sensitivity": "t2",
+      "reid_risk": 66,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "behavior.web_browsing",
+      "name": "Web browsing activity",
+      "sensitivity": "t2",
+      "reid_risk": 72,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "behavior.app_usage",
+      "name": "Application usage",
+      "sensitivity": "t2",
+      "reid_risk": 64,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "behavior.search",
+      "name": "Search queries",
+      "sensitivity": "t3",
+      "reid_risk": 80,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "behavior.content_consumption",
+      "name": "Content consumption",
+      "sensitivity": "t2",
+      "reid_risk": 58,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "behavior.social_graph",
+      "name": "Social connections",
+      "sensitivity": "t3",
+      "reid_risk": 86,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "behavior.keystroke_dynamics",
+      "name": "Keystroke or interaction dynamics",
+      "sensitivity": "t3",
+      "reid_risk": 84,
+      "special_category": [],
+      "notes": "Behavioural biometric in several regimes."
+    },
+    {
+      "code": "behavior.attention",
+      "name": "Gaze, dwell and attention signals",
+      "sensitivity": "t3",
+      "reid_risk": 70,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "transaction.purchase",
+      "name": "Purchase record",
+      "sensitivity": "t2",
+      "reid_risk": 68,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "transaction.payment_instrument",
+      "name": "Payment instrument data",
+      "sensitivity": "t4",
+      "reid_risk": 90,
+      "special_category": [
+        "pci.chd"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "financial.account",
+      "name": "Financial account data",
+      "sensitivity": "t4",
+      "reid_risk": 88,
+      "special_category": [
+        "us.glba.npi"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "financial.creditworthiness",
+      "name": "Credit assessment input",
+      "sensitivity": "t4",
+      "reid_risk": 85,
+      "special_category": [
+        "us.fcra"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "financial.income",
+      "name": "Income and employment",
+      "sensitivity": "t3",
+      "reid_risk": 75,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "content.user_generated",
+      "name": "User-generated content",
+      "sensitivity": "t3",
+      "reid_risk": 76,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "content.communications",
+      "name": "Interpersonal communications",
+      "sensitivity": "t4",
+      "reid_risk": 90,
+      "special_category": [
+        "us.ecpa"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "content.media",
+      "name": "Photographs, audio or video",
+      "sensitivity": "t3",
+      "reid_risk": 82,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "biometric.template",
+      "name": "Biometric template",
+      "sensitivity": "t4",
+      "reid_risk": 99,
+      "special_category": [
+        "gdpr.art9",
+        "us.il.bipa",
+        "ccpa.biometric"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "biometric.derived",
+      "name": "Biometric-derived inference",
+      "sensitivity": "t4",
+      "reid_risk": 88,
+      "special_category": [
+        "gdpr.art9",
+        "ccpa.biometric"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "health.clinical",
+      "name": "Clinical health record",
+      "sensitivity": "t4",
+      "reid_risk": 94,
+      "special_category": [
+        "gdpr.art9",
+        "us.hipaa.phi"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "health.wearable",
+      "name": "Wearable physiological telemetry",
+      "sensitivity": "t3",
+      "reid_risk": 80,
+      "special_category": [
+        "gdpr.art9"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "health.inferred",
+      "name": "Inferred health status",
+      "sensitivity": "t4",
+      "reid_risk": 86,
+      "special_category": [
+        "gdpr.art9"
+      ],
+      "notes": "Inference, not observation; often escapes sectoral regimes while carrying the same harm."
+    },
+    {
+      "code": "protected.race_ethnicity",
+      "name": "Racial or ethnic origin",
+      "sensitivity": "t4",
+      "reid_risk": 70,
+      "special_category": [
+        "gdpr.art9",
+        "ccpa.sensitive"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "protected.religion",
+      "name": "Religious or philosophical belief",
+      "sensitivity": "t4",
+      "reid_risk": 70,
+      "special_category": [
+        "gdpr.art9",
+        "ccpa.sensitive"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "protected.political",
+      "name": "Political opinion or union membership",
+      "sensitivity": "t4",
+      "reid_risk": 72,
+      "special_category": [
+        "gdpr.art9",
+        "ccpa.sensitive"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "protected.sexual_orientation",
+      "name": "Sex life or sexual orientation",
+      "sensitivity": "t4",
+      "reid_risk": 74,
+      "special_category": [
+        "gdpr.art9",
+        "ccpa.sensitive"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "protected.genetic",
+      "name": "Genetic data",
+      "sensitivity": "t4",
+      "reid_risk": 99,
+      "special_category": [
+        "gdpr.art9",
+        "us.gina"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "protected.immigration",
+      "name": "Immigration or citizenship status",
+      "sensitivity": "t4",
+      "reid_risk": 76,
+      "special_category": [
+        "gdpr.art9"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "minor.any",
+      "name": "Data concerning a minor",
+      "sensitivity": "t4",
+      "reid_risk": 80,
+      "special_category": [
+        "us.coppa",
+        "gdpr.art8"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "education.record",
+      "name": "Education record",
+      "sensitivity": "t3",
+      "reid_risk": 78,
+      "special_category": [
+        "us.ferpa"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "employment.record",
+      "name": "Employment record",
+      "sensitivity": "t3",
+      "reid_risk": 80,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "telemetry.enterprise",
+      "name": "Enterprise system telemetry",
+      "sensitivity": "t1",
+      "reid_risk": 25,
+      "special_category": [],
+      "notes": "May carry personal data as a by-product; classification is per-field."
+    },
+    {
+      "code": "telemetry.security",
+      "name": "Security and access telemetry",
+      "sensitivity": "t2",
+      "reid_risk": 55,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "telemetry.vehicle",
+      "name": "Vehicle telemetry",
+      "sensitivity": "t3",
+      "reid_risk": 80,
+      "special_category": [],
+      "notes": "EU Data Act art. 4-5 give the user access and sharing rights over this."
+    },
+    {
+      "code": "telemetry.iot_home",
+      "name": "Home IoT telemetry",
+      "sensitivity": "t3",
+      "reid_risk": 74,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "telemetry.iot_industrial",
+      "name": "Industrial IoT telemetry",
+      "sensitivity": "t0",
+      "reid_risk": 5,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "sensor.environmental",
+      "name": "Environmental sensor data",
+      "sensitivity": "t0",
+      "reid_risk": 3,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "sensor.imaging_public",
+      "name": "Imaging of public space",
+      "sensitivity": "t3",
+      "reid_risk": 70,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "industrial.process",
+      "name": "Industrial process data",
+      "sensitivity": "t0",
+      "reid_risk": 4,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "scientific.measurement",
+      "name": "Scientific measurement",
+      "sensitivity": "t0",
+      "reid_risk": 4,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "scientific.human_subject",
+      "name": "Human-subject research data",
+      "sensitivity": "t4",
+      "reid_risk": 88,
+      "special_category": [
+        "us.common_rule",
+        "gdpr.art9"
+      ],
+      "notes": ""
+    },
+    {
+      "code": "derived.profile",
+      "name": "Derived behavioural profile",
+      "sensitivity": "t3",
+      "reid_risk": 84,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "derived.segment",
+      "name": "Audience or risk segment membership",
+      "sensitivity": "t2",
+      "reid_risk": 50,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "derived.embedding",
+      "name": "Learned representation (embedding)",
+      "sensitivity": "t3",
+      "reid_risk": 65,
+      "special_category": [],
+      "notes": "Embeddings can be inverted to a degree that depends on the model; see AI_ATTRIBUTION.md."
+    },
+    {
+      "code": "derived.aggregate",
+      "name": "Aggregate statistic",
+      "sensitivity": "t1",
+      "reid_risk": 12,
+      "special_category": [],
+      "notes": ""
+    },
+    {
+      "code": "derived.dp_aggregate",
+      "name": "Differentially private aggregate",
+      "sensitivity": "t0",
+      "reid_risk": 2,
+      "special_category": [],
+      "notes": "Risk bound holds only for the declared epsilon and only if accounting is correct."
+    },
+    {
+      "code": "derived.synthetic",
+      "name": "Synthetic record",
+      "sensitivity": "t1",
+      "reid_risk": 20,
+      "special_category": [],
+      "notes": "Not automatically non-personal: memorisation can reproduce training records."
+    },
+    {
+      "code": "derived.model_parameters",
+      "name": "Model parameters",
+      "sensitivity": "t2",
+      "reid_risk": 40,
+      "special_category": [],
+      "notes": ""
+    }
+  ],
+  "collection_methods": [
+    {
+      "code": "explicit.form",
+      "name": "Explicit submission by the subject",
+      "subject_observable": true,
+      "notes": ""
+    },
+    {
+      "code": "explicit.upload",
+      "name": "File or media upload",
+      "subject_observable": true,
+      "notes": ""
+    },
+    {
+      "code": "passive.cookie",
+      "name": "Cookie or equivalent local storage",
+      "subject_observable": true,
+      "notes": ""
+    },
+    {
+      "code": "passive.pixel",
+      "name": "Tracking pixel or beacon",
+      "subject_observable": true,
+      "notes": ""
+    },
+    {
+      "code": "passive.sdk",
+      "name": "Embedded SDK telemetry",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "passive.server_log",
+      "name": "Server-side log",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "passive.fingerprint",
+      "name": "Device fingerprinting",
+      "subject_observable": false,
+      "notes": "Stateless; not visible in storage inspection."
+    },
+    {
+      "code": "passive.network",
+      "name": "Network-level observation",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "device.sensor",
+      "name": "Device sensor read",
+      "subject_observable": true,
+      "notes": ""
+    },
+    {
+      "code": "device.os_api",
+      "name": "Operating-system API",
+      "subject_observable": true,
+      "notes": ""
+    },
+    {
+      "code": "observation.camera",
+      "name": "Camera or imaging",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "observation.audio",
+      "name": "Microphone or acoustic",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "machine.vehicle_bus",
+      "name": "Vehicle data bus",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "machine.industrial_bus",
+      "name": "Industrial fieldbus or historian",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "acquisition.third_party",
+      "name": "Acquired from a third party",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "acquisition.broker",
+      "name": "Acquired from a data broker",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "acquisition.public",
+      "name": "Collected from a public source",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "acquisition.scrape",
+      "name": "Automated collection from a public interface",
+      "subject_observable": false,
+      "notes": ""
+    },
+    {
+      "code": "inference.derived",
+      "name": "Derived by inference rather than collected",
+      "subject_observable": false,
+      "notes": ""
+    }
+  ],
+  "operations": [
+    {
+      "code": "collect.observe",
+      "name": "Collect by observation",
+      "family": "collect",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "collect.receive",
+      "name": "Receive from another party",
+      "family": "collect",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "collect.generate",
+      "name": "Generate about the subject",
+      "family": "collect",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "store.persist",
+      "name": "Persist to durable storage",
+      "family": "process",
+      "meter": "subject_day",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "store.replicate",
+      "name": "Replicate across systems",
+      "family": "process",
+      "meter": "subject_day",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "store.backup",
+      "name": "Retain in backup",
+      "family": "process",
+      "meter": "subject_day",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "access.read",
+      "name": "Read a record",
+      "family": "process",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "access.query",
+      "name": "Execute a query touching the record",
+      "family": "process",
+      "meter": "query",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "access.index",
+      "name": "Build or update an index",
+      "family": "process",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "access.export_view",
+      "name": "Materialise a view or extract",
+      "family": "process",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "process.transform",
+      "name": "Transform or normalise",
+      "family": "process",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "process.aggregate",
+      "name": "Aggregate with other records",
+      "family": "process",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "process.classify",
+      "name": "Classify or label",
+      "family": "process",
+      "meter": "inference",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "process.profile",
+      "name": "Build or update a profile",
+      "family": "process",
+      "meter": "inference",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "process.score",
+      "name": "Compute a score",
+      "family": "process",
+      "meter": "inference",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "process.personalize",
+      "name": "Personalise an experience",
+      "family": "process",
+      "meter": "inference",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "process.recommend",
+      "name": "Produce a recommendation",
+      "family": "process",
+      "meter": "inference",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "process.predict",
+      "name": "Produce a prediction",
+      "family": "process",
+      "meter": "inference",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "process.match",
+      "name": "Match or link across datasets",
+      "family": "process",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "process.deidentify",
+      "name": "De-identify or pseudonymise",
+      "family": "process",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "process.anonymize",
+      "name": "Anonymise (claimed irreversible)",
+      "family": "process",
+      "meter": "record",
+      "derives": true,
+      "notes": "Claim must carry an evidence reference; see PRIVACY.md on the limits."
+    },
+    {
+      "code": "process.dp_release",
+      "name": "Release under differential privacy",
+      "family": "process",
+      "meter": "query",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "transfer.internal",
+      "name": "Transfer within the controller",
+      "family": "transfer",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "transfer.affiliate",
+      "name": "Transfer to an affiliate",
+      "family": "transfer",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "transfer.processor",
+      "name": "Transfer to a processor or vendor",
+      "family": "transfer",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "transfer.controller",
+      "name": "Transfer to an independent controller",
+      "family": "transfer",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "transfer.sale",
+      "name": "Sale of data",
+      "family": "transfer",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "transfer.license",
+      "name": "License for defined use",
+      "family": "transfer",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "transfer.api_access",
+      "name": "Serve through an API",
+      "family": "transfer",
+      "meter": "query",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "transfer.export_jurisdiction",
+      "name": "Cross-border transfer",
+      "family": "transfer",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "transfer.publish",
+      "name": "Publish or make public",
+      "family": "transfer",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "ai.pretrain",
+      "name": "Include in pre-training corpus",
+      "family": "ai",
+      "meter": "token",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "ai.finetune",
+      "name": "Include in fine-tuning set",
+      "family": "ai",
+      "meter": "token",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "ai.instruction_tune",
+      "name": "Include in instruction-tuning set",
+      "family": "ai",
+      "meter": "token",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "ai.preference_data",
+      "name": "Include in a preference dataset",
+      "family": "ai",
+      "meter": "comparison",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "ai.rl_environment",
+      "name": "Use as reinforcement-learning signal",
+      "family": "ai",
+      "meter": "episode",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "ai.embed",
+      "name": "Generate embeddings",
+      "family": "ai",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "ai.index_retrieval",
+      "name": "Index for retrieval",
+      "family": "ai",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "ai.retrieve",
+      "name": "Retrieve into a context window",
+      "family": "ai",
+      "meter": "retrieval",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "ai.inference_input",
+      "name": "Use as inference input",
+      "family": "ai",
+      "meter": "inference",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "ai.evaluate",
+      "name": "Include in an evaluation set",
+      "family": "ai",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "ai.synthesize",
+      "name": "Generate synthetic data from",
+      "family": "ai",
+      "meter": "record",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "ai.distill",
+      "name": "Distil into a smaller model",
+      "family": "ai",
+      "meter": "token",
+      "derives": true,
+      "notes": ""
+    },
+    {
+      "code": "ai.unlearn",
+      "name": "Apply a machine-unlearning procedure",
+      "family": "ai",
+      "meter": "record",
+      "derives": true,
+      "notes": "Recorded as an attempt with an evidence reference; efficacy is not assumed."
+    },
+    {
+      "code": "commercial.advertise",
+      "name": "Use for advertising",
+      "family": "commercialize",
+      "meter": "impression",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "commercial.measure",
+      "name": "Advertising or campaign measurement",
+      "family": "commercialize",
+      "meter": "impression",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "commercial.price",
+      "name": "Set or personalise a price",
+      "family": "commercialize",
+      "meter": "inference",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "commercial.underwrite",
+      "name": "Insurance or credit underwriting",
+      "family": "commercialize",
+      "meter": "inference",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "commercial.market_research",
+      "name": "Market research",
+      "family": "commercialize",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "commercial.product_improve",
+      "name": "Product improvement",
+      "family": "commercialize",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "commercial.fraud_detect",
+      "name": "Fraud or abuse detection",
+      "family": "commercialize",
+      "meter": "inference",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "commercial.resell",
+      "name": "Resell derived data",
+      "family": "commercialize",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "lifecycle.retain",
+      "name": "Continue retention past a checkpoint",
+      "family": "lifecycle",
+      "meter": "subject_day",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "lifecycle.delete",
+      "name": "Delete",
+      "family": "lifecycle",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "lifecycle.restrict",
+      "name": "Restrict processing",
+      "family": "lifecycle",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    },
+    {
+      "code": "lifecycle.port",
+      "name": "Port to the subject or a third party",
+      "family": "lifecycle",
+      "meter": "record",
+      "derives": false,
+      "notes": ""
+    }
+  ],
+  "purposes": [
+    {
+      "code": "service",
+      "name": "Provide the requested service",
+      "parent": null,
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "service.core",
+      "name": "Core service delivery",
+      "parent": "service",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "service.account",
+      "name": "Account management",
+      "parent": "service",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "service.support",
+      "name": "Customer support",
+      "parent": "service",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "service.personalization",
+      "name": "Personalisation of the service",
+      "parent": "service",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "security",
+      "name": "Security and integrity",
+      "parent": null,
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "security.fraud",
+      "name": "Fraud prevention",
+      "parent": "security",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "security.abuse",
+      "name": "Abuse and safety",
+      "parent": "security",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "security.authentication",
+      "name": "Authentication",
+      "parent": "security",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "legal",
+      "name": "Legal and regulatory",
+      "parent": null,
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "legal.obligation",
+      "name": "Compliance with a legal obligation",
+      "parent": "legal",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "legal.claims",
+      "name": "Establishment or defence of legal claims",
+      "parent": "legal",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "legal.audit",
+      "name": "Audit and accounting",
+      "parent": "legal",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "operations",
+      "name": "Operating the system",
+      "parent": null,
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "operations.reliability",
+      "name": "Reliability and debugging",
+      "parent": "operations",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "operations.capacity",
+      "name": "Capacity planning",
+      "parent": "operations",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "improvement",
+      "name": "Improving products",
+      "parent": null,
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "improvement.analytics",
+      "name": "Product analytics",
+      "parent": "improvement",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "improvement.experimentation",
+      "name": "Experimentation",
+      "parent": "improvement",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "improvement.ai_training",
+      "name": "Training machine-learning models",
+      "parent": "improvement",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "improvement.ai_evaluation",
+      "name": "Evaluating machine-learning models",
+      "parent": "improvement",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "marketing",
+      "name": "Marketing",
+      "parent": null,
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "marketing.direct",
+      "name": "Direct marketing",
+      "parent": "marketing",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "marketing.advertising",
+      "name": "Advertising",
+      "parent": "marketing",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "marketing.advertising.contextual",
+      "name": "Contextual advertising",
+      "parent": "marketing.advertising",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "marketing.advertising.behavioral",
+      "name": "Behavioural advertising",
+      "parent": "marketing.advertising",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "marketing.measurement",
+      "name": "Advertising measurement",
+      "parent": "marketing",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "commerce",
+      "name": "Commercial exploitation",
+      "parent": null,
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "commerce.sale",
+      "name": "Sale of data",
+      "parent": "commerce",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "commerce.licensing",
+      "name": "Licensing of data",
+      "parent": "commerce",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "commerce.brokerage",
+      "name": "Data brokerage",
+      "parent": "commerce",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "risk",
+      "name": "Risk assessment",
+      "parent": null,
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "risk.credit",
+      "name": "Credit assessment",
+      "parent": "risk",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "risk.insurance",
+      "name": "Insurance underwriting",
+      "parent": "risk",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "risk.pricing",
+      "name": "Individualised pricing",
+      "parent": "risk",
+      "commercial": true,
+      "notes": ""
+    },
+    {
+      "code": "research",
+      "name": "Research",
+      "parent": null,
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "research.scientific",
+      "name": "Scientific research",
+      "parent": "research",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "research.public_interest",
+      "name": "Public-interest research",
+      "parent": "research",
+      "commercial": false,
+      "notes": ""
+    },
+    {
+      "code": "research.commercial",
+      "name": "Commercial research",
+      "parent": "research",
+      "commercial": true,
+      "notes": ""
+    }
+  ],
+  "units": [
+    {
+      "code": "record",
+      "name": "record",
+      "description": "One data record or field group about one subject.",
+      "additive": true
+    },
+    {
+      "code": "byte",
+      "name": "byte",
+      "description": "Octets of subject data at rest or in transit.",
+      "additive": true
+    },
+    {
+      "code": "subject_day",
+      "name": "subject-day",
+      "description": "One subject's data retained for one day.",
+      "additive": true
+    },
+    {
+      "code": "query",
+      "name": "query",
+      "description": "One query execution that touched the subject's data.",
+      "additive": true
+    },
+    {
+      "code": "inference",
+      "name": "inference",
+      "description": "One inference produced using the subject's data.",
+      "additive": true
+    },
+    {
+      "code": "impression",
+      "name": "impression",
+      "description": "One advertising impression informed by the data.",
+      "additive": true
+    },
+    {
+      "code": "token",
+      "name": "token",
+      "description": "One training token attributable to the subject's data.",
+      "additive": true
+    },
+    {
+      "code": "comparison",
+      "name": "comparison",
+      "description": "One preference comparison.",
+      "additive": true
+    },
+    {
+      "code": "episode",
+      "name": "episode",
+      "description": "One reinforcement-learning episode.",
+      "additive": true
+    },
+    {
+      "code": "retrieval",
+      "name": "retrieval",
+      "description": "One retrieval of the record into a context window.",
+      "additive": true
+    },
+    {
+      "code": "gradient_step",
+      "name": "gradient-step",
+      "description": "One optimiser step in which the record appeared in the batch.",
+      "additive": true
+    },
+    {
+      "code": "share",
+      "name": "share",
+      "description": "A dimensionless attribution share; NOT additive across scopes.",
+      "additive": false
+    }
+  ],
+  "regimes": [
+    {
+      "code": "eu.gdpr",
+      "name": "EU General Data Protection Regulation",
+      "scope": "territorial+targeting",
+      "notes": "Regulation (EU) 2016/679."
+    },
+    {
+      "code": "eu.data_act",
+      "name": "EU Data Act",
+      "scope": "product+service",
+      "notes": "Regulation (EU) 2023/2854; user access and sharing rights over connected-product data."
+    },
+    {
+      "code": "eu.ai_act",
+      "name": "EU AI Act",
+      "scope": "placing_on_market",
+      "notes": "Regulation (EU) 2024/1689; training-data governance and transparency duties."
+    },
+    {
+      "code": "uk.uk_gdpr",
+      "name": "UK GDPR and DPA 2018",
+      "scope": "territorial+targeting",
+      "notes": ""
+    },
+    {
+      "code": "us.ca.ccpa",
+      "name": "California CCPA/CPRA",
+      "scope": "state+threshold",
+      "notes": ""
+    },
+    {
+      "code": "us.co.cpa",
+      "name": "Colorado Privacy Act",
+      "scope": "state+threshold",
+      "notes": ""
+    },
+    {
+      "code": "us.va.vcdpa",
+      "name": "Virginia CDPA",
+      "scope": "state+threshold",
+      "notes": ""
+    },
+    {
+      "code": "us.hipaa",
+      "name": "HIPAA",
+      "scope": "sectoral",
+      "notes": "Applies to covered entities and business associates only."
+    },
+    {
+      "code": "us.glba",
+      "name": "Gramm-Leach-Bliley Act",
+      "scope": "sectoral",
+      "notes": ""
+    },
+    {
+      "code": "us.fcra",
+      "name": "Fair Credit Reporting Act",
+      "scope": "sectoral",
+      "notes": ""
+    },
+    {
+      "code": "us.coppa",
+      "name": "COPPA",
+      "scope": "age",
+      "notes": ""
+    },
+    {
+      "code": "us.ferpa",
+      "name": "FERPA",
+      "scope": "sectoral",
+      "notes": ""
+    },
+    {
+      "code": "us.il.bipa",
+      "name": "Illinois Biometric Information Privacy Act",
+      "scope": "state",
+      "notes": ""
+    },
+    {
+      "code": "br.lgpd",
+      "name": "Brazil LGPD",
+      "scope": "territorial+targeting",
+      "notes": ""
+    },
+    {
+      "code": "ca.pipeda",
+      "name": "Canada PIPEDA",
+      "scope": "territorial",
+      "notes": ""
+    },
+    {
+      "code": "jp.appi",
+      "name": "Japan APPI",
+      "scope": "territorial",
+      "notes": ""
+    },
+    {
+      "code": "kr.pipa",
+      "name": "Korea PIPA",
+      "scope": "territorial",
+      "notes": ""
+    },
+    {
+      "code": "in.dpdp",
+      "name": "India DPDP Act 2023",
+      "scope": "territorial+targeting",
+      "notes": ""
+    },
+    {
+      "code": "cn.pipl",
+      "name": "China PIPL",
+      "scope": "territorial+targeting",
+      "notes": ""
+    },
+    {
+      "code": "au.privacy_act",
+      "name": "Australia Privacy Act",
+      "scope": "territorial",
+      "notes": ""
+    },
+    {
+      "code": "za.popia",
+      "name": "South Africa POPIA",
+      "scope": "territorial",
+      "notes": ""
+    }
+  ],
+  "lawful_bases": [
+    {
+      "code": "consent",
+      "name": "Consent of the data subject"
+    },
+    {
+      "code": "contract",
+      "name": "Necessary for performance of a contract"
+    },
+    {
+      "code": "legal_obligation",
+      "name": "Necessary for a legal obligation"
+    },
+    {
+      "code": "vital_interests",
+      "name": "Necessary to protect vital interests"
+    },
+    {
+      "code": "public_task",
+      "name": "Public interest or official authority"
+    },
+    {
+      "code": "legitimate_interests",
+      "name": "Legitimate interests"
+    },
+    {
+      "code": "opt_out_respected",
+      "name": "Processing permitted absent an opt-out"
+    },
+    {
+      "code": "protocol_authorization",
+      "name": "DUAP authorization only",
+      "notes": "The controller relies on the DUAP grant itself and asserts no other basis."
+    }
+  ]
+}

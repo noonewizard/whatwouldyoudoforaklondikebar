@@ -3,6 +3,7 @@ resolver = "3"
 members = [
     "crates/duap-canon",
     "crates/duap-crypto",
+    "crates/duap-model",
 ]
 
 [workspace.package]

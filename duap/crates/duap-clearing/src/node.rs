@@ -346,29 +346,12 @@ impl ClearingNode {
         // `MaxDerivationDepth` obligation failed closed with "depth is
         // unknown", which is safe but useless. See
         // `docs/reviews/vertical-slice-review.md` finding VS-2.
-        let mut derivation = duap_auth::DerivationContext::default();
-        if !event.provenance.inputs.is_empty() {
-            let mut deepest: Option<u8> = None;
-            for i in &event.provenance.inputs {
-                if let Ok(d) = self.provenance.depth(i) {
-                    deepest = Some(deepest.map_or(d, |x: u8| x.max(d)));
-                }
-            }
-            // An input the node has never seen is treated as a source at
-            // depth 0 rather than as unknown: refusing to price a
-            // derivation because the node has not yet been told about its
-            // input would let an organisation evade obligations by
-            // withholding the upstream event.
-            derivation.input_depth = Some(deepest.unwrap_or(0));
-        } else if event.operation.derives() {
-            derivation.input_depth = Some(0);
-        }
-        if let Some(duap_canon::Value::Uint(e)) = event.extensions.get("dp.epsilon_micro") {
-            derivation.epsilon_micro = Some(*e);
-        }
+        let facts = NodeFacts {
+            provenance: &self.provenance,
+        };
         let decision = self
             .authorizations
-            .decide(&event, &EvalContext::verified().with_derivation(derivation));
+            .decide(&event, &EvalContext::verified().with_facts(&facts));
         if decision.effect != Effect::Permit {
             self.stats.rejected_authz += 1;
             return Ok(IngestOutcome::Rejected(RejectAt::Authorization {
@@ -774,5 +757,50 @@ fn unreachable_decision() -> Decision {
         deferred: vec![],
         pricing: None,
         currency: None,
+    }
+}
+
+/// The clearing node answering the evaluator's questions from its own
+/// provenance graph (ADR-0017).
+///
+/// Borrowed rather than owned so that answering a question costs nothing
+/// and the node's graph stays the single copy.
+#[derive(Debug)]
+struct NodeFacts<'a> {
+    provenance: &'a duap_provenance::ProvenanceGraph,
+}
+
+impl duap_auth::EvalFacts for NodeFacts<'_> {
+    fn input_depth(&self, ev: &DataUsageEvent) -> duap_auth::Fact<u8> {
+        use duap_auth::Fact;
+        if ev.provenance.inputs.is_empty() {
+            // No recorded inputs. The operation still derives, so the
+            // result sits at depth 1; the obligation handles that.
+            return Fact::NotApplicable;
+        }
+        let mut deepest: Option<u8> = None;
+        for i in &ev.provenance.inputs {
+            if let Ok(d) = self.provenance.depth(i) {
+                deepest = Some(deepest.map_or(d, |x: u8| x.max(d)));
+            }
+        }
+        // An input the node has never seen is `Known(0)`, not
+        // `Unavailable`. This is load-bearing and is the VS-2 rule: if an
+        // unseen input made the fact unanswerable, an organisation could
+        // evade a depth obligation simply by withholding the upstream
+        // event, and the denial would look like a misconfiguration rather
+        // than the evasion it is.
+        Fact::Known(deepest.unwrap_or(0))
+    }
+
+    fn epsilon_micro(&self, ev: &DataUsageEvent) -> duap_auth::Fact<u64> {
+        use duap_auth::Fact;
+        match ev.extensions.get("dp.epsilon_micro") {
+            Some(duap_canon::Value::Uint(e)) => Fact::Known(*e),
+            // The node can answer: the event reported no epsilon. Whether
+            // that is acceptable is the obligation's decision, not this
+            // provider's.
+            _ => Fact::NotApplicable,
+        }
     }
 }

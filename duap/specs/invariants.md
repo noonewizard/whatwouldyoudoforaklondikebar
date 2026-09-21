@@ -38,14 +38,34 @@ reason is `DefaultEffect`.
 
 ### INV-A3 — Determinism
 
-`evaluate` is a pure function of `(grant, revocations, event, context)`. It
-reads no clock, performs no I/O, and does not depend on map iteration order.
+`evaluate` is a pure function of `(grant, revocations, event, context)`,
+**given the same answers from the context's facts provider**. It reads no
+clock, performs no I/O, and does not depend on map iteration order.
+
+The qualification is not a weakening of the guarantee so much as an honest
+statement of what it always was. Some obligations need facts an event does
+not carry — derivation depth, privacy budget spent — and ADR-0017 replaced
+the struct of `Option`s that carried them with an `EvalFacts` trait. The
+fact was an input either way; the trait makes it visible that it is one. A
+provider that answers differently on two calls yields two decisions, and
+neither the evaluator nor the model can detect that.
+
+What the evaluator does guarantee is that an *unanswerable* fact denies,
+and denies distinguishably: `DecisionReason::FactUnavailable` names the
+missing fact, so a caller that supplied no provider sees a configuration
+error rather than something shaped like a policy refusal. That confusion
+was VS-2, and it survived a green test suite.
 
 - **Enforced by:** the signature of `evaluate`; no clock or store is in
-  scope.
-- **Tested by:** `evaluation_is_deterministic` (property), and by the
-  conformance vectors in `spec/vectors/authorization.json`, which a second
-  implementation must reproduce exactly.
+  scope, and the default provider (`NoFacts`) answers `Unavailable` to
+  everything, so a caller fails closed by construction.
+- **Tested by:** `evaluation_is_deterministic` (property);
+  `a_missing_fact_denies_and_says_it_was_missing`,
+  `a_supplied_fact_is_decided_on_its_value`,
+  `not_applicable_is_an_answer_and_is_decided` and
+  `an_obligation_needing_no_fact_is_unaffected_by_a_missing_provider`; and
+  the conformance vectors in `spec/vectors/authorization.json`, which a
+  second implementation must reproduce exactly.
 
 ### INV-A4 — Revocation binds from its effective time
 

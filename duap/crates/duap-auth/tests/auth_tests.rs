@@ -69,8 +69,24 @@ fn event_for(grant: &Grant, class: DataClass, op: Operation, purpose: Purpose) -
     b.build().unwrap()
 }
 
-fn ctx() -> EvalContext {
+fn ctx() -> EvalContext<'static> {
     EvalContext::verified()
+}
+
+/// A facts provider for tests, answering exactly what the test sets.
+#[derive(Debug, Default)]
+struct TestFacts {
+    input_depth: Option<Fact<u8>>,
+    epsilon_micro: Option<Fact<u64>>,
+}
+
+impl EvalFacts for TestFacts {
+    fn input_depth(&self, _ev: &DataUsageEvent) -> Fact<u8> {
+        self.input_depth.unwrap_or(Fact::Unavailable)
+    }
+    fn epsilon_micro(&self, _ev: &DataUsageEvent) -> Fact<u64> {
+        self.epsilon_micro.unwrap_or(Fact::Unavailable)
+    }
 }
 
 // ---------------------------------------------------------------------------
@@ -499,10 +515,17 @@ fn cohort_and_epsilon_obligations() {
         })
         .build()
         .unwrap();
-        let c = EvalContext::verified().with_derivation(DerivationContext {
+        let facts = TestFacts {
             input_depth: None,
-            epsilon_micro: eps,
-        });
+            epsilon_micro: Some(match eps {
+                Some(e) => Fact::Known(e),
+                // The provider can answer: the release reported no
+                // epsilon. Whether that is acceptable is the obligation's
+                // call, not the provider's.
+                None => Fact::NotApplicable,
+            }),
+        };
+        let c = EvalContext::verified().with_facts(&facts);
         evaluate(&g, &[], &ev, &c)
     };
 
@@ -996,4 +1019,159 @@ proptest! {
             prop_assert!(evaluate(&broad, &[], &eb, &ctx()).permitted());
         }
     }
+}
+
+// ---------------------------------------------------------------------------
+// ADR-0017: the facts interface
+// ---------------------------------------------------------------------------
+
+/// A caller that supplies no facts provider must be *told* so, not left to
+/// read a denial that looks like a policy outcome.
+///
+/// This is the defect VS-2 actually was: `MaxDerivationDepth` denied every
+/// deriving operation and the denial was indistinguishable from the
+/// subject having refused. It survived a full green test suite because
+/// every test of the evaluator passed.
+#[test]
+fn a_missing_fact_denies_and_says_it_was_missing() {
+    let g = builder()
+        .term(
+            Term::permit(1, Matcher::any())
+                .with_obligations(vec![Obligation::MaxDerivationDepth { depth: 2 }]),
+        )
+        .build()
+        .unwrap();
+    let ev = event_for(
+        &g,
+        DataClass::ContentUserGenerated,
+        Operation::AiFinetune,
+        Purpose::ImprovementAiTraining,
+    );
+
+    // No facts provider at all: the default.
+    let d = evaluate(&g, &[], &ev, &EvalContext::verified());
+    assert!(
+        !d.permitted(),
+        "a decision made without the facts must deny"
+    );
+    match &d.reason {
+        DecisionReason::FactUnavailable {
+            obligation, fact, ..
+        } => {
+            assert_eq!(fact, "input_depth");
+            assert_eq!(obligation, "max_derivation_depth");
+        }
+        other => panic!(
+            "expected FactUnavailable so the caller knows it is a \
+             misconfiguration, got {other:?}"
+        ),
+    }
+}
+
+/// The same obligation, with a provider that can answer, is decided on the
+/// answer rather than on the caller's diligence.
+#[test]
+fn a_supplied_fact_is_decided_on_its_value() {
+    let g = builder()
+        .term(
+            Term::permit(1, Matcher::any())
+                .with_obligations(vec![Obligation::MaxDerivationDepth { depth: 2 }]),
+        )
+        .build()
+        .unwrap();
+    let ev = event_for(
+        &g,
+        DataClass::ContentUserGenerated,
+        Operation::AiFinetune,
+        Purpose::ImprovementAiTraining,
+    );
+
+    let shallow = TestFacts {
+        input_depth: Some(Fact::Known(0)),
+        ..Default::default()
+    };
+    assert!(
+        evaluate(&g, &[], &ev, &EvalContext::verified().with_facts(&shallow)).permitted(),
+        "depth 0 + 1 is within a limit of 2"
+    );
+
+    let deep = TestFacts {
+        input_depth: Some(Fact::Known(5)),
+        ..Default::default()
+    };
+    let d = evaluate(&g, &[], &ev, &EvalContext::verified().with_facts(&deep));
+    assert!(!d.permitted());
+    assert!(
+        matches!(d.reason, DecisionReason::ObligationViolated { .. }),
+        "an answered fact that breaches the limit is a violation, not a \
+         missing fact: {:?}",
+        d.reason
+    );
+}
+
+/// `NotApplicable` is an answer, not an absence. An operation with no
+/// recorded inputs still produces a derivative at depth 1, so a limit of 0
+/// refuses it and a limit of 2 does not.
+#[test]
+fn not_applicable_is_an_answer_and_is_decided() {
+    let ev_grant = |depth: u8| {
+        builder()
+            .term(
+                Term::permit(1, Matcher::any())
+                    .with_obligations(vec![Obligation::MaxDerivationDepth { depth }]),
+            )
+            .build()
+            .unwrap()
+    };
+    let derive_ev = |g: &Grant| {
+        event_for(
+            g,
+            DataClass::ContentUserGenerated,
+            Operation::AiFinetune,
+            Purpose::ImprovementAiTraining,
+        )
+    };
+    let facts = TestFacts {
+        input_depth: Some(Fact::NotApplicable),
+        ..Default::default()
+    };
+
+    let g2 = ev_grant(2);
+    let ev2 = derive_ev(&g2);
+    assert!(
+        evaluate(&g2, &[], &ev2, &EvalContext::verified().with_facts(&facts)).permitted(),
+        "no inputs means the result is at depth 1, within a limit of 2"
+    );
+
+    let g0 = ev_grant(0);
+    let ev0 = derive_ev(&g0);
+    let d = evaluate(&g0, &[], &ev0, &EvalContext::verified().with_facts(&facts));
+    assert!(!d.permitted(), "a limit of 0 forbids deriving at all");
+    assert!(
+        matches!(d.reason, DecisionReason::ObligationViolated { .. }),
+        "NotApplicable is an answer, so breaching the limit is a violation, \
+         not a missing fact: {:?}",
+        d.reason
+    );
+}
+
+/// An obligation that does not need a fact is unaffected by the absence of
+/// a provider. Failing closed must not mean failing closed on everything.
+#[test]
+fn an_obligation_needing_no_fact_is_unaffected_by_a_missing_provider() {
+    let g = builder()
+        .term(Term::permit(1, Matcher::any()).with_obligations(vec![Obligation::NoAiTraining]))
+        .build()
+        .unwrap();
+    let ev = event_for(
+        &g,
+        DataClass::LocationCoarse,
+        Operation::AccessQuery,
+        Purpose::ServiceCore,
+    );
+    assert!(
+        evaluate(&g, &[], &ev, &EvalContext::verified()).permitted(),
+        "NoAiTraining is decided from the event's operation, so no facts \
+         provider is needed and its absence must not deny"
+    );
 }

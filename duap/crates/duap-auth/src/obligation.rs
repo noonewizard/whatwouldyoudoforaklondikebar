@@ -114,6 +114,10 @@ pub enum Obligation {
 pub enum ObligationStatus {
     /// Decidable now, and satisfied.
     Satisfied,
+    /// A fact needed to decide this obligation was not available. The
+    /// evaluator denies, distinctly from a violation: this is a
+    /// misconfiguration on the caller's side, not a policy outcome.
+    FactUnavailable(&'static str),
     /// Decidable now, and violated.
     Violated(String),
     /// A promise about the future. Recorded, monitored, not enforced here.
@@ -122,19 +126,61 @@ pub enum ObligationStatus {
     Economic,
 }
 
-/// How many derivation hops an event's provenance represents, supplied by the
-/// caller because the authorization engine does not hold the graph.
-#[derive(Debug, Clone, Copy, Default, PartialEq, Eq)]
-pub struct DerivationContext {
-    /// Depth of the deepest input in the provenance graph, if known.
-    pub input_depth: Option<u8>,
-    /// Epsilon actually spent by this release, in micro-units.
-    pub epsilon_micro: Option<u64>,
+/// A fact the evaluator asked for, in three states rather than two.
+///
+/// `Option` conflates "the answer is none" with "nobody asked", and an
+/// obligation must treat those differently: the first is a policy outcome,
+/// the second is a misconfiguration.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum Fact<T> {
+    /// The provider answered.
+    Known(T),
+    /// The provider can answer, and the answer is that no such value
+    /// exists -- an operation with no inputs has no input depth.
+    NotApplicable,
+    /// The provider cannot answer. An obligation that needs this fact
+    /// denies, and says *this* rather than "violated", so a caller that
+    /// forgot to supply a provider sees a configuration error instead of
+    /// what looks like a policy outcome. That confusion was VS-2.
+    Unavailable,
 }
+
+/// Facts the evaluator may need that an event does not carry.
+///
+/// The evaluator stays a pure function of its inputs: it calls this trait
+/// and never reaches into a store. Determinism therefore means determinism
+/// *given the same answers* (INV-A3), which is the honest statement -- the
+/// fact was always an input, and carrying it in a struct rather than a
+/// trait never made it less so.
+///
+/// Every method defaults to [`Fact::Unavailable`], so a caller who
+/// implements nothing fails closed by construction rather than by
+/// remembering to. See ADR-0017.
+pub trait EvalFacts: std::fmt::Debug {
+    /// Depth of the deepest input in the provenance graph.
+    fn input_depth(&self, _ev: &DataUsageEvent) -> Fact<u8> {
+        Fact::Unavailable
+    }
+
+    /// Privacy budget actually spent by this release, in micro-units.
+    fn epsilon_micro(&self, _ev: &DataUsageEvent) -> Fact<u64> {
+        Fact::Unavailable
+    }
+}
+
+/// A provider that knows nothing.
+///
+/// Every context-dependent obligation denies under it. This is the correct
+/// default for a caller with no provenance graph -- a decision made without
+/// the facts should not be a permit.
+#[derive(Debug, Clone, Copy, Default)]
+pub struct NoFacts;
+
+impl EvalFacts for NoFacts {}
 
 impl Obligation {
     /// Check this obligation against an event.
-    pub fn check(&self, ev: &DataUsageEvent, ctx: &DerivationContext) -> ObligationStatus {
+    pub fn check(&self, ev: &DataUsageEvent, facts: &dyn EvalFacts) -> ObligationStatus {
         use ObligationStatus as S;
         match self {
             Obligation::MaxRetentionDays { days } => match &ev.retention {
@@ -180,17 +226,25 @@ impl Obligation {
                     S::Satisfied
                 }
             }
-            Obligation::MaxDerivationDepth { depth } => match ctx.input_depth {
-                Some(d) if ev.operation.derives() && d + 1 > *depth => S::Violated(format!(
-                    "derivation would reach depth {} beyond the permitted {depth}",
-                    d + 1
-                )),
-                Some(_) => S::Satisfied,
-                None if ev.operation.derives() => {
-                    S::Violated("derivation depth is unknown; supply provenance".into())
+            Obligation::MaxDerivationDepth { depth } => {
+                if !ev.operation.derives() {
+                    return S::Satisfied;
                 }
-                None => S::Satisfied,
-            },
+                // An operation with no recorded inputs still produces a
+                // derivative, so it sits at depth 0 and the result at 1.
+                match facts.input_depth(ev) {
+                    Fact::Known(d) if d.saturating_add(1) > *depth => S::Violated(format!(
+                        "derivation would reach depth {} beyond the permitted {depth}",
+                        d.saturating_add(1)
+                    )),
+                    Fact::Known(_) => S::Satisfied,
+                    Fact::NotApplicable if 1 > *depth => S::Violated(format!(
+                        "derivation would reach depth 1 beyond the permitted {depth}"
+                    )),
+                    Fact::NotApplicable => S::Satisfied,
+                    Fact::Unavailable => S::FactUnavailable("input_depth"),
+                }
+            }
             Obligation::NoOnwardTransfer => {
                 if ev.operation.family() == OperationFamily::Transfer
                     && ev.operation != Operation::TransferInternal
@@ -266,16 +320,21 @@ impl Obligation {
                 }
                 SubjectScope::NonPersonal => S::Satisfied,
             },
-            Obligation::MaxEpsilonMicro { epsilon_micro } => match ctx.epsilon_micro {
-                Some(e) if e <= *epsilon_micro => S::Satisfied,
-                Some(e) => S::Violated(format!(
-                    "epsilon {e} micro exceeds the permitted {epsilon_micro} micro"
-                )),
-                None if ev.operation == Operation::ProcessDpRelease => {
-                    S::Violated("a differentially private release must report its epsilon".into())
+            Obligation::MaxEpsilonMicro { epsilon_micro } => {
+                let is_dp = ev.operation == Operation::ProcessDpRelease;
+                match facts.epsilon_micro(ev) {
+                    Fact::Known(e) if e <= *epsilon_micro => S::Satisfied,
+                    Fact::Known(e) => S::Violated(format!(
+                        "epsilon {e} micro exceeds the permitted {epsilon_micro} micro"
+                    )),
+                    Fact::NotApplicable if is_dp => S::Violated(
+                        "a differentially private release must report its epsilon".into(),
+                    ),
+                    Fact::NotApplicable => S::Satisfied,
+                    Fact::Unavailable if is_dp => S::FactUnavailable("epsilon_micro"),
+                    Fact::Unavailable => S::Satisfied,
                 }
-                None => S::Satisfied,
-            },
+            }
             Obligation::NotifyOnUse => {
                 S::Deferred("notification recorded as an obligation on the controller")
             }

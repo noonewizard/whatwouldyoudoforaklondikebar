@@ -30,7 +30,7 @@
 //! conformance vectors check.
 
 use crate::grant::{Effect, Grant};
-use crate::obligation::{DerivationContext, Obligation, ObligationStatus};
+use crate::obligation::{EvalFacts, NoFacts, Obligation, ObligationStatus};
 use crate::revocation::Revocation;
 use duap_model::prelude::*;
 use serde::{Deserialize, Serialize};
@@ -52,6 +52,17 @@ pub enum DecisionReason {
         term: u32,
         obligation: String,
         detail: String,
+    },
+    /// An obligation could not be decided because the caller did not supply
+    /// a fact it needs. This is a denial, and it is *not* a policy outcome:
+    /// it means the evaluator was called without a facts provider that can
+    /// answer. Distinguished from `ObligationViolated` so a misconfigured
+    /// caller sees a configuration error rather than what looks like a
+    /// refusal (ADR-0017; the failure VS-2 actually was).
+    FactUnavailable {
+        term: u32,
+        obligation: String,
+        fact: String,
     },
     /// The grant was not in force at the time of the operation.
     OutsideGrantWindow,
@@ -98,26 +109,44 @@ impl Decision {
 }
 
 /// Inputs beyond the event that the evaluator needs.
-#[derive(Debug, Clone, Default)]
-pub struct EvalContext {
-    pub derivation: DerivationContext,
+#[derive(Debug, Clone, Copy)]
+pub struct EvalContext<'a> {
+    /// Facts the evaluator may need that the event does not carry.
+    /// Defaults to [`NoFacts`], under which every context-dependent
+    /// obligation denies -- a decision made without the facts should not
+    /// be a permit (ADR-0017).
+    pub facts: &'a dyn EvalFacts,
     /// Whether the caller has already verified the subject's signature over
     /// the grant. The evaluator refuses to permit anything when this is false,
     /// so that a caller cannot accidentally rely on an unauthenticated grant.
     pub grant_signature_verified: bool,
 }
 
-impl EvalContext {
-    pub fn verified() -> EvalContext {
+impl Default for EvalContext<'static> {
+    /// Unverified, and knowing nothing. Both defaults deny.
+    fn default() -> EvalContext<'static> {
         EvalContext {
-            derivation: DerivationContext::default(),
+            facts: &NoFacts,
+            grant_signature_verified: false,
+        }
+    }
+}
+
+impl<'a> EvalContext<'a> {
+    pub fn verified() -> EvalContext<'static> {
+        EvalContext {
+            facts: &NoFacts,
             grant_signature_verified: true,
         }
     }
 
-    pub fn with_derivation(mut self, d: DerivationContext) -> Self {
-        self.derivation = d;
-        self
+    /// Supply a facts provider. Without one, every context-dependent
+    /// obligation denies with `FactUnavailable`.
+    pub fn with_facts(self, facts: &'a dyn EvalFacts) -> EvalContext<'a> {
+        EvalContext {
+            facts,
+            grant_signature_verified: self.grant_signature_verified,
+        }
     }
 }
 
@@ -246,7 +275,7 @@ pub fn evaluate(
     for t in &permits {
         for o in &t.obligations {
             if !obligations.contains(o) {
-                match o.check(event, &ctx.derivation) {
+                match o.check(event, ctx.facts) {
                     ObligationStatus::Satisfied => obligations.push(o.clone()),
                     ObligationStatus::Economic => obligations.push(o.clone()),
                     ObligationStatus::Deferred(note) => {
@@ -258,6 +287,17 @@ pub fn evaluate(
                             term: t.id,
                             obligation: o.label().to_owned(),
                             detail,
+                        });
+                    }
+                    // Denied, but for a different reason than a violation:
+                    // the caller did not supply the fact needed to decide.
+                    // Reported separately so a misconfiguration is not
+                    // mistaken for a policy outcome (ADR-0017).
+                    ObligationStatus::FactUnavailable(fact) => {
+                        return Decision::deny(DecisionReason::FactUnavailable {
+                            term: t.id,
+                            obligation: o.label().to_owned(),
+                            fact: fact.to_owned(),
                         });
                     }
                 }

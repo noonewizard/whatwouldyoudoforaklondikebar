@@ -41,7 +41,7 @@ pub mod obligation;
 pub use evaluate::{AuthorizationStore, Decision, DecisionReason, EvalContext, evaluate};
 pub use grant::{Effect, GRANT_DOMAIN, Grant, GrantBuilder, RevocationPolicy, Term};
 pub use matcher::{ClassSelector, Matcher, PurposeSelector, Selector};
-pub use obligation::{DerivationContext, Obligation, ObligationStatus};
+pub use obligation::{EvalFacts, Fact, NoFacts, Obligation, ObligationStatus};
 pub use revocation_reexport::*;
 
 mod revocation_reexport {
@@ -59,6 +59,6 @@ pub mod prelude {
     };
     pub use crate::grant::{Effect, Grant, GrantBuilder, RevocationPolicy, Term};
     pub use crate::matcher::{ClassSelector, Matcher, PurposeSelector, Selector};
-    pub use crate::obligation::{DerivationContext, Obligation};
+    pub use crate::obligation::{EvalFacts, Fact, NoFacts, Obligation};
     pub use crate::revocation::{RetroactiveRequest, Revocation, RevocationScope};
 }

@@ -24,7 +24,7 @@ happened to its eight decisions since:
 | 4. Type-level control on the pseudonym salt | **Done.** `RootSecretSource`, a feature-gated `InsecureFixedSecret`, and a checker on the opt-in list (VS-5) |
 | 5. Demote or model `negotiation.rs` | **Done.** Both: `formal/Negotiation.tla` written and checked, marker lowered (VS-7) |
 | 6. Coverage-guided fuzzing of the decoder | **Done, and it was right.** Six targets; the first found a nine-byte denial-of-service defect in two minutes (FUZZ-01) |
-| 7. Redesign the obligation context interface by ADR | Open |
+| 7. Redesign the obligation context interface by ADR | **Done.** ADR-0017: an `EvalFacts` trait with a three-valued `Fact<T>`, defaulting to `Unavailable` so a caller fails closed by construction |
 | 8. No subsystem advances while a blocker stands | In force; `docs/STATUS.md` is the register |
 
 Two findings were raised *by* this review and are also closed: VS-7 above,

@@ -405,16 +405,53 @@ context)`. It MUST NOT consult a clock or any mutable store.
 
 Each obligation is classified by what a verifier can do with it:
 
-- **Checkable** — decidable from the event; a violation forces `Deny`.
-  `max_retention`, `no_derivative`, `max_derivation_depth`,
-  `no_onward_transfer`, `transfer_allowlist`, `no_ai_training`,
-  `ai_allowlist`, `residency`, `min_cohort`, `max_epsilon`,
-  `require_commitment`, `require_processor`.
+- **Checkable** — decidable from the event alone; a violation forces
+  `Deny`. `max_retention`, `no_derivative`, `no_onward_transfer`,
+  `transfer_allowlist`, `no_ai_training`, `ai_allowlist`, `residency`,
+  `min_cohort`, `require_commitment`, `require_processor`.
+- **Context-dependent** — decidable only from a fact the event does not
+  carry, which the caller supplies. `max_derivation_depth` needs the
+  depth of the deepest input in the provenance graph; `max_epsilon` needs
+  the privacy budget the release actually spent.
 - **Deferred** — a promise about the future, recorded and monitored, not
   enforced. `delete_by`, `notify`.
 - **Economic** — handed to the valuation engine. `min_price`.
 
 An implementation MUST NOT describe a deferred obligation as enforced.
+
+#### 5.4.1 Context-dependent obligations
+
+A supplied fact has three states, and an implementation MUST distinguish
+them:
+
+| State | Meaning | Effect |
+|---|---|---|
+| **Known** | The caller answered with a value | Decide the obligation on the value |
+| **Not applicable** | The caller can answer, and no such value exists | An answer; decide accordingly |
+| **Unavailable** | The caller cannot answer | **MUST deny** |
+
+An implementation MUST NOT treat `Unavailable` as permitting. This is the
+most dangerous possible non-conformance: an evaluator that permits when it
+could not check an obligation has silently removed the obligation.
+
+An implementation SHOULD report a denial caused by `Unavailable` distinctly
+from a denial caused by a violation, because the first is a
+misconfiguration of the caller and the second is a policy outcome, and
+conflating them makes the first undiagnosable.
+
+Two further rules bind a caller that supplies facts:
+
+- A caller MUST NOT answer `Unavailable` for a fact it could compute.
+  Specifically, where a provenance input is unknown to the caller, the
+  input's depth MUST be reported as 0 rather than unavailable — otherwise
+  an organisation could evade a depth obligation by withholding the
+  upstream event, and the resulting denial would be indistinguishable from
+  a misconfiguration.
+- Answers MUST be stable for a given event. INV-A3's determinism is
+  conditional on this; a provider that answers differently on two calls
+  produces two decisions and nothing detects it.
+
+See ADR-0017.
 
 ### 5.5 Pricing rules
 

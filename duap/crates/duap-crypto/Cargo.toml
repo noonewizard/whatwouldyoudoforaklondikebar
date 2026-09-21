@@ -1,0 +1,30 @@
+[package]
+name = "duap-crypto"
+description = "DUAP cryptographic suites, key identity, signed envelopes, key registry and revocation"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+duap-canon = { path = "../duap-canon", version = "0.1.0" }
+serde.workspace = true
+serde_json.workspace = true
+ed25519-dalek.workspace = true
+fips204.workspace = true
+sha2.workspace = true
+getrandom.workspace = true
+hex.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+duap-canon = { path = "../duap-canon" }
+serde_json.workspace = true
+proptest.workspace = true
+criterion.workspace = true
+
+[[bench]]
+name = "crypto_bench"
+harness = false

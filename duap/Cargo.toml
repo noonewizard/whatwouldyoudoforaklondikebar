@@ -1,0 +1,47 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/duap-canon",
+    "crates/duap-crypto",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+license = "Apache-2.0"
+repository = "https://github.com/noonewizard/whatwouldyoudoforaklondikebar"
+authors = ["DUAP reference implementation contributors"]
+
+[workspace.dependencies]
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = { version = "1.0.151", features = ["preserve_order"] }
+ciborium = "0.2.2"
+ciborium-io = "0.2.2"
+ciborium-ll = "0.2.2"
+sha2 = "0.11.0"
+blake3 = "1.8.7"
+ed25519-dalek = { version = "3.0.0", default-features = false, features = ["fast", "zeroize"] }
+fips204 = { version = "0.4.6", default-features = false, features = ["ml-dsa-44", "ml-dsa-65", "default-rng"] }
+getrandom = "0.3"
+hex = "0.4.3"
+base64 = "0.23.1"
+thiserror = "2.0.20"
+indexmap = { version = "2.14.2", features = ["serde"] }
+num-rational = { version = "0.4.2", default-features = false, features = ["num-bigint"] }
+num-bigint = "0.4"
+num-traits = "0.2"
+time = { version = "0.3.55", features = ["formatting", "parsing", "macros"] }
+clap = { version = "4.6.7", features = ["derive", "env"] }
+proptest = "1.11.0"
+criterion = "0.8.2"
+rusqlite = { version = "0.40.2", features = ["bundled"] }
+rayon = "1.12.0"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+debug = false
+
+[profile.bench]
+lto = "thin"

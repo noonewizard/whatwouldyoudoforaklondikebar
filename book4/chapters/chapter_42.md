@@ -34,10 +34,10 @@ Castle* organizes the spiritual life as a series of dwelling-places within a
 castle, entered successively.
 
 Note the structure of Teresa's device, because it recurs everywhere in this
-material: **a set of rooms, an order of passage, and a centre.** That is a temple
+material: **a set of rooms, an order of passage, and a center.** That is a temple
 plan, functionally, whatever it is called. Court, hall, innermost sanctuary. The
 Temple's own arrangement — a graded sequence of increasing restriction toward a
-single inaccessible centre — is unusually well suited to describing an interior
+single inaccessible center — is unusually well suited to describing an interior
 life, and traditions with no contact with one another have reached for that shape
 independently.
 
@@ -56,7 +56,7 @@ The phrase used across several jurisdictions for what is being built — a house
 made with hands, eternal in the heavens — is Paul's, from 2 Corinthians, and it
 belongs to the Christian inheritance rather than to any operative secret. Its
 Masonic use is an appropriation of a scriptural formula, made in a context where
-everyone present would recognise it.
+everyone present would recognize it.
 
 ---
 
@@ -65,14 +65,14 @@ everyone present would recognise it.
 Strip the architecture away and the claim underneath is this: **a person's
 character is cumulative, has structure, and can be worked on deliberately.**
 
-Each of those three is contestable, and each has a genuine defence.
+Each of those three is contestable, and each has a genuine defense.
 
 *Cumulative*: what one does repeatedly changes what one is disposed to do. This is
 the oldest claim in virtue ethics — Aristotle's, that we become just by doing just
 acts — and it is also, in a different vocabulary, one of the better-supported
 findings about habit formation.
 
-*Structured*: some traits depend on others. Courage without judgement is
+*Structured*: some traits depend on others. Courage without judgment is
 recklessness; generosity without prudence is ruin. Traditions that organize the
 virtues hierarchically are asserting dependency relations, and the assertion is
 not absurd.

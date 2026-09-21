@@ -42,7 +42,7 @@ mem. The result is כשדים — **Kasdim**, the Chaldeans.
 I ran both. Both reproduce exactly.[^1]
 
 Three features of these attestations deserve attention, because they constrain
-everything built on the technique afterwards.
+everything built on the technique afterward.
 
 **Both are Hebrew to Hebrew.** The input is a Hebrew string and the output is a
 Hebrew word. No translation, no transliteration, no crossing between languages.
@@ -205,9 +205,9 @@ And there is a strong philological alternative that has been available for a lon
 time: that *Baphomet* is a corruption of *Mahomet* — that the charge was of
 venerating an idol of Muhammad, which was a standard accusation against groups
 suspected of eastern contamination, and which Christians of the period wrongly
-believed Muslims practised.
+believed Muslims practiced.
 
-**That explanation requires nothing but the ordinary behaviour of medieval
+**That explanation requires nothing but the ordinary behavior of medieval
 polemic**, and it accounts for the variant forms as transmission noise.
 
 **So the claim asks us to apply a Hebrew cipher to a word of uncertain form, from

@@ -41,7 +41,7 @@ binding and protection, consistent with the Testament of Solomon's ring. **In mu
 of this material the figure so named is a pentagram, not a hexagram**, and the
 usage is unstable. The name attaches to more than one shape.
 
-**Islamic use.** *Khātam Sulaymān*, the seal of Solomon, is a recognised motif in
+**Islamic use.** *Khātam Sulaymān*, the seal of Solomon, is a recognized motif in
 Islamic art and architecture, appearing decoratively and in talismanic contexts.
 Solomon (Sulaymān) is a prophet in Islam with a substantial legendary tradition of
 command over jinn and animals, grounded in the Qur'an.[^1]

@@ -19,7 +19,7 @@ brigadier general during the American Civil War, with a command involving Native
 American troops, and his conduct and resignation were the subject of controversy at
 the time. These facts are stated here because a biography that omits them is not a
 biography, and because Pike's Confederate service is a real and legitimate reason
-for the sustained modern objection to public monuments honouring him.
+for the sustained modern objection to public monuments honoring him.
 
 From 1859 until his death he was Sovereign Grand Commander of the Supreme Council
 of the Ancient and Accepted Scottish Rite for the Southern Jurisdiction of the

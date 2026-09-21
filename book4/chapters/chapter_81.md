@@ -45,10 +45,10 @@ The art of memory was a standard component of rhetorical training from antiquity
 through the Renaissance, described in classical sources and taught continuously.
 Its method is architectural: place the items to be remembered at locations along a
 route through a familiar structure, and recall them by walking it. Temples and
-theatres appear repeatedly in the sources as the recommended structures.
+theaters appear repeatedly in the sources as the recommended structures.
 
 And, as Chapter 51 noted, William Schaw's statutes to the Scottish masons of 1598
-and 1599 reference the art of memory as something masons were expected to practise.
+and 1599 reference the art of memory as something masons were expected to practice.
 A documented sixteenth-century link between an organized building trade and a
 technique for storing knowledge in imagined architecture is a genuinely remarkable
 piece of evidence, and it is one of the few in this whole subject that requires no
@@ -71,7 +71,7 @@ history of what got stored at those addresses.
 
 The porch held pillars, and the pillars later held principles, then *sefirot*.
 The innermost room held the Ark, then the divine darkness, then the unreachable
-centre of the self. The middle chamber held wages, then a stage of instruction.
+center of the self. The middle chamber held wages, then a stage of instruction.
 The unfinished work held a construction site, then a lifetime.
 
 **The addresses stayed constant while the contents changed completely.** That is
@@ -115,7 +115,7 @@ is no original filing to recover.
 
 And it does not make this book's own analysis immune to Chapter 72's warning. A
 vocabulary that can describe any structure as storage will describe any structure
-as storage. The defence, again, is that the claim being made is modest — that
+as storage. The defense, again, is that the claim being made is modest — that
 buildings afford memory, which is experimentally supported — and that the
 historical link runs through a documented practice with a date and a statute, not
 through an inference from dimensions.

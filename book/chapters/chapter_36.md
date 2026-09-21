@@ -96,20 +96,20 @@ It came off a shelf, and we know what was on the shelf.
 Paris after Lévi produced an institutional occultism with a distinctly French character:
 literary, quarrelsome, and connected to both Catholic traditionalism and the political left.
 
-Its central organiser was Gérard Encausse, a physician who wrote as **Papus**. He was
+Its central organizer was Gérard Encausse, a physician who wrote as **Papus**. He was
 enormously productive — his *Traité méthodique de science occulte* (1891) is a synthesis on
 the Lévi model — and enormously energetic as a founder of things. Chief among them was the
 revived **Martinist Order**, which took its name and claimed its descent from Louis-Claude
 de Saint-Martin, whom we met in Chapter 27.
 
 That claim is worth a sentence of scrutiny. Saint-Martin had no order; he had readers, and
-a deliberate suspicion of ceremonial organisation. The nineteenth-century Martinist Order is
+a deliberate suspicion of ceremonial organization. The nineteenth-century Martinist Order is
 a reconstruction on the model of what its founders thought Saint-Martin's circle had been,
 using materials they had assembled themselves. The continuity is doctrinal and literary,
 not institutional.
 
 It is the same pattern as everywhere else in this part of the book: a real inheritance of
-*texts*, dressed as an inheritance of *organisation*.
+*texts*, dressed as an inheritance of *organization*.
 
 The French scene also produced Stanislas de Guaita's Kabbalistic Order of the Rose-Cross,
 Joséphin Péladan's aesthetic Rosicrucian salons, and a series of public feuds that provided
@@ -124,13 +124,13 @@ And now the institutional route that this book cares about most.
 
 In 1866, Robert Wentworth Little and a circle of English Masons founded the **Societas
 Rosicruciana in Anglia**. Its material was drawn substantially from the German Rosicrucian
-tradition of Chapter 28 — its grade names are recognisably those of the Gold- und
+tradition of Chapter 28 — its grade names are recognizably those of the Gold- und
 Rosenkreuz — and its purpose was the study of esoteric subjects.
 
 Its entry requirement was that a candidate be a Master Mason in good standing.[^2]
 
 That single condition is the pipeline. It means that in Victorian England, the route into
-organised esoteric study ran *through the Craft*. A man interested in Kabbalah, alchemy or
+organized esoteric study ran *through the Craft*. A man interested in Kabbalah, alchemy or
 Hermetic philosophy who wanted to pursue it in company had to be a Freemason first.
 
 The consequences are visible in the membership. Kenneth Mackenzie, compiler of the *Royal
@@ -158,7 +158,7 @@ Set it out and the structure is clear.
 **The publishing and antiquarian trade** supplies the primary texts.
 **Lévi** supplies the synthesis — a coherent doctrine linking will, imagination,
 correspondence, Kabbalah and tarot.
-**Freemasonry** supplies the organisational form: grades, initiation, obligation, officers,
+**Freemasonry** supplies the organizational form: grades, initiation, obligation, officers,
 temple, secrecy.
 
 Five inputs. And the thing assembled from them — the Victorian magical order — is the

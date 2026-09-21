@@ -67,7 +67,7 @@ constructed a room it built the Rosicrucian vault and not the Solomonic Temple.
 
 Films, novels, and games in which the Temple, its treasure, or its secret drives a
 plot. Chapter 70 noted the most commercially successful recent instance is set in a
-Masonic building modelled on a Greek tomb.
+Masonic building modeled on a Greek tomb.
 
 ---
 
@@ -104,7 +104,7 @@ directly.
 **We have no access to Solomon's Temple that is not a reconstruction.**
 
 The biblical accounts are themselves composed centuries after the events they
-describe, by writers with theological programmes, and they disagree with each other
+describe, by writers with theological programs, and they disagree with each other
 about the numbers. There are no remains. There is no contemporary depiction. Every
 image anyone has ever had of this building has been made by somebody, out of
 something else, for a reason.

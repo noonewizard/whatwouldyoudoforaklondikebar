@@ -1,13 +1,13 @@
 # CHAPTER FOURTEEN
 ## The Square and the Compasses
 
-It is the most widely recognised emblem in this book and possibly the most widely recognised
+It is the most widely recognized emblem in this book and possibly the most widely recognized
 emblem in the world that is not a national flag or a corporate logo. It is on lodge doors in
 Accra and gravestones in Ohio, on rings and watch-fobs and the sides of buildings, and the
-overwhelming majority of people who recognise it could tell you only that it means
+overwhelming majority of people who recognize it could tell you only that it means
 Freemasons.
 
-Two draughtsman's instruments, interlocked, sometimes with a letter between them.
+Two draftsman's instruments, interlocked, sometimes with a letter between them.
 
 This chapter is not about where they came from — the previous volume dated the layers and
 the finding was that everything documented is craft-derived or biblical and everything
@@ -85,7 +85,7 @@ encountered it in a ceremony designed to make it memorable.
 Freemasonry's structural peculiarity. There is no Masonic magisterium. Nobody has ever been
 authorised to say what the square means. Anderson's *Constitutions* of 1723 removed
 doctrinal authority from the institution in order to admit men of different religions, and
-the consequence — probably unintended — was that it could never afterwards adjudicate an
+the consequence — probably unintended — was that it could never afterward adjudicate an
 interpretation of anything.
 
 **A symbol under those three conditions accumulates. It cannot do anything else.**
@@ -178,7 +178,7 @@ a sacred letter, not a cosmic diagram — the contents of a workman's bag.
 **Its ethics are verificationist.** The instruments test. The moral system carried by them
 is one of conformity to an external standard indifferent to the person being tested.
 
-**And it was content to be legible.** An organisation seriously concerned with concealment
+**And it was content to be legible.** An organization seriously concerned with concealment
 does not put its emblem on the front of its buildings, its members' gravestones and its
 letterhead.
 

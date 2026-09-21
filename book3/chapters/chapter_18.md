@@ -1,7 +1,7 @@
 # CHAPTER EIGHTEEN
 ## The Lost Word
 
-This is the chapter the book has been walking towards, and its conclusion is
+This is the chapter the book has been walking toward, and its conclusion is
 negative in a way that took me some time to accept.
 
 **There is no lost word.**
@@ -172,7 +172,7 @@ smaller bodies now known only from their own paperwork.
 Higher degrees offered more: more knowledge, more titles, more elaborate
 ceremonies, and — repeatedly — the recovery of what the Craft had withheld. Secrets
 promised, lineages asserted, unknown superiors invoked. Von Hund's Strict Observance
-was organised entirely around the claim that hidden masters were directing it, and
+was organized entirely around the claim that hidden masters were directing it, and
 he could never produce one.
 
 **The market wanted delivery, and the market was served.**
@@ -237,7 +237,7 @@ nobody put it there on purpose.
 [^1]: On the Royal Arch, its contested early history and its relation to the Craft
 degrees — which differs materially by constitution — see Chapter 19 below and the
 preceding volume of this series. The Articles of Union of 1813 produced the
-formula by which English Masonry recognised three degrees "including the Supreme
+formula by which English Masonry recognized three degrees "including the Supreme
 Order of the Holy Royal Arch." **[SOURCE VERIFICATION REQUIRED — article and page.]**
 
 [^2]: On the substituted word's variation between jurisdictions and over time, and

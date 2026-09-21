@@ -7,7 +7,7 @@ with them, almost as an appendix — a pamphlet of about twenty pages announcing
 secret brotherhood existed.
 
 The *Fama Fraternitatis* told a story. A German nobleman, called only Brother C.R., had
-travelled in his youth to Damascus, to the Arabian city of Damcar, to Fez and to Spain,
+traveled in his youth to Damascus, to the Arabian city of Damcar, to Fez and to Spain,
 learning from sages in each place a wisdom that Europe had lost. He returned, was ignored
 by the learned, and withdrew to found a fraternity of eight members. They were to travel,
 to heal the sick without payment, to wear no distinctive habit but the dress of the
@@ -18,7 +18,7 @@ C.R. died at the age of a hundred and six and was buried in a place his brothers
 know. And then, the *Fama* says, a hundred and twenty years later, a door was discovered
 behind a memorial tablet. Behind the door was a vault of seven sides, lit — though it was
 underground and sealed — by an artificial sun in the ceiling. Every surface was covered
-with figures and inscriptions. In the centre stood an altar, and beneath the altar,
+with figures and inscriptions. In the center stood an altar, and beneath the altar,
 uncorrupted, lay the body of the founder, holding a book.
 
 The pamphlet ended by inviting the learned of Europe to make themselves known to the
@@ -71,7 +71,7 @@ In one sense it worked perfectly. Within a decade of the *Fama*, "Rosicrucian" w
 European word.
 
 In another sense it produced three hundred years of confusion, because a great many readers
-declined to treat the announcement as fiction, and some of them founded organisations.
+declined to treat the announcement as fiction, and some of them founded organizations.
 
 ---
 
@@ -81,14 +81,14 @@ Because this is where the confusion starts, let me set out the distinctions this
 enforce.
 
 **One: the manifestos.** Three texts, 1614–1616, Kassel and Strasbourg. Documents, not an
-organisation.
+organization.
 
 **Two: the furore.** The 1610s–1620s reaction across Europe: hundreds of publications,
 applicants, denunciations, the Paris placards. Entirely real, and entirely a response to a
 fiction.
 
 **Three: the eighteenth-century orders.** From the 1750s onward, and particularly the
-Gold- und Rosenkreuz, a genuine, organised, initiatory body with degrees, officers,
+Gold- und Rosenkreuz, a genuine, organized, initiatory body with degrees, officers,
 alchemical instruction and political influence in Prussia. This is real Rosicrucianism —
 and it postdates the manifestos by a hundred and forty years.
 
@@ -96,7 +96,7 @@ and it postdates the manifestos by a hundred and forty years.
 1866, open only to Master Masons; and the Golden Dawn, which presented itself as the outer
 order of a Rosicrucian body.
 
-**Five: modern organisations** claiming ancient Rosicrucian descent.
+**Five: modern organizations** claiming ancient Rosicrucian descent.
 
 Collapsing any two of these produces nonsense. Collapsing one and three produces the single
 most persistent error in the field: the belief that a Rosicrucian order existed in the
@@ -113,14 +113,14 @@ brotherhood, going underground, resurfacing in the lodges of the eighteenth cent
 
 The documented sequence runs the other way.
 
-There was no seventeenth-century Rosicrucian organisation to feed into anything. The
+There was no seventeenth-century Rosicrucian organization to feed into anything. The
 manifestos describe a fiction; the furore found nobody; and the extensive scholarly search
 for a real brotherhood behind the pamphlets — Carlos Gilly's bibliographical work on the
 manuscripts and printings, Roland Edighoffer's studies of Andreae — has produced a circle
 of Tübingen intellectuals rather than an order.[^4]
 
 Meanwhile, the first genuinely institutional Rosicrucianism appears in Central Europe in
-the middle of the eighteenth century, by which time Freemasonry had been organised in
+the middle of the eighteenth century, by which time Freemasonry had been organized in
 London for a generation and had spread across the continent. And the Gold- und Rosenkreuz
 did not merely postdate Masonry. It *required* it: a candidate had to be a Master Mason
 before he could be admitted.[^5]
@@ -140,18 +140,18 @@ unambiguous.
 ### The template
 
 And yet the manifestos matter enormously, which is the paradox worth sitting with. A text
-describing an organisation that never existed became the most influential organisational
+describing an organization that never existed became the most influential organizational
 document in the history of Western esotericism.
 
 What it supplied was a **template**, and once you have seen its components you will find
 them everywhere in the rest of this book.
 
-*A founder in the distant past, wise, travelled, and dead.* C.R. — Christian Rosenkreutz —
+*A founder in the distant past, wise, traveled, and dead.* C.R. — Christian Rosenkreutz —
 becomes Hiram Abiff, becomes the Unknown Superiors, becomes the Mahatmas, becomes the
 Secret Chiefs.
 
 *A wisdom acquired in the East and lost in Europe.* This structure — the West has forgotten
-what the East preserved — is the organising assumption of the entire nineteenth-century
+what the East preserved — is the organizing assumption of the entire nineteenth-century
 occult revival, and of Theosophy in particular.
 
 *A hidden tomb, discovered.* The seven-sided vault with its artificial sun reappears,
@@ -161,7 +161,7 @@ ceremony: a seven-sided chamber, an altar, a body. Mathers and Westcott built it
 
 *Invisible superiors who cannot be contacted but who authorise everything.* This is the
 most consequential component, because it solves a structural problem that every esoteric
-organisation faces: where does authority come from? If it comes from a living person, that
+organization faces: where does authority come from? If it comes from a living person, that
 person can be argued with. If it comes from concealed superiors, it cannot be questioned,
 only obeyed — or rejected entirely, which is what tends to happen eventually. Baron von
 Hund spent thirty years unable to produce his. Westcott forged letters from his. Mathers
@@ -194,7 +194,7 @@ French, he shaped the most theologically ambitious current in eighteenth-century
 Freemasonry — the Martinist and Rectified Scottish tradition of Chapter 27.
 
 Böhme never joined anything. He is the reminder that not every current in this history runs
-through an organisation.
+through an organization.
 
 ---
 

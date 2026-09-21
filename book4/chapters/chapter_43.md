@@ -27,7 +27,7 @@ subtractive.
 **The work is removal.** What the mason does is take material away. There is no
 way to put a corner back.
 
-**Therefore the work is irreversible and requires judgement.** A stone can be
+**Therefore the work is irreversible and requires judgment.** A stone can be
 over-dressed. This is a real hazard of the actual trade, and it is an unusually
 honest feature for a moral metaphor to have retained: the possibility of ruining
 something by working it too hard.

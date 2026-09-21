@@ -12,7 +12,7 @@ ordinary business of a club: money, minutes, an argument about the dinner.
 On the other side of the door, in the dark of a landing, a man is waiting. He has
 been prepared, which is a word doing a great deal of work. He does not know what is
 coming. He knows only that something is about to be done to him, and that
-afterwards he will be inside.
+afterward he will be inside.
 
 He knocks.
 

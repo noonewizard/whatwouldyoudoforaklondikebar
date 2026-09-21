@@ -22,7 +22,7 @@ It was not interpretation. It was a **practice**, undertaken for its effects, an
 the effects Abulafia reports are substantial: an untying of the knots that bind the
 soul, an overflowing, a condition he describes in terms of prophecy.[^1]
 
-He was not a marginal figure in his own estimation. He travelled to attempt an
+He was not a marginal figure in his own estimation. He traveled to attempt an
 audience with Pope Nicholas III — an episode that could have ended very badly and
 did not, the Pope having died before the meeting — and he attracted enough
 opposition from Solomon ibn Adret, the leading halakhic authority of the day, to
@@ -36,7 +36,7 @@ Here is a place where scholarship divides and the division matters for Book III'
 argument, so it should be stated rather than glossed.
 
 **Gershom Scholem** created the modern academic study of Jewish mysticism, and his
-synthesis placed the *theosophical* strand at the centre: the *sefirot*, the
+synthesis placed the *theosophical* strand at the center: the *sefirot*, the
 structure of the divine, the *Zohar*. Abulafia's ecstatic and linguistic practice
 appears in Scholem's account as a significant but somewhat marginal current.
 
@@ -128,7 +128,7 @@ Spain — moved against him, and the objection was not that the technique was
 ineffective. It was that it was **dangerous and presumptuous**: that a man claiming
 prophecy was claiming something the tradition held to have ceased, and that the
 practice invited exactly the kind of individual religious authority that a
-law-centred tradition is organised to prevent.
+law-centerd tradition is organized to prevent.
 
 **Note the shape of the objection.** Nobody argued that permuting letters does
 nothing. The argument was about who may do what, and on whose authority — which is

@@ -56,7 +56,7 @@ There is a serious objection to this image and it should not be waved away.
 
 Uniform blocks are interchangeable. A wall does not want stones with
 idiosyncrasies. If the moral ideal is a component that fits flush against its
-neighbours, then the metaphor's logic runs toward conformity — toward an
+neighbors, then the metaphor's logic runs toward conformity — toward an
 institution that dresses its members until their edges match, and calls the
 matching virtue.
 
@@ -66,7 +66,7 @@ resemble the men already inside. Any honest account of what the ashlar metaphor
 licenses has to admit that "be shaped until you fit" is among the things it can be
 made to mean.
 
-Two things are worth saying in response, neither of them a full defence.
+Two things are worth saying in response, neither of them a full defense.
 
 The first is that the tradition's own emphasis falls overwhelmingly on the *rough*
 stone. The unfinished condition is where the candidate is placed and where the

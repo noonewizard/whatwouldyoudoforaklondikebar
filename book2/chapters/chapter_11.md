@@ -16,7 +16,7 @@ knowledge in Masonic ritual and no evidence of any independent channel.[^1]
 
 That settles the provenance question. It leaves the more interesting one untouched.
 
-**Why did this building, out of all the buildings available, become the organising image of
+**Why did this building, out of all the buildings available, become the organizing image of
 the most successful initiatory system in modern history?**
 
 ---
@@ -37,17 +37,17 @@ devised. Which means the Temple can stand for any undertaking executed according
 specifications the builder did not write — which is to say, for a life.
 
 **It was built by a workforce.** The biblical account gives numbers: tens of thousands of
-labourers, hewers and bearers of burdens, with overseers. It is not one architect's vision.
-It is a *collective* achievement with a division of labour and a hierarchy of skill, and
+laborers, hewers and bearers of burdens, with overseers. It is not one architect's vision.
+It is a *collective* achievement with a division of labor and a hierarchy of skill, and
 that maps onto a body of apprentices, fellows and masters with no adjustment whatever.
 
-**It is sacred without being sectarian.** Jews, Christians and Muslims all recognise it. In
+**It is sacred without being sectarian.** Jews, Christians and Muslims all recognize it. In
 1723 Anderson made non-sectarian religion the condition of Masonic membership, and a room
 containing Anglicans, Dissenters, Catholics and — within a few years — Jews needed a
 religious symbol that none of them would contest. There is precisely one building in the
 world that qualifies.
 
-**It has a threshold, an orientation and a centre.** Porch, pillars, holy place, holy of
+**It has a threshold, an orientation and a center.** Porch, pillars, holy place, holy of
 holies. The Temple is not a hall; it is a graded sequence of spaces with access restricted
 at each stage. A system of three degrees is already latent in the floor plan.
 
@@ -131,7 +131,7 @@ overwhelmingly members of actual religions which they attended on Sundays. The T
 
 The men who built this system were not constructing a religion. They were constructing a
 room in which men of different religions could stand together, and they needed a shape that
-all of them would recognise and none of them would own.
+all of them would recognize and none of them would own.
 
 ---
 
@@ -159,7 +159,7 @@ It is the perfect neutral ground, and neutral ground was exactly what the instit
 needed.
 
 Which means the Craft's most mystical-looking choice may be its most practical — and that
-pattern, a practical solution acquiring a mystical explanation afterwards, is going to
+pattern, a practical solution acquiring a mystical explanation afterward, is going to
 recur in every chapter of this part.
 
 ---
@@ -173,11 +173,11 @@ because the candidates were numerous and every one of them fails on the same cri
 carrying a ready-made moral about obedience and preservation. It has, in fact, a minor
 Masonic presence. But it belongs unambiguously to the Christian and Jewish narrative as
 Christians and Jews read it, and it is a vessel rather than a building — nothing can be
-modelled on it, because there is nothing to stand inside.
+modeled on it, because there is nothing to stand inside.
 
 **The Tower of Babel.** A famous building, a famous architectural ambition, and
 catastrophically wrong in its moral: a structure raised in pride and destroyed for it. A
-fraternity organised around building could hardly take as its emblem the one building God
+fraternity organized around building could hardly take as its emblem the one building God
 demolished.
 
 **A cathedral.** The obvious choice for a craft descended from operative masonry, and
@@ -191,7 +191,7 @@ settlement depended on not asking members to affiliate with anything that would 
 Christian conscience.
 
 **The Temple of Solomon** survives all four objections at once. It is scriptural, so it is
-respectable. It is architectural, so it can be modelled. Its moral is construction rather
+respectable. It is architectural, so it can be modeled. Its moral is construction rather
 than destruction. It is shared across three traditions and owned operationally by none of
 them in this context. And — the decisive property — **it does not exist**, so no one can
 visit it, no confession maintains it, and no clergy has jurisdiction over its meaning.

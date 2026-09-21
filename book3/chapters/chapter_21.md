@@ -38,8 +38,8 @@ direction each time.
 
 **From receiving to producing.** In the first degree the candidate is largely
 acted upon; he answers when asked and is told things. By the third he has a part in
-a drama, and in the years afterwards he will perform the ceremonies for others. The
-preceding volume made this the centre of its argument: the unit of analysis is the
+a drama, and in the years afterward he will perform the ceremonies for others. The
+preceding volume made this the center of its argument: the unit of analysis is the
 career, not the evening, and the career is a long migration from the middle of the
 room to the chair.
 
@@ -214,4 +214,4 @@ preceding volume of this series.
 preceding volume, together with its necessary qualification: agreement among
 sources is evidence of transmission only where the agreed meaning is arbitrary
 rather than obvious. A square makes right angles, and every tradition asked to
-moralise one will reach for rectitude.
+moralize one will reach for rectitude.

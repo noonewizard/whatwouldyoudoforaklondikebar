@@ -13,7 +13,7 @@ Eighty-nine chapters later, both halves can be answered.
 Begin with the deflation, because the rest is worthless without it.
 
 There was, in all probability, a temple in Jerusalem in the Iron Age. Its scale and
-splendour are disputed, sharply, by serious archaeologists, and the tenth-century
+splendor are disputed, sharply, by serious archaeologists, and the tenth-century
 evidence is thin. No physical remains of it have ever been identified. What
 survives of any temple on that site is Herod's platform, five and a half centuries
 later, and not the building it carried.
@@ -36,7 +36,7 @@ its own scripture.
 There is no Solomonic magic in it, no Kabbalah in it, and no Masonry in it. The
 Kabbalistic reading of the pillars was made after 1854 by people whose names we
 know. The Masonic Temple was elevated from a station in a legendary history to the
-centre of a ceremony in a documentable forty-year window in the eighteenth century.
+center of a ceremony in a documentable forty-year window in the eighteenth century.
 Every transmission claim this book tested failed, and the ones that came closest —
 the Rosicrucian vault into the Golden Dawn, Giorgi's memorandum into a Venetian
 church — failed for the Temple while passing for something else, which is what
@@ -50,7 +50,7 @@ That is the negative finding, and it is comprehensive.
 
 The question invites a comfortable answer and the comfortable answer is wrong.
 
-**Yes. It was a building.** It was made of stone and cedar by conscripted labour
+**Yes. It was a building.** It was made of stone and cedar by conscripted labor
 under a king who wanted it. The claim that it was always more than that — that it
 was a cosmic diagram, a body, a blueprint of the soul — is a claim made *about* it,
 afterward, by traditions with their own purposes, every one of which this book has
@@ -91,7 +91,7 @@ built Art Deco, Gothic, and Greek Revival, and never once built the Temple.
 
 What was never lost is **the plan** — in the specific sense Part XVII gave the
 word. A bounded structure, partitioned into named rooms, arranged in a sequence of
-increasing restriction, with a centre almost nobody reaches. Courts, hall,
+increasing restriction, with a center almost nobody reaches. Courts, hall,
 sanctuary. Outside, inside, innermost.
 
 That structure is not a secret and never was. It is written down, in several

@@ -175,7 +175,7 @@ Three registers, one set of letters, mapped in parallel.
 **This is the structure usually called a doctrine of correspondences**, and it is
 worth being precise about what such a doctrine claims. It is not merely that the
 three domains resemble one another. It is that they share a common articulation —
-that the same twenty-two principles organise space, time and the person, so that
+that the same twenty-two principles organize space, time and the person, so that
 learning the structure of one is learning the structure of all.
 
 **The macrocosm-microcosm idea in its Hebrew form.**

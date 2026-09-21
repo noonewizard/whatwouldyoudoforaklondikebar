@@ -27,13 +27,13 @@ It is the first one that mattered.
 
 ### The three books
 
-Agrippa's organisation is his most consequential contribution, and it is elegantly simple.
+Agrippa's organization is his most consequential contribution, and it is elegantly simple.
 The universe has three levels — elemental, celestial, intellectual — so magic has three
 divisions, and he gives each a book.
 
 **Book One: natural magic.** The elemental world. The hidden properties of stones, plants,
 animals, metals; sympathies and antipathies; the four elements and their qualities; the
-virtues of particular substances. This is the Ficinian material, systematised and vastly
+virtues of particular substances. This is the Ficinian material, systematized and vastly
 expanded, and much of it is indistinguishable from the natural history of its day.
 
 **Book Two: celestial magic.** The world of the stars. Here Agrippa supplies the
@@ -57,7 +57,7 @@ Christian magician.
 The result is a synthesis of three streams that had previously run separately: Renaissance
 Neoplatonic natural philosophy, the medieval grimoire tradition of angel and spirit
 conjuration, and Christian Kabbalah. Nobody had put all three in one place before. Almost
-everybody afterwards used Agrippa's arrangement, because the arrangement made the material
+everybody afterward used Agrippa's arrangement, because the arrangement made the material
 usable.
 
 ---
@@ -105,7 +105,7 @@ the standard English magical text for two hundred and fifty years.
 
 And in the 1880s a London coroner named William Wynn Westcott had a copy, along with two
 hundred and eighty-five other books of a similar kind, in a private library that Alison
-Butler has catalogued.[^3]
+Butler has catalogd.[^3]
 
 That is a transmission. Not "ideas in the air" — a printed book, in a named language, in a
 named man's collection, which we can show he owned and which we can show he used. When this
@@ -141,13 +141,13 @@ edifice of human learning is a tower of presumption. He then published the magic
 anyway, with a prefatory letter acknowledging that he had written it young.
 
 The standard readings are: that he genuinely changed his mind; that the attack was a
-fashionable sceptical exercise of a kind the period enjoyed; that he was protecting
+fashionable skeptical exercise of a kind the period enjoyed; that he was protecting
 himself; or that he held both views, magic being true in principle and corrupt in
 practice.
 
 I have no confident answer, and I mention it because it is a useful corrective to a habit
 of mind this subject encourages. We tend to sort historical people into believers and
-sceptics, and then to read everything they wrote as expressing their category.
+skeptics, and then to read everything they wrote as expressing their category.
 Sixteenth-century intellectuals did not necessarily work that way. A man could compile the
 most comprehensive magical handbook of his century and also think most magicians were
 fools, and see no contradiction, because he was not defending a team.
@@ -159,7 +159,7 @@ posture of this book. I did not get it from Agrippa, but I am glad to find it th
 
 The Renaissance magical synthesis is now assembled: Hermetic cosmology, Neoplatonic
 architecture, Ficinian correspondence, Pico's concordance and his Kabbalah, Agrippa's
-three-storey organisation and his tables.
+three-story organization and his tables.
 
 One component of that mixture has been named repeatedly and never examined. Pico brought
 it in; Agrippa built Book Three on it; Knorr von Rosenroth will anthologise it in 1677;

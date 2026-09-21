@@ -24,7 +24,7 @@ Masonic–Kabbalistic link is run through all eight.
 | 5 | Yes — *Kabbala Denudata* in print from 1677; Christian Kabbalah current since Pico |
 | 6 | **None.** This is the decisive answer |
 | 7 | Yes |
-| 8 | Speculative, and recognised as such by documentary Masonic scholarship |
+| 8 | Speculative, and recognized as such by documentary Masonic scholarship |
 
 **Verdict: E5** — a nineteenth-century interpretive overlay on an
 eighteenth-century biblical borrowing.

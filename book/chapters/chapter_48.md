@@ -32,7 +32,7 @@ and it did so through reproduction rather than through anyone's argument.
 **Fräulein Sprengel.** She did not exist. Westcott, on the evidence, wrote her letters. And
 yet she *did* things. She authorised a temple. She conferred grades. Her death in 1890
 changed the Order's constitutional position. Real people made real decisions on the basis of
-her instructions, and the most influential magical organisation in history was founded on
+her instructions, and the most influential magical organization in history was founded on
 her authority.
 
 **Diana Vaughan.** She did not exist either. She published books. She received the praise of
@@ -41,7 +41,7 @@ An international congress at Trent in 1896 debated her. Thousands of Catholics p
 her safety, believing her to be in hiding from Masonic assassins. She had a correspondence.
 She had, in every sense that a historian can measure, a career.
 
-**The Palladium.** An organisation that never existed, whose supposed activities have shaped
+**The Palladium.** An organization that never existed, whose supposed activities have shaped
 anti-Masonic belief for a hundred and thirty years, and which is still described in print as
 though it had a membership.
 
@@ -61,7 +61,7 @@ were conferred, and men and women underwent ceremonies that changed their lives.
 of those events happened. The only thing that did not happen was the German adept.
 
 The historian's category for this is not "fiction," because fiction does not warrant
-temples. It is closer to what an economist would recognise in a currency: an object whose
+temples. It is closer to what an economist would recognize in a currency: an object whose
 value consists entirely in being treated as valuable, and which therefore works exactly as
 well as a real one right up until the moment enough people stop.
 
@@ -134,7 +134,7 @@ prison and invents modern magic. An American general copies him without attribut
 hands the result to a hundred thousand Masons. A London coroner forges a German
 correspondence and founds the order that shapes a century of Western magic. A free Black
 leatherworker in Boston gets a warrant from London and builds an institution that outlasts
-the country that refused to recognise it.
+the country that refused to recognize it.
 
 Those are the actual events. They have people in them, and dates, and motives, and
 consequences. Every one of them can be checked.

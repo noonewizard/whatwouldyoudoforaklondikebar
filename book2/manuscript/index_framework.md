@@ -42,7 +42,7 @@ Jean-Baptiste · Xygalatas, Dimitris · Yates, Frances (the Yates thesis; its st
 
 ---
 
-## B — ORGANISATIONS AND RITES
+## B — ORGANIZATIONS AND RITES
 
 Antients and Moderns (schism; Union of 1813) · Co-Masonry (Le Droit Humain, 1893) ·
 Élus Coëns · Golden Dawn, Hermetic Order of the (**not Masonic**; forged warrant) · Grand
@@ -112,7 +112,7 @@ the book spends chapters establishing, and a merged entry destroys it.
 | Esotericism / Occultism | "Esotericism, *see* Occultism" |
 | Hermetism / Hermeticism | one entry |
 | Magic, Types A–E | "Magic" |
-| Masonic bodies / bodies whose members were Masons / bodies borrowing Masonic form | "Masonic organisations" |
+| Masonic bodies / bodies whose members were Masons / bodies borrowing Masonic form | "Masonic organizations" |
 | Historical claim / psychological claim / metaphysical claim | one entry per topic |
 | Availability (of a text) / transmission | one entry |
 

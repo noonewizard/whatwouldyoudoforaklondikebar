@@ -41,7 +41,7 @@ encoded doctrine. They thought they were building something that would stand up.
 
 ### Three: Masonic geometric symbolism
 
-**Geometry praised, not geometry practised.**
+**Geometry praised, not geometry practiced.**
 
 The Old Charges call Masonry a geometrical science; Anderson elevates Euclid's
 forty-seventh proposition; the working tools are instruments of measure. But no
@@ -54,7 +54,7 @@ that praised geometry and performed none.
 
 ### Four: the modern sacred-geometry movement
 
-Emerging substantially from the 1970s onward and popularised by works such as
+Emerging substantially from the 1970s onward and popularized by works such as
 Robert Lawlor's *Sacred Geometry: Philosophy and Practice* (1982), this asserts a
 continuous esoteric geometric tradition from antiquity to the present, in which
 specific figures and ratios carry metaphysical content recoverable by measuring
@@ -74,7 +74,7 @@ real, their systems are documented, and their buildings are beautiful.
 
 **Category four borrows category one's credibility** by using the same vocabulary —
 proportion, ratio, harmony, the golden section — and applying it by a completely
-different method: measuring afterwards rather than designing beforehand.
+different method: measuring afterward rather than designing beforehand.
 
 **The difference is the whole thing.** Palladio tells you the rule and then builds.
 The retrospective measurer finds a ratio and infers a rule. **One is a

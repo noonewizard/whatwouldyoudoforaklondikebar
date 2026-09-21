@@ -70,7 +70,7 @@ unambiguous. Something catastrophic happened, at that date, consistent with the
 biblical account's central claim if not its every detail.[^2]
 
 This is the right way to hold the evidence: **a real city, really destroyed, on
-the traditional date — and no direct evidence about the building at its centre.**
+the traditional date — and no direct evidence about the building at its center.**
 
 ---
 
@@ -90,7 +90,7 @@ sides; no consensus has emerged.[^3]
 
 **What is instructive is not which side is right but how the certainty behaved.**
 A feature that was, for a generation, the textbook illustration of the Solomonic
-building programme is now a contested datum that may belong to a different century
+building program is now a contested datum that may belong to a different century
 and a different dynasty. A reader encountering the older confident version in an
 older book would have no way of knowing.
 
@@ -100,7 +100,7 @@ older book would have no way of knowing.
 
 Three rules, stated here and applied throughout.
 
-**Every reconstruction is labelled.** When this book shows an image of the Temple —
+**Every reconstruction is labeled.** When this book shows an image of the Temple —
 Villalpando's, a modern line drawing, a museum model — the caption says it is a
 reconstruction and says what it is reconstructed from. Not once at the start:
 every time.

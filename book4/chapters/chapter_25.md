@@ -70,7 +70,7 @@ binds and interrogates a long series of demons, each of which names itself,
 describes its function and its affliction, and names the angel or formula that
 thwarts it.
 
-**And he compels them to labour on the Temple.**
+**And he compels them to labor on the Temple.**
 
 That is the origin of the claim that the Temple was built by magic. Not a
 tradition independently recording how the building went up, but a narrative

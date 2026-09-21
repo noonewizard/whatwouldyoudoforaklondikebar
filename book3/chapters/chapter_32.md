@@ -15,7 +15,7 @@ In their developed form, with the names that became standard:
 
 **Keter** (crown), **Chokhmah** (wisdom), **Binah** (understanding), **Chesed**
 (loving-kindness), **Gevurah** (severity), **Tiferet** (beauty), **Netzach**
-(victory or endurance), **Hod** (splendour), **Yesod** (foundation), **Malkhut**
+(victory or endurance), **Hod** (splendor), **Yesod** (foundation), **Malkhut**
 (kingdom).
 
 They are arranged in three columns — usually described as a right pillar of mercy,
@@ -46,7 +46,7 @@ qualification: Yehuda Liebes and others have argued for a circle of authors rath
 than a single one, and the question of how much older material the text
 incorporates remains live.[^1]
 
-Then **Safed in the sixteenth century**: Cordovero's systematisation, and Isaac
+Then **Safed in the sixteenth century**: Cordovero's systematization, and Isaac
 Luria's reworking, which introduced the ideas of divine contraction, the shattering
 of the vessels, and cosmic repair — and which became, through Luria's students, the
 dominant form of Kabbalah in the Jewish world.
@@ -70,7 +70,7 @@ Ricius's Latin *Portae Lucis* of 1516, a translation of Gikatilla's *Sha'arei
 Orah*, showing a bearded figure holding a tree of ten spheres.[^2]
 
 Manuscript diagrams exist earlier and the concept is certainly older than any
-drawing of it. But **the standardised image, with the paths fixed and the
+drawing of it. But **the standardized image, with the paths fixed and the
 arrangement settled, belongs to print** — and print is what made it standard, because
 a printed diagram is identical in every copy and a manuscript one is not.
 
@@ -107,7 +107,7 @@ nineteenth-century French innovation as though it were medieval Spanish.
 **And they are not a system of universal correspondences.** The Jewish sources
 assign a great deal to the *sefirot* — attributes, patriarchs, parts of the body,
 stages of a process — but they do not constitute the comprehensive
-letter-planet-metal-colour-perfume-deity grammar that a modern reader expects. That
+letter-planet-metal-color-perfume-deity grammar that a modern reader expects. That
 comprehensiveness comes from the Hermetic reconstruction, and it comes from
 Agrippa's tables rather than from Kabbalah.
 
@@ -143,7 +143,7 @@ making the claim inside a non-Masonic body.
 *Accepted, disputed or speculative?* **Speculative.**
 
 **And there is a simpler explanation that fits everything.** The two pillars are in
-1 Kings 7 and 2 Chronicles 3, by name, with dimensions. A tradition organised around
+1 Kings 7 and 2 Chronicles 3, by name, with dimensions. A tradition organized around
 Solomon's Temple, using biblical furniture throughout, would put the Temple's
 pillars in its symbolism without needing any Kabbalah at all.
 
@@ -171,7 +171,7 @@ And the assignments are not fixed by the Jewish material. Which letter belongs t
 which path is not settled in the sources, and authorities differ.
 
 **That latitude is what the nineteenth century filled.** Lévi's tarot
-correspondence, the planetary attributions, the colour scales, the Egyptian deities,
+correspondence, the planetary attributions, the color scales, the Egyptian deities,
 the perfumes and plants and precious stones of Crowley's *777* — all of it fits into
 slots that the diagram created and the tradition left open.
 
@@ -196,7 +196,7 @@ strongest.
 
 The Tree of Life is an extraordinarily flexible diagram. Ten positions, three
 columns, twenty-two paths, and a tradition of applying it to whatever needs
-analysing. Almost any structure with roughly that many elements can be mapped onto
+analyzing. Almost any structure with roughly that many elements can be mapped onto
 it, and once mapped, the correspondence looks compelling.
 
 **That flexibility is exactly why a mapping proves nothing.**

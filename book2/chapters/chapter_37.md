@@ -18,7 +18,7 @@ European Masonry examined the Templar claim and set it aside for want of evidenc
 
 The preceding volume told that story as a case of manufactured antiquity. This chapter tells
 it as a case of something else, because the same sequence has happened so many times, in so
-many organisations, that it is better understood as a *structural property* than as a series
+many organizations, that it is better understood as a *structural property* than as a series
 of individual frauds.
 
 ---
@@ -32,7 +32,7 @@ sequence because the regularity is the point.
 Authority flows downward from whoever holds the higher grades. This works, and works well,
 and may work for decades.
 
-**Phase two. Ascent.** The organisation grows. Members advance. And some of them reach the
+**Phase two. Ascent.** The organization grows. Members advance. And some of them reach the
 top — where they discover that above the highest grade there is nothing except the people
 who issued it.
 
@@ -94,7 +94,7 @@ syllabus.
 **Retention.** A member who has received everything has no further reason to attend. A member
 who has received two-thirds has a reason next month.
 
-**Differentiation.** An organisation needs internal structure, and grades supply it without
+**Differentiation.** An organization needs internal structure, and grades supply it without
 requiring anybody to assess merit, which is contentious. Grades can be conferred on time
 served.
 
@@ -179,7 +179,7 @@ available*, and it is indistinguishable from the true one.
 This is the same structure as the unfalsifiable secret and it will be examined properly in
 Chapter 39, where it becomes a philosophical problem rather than an institutional one.
 
-Here I want to note only its practical consequence, which is that graded organisations are
+Here I want to note only its practical consequence, which is that graded organizations are
 extremely difficult to reform from within and extremely easy to hollow out. The mechanism
 that protects a genuine pedagogy from impatience protects an empty one from scrutiny, and
 from inside they are the same.
@@ -189,8 +189,8 @@ test this book has been applying since Chapter 5.
 
 **Produce the document.**
 
-Which is a good rule for organisations. It is a much harder rule to apply to a claim about a
-pattern — where there is no document, no superior and no organisation, only an arrangement of
+Which is a good rule for organizations. It is a much harder rule to apply to a claim about a
+pattern — where there is no document, no superior and no organization, only an arrangement of
 things that somebody says was put there on purpose.
 
 ---

@@ -60,7 +60,7 @@ system**, which can only be acquired by having been taught it by someone who had
 
 Several otherwise puzzling features follow directly from this function.
 
-**Why it is memorised verbatim rather than paraphrased.** A paraphrase would pass a test of
+**Why it is memorized verbatim rather than paraphrased.** A paraphrase would pass a test of
 understanding and fail a test of provenance. The examiner is not checking whether the visitor
 grasps the meaning; he is checking whether the visitor learned the words from a legitimate
 source. Exact wording is the evidence. This is why jurisdictional variation matters so much
@@ -71,7 +71,7 @@ knowledge: neither party holds the whole thing alone, and the exchange only exis
 are present. Chapter 36 develops this into the argument about what kind of thing the Masonic
 secret is.
 
-**And why it survived the exposures.** A published catechism can be memorised by an impostor,
+**And why it survived the exposures.** A published catechism can be memorized by an impostor,
 and this is exactly what the lodges feared when *Masonry Dissected* appeared in 1730. The
 institution's response — the alteration of certain details, the reliance on personal vouching
 alongside examination — tells us that the form was understood at the time as a security
@@ -98,7 +98,7 @@ whereas a man who paraphrases is merely different.
 
 This is the machinery by which oral traditions everywhere have transmitted material across
 centuries, and the Craft is a textbook case. The 1696 catechism and its successors are
-memorisation documents in form as well as function.
+memorization documents in form as well as function.
 
 But there is a second reason, and it is the one that matters for this book.
 
@@ -125,7 +125,7 @@ and which I think is the most interesting thing about the catechism.
 **It only exists between two people.**
 
 A catechism is not a text a person can hold. Half of it is questions. A man alone with the
-whole thing memorised is in the position of someone who knows both parts of a duet: he
+whole thing memorized is in the position of someone who knows both parts of a duet: he
 possesses the material and cannot perform it.
 
 To produce the knowledge, two people have to agree to produce it together, in a specific
@@ -138,7 +138,7 @@ can answer, and answering requires someone to ask. Status is not a possession bu
 repeatable transaction.
 
 **It makes the examination of strangers possible.** This was the original practical purpose
-and it persisted for centuries: a travelling man presents himself at a strange lodge and is
+and it persisted for centuries: a traveling man presents himself at a strange lodge and is
 examined, and the examination is precisely this — a dialogue in which each party
 demonstrates that he holds the other half.
 
@@ -159,7 +159,7 @@ more than you can steal a handshake by describing one.
 ### Rhythm and the recitative voice
 
 A note on delivery, which the printed sources cannot capture and which anyone who has heard
-ritual performed will recognise.
+ritual performed will recognize.
 
 Ritual language across traditions is typically delivered in a register distinct from
 speech: slower, more evenly stressed, pitched differently, with pauses at fixed points.
@@ -181,7 +181,7 @@ remember prose we read last week.
 
 The catechism is the tradition's voice. The obligation is the candidate's.
 
-At the centre of the ceremony, after the perambulation and before the light, he is required
+At the center of the ceremony, after the perambulation and before the light, he is required
 to speak — not to answer a question but to make a promise, repeating it phrase by phrase
 after the Master, in the first person, kneeling, in a room full of witnesses.
 

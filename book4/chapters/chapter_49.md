@@ -17,7 +17,7 @@ Before the experiment, the uncontroversial part.
 
 Languages map value, power, and the divine onto verticality with remarkable
 consistency. Good is up, more is up, authority is above, the dead are below,
-heaven is high. Lakoff and Johnson catalogued these orientational metaphors, and
+heaven is high. Lakoff and Johnson catalogd these orientational metaphors, and
 the cross-linguistic evidence for them is extensive.
 
 The likely explanation is embodied and mundane: humans are upright, gravity
@@ -46,8 +46,8 @@ often in design literature as an established principle.
 ### Why it has to be reported with its context
 
 The study belongs, squarely and by its own description, to the **social priming**
-research programme — the one that Chapter 46 identified as the area of psychology
-most damaged by the replication crisis of the 2010s. Several of that programme's
+research program — the one that Chapter 46 identified as the area of psychology
+most damaged by the replication crisis of the 2010s. Several of that program's
 best-known results have failed well-powered replication, and the methodological
 practices standard in the field at the time the study was run are now understood to
 produce unreliable findings at a substantial rate.
@@ -75,7 +75,7 @@ A good deal, and none of it depends on priming.
 **Height is expensive.** A tall building costs more, takes longer, and requires
 more skill than a short one enclosing the same floor area. A community that builds
 high has visibly spent something, and the expenditure is legible to everybody who
-sees it. This is a signalling account, and it needs no psychology of ceilings — only
+sees it. This is a signaling account, and it needs no psychology of ceilings — only
 arithmetic.
 
 **Height is visible from outside.** A tall building is a landmark, orienting a

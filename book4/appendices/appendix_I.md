@@ -14,7 +14,7 @@ early fifteenth century to the eighteenth.
 ### The legendary history's spine
 
 Children of Lamech → the two pillars against flood and fire → Nimrod → Abraham →
-**Euclid in Egypt** → the craft travels → **Solomon's Temple** → ... → England
+**Euclid in Egypt** → the craft travels → **Solomon's Temple** → … → England
 under Athelstan.
 
 **Solomon's Temple is a station on a route, not the route's origin.** The craft
@@ -25,7 +25,7 @@ arrives there already possessing its charges and its geometry.
 Across the corpus the figure sent by the King of Tyre appears under a remarkable
 spread of names — transmitted variously as Aynon, Aynone, Dyon, Ajuon, Benaim, and
 others, with copyists working from exemplars they could not always read. The
-variation was catalogued by Knoop, Jones and their contemporaries.
+variation was catalogd by Knoop, Jones and their contemporaries.
 
 He is not called Hiram Abiff.
 

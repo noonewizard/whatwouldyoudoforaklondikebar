@@ -43,7 +43,7 @@ every argument in it depends on the distinction holding.
 
 **The building** — what physically stood in Jerusalem, insofar as evidence can
 establish it. This is the thinnest of the five, for a reason stated in Chapter 4
-and never afterwards forgotten.
+and never afterward forgotten.
 
 **The text** — what ancient authors wrote about it, which is a different claim
 from what existed.
@@ -132,7 +132,7 @@ And yet.
 Open any Bible and the building is described in detail: sixty cubits long, twenty
 wide, thirty high, cedar within and gold over the cedar, two bronze pillars at the
 porch with names, an inner room twenty cubits cubed containing two olive-wood
-cherubim whose wings touched at the centre.
+cherubim whose wings touched at the center.
 
 Walk into almost any Masonic lodge in the world — Perth, Pittsburgh, Lagos,
 Buenos Aires — and you will find that building referenced, gestured at, and in a
@@ -293,8 +293,8 @@ refinement of the Deuteronomistic tradition is debated, and this book does not
 need to resolve it. What matters here is the shape: **the Temple is a house for
 something about God, and the something is verbal.**
 
-Readers of the preceding volume in this series will recognise the ground. That
-book spent four hundred pages on what happens when a tradition organises itself
+Readers of the preceding volume in this series will recognize the ground. That
+book spent four hundred pages on what happens when a tradition organizes itself
 around a word that can be lost. This one begins where that one ended — with the
 observation that the word in question had, for a period, a physical address.
 
@@ -305,8 +305,8 @@ observation that the word in question had, for a period, a physical address.
 Strip away the theology and the functions are legible.
 
 **It locates.** A place to go, fixed, known, the same tomorrow. This is
-administratively enormous and it is the reason kings build temples: a centralised
-cult is a centralised polity.
+administratively enormous and it is the reason kings build temples: a centralized
+cult is a centralized polity.
 
 **It restricts.** Every temple in the ancient world graded access — courtyards,
 inner courts, sanctuaries, an innermost room. Who may go how far is the building's
@@ -341,7 +341,7 @@ in the region at the time.
 That is worth establishing before anything else, because a great deal of
 subsequent argument — on all sides — proceeds as though the Temple were either
 uniquely miraculous or uniquely suspicious. It is neither. It is a building of a
-recognisable type, described in a text, on a site nobody can dig.
+recognizable type, described in a text, on a site nobody can dig.
 
 The rest of this book is about what happened to it.
 
@@ -399,7 +399,7 @@ important external datum in this entire area of study.**
 
 This asymmetry is rarely stated plainly in popular treatments, in either
 direction. Defenders of biblical historicity cite Tel Dan and let the confidence
-transfer silently from father to son. Sceptics cite Solomon's absence and let it
+transfer silently from father to son. Skeptics cite Solomon's absence and let it
 transfer backward onto David. Neither move is warranted. The honest position is
 that the evidence for the two men is not the same, and that Solomon's is thinner.
 
@@ -415,7 +415,7 @@ F. Albright and defended in modified forms by scholars including Kenneth Kitchen
 and Amihai Mazar, holds that the biblical account reflects a real tenth-century
 polity substantial enough to have undertaken monumental construction. Certain
 archaeological features — notably the six-chambered gates at Megiddo, Hazor and
-Gezer — were long read as evidence of a centralised building programme, and the
+Gezer — were long read as evidence of a centralized building program, and the
 biblical note that Solomon fortified exactly those three cities was taken as
 confirmation.[^2]
 
@@ -423,7 +423,7 @@ confirmation.[^2]
 Finkelstein's "Low Chronology," holds that the strata containing those gates
 should be dated roughly a century later, to the Omride kings of the ninth
 century — which would remove the material basis for a tenth-century Solomonic
-building programme entirely. On this reading, tenth-century Jerusalem was a modest
+building program entirely. On this reading, tenth-century Jerusalem was a modest
 highland town, and the grand United Monarchy is a retrojection by later writers
 building a usable past.[^3]
 
@@ -444,7 +444,7 @@ otherwise is selling something.
 Directly and uncomfortably: **if the Low Chronology or a more radical position is
 correct, the Temple as described in 1 Kings 6 may never have existed in the tenth
 century at all**, and the description may be a later idealisation — possibly
-modelled on the Second Temple its authors could actually see, projected backward
+modeled on the Second Temple its authors could actually see, projected backward
 onto a founder-king.
 
 If the traditional position is correct, a tenth-century Temple of roughly the
@@ -455,7 +455,7 @@ author's to close, and that — crucially — *the rest of the book does not dep
 the answer.*
 
 That last point is worth dwelling on. Everything from Chapter 6 onward concerns
-what the Temple *became*: how it was read, rebuilt, symbolised, ritualised and
+what the Temple *became*: how it was read, rebuilt, symbolized, ritualized and
 imagined. That history is entirely real and entirely documented regardless of what
 stood in Jerusalem in 960 BCE. **A building that was never built can still
 generate three thousand years of consequence, and if anything the consequence is
@@ -469,7 +469,7 @@ One further distinction, because it is routinely lost.
 
 The Solomon of Kings is not a flat hagiography. He is granted wisdom at Gibeon,
 judges the two mothers, builds the Temple, receives the Queen of Sheba — and then
-1 Kings 11 turns on him hard: foreign wives, foreign gods, a forced labour levy,
+1 Kings 11 turns on him hard: foreign wives, foreign gods, a forced labor levy,
 and a kingdom that splits immediately on his death precisely because of the burden
 he imposed.[^4]
 
@@ -522,7 +522,7 @@ house's width — and ten cubits deep.[^1]
 **The inner sanctuary**, the *debir*, is twenty cubits long, twenty broad, twenty
 high. A cube.[^2]
 
-**Side chambers** surround the house on three sides in three storeys, built
+**Side chambers** surround the house on three sides in three stories, built
 against the wall but — the text is specific about this — not into it: the wall was
 stepped with rebatements so the beams rested on ledges rather than being socketed
 into the sanctuary masonry. The chambers are five, six and seven cubits wide in
@@ -530,7 +530,7 @@ ascending order.[^3]
 
 That is a **tripartite longitudinal plan**: you enter through a porch at the short
 end, cross a long hall, and arrive at a square innermost room. Chapter 5 shows
-that this is a recognisable regional type.
+that this is a recognizable regional type.
 
 ---
 
@@ -647,7 +647,7 @@ points from the Masoretic Text throughout this passage.
 
 [^5]: 1 Kings 7:15–22. 2 Chronicles 3:15 gives the pillar height as thirty-five
 cubits, a discrepancy with Kings that the commentaries discuss and that this book
-notes rather than harmonises.
+notes rather than harmonizes.
 
 [^6]: 1 Kings 6:23–28.
 
@@ -727,7 +727,7 @@ unambiguous. Something catastrophic happened, at that date, consistent with the
 biblical account's central claim if not its every detail.[^2]
 
 This is the right way to hold the evidence: **a real city, really destroyed, on
-the traditional date — and no direct evidence about the building at its centre.**
+the traditional date — and no direct evidence about the building at its center.**
 
 ---
 
@@ -747,7 +747,7 @@ sides; no consensus has emerged.[^3]
 
 **What is instructive is not which side is right but how the certainty behaved.**
 A feature that was, for a generation, the textbook illustration of the Solomonic
-building programme is now a contested datum that may belong to a different century
+building program is now a contested datum that may belong to a different century
 and a different dynasty. A reader encountering the older confident version in an
 older book would have no way of knowing.
 
@@ -757,7 +757,7 @@ older book would have no way of knowing.
 
 Three rules, stated here and applied throughout.
 
-**Every reconstruction is labelled.** When this book shows an image of the Temple —
+**Every reconstruction is labeled.** When this book shows an image of the Temple —
 Villalpando's, a modern line drawing, a museum model — the caption says it is a
 reconstruction and says what it is reconstructed from. Not once at the start:
 every time.
@@ -813,7 +813,7 @@ Chapter 2.
 In 1980 a farmer near the village of 'Ain Dara in northern Syria turned up a
 carved basalt lion. Excavation followed, and what emerged was a temple: Iron Age,
 monumental, well preserved, and built on a plan that anyone who has read 1 Kings 6
-will recognise immediately.
+will recognize immediately.
 
 ---
 
@@ -903,10 +903,10 @@ dropped.
 **It supports the general picture** that formal temple architecture on the
 regional pattern existed in Judah in this era.
 
-**And it complicates the biblical account of cultic centralisation**, because it
+**And it complicates the biblical account of cultic centralization**, because it
 is a substantial temple operating close to Jerusalem in a period when the
 Deuteronomistic ideology insists worship should have been concentrated at the
-Jerusalem Temple alone. Either centralisation was less complete in practice than
+Jerusalem Temple alone. Either centralization was less complete in practice than
 in theory, or it came later than the text implies.
 
 This book notes that complication rather than smoothing it, because smoothing it
@@ -930,7 +930,7 @@ toward an inner sanctum, and differs in nearly everything else — plan, materia
 scale, and the religious system it served.
 
 Its real value is as a control. **The fact that Egyptian, Mesopotamian and
-Levantine temples all restrict access toward a centre tells us that restriction is
+Levantine temples all restrict access toward a center tells us that restriction is
 a near-universal solution to a near-universal problem**, not that any of them
 learned it from the others. This is the half-of-everything rule from the preceding
 volumes, applied to architecture: when a design feature has very few possible
@@ -985,7 +985,7 @@ by acts of emplacement, attention and differentiation.
 
 **The two accounts are not equally testable.** The substantive account makes a
 claim historical method cannot reach. The relational account makes a claim about
-observable human behaviour, and the behaviour is observable.
+observable human behavior, and the behavior is observable.
 
 This book therefore works with the relational account throughout — not because the
 substantive one is false, which it is not this book's business to determine, but
@@ -1011,8 +1011,8 @@ examines what crossing one does to a person's attention and memory.
 else is positioned. The Temple faces east; the lodge has an east. Chapter 36
 examines how loosely "east" can be held while still doing its work.
 
-**Centre.** A point toward which the whole arrangement is oriented and from which
-access is most restricted. Chapter 7 is about what happens when that centre is
+**Center.** A point toward which the whole arrangement is oriented and from which
+access is most restricted. Chapter 7 is about what happens when that center is
 made empty and dark.
 
 **All four are arrangements, not substances.** Any group of people can perform
@@ -1036,7 +1036,7 @@ Israelite men, for priests.[^2]
 **This is a social structure expressed as a floor plan**, and it is legible
 without any theology at all. Tell me how far into a building each category of
 person may go, and I can tell you a great deal about how that society is
-organised.
+organized.
 
 Chapter 83 develops this as the book's "architecture as governance" argument. What
 matters here is the observation that **the Temple's most consistent message is not
@@ -1111,7 +1111,7 @@ That is Chapter 66's subject arriving early, in a single unresolved ten-cubit ga
 ### The room's actual content
 
 Two olive-wood cherubim, ten cubits high, wings spread so that the outer wings
-touched the walls and the inner wings met at the centre. Beneath them, the Ark.
+touched the walls and the inner wings met at the center. Beneath them, the Ark.
 
 And after the Ark's disappearance — which happens at no point the text records,
 simply ceasing to be mentioned — the Second Temple's innermost room was, according
@@ -1126,7 +1126,7 @@ curiosity precisely because the expectation was otherwise.
 
 ---
 
-### What an empty centre does
+### What an empty center does
 
 This is the observation this chapter exists to make, and it connects directly to
 the preceding volume in this series.
@@ -1134,7 +1134,7 @@ the preceding volume in this series.
 Book III examined a tradition whose central ceremony announces that a word is
 unavailable and hands the candidate an explicit substitute. Its finding was that
 the withholding is not a failure of the system but its most durable feature —
-that a structure organised around something declared absent goes on generating
+that a structure organized around something declared absent goes on generating
 interest indefinitely, while a structure that delivers is finished the moment it
 delivers.
 
@@ -1192,7 +1192,7 @@ the innermost room is one you cannot see in, and offers that as the point rather
 than as a limitation.
 
 Chapter 50 takes up what darkness does perceptually. Here it is enough to note
-that **a sacred centre which is both empty and unlit has removed every possible
+that **a sacred center which is both empty and unlit has removed every possible
 object of inspection** — and that a tradition can maintain that arrangement for
 centuries without anyone's confidence being damaged by it.
 
@@ -1318,7 +1318,7 @@ continued, the pilgrimages continued, the restriction on entering the Holy of
 Holies continued to mean something.
 
 That is the pattern this book keeps finding, and it is worth naming early:
-**removal did not diminish the centre. It completed it.** Chapter 85 returns to
+**removal did not diminish the center. It completed it.** Chapter 85 returns to
 this when the whole building has gone the same way.
 
 ---
@@ -1329,7 +1329,7 @@ this when the whole building has gone the same way.
 
 [^2]: 1 Kings 8:9 says the Ark contained only the two tablets; Hebrews 9:4 gives a
 fuller list, reflecting a different tradition. The discrepancy is noted, not
-harmonised.
+harmonized.
 
 [^3]: 1 Kings 8:1–9.
 
@@ -1386,7 +1386,7 @@ throughout the region.
 **Thrones flanked by winged sphinxes are an attested Levantine royal form**, known
 from ivory carvings and from the iconography of enthroned figures.[^4]
 
-Against that background, the biblical cherubim are recognisable: **winged composite
+Against that background, the biblical cherubim are recognizable: **winged composite
 guardian beings, positioned at boundaries and beside thrones, in a region where
 that is exactly what such figures do.**
 
@@ -1421,7 +1421,7 @@ view.
 One observation worth making, because it connects the objects to Chapter 7.
 
 The inner sanctuary's two cherubim face the room with wings spread, meeting at the
-centre. Beneath and between them is the Ark.
+center. Beneath and between them is the Ark.
 
 **The arrangement is a throne** — a seat flanked by guardians, in the regional
 royal idiom — **and the seat is unoccupied.** Nothing sits there. The text does not
@@ -1501,7 +1501,7 @@ not a debunking.** The material is real.
 
 ### Where it goes wrong
 
-The failure mode is expansion, and it has a recognisable shape.
+The failure mode is expansion, and it has a recognizable shape.
 
 The argument starts from a defensible claim — *the Temple is described using
 cosmological imagery* — and slides to a much larger one: *the Temple is therefore a
@@ -1537,7 +1537,7 @@ methodologically permissive, and the source of a good deal of comparative
 overreach that the discipline has since walked back.[^4]
 
 **What survives the caution**: the observation that many traditions locate a
-centre and describe it in vertical terms is accurate.
+center and describe it in vertical terms is accurate.
 
 **What does not**: the inference that all such traditions are drawing on a common
 archaic source, or that the similarity is evidence of anything beyond the fact that
@@ -1545,7 +1545,7 @@ human beings orient in three dimensions and find height meaningful. Chapter 49
 examines why vertical symbolism is so reliably available — and the answer is
 embodied and unremarkable.
 
-**Half of everything goes one way.** A tradition that locates its sacred centre
+**Half of everything goes one way.** A tradition that locates its sacred center
 somewhere must either place it high or not; most place it high; this tells us
 about gravity and sightlines rather than about transmission.
 
@@ -1560,7 +1560,7 @@ Temple's destruction was experienced as a cosmic event rather than a military
 setback.**
 
 If the Temple is merely a building, its loss is a grievous national catastrophe.
-If the Temple is the point at which order is maintained — the centre, the
+If the Temple is the point at which order is maintained — the center, the
 mountain, the garden, the source — then its destruction is a rupture in the
 structure of things, and the literature of the exile reads exactly that way.
 
@@ -1620,11 +1620,11 @@ Proposals for the biblical cubit's length cluster in a range of roughly 44 to 52
 centimetres, with the "long" or royal cubit running several centimetres above the
 common one. **The uncertainty is on the order of ten to fifteen per cent.**
 
-**What follows for this book**: any statement of the form "the Temple was X metres
+**What follows for this book**: any statement of the form "the Temple was X meters
 long" carries that band, and any argument depending on a precise metric value is
 resting on a number the sources do not supply. **Ratios, by contrast, are
 unaffected** — sixty to twenty is three to one whatever the cubit was, which is
-why Chapter 12 works in ratios and this one does not work in metres.
+why Chapter 12 works in ratios and this one does not work in meters.
 
 ---
 
@@ -1774,7 +1774,7 @@ proportion in musical ratios and saying so. Palladio publishes his schemes.
 **In every case the design is documented by the designer.** That is the standard
 Book III's Chapter 45 established for architectural claims, and it is the only
 standard that distinguishes a proportioned building from a building someone has
-measured afterwards.
+measured afterward.
 
 **1 Kings supplies no rule.** It reports dimensions. It does not say why those
 dimensions, does not derive them from a module, and does not state a principle
@@ -1817,7 +1817,7 @@ the evidence cannot settle either way. What it demonstrates is that **this metho
 cannot answer it.**
 
 A search across a hundred-odd ratios with a five per cent tolerance will find φ in
-almost any dimension set, because φ sits in a crowded neighbourhood: 8:5 is 1.6,
+almost any dimension set, because φ sits in a crowded neighborhood: 8:5 is 1.6,
 13:8 is 1.625, 5:3 is 1.667, and any building using small whole numbers will
 generate several of these.
 
@@ -1834,7 +1834,7 @@ would say so. It did not.
 ### The honest summary
 
 **The Temple's proportions are simple, legible, and unremarkable.** Three to one,
-two to one, and a cube at the centre. They are consistent with careful building
+two to one, and a cube at the center. They are consistent with careful building
 and inconsistent with nothing.
 
 **No proportional rule is stated in the text**, and the one claim in wide
@@ -1902,7 +1902,7 @@ Masonic material despite constant conflation.
 ### Three
 
 **Biblical**: the Temple's tripartite plan — porch, hall, inner sanctuary — and the
-three-storey side chambers. The tripartite plan is, as Chapter 5 showed, a
+three-story side chambers. The tripartite plan is, as Chapter 5 showed, a
 regional architectural type.
 
 **Structural**: three is the minimum number that makes a sequence, and a building
@@ -2169,7 +2169,7 @@ encoded doctrine. They thought they were building something that would stand up.
 
 ### Three: Masonic geometric symbolism
 
-**Geometry praised, not geometry practised.**
+**Geometry praised, not geometry practiced.**
 
 The Old Charges call Masonry a geometrical science; Anderson elevates Euclid's
 forty-seventh proposition; the working tools are instruments of measure. But no
@@ -2182,7 +2182,7 @@ that praised geometry and performed none.
 
 ### Four: the modern sacred-geometry movement
 
-Emerging substantially from the 1970s onward and popularised by works such as
+Emerging substantially from the 1970s onward and popularized by works such as
 Robert Lawlor's *Sacred Geometry: Philosophy and Practice* (1982), this asserts a
 continuous esoteric geometric tradition from antiquity to the present, in which
 specific figures and ratios carry metaphysical content recoverable by measuring
@@ -2202,7 +2202,7 @@ real, their systems are documented, and their buildings are beautiful.
 
 **Category four borrows category one's credibility** by using the same vocabulary —
 proportion, ratio, harmony, the golden section — and applying it by a completely
-different method: measuring afterwards rather than designing beforehand.
+different method: measuring afterward rather than designing beforehand.
 
 **The difference is the whole thing.** Palladio tells you the rule and then builds.
 The retrospective measurer finds a ratio and infers a rule. **One is a
@@ -2429,7 +2429,7 @@ of how correctly it was performed.
 ### What 70 CE removed
 
 Not the letters. The letters are in every scroll, and Judaism after the
-destruction became a religion organised around the text in a way it had not been
+destruction became a religion organized around the text in a way it had not been
 before.
 
 **What went was the other three.**
@@ -2490,7 +2490,7 @@ practice did not stop when its conditions were destroyed. It changed category,
 from performance to commemoration, and continued in that form for nineteen
 centuries.
 
-Chapter 85 generalises this. Here it is enough to note that **the Temple's most
+Chapter 85 generalizes this. Here it is enough to note that **the Temple's most
 important speech act outlived the Temple by becoming a description of itself**,
 and that the description is still recited.
 
@@ -2509,7 +2509,7 @@ and nobody has produced one.
 
 What explains the resemblance is what has explained every resemblance in this
 series: **both traditions faced the problem of continuing a practice whose
-authorising centre was gone, and the available responses are few.** Pretend it is
+authorising center was gone, and the available responses are few.** Pretend it is
 still there; abandon the practice; or adopt a declared substitute and say so.
 
 Only the third is both honest and survivable. Both traditions took it
@@ -2588,7 +2588,7 @@ inscription. The Temple is the setting.
 
 ### What the Ark contained
 
-The one place where writing and the building meet directly, and it is the centre.
+The one place where writing and the building meet directly, and it is the center.
 
 The Holy of Holies contained the Ark, and the Ark contained — on the account of
 1 Kings 8:9 — the two tablets of stone.
@@ -2771,7 +2771,7 @@ legend puts its loss during construction rather than destruction, which is exact
 the sort of detail that dissolves an elegant parallel and which an author invested
 in the parallel might not go looking for.
 
-The test of a method is whether it catches your own favoured idea. This one did.
+The test of a method is whether it catches your own favored idea. This one did.
 
 ---
 
@@ -2804,7 +2804,7 @@ Solomonic story.
 
 Hiram of Tyre appears first in connection with David, sending cedar and craftsmen
 for a palace.[^1] Under Solomon the relationship becomes a formal treaty
-arrangement: Tyre supplies cedar and cypress timber and skilled labour; Israel
+arrangement: Tyre supplies cedar and cypress timber and skilled labor; Israel
 supplies wheat and oil in annual quantities.[^2]
 
 The arrangement is described in the register of commercial diplomacy, and it has
@@ -2871,7 +2871,7 @@ not.
 
 **And it complicates the later use.** Masonic tradition makes the Temple the
 archetype of the Craft. The biblical Temple is, on its own account, a project
-whose skilled labour was imported from a neighbouring kingdom with a different
+whose skilled labor was imported from a neighboring kingdom with a different
 religion — which is a perfectly good subject for a fraternity of working builders
 to admire, and is not the same thing as a sacred national construction carried out
 by an initiated priesthood.
@@ -2953,10 +2953,10 @@ to devise any device.
 So: a different tribe, a different name-form, and a craftsman who has grown from a
 bronze specialist into a universal artificer.
 
-**This book reports the discrepancy rather than harmonising it.** Harmonisations
+**This book reports the discrepancy rather than harmonizing it.** Harmonisations
 exist — a mother of Danite origin married into Naphtali, or the reverse — and they
 are possible. They are also exactly the kind of move this book's method is
-suspicious of, since a harmonisation that cannot be tested is a hypothesis dressed
+suspicious of, since a harmonization that cannot be tested is a hypothesis dressed
 as a reconciliation.
 
 **The more economical reading is that Chronicles is doing something.** Its author,
@@ -2981,12 +2981,12 @@ Chronicles gives **חורם אבי** — *Huram abi*. The second element is the 
 Hebrew word *av*, "father," with a first-person singular possessive suffix: **"my
 father."**
 
-In context it functions as **a title of honour or respect**, a recognised usage in
-which a senior craftsman, counsellor or official is called "father" by a superior
+In context it functions as **a title of honor or respect**, a recognized usage in
+which a senior craftsman, counselor or official is called "father" by a superior
 or a community. Joseph is called a father to Pharaoh; the usage is not unusual.[^4]
 
 **So "Huram-abi" most economically reads as "Huram my master" or "Huram my
-counsellor" — a designation, not a surname.**
+counselor" — a designation, not a surname.**
 
 2 Chronicles 4:16 gives a related form, *Huram aviv*, "Huram his father," which
 points the same way.
@@ -3091,7 +3091,7 @@ degrees, a word, a grip, a question-and-answer sequence. No murder, no Grand
 Master, no raising.
 
 **The third degree with the legend appears in the printed record in the 1720s**,
-and Prichard's *Masonry Dissected* of 1730 gives it in recognisable form.[^2]
+and Prichard's *Masonry Dissected* of 1730 gives it in recognizable form.[^2]
 
 **Between these lies a gap of roughly three decades** in which the character was
 constructed. Nobody claims authorship. No document records a decision. The degree
@@ -3233,7 +3233,7 @@ vocabulary, no quotation, no idiosyncratic detail crossing from any of the
 proposed sources into the Masonic material. The names are biblical. The setting is
 biblical. The tools are a working mason's.
 
-**Institutional continuity**: fails. No organisation persisted.
+**Institutional continuity**: fails. No organization persisted.
 
 **And the comparison is weak on its own terms.** Several of the standard
 "dying-and-rising gods" have been argued not to die, or not to rise, or to do
@@ -3300,7 +3300,7 @@ was performed on.
 
 ### NOTES
 
-[^1]: The threefold structure is catalogued in the standard folklore indices; its
+[^1]: The threefold structure is catalogd in the standard folklore indices; its
 ubiquity is not in dispute.
 
 [^2]: On the contested status of the "dying and rising god" category, see the
@@ -3317,8 +3317,8 @@ here.
 
 Why a builder?
 
-Most initiatory traditions centre a priest, a king, a prophet, or a god. Masonry
-centres a man who worked in bronze, and the choice is not obvious.
+Most initiatory traditions center a priest, a king, a prophet, or a god. Masonry
+centers a man who worked in bronze, and the choice is not obvious.
 
 ---
 
@@ -3328,7 +3328,7 @@ The dullest explanation is substantially correct and should be stated first.
 
 **Freemasonry descends, institutionally and nominally, from stonemasons' lodges.**
 The Scottish evidence of the sixteenth and seventeenth centuries — the Schaw
-Statutes, the lodge minutes — concerns actual working masons organising an actual
+Statutes, the lodge minutes — concerns actual working masons organizing an actual
 trade. The Old Charges are craft documents with a craft legendary history.
 
 **A trade's hero is a tradesman.** Guild traditions across medieval Europe
@@ -3348,9 +3348,9 @@ not, and this is why the choice turned out to be so productive.
 **Competence that is checkable.** A builder's work stands or falls — literally. The
 preceding volume made this point about ritual competence and it applies with more
 force to craft: a badly cut stone is visibly badly cut, and no authority can
-declare otherwise. **A tradition organised around a craftsman inherits a model of
+declare otherwise. **A tradition organized around a craftsman inherits a model of
 knowledge in which claims are testable by their results**, which is an unusual and
-valuable thing for a symbolic system to have at its centre.
+valuable thing for a symbolic system to have at its center.
 
 **Knowledge that is transmitted by apprenticeship.** Craft skill cannot be
 acquired from a book; it must be shown, by a person, to a person, over time. This
@@ -3502,7 +3502,7 @@ binds and interrogates a long series of demons, each of which names itself,
 describes its function and its affliction, and names the angel or formula that
 thwarts it.
 
-**And he compels them to labour on the Temple.**
+**And he compels them to labor on the Temple.**
 
 That is the origin of the claim that the Temple was built by magic. Not a
 tradition independently recording how the building went up, but a narrative
@@ -3613,7 +3613,7 @@ binding and protection, consistent with the Testament of Solomon's ring. **In mu
 of this material the figure so named is a pentagram, not a hexagram**, and the
 usage is unstable. The name attaches to more than one shape.
 
-**Islamic use.** *Khātam Sulaymān*, the seal of Solomon, is a recognised motif in
+**Islamic use.** *Khātam Sulaymān*, the seal of Solomon, is a recognized motif in
 Islamic art and architecture, appearing decoratively and in talismanic contexts.
 Solomon (Sulaymān) is a prophet in Islam with a substantial legendary tradition of
 command over jinn and animals, grounded in the Qur'an.[^1]
@@ -3724,11 +3724,11 @@ He said so. Readers have persistently forgotten that he said so.
 
 The *Lemegeton*, or *Lesser Key of Solomon*, is a separate seventeenth-century
 compilation of five originally independent texts, of which the first, the
-*Goetia*, is by far the best known. Its catalogue of seventy-two spirits is
+*Goetia*, is by far the best known. Its catalog of seventy-two spirits is
 closely related to the list in Johann Weyer's *Pseudomonarchia Daemonum*,
 appended to his *De praestigiis daemonum* (1563; the demon-list appears in later
 editions from 1577). Weyer was a physician arguing that accused witches were ill
-rather than guilty, and he printed the list partly to expose it. A sceptic's
+rather than guilty, and he printed the list partly to expose it. A skeptic's
 exhibit became a practitioner's directory. This is a recurring pattern in the
 history of magic and worth naming: **publication for refutation is publication.**
 
@@ -3765,7 +3765,7 @@ stars," of "the natures of living creatures, and the furies of wild beasts," of
 plants, and the virtues of roots." A reader looking for scriptural warrant for a
 book of correspondences between hours, planets, plants, and spirits will find
 this passage extremely convenient. It is not about magic. It is about wisdom as
-encyclopaedic penetration of a created order. But it is one short step from there
+encyclopedic penetration of a created order. But it is one short step from there
 to a book organized by planetary hours.
 
 **Third, Solomon is a king, and therefore a commander.** The grimoire operator's
@@ -3827,14 +3827,14 @@ everything.
 
 What can be said about a tenth-century BCE Judahite king named Solomon was set
 out in Part II and will not be re-argued. The short form: a monarch of that name
-is plausible; the scale and splendour attributed to him by the biblical text are
+is plausible; the scale and splendor attributed to him by the biblical text are
 disputed, sometimes sharply; the archaeological record for a tenth-century
 Jerusalem of imperial scope is thin and contested; and no extrabiblical text
 names him. He is a figure we approach through a narrative composed centuries
 after him.
 
 **He has no attested connection to magic of any kind.** Not a hostile one, not a
-favourable one. The category does not arise.
+favorable one. The category does not arise.
 
 ### Solomon Two: the biblical and legendary wisdom king
 
@@ -3969,7 +3969,7 @@ matters more: explains why the claim exists.
 **1. Provenance.** What is the earliest source connecting the Temple's
 construction to magic? Not 1 Kings, not 2 Chronicles, not Ezekiel, not Josephus's
 description of the building. The connection appears in the *Testament of Solomon*,
-where demons are compelled to labour on the Temple — a text surviving in Greek
+where demons are compelled to labor on the Temple — a text surviving in Greek
 manuscripts and generally placed, in its present form, somewhere in the third to
 fifth centuries CE, with earlier strata plausible and disputed. Related material
 appears in the Babylonian Talmud's shamir narratives.
@@ -3997,9 +3997,9 @@ across the gap? No candidate has ever been produced that survives scrutiny.
 **6. Anachronism.** Does the claim require concepts unavailable in the relevant
 period? Yes, substantially. The framework of the demon-commanding Solomon —
 named hierarchies of spirits, binding by formula, the ring as an instrument of
-compulsion — belongs recognisably to the religious world of late antiquity, with
+compulsion — belongs recognizably to the religious world of late antiquity, with
 its extensive Greek, Egyptian, and Jewish magical papyri and amulet traditions.
-Projecting it onto the tenth century BCE imports a whole cosmology backwards.
+Projecting it onto the tenth century BCE imports a whole cosmology backward.
 
 ---
 
@@ -4009,7 +4009,7 @@ It is worth reading 1 Kings 5–7 with this question in mind, because the text i
 not silent — it is specific, and what it specifies is mundane.
 
 There is a timber contract with Hiram of Tyre, with stated payments in wheat and
-oil. There is a labour levy, with numbers. There is quarrying and dressing of
+oil. There is a labor levy, with numbers. There is quarrying and dressing of
 stone. There is a named craftsman, a bronze worker, whose lineage and training are
 given. There are dimensions, materials, and the sequence of construction. There
 are cherubim carved of olive wood and overlaid with gold — imagery, not
@@ -4066,7 +4066,7 @@ under a wisdom given directly by God, is a building whose real nature was never
 reducible to its stones. Such a Temple can be destroyed without being *ended*. Its
 essential character was always somewhere other than in the masonry that fell.
 
-This is not a trick, and it is not naive. It is a serious and recognisable
+This is not a trick, and it is not naive. It is a serious and recognizable
 theological move, and versions of it appear across the tradition: in the heavenly
 Temple that the earthly one copies, in the pattern shown to Moses on the mountain,
 in the Temple of the body, in the rebuilt Temple of vision. Chapter 19 examined
@@ -4276,7 +4276,7 @@ genealogy. His historical preface behaves the way such prefaces behaved in his
 period: it establishes the dignity of an institution by placing it in a line of
 descent.
 
-This is a recognisable literary form with recognisable conventions, and modern
+This is a recognizable literary form with recognizable conventions, and modern
 readers consistently apply the wrong standard to it. Guild and corporate
 traditional histories of the era routinely traced their crafts to biblical or
 classical founders. A company of smiths might claim Tubal-cain; a company of
@@ -4292,7 +4292,7 @@ historical realization.
 
 That last move is the hinge of this book. In the Old Charges, geometry is primary
 and the Temple is a station. In Anderson, **the Temple becomes the place where
-geometry was most fully expressed** — and therefore the natural centre of a craft
+geometry was most fully expressed** — and therefore the natural center of a craft
 that understands itself as geometry's inheritor.
 
 ---
@@ -4314,7 +4314,7 @@ intended the resemblance as retrojection or as recognition is not recoverable fr
 the text. The effect is the same either way: a reader in 1723 encountering both
 descriptions could hardly fail to see one in the other.
 
-**He placed it at the centre of a chain that leads to the reader.** This is the
+**He placed it at the center of a chain that leads to the reader.** This is the
 decisive rhetorical act. The Temple is not merely described; it is described as
 *ours*.
 
@@ -4399,7 +4399,7 @@ masonry from antiquity to England.
 
 It closes with the **charges** themselves: practical and moral obligations.
 Be true to God and Holy Church. Be true to your master. Do not take work you
-cannot perform. Do not supplant a fellow. Do not harbour thieves. Pay your
+cannot perform. Do not supplant a fellow. Do not harbor thieves. Pay your
 fellows truly. Call one another brother or fellow. These are the rules of a trade
 that has to work with people it cannot supervise, and they are the least
 mysterious and most consistently transmitted part of the whole corpus.
@@ -4431,7 +4431,7 @@ exact reverse of the relationship that later popular accounts assume.
 Old Charges corpus the figure appears under a remarkable spread of names — forms
 transmitted variously as Aynon, Aynone, Dyon, Ajuon, Benaim, and others still,
 with copyists evidently working from exemplars they could not always read. The
-variation was catalogued in detail by the twentieth century's documentary Masonic
+variation was catalogd in detail by the twentieth century's documentary Masonic
 scholars, Douglas Knoop and G. P. Jones among them, in their editions and studies
 of the early manuscripts.
 
@@ -4450,7 +4450,7 @@ was not.** What the Old Charges transmit is the position — there was a master
 mason at the Temple, sent by the King of Tyre — and the name attached to that
 position is textual noise accumulating over generations of copying.
 
-This has a direct and important consequence. The figure who occupies the centre of
+This has a direct and important consequence. The figure who occupies the center of
 the third degree in the eighteenth century and after cannot be shown, on this
 evidence, to descend from an operative tradition preserving his name. The name in
 the operative documents is precisely the part that did not survive intact. Chapter
@@ -4465,7 +4465,7 @@ It is worth stating the absences as plainly as the presences, because the
 absences are evidence.
 
 There is no death of the master mason. No murder, no search, no recovery. The
-narrative element that would later become Freemasonry's dramatic centre is not in
+narrative element that would later become Freemasonry's dramatic center is not in
 these documents.
 
 There is no lost word.
@@ -4477,7 +4477,7 @@ charged.
 
 There is no magic, no Kabbalah, no sacred geometry in the modern occult sense. The
 geometry of the Old Charges is Euclid's: a practical and dignified science, the
-foundation of the trade's claim to be a liberal art rather than mere labour.
+foundation of the trade's claim to be a liberal art rather than mere labor.
 
 ---
 
@@ -4640,7 +4640,7 @@ of the Temple has to specify whose Masonry, when.
 **The critical evidence is public.** Nothing in this chapter comes from a
 disclosure. It comes from printed books, published constitutions, dated minutes,
 and papal bulls — a paper trail that any reader can follow, and which has been
-followed, with exceptional rigour, by Masonic historians themselves.
+followed, with exceptional rigor, by Masonic historians themselves.
 
 ---
 
@@ -4708,7 +4708,7 @@ formation. The unfinished work becomes the unfinished self.
 
 This is the point at which the Temple becomes what Part I called a symbolic
 universe: not a symbol among others but a frame in which other symbols are
-located. A symbolic universe is recognisable by a specific property — **it can
+located. A symbolic universe is recognizable by a specific property — **it can
 absorb new material without being altered.** Additional degrees, new emblems,
 imported philosophical systems, later esoteric enthusiasms: all could be given a
 place in the Temple, because the Temple had rooms.
@@ -4758,7 +4758,7 @@ chronology forbids it.
 
 It does not license the opposite dismissal either — that the Temple is a
 decorative fiction and nothing follows from it. Something does follow. The men who
-built this symbolic structure were doing something recognisable and serious: they
+built this symbolic structure were doing something recognizable and serious: they
 were constructing a shared imaginative space in which moral formation could be
 staged, at a moment when the older shared spaces had become contested. That the
 historical claims attached to it are false does not make the construction
@@ -4772,7 +4772,7 @@ very interesting — but *what does it make possible, and what does it cost?*
 
 Part VIII takes up the first half of that question by walking into the room. What
 does the lodge actually look like, and how much of it is genuinely Temple-derived?
-The answer, again, is less than the tradition claims and more than the sceptics
+The answer, again, is less than the tradition claims and more than the skeptics
 allow.
 
 ---
@@ -4820,7 +4820,7 @@ the erasure was part of the closing.
 
 Over time the drawn floor gave way to a painted floor-cloth, and the floor-cloth
 to the portable tracing board: a framed painting, set up on an easel, carrying the
-emblems of the degree. Recognisable painted boards belong to the decades around
+emblems of the degree. Recognizable painted boards belong to the decades around
 1800, and the designs that became standard in English practice — those associated
 with John Harris in the 1840s — are Victorian.
 
@@ -4830,7 +4830,7 @@ Three consequences follow.
 the room was rented and the landlord wanted his dining room back.
 
 **It was visual and inventoried.** A drawing can hold a fixed set of emblems and
-be checked against a standard. This favours accumulation: a board has room for one
+be checked against a standard. This favors accumulation: a board has room for one
 more symbol.
 
 **It changed when the medium changed.** A chalked floor, a painted cloth, and a
@@ -4932,7 +4932,7 @@ toward the holiest place. In the lodge, the place of greatest dignity is the eas
 and the candidate approaches it from the west.
 
 This is not a small discrepancy, and it is not usually noticed. If the lodge were
-modelled on the Temple's plan, the Master would sit in the West.
+modeled on the Temple's plan, the Master would sit in the West.
 
 ---
 
@@ -5129,7 +5129,7 @@ A long-standing scholarly proposal is that the names are the opening words of
 dynastic formulae inscribed on the pillars — something on the order of "he will
 establish [the throne of David forever]" — which would make them abbreviations of
 sentences rather than names. It is a proposal, not a finding, and should be
-labelled as one.
+labeled as one.
 
 ---
 
@@ -5140,7 +5140,7 @@ candidates include commemorative or dynastic monuments, cultic markers defining 
 threshold, stands for fire or incense, and representations of something in the
 divine order — a cosmic gateway, in one common reading.
 
-The comparative evidence is genuine and should be stated in its favour. Paired
+The comparative evidence is genuine and should be stated in its favor. Paired
 free-standing pillars or columns at temple entrances are attested in the Levantine
 and Syrian architectural repertoire, and Herodotus reports two pillars, of gold and
 of emerald, in the temple of Heracles at Tyre — a relevant datum, since the
@@ -5160,7 +5160,7 @@ with Jachin and Boaz.
 
 The Temple pillars appear in the early catechism and exposure material of the
 eighteenth century, firmly enough that by 1762 a commercially successful exposure
-could be titled *Jachin and Boaz* and expect the names to be recognised. Their
+could be titled *Jachin and Boaz* and expect the names to be recognized. Their
 place at the lodge's entrance, and their treatment as objects of explanation,
 belongs to that century.
 
@@ -5205,7 +5205,7 @@ nineteenth-century writer could make the connection without inheriting it.
 
 *Is the interpretation modern?* Yes.
 
-*Is it accepted, disputed, or speculative?* Speculative, and recognised as such by
+*Is it accepted, disputed, or speculative?* Speculative, and recognized as such by
 documentary Masonic scholarship.
 
 ---
@@ -5332,7 +5332,7 @@ Two working tools of a medieval and early modern building trade, and the sacred
 book of the society in which the fraternity formed.
 
 That is a perfectly coherent set. It says: *this is a craft, its instruments carry
-moral meaning, and it is conducted under an acknowledgement of the divine.* It is
+moral meaning, and it is conducted under an acknowledgment of the divine.* It is
 the natural emblem-set for what Freemasonry was in 1723 — a trade's institutional
 descendant, moralizing its own equipment, in a Christian country.
 
@@ -5591,10 +5591,10 @@ Castle* organizes the spiritual life as a series of dwelling-places within a
 castle, entered successively.
 
 Note the structure of Teresa's device, because it recurs everywhere in this
-material: **a set of rooms, an order of passage, and a centre.** That is a temple
+material: **a set of rooms, an order of passage, and a center.** That is a temple
 plan, functionally, whatever it is called. Court, hall, innermost sanctuary. The
 Temple's own arrangement — a graded sequence of increasing restriction toward a
-single inaccessible centre — is unusually well suited to describing an interior
+single inaccessible center — is unusually well suited to describing an interior
 life, and traditions with no contact with one another have reached for that shape
 independently.
 
@@ -5613,7 +5613,7 @@ The phrase used across several jurisdictions for what is being built — a house
 made with hands, eternal in the heavens — is Paul's, from 2 Corinthians, and it
 belongs to the Christian inheritance rather than to any operative secret. Its
 Masonic use is an appropriation of a scriptural formula, made in a context where
-everyone present would recognise it.
+everyone present would recognize it.
 
 ---
 
@@ -5622,14 +5622,14 @@ everyone present would recognise it.
 Strip the architecture away and the claim underneath is this: **a person's
 character is cumulative, has structure, and can be worked on deliberately.**
 
-Each of those three is contestable, and each has a genuine defence.
+Each of those three is contestable, and each has a genuine defense.
 
 *Cumulative*: what one does repeatedly changes what one is disposed to do. This is
 the oldest claim in virtue ethics — Aristotle's, that we become just by doing just
 acts — and it is also, in a different vocabulary, one of the better-supported
 findings about habit formation.
 
-*Structured*: some traits depend on others. Courage without judgement is
+*Structured*: some traits depend on others. Courage without judgment is
 recklessness; generosity without prudence is ruin. Traditions that organize the
 virtues hierarchically are asserting dependency relations, and the assertion is
 not absurd.
@@ -5691,7 +5691,7 @@ subtractive.
 **The work is removal.** What the mason does is take material away. There is no
 way to put a corner back.
 
-**Therefore the work is irreversible and requires judgement.** A stone can be
+**Therefore the work is irreversible and requires judgment.** A stone can be
 over-dressed. This is a real hazard of the actual trade, and it is an unusually
 honest feature for a moral metaphor to have retained: the possibility of ruining
 something by working it too hard.
@@ -5818,7 +5818,7 @@ There is a serious objection to this image and it should not be waved away.
 
 Uniform blocks are interchangeable. A wall does not want stones with
 idiosyncrasies. If the moral ideal is a component that fits flush against its
-neighbours, then the metaphor's logic runs toward conformity — toward an
+neighbors, then the metaphor's logic runs toward conformity — toward an
 institution that dresses its members until their edges match, and calls the
 matching virtue.
 
@@ -5828,7 +5828,7 @@ resemble the men already inside. Any honest account of what the ashlar metaphor
 licenses has to admit that "be shaped until you fit" is among the things it can be
 made to mean.
 
-Two things are worth saying in response, neither of them a full defence.
+Two things are worth saying in response, neither of them a full defense.
 
 The first is that the tradition's own emphasis falls overwhelmingly on the *rough*
 stone. The unfinished condition is where the candidate is placed and where the
@@ -5901,7 +5901,7 @@ Taking them in order.
 The general claim — that what a person repeatedly does alters what they are
 disposed to do — is about as well supported as anything in this territory gets. It
 is the core of virtue ethics from Aristotle onward, and it has a modern research
-literature on habit formation, behavioural consistency, and the situational
+literature on habit formation, behavioral consistency, and the situational
 dependence of conduct.
 
 The modern literature also imposes a serious correction on the classical picture,
@@ -5934,7 +5934,7 @@ long follow-up, and outcome measures for character that are themselves contested
 What exists instead is a substantial general literature on the effects of
 sustained membership in voluntary associations: on social connection, on civic
 participation, on the wellbeing correlates of regular structured contact with
-other people. That literature is relevant and broadly favourable. It is also
+other people. That literature is relevant and broadly favorable. It is also
 almost entirely silent on whether the *content* of what such organizations teach
 does anything beyond the effect of belonging.
 
@@ -5968,7 +5968,7 @@ vocabularies do badly, collapsing either into complacency or into shame.
 What cannot be claimed: that the lodge's specific arrangement produces specific
 inner effects; that the proportions of the Temple encode a psychological system;
 that architectural symbolism activates anything in particular. Part X takes up the
-empirical literature on space and behaviour, and it will be considerably more
+empirical literature on space and behavior, and it will be considerably more
 restrained than readers of popular writing on sacred architecture expect.
 
 ### On testimony
@@ -6010,7 +6010,7 @@ Popular writing about sacred architecture makes a strong claim: that buildings a
 on the people inside them, shaping thought and feeling by their proportions. The
 claim is usually made without evidence and usually believed.
 
-Something in the neighbourhood of it is true. Considerably less than is usually
+Something in the neighborhood of it is true. Considerably less than is usually
 asserted, and for reasons that have very little to do with proportion.
 
 This Part goes through the relevant research literature honestly, which means
@@ -6034,11 +6034,11 @@ route produces encounters. A building with one entrance produces a threshold.
 
 This is the least glamorous claim in this Part and by a wide margin the
 best-supported. Roger Barker's mid-century work on behavior settings documented
-that the observable behaviour of people in a given place is often better predicted
+that the observable behavior of people in a given place is often better predicted
 by the place than by the individuals, and the general point has been absorbed
 into environmental psychology, urban design, and architecture practice.
 
-Applied to the lodge: the arrangement Part VIII described has behavioural
+Applied to the lodge: the arrangement Part VIII described has behavioral
 consequences that require no symbolism at all. The candidate enters at one point,
 under supervision, and moves along a prescribed path in the presence of everyone
 else. Attention converges on him because the geometry converges on him. Nobody has
@@ -6083,12 +6083,12 @@ Over the past fifteen years, large replication efforts have found that a
 substantial fraction of published findings in social and cognitive psychology do
 not reproduce at their original effect sizes, and that the subfield hit hardest
 was **social priming** — the study of how incidental environmental cues shape
-subsequent judgement and behaviour. Several famous results in that area have
+subsequent judgment and behavior. Several famous results in that area have
 failed well-powered replication attempts.
 
 This matters enormously here, because the claim "the building shapes your thinking"
 is, in its experimental form, a social priming claim. It belongs to the most
-damaged neighbourhood of the field.
+damaged neighborhood of the field.
 
 The consequence for this book is a rule, applied for the rest of Part X: **a
 finding in this area is reported as established only if it is a constraint, a
@@ -6107,8 +6107,8 @@ supported by a very large body of linguistic evidence. Languages really do
 systematically map abstract domains onto spatial ones.
 
 That linguistic finding is robust. What is far less robust is the experimental
-programme that grew from it, in which manipulating a bodily state was claimed to
-shift an abstract judgement. Several of that programme's signature results have not
+program that grew from it, in which manipulating a bodily state was claimed to
+shift an abstract judgment. Several of that program's signature results have not
 replicated well, including some that were, for a decade, textbook examples.
 
 So the defensible version is: **our vocabulary for inner life is thoroughly
@@ -6127,7 +6127,7 @@ it is how the language works is not in doubt.
 
 It will conclude that the lodge's effects on the people in it are real, and that
 most of them are explicable by constraint, attention, ceremony, and social
-context — that is, by things Book II already analysed — rather than by properties
+context — that is, by things Book II already analyzed — rather than by properties
 of the architecture as such.
 
 It will not conclude that sacred space is inert. The next chapter takes up the one
@@ -6239,7 +6239,7 @@ should be held firmly.
 
 A room that makes everyone look at one thing has determined the input. It has not
 determined what anybody makes of it. The candidate looking at the emblem the
-Deacon is indicating may be moved, bored, sceptical, or thinking about the journey
+Deacon is indicating may be moved, bored, skeptical, or thinking about the journey
 home. Attention is a channel; it is not content.
 
 What attention does supply is **shared reference**: everyone present knows what
@@ -6284,7 +6284,7 @@ threshold does not have magical properties; it is simply a very salient cue that
 one situation has ended and another begun.
 
 Event segmentation itself is on solid ground. It has a large literature, converging
-behavioural and neuroimaging evidence, and it explains a range of findings beyond
+behavioral and neuroimaging evidence, and it explains a range of findings beyond
 this one.
 
 ### The qualification
@@ -6392,7 +6392,7 @@ Before the experiment, the uncontroversial part.
 
 Languages map value, power, and the divine onto verticality with remarkable
 consistency. Good is up, more is up, authority is above, the dead are below,
-heaven is high. Lakoff and Johnson catalogued these orientational metaphors, and
+heaven is high. Lakoff and Johnson catalogd these orientational metaphors, and
 the cross-linguistic evidence for them is extensive.
 
 The likely explanation is embodied and mundane: humans are upright, gravity
@@ -6421,8 +6421,8 @@ often in design literature as an established principle.
 ### Why it has to be reported with its context
 
 The study belongs, squarely and by its own description, to the **social priming**
-research programme — the one that Chapter 46 identified as the area of psychology
-most damaged by the replication crisis of the 2010s. Several of that programme's
+research program — the one that Chapter 46 identified as the area of psychology
+most damaged by the replication crisis of the 2010s. Several of that program's
 best-known results have failed well-powered replication, and the methodological
 practices standard in the field at the time the study was run are now understood to
 produce unreliable findings at a substantial rate.
@@ -6450,7 +6450,7 @@ A good deal, and none of it depends on priming.
 **Height is expensive.** A tall building costs more, takes longer, and requires
 more skill than a short one enclosing the same floor area. A community that builds
 high has visibly spent something, and the expenditure is legible to everybody who
-sees it. This is a signalling account, and it needs no psychology of ceilings — only
+sees it. This is a signaling account, and it needs no psychology of ceilings — only
 arithmetic.
 
 **Height is visible from outside.** A tall building is a landmark, orienting a
@@ -6603,7 +6603,7 @@ inverted its lighting.
 
 None of this is a deception, and nobody involved was hiding anything. It is what
 happens when a powerful frame receives material from a different source: the frame
-supplies the setting, the material supplies the content, and afterwards everyone
+supplies the setting, the material supplies the content, and afterward everyone
 assumes the content came from the setting.
 
 That assumption is the single most persistent error in the popular understanding
@@ -6700,9 +6700,9 @@ well: bounded, sequenced, traversable, stable.
 
 And this is not a modern rediscovery imposed on the past. The art of memory was a
 standard part of rhetorical training from antiquity through the Renaissance, using
-buildings — frequently, explicitly, temples and theatres — as the storage
+buildings — frequently, explicitly, temples and theaters — as the storage
 structure. William Schaw's statutes to the Scottish masons in 1598 and 1599
-reference the art of memory as something masons were expected to practise. This is
+reference the art of memory as something masons were expected to practice. This is
 a documented sixteenth-century link between an organized building trade and a
 technique for storing knowledge in imagined architecture, and it is one of the more
 remarkable facts in this book's evidence.
@@ -6718,7 +6718,7 @@ Dacher Keltner and Jonathan Haidt proposed in 2003 that awe is elicited by
 perceived vastness together with a need for cognitive accommodation — encountering
 something that does not fit one's existing frames. Subsequent research has
 associated awe experiences with a diminished sense of self, altered time
-perception, and, in some studies, increased prosocial behaviour.
+perception, and, in some studies, increased prosocial behavior.
 
 Vast enclosed spaces are, by that definition, close to purpose-built awe elicitors.
 If any part of the popular claim about sacred architecture is going to be
@@ -6727,7 +6727,7 @@ vindicated, this is where.
 The honest caveats: the awe literature is young; effect sizes are generally modest;
 several findings come from small samples and laboratory inductions using
 photographs or video rather than buildings; and it belongs, in part, to the same
-methodological neighbourhood as the results Chapter 49 treated cautiously. Rate it
+methodological neighborhood as the results Chapter 49 treated cautiously. Rate it
 **E3 to E4: a real and replicated phenomenon whose specific effects are still being
 established.**
 
@@ -6745,7 +6745,7 @@ This reframes the whole of the Temple's afterlife. The reason a building that no
 longer exists could carry twenty-five centuries of accumulated meaning is not that
 its proportions encoded anything. It is that a described architecture gives the
 human memory system exactly the scaffold it works best with: named parts, fixed
-relations, a route through them, and a centre.
+relations, a route through them, and a center.
 
 Solomon's Temple is a set of rooms in which a civilization stored things. Courts,
 hall, sanctuary; two pillars, a sea, a stair; an outside, an inside, and an
@@ -6767,7 +6767,7 @@ powerful because of what it *affords* — and what it affords is remembering.
 # CHAPTER FIFTY-TWO
 ## The Temple in Jewish Mysticism
 
-There is a genuine Jewish mystical tradition centred on the Temple. It is old, it
+There is a genuine Jewish mystical tradition centerd on the Temple. It is old, it
 is textually documented, it has been studied by serious scholars for a century, and
 it has nothing to do with Freemasonry.
 
@@ -6868,7 +6868,7 @@ disrespect as well as a historical error.
 What the comparison legitimately yields is a convergence, not a lineage. Two
 traditions, a millennium and a half apart, both organized themselves around a
 destroyed building; both built graded structures with guarded thresholds; both made
-approach to a centre the shape of their central practice. The obvious explanation
+approach to a center the shape of their central practice. The obvious explanation
 is not that one learned from the other. It is that **a destroyed temple is a
 powerful thing to think with, and the same building was available to both.**
 
@@ -6890,7 +6890,7 @@ what they did specifically to the Temple.
 
 Book III established the transmission chain and this book does not re-derive it.
 Giovanni Pico della Mirandola's *Conclusiones* of 1486 asserted that Kabbalah, read
-correctly, confirmed Christian doctrine. Johannes Reuchlin developed the programme
+correctly, confirmed Christian doctrine. Johannes Reuchlin developed the program
 in *De verbo mirifico* (1494) and *De arte cabalistica* (1517). Christian Knorr von
 Rosenroth's *Kabbala Denudata* (1677–84) made a substantial body of Kabbalistic
 text available in Latin, and became the principal conduit through which later
@@ -7035,14 +7035,14 @@ through the Waite–Smith tarot of 1909, whose High Priestess sits between two
 pillars lettered B and J.
 
 **It maps the ascent.** The graded progress through *sefirot* is presented as a
-journey toward a centre, and Temple language — veils, sanctuaries, holy places — is
+journey toward a center, and Temple language — veils, sanctuaries, holy places — is
 applied to the stages.
 
 **But its ritual architecture is not Solomonic.** This is the finding worth
 reporting, because it cuts against expectation.
 
 The Golden Dawn's own temple imagery is overwhelmingly **Egyptian**, not Jewish.
-Its Neophyte hall is furnished as an Egyptian hall of judgement; its officers bear
+Its Neophyte hall is furnished as an Egyptian hall of judgment; its officers bear
 Egyptian god-forms; its symbolism draws on the Book of the Dead as mediated through
 nineteenth-century Egyptology. Its most elaborate physical structure, the Vault of
 the Adepti, is a seven-sided chamber derived from the Rosicrucian *Fama* of 1614 —
@@ -7057,7 +7057,7 @@ Temple. It built something else and used Temple vocabulary for it.
 
 Because it clarifies what "the Temple in Hermetic Qabalah" actually is.
 
-It is not an architectural programme. It is a **layer of interpretation applied to
+It is not an architectural program. It is a **layer of interpretation applied to
 symbols already in circulation** — many of them acquired from Freemasonry, whose
 ritual structures the Golden Dawn's founders knew well and drew on directly.
 
@@ -7080,7 +7080,7 @@ Having dated it, a fair assessment of what it is.
 
 Hermetic Qabalah is a **constructed symbolic language of unusual expressive
 range**. Its great virtue is that it is comprehensive: every card, letter, planet,
-colour, metal, plant, and grade has a place, and the places relate. That makes it a
+color, metal, plant, and grade has a place, and the places relate. That makes it a
 powerful instrument for organizing associative thought, for structuring a
 curriculum, and for generating material — which is exactly what its users have
 used it for.
@@ -7152,7 +7152,7 @@ traditions is not evidence that either learned it from the other.
 **This is where the inference fails, and the failure is formal.**
 
 If A models C, and B models C, it does not follow that A models B. Two things
-modelling the same third thing may model different aspects of it, at different
+modeling the same third thing may model different aspects of it, at different
 scales, for different purposes, with no correspondence between their parts.
 
 A map of a country's railways and a map of its rainfall both represent the same
@@ -7197,7 +7197,7 @@ them would license reading the biblical dimensions as anatomy.
 Something worth keeping.
 
 Temples and bodies are both **bounded structures with an inside, a sequence of
-access, and a centre that is treated as different from everything around it.**
+access, and a center that is treated as different from everything around it.**
 That shared structure is why the analogy keeps being made, independently, in
 places with no contact.
 
@@ -7264,7 +7264,7 @@ it does not say.
 **The idea that φ is a universal law of beauty is nineteenth-century.** Adolf
 Zeising proposed it as such in the 1850s. Matila Ghyka popularized it for the
 twentieth century in the 1930s. Le Corbusier's Modulor made it a modern design
-programme. Every retrospective discovery of φ in Greek and Renaissance buildings
+program. Every retrospective discovery of φ in Greek and Renaissance buildings
 postdates that proposal — which is the classic signature of a method finding what
 it was built to find.
 
@@ -7348,7 +7348,7 @@ served grimoire attribution. It served something else far more consequentially.
 
 **Francis Bacon's *New Atlantis*, published posthumously in 1627, names its
 research institution Salomon's House.** It is a college of natural philosophers
-with laboratories, instruments, gardens, and a division of intellectual labour,
+with laboratories, instruments, gardens, and a division of intellectual labor,
 dedicated to the knowledge of causes and the enlargement of human empire over
 nature. It is the single most influential fictional institution in the history of
 science, and the Royal Society's founders explicitly looked to it.
@@ -7359,7 +7359,7 @@ same verse that licensed the grimoires, producing the opposite institution.
 
 That divergence is one of the most instructive facts in this book. A single
 scriptural warrant, read by different people with different purposes, generates
-both a tradition of spirit-commanding manuals and a programme for experimental
+both a tradition of spirit-commanding manuals and a program for experimental
 science. The warrant did not determine the outcome. The readers did.
 
 ---
@@ -7369,7 +7369,7 @@ science. The warrant did not determine the outcome. The readers did.
 The second Renaissance Solomon is political, and he is everywhere.
 
 To call a monarch a new Solomon was standard panegyric: it claimed wisdom,
-justice, magnificence, and divine favour in one figure. James VI and I was hailed
+justice, magnificence, and divine favor in one figure. James VI and I was hailed
 as a British Solomon, and the comparison was made at his funeral. Solomon's
 judgment between the two mothers was a stock subject for the decoration of
 courtrooms and town halls across Europe, where its point was jurisdictional — this
@@ -7377,7 +7377,7 @@ is where wise judgment is given.
 
 The architectural expression of this is the **Escorial**, built for Philip II of
 Spain between 1563 and 1584 under Juan Bautista de Toledo and Juan de Herrera. Its
-Solomonic programme is not a modern interpretation: the identification of Philip
+Solomonic program is not a modern interpretation: the identification of Philip
 with Solomon and of the building with the Temple was explicit in its own period,
 in its iconography and in the writings surrounding it. The Jesuit Temple
 reconstruction that Chapter 67 examines was produced in that Spanish court orbit,
@@ -7455,9 +7455,9 @@ That last fact is the chapter's point, and it is routinely lost.
 Three documents, published in Germany within three years of each other.
 
 The *Fama Fraternitatis* (1614) announces a hitherto unknown fraternity founded by
-one Christian Rosenkreutz, who travelled in the East, acquired knowledge, returned
+one Christian Rosenkreutz, who traveled in the East, acquired knowledge, returned
 to Germany, gathered a small brotherhood, and died. The *Confessio Fraternitatis*
-(1615) elaborates the programme. The *Chymische Hochzeit Christiani Rosencreutz*
+(1615) elaborates the program. The *Chymische Hochzeit Christiani Rosencreutz*
 (1616) is an allegorical romance of quite different character.
 
 The *Chymical Wedding* is attributed with reasonable confidence to Johann Valentin
@@ -7468,7 +7468,7 @@ seriously debated is that **no evidence has ever been found of an actual
 Rosicrucian order existing before the manifestos announced it.** Many people wrote
 seeking admission. Nobody, so far as the record shows, received a reply.
 
-The manifestos are best understood as a programme for universal reformation —
+The manifestos are best understood as a program for universal reformation —
 religious, scientific, and social — issued in a fictional frame at a moment of
 acute European expectation, shortly before the Thirty Years' War.
 
@@ -7476,19 +7476,19 @@ acute European expectation, shortly before the Thirty Years' War.
 
 ### The vault
 
-The *Fama*'s architectural centrepiece is the tomb of Christian Rosenkreutz,
+The *Fama*'s architectural centerpiece is the tomb of Christian Rosenkreutz,
 discovered by the brethren one hundred and twenty years after his death, behind a
 door bearing an inscription announcing that it would open after that interval.
 
 Its described features are specific. It is a vault of seven sides. It is lit,
-without sun or candle, by an artificial sun in the ceiling. At its centre stands a
+without sun or candle, by an artificial sun in the ceiling. At its center stands a
 circular altar. The walls are divided into panels, each carrying figures and
 sentences. Beneath the altar lies the uncorrupted body of the founder, with books.
 
 Several things should be noticed about this description.
 
 **It is heptagonal, not rectilinear.** The Temple's plan is a long rectangle
-divided into three. The vault is a seven-sided chamber with a centre. These are
+divided into three. The vault is a seven-sided chamber with a center. These are
 different architectural imaginations, and the difference is not incidental: one is
 a plan of progression, the other a plan of enclosure.
 
@@ -7505,7 +7505,7 @@ framework. The Temple of Solomon is not their governing image.
 
 ---
 
-### What happened afterwards
+### What happened afterward
 
 The vault's architecture entered esoteric practice by a route that can be traced.
 
@@ -7611,7 +7611,7 @@ makes the author, who is not a Mason in any settled sense, the authority on
 Masonry's meaning. And it converts every absence of evidence into evidence of the
 loss.
 
-An unfalsifiable structure is not thereby false. But it should be recognised for
+An unfalsifiable structure is not thereby false. But it should be recognized for
 what it is, and it should shift the burden rather than relieve it.
 
 ---
@@ -7699,7 +7699,7 @@ brigadier general during the American Civil War, with a command involving Native
 American troops, and his conduct and resignation were the subject of controversy at
 the time. These facts are stated here because a biography that omits them is not a
 biography, and because Pike's Confederate service is a real and legitimate reason
-for the sustained modern objection to public monuments honouring him.
+for the sustained modern objection to public monuments honoring him.
 
 From 1859 until his death he was Sovereign Grand Commander of the Supreme Council
 of the Ancient and Accepted Scottish Rite for the Southern Jurisdiction of the
@@ -7832,7 +7832,7 @@ from remote regions, builds, and dedicates. The 1 Kings account of Solomon's Tem
 contains every element.
 
 This is not a claim that 1 Kings borrowed from Gudea. It is a claim about genre:
-**temple-building accounts were a recognised form with a standard shape, and the
+**temple-building accounts were a recognized form with a standard shape, and the
 biblical account is written in that form.** That matters for how we read it. The
 elements a modern reader finds most striking — the divine sanction, the foreign
 craftsman, the emphasis on cost — are the genre's conventions, not distinctive
@@ -7845,11 +7845,11 @@ features requiring special explanation.
 Four things, all of them practical.
 
 **It demonstrated capacity.** A monumental building is an unfakeable display of
-command over labour, materials, transport, and time. Everyone who sees it knows
+command over labor, materials, transport, and time. Everyone who sees it knows
 what it cost.
 
-**It localized the deity.** A god with an address is a god whose favour has a
-place, and whoever controls the place mediates the favour.
+**It localized the deity.** A god with an address is a god whose favor has a
+place, and whoever controls the place mediates the favor.
 
 **It concentrated revenue.** Temples in the ancient world were economic
 institutions — receiving offerings, holding treasure, sometimes lending. A central
@@ -7861,7 +7861,7 @@ adjacent to the palace complex, on the king's acropolis. It was, institutionally
 a royal sanctuary. The prophetic literature knows this and can use it as a
 reproach — Amos's confrontation at Bethel turns on the shrine being the king's.
 
-The biblical narrative attaches a dynastic promise to the building programme
+The biblical narrative attaches a dynastic promise to the building program
 directly: David is told his son will build the house and his throne will be
 established. Temple and dynasty are two aspects of one claim.
 
@@ -7891,7 +7891,7 @@ The clearest case in the whole record is the Second Temple's expansion.
 
 Herod the Great was not of Davidic descent, was of Idumean ancestry, and ruled by
 Roman appointment. His legitimacy was contested throughout his reign. He undertook
-the most ambitious building programme in the region's history, and its centrepiece
+the most ambitious building program in the region's history, and its centerpiece
 was a total reconstruction of the Temple on a vastly enlarged platform.
 
 The political reading is not cynical and it is not speculative. A ruler with a
@@ -8002,7 +8002,7 @@ continuous, overlapping, and frequently contested sacred significance for Judais
 Christianity, and Islam, each of which has held it, built on it, lost it, and
 returned to it.
 
-For Judaism it is the site of the Temple, the direction of prayer, and the centre
+For Judaism it is the site of the Temple, the direction of prayer, and the center
 of a hope for restoration.
 
 For Christianity it is the place of the crucifixion and resurrection, and — in a
@@ -8024,14 +8024,14 @@ The city detached from its geography early and thoroughly.
 The New Testament's closing vision describes a new Jerusalem descending from
 heaven, measured, gated, and without a temple — because, the text says, the Lord
 is its temple. Medieval European world maps frequently place Jerusalem at the
-centre of the inhabited earth. Pilgrimage produced reproductions: chapels built to
+center of the inhabited earth. Pilgrimage produced reproductions: chapels built to
 the measurements of the Holy Sepulchre, calvaries and sacred mounts laid out to
 allow the journey to be performed at home.
 
 **By the time Freemasonry took up the Temple, Jerusalem had been a portable idea in
 Europe for a thousand years.** Anderson's readers did not need to have been there;
 nobody had been there. They had inherited a city that functioned, as the Temple
-did, as a place one could locate oneself in without travelling.
+did, as a place one could locate oneself in without traveling.
 
 That is the condition in which the next chapter's subject has to be approached —
 and it is also the reason the next chapter requires more care than any other in
@@ -8144,7 +8144,7 @@ journey and ascent. It has been in continuous Muslim religious use, with
 interruptions, since the seventh century.
 
 For Christianity, the platform's significance is largely historical and
-typological; Christian sacred geography in Jerusalem centres on the Church of the
+typological; Christian sacred geography in Jerusalem centers on the Church of the
 Holy Sepulchre, and the Byzantine period deliberately left the platform in ruins.
 
 ---
@@ -8180,7 +8180,7 @@ mainstream Jewish religious opinion, the majority of which either defers
 restoration to a messianic future or holds the entire question to be not presently
 actionable.
 
-**Second: there is no Masonic programme to rebuild the Temple, and the claim that
+**Second: there is no Masonic program to rebuild the Temple, and the claim that
 there is rests on a category error.** Every finding of Parts VII through IX points
 the same way: the Masonic Temple is a symbolic and ritual structure, explicitly
 identified as such in Masonic instruction itself, and its central image is an
@@ -8208,7 +8208,7 @@ visible rather than inferred.
 ### Rome, and the spoils
 
 The Roman treatment of the Temple after 70 CE was not incidental destruction. It
-was a programme.
+was a program.
 
 The spoils were paraded in Rome. The triumphal arch erected for Titus, which
 stands today at the edge of the Forum, carries a relief of the procession with the
@@ -8233,13 +8233,13 @@ temple to Jupiter, completing the substitution architecturally.
 ### Monumentalism as argument
 
 Augustus was credited with the boast that he found Rome brick and left it marble.
-Whether or not he said it, the programme it describes was real: a regime
+Whether or not he said it, the program it describes was real: a regime
 established by civil war reconstructing its capital in permanent materials.
 
 The logic is consistent wherever it appears. **Monumental architecture is a claim
 about duration made by institutions that are not durable.** It is expensive
 precisely because expense is the message — a regime that can immobilize this much
-labour and stone in a form that cannot be quickly undone is asserting that it
+labor and stone in a form that cannot be quickly undone is asserting that it
 expects to be here when the building is old.
 
 The assertion is usually wrong, and the buildings frequently outlive the regimes by
@@ -8266,7 +8266,7 @@ care.
 
 Two consequences.
 
-**The first concerns what the Temple was for its neighbours and conquerors.** It
+**The first concerns what the Temple was for its neighbors and conquerors.** It
 was an asset. Its destruction was a transfer, its revenue was a prize, and its
 replacement on the same ground by another god's house was a statement everyone
 understood. None of this is hostile interpretation; it is what the Roman sources
@@ -8321,11 +8321,11 @@ respectively in Egyptian, Ionic, Corinthian, Renaissance, Oriental, Gothic, and
 Norman styles.
 
 *Detroit Masonic Temple.* Completed in the 1920s to George D. Mason's design; the
-largest Masonic building in the world, in a Neo-Gothic idiom, with a theatre, a
+largest Masonic building in the world, in a Neo-Gothic idiom, with a theater, a
 ballroom, and a great many lodge rooms.
 
 *The House of the Temple, Washington.* Headquarters of the Scottish Rite's
-Southern Jurisdiction, built 1911–15 to John Russell Pope's design. It is modelled
+Southern Jurisdiction, built 1911–15 to John Russell Pope's design. It is modeled
 on the Mausoleum at Halicarnassus — a Greek tomb.
 
 *Elsewhere.* Egyptian Revival is unusually common in American Masonic and
@@ -8350,14 +8350,14 @@ Asia Minor.
 There is no shortage of means or ambition here. These are expensive, deliberate,
 architect-designed buildings commissioned by institutions with money. Villalpando's
 reconstruction had been in print for three centuries and the biblical dimensions
-are in every Bible. If the Temple had been an architectural programme, someone would
+are in every Bible. If the Temple had been an architectural program, someone would
 have built it.
 
 ---
 
 ### Why not
 
-Because the Temple was never an architectural programme. It was a ritual and
+Because the Temple was never an architectural program. It was a ritual and
 mnemonic frame, and Parts VIII and X established what that means.
 
 A frame does not need to be reproduced in stone, because it is not doing its work
@@ -8369,7 +8369,7 @@ space to move a candidate about in. Everything else is the architecture of the
 period, chosen for the ordinary reasons buildings are chosen: cost, fashion,
 civic dignity, and what the architect proposed.
 
-The Masonic building programme is therefore evidence *against* the strongest
+The Masonic building program is therefore evidence *against* the strongest
 version of the Temple claim and *for* the version this book has been developing.
 A tradition that genuinely believed itself the custodian of the Temple's design
 would have built the design. A tradition that uses the Temple as a declared
@@ -8394,7 +8394,7 @@ is what Freemasonry largely was in the places and times it built most.
 
 And they are, many of them, **now too large**. Membership in most Western
 jurisdictions has declined sharply since the mid-twentieth century, and a great
-many of these buildings have been sold, subdivided, converted to theatres and
+many of these buildings have been sold, subdivided, converted to theaters and
 event spaces, or demolished.
 
 There is an irony in this that the tradition might find instructive rather than
@@ -8574,7 +8574,7 @@ revelation.
 
 Villalpando's engravings accordingly render the Temple as a monumental classical
 building: colonnaded courts, entablatures, orders correctly deployed, the whole
-thing recognisably of a piece with the finest architecture of sixteenth-century
+thing recognizably of a piece with the finest architecture of sixteenth-century
 Rome.
 
 ---
@@ -8670,7 +8670,7 @@ Not looking for a hidden geometrical code, and not, on any evidence this book ha
 found, looking for anything esoteric in the modern sense.
 
 Newton's Temple work serves two purposes that are continuous with the rest of his
-non-scientific labour.
+non-scientific labor.
 
 **Chronology.** Newton believed the received chronologies of antiquity were wrong
 and had inflated the age of pagan civilizations at the expense of the biblical
@@ -8780,7 +8780,7 @@ asks what that world thought the Temple was.
 
 The first correction, and it governs everything else.
 
-The eighteenth century did not set religion aside in favour of reason. It argued
+The eighteenth century did not set religion aside in favor of reason. It argued
 about religion incessantly, with reason as the instrument. Newton spent more
 manuscript pages on prophecy and chronology than on physics. Biblical chronology
 was a live scholarly field. Natural theology — the argument from the world's design
@@ -8799,7 +8799,7 @@ better than an object that was both.
 
 **A chronological anchor.** Ancient chronology was genuinely unsettled, and
 synchronizing biblical, Egyptian, Greek, and Assyrian records was a major scholarly
-programme. The Temple's construction, tied to a reign, was a fixed point people
+program. The Temple's construction, tied to a reign, was a fixed point people
 argued over. Chapter 68 showed Newton doing exactly this.
 
 **An origin for architecture.** Villalpando's thesis, that the classical orders
@@ -8815,7 +8815,7 @@ understood was a religion compatible with a century that wanted faith to be
 reasonable.
 
 Anderson's first Charge, asking for the religion in which all men agree, belongs to
-that programme — and the Temple was an unusually good emblem for it, being
+that program — and the Temple was an unusually good emblem for it, being
 pre-Christian, shared, and specified in numbers rather than in doctrines.
 
 ---
@@ -8855,7 +8855,7 @@ accounts given within the tradition itself, for geometry, understood as the nobl
 of sciences.
 
 The modern usage — sacred geometry as a system of hidden ratios encoding spiritual
-truths, with φ at its centre — is a nineteenth- and twentieth-century construction,
+truths, with φ at its center — is a nineteenth- and twentieth-century construction,
 as Chapter 56 dated it, and it is a different idea wearing an older phrase.
 
 Confusing them produces a specific and common historical error: reading
@@ -8925,7 +8925,7 @@ vocabulary into traditions with no Jewish or Christian reference at all.
 **Popular culture.** The Temple, Masonic secrecy, and hidden knowledge became a
 durable commercial genre. Dan Brown's *The Lost Symbol* (2009) is set substantially
 in the House of the Temple in Washington — the Scottish Rite headquarters that
-Chapter 65 noted is modelled on a Greek tomb.
+Chapter 65 noted is modeled on a Greek tomb.
 
 ---
 
@@ -9170,7 +9170,7 @@ discovered inside an object that does not contain it. It requires no dishonesty,
 it is extremely difficult to detect from the inside, and it is the single most
 productive source of false claims in this book's entire subject.
 
-This chapter describes the mechanism, in enough detail to recognise it in
+This chapter describes the mechanism, in enough detail to recognize it in
 operation.
 
 ---
@@ -9547,7 +9547,7 @@ precisely, and can explain.
 Gematria has not revealed a hidden link between Solomon and peace. It has
 converted a known etymology into a number and presented the number as news. This
 is the commonest form of gematria "result" in the popular literature, and
-recognising it requires no mathematics — only the willingness to ask whether the
+recognizing it requires no mathematics — only the willingness to ask whether the
 words are related before treating the numbers as a discovery.
 
 ---
@@ -9570,7 +9570,7 @@ silently dropped instead, the Holy of Holies would have been transformed as a
 single fused string and the error would have propagated into a printed table.
 
 Every computational claim in this book is exposed to that class of failure. The
-only defence is to publish the code, which this book does.
+only defense is to publish the code, which this book does.
 
 ---
 
@@ -9695,7 +9695,7 @@ cryptographic — rests on how the printed literature explains it where it expla
 it at all, which is not often.
 
 A book that has spent this Part insisting on controls and declared tolerances
-cannot then assert a favoured reading of a thin source at E1 because the reading is
+cannot then assert a favored reading of a thin source at E1 because the reading is
 attractive. The honest statement is that this is the best available account of a
 practice we know less about than we would like.
 
@@ -10157,7 +10157,7 @@ This book tested it directly, on point sets constructed to contain nothing.
 
 **Method, fixed before running.** Generate a jittered rectangular lattice — a plain
 street grid with nothing in it by construction. Search random hexagram placements:
-centre, radius, and rotation chosen at random, with each of the six vertices
+center, radius, and rotation chosen at random, with each of the six vertices
 required to match a distinct lattice point within a fixed capture radius. Report
 the best fit found.
 
@@ -10263,7 +10263,7 @@ in the ancient world was thinking in these terms. The Temple was not designed as
 information system, its builders had no such concept, and finding computational
 structure in it says something about the analytic vocabulary, not about the
 builders' intentions. This is precisely the error Chapter 72 named as retrofitting,
-and the only defence against committing it is to declare the analogy as an analogy
+and the only defense against committing it is to declare the analogy as an analogy
 and keep declaring it.
 
 With that said, the analogy earns its place, because it makes one thing precise
@@ -10365,7 +10365,7 @@ Chapter 45's about moral formation cannot be stated in these terms.
 
 It also flattens intention. Interfaces are designed; the Temple accreted, was
 destroyed, was rebuilt differently, was expanded by a king with a legitimacy
-problem, and was described by writers with theological programmes. Reading the
+problem, and was described by writers with theological programs. Reading the
 result as a specification implies a specifier who did not exist.
 
 The analogy is a lens. It is held up deliberately, for three more chapters, and
@@ -10420,10 +10420,10 @@ The art of memory was a standard component of rhetorical training from antiquity
 through the Renaissance, described in classical sources and taught continuously.
 Its method is architectural: place the items to be remembered at locations along a
 route through a familiar structure, and recall them by walking it. Temples and
-theatres appear repeatedly in the sources as the recommended structures.
+theaters appear repeatedly in the sources as the recommended structures.
 
 And, as Chapter 51 noted, William Schaw's statutes to the Scottish masons of 1598
-and 1599 reference the art of memory as something masons were expected to practise.
+and 1599 reference the art of memory as something masons were expected to practice.
 A documented sixteenth-century link between an organized building trade and a
 technique for storing knowledge in imagined architecture is a genuinely remarkable
 piece of evidence, and it is one of the few in this whole subject that requires no
@@ -10446,7 +10446,7 @@ history of what got stored at those addresses.
 
 The porch held pillars, and the pillars later held principles, then *sefirot*.
 The innermost room held the Ark, then the divine darkness, then the unreachable
-centre of the self. The middle chamber held wages, then a stage of instruction.
+center of the self. The middle chamber held wages, then a stage of instruction.
 The unfinished work held a construction site, then a lifetime.
 
 **The addresses stayed constant while the contents changed completely.** That is
@@ -10490,7 +10490,7 @@ is no original filing to recover.
 
 And it does not make this book's own analysis immune to Chapter 72's warning. A
 vocabulary that can describe any structure as storage will describe any structure
-as storage. The defence, again, is that the claim being made is modest — that
+as storage. The defense, again, is that the claim being made is modest — that
 buildings afford memory, which is experimentally supported — and that the
 historical link runs through a documented practice with a date and a statute, not
 through an inference from dimensions.
@@ -10561,7 +10561,7 @@ which is why Freemasonry could spread across a continent and then a world while 
 priesthood could not.
 
 **Verification is distributed.** Any member can perform it, anywhere, without
-reference to a central authority. A travelling Mason arriving in a strange city
+reference to a central authority. A traveling Mason arriving in a strange city
 could be checked by people who had never heard of him, which was the practical
 problem the system solved in the first place.
 
@@ -10671,18 +10671,18 @@ automatically.
 
 A rule written in a book must be read, remembered, invoked, and enforced. A rule
 built into a wall enforces itself, continuously, without anyone deciding to do so
-on any particular occasion, and without the possibility of favour, error, or
+on any particular occasion, and without the possibility of favor, error, or
 mercy.
 
 This is a genuine advantage from the institution's point of view and a genuine cost
-from the person's. The wall does not know that this supplicant has travelled a long
+from the person's. The wall does not know that this supplicant has traveled a long
 way. It does not make exceptions. Its impartiality and its indifference are the
 same property.
 
 Chapter 46 made the point in the register of environmental psychology — that
 buildings determine what is physically possible, and that this is the
-best-supported thing architecture does to behaviour. Governance is what that
-determination looks like when the behaviours in question are social.
+best-supported thing architecture does to behavior. Governance is what that
+determination looks like when the behaviors in question are social.
 
 ---
 
@@ -10712,7 +10712,7 @@ What may be admitted to attention? What may be approached? What may be spoken?
 What may be touched? What may be known about oneself?
 
 The traditions examined in Part IX all answer these, and they answer them with
-architecture: an inner structure with rooms, an order of access, and a centre.
+architecture: an inner structure with rooms, an order of access, and a center.
 Chapter 42 noted the limitation — a person is not a building, and the metaphor
 imports a coherence that people do not have.
 
@@ -11059,7 +11059,7 @@ constructed a room it built the Rosicrucian vault and not the Solomonic Temple.
 
 Films, novels, and games in which the Temple, its treasure, or its secret drives a
 plot. Chapter 70 noted the most commercially successful recent instance is set in a
-Masonic building modelled on a Greek tomb.
+Masonic building modeled on a Greek tomb.
 
 ---
 
@@ -11096,7 +11096,7 @@ directly.
 **We have no access to Solomon's Temple that is not a reconstruction.**
 
 The biblical accounts are themselves composed centuries after the events they
-describe, by writers with theological programmes, and they disagree with each other
+describe, by writers with theological programs, and they disagree with each other
 about the numbers. There are no remains. There is no contemporary depiction. Every
 image anyone has ever had of this building has been made by somebody, out of
 something else, for a reason.
@@ -11240,7 +11240,7 @@ artefact who became the protagonist of a ceremony.
 
 ### The builders we cannot name
 
-**The labour levy.** 1 Kings gives numbers — tens of thousands of men, conscripted,
+**The labor levy.** 1 Kings gives numbers — tens of thousands of men, conscripted,
 working in shifts in the quarries and the forests. Not one of them is named.
 
 **The medieval masons** whose Old Charges Chapter 32 examined. A few names survive
@@ -11372,7 +11372,7 @@ finished structure is invited to a comparison they will lose. A person invited t
 identify with a building under construction is invited to an accurate description
 of themselves.
 
-**It distributes credit and defers judgement.** No one person raises an unfinished
+**It distributes credit and defers judgment.** No one person raises an unfinished
 building, and no one moment settles whether it was well built. This is a
 considerable kindness, and it is also, less comfortably, a considerable evasion —
 a project that is never complete is never assessable.
@@ -11393,7 +11393,7 @@ has a real one.
 
 **Permanent incompletion can excuse permanent non-delivery.** An institution that
 describes itself as always building is an institution that never has to show a
-building. A moral programme that is by definition unfinishable cannot fail, because
+building. A moral program that is by definition unfinishable cannot fail, because
 failure requires a standard that a deadline supplies and this one has none.
 
 Freemasonry has been susceptible to this. So has every tradition of gradual
@@ -11442,7 +11442,7 @@ Eighty-nine chapters later, both halves can be answered.
 Begin with the deflation, because the rest is worthless without it.
 
 There was, in all probability, a temple in Jerusalem in the Iron Age. Its scale and
-splendour are disputed, sharply, by serious archaeologists, and the tenth-century
+splendor are disputed, sharply, by serious archaeologists, and the tenth-century
 evidence is thin. No physical remains of it have ever been identified. What
 survives of any temple on that site is Herod's platform, five and a half centuries
 later, and not the building it carried.
@@ -11465,7 +11465,7 @@ its own scripture.
 There is no Solomonic magic in it, no Kabbalah in it, and no Masonry in it. The
 Kabbalistic reading of the pillars was made after 1854 by people whose names we
 know. The Masonic Temple was elevated from a station in a legendary history to the
-centre of a ceremony in a documentable forty-year window in the eighteenth century.
+center of a ceremony in a documentable forty-year window in the eighteenth century.
 Every transmission claim this book tested failed, and the ones that came closest —
 the Rosicrucian vault into the Golden Dawn, Giorgi's memorandum into a Venetian
 church — failed for the Temple while passing for something else, which is what
@@ -11479,7 +11479,7 @@ That is the negative finding, and it is comprehensive.
 
 The question invites a comfortable answer and the comfortable answer is wrong.
 
-**Yes. It was a building.** It was made of stone and cedar by conscripted labour
+**Yes. It was a building.** It was made of stone and cedar by conscripted labor
 under a king who wanted it. The claim that it was always more than that — that it
 was a cosmic diagram, a body, a blueprint of the soul — is a claim made *about* it,
 afterward, by traditions with their own purposes, every one of which this book has
@@ -11520,7 +11520,7 @@ built Art Deco, Gothic, and Greek Revival, and never once built the Temple.
 
 What was never lost is **the plan** — in the specific sense Part XVII gave the
 word. A bounded structure, partitioned into named rooms, arranged in a sequence of
-increasing restriction, with a centre almost nobody reaches. Courts, hall,
+increasing restriction, with a center almost nobody reaches. Courts, hall,
 sanctuary. Outside, inside, innermost.
 
 That structure is not a secret and never was. It is written down, in several
@@ -11687,7 +11687,7 @@ Freemasonry actually does exactly where it was. Chapter 87 listed what survives,
 and four things survived, and they were the four that were doing the work all
 along.
 
-The Temple in Jerusalem was built by conscripted labour for a king with a claim to
+The Temple in Jerusalem was built by conscripted labor for a king with a claim to
 make, and it was burned, and the ground it stood on is contested still. That
 building is gone and this book has been honest about how little of it can be
 recovered.
@@ -11729,7 +11729,7 @@ so) and unsupported at level 1 as a statement about builders' intentions.
 
 **Movement between levels runs in one direction and is datable.** Building → text →
 symbol → ritual setting → inner Temple. Each transition has a period, and none
-runs backwards. Chapter 34 dates the level-3-to-level-4 transition in Freemasonry
+runs backward. Chapter 34 dates the level-3-to-level-4 transition in Freemasonry
 to the 1720s–30s.
 
 **Level 1 is the only level that can be lost.** The others survive its destruction,
@@ -11832,7 +11832,7 @@ table should be read as resolving a dispute the book left open.
 | 1885–97 | The Taxil hoax, to its public confession on 19 April 1897 |
 | 1887–88 | Golden Dawn founded |
 | 1909 / 1935 | Crowley's *777* / Fortune's *The Mystical Qabalah* |
-| 1911–15 | House of the Temple, Washington — modelled on a Greek tomb |
+| 1911–15 | House of the Temple, Washington — modeled on a Greek tomb |
 | 1927–33 | Freemasons' Hall, London — Art Deco |
 
 ---
@@ -11856,7 +11856,7 @@ answer different questions.
 | **E** | Non-peer-reviewed but serious secondary work | Older Masonic historiography; popular scholarly synthesis |
 | **F** | Polemic, hearsay, anonymous, promotional, or self-published | Barruel; the Taxil material; internet claim literature |
 
-Level F material is analysed in this book **as cultural evidence** — evidence of
+Level F material is analyzed in this book **as cultural evidence** — evidence of
 what people believe and circulate — and is never treated as authoritative about
 the events it describes. Chapters 77 and 78 do exactly this.
 
@@ -11890,7 +11890,7 @@ that statement possible.
 ## Master Claim Ratings
 
 Every claim this book rated, with its chapter. Ordered by rating, not by
-sympathy: several claims favourable to Freemasonry are rated E6, and several
+sympathy: several claims favorable to Freemasonry are rated E6, and several
 unfavourable ones are too.
 
 ### E1 — Documented, uncontested
@@ -11936,7 +11936,7 @@ unfavourable ones are too.
 | Ceiling height changes cognitive style (Meyers-Levy & Zhu 2007) | 49 |
 | The Royal Arch as a possible exception to the no-Kabbalah-before-1854 finding | 52 |
 
-### E5 — Later interpretation projected backwards
+### E5 — Later interpretation projected backward
 
 | Claim | Ch. |
 |---|---|
@@ -12027,7 +12027,7 @@ hidden-code claim about Solomon's Temple is a claim about these numbers.
 
 Compiled for Chapter 65. The column that matters is the last one.
 
-| Building | Date | Architect | Style | Modelled on the Temple? |
+| Building | Date | Architect | Style | Modeled on the Temple? |
 |---|---|---|---|---|
 | Freemasons' Hall, Great Queen St, London | 1927–33 (site occupied from 1775) | Ashley & Newman | Art Deco | No |
 | Freemasons' Hall, George St, Edinburgh | early 20th c. | — | Classical | No |
@@ -12048,7 +12048,7 @@ when Villalpando's engravings had been in print for three centuries and the
 biblical dimensions were in every Bible.
 
 The conclusion drawn in Chapter 65: the Temple was never an architectural
-programme. It is a ritual and mnemonic frame, and a frame requires enclosure, a
+program. It is a ritual and mnemonic frame, and a frame requires enclosure, a
 controllable door, and room to move a candidate about in. Everything else is the
 architecture of the period.
 
@@ -12085,7 +12085,7 @@ mind**, and a great deal of later writing has assumed the reverse (ch 57).
 
 Figures 3–4 and figure 5 grow from the *same* scriptural warrant — 1 Kings 4:33
 and Wisdom of Solomon 7 — read by different people for different purposes. One
-warrant produced both a tradition of spirit-commanding manuals and a programme for
+warrant produced both a tradition of spirit-commanding manuals and a program for
 experimental science.
 
 The warrant did not determine the outcome. The readers did (ch 57).
@@ -12108,7 +12108,7 @@ early fifteenth century to the eighteenth.
 ### The legendary history's spine
 
 Children of Lamech → the two pillars against flood and fire → Nimrod → Abraham →
-**Euclid in Egypt** → the craft travels → **Solomon's Temple** → ... → England
+**Euclid in Egypt** → the craft travels → **Solomon's Temple** → … → England
 under Athelstan.
 
 **Solomon's Temple is a station on a route, not the route's origin.** The craft
@@ -12119,7 +12119,7 @@ arrives there already possessing its charges and its geometry.
 Across the corpus the figure sent by the King of Tyre appears under a remarkable
 spread of names — transmitted variously as Aynon, Aynone, Dyon, Ajuon, Benaim, and
 others, with copyists working from exemplars they could not always read. The
-variation was catalogued by Knoop, Jones and their contemporaries.
+variation was catalogd by Knoop, Jones and their contemporaries.
 
 He is not called Hiram Abiff.
 
@@ -12166,7 +12166,7 @@ Masonic–Kabbalistic link is run through all eight.
 | 5 | Yes — *Kabbala Denudata* in print from 1677; Christian Kabbalah current since Pico |
 | 6 | **None.** This is the decisive answer |
 | 7 | Yes |
-| 8 | Speculative, and recognised as such by documentary Masonic scholarship |
+| 8 | Speculative, and recognized as such by documentary Masonic scholarship |
 
 **Verdict: E5** — a nineteenth-century interpretive overlay on an
 eighteenth-century biblical borrowing.
@@ -12310,10 +12310,10 @@ All eleven values each, for direct comparability.
 | Tabernacle (Exodus 26–27) | 3 |
 | Ezekiel's temple, selected (Ezek 40–41) | 2 |
 | Noah's ark (Genesis 6) | 3 |
-| Parthenon (approx. metres) | 3 |
-| Pantheon, Rome (approx. metres) | 1 |
-| Stonehenge sarsen circle (approx. metres) | 2 |
-| Typical Gothic bay (approx. metres) | 4 |
+| Parthenon (approx. meters) | 3 |
+| Pantheon, Rome (approx. meters) | 1 |
+| Stonehenge sarsen circle (approx. meters) | 2 |
+| Typical Gothic bay (approx. meters) | 4 |
 | **Arbitrary integers 1–11 (no building)** | **4** |
 | Mean | 3.20 |
 | Median | 3 |
@@ -12526,10 +12526,10 @@ replication.** Everything else carries its status. This appendix is the register
 
 | Finding | Status | Ch. |
 |---|---|---|
-| Buildings determine what is physically possible; behaviour settings | **Constraint — not in dispute** | 46 |
+| Buildings determine what is physically possible; behavior settings | **Constraint — not in dispute** | 46 |
 | Visual attention is limited and directed by physical arrangement | **Optics — not in dispute** | 47 |
 | Restorative environments; daylight, views, natural settings | **Reasonably supported**; Ulrich (1984) is small and of its period, a landmark rather than a demonstration | 46 |
-| Conceptual metaphor: abstract thought structured spatially | **Robust as linguistics**; the experimental embodiment programme is not | 46, 49 |
+| Conceptual metaphor: abstract thought structured spatially | **Robust as linguistics**; the experimental embodiment program is not | 46, 49 |
 | Event segmentation at boundaries | **Well supported** | 48 |
 | The doorway effect specifically | **Conditional.** More dependent on memory load than early reports suggested; at least one replication failed under low load **[SVR]** | 48 |
 | Ceiling height changes cognitive style (Meyers-Levy & Zhu 2007) | **E4.** Social priming; replication status not verified by this book **[SVR]** | 49 |
@@ -12544,7 +12544,7 @@ replication.** Everything else carries its status. This appendix is the register
 | A brain region for religious experience | **No such finding exists** | 51 |
 | Situational dependence of apparent character traits | **Well supported**, and it cuts against the architectural model of character | 45 |
 | Self-report of *why* an experience mattered | **Unreliable** — old and replicated | 45 |
-| Voluntary association membership: social and wellbeing correlates | **Broadly favourable**, and silent on whether content matters beyond belonging | 45 |
+| Voluntary association membership: social and wellbeing correlates | **Broadly favorable**, and silent on whether content matters beyond belonging | 45 |
 
 ### The rule behind the register
 
@@ -12737,7 +12737,7 @@ from Ottoman decrees of the 1850s and carried forward, with modifications, by
 successive authorities (ch 63).
 
 **Symbolic universe.** A frame in which other symbols are located, rather than a
-symbol among others. Recognisable by its capacity to absorb new material without
+symbol among others. Recognizable by its capacity to absorb new material without
 being altered (ch 34).
 
 **Tracing board.** A painted board carrying the emblems of a degree, set up in the
@@ -12767,13 +12767,13 @@ summarizes the sections.
 manuscript, an excavation plan, a building, a printed plate, a photograph — or an
 original diagram declared as such.
 
-**Reconstructions are labelled as reconstructions.** Chapter 66 established why
+**Reconstructions are labeled as reconstructions.** Chapter 66 established why
 this matters: a drawing removes the uncertainty a text contains, and a reader who
 sees only the drawing cannot tell which parts were given and which supplied. Every
 Temple reconstruction plate carries its artist, its date, and a note of which
 textual source it is built on.
 
-**Comparative material is labelled with its own provenance**, not as illustrating
+**Comparative material is labeled with its own provenance**, not as illustrating
 the Temple.
 
 **[SVR]** marks items whose shelfmark, accession number, or museum attribution
@@ -12816,7 +12816,7 @@ reader who runs them.
 evidence scale for individual claims (source level and claim-evidence level are
 related but distinct — a Level A primary source can still support only an E4
 claim if the claim itself is disputed). ✔ = verified against a copy or reliable
-catalogue record; ~ = details substantially confirmed, page-level verification
+catalog record; ~ = details substantially confirmed, page-level verification
 outstanding; **[SVR]** = source verification required.
 
 ---
@@ -13292,7 +13292,7 @@ Daemonum*, 27 · Regius Poem, 30 · Revelation, 62, 86 · *Testament of Solomon*
 ## Concepts
 
 art of memory, 51, 81 · ashlar, rough and perfect, 43–45, 87, 89 · Atbash, 74, 75,
-App. N · authentication vs exclusion, 82 · awe, 51 · behaviour settings, 46 ·
+App. N · authentication vs exclusion, 82 · awe, 51 · behavior settings, 46 ·
 cherubim, 9, 71 · concinnitas, 56 · control conditions, 72–74, 79, App. L–N ·
 disagreement principle, 32, 40 · doorway effect, 48 · emplacement, 34, 36 ·
 event segmentation, 48 · evidence hierarchies, App. D · five-level model, App. A ·

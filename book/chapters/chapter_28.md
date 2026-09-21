@@ -72,14 +72,14 @@ Gold- und Rosenkreuz is the cleanest single proof of it in the eighteenth centur
 
 ### What they actually did
 
-The order's members practised alchemy, and I want to be careful about what that means,
+The order's members practiced alchemy, and I want to be careful about what that means,
 because Chapter 11 established that the word covers a range.
 
 Some of it was laboratory work. Bischoffwerder appears to have conducted actual operations.
 The order circulated processes, recipes and instructions of the kind that had been passing
 through alchemical networks for two centuries.
 
-Some of it was theatre. The order's higher grades involved elaborate ceremonial, and there
+Some of it was theater. The order's higher grades involved elaborate ceremonial, and there
 are accounts — including from the Prussian court — of demonstrations that were, to put it
 carefully, assisted. Bischoffwerder is said to have staged spirit manifestations for the
 future king, and whether or not the specific stories are reliable, the general phenomenon
@@ -90,7 +90,7 @@ literature.
 
 The order also produced one of the great artefacts of eighteenth-century esotericism, the
 *Geheime Figuren der Rosenkreuzer* — the Secret Symbols of the Rosicrucians — published at
-Altona in the 1780s, a folio of coloured alchemical and theosophical plates that has been
+Altona in the 1780s, a folio of colored alchemical and theosophical plates that has been
 reproduced continuously ever since and is one of the most visually influential esoteric
 works ever printed.[^3]
 
@@ -147,7 +147,7 @@ Its afterlife, however, is long.
 Its nine grades — Zelator, Theoricus, Practicus, Philosophus and upward — reappear, with
 modifications, in the Societas Rosicruciana in Anglia in 1866, and from there in the
 Hermetic Order of the Golden Dawn in 1888. The Golden Dawn's grade structure is
-recognisably this order's, transmitted through nineteenth-century English Masonic
+recognizably this order's, transmitted through nineteenth-century English Masonic
 Rosicrucianism.[^4]
 
 Its plates were reprinted and became part of the standard visual vocabulary of modern
@@ -168,7 +168,7 @@ eighteenth century, and it has never gone out of use.
 in Prussia in the later 1780s, and transmitting its grade structure into the nineteenth-
 century occult revival.
 
-**Not documented.** Any descent from a seventeenth-century Rosicrucian organisation, because
+**Not documented.** Any descent from a seventeenth-century Rosicrucian organization, because
 there was none.
 
 **The direction of influence: outward from Masonry, not inward.**
@@ -178,7 +178,7 @@ Hund's Templars, Martinez's theurgy, and the Prussian Rosicrucians — and in ev
 Masonic contribution is the same. Not doctrine. Not antiquity. Not secret knowledge.
 
 A structure. A graded, secret, initiatory, portable structure, available to anyone who
-wanted to organise men around a teaching.
+wanted to organize men around a teaching.
 
 There is one more group to whom it became available in this century, and they were not
 supposed to have it at all.

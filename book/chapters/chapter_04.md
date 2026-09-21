@@ -92,7 +92,7 @@ He cannot see. Therefore the only map he is acquiring is a map of movement — t
 distances, the direction of voices, the sound of his own bare foot on boards. He is
 learning the room with his body before he ever learns it with his eyes. When the blindfold
 finally comes off, the space will already be familiar in a way he cannot account for, and
-the sensation of recognising a place he has never seen is itself part of what the ceremony
+the sensation of recognizing a place he has never seen is itself part of what the ceremony
 produces.
 
 He is also, without being told so, being taught that the room has an order. There is an
@@ -103,7 +103,7 @@ the shape of the lodge's hierarchy by walking it, in the dark, before anyone exp
 
 ### The obligation
 
-He is brought to the centre and made to kneel.
+He is brought to the center and made to kneel.
 
 The posture is specified — one knee bare and bent, one foot in a particular position, the
 hands placed on an open book with a square and a pair of compasses laid upon it. He
@@ -113,7 +113,7 @@ And then he repeats, phrase by phrase after the Master, an oath.
 
 He swears to conceal and never reveal. He swears it under penalties that are described in
 graphic anatomical detail, and which, as noted in the last chapter, nobody has ever
-carried out and which belong to a recognisable family of early-modern oath formulae. He
+carried out and which belong to a recognizable family of early-modern oath formulae. He
 promises to aid a brother. He promises not to wrong one.
 
 Then he kisses the book.
@@ -136,7 +136,7 @@ Gennep and Turner were describing other material, and neither had eighteenth-cen
 London in mind. They give us a vocabulary for what this design does. They do not license
 us to say what any particular man felt. I do not know what the man kneeling on those
 boards felt. Nobody does, because he did not write it down — and the very few initiates
-who did write about it afterwards tended to write in the formulae the ritual had just
+who did write about it afterward tended to write in the formulae the ritual had just
 taught them, which is a problem of its own.
 
 ---
@@ -147,7 +147,7 @@ And then, on a word from the Master, the blindfold comes off.
 
 Everything about the preceding forty minutes has been arranged so that this moment lands.
 He has been in the dark for the better part of an hour. The room is lit by candles.
-There are men standing around him, in aprons, in an arrangement he half recognises
+There are men standing around him, in aprons, in an arrangement he half recognizes
 because he has walked it. In front of him is the book, and on the book a square and a
 pair of compasses.
 
@@ -158,7 +158,7 @@ keep his desires within bounds.
 That is the secret. That is what an hour of darkness, a rope, a blade at the chest and a
 bloodcurdling oath have been protecting.
 
-It is, viewed one way, absurdly slight. A book and two draughtsman's tools and a piece of
+It is, viewed one way, absurdly slight. A book and two draftsman's tools and a piece of
 moral advice that any preacher would give for free.
 
 Viewed another way, it is the entire mechanism of this book in a single image. The
@@ -214,7 +214,7 @@ of any modern working. Present-day rituals differ substantially between England,
 Scotland, Ireland, France, the American jurisdictions, and everywhere else — and the
 differences are not trivial. Some elements described above have been softened, some
 removed, some were never used in some countries at all. A Mason reading this chapter may
-recognise a great deal and may also find things that have never formed part of his
+recognize a great deal and may also find things that have never formed part of his
 experience. Both reactions would be correct.
 
 The point of the exercise is not to expose anything. There is nothing here that has not

@@ -5,7 +5,7 @@ A man is building a temple. Three of his workmen want something he has and will 
 give. They confront him at the three entrances in turn; he refuses each; the third
 kills him. His body is concealed, searched for, found, and raised.
 
-That is the legend, in the barest form that most jurisdictions would recognise, and
+That is the legend, in the barest form that most jurisdictions would recognize, and
 it is worth noticing how little of it is in the Bible.
 
 ---
@@ -43,7 +43,7 @@ narrowest form.
 
 The Scottish catechisms of 1696 to about 1714 have two degrees and no Hiram. The
 third degree with the legend appears in the printed record in the 1720s, and
-Prichard's *Masonry Dissected* of 1730 gives it in recognisable form.[^2]
+Prichard's *Masonry Dissected* of 1730 gives it in recognizable form.[^2]
 
 So the legend is composed, or assembled, or stabilised — the sources do not let us
 say which — somewhere in the 1720s, in England, by persons unknown.
@@ -78,7 +78,7 @@ Apply the six transmission questions from Chapter 5.
 traditions to the London of the 1720s. *Intertextuality* fails: there is no verbal
 dependence, no shared distinctive vocabulary, no quotation, none of the fingerprints
 by which textual descent is established. *Institutional continuity* fails: no
-organisation persisted. *Anachronism* is a problem for several, since the
+organization persisted. *Anachronism* is a problem for several, since the
 scholarship on Osiris, Tammuz and Attis available to eighteenth-century readers was
 thin and much of what is now asserted about them post-dates the ritual by a century
 or more.
@@ -108,7 +108,7 @@ local and traceable.
 **The names are biblical.** Hiram, Solomon, Tyre, the widow's son — all from Kings
 and Chronicles, all available to any reader of an English Bible.
 
-**The setting is the Temple**, which was already the organising image of Masonic
+**The setting is the Temple**, which was already the organizing image of Masonic
 symbolism before the third degree existed.
 
 **The vocabulary is architectural.** Builders, workmen, entrances, tools, wages,
@@ -154,7 +154,7 @@ serves the structure, not the other way round.
 Whether anyone thought it through in these terms is doubtful. Chapter 18 argues
 that the degree was very probably arrived at rather than designed — that a legend
 was assembled, that it worked, and that the philosophical reading accumulated
-afterwards as generations of members made sense of what they had been handed.
+afterward as generations of members made sense of what they had been handed.
 
 **A structure can be coherent without having been designed coherent.** A cathedral
 whose proportions were reached by trial still stands up.
@@ -171,7 +171,7 @@ tribe of Naphtali, his father a man of Tyre.
 
 The phrase is distinctive. It is not a generic descriptor; it is a specific
 biographical detail, supplied by the biblical text, and the Masonic material picks
-it up and uses it — "the widow's son" becoming a recognised designation.
+it up and uses it — "the widow's son" becoming a recognized designation.
 
 **This is what verbal dependence looks like**, and it is worth pausing on because
 this book has spent so much time reporting its absence.

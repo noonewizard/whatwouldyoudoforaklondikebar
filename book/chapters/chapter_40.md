@@ -76,7 +76,7 @@ In 1902 Co-Masonry came to England, and its principal promoter was **Annie Besan
 
 Besant was already one of the most remarkable public figures of her generation: a former
 clergyman's wife who had lost her faith, a secularist lecturer, a birth-control campaigner
-prosecuted for obscenity, a Fabian socialist, the organiser of the 1888 London matchgirls'
+prosecuted for obscenity, a Fabian socialist, the organizer of the 1888 London matchgirls'
 strike, and — after reading *The Secret Doctrine* for review — a Theosophist. She became
 president of the Theosophical Society in 1907 and, in the following decades, a significant
 figure in Indian politics, president of the Indian National Congress in 1917.
@@ -96,7 +96,7 @@ historiography likes.
 
 **The most successful transmission of Masonic ritual into the twentieth-century esoteric
 world did not run through regular male Freemasonry. It ran through women's and mixed
-Masonry, which regular Freemasonry did not recognise.**
+Masonry, which regular Freemasonry did not recognize.**
 
 Consider what Co-Masonry achieved. It carried full Masonic ritual — not a derivative, not an
 imitation, but the working degrees — into an international spiritual movement with tens of
@@ -116,10 +116,10 @@ Craft could not influence it.
 ### Krishnamurti
 
 One episode deserves recording, because it is the best illustration in this book of what
-happens when an esoteric organisation's own machinery is turned against it.
+happens when an esoteric organization's own machinery is turned against it.
 
 In 1909 Leadbeater identified a fourteen-year-old Indian boy, Jiddu Krishnamurti, as the
-vehicle for a coming World Teacher. The Theosophical Society organised around this: an
+vehicle for a coming World Teacher. The Theosophical Society organized around this: an
 Order of the Star in the East was founded, with tens of thousands of members, property, and
 an apparatus of expectation. Krishnamurti was educated in England, groomed for the role, and
 presented internationally.
@@ -127,13 +127,13 @@ presented internationally.
 In 1929, at a gathering in the Netherlands, he dissolved the Order and resigned from it. His
 statement is one of the more remarkable documents of twentieth-century religion. Truth, he
 said, is a pathless land, and cannot be approached by any path whatsoever, by any religion,
-by any sect. He did not want followers. Organisations, he argued, become crutches, and the
-moment you organise a truth you kill it.[^3]
+by any sect. He did not want followers. Organizations, he argued, become crutches, and the
+moment you organize a truth you kill it.[^3]
 
 He spent the following sixty years lecturing, to large audiences, against the idea that
 anyone should listen to a teacher.
 
-I include this because it is the only case in this book of a person at the centre of an
+I include this because it is the only case in this book of a person at the center of an
 initiatory system looking at the apparatus and declining it on principle — and because his
 objection is, in essence, the objection that Saint-Martin had reached in the 1780s and that
 Waite would reach in the 1900s, stated more radically than either managed.

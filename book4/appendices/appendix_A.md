@@ -21,7 +21,7 @@ so) and unsupported at level 1 as a statement about builders' intentions.
 
 **Movement between levels runs in one direction and is datable.** Building → text →
 symbol → ritual setting → inner Temple. Each transition has a period, and none
-runs backwards. Chapter 34 dates the level-3-to-level-4 transition in Freemasonry
+runs backward. Chapter 34 dates the level-3-to-level-4 transition in Freemasonry
 to the 1720s–30s.
 
 **Level 1 is the only level that can be lost.** The others survive its destruction,

@@ -85,7 +85,7 @@ enough to find out what actually happened to them.
 14. Ashmole's Warrington
 15. 1717, or 1721
 16. The Religion in Which All Men Agree
-17. The Lodge as Theatre
+17. The Lodge as Theater
 18. The Geometry of Initiation
 19. Solomon's Temple
 20. The Square and the Compasses
@@ -147,7 +147,7 @@ enough to find out what actually happened to them.
 
 There is a building in almost every town in the English-speaking world that you have
 walked past without looking at. It has no display window. Its door is usually locked.
-Above the door, or set into the brick, there is a symbol: two draughtsman's instruments
+Above the door, or set into the brick, there is a symbol: two draftsman's instruments
 crossed, a square and a pair of compasses, sometimes with a letter G between them.
 Nothing else identifies it. In a small American town it may be the second-largest
 building on the main street. In an English market town it may be a converted chapel. In
@@ -202,7 +202,7 @@ And here is the difficulty with the second story.
 If Freemasonry is nothing but moral allegory and charity dinners, then somebody needs to
 explain why, in 1761, a Bordeaux merchant named Martinez de Pasqually was conducting
 theurgic invocations of angelic intelligences inside a structure of Masonic degrees, and
-why the man who systematised his work went on to found a Masonic rite that still exists.
+why the man who systematized his work went on to found a Masonic rite that still exists.
 Somebody needs to explain why the Gold- und Rosenkreuz, the most politically influential
 occult order of the eighteenth century, required that a candidate be a Freemason before
 it would teach him alchemy. Somebody needs to explain why the three men who founded the
@@ -212,7 +212,7 @@ has, beneath its Egyptian costume and its Hebrew letters, the unmistakable skele
 lodge.
 
 Both stories are wrong. They are wrong in the same way. They both assume that if
-Freemasonry and magic are related, the relationship must run *backwards* — from
+Freemasonry and magic are related, the relationship must run *backward* — from
 antiquity, through a hidden channel, into the present.
 
 The evidence says the traffic runs the other way.
@@ -269,7 +269,7 @@ is a habit of asking *by what route, in what year, through whose hands*.
 
 It is, third, an argument about a word. *Magic* is not a stable thing. In Iamblichus it
 names something its practitioners insist is emphatically not magic. In Ficino it is
-medicine. In Agrippa it is a philosophy of nature in three storeys. By 1700 it has
+medicine. In Agrippa it is a philosophy of nature in three stories. By 1700 it has
 become chiefly a term for what respectable knowledge is not. And then in 1854 a defrocked
 French seminarian who had spent the 1840s writing socialist pamphlets picks the word up
 again and gives it a meaning it had never quite had: an inner science of will,
@@ -348,7 +348,7 @@ almost nothing.
 
 Half past four on the sixteenth of October in the north of England: the light is going.
 Not gone — the sun would set within the hour — but low and thin and coming in sideways,
-the particular grey-gold of a Lancashire autumn afternoon. It had been a wet month. The
+the particular gray-gold of a Lancashire autumn afternoon. It had been a wet month. The
 Mersey, which runs past Warrington on its way to the sea, would have been high.
 
 I am reconstructing, and I want to flag that I am reconstructing, because this book is
@@ -408,7 +408,7 @@ poetry that remains a serious scholarly landmark. He collected manuscripts of Jo
 He cast horoscopes for himself and others with relentless diligence. He was fascinated by
 the Rosicrucian manifestos, which had been published in Germany when he was a child, and
 he copied out a letter of application to the Fraternity of the Rosy Cross — an
-organisation that, as we shall see, did not exist. He was, in short, precisely the kind
+organization that, as we shall see, did not exist. He was, in short, precisely the kind
 of seventeenth-century Englishman whom a modern reader expects to find in an esoteric
 society. Therefore, the argument goes, Freemasonry in 1646 must have had something
 esoteric in it. Why else would he join?
@@ -448,7 +448,7 @@ We do not have the question *what secret did Ashmole learn?* There is no evidenc
 learned a secret, and the earliest surviving descriptions of what a candidate learned in
 a seventeenth-century lodge — Scottish catechisms written down fifty years later, which
 we will look at closely — describe a word, a handgrip, and a short set of questions and
-answers. Useful for recognising a fellow craftsman on a strange building site. Not a
+answers. Useful for recognizing a fellow craftsman on a strange building site. Not a
 revelation.
 
 We have, instead, a harder and more interesting question: *why did men who had nothing
@@ -459,7 +459,7 @@ Because that is what was happening, all over Britain, in the middle of the seven
 century. In Scotland, where the records are far better, non-operative members — men
 described in the minutes as "gentlemen" — begin appearing in lodges of working masons
 from 1600 onward. In England the evidence is thinner and later, but by the 1640s men
-like Ashmole are being "accepted" into a craft they will never practise. Something about
+like Ashmole are being "accepted" into a craft they will never practice. Something about
 the masons' lodge — its oath, its privacy, its brotherhood, its old written legends
 tracing the craft back through Euclid to the building of Solomon's Temple — was
 attractive to men who had no professional use for it at all.
@@ -477,7 +477,7 @@ without ever quite telling any of them what it meant.
 
 There is a version of this book that answers the Ashmole question. It would say: he
 joined because the lodge preserved the Hermetic and alchemical wisdom he had spent his
-life pursuing, and he recognised it. It would note that he was an alchemist and a
+life pursuing, and he recognized it. It would note that he was an alchemist and a
 Freemason, and treat the conjunction as a channel.
 
 I am not going to write that sentence, and the reason is worth stating once, clearly,
@@ -506,8 +506,8 @@ everything, and then does not mention the subject again until he is sixty-five y
 old.
 
 What he had joined was not ancient, not Egyptian, and not — in any sense he would have
-recognised — magical. It was a small, strange, locally-run association with medieval
-roots in a trade he did not practise, and it was in the middle of becoming something
+recognized — magical. It was a small, strange, locally-run association with medieval
+roots in a trade he did not practice, and it was in the middle of becoming something
 else entirely.
 
 To understand what it became, and why a hundred years later men would be performing
@@ -573,7 +573,7 @@ could act.
 Heinrich Cornelius Agrippa called this *magia*. He also called it the highest of the
 sciences, "the most perfect and chief science, that sacred and sublimer kind of
 philosophy," and he meant it. To him, magic was not a deviation from natural philosophy.
-It was natural philosophy, completed: the study of nature in its lower storey, of the
+It was natural philosophy, completed: the study of nature in its lower story, of the
 heavens in its middle, and of the divine in its upper, all at once.
 
 Two hundred years later, an Englishman using the same word would have meant a village
@@ -581,7 +581,7 @@ woman muttering over a sick cow, and would have used it to mean *fraud*.
 
 A hundred and fifty years after that, a Frenchman who had trained for the priesthood and
 then written revolutionary pamphlets would pick the word up again and mean something
-neither Agrippa nor the Englishman would have recognised: a science of the will, in which
+neither Agrippa nor the Englishman would have recognized: a science of the will, in which
 the operator's own imagination was the instrument and the operator's own transformation
 was the point.
 
@@ -656,7 +656,7 @@ that studied them was called natural magic. Much of it is simply pre-modern scie
 a good deal of it worked.
 
 **Celestial** or **astral magic** adds the heavens: the doctrine that the planets shape
-terrestrial things, and that a practitioner can draw down a favourable influence by
+terrestrial things, and that a practitioner can draw down a favorable influence by
 assembling the right materials at the right time. Marsilio Ficino's medical advice to
 melancholy scholars — sunlight, gold, music in the Solar mode — is astral magic, and he
 published it under a cardinal's nose.
@@ -808,12 +808,12 @@ of magic was produced by, and remained useful to, the disciplinary self-definiti
 religion and science alike.
 
 [^2]: Bernd-Christian Otto and Michael Stausberg, eds., *Defining Magic: A Reader*
-(Sheffield: Equinox, 2013), which collects and analyses the major definitional attempts
+(Sheffield: Equinox, 2013), which collects and analyzes the major definitional attempts
 from antiquity to the present.
 
 [^3]: Heinrich Cornelius Agrippa, *De occulta philosophia libri tres* (Cologne, 1533);
 composed c. 1509–10 and circulated in manuscript long before publication. Critical
-edition: V. Perrone Compagni, ed. (Leiden: Brill, 1992). The characterisation of magic as
+edition: V. Perrone Compagni, ed. (Leiden: Brill, 1992). The characterization of magic as
 "the most perfect and chief science" appears in the opening chapters of Book I; quoted
 here from the standard English rendering. **[SOURCE VERIFICATION REQUIRED — exact
 wording and chapter.]**
@@ -870,7 +870,7 @@ original Masonic secrets were largely of this type. In the medieval and early mo
 building trades, a mason arriving at a strange site needed to demonstrate that he was
 what he claimed to be — trained, entitled, entered into the craft. A word and a grip did
 that. The Scottish catechisms of the 1690s, our earliest ritual evidence, are substantially
-concerned with exactly this: how to recognise a brother, what to say, what to answer.[^2]
+concerned with exactly this: how to recognize a brother, what to say, what to answer.[^2]
 This kind of secret is damaged by publication, but only in proportion to how many
 impostors bother to read the pamphlet.
 
@@ -982,13 +982,13 @@ the hand of anyone arguing for a hidden transmission, and it deserves a serious 
 
 The answer has three parts.
 
-First, **secrecy is never total, and it leaks in predictable directions**. Organisations
+First, **secrecy is never total, and it leaks in predictable directions**. Organizations
 keep minutes. Members write letters. Rituals must be taught, which means they must be
 transmitted, which means they exist somewhere in a recoverable form. Disgruntled members
 publish. Governments raid. Widows sell papers. The eighteenth-century Bavarian Illuminati
-were as secretive an organisation as this history contains, and we possess their internal
+were as secretive an organization as this history contains, and we possess their internal
 correspondence because the Bavarian state seized it and printed it in 1787. When an
-organisation genuinely existed and genuinely operated, it almost always left a trail.
+organization genuinely existed and genuinely operated, it almost always left a trail.
 *Total* absence of evidence, over centuries, across multiple countries, is itself a fact
 requiring explanation.
 
@@ -1168,7 +1168,7 @@ He cannot see. Therefore the only map he is acquiring is a map of movement — t
 distances, the direction of voices, the sound of his own bare foot on boards. He is
 learning the room with his body before he ever learns it with his eyes. When the blindfold
 finally comes off, the space will already be familiar in a way he cannot account for, and
-the sensation of recognising a place he has never seen is itself part of what the ceremony
+the sensation of recognizing a place he has never seen is itself part of what the ceremony
 produces.
 
 He is also, without being told so, being taught that the room has an order. There is an
@@ -1179,7 +1179,7 @@ the shape of the lodge's hierarchy by walking it, in the dark, before anyone exp
 
 ### The obligation
 
-He is brought to the centre and made to kneel.
+He is brought to the center and made to kneel.
 
 The posture is specified — one knee bare and bent, one foot in a particular position, the
 hands placed on an open book with a square and a pair of compasses laid upon it. He
@@ -1189,7 +1189,7 @@ And then he repeats, phrase by phrase after the Master, an oath.
 
 He swears to conceal and never reveal. He swears it under penalties that are described in
 graphic anatomical detail, and which, as noted in the last chapter, nobody has ever
-carried out and which belong to a recognisable family of early-modern oath formulae. He
+carried out and which belong to a recognizable family of early-modern oath formulae. He
 promises to aid a brother. He promises not to wrong one.
 
 Then he kisses the book.
@@ -1212,7 +1212,7 @@ Gennep and Turner were describing other material, and neither had eighteenth-cen
 London in mind. They give us a vocabulary for what this design does. They do not license
 us to say what any particular man felt. I do not know what the man kneeling on those
 boards felt. Nobody does, because he did not write it down — and the very few initiates
-who did write about it afterwards tended to write in the formulae the ritual had just
+who did write about it afterward tended to write in the formulae the ritual had just
 taught them, which is a problem of its own.
 
 ---
@@ -1223,7 +1223,7 @@ And then, on a word from the Master, the blindfold comes off.
 
 Everything about the preceding forty minutes has been arranged so that this moment lands.
 He has been in the dark for the better part of an hour. The room is lit by candles.
-There are men standing around him, in aprons, in an arrangement he half recognises
+There are men standing around him, in aprons, in an arrangement he half recognizes
 because he has walked it. In front of him is the book, and on the book a square and a
 pair of compasses.
 
@@ -1234,7 +1234,7 @@ keep his desires within bounds.
 That is the secret. That is what an hour of darkness, a rope, a blade at the chest and a
 bloodcurdling oath have been protecting.
 
-It is, viewed one way, absurdly slight. A book and two draughtsman's tools and a piece of
+It is, viewed one way, absurdly slight. A book and two draftsman's tools and a piece of
 moral advice that any preacher would give for free.
 
 Viewed another way, it is the entire mechanism of this book in a single image. The
@@ -1290,7 +1290,7 @@ of any modern working. Present-day rituals differ substantially between England,
 Scotland, Ireland, France, the American jurisdictions, and everywhere else — and the
 differences are not trivial. Some elements described above have been softened, some
 removed, some were never used in some countries at all. A Mason reading this chapter may
-recognise a great deal and may also find things that have never formed part of his
+recognize a great deal and may also find things that have never formed part of his
 experience. Both reactions would be correct.
 
 The point of the exercise is not to expose anything. There is nothing here that has not
@@ -1397,7 +1397,7 @@ these are the questions it asks.
 
 Not "where is the tradition said to have come from" — where is the manuscript, the
 letter, the minute book, the printed edition? Who has held it since? What is its
-catalogue number? A claim supported by a document nobody can point to is not supported.
+catalog number? A claim supported by a document nobody can point to is not supported.
 
 This question alone disposes of a startling proportion of the literature. The Golden
 Dawn's authority rested on correspondence with a German adept named Anna Sprengel. Where
@@ -1409,8 +1409,8 @@ warrant? Baron von Hund spent thirty years being asked and never produced one.
 **2. Chronology. Does the timeline permit it?**
 
 Astonishingly often, it does not. This is the cheapest test available and it is skipped
-constantly. If a claim requires an organisation to have influenced something that
-happened before the organisation existed, the claim is finished, and no amount of
+constantly. If a claim requires an organization to have influenced something that
+happened before the organization existed, the claim is finished, and no amount of
 symbolic resonance will repair it.
 
 **3. Transmission. Can you name the route?**
@@ -1425,7 +1425,7 @@ that what he read entered the ritual.
 The corrective method here is one I will use repeatedly, and I take it from the
 historian Alison Butler, who applied it to the Golden Dawn. Instead of asking what ideas
 were in the air, she reconstructed what books were physically on the shelves — the actual
-catalogued contents of the founders' libraries.[^3] That is transmission evidence. Ideas
+catalogd contents of the founders' libraries.[^3] That is transmission evidence. Ideas
 in the air are not.
 
 **4. Intertextuality. Does the later source use the earlier one?**
@@ -1440,12 +1440,12 @@ Arturo de Hoyos went through it line by line against the books Pike had been rea
 demonstrated that large tracts of it are unattributed transcription, substantially from
 Éliphas Lévi.[^4] That is not an opinion about influence. That is a collation.
 
-**5. Institutional continuity. Did the organisation actually persist?**
+**5. Institutional continuity. Did the organization actually persist?**
 
-Organisations that exist do things. They collect dues, keep lists, rent rooms, quarrel,
+Organizations that exist do things. They collect dues, keep lists, rent rooms, quarrel,
 split, and leave paper. A claim of unbroken institutional descent across a gap of
 centuries, with no dues, no lists, no rooms and no quarrels, is a claim that an
-organisation existed in a manner unlike every other organisation in recorded history.
+organization existed in a manner unlike every other organization in recorded history.
 
 The Templars were suppressed between 1307 and 1312 and their last Grand Master was burned
 in 1314. Freemasonry's first documented grand lodge dates from the 1720s. That is a gap of
@@ -1484,7 +1484,7 @@ darkness for ignorance, height for authority, the circle for completeness, the s
 stability, and death-and-return for transformation. These are not proprietary. They recur
 because human bodies and human societies recur.
 
-The dying-and-rising figure is a useful demonstration. Freemasonry's third degree centres
+The dying-and-rising figure is a useful demonstration. Freemasonry's third degree centers
 on the murder and raising of a master builder. Osiris is killed and restored. Adonis dies
 and returns. Christ is crucified and rises. Alchemical texts describe a putrefaction
 followed by a rebirth. The pattern is everywhere.
@@ -1525,7 +1525,7 @@ supply the deficiency.
 This is not, mostly, fraud. That distinction matters and I want to make it carefully.
 When Andrew Michael Ramsay told an audience of French Masons in 1737 that their order
 descended from crusader knights, he was not necessarily lying; he may well have believed
-a version of it, and he was certainly performing a recognised eighteenth-century genre in
+a version of it, and he was certainly performing a recognized eighteenth-century genre in
 which an institution's dignity was established by giving it an antique genealogy. When
 William Wynn Westcott produced letters from a German adept who did not exist, that was
 something closer to fraud — but even there, the fraud was in the service of a conviction
@@ -1628,7 +1628,7 @@ The first and most famous treatise, *Poimandres*, describes a vision. A great be
 appears to the narrator and shows him the origin of things: light, then a descending
 darkness, then the formation of the cosmos by a divine Mind. Humanity is made in the image
 of that Mind, falls into matter through love of its own reflection, and is therefore
-double — mortal in body, immortal in essence. The purpose of human life is to recognise
+double — mortal in body, immortal in essence. The purpose of human life is to recognize
 this, and to ascend.
 
 The ascent is described concretely. The soul rises through the spheres of the seven
@@ -1708,9 +1708,9 @@ Look at the structure of that claim, because it is the load-bearing wall of ever
 this book examines.
 
 It says: *the truth is old, it is one, it is scattered across traditions in disguised
-forms, and a sufficiently learned person can recognise it beneath the disguises.*
+forms, and a sufficiently learned person can recognize it beneath the disguises.*
 
-Every element of that is a licence. If the truth is old, then novelty is suspect and
+Every element of that is a license. If the truth is old, then novelty is suspect and
 antiquity is authority. If it is one, then any resemblance between two traditions is
 evidence of their common source rather than a coincidence. If it is disguised, then the
 absence of explicit evidence is exactly what you would expect. And if only the learned can
@@ -1739,7 +1739,7 @@ Nothing, yet. That is the point, and I want to state it here because the temptat
 jump the gap is enormous.
 
 In 1471 there is no Freemasonry. There are masons' lodges in Scotland and England — sheds
-by building sites, trade organisations with customs and legends — and there is nothing in
+by building sites, trade organizations with customs and legends — and there is nothing in
 them that connects to Ficino's Florence in any documented way. The Old Charges of the
 English masons, which had been circulating for eighty years by then, do contain a mythic
 history of the craft, and that history does reach back to Egypt: it has the seven liberal
@@ -1837,14 +1837,14 @@ substance but the same thing, attenuated.
 
 Which means that everything in the universe is continuous with its source, arranged in
 descending order, and — this is the part that will matter for the next fifteen hundred
-years — the sequence can be run backwards.
+years — the sequence can be run backward.
 
 ---
 
 ### The architecture
 
 It is worth seeing what that geometry provides, because it is provided to everyone who
-comes afterwards.
+comes afterward.
 
 You get **levels**. The cosmos is not flat. It has an order of dignity, and things occupy
 positions in it.
@@ -1903,7 +1903,7 @@ page that follows.
 **First: ritual is epistemology.** Iamblichus is not saying that ritual is a helpful
 supplement to philosophy. He is saying that there are things which cannot be known by
 thinking and can be known by doing — that certain kinds of knowledge are available only
-through performed action, and are not reducible to propositions afterwards. This is the
+through performed action, and are not reducible to propositions afterward. This is the
 oldest and most rigorous statement in the Western tradition of the claim that initiation
 transmits something a book cannot.
 
@@ -1938,7 +1938,7 @@ teaching will be staged. Its practitioners will occupy positions. There will be 
 further up and those further down, and the further up will know things the further down do
 not, and will decide when they are ready.
 
-That is not a mystical proposition. It is an organisational consequence of a cosmological
+That is not a mystical proposition. It is an organizational consequence of a cosmological
 premise, and it produces an identical institutional shape every single time, regardless of
 content.
 
@@ -2034,7 +2034,7 @@ In 1489 Marsilio Ficino published a book of medical advice for intellectuals.
 
 *De vita libri tres* — *Three Books on Life* — was addressed to scholars, and its
 diagnosis was that they are a sickly population. They sit still. They think too hard. They
-are dried out and cooled by the labour of study, which makes them melancholic, and
+are dried out and cooled by the labor of study, which makes them melancholic, and
 melancholy is governed by Saturn, the cold and heavy planet.
 
 The first two books offer the sort of advice you would expect: diet, exercise, sleep,
@@ -2045,7 +2045,7 @@ The third book proposes that the scholar can improve his condition by drawing do
 influence of the Sun.
 
 Not metaphorically. Ficino's instructions are practical. Surround yourself with solar
-things: gold, saffron, and the colour yellow; heliotrope and other plants that follow the
+things: gold, saffron, and the color yellow; heliotrope and other plants that follow the
 sun; cockerels, which announce it. Take solar substances internally. Arrange your room to
 admit morning light. And — the recommendation that has fascinated everyone who has read
 him since — make music in the Solar mode, sing hymns to the sun, accompany yourself on a
@@ -2095,7 +2095,7 @@ seems to have been uneasy. But the *frame* held, and it is the frame, not the pr
 that travels.
 
 Four hundred years later, the Golden Dawn will construct an enormous system of
-correspondences — colours, plants, metals, perfumes, god-names, tarot cards — on exactly
+correspondences — colors, plants, metals, perfumes, god-names, tarot cards — on exactly
 Ficino's logic, and will insist, exactly as he did, that what it is doing is a science of
 nature rather than a traffic with spirits. And they will have read him, or read people who
 had.
@@ -2127,7 +2127,7 @@ What survives, for our purposes, is a method and a claim.
 
 The method is **concordance**: the conviction that apparently incompatible traditions are
 saying the same thing in different idioms, and that a sufficiently learned reader can
-demonstrate it. Nine hundred theses from a dozen traditions, harmonised. This is the
+demonstrate it. Nine hundred theses from a dozen traditions, harmonized. This is the
 *prisca theologia* of Chapter 6 turned into an operating procedure, and it is the direct
 ancestor of every comparative-mythological synthesis in this book — Pike's above all.
 
@@ -2186,7 +2186,7 @@ operating in the material this book covers four centuries later.
 new system will want an ancient pedigree.
 
 **That all wisdom traditions agree beneath their surfaces.** Therefore resemblance is
-evidence of common source, and the harmonising of traditions is scholarship rather than
+evidence of common source, and the harmonizing of traditions is scholarship rather than
 invention.
 
 **That the cosmos is a connected system of correspondences.** Therefore operative work on
@@ -2262,13 +2262,13 @@ It is the first one that mattered.
 
 ### The three books
 
-Agrippa's organisation is his most consequential contribution, and it is elegantly simple.
+Agrippa's organization is his most consequential contribution, and it is elegantly simple.
 The universe has three levels — elemental, celestial, intellectual — so magic has three
 divisions, and he gives each a book.
 
 **Book One: natural magic.** The elemental world. The hidden properties of stones, plants,
 animals, metals; sympathies and antipathies; the four elements and their qualities; the
-virtues of particular substances. This is the Ficinian material, systematised and vastly
+virtues of particular substances. This is the Ficinian material, systematized and vastly
 expanded, and much of it is indistinguishable from the natural history of its day.
 
 **Book Two: celestial magic.** The world of the stars. Here Agrippa supplies the
@@ -2292,7 +2292,7 @@ Christian magician.
 The result is a synthesis of three streams that had previously run separately: Renaissance
 Neoplatonic natural philosophy, the medieval grimoire tradition of angel and spirit
 conjuration, and Christian Kabbalah. Nobody had put all three in one place before. Almost
-everybody afterwards used Agrippa's arrangement, because the arrangement made the material
+everybody afterward used Agrippa's arrangement, because the arrangement made the material
 usable.
 
 ---
@@ -2340,7 +2340,7 @@ the standard English magical text for two hundred and fifty years.
 
 And in the 1880s a London coroner named William Wynn Westcott had a copy, along with two
 hundred and eighty-five other books of a similar kind, in a private library that Alison
-Butler has catalogued.[^3]
+Butler has catalogd.[^3]
 
 That is a transmission. Not "ideas in the air" — a printed book, in a named language, in a
 named man's collection, which we can show he owned and which we can show he used. When this
@@ -2376,13 +2376,13 @@ edifice of human learning is a tower of presumption. He then published the magic
 anyway, with a prefatory letter acknowledging that he had written it young.
 
 The standard readings are: that he genuinely changed his mind; that the attack was a
-fashionable sceptical exercise of a kind the period enjoyed; that he was protecting
+fashionable skeptical exercise of a kind the period enjoyed; that he was protecting
 himself; or that he held both views, magic being true in principle and corrupt in
 practice.
 
 I have no confident answer, and I mention it because it is a useful corrective to a habit
 of mind this subject encourages. We tend to sort historical people into believers and
-sceptics, and then to read everything they wrote as expressing their category.
+skeptics, and then to read everything they wrote as expressing their category.
 Sixteenth-century intellectuals did not necessarily work that way. A man could compile the
 most comprehensive magical handbook of his century and also think most magicians were
 fools, and see no contradiction, because he was not defending a team.
@@ -2394,7 +2394,7 @@ posture of this book. I did not get it from Agrippa, but I am glad to find it th
 
 The Renaissance magical synthesis is now assembled: Hermetic cosmology, Neoplatonic
 architecture, Ficinian correspondence, Pico's concordance and his Kabbalah, Agrippa's
-three-storey organisation and his tables.
+three-story organization and his tables.
 
 One component of that mixture has been named repeatedly and never examined. Pico brought
 it in; Agrippa built Book Three on it; Knorr von Rosenroth will anthologise it in 1677;
@@ -2463,7 +2463,7 @@ the foundational achievements of modern Jewish scholarship.[^1]
 
 Its central structure is the ten *sefirot*: emanations or aspects through which the
 unknowable God — *Ein Sof*, the Infinite — becomes manifest. They have names (Crown,
-Wisdom, Understanding, Mercy, Severity, Beauty, Eternity, Splendour, Foundation, Kingdom)
+Wisdom, Understanding, Mercy, Severity, Beauty, Eternity, Splendor, Foundation, Kingdom)
 and they are arranged in a pattern that later diagrams render as a tree.
 
 Two further features matter for what follows. First, **the letters are real**. Hebrew is
@@ -2503,7 +2503,7 @@ which transliterates to something very like *Yeheshuah*: Jesus. The unspeakable 
 God becomes speakable at the Incarnation.
 
 It is ingenious. It is also, as an account of the Hebrew tradition, without foundation. No
-Jewish Kabbalist had ever performed that operation or would have recognised its logic.
+Jewish Kabbalist had ever performed that operation or would have recognized its logic.
 
 That pattern holds across the whole Christian Cabalistic enterprise. The techniques —
 gematria (numerical equivalence of letters), notarikon (treating words as acronyms), temurah
@@ -2512,7 +2512,7 @@ operator decided in advance what he was looking for and the techniques are flexi
 to supply it.
 
 I want to be precise about the criticism. The charge is not that Christian Cabalists were
-dishonest. Most were sincere, some were learned, and Reuchlin's defence of Jewish books was
+dishonest. Most were sincere, some were learned, and Reuchlin's defense of Jewish books was
 an act of real courage in a dangerous moment. The charge is methodological: they were
 operating inside the *prisca theologia*, where all traditions must agree, and so they could
 not find disagreement. A method that cannot produce a negative result is not finding
@@ -2597,7 +2597,7 @@ that the source of the claim was a French author of the 1850s, and that the mate
 entered his tradition within his grandfather's lifetime.
 
 There is one genuine complication, and honesty requires it. The Royal Arch degree, which
-took shape in England and Ireland in the middle of the eighteenth century, centres on the
+took shape in England and Ireland in the middle of the eighteenth century, centers on the
 recovery of a lost divine name. That is a theme with real resonance in the Jewish mystical
 tradition, and it is not obviously borrowed from Lévi or anyone after him, because it
 predates them by a century. Where the Royal Arch came from is one of the genuinely open
@@ -2710,7 +2710,7 @@ The technical vocabulary, briefly, because the imagery will recur.
 
 **Prima materia**: the first matter, the undifferentiated substance from which the work
 begins. Identifying it is the tradition's central puzzle, and the texts are deliberately
-unhelpful — it is said to be common, despised, found everywhere and recognised by nobody.
+unhelpful — it is said to be common, despised, found everywhere and recognized by nobody.
 
 **Sulphur, mercury, salt**: the three principles. Not the everyday substances but the
 qualities they exemplify — combustibility, volatility and fixity, roughly. Paracelsus's
@@ -2728,7 +2728,7 @@ number and order vary by author because the authors were describing different pr
 **The stone**: the goal. Capable of transmuting base metals into gold; in some accounts
 also a universal medicine.
 
-And through all of it, the death. The nigredo is not a metaphor added for colour. It is the
+And through all of it, the death. The nigredo is not a metaphor added for color. It is the
 descriptive heart of the work: the matter must be killed, must rot, must go black and
 stink, before anything can be made of it. The illustrated alchemical books of the sixteenth
 and seventeenth centuries render this with striking literalness — a king and queen in a
@@ -2765,7 +2765,7 @@ one test the claim passes without difficulty, and it is the weakest of the six.
 
 **Transmission.** Can anyone name the route — a person, a text, a meeting? No. We do not
 know who composed the third degree. That is one of the real mysteries of Masonic history:
-the central ritual of the world's largest fraternal organisation has no known author and no
+the central ritual of the world's largest fraternal organization has no known author and no
 datable moment of composition. It appears, fully formed, in a hostile pamphlet in 1730, and
 there is no surviving draft.
 
@@ -2777,7 +2777,7 @@ legendary history; and the ordinary dramatic repertoire of the period. The vocab
 architectural and biblical throughout. There is no sulphur, no mercury, no nigredo, no
 stone.
 
-**Institutional continuity.** Was there an organisation carrying alchemical teaching into
+**Institutional continuity.** Was there an organization carrying alchemical teaching into
 the lodges? Not in the relevant period. In the 1770s there will be — the Gold- und
 Rosenkreuz, which we come to in Chapter 28, and which is a genuine, documented, institutional
 link between alchemy and Masonic structure. But that is forty years *after* the third
@@ -2842,7 +2842,7 @@ reformation of the world.
 
 The brotherhood did not exist. The author later called the third pamphlet a joke. And the
 template it established — invisible superiors, a hidden founder, a tomb, a coming
-transformation — would be used, and reused, and reused, by almost every organisation in the
+transformation — would be used, and reused, and reused, by almost every organization in the
 remainder of this book.
 
 ---
@@ -2882,7 +2882,7 @@ with them, almost as an appendix — a pamphlet of about twenty pages announcing
 secret brotherhood existed.
 
 The *Fama Fraternitatis* told a story. A German nobleman, called only Brother C.R., had
-travelled in his youth to Damascus, to the Arabian city of Damcar, to Fez and to Spain,
+traveled in his youth to Damascus, to the Arabian city of Damcar, to Fez and to Spain,
 learning from sages in each place a wisdom that Europe had lost. He returned, was ignored
 by the learned, and withdrew to found a fraternity of eight members. They were to travel,
 to heal the sick without payment, to wear no distinctive habit but the dress of the
@@ -2893,7 +2893,7 @@ C.R. died at the age of a hundred and six and was buried in a place his brothers
 know. And then, the *Fama* says, a hundred and twenty years later, a door was discovered
 behind a memorial tablet. Behind the door was a vault of seven sides, lit — though it was
 underground and sealed — by an artificial sun in the ceiling. Every surface was covered
-with figures and inscriptions. In the centre stood an altar, and beneath the altar,
+with figures and inscriptions. In the center stood an altar, and beneath the altar,
 uncorrupted, lay the body of the founder, holding a book.
 
 The pamphlet ended by inviting the learned of Europe to make themselves known to the
@@ -2946,7 +2946,7 @@ In one sense it worked perfectly. Within a decade of the *Fama*, "Rosicrucian" w
 European word.
 
 In another sense it produced three hundred years of confusion, because a great many readers
-declined to treat the announcement as fiction, and some of them founded organisations.
+declined to treat the announcement as fiction, and some of them founded organizations.
 
 ---
 
@@ -2956,14 +2956,14 @@ Because this is where the confusion starts, let me set out the distinctions this
 enforce.
 
 **One: the manifestos.** Three texts, 1614–1616, Kassel and Strasbourg. Documents, not an
-organisation.
+organization.
 
 **Two: the furore.** The 1610s–1620s reaction across Europe: hundreds of publications,
 applicants, denunciations, the Paris placards. Entirely real, and entirely a response to a
 fiction.
 
 **Three: the eighteenth-century orders.** From the 1750s onward, and particularly the
-Gold- und Rosenkreuz, a genuine, organised, initiatory body with degrees, officers,
+Gold- und Rosenkreuz, a genuine, organized, initiatory body with degrees, officers,
 alchemical instruction and political influence in Prussia. This is real Rosicrucianism —
 and it postdates the manifestos by a hundred and forty years.
 
@@ -2971,7 +2971,7 @@ and it postdates the manifestos by a hundred and forty years.
 1866, open only to Master Masons; and the Golden Dawn, which presented itself as the outer
 order of a Rosicrucian body.
 
-**Five: modern organisations** claiming ancient Rosicrucian descent.
+**Five: modern organizations** claiming ancient Rosicrucian descent.
 
 Collapsing any two of these produces nonsense. Collapsing one and three produces the single
 most persistent error in the field: the belief that a Rosicrucian order existed in the
@@ -2988,14 +2988,14 @@ brotherhood, going underground, resurfacing in the lodges of the eighteenth cent
 
 The documented sequence runs the other way.
 
-There was no seventeenth-century Rosicrucian organisation to feed into anything. The
+There was no seventeenth-century Rosicrucian organization to feed into anything. The
 manifestos describe a fiction; the furore found nobody; and the extensive scholarly search
 for a real brotherhood behind the pamphlets — Carlos Gilly's bibliographical work on the
 manuscripts and printings, Roland Edighoffer's studies of Andreae — has produced a circle
 of Tübingen intellectuals rather than an order.[^4]
 
 Meanwhile, the first genuinely institutional Rosicrucianism appears in Central Europe in
-the middle of the eighteenth century, by which time Freemasonry had been organised in
+the middle of the eighteenth century, by which time Freemasonry had been organized in
 London for a generation and had spread across the continent. And the Gold- und Rosenkreuz
 did not merely postdate Masonry. It *required* it: a candidate had to be a Master Mason
 before he could be admitted.[^5]
@@ -3015,18 +3015,18 @@ unambiguous.
 ### The template
 
 And yet the manifestos matter enormously, which is the paradox worth sitting with. A text
-describing an organisation that never existed became the most influential organisational
+describing an organization that never existed became the most influential organizational
 document in the history of Western esotericism.
 
 What it supplied was a **template**, and once you have seen its components you will find
 them everywhere in the rest of this book.
 
-*A founder in the distant past, wise, travelled, and dead.* C.R. — Christian Rosenkreutz —
+*A founder in the distant past, wise, traveled, and dead.* C.R. — Christian Rosenkreutz —
 becomes Hiram Abiff, becomes the Unknown Superiors, becomes the Mahatmas, becomes the
 Secret Chiefs.
 
 *A wisdom acquired in the East and lost in Europe.* This structure — the West has forgotten
-what the East preserved — is the organising assumption of the entire nineteenth-century
+what the East preserved — is the organizing assumption of the entire nineteenth-century
 occult revival, and of Theosophy in particular.
 
 *A hidden tomb, discovered.* The seven-sided vault with its artificial sun reappears,
@@ -3036,7 +3036,7 @@ ceremony: a seven-sided chamber, an altar, a body. Mathers and Westcott built it
 
 *Invisible superiors who cannot be contacted but who authorise everything.* This is the
 most consequential component, because it solves a structural problem that every esoteric
-organisation faces: where does authority come from? If it comes from a living person, that
+organization faces: where does authority come from? If it comes from a living person, that
 person can be argued with. If it comes from concealed superiors, it cannot be questioned,
 only obeyed — or rejected entirely, which is what tends to happen eventually. Baron von
 Hund spent thirty years unable to produce his. Westcott forged letters from his. Mathers
@@ -3069,7 +3069,7 @@ French, he shaped the most theologically ambitious current in eighteenth-century
 Freemasonry — the Martinist and Rectified Scottish tradition of Chapter 27.
 
 Böhme never joined anything. He is the reminder that not every current in this history runs
-through an organisation.
+through an organization.
 
 ---
 
@@ -3136,7 +3136,7 @@ signed a document regulating the masons of his kingdom, and thereby — without 
 intention of doing so — began Freemasonry.
 
 William Schaw was a courtier. He had charge of the royal building works: palaces,
-repairs, the machinery of a small monarchy's architectural ambitions. He had travelled on
+repairs, the machinery of a small monarchy's architectural ambitions. He had traveled on
 the continent, he was a Catholic in a Protestant country, and he seems to have been the
 kind of administrator who thinks institutions should be tidy. The statutes he issued in
 1598 and again, more remarkably, in 1599 are administrative documents. They are about
@@ -3221,10 +3221,10 @@ Which would you expect a Scottish master mason to be tested on?
 
 The statutes' own context suggests the first. The surrounding clauses are about
 apprenticeship terms and fines. The lodge's business was a trade. And the thing a mason
-needed to memorise — the catechism, the questions and answers by which he could be
-recognised — is exactly the kind of material the ordinary mnemonic art was for.
+needed to memorize — the catechism, the questions and answers by which he could be
+recognized — is exactly the kind of material the ordinary mnemonic art was for.
 
-The transmission question is also unanswered. Schaw had travelled; he was educated; the
+The transmission question is also unanswered. Schaw had traveled; he was educated; the
 Scottish court had continental connections. It is *possible* that he knew the Brunian
 tradition. Nobody has produced evidence that he did.
 
@@ -3278,7 +3278,7 @@ Step back and look at what exists in Scotland by, say, 1650.
 
 A network of permanent local bodies. Each with a written record. Each with authority over
 its members. Each with an admission ceremony involving an oath. Each holding a body of
-memorised material — a catechism of questions and answers, a word, a grip — which
+memorized material — a catechism of questions and answers, a word, a grip — which
 distinguishes members from non-members. Each with a legendary history reaching to
 antiquity. And each, increasingly, containing men who have nothing to do with the trade
 the whole thing is nominally about.
@@ -3364,7 +3364,7 @@ shape of the gap has been filled, repeatedly, with whatever the filler wanted to
 Scotland has lodge minutes from 1598. England has essentially nothing comparable until the
 1720s. There are a handful of references — a diary entry here, a company record there, a
 naturalist's paragraph — and then a silence of decades, and then, quite suddenly, a fully
-organised Grand Lodge with a printed constitution.
+organized Grand Lodge with a printed constitution.
 
 What England does have, in abundance, is manuscripts of a different kind.
 
@@ -3390,7 +3390,7 @@ It begins before the Flood. The children of Lamech discover the sciences, and, k
 the world will be destroyed by either fire or water, inscribe them on two pillars — one of
 marble that will not burn, one of brick that will not sink — so that the knowledge will
 survive. After the Flood the pillars are found. Geometry passes to Egypt, where Abraham
-teaches it; Euclid systematises it and instructs the sons of Egyptian nobility in the
+teaches it; Euclid systematizes it and instructs the sons of Egyptian nobility in the
 mason's craft. The craft passes to Israel, where Solomon employs eighty thousand masons on
 the Temple. Thence to France, and thence, with St Alban and later with King Athelstan, to
 England.
@@ -3428,7 +3428,7 @@ a lodge at Masons' Hall in London in March 1682. Ashmole is our best English wit
 tells us nothing about content.
 
 **The company records.** The London Company of Masons — the livery company, a trade
-organisation of a different kind — has references from the 1620s onward to something called
+organization of a different kind — has references from the 1620s onward to something called
 the Accepcion or Acception: a body within or alongside the Company into which men could be
 "accepted," including men who were not members of the Company at all. Payments are
 recorded. It cost more to be accepted if you were not a member.[^3] This is thin evidence,
@@ -3440,7 +3440,7 @@ paragraphs to what he called the Society of Free-Masons. He reports that the cus
 spread more or less all over the nation; that persons of the most eminent quality do not
 disdain to be of the fellowship; that admission involves a meeting of at least five or six
 of the ancients of the Order, a collation, gloves given to the candidate and to his wife,
-and the communication of certain secret signs by which members recognise one another
+and the communication of certain secret signs by which members recognize one another
 anywhere. He also reports that they have a written history of the craft — he clearly had
 seen a copy of the Old Charges — and he thought the history was nonsense, saying so at
 some length.[^4]
@@ -3454,7 +3454,7 @@ Free-Masons was to have a convention at St Paul's, and mentions Sir Christopher 
 those to be adopted.[^5]
 
 That is the English seventeenth century. Two diary entries, some company accounts, a
-sceptical naturalist and an antiquary's note.
+skeptical naturalist and an antiquary's note.
 
 ---
 
@@ -3511,7 +3511,7 @@ across Europe within twenty years.
 Something happened in London between about 1716 and 1723.
 
 We know less about what it was than almost anyone assumes, and the reason is that our
-principal source for it is a man writing fifteen years afterwards with an institutional
+principal source for it is a man writing fifteen years afterward with an institutional
 interest in the answer.
 
 ---
@@ -3548,7 +3548,7 @@ Garter* (London, 1672), cited here only as evidence of his antiquarian habits.
 # CHAPTER FIFTEEN
 ## 1717, or 1721
 
-Every organisation needs a birthday, and Freemasonry's is printed on the front of its own
+Every organization needs a birthday, and Freemasonry's is printed on the front of its own
 buildings.
 
 The story is told in James Anderson's *New Book of Constitutions*, published in 1738. Four
@@ -3587,7 +3587,7 @@ There is no contemporary newspaper report of the 1717 meeting. No lodge minute. 
 No diary entry. Nothing.
 
 Apply the first of our six questions — *where is the physical object?* — and the answer is:
-there is one book, printed twenty-one years afterwards, by an interested party.
+there is one book, printed twenty-one years afterward, by an interested party.
 
 That does not make the story false. Institutions frequently record their own beginnings
 late and imperfectly, and Anderson was writing within the lifetime of participants who
@@ -3617,7 +3617,7 @@ Sit with that for a moment.
 
 The Salutation Tavern in Tavistock Street is a two- or three-minute walk from St Paul's
 Churchyard. If a Grand Lodge comprising four lodges had been meeting in that immediate
-neighbourhood continuously since June 1717 — holding annual assemblies, electing Grand
+neighborhood continuously since June 1717 — holding annual assemblies, electing Grand
 Masters, constituting new lodges — then in January 1721 it should not have been difficult
 to assemble enough Masons to initiate a candidate a few streets away. And a well-connected
 antiquary who moved in exactly the circles from which the Grand Lodge's membership was
@@ -3638,7 +3638,7 @@ at Stationers' Hall on 24 June 1721.
 The case for that date is circumstantial but coherent. It is the first Grand Lodge event
 for which there is decent contemporary evidence. It marks the moment a nobleman took the
 chair, which is when a tavern association becomes an institution with social weight and
-national ambitions. It is immediately followed by everything that looks like organisational
+national ambitions. It is immediately followed by everything that looks like organizational
 activity: the commissioning of Anderson's *Constitutions*, the start of the minute book,
 rapid expansion, and the first newspaper attention.
 
@@ -3696,7 +3696,7 @@ Now hold that observation up against the rest of this book.
 
 If the *documented, minute-keeping, Enlightenment* end of this history acquired a false or
 at least unverifiable origin date within twenty-one years — what should we expect of
-organisations that kept no minutes, published nothing, swore their members to silence, and
+organizations that kept no minutes, published nothing, swore their members to silence, and
 had every incentive to claim antiquity?
 
 We should expect exactly what we find. The Templar descent of the Rite of Strict
@@ -3721,9 +3721,9 @@ Lodge.
 
 What is at issue is the founding date of a *governing body* — an administrative
 superstructure imposed on an existing practice. That superstructure mattered enormously,
-because it standardised ritual, printed constitutions, chartered lodges abroad, and turned
+because it standardized ritual, printed constitutions, chartered lodges abroad, and turned
 a scattered custom into an international institution. But it did not create Freemasonry. It
-organised it.
+organized it.
 
 And in doing so, it produced the document that would define what Freemasonry was permitted
 to mean for the next three hundred years — a printed book of 1723, containing a mythical
@@ -3792,7 +3792,7 @@ country. The new rule is: be of the religion in which all men agree.
 And since the religion in which all men agree is, necessarily, whatever remains when you
 subtract everything people disagree about, the sentence has the effect of removing
 confessional doctrine from the qualifications for membership. Trinity, sacraments, papal
-authority, predestination, the real presence, church government — the entire catalogue of
+authority, predestination, the real presence, church government — the entire catalog of
 things Europeans had been killing each other over for two centuries — are placed outside
 the lodge door and described as "particular Opinions."
 
@@ -3822,12 +3822,12 @@ demonstrated Newton's work publicly, a Fellow of the Royal Society, and Grand Ma
 1719.[^2]
 
 Berman's argument is that this group did not inherit Freemasonry so much as reconfigure it
-— that the organisation was radically reshaped by a small, largely self-appointed core
-with a coherent social and political programme.
+— that the organization was radically reshaped by a small, largely self-appointed core
+with a coherent social and political program.
 
 Margaret Jacob, approaching from a different angle, places the same development inside the
 emergence of European civil society: lodges as places where men of different ranks met on
-declared equality, elected their officers, kept accounts, debated procedure, and practised
+declared equality, elected their officers, kept accounts, debated procedure, and practiced
 a form of associational life that had few other outlets in the period. Her term for this
 is the making of a new kind of public.[^3]
 
@@ -3846,7 +3846,7 @@ no interest in flattering its subject.
 
 The achievement is real and should not be patronised. In 1723, within living memory of a
 civil war fought partly over church government, in a country with penal laws against
-Catholics and disabilities against Dissenters and Jews, a public organisation declared that
+Catholics and disabilities against Dissenters and Jews, a public organization declared that
 it would not ask. Jewish members appear in London lodges within a few years of the
 *Constitutions*.[^4] Continental lodges would admit across confessional lines in places
 where that was socially extraordinary. The lodge was, for a great many eighteenth-century
@@ -3957,7 +3957,7 @@ the opening section of the volume.
 ---
 
 # CHAPTER SEVENTEEN
-## The Lodge as Theatre
+## The Lodge as Theater
 
 Consider the room.
 
@@ -3983,7 +3983,7 @@ It works because of where they stand.
 
 ### Blocking
 
-Theatre people call the arrangement of bodies in a space *blocking*, and it is the first
+Theater people call the arrangement of bodies in a space *blocking*, and it is the first
 thing a director does, because an audience reads position before it hears a word.
 
 The Masonic lodge is blocked with great precision and the meaning of the positions is never
@@ -3994,8 +3994,8 @@ association between east, sunrise, authority and knowledge does not need to be t
 anyone raised in a European culture; it is already installed by every church the man has
 ever entered. There is a west, with a second officer, and a south with a third. The
 candidate enters from a direction that is not east. He is conducted around the room in a
-fixed direction, stopping at stations. He is brought to the centre. He kneels at the
-centre. When he rises he is placed somewhere he was not before.
+fixed direction, stopping at stations. He is brought to the center. He kneels at the
+center. When he rises he is placed somewhere he was not before.
 
 None of this is stated as doctrine. All of it is experienced as fact.
 
@@ -4013,7 +4013,7 @@ prescribed directions is not a tavern room. Nobody has to say so.
 
 ### Script
 
-The eighteenth-century lodge ran on memorised call and response.
+The eighteenth-century lodge ran on memorized call and response.
 
 The catechisms in the exposures give the form. *Are you a Mason? I am so taken and
 accepted among brothers and fellows. How shall I know you to be a Mason? By signs and
@@ -4051,8 +4051,8 @@ searched for, found, and raised.
 This is a different technology from question and answer, and it is the innovation that
 makes Freemasonry what it became.
 
-The theatre historian's term for what the candidate undergoes is not quite available,
-because ordinary theatre has an audience watching actors. Here the audience *are* the
+The theater historian's term for what the candidate undergoes is not quite available,
+because ordinary theater has an audience watching actors. Here the audience *are* the
 actors, and the protagonist has not read the script, does not know what happens next,
 cannot see for part of it, and is the only person in the room who does not know how it
 ends.
@@ -4068,7 +4068,7 @@ the same piece repeatedly, each time for a single spectator who is also the lead
 
 ### Kit
 
-The material culture deserves a paragraph, because it is where the theatre becomes visible
+The material culture deserves a paragraph, because it is where the theater becomes visible
 to us at this distance.
 
 **The apron.** A working mason's protective garment, made of leather, entirely practical in
@@ -4098,7 +4098,7 @@ the eighteenth century's contribution, not at the Craft's inheritance.
 
 ---
 
-### Why theatre rather than teaching
+### Why theater rather than teaching
 
 A question worth asking directly: why go to this trouble? If the aim is to convey that a
 man should be upright, why not say so?
@@ -4216,7 +4216,7 @@ art. A mason has one, and the Old Charges make sure he knows it.
 
 That single fact does more to explain the emergence of speculative Freemasonry than any
 theory of ancient transmission. Here is a trade whose own founding documents tell its
-members that they practise a branch of philosophy. Give that trade a lodge system, a
+members that they practice a branch of philosophy. Give that trade a lodge system, a
 written record and an oath, and then let educated gentlemen hear the Charges read aloud at
 an admission — and the attraction is not mysterious at all.
 
@@ -4225,10 +4225,10 @@ an admission — and the attraction is not mysterious at all.
 The lodge that produced the 1723 *Constitutions* was thick with Fellows of the Royal
 Society. Desaguliers demonstrated Newtonian mechanics for a living. Newton had, in living
 memory, shown that the motions of the heavens obeyed mathematics — that the universe was,
-literally, a geometrical object. In that world, a fraternity organised around geometry was
+literally, a geometrical object. In that world, a fraternity organized around geometry was
 not archaic. It was modern.
 
-This is a point that gets lost when Freemasonry is read backwards through its
+This is a point that gets lost when Freemasonry is read backward through its
 nineteenth-century occult interpreters. The Grand Lodge of the 1720s was not looking
 backward to Egypt. It was looking at Newton. Its Grand Master was a man who did experiments
 in public. The symbolism of the square and compasses in that decade sits closer to the
@@ -4266,7 +4266,7 @@ Transfer that to conduct and you have a complete ethical vocabulary with no meta
 it. To act on the square is to act correctly, and correctness is not a matter of opinion,
 because a right angle is not a matter of opinion. To be upright is to be plumb. To meet
 another man on the level is to acknowledge that the standard applies to both of you
-regardless of rank — and in a society organised by rank, in a room containing a duke and an
+regardless of rank — and in a society organized by rank, in a room containing a duke and an
 apothecary, that is not a platitude.
 
 This is the operation the Craft performs on every object it touches, and it is worth naming
@@ -4320,7 +4320,7 @@ will be tested properly in Part VII.
 
 One last observation before we go to the Temple.
 
-Speculative Freemasonry is a system of building imagery practised by people who do not
+Speculative Freemasonry is a system of building imagery practiced by people who do not
 build anything.
 
 The lodge has a floor, pillars, a covering of clouded canopy or starry heaven, a
@@ -4358,7 +4358,7 @@ creation.
 
 [^4]: The moral interpretation of the working tools is set out in the eighteenth-century
 ritual sources and in William Preston, *Illustrations of Masonry* (London, 1772), which
-systematised the lectures. Wordings vary considerably by jurisdiction and period.
+systematized the lectures. Wordings vary considerably by jurisdiction and period.
 
 [^5]: The Academy inscription is reported by late sources and is probably apocryphal; the
 argument that geometry turns the soul toward being is Plato, *Republic* VII.
@@ -4380,7 +4380,7 @@ not entirely agree.
 
 From that, Western Europe built a thousand years of architecture, a theory of proportion,
 a political vocabulary, and the central symbol of the world's largest fraternal
-organisation.
+organization.
 
 The Temple is the most productive building in history, and it is not there.
 
@@ -4509,11 +4509,11 @@ available only as description, which means it is available only as imagination.
 design not of one's own making — which is to say, for a life.
 
 **It was built by a workforce.** The biblical account gives numbers: tens of thousands of
-labourers, hewers, bearers of burdens, overseers. It is a *collective* achievement with a
-division of labour and a hierarchy of skill — which maps onto a lodge of apprentices,
+laborers, hewers, bearers of burdens, overseers. It is a *collective* achievement with a
+division of labor and a hierarchy of skill — which maps onto a lodge of apprentices,
 fellows and masters with no adjustment at all.
 
-**It is sacred without being sectarian.** Jews, Christians and Muslims all recognise it.
+**It is sacred without being sectarian.** Jews, Christians and Muslims all recognize it.
 Anderson's formula requires exactly this: a religious symbol available to everyone in the
 room. There is no other building in the world that qualifies.
 
@@ -4524,7 +4524,7 @@ God. That metaphor was seventeen centuries old when the Craft picked it up. It w
 esoteric secret. It was in every sermon.
 
 Put those five properties together and you have the ideal symbolic object: universally
-recognised, infinitely interpretable, incapable of refutation, and already pre-loaded with
+recognized, infinitely interpretable, incapable of refutation, and already pre-loaded with
 the meaning *you are the building*.
 
 The eighteenth century did not select the Temple because it possessed hidden knowledge of
@@ -4585,11 +4585,11 @@ REQUIRED — chapter title and pages.]**
 ## The Square and the Compasses
 
 It is on gravestones in Ohio and on lodge doors in Ghana. It is on pocket watches, ties,
-rings, car bumpers and the sides of buildings. It is one of the most widely recognised
-emblems in the world, and the vast majority of people who recognise it could not say what
+rings, car bumpers and the sides of buildings. It is one of the most widely recognized
+emblems in the world, and the vast majority of people who recognize it could not say what
 it means beyond "Freemasons."
 
-Two draughtsman's instruments, interlocked. Sometimes a letter G between them. Sometimes,
+Two draftsman's instruments, interlocked. Sometimes a letter G between them. Sometimes,
 in American usage, the compasses are described as opened to a particular angle, and the
 relative position of square and compasses varies with the degree.
 
@@ -4750,7 +4750,7 @@ And they establish that the Craft was **content to be legible**. A body seriousl
 with concealment does not put its emblem on the front of its buildings.
 
 That last point is worth holding onto when we reach the conspiracy literature in Chapter
-50. The organisation accused of running the world by stealth has, for two centuries,
+50. The organization accused of running the world by stealth has, for two centuries,
 advertised its premises with a sign, published its constitutions, listed its officers in
 directories, and marched in public processions in full regalia at the laying of corner
 stones.
@@ -4845,7 +4845,7 @@ virtues are 1 Corinthians 13:13.
 
 **The dating.** The ladder is not in the earliest catechisms. It appears in the developed
 tracing-board imagery of the later eighteenth and early nineteenth centuries, when the
-visual symbolism of the degrees was being elaborated and standardised.[^1]
+visual symbolism of the degrees was being elaborated and standardized.[^1]
 
 **The additions.** The mapping of the ladder onto a Kabbalistic or planetary ascent —
 seven rungs for seven spheres, in the Hermetic manner of Chapter 6 — is an occult reading
@@ -4860,7 +4860,7 @@ no esoteric source, and the Masonic version's three rungs are Pauline, not plane
 
 ### The Blazing Star
 
-**The claim.** A star, usually five-pointed, in the centre of the lodge floor or on the
+**The claim.** A star, usually five-pointed, in the center of the lodge floor or on the
 tracing board. Interpretations offered in the Masonic sources include Providence, the
 guiding star, the sun, and glory.
 
@@ -4900,8 +4900,8 @@ and it therefore dates from the period in which English-speaking people were mak
 symbols, which is the eighteenth century.
 
 The point survives translation, too: in French lodges the letter persists, sometimes with
-*Gloire*, *Grandeur*, *Génie* supplied — that is, the letter travelled as a letter and
-acquired new meanings to justify itself, which is exactly backwards from how an ancient
+*Gloire*, *Grandeur*, *Génie* supplied — that is, the letter traveled as a letter and
+acquired new meanings to justify itself, which is exactly backward from how an ancient
 symbol behaves.
 
 **The additions.** The occult readings are numerous and inventive: the Hebrew letter *yod*,
@@ -4960,7 +4960,7 @@ substantially to the twentieth century and overwhelmingly to the period after ab
 
 The Great Seal's designers — a committee process running from 1776 to 1782, with the final
 design by Charles Thomson, Secretary of Congress — used the Eye of Providence because it
-was a standard emblem of divine favour in the visual vocabulary of the period. Thomson was
+was a standard emblem of divine favor in the visual vocabulary of the period. Thomson was
 not a Freemason.[^4] The unfinished pyramid comes from a different committee proposal
 entirely. The design was not reproduced on the dollar bill until 1935.
 
@@ -5030,7 +5030,7 @@ before that there is nothing.
 This is the most remarkable fact in Masonic history, and it is remarkable in a way that
 cuts against both the parties usually arguing about it. The ancient-wisdom school has to
 explain why a legend supposedly carried from antiquity leaves no trace until the reign of
-George II. The sceptical school has to explain how a drama of that quality was composed by
+George II. The skeptical school has to explain how a drama of that quality was composed by
 persons unknown, adopted across an entire institution within a few years, and left no
 draft, no attribution and no record of the decision.
 
@@ -5128,7 +5128,7 @@ And Grand Lodge's own records show the third degree being worked in London lodge
 mid-1720s onward, with the practice spreading through that decade.[^2]
 
 A window of roughly six years, in one city, at the exact moment when a new Grand Lodge was
-standardising and publishing and expanding — and when, not coincidentally, London theatre
+standardizing and publishing and expanding — and when, not coincidentally, London theater
 was in one of its most vigorous periods.
 
 ---
@@ -5486,7 +5486,7 @@ invitation, written into the ritual, to ask what was lost and whether it can be 
 The high degrees are, almost without exception, answers to that question. The Royal Arch
 recovers the lost word. The Elect degrees avenge the murder. The Templar degrees supply a
 continuing order that preserved what was hidden. The Rose-Croix supplies a Christian
-fulfilment. Each takes the hole at the centre of the third degree and fills it.
+fulfillment. Each takes the hole at the center of the third degree and fills it.
 
 ---
 
@@ -5494,7 +5494,7 @@ fulfilment. Each takes the hole at the centre of the third degree and fills it.
 
 That is the structural explanation. There is also a social one, and it is less edifying.
 
-Eighteenth-century France was a society organised by rank and obsessed with it. Precedence,
+Eighteenth-century France was a society organized by rank and obsessed with it. Precedence,
 title, the right to a particular seat or a particular form of address, the distinction
 between the noblesse d'épée and the noblesse de robe and the men who were neither — this
 was the texture of daily life for the class of people joining lodges.
@@ -5511,7 +5511,7 @@ chivalry and court: Knight, Prince, Sovereign, Grand Elect, Sublime.
 
 There was also, straightforwardly, money. Degrees cost fees. A man who possessed a system
 and the authority to confer it had a business. Some of the eighteenth century's more
-enterprising degree-mongers travelled Europe selling patents, and at least one — the
+enterprising degree-mongers traveled Europe selling patents, and at least one — the
 Chevalier Ramsay's less scrupulous successors — did very well out of it.
 
 ---
@@ -5586,13 +5586,13 @@ years, for reasons we can often reconstruct.
 
 One more thing before we start naming names.
 
-There is a tendency, in both Masonic and sceptical writing, to treat the high degrees as an
+There is a tendency, in both Masonic and skeptical writing, to treat the high degrees as an
 eighteenth-century absurdity — a proliferation of costumes and titles that sensible people
 eventually pruned back. The English response was essentially that: the union of 1813
 declared that pure Ancient Masonry consists of three degrees and no more, including the
 Royal Arch, and English Freemasonry has been comparatively austere ever since.
 
-That judgement is understandable and it is also a loss. Some of the high-degree material is
+That judgment is understandable and it is also a loss. Some of the high-degree material is
 junk — repetitive, derivative, invented on Tuesday to be worked on Thursday. Some of it is
 not. The Rectified Scottish Rite's doctrine is a coherent and serious piece of Christian
 esoteric theology. The Rose-Croix ceremony is, by common consent even among people who
@@ -5774,7 +5774,7 @@ on it.
 
 **Within a century, the practices are cited as evidence for the history.** The existence of
 Templar degrees becomes an argument that Masonry is Templar in origin — which is precisely
-backwards, since the degrees were created because of the claim.
+backward, since the degrees were created because of the claim.
 
 That last step is the one to watch for, because it appears everywhere in this subject. It
 is circular sourcing in institutional form: a claim generates a practice, and the practice
@@ -5846,7 +5846,7 @@ indicates that Clement V absolved the leadership of heresy while suppressing the
 reasons of political expediency.[^1]
 
 Their suppression was total and well documented. There is no medieval evidence of a
-surviving Templar organisation.
+surviving Templar organization.
 
 Between 1314 and the 1730s, nothing in Freemasonry refers to them. The Old Charges do not
 mention them. The Scottish records do not mention them. The catechisms do not mention them.
@@ -5890,7 +5890,7 @@ Von Hund's problem was structural and it could not be solved.
 The whole rite rested on an authority he could not produce. He had no charter. He could name
 no living superior. The men who had allegedly received him in Paris were dead or
 unidentifiable, and when pressed he could not give a coherent account. He appears to have
-believed his own story — his behaviour over thirty years is very hard to explain otherwise,
+believed his own story — his behavior over thirty years is very hard to explain otherwise,
 and he spent his own fortune on the rite — but belief is not evidence, and by the 1770s his
 followers were asking increasingly hard questions.
 
@@ -5925,8 +5925,8 @@ Scottish Rite.[^2]
 Let me state what happened there as plainly as I can.
 
 **A body of eighteenth-century European aristocrats, who had every reason to want an
-ancient chivalric pedigree, who had built an international organisation on one, and who had
-staked their honour on it, examined the evidence and concluded that it was not there.**
+ancient chivalric pedigree, who had built an international organization on one, and who had
+staked their honor on it, examined the evidence and concluded that it was not there.**
 
 Then they said so, and reorganised accordingly.
 
@@ -5965,9 +5965,9 @@ and enough people believed him for long enough to build things.
 
 This is the circularity identified at the end of the last chapter, operating at full scale
 and across centuries. It is the single most common mechanism of false historical belief in
-this entire subject, and once you have seen it here you will recognise it in the
+this entire subject, and once you have seen it here you will recognize it in the
 Rosicrucian orders, in the Golden Dawn's German warrant, and in a dozen twentieth-century
-organisations claiming Egyptian, Essene or Atlantean descent.
+organizations claiming Egyptian, Essene or Atlantean descent.
 
 ---
 
@@ -5984,7 +5984,7 @@ wide agreement, among the most affecting rituals ever written.
 Does it derive from Rosicrucianism?
 
 The name says so. The evidence does not. Chapter 12 established that there was no
-Rosicrucian organisation in the seventeenth century to descend from, and the Rose-Croix
+Rosicrucian organization in the seventeenth century to descend from, and the Rose-Croix
 degrees show no textual dependence on the manifestos. What they show is a *Christian
 recovery*: an attempt by French Catholic Masons to take back the confessional content that
 Anderson's formula had removed, using a name that carried mystical prestige.
@@ -6083,7 +6083,7 @@ This is theurgy, in precisely the Iamblichan sense set out in Chapter 7: ritual 
 directed at contact with intelligences above the human, understood by its practitioners as
 religious rather than magical, and undertaken for the purpose of the operator's ascent.
 
-Martinez's students recorded whether operations succeeded. Some did, in their judgement;
+Martinez's students recorded whether operations succeeded. Some did, in their judgment;
 many did not. The correspondence about this is one of the most curious bodies of material
 in eighteenth-century religious history: serious, literate men, writing to each other about
 whether a working had produced its sign, in the tones of colleagues comparing experimental
@@ -6101,7 +6101,7 @@ nothing esoteric. Chapter 26 showed a claim of ancient descent manufactured and 
 repudiated.
 
 Here, at last, is the real thing: genuine operative magic, inside a genuinely Masonic
-organisational structure, with doctrine, ritual texts, practitioners and results.
+organizational structure, with doctrine, ritual texts, practitioners and results.
 
 And its date is 1761.
 
@@ -6144,7 +6144,7 @@ a hundred and thirty years later, in a different order, and arrive at a similar 
 
 The other student went the opposite way, and had the greater institutional effect.
 
-Jean-Baptiste Willermoz was a Lyon silk merchant, an organiser of formidable ability, and a
+Jean-Baptiste Willermoz was a Lyon silk merchant, an organizer of formidable ability, and a
 man who spent his long life inside Masonic structures. He had been a Coën. He had also
 joined the Strict Observance. And he concluded — correctly — that von Hund's rite had a
 magnificent chivalric form and no doctrine worth the name.
@@ -6182,7 +6182,7 @@ Four things, and I want them explicit.
 carried down within it. Poured in, by named men, in the 1760s and 1770s.
 
 **Two: the Masonic form was the container, not the source.** Martinez used Masonic degree
-structure because it was the available technology for organising graded initiatory
+structure because it was the available technology for organizing graded initiatory
 instruction in eighteenth-century France. His doctrine owes nothing to Masonic ritual, and
 Masonic ritual acquired nothing from him.
 
@@ -6299,14 +6299,14 @@ Gold- und Rosenkreuz is the cleanest single proof of it in the eighteenth centur
 
 ### What they actually did
 
-The order's members practised alchemy, and I want to be careful about what that means,
+The order's members practiced alchemy, and I want to be careful about what that means,
 because Chapter 11 established that the word covers a range.
 
 Some of it was laboratory work. Bischoffwerder appears to have conducted actual operations.
 The order circulated processes, recipes and instructions of the kind that had been passing
 through alchemical networks for two centuries.
 
-Some of it was theatre. The order's higher grades involved elaborate ceremonial, and there
+Some of it was theater. The order's higher grades involved elaborate ceremonial, and there
 are accounts — including from the Prussian court — of demonstrations that were, to put it
 carefully, assisted. Bischoffwerder is said to have staged spirit manifestations for the
 future king, and whether or not the specific stories are reliable, the general phenomenon
@@ -6317,7 +6317,7 @@ literature.
 
 The order also produced one of the great artefacts of eighteenth-century esotericism, the
 *Geheime Figuren der Rosenkreuzer* — the Secret Symbols of the Rosicrucians — published at
-Altona in the 1780s, a folio of coloured alchemical and theosophical plates that has been
+Altona in the 1780s, a folio of colored alchemical and theosophical plates that has been
 reproduced continuously ever since and is one of the most visually influential esoteric
 works ever printed.[^3]
 
@@ -6374,7 +6374,7 @@ Its afterlife, however, is long.
 Its nine grades — Zelator, Theoricus, Practicus, Philosophus and upward — reappear, with
 modifications, in the Societas Rosicruciana in Anglia in 1866, and from there in the
 Hermetic Order of the Golden Dawn in 1888. The Golden Dawn's grade structure is
-recognisably this order's, transmitted through nineteenth-century English Masonic
+recognizably this order's, transmitted through nineteenth-century English Masonic
 Rosicrucianism.[^4]
 
 Its plates were reprinted and became part of the standard visual vocabulary of modern
@@ -6395,7 +6395,7 @@ eighteenth century, and it has never gone out of use.
 in Prussia in the later 1780s, and transmitting its grade structure into the nineteenth-
 century occult revival.
 
-**Not documented.** Any descent from a seventeenth-century Rosicrucian organisation, because
+**Not documented.** Any descent from a seventeenth-century Rosicrucian organization, because
 there was none.
 
 **The direction of influence: outward from Masonry, not inward.**
@@ -6405,7 +6405,7 @@ Hund's Templars, Martinez's theurgy, and the Prussian Rosicrucians — and in ev
 Masonic contribution is the same. Not doctrine. Not antiquity. Not secret knowledge.
 
 A structure. A graded, secret, initiatory, portable structure, available to anyone who
-wanted to organise men around a teaching.
+wanted to organize men around a teaching.
 
 There is one more group to whom it became available in this century, and they were not
 supposed to have it at all.
@@ -6445,7 +6445,7 @@ built on Masonic ritual.
 
 They went on being initiated for the next two hundred and seventy years. The rite they
 worked has its own texts, its own degrees, its own officers and its own symbolism, and it
-was practised across France and beyond, in lodges attached to men's lodges, attended by
+was practiced across France and beyond, in lodges attached to men's lodges, attended by
 duchesses and by the wives and daughters of the bourgeoisie, with published rituals and
 documented membership.
 
@@ -6583,7 +6583,7 @@ most to carry Masonic ritual into the world beyond the Craft.
 Women's Freemasonry exists now and is substantial: in England the Order of Women
 Freemasons and the Honourable Fraternity of Ancient Freemasons, in France several
 obediences, in America a range of bodies including the Eastern Star, which is a different
-kind of organisation again. The United Grand Lodge of England has since 2018 recognised
+kind of organization again. The United Grand Lodge of England has since 2018 recognized
 these bodies as regular in their practice while not in amity with them, and has issued
 guidance on gender reassignment that would have been unimaginable a generation ago.
 
@@ -6594,7 +6594,7 @@ What the historical record shows is narrower and more useful: that the exclusion
 from Freemasonry was a social decision of 1723, not a structural property of Masonic
 ritual; that the ritual worked perfectly well for women from 1744; and that a great deal of
 what happened next in the esoteric world happened because of bodies that mainstream
-Freemasonry had declined to recognise.
+Freemasonry had declined to recognize.
 
 Part IV is complete. The eighteenth century took a three-degree English moral ceremony and
 turned it into the universal structure for initiatory association in the Western world —
@@ -6646,8 +6646,8 @@ Benjamin Franklin's edition of Anderson's *Constitutions* was the first Masonic 
 printed in America.[^1]
 
 It is a small event with a large meaning. Freemasonry did not arrive in the colonies as an
-exotic import to be marvelled at. It arrived as a going concern, with a printed rulebook, a
-recognised procedure, and a local printer willing to underwrite it — and within forty years
+exotic import to be marveled at. It arrived as a going concern, with a printed rulebook, a
+recognized procedure, and a local printer willing to underwrite it — and within forty years
 it would be one of the few institutions in British North America that existed
 simultaneously in every colony, with a common language and mutual recognition across a
 thousand miles.
@@ -6671,7 +6671,7 @@ clubs, no professional associations in the modern sense. A body that met regular
 accounts, elected officers, dined, and admitted men by ballot was supplying something for
 which there was no competition.
 
-**The second is distance.** A merchant travelling from Charleston to Boston, or from
+**The second is distance.** A merchant traveling from Charleston to Boston, or from
 Philadelphia to London, arrived among strangers and needed a way to establish that he was
 respectable, solvent and worth extending credit to. Masonry supplied exactly that: a
 recognition system, a claim on hospitality, and a network of men who had sworn to assist
@@ -6709,7 +6709,7 @@ What did they actually do? Largely what English lodges did, with local variation
 They met in taverns. They worked three degrees. They dined, at length and with a great deal
 to drink — the Masonic songs at the end of Franklin's *Constitutions* were not decorative.
 They processed publicly on St John's Day, in aprons, to a church service, and the sermon
-was frequently printed. They buried their members with Masonic honours. They laid corner
+was frequently printed. They buried their members with Masonic honors. They laid corner
 stones.
 
 That last practice deserves a note, because it became characteristically American. A Masonic
@@ -6717,7 +6717,7 @@ corner-stone ceremony is a public ritual in which the fraternity's private symbo
 square, level, plumb, corn, wine and oil — is performed in the open, at a civic occasion, to
 consecrate a public building. It is the single most visible thing American Freemasonry has
 ever done, and it establishes something important about its self-understanding: this was an
-organisation that understood itself as *civic*, with a public role, using its ceremonial to
+organization that understood itself as *civic*, with a public role, using its ceremonial to
 bless the construction of a shared society.
 
 A body engaged in a secret conspiracy does not do its rituals on the courthouse steps with
@@ -6872,7 +6872,7 @@ them is doctrinal.
 **A pre-existing intercolonial network.** In 1774 there was almost nothing connecting
 politically active men in Boston to politically active men in Charleston. There were no
 national newspapers, no political parties, no federal institutions. There *were* Masonic
-lodges, mutually recognising, with a common ceremonial and an obligation of assistance.
+lodges, mutually recognizing, with a common ceremonial and an obligation of assistance.
 When men from thirteen colonies had to learn to trust each other very quickly, some of them
 already had a framework for doing so.
 
@@ -6898,7 +6898,7 @@ content, and there was none available to require.
 
 ### What Masonry did not supply
 
-It did not supply a programme. Masonic ritual contains no politics. Anderson's
+It did not supply a program. Masonic ritual contains no politics. Anderson's
 *Constitutions* explicitly instruct members to be peaceable subjects, never to be concerned
 in plots against the state, and to submit to the civil powers. The lodge's own rules forbade
 political discussion within it.
@@ -6907,7 +6907,7 @@ And the membership was divided. This is the fact that disposes of the conspiracy
 most efficiently, and it is almost never mentioned.
 
 **There were Loyalist Freemasons.** Many of them. Masonic lodges existed in the British
-army; military lodges travelled with regiments and were among the most important vehicles
+army; military lodges traveled with regiments and were among the most important vehicles
 of Masonic expansion in the eighteenth century. Officers on both sides of the war were
 Masons. Some American lodges split; some ceased working; some carried on with members who
 would end the war in Nova Scotia.
@@ -6929,15 +6929,15 @@ reasonable fidelity: the Antients' St Andrew's Lodge was the home of Joseph Warr
 Revere, and its members were prominent in the patriot movement.
 
 It was at the Green Dragon Tavern, which St Andrew's Lodge owned a share of, that the
-Boston Tea Party was organised — and the lodge's minutes for the evening of 16 December
+Boston Tea Party was organized — and the lodge's minutes for the evening of 16 December
 1773 record that the lodge closed early on account of the small number of members present.
 This has been cited for two centuries as evidence of Masonic direction of the Tea Party.
-What it is evidence of is that the men who threw the tea into the harbour were also the men
+What it is evidence of is that the men who threw the tea into the harbor were also the men
 who attended that lodge, which is a different claim, and a true one.[^2]
 
 The distinction is exactly the distinction this book keeps insisting on. Overlapping
 membership is not institutional action. A room where the patriots met is not a patriot
-organisation, any more than a tavern is.
+organization, any more than a tavern is.
 
 ---
 
@@ -6954,7 +6954,7 @@ He wrote courteous letters to Masonic bodies. He laid the Capitol corner stone i
 
 He also, in 1798, wrote a letter to a Reverend G. W. Snyder, who had sent him a copy of
 Robison's *Proofs of a Conspiracy*, in which he said that he did not believe the lodges of
-Freemasons in this country had, as societies, endeavoured to propagate the doctrines of the
+Freemasons in this country had, as societies, endeavored to propagate the doctrines of the
 Illuminati or the principles of Jacobinism, and that he had not been in a lodge more than
 once or twice in the last thirty years.[^3]
 
@@ -7026,7 +7026,7 @@ Lodge No. 459 in Boston, Massachusetts. Its Master was a free Black man named Pr
 The warrant took three years to arrive. When it did, the lodge it authorised was as regular
 as any in America — chartered by the same body, under the same constitutions, working the
 same degrees. And American Freemasonry spent the next two hundred years declining to
-recognise it.
+recognize it.
 
 The reasons given changed over time. The reason did not.
 
@@ -7062,7 +7062,7 @@ In March 1775, Prince Hall and fourteen other free Black men were initiated into
 Freemasonry in Boston — not by an American lodge, but by a military lodge attached to a
 British regiment then garrisoning the town, on the eve of the Revolution.[^2]
 
-The circumstance is worth pausing on. Irish military lodges travelling with British
+The circumstance is worth pausing on. Irish military lodges traveling with British
 regiments were among the most prolific initiators in the eighteenth-century Masonic world,
 and they operated with a latitude that settled lodges did not. When the regiment departed,
 the fifteen men were left with a permission to meet as a lodge but without a charter to
@@ -7079,7 +7079,7 @@ Lodge that had chartered lodges across the colonies.
 
 ### The refusal
 
-American Masonic bodies did not recognise it, then or for a very long time afterwards.
+American Masonic bodies did not recognize it, then or for a very long time afterward.
 
 The arguments deployed over two centuries were various: that the warrant lapsed when
 English Grand Lodge authority ended in America; that African Lodge had become irregular by
@@ -7087,15 +7087,15 @@ failing to affiliate; that territorial jurisdiction was exclusive and a state Gr
 could not permit a second body in its territory. These are real points of Masonic law and
 they were argued with great technical seriousness.
 
-They were also applied to no other case with anything like the same rigour. The territorial
+They were also applied to no other case with anything like the same rigor. The territorial
 argument, in particular, was applied in states where multiple grand bodies had coexisted
-without difficulty, and was maintained in jurisdictions that recognised foreign grand
+without difficulty, and was maintained in jurisdictions that recognized foreign grand
 lodges thousands of miles away while refusing the one in their own city.
 
 The stated reasons were jurisdictional. The operative reason was race, and the historical
 scholarship is unanimous on this.[^3]
 
-Recognition came slowly and unevenly. Some northern jurisdictions recognised Prince Hall
+Recognition came slowly and unevenly. Some northern jurisdictions recognized Prince Hall
 Grand Lodges from the late twentieth century; a number of southern ones did not do so until
 the twenty-first; at the time of writing, a small number still have not.
 
@@ -7103,12 +7103,12 @@ the twenty-first; at the time of writing, a small number still have not.
 
 ### What it means for this book
 
-I have placed this chapter at the structural centre of the book's argument, and not for the
+I have placed this chapter at the structural center of the book's argument, and not for the
 reason a reader might expect. It is here because it is *evidence*.
 
 Part IV showed Masonic form being filled with content from outside: chivalric, Templar,
 theurgic, alchemical. Chapter 29 showed it filled with Genesis and adapted for women. The
-pattern was clear but a sceptic could still object that all of those cases involve
+pattern was clear but a skeptic could still object that all of those cases involve
 initiatory or religious content, and that there might be something in Masonic ritual that
 specifically invites it.
 
@@ -7118,7 +7118,7 @@ Here the same form — identical degrees, identical warrant, identical ritual �
 by a community for whom its meaning is *neither esoteric nor moral but political*: an
 institution of self-governance in a society that permitted them none. A lodge is a body
 that elects its own officers, keeps its own funds, disciplines its own members, buries its
-own dead with honour, and corresponds as an equal with bodies abroad. For free Black
+own dead with honor, and corresponds as an equal with bodies abroad. For free Black
 Bostonians in 1787, none of those capacities was available anywhere else.
 
 Chernoh Sesay's work on the social origins of Black Freemasonry makes the case in detail:
@@ -7157,7 +7157,7 @@ globe while proclaiming universal brotherhood, and their local application of th
 brotherhood was calibrated precisely to colonial racial hierarchy.[^5]
 
 I do not think this makes the universalist language hypocritical, exactly. I think it makes
-it *unfinished* — a claim made in advance of anybody's willingness to honour it, which
+it *unfinished* — a claim made in advance of anybody's willingness to honor it, which
 people then held the institution to. Prince Hall's petitions are an example of exactly that
 move: taking the Revolution's language of natural right and insisting on its application.
 His lodge did the same thing with the Craft's.
@@ -7172,7 +7172,7 @@ substantial part of why Masonic language proved so useful to the people it exclu
 
 Prince Hall Freemasonry became one of the most important institutions in African American
 life. Through the nineteenth century and into the twentieth, Prince Hall lodges were
-centres of leadership, mutual aid and respectability politics, with a membership that
+centers of leadership, mutual aid and respectability politics, with a membership that
 included a large share of Black professional and civic leadership. W. E. B. Du Bois was a
 member. Thurgood Marshall was a member.
 
@@ -7263,7 +7263,7 @@ After that, nothing is certain. He was never seen again.[^1]
 We do not know, and I want to be careful, because both certainties on offer are unearned.
 
 The Masonic-apologetic position — that Morgan was paid off and sent to Canada, or emigrated,
-or was later seen abroad — rests on rumours and sightings of the kind that follow every
+or was later seen abroad — rests on rumors and sightings of the kind that follow every
 disappearance, none corroborated.
 
 The anti-Masonic position — that he was rowed into the river and drowned — rests on a
@@ -7276,7 +7276,7 @@ remarked that the body was "a good enough Morgan until after the election," a li
 followed American politics ever since, and which tells you a great deal about the atmosphere
 of the moment.[^2]
 
-What is certain: Morgan was abducted, by Freemasons, in an organised operation involving
+What is certain: Morgan was abducted, by Freemasons, in an organized operation involving
 many people across several counties, and he disappeared. Several men were tried. The
 convictions obtained were for conspiracy to abduct, and the sentences were light — the
 longest was a matter of years, most were months.
@@ -7349,7 +7349,7 @@ every reason to assume the worst. The lodge's opacity, which had been an asset f
 century, became the thing that convicted it.
 
 **Two: the conspiracy was real, and it was local and small.** This is the part that neither
-side likes. The abduction of William Morgan *was* a Masonic conspiracy: organised,
+side likes. The abduction of William Morgan *was* a Masonic conspiracy: organized,
 multi-county, involving officials, and followed by obstruction. It was also completely
 unlike the thing the Antimasons believed they had uncovered. It was not directed from
 anywhere. There was no national plan, no international body, no secret ruler. It was a
@@ -7429,7 +7429,7 @@ A regiment of the British army in the eighteenth century might carry, among its
 impedimenta, a warrant.
 
 Irish Grand Lodge in particular issued charters to lodges attached to regiments rather than
-to places — travelling lodges, which moved with the battalion and could be opened wherever
+to places — traveling lodges, which moved with the battalion and could be opened wherever
 it was quartered. There were hundreds of them. They operated in Ireland, in England, in the
 Americas, in the Caribbean, in India, in the Mediterranean, in Africa, and wherever else the
 British army went, which by the nineteenth century was very nearly everywhere.
@@ -7473,7 +7473,7 @@ warrants and correspondence flowing back to London, Edinburgh and Dublin.
 
 And here the tension of the last two chapters reappears, sharpened.
 
-Masonic rhetoric was emphatically universal. The Craft declared itself the centre of union
+Masonic rhetoric was emphatically universal. The Craft declared itself the center of union
 among men who would otherwise have remained at a perpetual distance. It admitted men
 without regard to nation or creed. In India, lodges admitted Indians — Parsis first and
 most readily, then Hindus and Muslims — and Anderson's religious formula was stretched to
@@ -7485,7 +7485,7 @@ surrounding colonial society would have predicted.
 It was also, everywhere, contested and limited. Admission of non-Europeans was resisted in
 many lodges, granted grudgingly in others, and in some colonial contexts effectively
 prohibited by social practice regardless of what the constitutions said. In southern Africa
-and in the Caribbean, colour lines ran through the Craft as they ran through everything
+and in the Caribbean, color lines ran through the Craft as they ran through everything
 else. And the entire imperial Masonic network operated as an instrument of an imperial
 project, whatever its members believed about brotherhood.
 
@@ -7498,7 +7498,7 @@ numbers and found it useful.
 
 Thierry Zarcone's work on Freemasonry in the Ottoman and Islamic world documents the latter
 case in detail: lodges as sites of reformist politics, of contact between Ottoman elites and
-European ideas, and eventually of nationalist organising — which is to say, Masonic
+European ideas, and eventually of nationalist organizing — which is to say, Masonic
 structures used against the imperial interests that had carried them there.[^2]
 
 The form again. It travels, and it does what its users want.
@@ -7510,7 +7510,7 @@ The form again. It travels, and it does what its users want.
 A second case, differently instructive.
 
 Jewish men were admitted to English lodges within a few years of the 1723 *Constitutions*,
-at a time when Jews in Britain laboured under substantial civil disabilities and would not
+at a time when Jews in Britain labored under substantial civil disabilities and would not
 be admitted to Parliament for another century and a quarter. Anderson's formula — the
 religion in which all men agree — made it possible, and lodges took the opportunity.
 
@@ -7530,7 +7530,7 @@ across Europe; Masonic bodies were suppressed in Italy, Germany, Spain and occup
 territories, and Masons were among the groups deported and killed.
 
 That deserves to be stated plainly in a book about Masonic secrecy, because it is the
-clearest possible demonstration of what opacity costs. An organisation that will not
+clearest possible demonstration of what opacity costs. An organization that will not
 explain itself supplies its enemies with a blank surface. In the twentieth century, people
 wrote things on that surface and then killed for them.
 
@@ -7572,7 +7572,7 @@ The Atlantic and imperial chapters establish something the esoteric chapters can
 precisely because no esotericism is involved.
 
 The Masonic form proved portable to a degree that no other institutional form of its period
-matched. It crossed oceans, empires, languages, religions, classes and the colour line. It
+matched. It crossed oceans, empires, languages, religions, classes and the color line. It
 was used by revolutionaries and loyalists, slaveholders and abolitionists, imperial
 administrators and anti-imperial nationalists, aristocrats and clerks, men and women.
 
@@ -7621,7 +7621,7 @@ been convicted, on both occasions, of writing books.
 
 The first, *La Bible de la liberté*, had appeared in 1841 and been seized within days: a
 work of revolutionary socialism in prophetic register, declaring that the poor were the true
-inheritors and that the existing order was an offence against God. The second, in 1847,
+inheritors and that the existing order was an offense against God. The second, in 1847,
 belonged to the same current. Between them he had written on the emancipation of women, on
 the Christian communism of Lamennais and Buchez, and in a milieu that included Flora
 Tristan, the utopian socialists and the Catholic left.
@@ -7714,7 +7714,7 @@ and the whole system is a single key.
 No Jewish source contains this. No pre-modern source of any kind contains it. It is Lévi's,
 published in the 1850s.
 
-And it became, within forty years, the organising structure of the entire Anglo-American
+And it became, within forty years, the organizing structure of the entire Anglo-American
 magical tradition. The Golden Dawn built its grade system on it. Crowley elaborated it in
 *Liber 777* and in the *Book of Thoth*. Every tarot deck on sale today with Hebrew letters
 or Sephirotic attributions is downstream of a Frenchman's analogy from a numerical
@@ -7724,7 +7724,7 @@ I want to be clear that I do not say this to belittle it. It is an extraordinari
 productive idea, and systems do not have to be ancient to work. But the sequence must be
 stated correctly, because the reverse is asserted constantly: the tarot-Kabbalah system is
 not ancient wisdom that Lévi recovered. It is a nineteenth-century construction that later
-practitioners projected backwards.
+practitioners projected backward.
 
 ---
 
@@ -7760,7 +7760,7 @@ He was poor for most of his life and made his living by writing and by teaching 
 He married a woman much younger than himself who left him. He was, by the accounts of those
 who knew him, gentle, learned, talkative and somewhat vain. He performed at least one
 recorded ceremonial operation — an evocation of Apollonius of Tyana, conducted in London in
-1854, which he described afterwards in careful and rather deflating terms: he saw
+1854, which he described afterward in careful and rather deflating terms: he saw
 something, he was exhausted, he was not certain what had happened, and he advised against
 repeating it.[^4]
 
@@ -7794,7 +7794,7 @@ will — all of it is in the Order's material.
 extensively and almost entirely without attribution — in *Morals and Dogma*, which was
 published in 1871 and given to Scottish Rite initiates for the following century.
 
-That last route is the one this book has been travelling toward since Chapter 1.
+That last route is the one this book has been traveling toward since Chapter 1.
 
 Because it means that when an American Mason opened the standard commentary on his own
 degrees and found Kabbalah, the astral light, the pentagram, comparative mythology and the
@@ -7931,20 +7931,20 @@ It came off a shelf, and we know what was on the shelf.
 Paris after Lévi produced an institutional occultism with a distinctly French character:
 literary, quarrelsome, and connected to both Catholic traditionalism and the political left.
 
-Its central organiser was Gérard Encausse, a physician who wrote as **Papus**. He was
+Its central organizer was Gérard Encausse, a physician who wrote as **Papus**. He was
 enormously productive — his *Traité méthodique de science occulte* (1891) is a synthesis on
 the Lévi model — and enormously energetic as a founder of things. Chief among them was the
 revived **Martinist Order**, which took its name and claimed its descent from Louis-Claude
 de Saint-Martin, whom we met in Chapter 27.
 
 That claim is worth a sentence of scrutiny. Saint-Martin had no order; he had readers, and
-a deliberate suspicion of ceremonial organisation. The nineteenth-century Martinist Order is
+a deliberate suspicion of ceremonial organization. The nineteenth-century Martinist Order is
 a reconstruction on the model of what its founders thought Saint-Martin's circle had been,
 using materials they had assembled themselves. The continuity is doctrinal and literary,
 not institutional.
 
 It is the same pattern as everywhere else in this part of the book: a real inheritance of
-*texts*, dressed as an inheritance of *organisation*.
+*texts*, dressed as an inheritance of *organization*.
 
 The French scene also produced Stanislas de Guaita's Kabbalistic Order of the Rose-Cross,
 Joséphin Péladan's aesthetic Rosicrucian salons, and a series of public feuds that provided
@@ -7959,13 +7959,13 @@ And now the institutional route that this book cares about most.
 
 In 1866, Robert Wentworth Little and a circle of English Masons founded the **Societas
 Rosicruciana in Anglia**. Its material was drawn substantially from the German Rosicrucian
-tradition of Chapter 28 — its grade names are recognisably those of the Gold- und
+tradition of Chapter 28 — its grade names are recognizably those of the Gold- und
 Rosenkreuz — and its purpose was the study of esoteric subjects.
 
 Its entry requirement was that a candidate be a Master Mason in good standing.[^2]
 
 That single condition is the pipeline. It means that in Victorian England, the route into
-organised esoteric study ran *through the Craft*. A man interested in Kabbalah, alchemy or
+organized esoteric study ran *through the Craft*. A man interested in Kabbalah, alchemy or
 Hermetic philosophy who wanted to pursue it in company had to be a Freemason first.
 
 The consequences are visible in the membership. Kenneth Mackenzie, compiler of the *Royal
@@ -7993,7 +7993,7 @@ Set it out and the structure is clear.
 **The publishing and antiquarian trade** supplies the primary texts.
 **Lévi** supplies the synthesis — a coherent doctrine linking will, imagination,
 correspondence, Kabbalah and tarot.
-**Freemasonry** supplies the organisational form: grades, initiation, obligation, officers,
+**Freemasonry** supplies the organizational form: grades, initiation, obligation, officers,
 temple, secrecy.
 
 Five inputs. And the thing assembled from them — the Victorian magical order — is the
@@ -8089,7 +8089,7 @@ and its method is not obvious.
 
 ### What is actually in it
 
-*Morals and Dogma* is a work of comparative mythology and moral philosophy organised around
+*Morals and Dogma* is a work of comparative mythology and moral philosophy organized around
 Masonic symbols. Its method is the concordance of Chapter 8 — Pico's method, four hundred
 years on.
 
@@ -8180,7 +8180,7 @@ Against that: the scale is very large, the borrowing is often close, and the eff
 whether intended or not — was that thousands of readers took Lévi's nineteenth-century
 synthesis for the ancient wisdom of the Craft.
 
-De Hoyos's own judgement, from inside the institution, is worth noting: he published the
+De Hoyos's own judgment, from inside the institution, is worth noting: he published the
 findings. The Scottish Rite's Grand Archivist produced the edition that demonstrates the
 extent of its most famous author's unacknowledged borrowing, and the Rite printed it.
 
@@ -8322,7 +8322,7 @@ tens of thousands of Masons, in a nineteenth-century Christian society, without 
 anticipating how it would look if extracted.
 
 That was a serious misjudgement of his audience, and it was not the only one. The same
-chapter and its neighbours contain a great deal of material about dualism, about the
+chapter and its neighbors contain a great deal of material about dualism, about the
 Gnostics, about the equal antiquity of light and darkness, and about the limitations of
 dogmatic religion, all written in a tone of Olympian comparison that assumes a reader with
 Pike's own detachment.
@@ -8369,7 +8369,7 @@ that Freemasons worship the goat-headed figure.
 
 **Stage six, the twentieth century onward.** Lévi's drawing becomes the standard visual
 representation of Satan in Western popular culture, appearing in films, on records, and
-eventually as a bronze statue erected by a modern religious organisation making a First
+eventually as a bronze statue erected by a modern religious organization making a First
 Amendment point.
 
 ---
@@ -8581,7 +8581,7 @@ Three things, and none of them is about Freemasonry.
 willingness of substantial parts of French Catholic opinion to accept, without verification,
 an increasingly baroque account of satanic ritual from a recent convert with a history of
 fraud is the actual scandal, and the Church's more careful minds said so at the time — there
-were sceptics throughout, and some of them were vocal.
+were skeptics throughout, and some of them were vocal.
 
 **Two: about the anti-Masonic tradition.** The most famous evidence in the entire history of
 anti-Masonry is a confessed fabrication. Any body of argument whose central document is
@@ -8627,7 +8627,7 @@ details of the Trent congress of 1896.]**
 [^2]: Abel Clarin de la Rive, *La Femme et l'enfant dans la franc-maçonnerie universelle*
 (Paris, 1894). The forged "instruction of 14 July 1889" appears there. **[SOURCE
 VERIFICATION REQUIRED — page, and the precise French wording, which should be quoted only
-from the 1894 edition. De la Rive's subsequent acknowledgement that he had been deceived
+from the 1894 edition. De la Rive's subsequent acknowledgment that he had been deceived
 should also be verified and cited.]**
 
 [^3]: Léo Taxil, "Douze ans sous la bannière de l'Église," *Le Frondeur* (Paris), 25 April
@@ -8724,7 +8724,7 @@ In 1902 Co-Masonry came to England, and its principal promoter was **Annie Besan
 
 Besant was already one of the most remarkable public figures of her generation: a former
 clergyman's wife who had lost her faith, a secularist lecturer, a birth-control campaigner
-prosecuted for obscenity, a Fabian socialist, the organiser of the 1888 London matchgirls'
+prosecuted for obscenity, a Fabian socialist, the organizer of the 1888 London matchgirls'
 strike, and — after reading *The Secret Doctrine* for review — a Theosophist. She became
 president of the Theosophical Society in 1907 and, in the following decades, a significant
 figure in Indian politics, president of the Indian National Congress in 1917.
@@ -8744,7 +8744,7 @@ historiography likes.
 
 **The most successful transmission of Masonic ritual into the twentieth-century esoteric
 world did not run through regular male Freemasonry. It ran through women's and mixed
-Masonry, which regular Freemasonry did not recognise.**
+Masonry, which regular Freemasonry did not recognize.**
 
 Consider what Co-Masonry achieved. It carried full Masonic ritual — not a derivative, not an
 imitation, but the working degrees — into an international spiritual movement with tens of
@@ -8764,10 +8764,10 @@ Craft could not influence it.
 ### Krishnamurti
 
 One episode deserves recording, because it is the best illustration in this book of what
-happens when an esoteric organisation's own machinery is turned against it.
+happens when an esoteric organization's own machinery is turned against it.
 
 In 1909 Leadbeater identified a fourteen-year-old Indian boy, Jiddu Krishnamurti, as the
-vehicle for a coming World Teacher. The Theosophical Society organised around this: an
+vehicle for a coming World Teacher. The Theosophical Society organized around this: an
 Order of the Star in the East was founded, with tens of thousands of members, property, and
 an apparatus of expectation. Krishnamurti was educated in England, groomed for the role, and
 presented internationally.
@@ -8775,13 +8775,13 @@ presented internationally.
 In 1929, at a gathering in the Netherlands, he dissolved the Order and resigned from it. His
 statement is one of the more remarkable documents of twentieth-century religion. Truth, he
 said, is a pathless land, and cannot be approached by any path whatsoever, by any religion,
-by any sect. He did not want followers. Organisations, he argued, become crutches, and the
-moment you organise a truth you kill it.[^3]
+by any sect. He did not want followers. Organizations, he argued, become crutches, and the
+moment you organize a truth you kill it.[^3]
 
 He spent the following sixty years lecturing, to large audiences, against the idea that
 anyone should listen to a teacher.
 
-I include this because it is the only case in this book of a person at the centre of an
+I include this because it is the only case in this book of a person at the center of an
 initiatory system looking at the apparatus and declining it on principle — and because his
 objection is, in essence, the objection that Saint-Martin had reached in the 1780s and that
 Waite would reach in the 1900s, stated more radically than either managed.
@@ -8844,7 +8844,7 @@ The Hermetic Order of the Golden Dawn existed, in its original form, for about t
 years. At its peak it had perhaps three hundred members. It fell apart in a series of
 quarrels so undignified that one of them ended in a London police court.
 
-It is the most influential magical organisation in history, and essentially everything in
+It is the most influential magical organization in history, and essentially everything in
 modern Western ceremonial magic descends from it.
 
 ---
@@ -8906,7 +8906,7 @@ talent will do it.**
 
 So: what did the Golden Dawn take from Freemasonry?
 
-This is the question the whole book has been travelling toward, and it deserves a proper
+This is the question the whole book has been traveling toward, and it deserves a proper
 answer rather than a slogan. Here it is, item by item.
 
 **Borrowed from Masonry.**
@@ -8917,8 +8917,8 @@ sequence — Neophyte, Zelator, Theoricus, Practicus, Philosophus, then the Seco
 comes via the SRIA from the Gold- und Rosenkreuz of Chapter 28, which is itself a Masonic-
 requiring body.
 
-*The temple.* A room arranged with officers at stations, an altar at the centre, cardinal
-orientation, and movement between points. Anyone who has read Chapter 17 will recognise the
+*The temple.* A room arranged with officers at stations, an altar at the center, cardinal
+orientation, and movement between points. Anyone who has read Chapter 17 will recognize the
 blocking immediately.
 
 *The officers.* A presiding chief, subordinate officers with defined stations and functions,
@@ -8947,7 +8947,7 @@ is, as Chapter 12 showed, a direct construction from the *Fama Fraternitatis* of
 Life. There is nothing of this in Masonry.
 
 *The system of correspondences.* Elements, planets, zodiacal signs, Hebrew letters, tarot
-trumps, colours, gods, plants and perfumes, all mapped onto each other and onto the Tree.
+trumps, colors, gods, plants and perfumes, all mapped onto each other and onto the Tree.
 This is the Agrippan tradition of Chapter 9 fused with Lévi's tarot-Kabbalah equation of
 Chapter 35 — and it is the Order's greatest single intellectual achievement.
 
@@ -8985,7 +8985,7 @@ printed books in a private library.
 
 The founders did not find magic hidden in Freemasonry. They took the Masonic apparatus,
 which they knew from the inside, because it was the best available technology for
-organising graded initiatory instruction — and they loaded it with material they had
+organizing graded initiatory instruction — and they loaded it with material they had
 assembled themselves from the antiquarian book trade.
 
 That is the carriage thesis, in its most important single instance, with the components
@@ -9019,10 +9019,10 @@ The Order broke into fragments: the Stella Matutina, the Alpha et Omega, A. E. W
 Independent and Rectified Rite, and others.
 
 And the mechanism of its destruction is the same mechanism that destroyed the Rite of Strict
-Observance a hundred and twenty years earlier. **An organisation whose authority rests on
+Observance a hundred and twenty years earlier. **An organization whose authority rests on
 superiors who cannot be produced will eventually be asked to produce them.** Von Hund could
 not. Westcott could not. Mathers could not. In each case the demand came from within, and in
-each case the organisation did not survive it.
+each case the organization did not survive it.
 
 ---
 
@@ -9096,7 +9096,7 @@ Assign each trump to a path. Assign each path a Hebrew letter, since the Hebrew 
 also has twenty-two letters. Now assign the four suits to the four elements, and the court
 cards to the elemental subdivisions, and the numbered cards to the Sephiroth in the four
 worlds. Add the planets and the zodiac, which distribute across the letters according to a
-scheme in the *Sefer Yetzirah*. Add colours, in four scales. Add gods, from every pantheon.
+scheme in the *Sefer Yetzirah*. Add colors, in four scales. Add gods, from every pantheon.
 Add perfumes, plants, stones, animals, and diseases.
 
 You now have a system in which everything corresponds to everything else, in which any
@@ -9151,7 +9151,7 @@ a Victorian editorial decision and it was argued about.
 signs mapped onto the letters and paths, with the "Rose Cross" diagram binding them
 together.
 
-**The colour scales.** Four scales of colour, one per Kabbalistic world, assigned to every
+**The color scales.** Four scales of color, one per Kabbalistic world, assigned to every
 Sephirah and path, used for visualisation and talismanic work. This is entirely the Order's
 own.
 
@@ -9184,7 +9184,7 @@ commandments, and from a people.
 
 Detach the diagram from all of that, assign Egyptian gods to it, hang a card game on its
 paths, and use it to structure the grades of a Victorian magical society, and you have
-produced something the tradition's own practitioners would not recognise as theirs.
+produced something the tradition's own practitioners would not recognize as theirs.
 
 That is a fair criticism and it is correct.
 
@@ -9208,7 +9208,7 @@ Jewish, or a preservation of anything.**
 Which brings the question this chapter is really about.
 
 The Golden Dawn's system is an achievement. Whatever one thinks of magic, the construction
-of a complete, internally consistent symbolic architecture capable of organising the whole
+of a complete, internally consistent symbolic architecture capable of organizing the whole
 of Western religious imagery is a serious intellectual feat, and it was performed by
 identifiable people in about a decade.
 
@@ -9237,7 +9237,7 @@ nothing but each other's opinion. Someone must be above them, or the ladder has 
 
 That third reason is structural and it is why this keeps happening. Von Hund needed Unknown
 Superiors. Blavatsky needed Mahatmas. Westcott needed Fräulein Sprengel. Mathers needed
-Secret Chiefs. None of them could produce one. Every one of their organisations broke on the
+Secret Chiefs. None of them could produce one. Every one of their organizations broke on the
 demand.
 
 **An initiatory hierarchy requires an ultimate authority, and if there is no real one, one
@@ -9326,7 +9326,7 @@ that a secret which dies with an order is worth nothing.
 ### A∴A∴ and the problem of authority
 
 In 1907 he founded his own order, the A∴A∴, with George Cecil Jones. Its structure is the
-Golden Dawn's, rationalised: a sequence of grades ascending the Tree, with a curriculum, a
+Golden Dawn's, rationalized: a sequence of grades ascending the Tree, with a curriculum, a
 reading list, and — the significant innovation — a rule that each member knows only the
 person who initiated him and the people he initiates.
 
@@ -9365,14 +9365,14 @@ The O.T.O. is built on a Masonic degree template. Its early rituals derive from 
 continental high-degree systems. Its terminology is Masonic. Reuss possessed patents of
 various provenance for rites that most regular Grand Lodges regarded as clandestine.
 
-The O.T.O. is not, and never was, recognised by any regular Grand Lodge. Crowley's Masonic
+The O.T.O. is not, and never was, recognized by any regular Grand Lodge. Crowley's Masonic
 initiations — there were several, of different kinds, including one in Mexico in 1900 and
 later contacts with Co-Masonry and with irregular bodies — did not give him a standing that
 regular Freemasonry acknowledged, and he knew it. He wrote about the distinction himself,
 sometimes with irritation and sometimes with amusement.[^2]
 
 So the correct statement is: **Crowley was deeply involved with Masonic *forms*, through
-irregular and co-Masonic channels, and had no recognised standing in regular
+irregular and co-Masonic channels, and had no recognized standing in regular
 Freemasonry.**
 
 Both halves of that sentence are load-bearing. Anti-Masonic writing drops the second half.
@@ -9544,12 +9544,12 @@ and expected to work again.
 
 By that standard, the Masonic initiation is unambiguously a technology. It was specified in
 detail. It was taught. It was carried to four continents by men who had learned it in one
-room and reproduced it in another. It was adopted wholesale by organisations with entirely
+room and reproduced it in another. It was adopted wholesale by organizations with entirely
 different aims — friendly societies, Rosicrucian orders, magical societies, women's orders,
 Black fraternal bodies — on the evident assumption that it would go on working.
 
 And it did. That is the interesting part. A ritual designed in eighteenth-century London for
-English gentlemen produced recognisably similar effects on free Black Bostonians in 1787,
+English gentlemen produced recognizably similar effects on free Black Bostonians in 1787,
 Parisian duchesses in 1775, Bengali clerks in 1860, Prussian alchemists in 1780, and
 Victorian magicians in 1890.
 
@@ -9587,7 +9587,7 @@ this cleanly, and Victor Turner's elaboration of the middle phase supplies the v
 for what happens in it: the stripping of status, the equality of initiands, the openness of
 the person in transition.[^1]
 
-I offer those as descriptive tools. Van Gennep was generalising from ethnographic reports
+I offer those as descriptive tools. Van Gennep was generalizing from ethnographic reports
 of other societies; Turner was working with Ndembu material. Neither had a London tavern in
 mind, and the fit — while genuinely good — is a fit between a general pattern and an
 instance, not evidence of any historical relationship.
@@ -9617,7 +9617,7 @@ memory encoding we have. This is not a mystical claim; it is the reason people r
 where they were during disasters and forget entire ordinary Tuesdays.
 
 **Commitment** engages a mechanism social psychology has documented extensively: a public,
-effortful, voluntary declaration changes subsequent behaviour and self-description far more
+effortful, voluntary declaration changes subsequent behavior and self-description far more
 than a private or costless one. The candidate has spoken the words himself, in front of
 people, having gone to trouble to get there.
 
@@ -9674,7 +9674,7 @@ this book's thesis.[^3]
 Bogdan's contention is that rituals of initiation are the principal *transmission vehicle*
 of Western esotericism in the modern period — that the reason esoteric currents survived
 from the Renaissance into the twentieth century is not a chain of secret teachers but the
-existence of initiatory organisations capable of carrying them.
+existence of initiatory organizations capable of carrying them.
 
 Put that beside the finding of Parts III to VI and the picture completes itself.
 
@@ -9683,7 +9683,7 @@ institutional carrier. They existed in books. Books are a poor transmission medi
 tradition: they preserve content but not practice, community, authority or continuity. A
 book can sit unread for two centuries.
 
-Freemasonry supplied what the books could not: an *organisational form* for graded
+Freemasonry supplied what the books could not: an *organizational form* for graded
 initiatory instruction, reproducible anywhere, requiring no central authority, capable of
 holding any content.
 
@@ -9713,7 +9713,7 @@ University of New York Press, 2007). **[SOURCE VERIFICATION REQUIRED — pages f
 transmission-vehicle argument.]**
 
 [^4]: On arousal and memory encoding, and on the effects of public voluntary commitment on
-subsequent behaviour, see the standard experimental literature. These are offered as
+subsequent behavior, see the standard experimental literature. These are offered as
 general findings about human beings, not as claims about any particular historical
 individual; see the discussion of claim-types in Chapter 2. **[SOURCE VERIFICATION REQUIRED
 — specific citations to be supplied.]**
@@ -9735,10 +9735,10 @@ doctrine. There is no Masonic theology. There is no Masonic philosophy. There is
 authorised interpretation of the square, the compasses, the Temple, the pillars, or the
 raising of Hiram. There is not, and has never been, any body empowered to supply one.
 
-Every organisation in this book that acquired a doctrine — the Élus Coëns, the Rectified
+Every organization in this book that acquired a doctrine — the Élus Coëns, the Rectified
 Rite, the Gold- und Rosenkreuz, Theosophy, the Golden Dawn, Thelema — acquired it from
-outside, and in almost every case the doctrine outlived its organisation by less time than
-the organisation's borrowed Masonic structure did.
+outside, and in almost every case the doctrine outlived its organization by less time than
+the organization's borrowed Masonic structure did.
 
 This chapter is about why the emptiness is the point.
 
@@ -9772,7 +9772,7 @@ proposition stays the size it was issued. An undefined symbol accommodates a who
 
 **And it is portable across everything.** A moral proposition is embedded in a moral
 framework, which is embedded in a religion, which divides people. A tool is not. The square
-travelled to Catholic France, Lutheran Prussia, Jewish London, Hindu and Parsi Bengal,
+traveled to Catholic France, Lutheran Prussia, Jewish London, Hindu and Parsi Bengal,
 Ottoman Istanbul and Black Boston, and it worked in every one, because it never said
 anything that any of them could object to.
 
@@ -9804,7 +9804,7 @@ content can be run.
 
 Load Christian theology and you get the Rose-Croix. Load Martinez's angelology and you get
 the Élus Coëns. Load alchemy and you get the Gold and Rosy Cross. Load Genesis and women's
-association and you get the Adoption Rite. Load Black political self-organisation and you
+association and you get the Adoption Rite. Load Black political self-organization and you
 get African Lodge. Load mutual insurance and you get the Oddfellows. Load Hermetic Qabalah
 and you get the Golden Dawn. Load Thelema and you get the O.T.O.
 
@@ -9885,7 +9885,7 @@ the argument at all.
 is documented in its own place.
 
 [^3]: On the working tools and their moral interpretation, see Chapter 18, and William
-Preston, *Illustrations of Masonry* (London, 1772), which systematised the lectures;
+Preston, *Illustrations of Masonry* (London, 1772), which systematized the lectures;
 interpretations differ substantially by jurisdiction and period.
 
 [^4]: The observation that undefined symbols resist refutation and accumulate personal
@@ -9937,7 +9937,7 @@ Chapter 24 is that insight applied by people who had not read Simmel.
 A thing withheld acquires worth proportional to the difficulty of obtaining it, and a person
 who has undergone difficulty to obtain it will not easily conclude that it was worthless.
 
-This is not manipulation, and it is not peculiar to esoteric organisations. It operates in
+This is not manipulation, and it is not peculiar to esoteric organizations. It operates in
 medical training, in military selection, in the apprenticeship of any craft, and in every
 institution that has ever made entry costly. It is also not simply irrational: costly entry
 genuinely does select for commitment, and a group whose members have all paid a price has
@@ -9970,7 +9970,7 @@ sequence is so regular that it can be written as a life cycle.
 **Phase one.** A body is founded with graded access to withheld material. Authority flows
 from the top, and the arrangement works.
 
-**Phase two.** The organisation grows. Members ascend. Some reach the top and find that the
+**Phase two.** The organization grows. Members ascend. Some reach the top and find that the
 material runs out — that there is nothing above the highest grade except the people who
 issued it.
 
@@ -9986,7 +9986,7 @@ a German adept, to Mahatmas, to Secret Chiefs.
 Von Hund: phases one through six, 1750s to 1782. Westcott and Mathers: 1888 to 1900.
 Blavatsky's Society survived longer but fought the same battle repeatedly. Crowley, having
 watched one collapse, designed the A∴A∴ specifically so that phase three could not be
-organised.
+organized.
 
 **The manufactured superior is not a moral failing peculiar to charlatans. It is a
 structural requirement of graded secrecy, and the demand for it arises from below.**
@@ -10035,16 +10035,16 @@ membership of shopkeepers and clerks — is visible in none of them.
 Which leaves the difficulty this book has had to work around throughout.
 
 Secrecy produces gaps in the record, and the gaps are the same shape as the thing everyone
-is looking for. If an organisation concealed its practices, then the absence of evidence for
+is looking for. If an organization concealed its practices, then the absence of evidence for
 a practice is not evidence of absence.
 
 I set out the three-part answer in Chapter 3 and it has been vindicated by everything since.
 
-**Secrecy leaks.** Every organisation in this book left a record. The Illuminati's papers
+**Secrecy leaks.** Every organization in this book left a record. The Illuminati's papers
 were seized and printed in 1787. The Golden Dawn's rituals were published by Crowley in 1909
 and Regardie in 1937. The Masonic secrets were in the newspapers by 1723. Westcott's German
 letters were examined and found wanting. Taxil confessed in a hall full of journalists.
-Organisations that actually exist leave paper, because they have to.
+Organizations that actually exist leave paper, because they have to.
 
 **The claim of secrecy is testable even when the secret is not.** We cannot examine an
 undisclosed transmission. We can examine when the claim of it was first made, by whom, with
@@ -10071,11 +10071,11 @@ his Kabbalah from a Frenchman he did not name. That von Hund had no warrant. Tha
 Vaughan did not exist. That the Cipher Manuscripts were compiled in the nineteenth century.
 That the tarot-Kabbalah system was invented in the 1850s.
 
-Every one of those concealments was practised by someone claiming *to reveal* Masonic
+Every one of those concealments was practiced by someone claiming *to reveal* Masonic
 secrets, or claiming authority *derived* from Masonic structures — and every one was
 eventually exposed by ordinary documentary research.
 
-The organisation accused of hiding everything hid very little. The people accusing it, and
+The organization accused of hiding everything hid very little. The people accusing it, and
 the people claiming to inherit from it, hid a great deal.
 
 That asymmetry is, I think, the single most useful thing a reader can take from this book
@@ -10160,7 +10160,7 @@ is itself an experience.
 
 Three bodies of work bear on this, and I will name what each was built for.
 
-**Embodied cognition.** The research programme arguing that thought is not confined to
+**Embodied cognition.** The research program arguing that thought is not confined to
 symbolic manipulation in the head but is constituted in part by bodily state, posture and
 action. Its relevance here is straightforward: a proposition learned while kneeling, in the
 dark, under stress, is not the same cognitive object as the same proposition read in a
@@ -10171,8 +10171,8 @@ encoded more durably than neutral ones. This is the best-evidenced element in th
 and it is the most banal: the initiation is memorable because it is alarming.
 
 **Whitehouse's modes of religiosity.** Harvey Whitehouse's framework distinguishes two
-patterns of religious transmission: a *doctrinal* mode, characterised by frequent,
-low-arousal, verbally transmitted teaching, and an *imagistic* mode, characterised by
+patterns of religious transmission: a *doctrinal* mode, characterized by frequent,
+low-arousal, verbally transmitted teaching, and an *imagistic* mode, characterized by
 infrequent, high-arousal, sensorially rich ritual that produces intense personal memory and
 strong small-group bonds.[^1]
 
@@ -10245,7 +10245,7 @@ are not culturally specific propositions; they are conditions of being a person 
 in a room with other people.
 
 That is why the Masonic apparatus crossed every boundary that stopped everything else it
-travelled with. Anderson's deism did not survive the journey to Catholic France intact — the
+traveled with. Anderson's deism did not survive the journey to Catholic France intact — the
 high degrees Christianised it within twenty years. The English moral commentary did not
 survive the journey to Prussia — the Rosicrucians replaced it with alchemy. The Craft's
 whole interpretive content was stripped and replaced, repeatedly, everywhere it went.
@@ -10269,7 +10269,7 @@ Lawson, *Bringing Ritual to Mind: Psychological Foundations of Cultural Forms* (
 Cambridge University Press, 2002). Both frameworks were developed on material unrelated to
 Freemasonry and are used here as lenses, not as evidence.
 
-[^2]: On embodied cognition as a research programme, and on arousal effects in memory
+[^2]: On embodied cognition as a research program, and on arousal effects in memory
 encoding, see the standard literature. **[SOURCE VERIFICATION REQUIRED — specific citations
 to be supplied; the claims made in this chapter are deliberately general.]**
 
@@ -10316,7 +10316,7 @@ and it did so through reproduction rather than through anyone's argument.
 **Fräulein Sprengel.** She did not exist. Westcott, on the evidence, wrote her letters. And
 yet she *did* things. She authorised a temple. She conferred grades. Her death in 1890
 changed the Order's constitutional position. Real people made real decisions on the basis of
-her instructions, and the most influential magical organisation in history was founded on
+her instructions, and the most influential magical organization in history was founded on
 her authority.
 
 **Diana Vaughan.** She did not exist either. She published books. She received the praise of
@@ -10325,7 +10325,7 @@ An international congress at Trent in 1896 debated her. Thousands of Catholics p
 her safety, believing her to be in hiding from Masonic assassins. She had a correspondence.
 She had, in every sense that a historian can measure, a career.
 
-**The Palladium.** An organisation that never existed, whose supposed activities have shaped
+**The Palladium.** An organization that never existed, whose supposed activities have shaped
 anti-Masonic belief for a hundred and thirty years, and which is still described in print as
 though it had a membership.
 
@@ -10345,7 +10345,7 @@ were conferred, and men and women underwent ceremonies that changed their lives.
 of those events happened. The only thing that did not happen was the German adept.
 
 The historian's category for this is not "fiction," because fiction does not warrant
-temples. It is closer to what an economist would recognise in a currency: an object whose
+temples. It is closer to what an economist would recognize in a currency: an object whose
 value consists entirely in being treated as valuable, and which therefore works exactly as
 well as a real one right up until the moment enough people stop.
 
@@ -10418,7 +10418,7 @@ prison and invents modern magic. An American general copies him without attribut
 hands the result to a hundred thousand Masons. A London coroner forges a German
 correspondence and founds the order that shapes a century of Western magic. A free Black
 leatherworker in Boston gets a warrant from London and builds an institution that outlasts
-the country that refused to recognise it.
+the country that refused to recognize it.
 
 Those are the actual events. They have people in them, and dates, and motives, and
 consequences. Every one of them can be checked.
@@ -10519,7 +10519,7 @@ enough to be interesting.
 reference. **Transmission:** no route. **Intertextuality:** nothing Templar in Masonic
 material before the 1730s. **Institutional continuity:** the order was suppressed
 comprehensively and left no successor. **Anachronism:** the claim itself first appears after
-Ramsay's chivalric opening of 1736 and is systematised by von Hund from the 1750s.
+Ramsay's chivalric opening of 1736 and is systematized by von Hund from the 1750s.
 
 **Verdict: UNSUPPORTED — and, unusually, refuted by its own adherents.** The Convent of
 Wilhelmsbad in 1782, composed of men who had built an international order on the claim, set
@@ -10529,7 +10529,7 @@ it aside for want of evidence.
 
 ### 3. Freemasonry descends from Rosicrucianism
 
-**Provenance:** the manifestos exist; the organisation does not. **Chronology:** the
+**Provenance:** the manifestos exist; the organization does not. **Chronology:** the
 manifestos (1614–16) precede Grand Lodge, but the first actual Rosicrucian *order* — the
 Gold- und Rosenkreuz — postdates it by decades. **Transmission:** none inward.
 **Institutional continuity:** the seventeenth-century brotherhood had no members to
@@ -10608,7 +10608,7 @@ co-founder said so** — Mathers told the London members in 1900 that Westcott h
 letters.
 
 **Verdict: UNSUPPORTED.** The Golden Dawn is a creative synthesis of extraordinary quality
-assembled from printed books, and the pedigree was supplied afterwards.
+assembled from printed books, and the pedigree was supplied afterward.
 
 ---
 
@@ -10715,7 +10715,7 @@ Barruel and Robison were not inventing from nothing. They had material.
 
 In 1784 and 1785 the Bavarian government suppressed the Order of the Illuminati, founded in
 1776 by Adam Weishaupt, a professor of canon law at Ingolstadt. The order was real. Its
-programme was real: it aimed at the propagation of rationalist, anticlerical and reformist
+program was real: it aimed at the propagation of rationalist, anticlerical and reformist
 ideas, and its method was real too — systematic infiltration of Masonic lodges, in order to
 use their structure and recruit from their membership.
 
@@ -10745,7 +10745,7 @@ the state.
 **Its membership was small and its reach limited.** The order existed for about a decade in
 a few German territories with a few thousand members at most.
 
-**Its programme was not revolutionary in the French sense.** Weishaupt's aims were
+**Its program was not revolutionary in the French sense.** Weishaupt's aims were
 Enlightenment-reformist. The order's methods were conspiratorial; its objectives were the
 ordinary objectives of the German Aufklärung.
 
@@ -10793,12 +10793,12 @@ and thirty years.
 Each of these deserves the full six-question treatment and each has received it elsewhere in
 this book or in the scholarship. Here they are in summary.
 
-**The Priory of Sion.** A French organisation of that name was registered under the law of
+**The Priory of Sion.** A French organization of that name was registered under the law of
 associations on 7 May 1956 by Pierre Plantard and three associates. Forged documents — the
 *dossiers secrets*, purporting to establish a Merovingian bloodline and a grand-mastership
 running through Leonardo, Newton and Victor Hugo — were deposited in the Bibliothèque
 nationale in the 1960s. Plantard's fabrications were exposed by French journalists in the
-1980s and he admitted substantial parts of them. The material was popularised in English by
+1980s and he admitted substantial parts of them. The material was popularized in English by
 *Holy Blood, Holy Grail* in 1982 and then, enormously, by a novel in 2003.
 
 **Verdict: a documented modern fabrication with a registration certificate.** It is the
@@ -10863,7 +10863,7 @@ from Barruel by way of Taxil and the *Protocols*. The satanic-panic material of 
 and 1990s, which drew on the same iconography, sent people to prison for crimes that did not
 happen.
 
-Conspiracy theory is not a colourful margin of this subject. It is the part of it with a
+Conspiracy theory is not a colorful margin of this subject. It is the part of it with a
 body count.
 
 Which is the best argument I know for the method this book has used. The six questions are
@@ -10917,8 +10917,8 @@ Picture the material not as a family tree but as an hourglass.
 
 **The upper chamber** holds everything before the lodge. The Greek Hermetica of the second
 and third centuries, mistaken for Egyptian scripture from 1471 until Casaubon corrected the
-record in 1614 and for two centuries afterwards. Neoplatonic emanation and Iamblichan
-theurgy. Ficino's astral medicine and Pico's concordance. Agrippa's three-storey synthesis
+record in 1614 and for two centuries afterward. Neoplatonic emanation and Iamblichan
+theurgy. Ficino's astral medicine and Pico's concordance. Agrippa's three-story synthesis
 of natural, celestial and ceremonial magic. Christian Cabala, at one remove from the Jewish
 tradition and heading for three more. Alchemy, in the laboratory and in allegory. The
 Rosicrucian manifestos, announcing a brotherhood that did not exist. Böhme's inward light.
@@ -10946,7 +10946,7 @@ legend about a murdered architect.
 lives.
 
 In those decades Freemasonry became the dominant European form for initiatory association:
-graded, secret, ritualised, theatrical, portable — and, decisively, *empty of fixed
+graded, secret, ritualized, theatrical, portable — and, decisively, *empty of fixed
 content*. A degree is a container with a shape and no cargo.
 
 And from the 1740s, the esoteric currents began to be poured into it. Not carried down
@@ -11019,7 +11019,7 @@ short and can be taken in complete sincerity.
 **And because a graded hierarchy requires a top.** If the Chiefs are three men who wrote the
 rituals last year, the grades confer nothing. Somebody must be above them. Von Hund needed
 Unknown Superiors; Blavatsky needed Mahatmas; Westcott needed Fräulein Sprengel; Mathers
-needed Secret Chiefs. None could produce one, and every one of those organisations broke on
+needed Secret Chiefs. None could produce one, and every one of those organizations broke on
 the demand.
 
 ---
@@ -11030,7 +11030,7 @@ The third thread of this book was a word, and the answer has been accumulating s
 Chapter 2.
 
 *Magic* did not stay still. In Iamblichus it names what its practitioner insists is not
-magic. In Ficino it is medicine. In Agrippa it is philosophy in three storeys. By 1700 it
+magic. In Ficino it is medicine. In Agrippa it is philosophy in three stories. By 1700 it
 is chiefly a term for what respectable knowledge is not. And then in 1854 an ex-seminarian
 socialist picks it up and gives it a meaning it had never quite had: an inner science of
 will, imagination and symbol, directed at the transformation of the operator.
@@ -11119,14 +11119,14 @@ it will not produce a motive unless a letter turns up.
 
 **2. Who composed the Hiramic legend, and when exactly?**
 
-The central ritual of the world's largest fraternal organisation has no known author. It
+The central ritual of the world's largest fraternal organization has no known author. It
 appears complete in a hostile pamphlet in 1730 and there is nothing before it. Lodge minutes
 of the 1720s may still yield the earliest minuted working of a third degree; the composition
 itself is probably lost.
 
 **3. Where did the Royal Arch come from?**
 
-A degree centred on the recovery of a lost divine name, appearing in England and Ireland in
+A degree centerd on the recovery of a lost divine name, appearing in England and Ireland in
 the middle of the eighteenth century, with no clear parentage in the Craft degrees and no
 clear continental source. The question of whether its concern with the Name reflects any
 genuine contact with Jewish or Christian-Kabbalistic material, or is an independent
@@ -11262,7 +11262,7 @@ We know what Freemasonry was, how it formed, what its ritual contained, when its
 appear, how it spread, what was added and by whom, and how it carried the Western esoteric
 tradition into the modern world. That is a great deal, and almost all of it can be checked.
 
-We do not know why a Lancashire antiquary wanted in, who wrote the legend at the centre of
+We do not know why a Lancashire antiquary wanted in, who wrote the legend at the center of
 it all, what a candidate actually felt in the dark, or why the people who built these systems
 so consistently insisted they had found them.
 
@@ -11611,7 +11611,7 @@ Masonic allegory, the candidate before and after improvement.
 
 **Cable-tow.** The cord placed about the candidate in the admission ceremony.
 
-**Catechism.** The memorised question-and-answer sequence by which a Mason's standing is
+**Catechism.** The memorized question-and-answer sequence by which a Mason's standing is
 tested and the lodge's symbolism rehearsed.
 
 **Charges, the.** Regulations of conduct read to a candidate. In the Old Charges, appended
@@ -11643,7 +11643,7 @@ nor murdered.
 **Hoodwink.** The blindfold used in the admission ceremony.
 
 **Irregular / clandestine.** Terms used by a grand body for another body it does not
-recognise. Jurisdictional and political, not historical, and in the American case carrying a
+recognize. Jurisdictional and political, not historical, and in the American case carrying a
 racial history.
 
 **Jachin and Boaz.** The two pillars of Solomon's Temple (1 Kings 7:21), represented in the
@@ -11668,14 +11668,14 @@ by the Grand Lodge of England on 29 September 1784 with Prince Hall as Master.
 **Provincial / District Grand Lodge.** An administrative body governing lodges in a region
 or territory under a grand lodge.
 
-**Regular.** Recognised by a given grand body as legitimate; see *irregular*.
+**Regular.** Recognized by a given grand body as legitimate; see *irregular*.
 
-**Royal Arch.** A degree centred on the recovery of a lost divine name, developing in England
+**Royal Arch.** A degree centerd on the recovery of a lost divine name, developing in England
 and Ireland in the mid-eighteenth century; included within "pure Ancient Masonry" by the
 Act of Union of 1813.
 
 **Scottish Rite (Ancient and Accepted).** A system of high degrees, thirty-three in its
-developed form, of substantially French origin, organised in America from 1801.
+developed form, of substantially French origin, organized in America from 1801.
 
 **Tracing board.** A design containing the symbols of a degree; originally drawn on the floor
 in chalk and erased after the meeting, later painted on cloth or board.
@@ -11805,7 +11805,7 @@ the third appears in print in 1730 and was being worked in London lodges from th
 mid-1720s. Worked, with substantial variation, by every regular jurisdiction in the world.
 
 **The Royal Arch.** Developing in England and Ireland from the mid-eighteenth century;
-centred on the recovery of a lost divine name. Declared part of "pure Ancient Masonry" by
+centerd on the recovery of a lost divine name. Declared part of "pure Ancient Masonry" by
 the English Act of Union of 1813. Its origin is an open question.
 
 ---
@@ -11924,7 +11924,7 @@ the evidentiary status of its origin claim.
 **Masonic relation** Required Master Mason status for admission. The clearest institutional
 evidence of the carriage thesis in the eighteenth century.
 **Origin claim** Descent from a seventeenth-century Rosicrucian brotherhood. **Unsupported:
-no such organisation existed.**
+no such organization existed.**
 **Notes** Its members Wöllner and Bischoffwerder reached ministerial power in Prussia after
 1786. Its grade structure descends to the SRIA and thence to the Golden Dawn.
 
@@ -11966,7 +11966,7 @@ Orientalism.
 Co-Masonry from 1902.
 **Origin claim** Direction by the Mahatmas or Masters, a hidden brotherhood of adepts.
 **Unsupported.**
-**Notes** Among the most culturally consequential organisations in this book. Its effects on
+**Notes** Among the most culturally consequential organizations in this book. Its effects on
 Indian and Sinhalese cultural nationalism, on modern astrology, and on twentieth-century
 alternative spirituality are large and documented.
 
@@ -12014,7 +12014,7 @@ Martin had readers, not an order. The doctrinal inheritance is real.**
 ### A∴A∴
 
 **Founded** 1907, by Aleister Crowley and George Cecil Jones.
-**Structure** Golden Dawn grades on the Tree of Life, rationalised, with a curriculum and a
+**Structure** Golden Dawn grades on the Tree of Life, rationalized, with a curriculum and a
 reading list. Each member knows only his initiator and his initiates.
 **Origin claim** Crowley's own attainment and the authority of *Liber AL vel Legis*.
 **Notes** The structural rule is a deliberate solution to the authority crisis that
@@ -12029,7 +12029,7 @@ Britain and Ireland in 1912 and later head of the order.
 **Structure** A degree ladder built on Masonic high-degree models drawn from irregular
 continental rites, including Memphis and Misraim.
 **Content** After Crowley, Thelema; sexual magic in the higher degrees.
-**Masonic relation** Derived from fringe-Masonic degree systems. **Not recognised by any
+**Masonic relation** Derived from fringe-Masonic degree systems. **Not recognized by any
 regular Grand Lodge.**
 **Origin claim** Templar and Masonic descent. **Unsupported as descent; the borrowing of
 degree structure from irregular Masonic rites is documented.**
@@ -12078,7 +12078,7 @@ year gap in his participation.
 **Robert Plot, *The Natural History of Staffordshire*** (1686).
 *Establish:* that the custom was widespread, that persons of quality joined, that admission
 involved a collation and secret signs, and that a written craft history circulated.
-*Note:* a sceptical witness, which increases its value.
+*Note:* a skeptical witness, which increases its value.
 
 **John Aubrey, *Natural History of Wiltshire*** (MS 1686).
 
@@ -12156,7 +12156,7 @@ Originalschriften des Illuminatenordens* (Munich, 1787); Morgan, *Illustrations 
 
 *Establish:* the existence, dating and content of accusations.
 *Do not establish:* anything about Freemasonry. Used exclusively as evidence of belief —
-except the Illuminati papers, which are genuine documents of a real organisation.
+except the Illuminati papers, which are genuine documents of a real organization.
 
 ---
 
@@ -12173,9 +12173,9 @@ independently — which is, in the end, the point of the exercise.
 | Level | Category | Use |
 |---|---|---|
 | **A** | Primary sources: period documents, manuscripts, original editions, contemporary observation | Load-bearing evidence |
-| **B** | Scholarly secondary sources: university presses, peer-reviewed journals, recognised specialists | Interpretation, framing, correction |
+| **B** | Scholarly secondary sources: university presses, peer-reviewed journals, recognized specialists | Interpretation, framing, correction |
 | **C** | Critical editions of primary texts, with apparatus | Access to A with scholarly support |
-| **D** | Popular, partisan or derivative material | **Evidence of belief only**, and labelled as such in the text, not merely in a note |
+| **D** | Popular, partisan or derivative material | **Evidence of belief only**, and labeled as such in the text, not merely in a note |
 
 **Two rules override the hierarchy.**
 
@@ -12211,7 +12211,7 @@ someone could have read it. It does not tell you anyone did.
 language with the earlier one? Resemblance is weak; quotation is strong; shared
 idiosyncratic error is decisive.
 
-**5. Institutional continuity.** Did the organisation actually persist? Organisations that
+**5. Institutional continuity.** Did the organization actually persist? Organizations that
 exist collect dues, keep lists, rent rooms, quarrel and leave paper.
 
 **6. Anachronism.** Does the claim contain something that could not yet have existed? A
@@ -12267,7 +12267,7 @@ alike — is the silent slide from *they believed* to *they experienced* to *it 
 
 ---
 
-### VI. Signalling in the text
+### VI. Signaling in the text
 
 **Reconstruction must be marked.** Where prose reconstructs an atmosphere rather than
 reporting a source, the text says so — by an explicit frame, by conditional grammar, or by a
@@ -12333,7 +12333,7 @@ set out.
 | The Golden Dawn borrowed Masonic structure | **Established** | 41 |
 | The Golden Dawn had German Rosicrucian authority | **Refuted** — Mathers said the letters were forged, 1900 | 41 |
 | The O.T.O.'s degrees derive from irregular Masonic rites | **Established** | 43 |
-| Crowley held recognised regular Masonic standing | **Unsupported** | 43 |
+| Crowley held recognized regular Masonic standing | **Unsupported** | 43 |
 | Co-Masonry carried Masonic ritual into Theosophy | **Established** | 29, 40 |
 | Hermetic Qabalah preserves ancient Jewish teaching | **Unsupported** — it is a nineteenth-century construction | 42 |
 
@@ -12379,7 +12379,7 @@ set out.
 | Claim | Status | Ch. |
 |---|---|---|
 | Freemasonry inherited the Western magical tradition | **Unsupported** | 49, 51 |
-| Freemasonry supplied the organisational form that carried it | **Strong** | 27–29, 41, 44, 51 |
+| Freemasonry supplied the organizational form that carried it | **Strong** | 27–29, 41, 44, 51 |
 | Masonic ritual is a transmissible technology of transformation | **Strong as to mechanism; unevidenced as to moral outcome** | 44, 47 |
 | Both traditions treat ritual and symbol as instruments for changing the operator | **Argued; offered as a hypothesis supported by the evidence, not as a demonstrated finding** | 2, 51 |
 
@@ -12454,7 +12454,7 @@ Verification tags: **✔** = bibliographic data confirmed in this research phase
 25. **[A]** ~ [Pérau, Gabriel-Louis.] *Le Secret des Francs-Maçons*. Geneva/Paris, 1742.
 26. **[A]** ~ [Travenol, Louis.] *L'Ordre des Francs-Maçons Trahi*. Amsterdam, 1745.
 27. **[A]** ~ Morgan, William. *Illustrations of Masonry, by One of the Fraternity*.
-    Batavia, N.Y., 1826. (The book at the centre of the Morgan affair.)
+    Batavia, N.Y., 1826. (The book at the center of the Morgan affair.)
 28. **[C]** ~ Knoop, Douglas, G. P. Jones, and Douglas Hamer, eds. *The Early Masonic
     Catechisms*. 2nd edn., rev. Harry Carr. London: Quatuor Coronati Lodge, 1963.
 29. **[C]** ~ Knoop, Jones, and Hamer, eds. *The Two Earliest Masonic MSS.: The Regius
@@ -12598,7 +12598,7 @@ Verification tags: **✔** = bibliographic data confirmed in this research phase
 96. **[B]** ✔ Bogdan, Henrik, and Jan A. M. Snoek, eds. *Handbook of Freemasonry*.
     Brill Handbooks on Contemporary Religion 8. Leiden and Boston: Brill, 2014.
     669 pp. ISBN 978-90-04-21833-8. (Four sections: history; Freemasonry and religious
-    traditions; organisational themes incl. ritual; society and politics. Contributors
+    traditions; organizational themes incl. ritual; society and politics. Contributors
     incl. Stevenson, Prescott, Jacob, Mollier, Snoek, de Hoyos, Gilbert, Porset,
     Harland-Jacobs, Révauger, Hasselmann, Curl, Introvigne, van Pelt, Zarcone.)
 97. **[B]** ✔ Stevenson, David. *The Origins of Freemasonry: Scotland's Century,

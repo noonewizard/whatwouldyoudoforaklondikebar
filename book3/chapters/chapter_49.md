@@ -2,7 +2,7 @@
 ## The Word as Credential
 
 Every reader of this book proves their identity to a machine several times a day,
-using a method a Masonic lodge in 1750 would have recognised and, in one important
+using a method a Masonic lodge in 1750 would have recognized and, in one important
 respect, improved on.
 
 This chapter draws that comparison and then states, twice, that it is an analogy.
@@ -101,12 +101,12 @@ Three disanalogies, stated because a comparison that only flatters is not analys
 
 **Masonic authentication is not adversarial in the modern sense.** The threat model
 is an occasional impostor seeking charity, not a funded adversary at scale. Systems
-designed against casual opportunists and systems designed against organised attack
+designed against casual opportunists and systems designed against organized attack
 are different objects, and the difference is not one of degree.
 
-**The Masonic verifier is a person exercising judgement.** He hears hesitation,
-recognises a manner, weighs plausibility. Modern authentication is designed
-precisely to remove judgement, because judgement does not scale and is
+**The Masonic verifier is a person exercising judgment.** He hears hesitation,
+recognizes a manner, weighs plausibility. Modern authentication is designed
+precisely to remove judgment, because judgment does not scale and is
 inconsistent. **What the lodge relies on is what the engineer tries to eliminate.**
 
 **And the Masonic system had no revocation.** A password can be changed; a
@@ -139,7 +139,7 @@ public — and the system did not fail. By the standard above, that means the sy
 was never relying on obscurity.
 
 **What it relies on is that the valuable parts are not transmissible as
-information.** Standing is conferred, not learned. Competence is practised, not
+information.** Standing is conferred, not learned. Competence is practiced, not
 read. Membership is a relation, not a fact.
 
 In modern terms: **the Craft's security model does not depend on keeping a secret,
@@ -156,7 +156,7 @@ things in a system happen not to be the kind of thing that can be written down.
 Two things, and then the warning again.
 
 **It explains why the design is good.** A reader who wonders whether Masonic
-recognition was a serious system or a piece of theatre can be told that its
+recognition was a serious system or a piece of theater can be told that its
 structure is the structure of contemporary best practice, arrived at independently.
 That is a real finding about the eighteenth century.
 

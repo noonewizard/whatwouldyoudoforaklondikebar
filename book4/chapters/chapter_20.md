@@ -16,7 +16,7 @@ Solomonic story.
 
 Hiram of Tyre appears first in connection with David, sending cedar and craftsmen
 for a palace.[^1] Under Solomon the relationship becomes a formal treaty
-arrangement: Tyre supplies cedar and cypress timber and skilled labour; Israel
+arrangement: Tyre supplies cedar and cypress timber and skilled labor; Israel
 supplies wheat and oil in annual quantities.[^2]
 
 The arrangement is described in the register of commercial diplomacy, and it has
@@ -83,7 +83,7 @@ not.
 
 **And it complicates the later use.** Masonic tradition makes the Temple the
 archetype of the Craft. The biblical Temple is, on its own account, a project
-whose skilled labour was imported from a neighbouring kingdom with a different
+whose skilled labor was imported from a neighboring kingdom with a different
 religion — which is a perfectly good subject for a fraternity of working builders
 to admire, and is not the same thing as a sacred national construction carried out
 by an initiated priesthood.

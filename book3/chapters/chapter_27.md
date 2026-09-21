@@ -9,7 +9,7 @@ a practitioner is instructed to say this:
 *ablanathanalba*
 
 It is not a word in Greek. It is not a word in Egyptian, Hebrew, Aramaic, Coptic or
-any other language of the region. It reads the same backwards as forwards, which is
+any other language of the region. It reads the same backward as forward, which is
 clearly deliberate, and it appears across a wide range of texts and amulets, which
 means it was transmitted rather than improvised.
 
@@ -31,7 +31,7 @@ one letter removed each line, sequences running through the seven Greek vowels.[
 
 Scholars have spent a long time trying to identify the originals and the results
 are partial. Some elements resolve; many do not. The honest summary is that **the
-corpus mixes recognisable borrowings with material that was never meaningful in any
+corpus mixes recognizable borrowings with material that was never meaningful in any
 language.**
 
 And that mixture is the interesting part.
@@ -76,18 +76,18 @@ have acquired a property that traditions using ordinary language do not have.
 
 Chapter 3 established the class of utterances that change the world by being
 spoken, and found the power lying in the convention rather than in the sound. A
-marriage is real because a society recognises the procedure.
+marriage is real because a society recognizes the procedure.
 
 **Magical utterance claims something different.** It claims that the words act on
 the world directly — that the substance changes, the spirit comes, the fever
 breaks — with no social convention mediating and no institution required to
-recognise anything.
+recognize anything.
 
 This is a genuinely different claim and the difference is not a matter of degree.
 
 A performative fails if the speaker lacks standing. A magical formula, on its own
 account, fails if the speaker lacks *knowledge or purity or technique* — but not
-because a community declined to recognise him. The Greek papyri are full of
+because a community declined to recognize him. The Greek papyri are full of
 instructions for solitary operations, and the practitioner does not need a
 congregation.
 
@@ -138,12 +138,12 @@ Timings. Names. Claimed results. The grimoire tradition of Chapter 28 is enormou
 and explicit: it tells you what to say, when, wearing what, having fasted how long,
 and what will happen.
 
-Where bodies adjacent to Freemasonry actually practised theurgy, they did this
-too. Martinez de Pasqually's Élus Coëns, from the 1760s, practised invocation, and
+Where bodies adjacent to Freemasonry actually practiced theurgy, they did this
+too. Martinez de Pasqually's Élus Coëns, from the 1760s, practiced invocation, and
 we know because the instructions survive — named founder, dated documents, explicit
 procedures.[^2]
 
-**When operative practice enters an organisation, it does so visibly.**
+**When operative practice enters an organization, it does so visibly.**
 
 Craft ritual contains none of it. Not in the eighteenth-century exposures, written
 by hostile parties who would have been delighted to report it. Not in the ritual

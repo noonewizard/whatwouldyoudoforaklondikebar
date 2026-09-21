@@ -47,7 +47,7 @@ has fallen into place — arrives identically whether the structure is real or
 constructed. Subjective confidence tracks the *strength of the perceptual signal*,
 not its accuracy, and the two are only loosely related.
 
-This is why sincerity is not a defence and why intelligence is not a protection. A
+This is why sincerity is not a defense and why intelligence is not a protection. A
 person who reports being struck by a correspondence is reporting accurately on
 their own experience, and their experience contains no information about whether
 the correspondence is designed.
@@ -101,11 +101,11 @@ learnedly, and without noticing that accommodation has replaced testing.
 The literature this book examines is not written by fools. It is written, much of
 it, by people of real learning: Pike read widely, Mathers taught himself several
 languages, Waite's erudition was genuine. **Their learning was the instrument of the
-error, not a defence against it**, because it supplied more material to find
+error, not a defense against it**, because it supplied more material to find
 patterns in and more resources for explaining away the failures.
 
 The only thing that helps is the procedural discipline that Chapter 42 sets out,
-and it helps precisely because it does not depend on the analyst's judgement.
+and it helps precisely because it does not depend on the analyst's judgment.
 
 ---
 

@@ -27,7 +27,7 @@ astronomical and the awkwardness of the fraction is the reason calendars are
 complicated.
 
 **Twelve is entailed by arithmetic convenience and the sky.** A tradition that uses
-twelve has not inherited a doctrine; it has noticed what its neighbours noticed.
+twelve has not inherited a doctrine; it has noticed what its neighbors noticed.
 
 Masonic use of twelve is slight, which is itself worth registering. It is not a
 Masonic number in any significant sense.
@@ -84,12 +84,12 @@ mechanics to paying audiences in London. Ric Berman's work has traced the networ
 detail, and it is a Newtonian and Whig network before it is anything else.[^2]
 
 Newton had shown, within living memory, that the heavens obey mathematics — that the
-universe is a geometrical object with calculable behaviour.
+universe is a geometrical object with calculable behavior.
 
-**In that world, a fraternity organised around geometry was not archaic. It was the
+**In that world, a fraternity organized around geometry was not archaic. It was the
 most modern thing available.**
 
-This matters because Masonry is habitually read backwards through its
+This matters because Masonry is habitually read backward through its
 nineteenth-century occult interpreters, who found in the square and compasses a
 cosmic symbolism of enormous antiquity. The men of the 1720s were not looking back
 to Egypt. They were looking at the *Principia*. When they called God the Great

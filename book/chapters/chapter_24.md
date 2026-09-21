@@ -45,7 +45,7 @@ invitation, written into the ritual, to ask what was lost and whether it can be 
 The high degrees are, almost without exception, answers to that question. The Royal Arch
 recovers the lost word. The Elect degrees avenge the murder. The Templar degrees supply a
 continuing order that preserved what was hidden. The Rose-Croix supplies a Christian
-fulfilment. Each takes the hole at the centre of the third degree and fills it.
+fulfillment. Each takes the hole at the center of the third degree and fills it.
 
 ---
 
@@ -53,7 +53,7 @@ fulfilment. Each takes the hole at the centre of the third degree and fills it.
 
 That is the structural explanation. There is also a social one, and it is less edifying.
 
-Eighteenth-century France was a society organised by rank and obsessed with it. Precedence,
+Eighteenth-century France was a society organized by rank and obsessed with it. Precedence,
 title, the right to a particular seat or a particular form of address, the distinction
 between the noblesse d'épée and the noblesse de robe and the men who were neither — this
 was the texture of daily life for the class of people joining lodges.
@@ -70,7 +70,7 @@ chivalry and court: Knight, Prince, Sovereign, Grand Elect, Sublime.
 
 There was also, straightforwardly, money. Degrees cost fees. A man who possessed a system
 and the authority to confer it had a business. Some of the eighteenth century's more
-enterprising degree-mongers travelled Europe selling patents, and at least one — the
+enterprising degree-mongers traveled Europe selling patents, and at least one — the
 Chevalier Ramsay's less scrupulous successors — did very well out of it.
 
 ---
@@ -145,13 +145,13 @@ years, for reasons we can often reconstruct.
 
 One more thing before we start naming names.
 
-There is a tendency, in both Masonic and sceptical writing, to treat the high degrees as an
+There is a tendency, in both Masonic and skeptical writing, to treat the high degrees as an
 eighteenth-century absurdity — a proliferation of costumes and titles that sensible people
 eventually pruned back. The English response was essentially that: the union of 1813
 declared that pure Ancient Masonry consists of three degrees and no more, including the
 Royal Arch, and English Freemasonry has been comparatively austere ever since.
 
-That judgement is understandable and it is also a loss. Some of the high-degree material is
+That judgment is understandable and it is also a loss. Some of the high-degree material is
 junk — repetitive, derivative, invented on Tuesday to be worked on Thursday. Some of it is
 not. The Rectified Scottish Rite's doctrine is a coherent and serious piece of Christian
 esoteric theology. The Rose-Croix ceremony is, by common consent even among people who

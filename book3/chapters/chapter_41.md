@@ -160,7 +160,7 @@ announced solutions. **No two have agreed**, and no proposed method has enabled 
 stranger to reproduce the result unaided.
 
 **Intentionality: passes.** Somebody wrote it, deliberately, at length, with
-illustrations. The labour is undeniable.
+illustrations. The labor is undeniable.
 
 So the Voynich passes the tests that concern the object and fails the tests that
 concern the decipherments. **This is exactly the right result**, and it shows the
@@ -194,7 +194,7 @@ negative.
 **This asymmetry is not a bias against the interesting claims.** It is a property of
 the evidence. Real encodings announce themselves — they produce sentences, they
 replicate, they come with carvers and authors and manuscripts. Claimed encodings
-that require elaborate defence require it because the evidence is thin, and the
+that require elaborate defense require it because the evidence is thin, and the
 elaboration is doing the work the evidence cannot.
 
 **When a decipherment needs a long argument, the argument is the finding.**

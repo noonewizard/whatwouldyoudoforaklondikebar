@@ -41,7 +41,7 @@ theology written by and for a people who had been expelled from Spain within liv
 selected techniques.
 
 **Hermetic Qabalah** — the system of the Golden Dawn and after, which adds tarot attributions,
-elemental and planetary mappings, colour scales and a grade structure, **none of which has
+elemental and planetary mappings, color scales and a grade structure, **none of which has
 any Jewish precedent.**
 
 They are connected by a real lineage and they are not the same thing. Anyone who tells you
@@ -77,7 +77,7 @@ determinate and standing in a defined relation to the ones before — the Tree w
 object in the entire Western inheritance with the right shape.
 
 They mapped the grades onto the Sephiroth. Neophyte at the bottom, ascending. Each grade
-carries its sphere's attributions, its colours, its elements, its tarot cards.
+carries its sphere's attributions, its colors, its elements, its tarot cards.
 
 The result is the most complete initiatory architecture ever constructed in the West, and
 it was assembled in London in the 1880s out of a Latin anthology of 1677 and a set of
@@ -158,7 +158,7 @@ If it were independently arrived at, we should expect what convergence always le
 structure without the arbitrary detail. A recovery-of-the-Name narrative can be constructed
 from the biblical and post-biblical material available to any educated Protestant of the
 period, without contact with Jewish mystical tradition at all, and the fact that the degree's
-apparatus is architectural and vault-centred rather than sefirotic is weak evidence in that
+apparatus is architectural and vault-centerd rather than sefirotic is weak evidence in that
 direction.
 
 **Where this study leaves it.** Neither has been established. The route has not been found and
@@ -191,7 +191,7 @@ centuries of learned practice behind it.
 A set of procedures flexible enough to transform any word into a related word will, applied
 to a large enough body of material, produce meaningful-looking results from anything at all.
 The techniques' legitimacy within their own tradition — where they operate under constraints
-of community, canon and rabbinic judgement — does not transfer to their use by an
+of community, canon and rabbinic judgment — does not transfer to their use by an
 enthusiast with a Masonic word and an afternoon.
 
 Chapter 38 runs the test. Here it is enough to state the rule: **the reality of a technique
@@ -203,7 +203,7 @@ is not evidence for any particular result obtained with it.**
 
 Not a doctrine that Freemasonry absorbed. It absorbed none.
 
-A *map* — with enough structure to organise a graded ascent, which no other object in the
+A *map* — with enough structure to organize a graded ascent, which no other object in the
 European inheritance possessed — which was attached to a Masonic ceremonial form in London
 in 1888 by three Freemasons working from a Latin book of 1677 and an English translation of
 1887.

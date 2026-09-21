@@ -7,7 +7,7 @@ You can buy one. It costs very little. It has no properties beyond the geometric
 nothing in the absence of a person using it, and if you leave it in a drawer for a century it
 will be a piece of metal bent at ninety degrees when you take it out.
 
-And men have organised their lives around it.
+And men have organized their lives around it.
 
 This chapter asks how that is possible — what has to be true about an object, and about the
 people using it, for a hand tool to become something a person would decline to betray.
@@ -85,14 +85,14 @@ three conditions.
 **A concrete object with a function.** The anchor. Every layer of meaning the square carries
 is a variation on *testing*: testing an angle, testing conduct, testing a man against a
 standard. Six hundred years of use and the meanings never wandered from the instrument's
-behaviour.
+behavior.
 
 **Prolonged use by many people.** Three centuries, millions of members, each encountering the
 object in a ceremony designed to make it memorable.
 
 **An institution that declines to fix the meaning.** Anderson removed doctrinal authority in
 1723 in order to admit men of different religions, and the consequence — very likely
-unintended — was that the Craft could never afterwards adjudicate an interpretation.
+unintended — was that the Craft could never afterward adjudicate an interpretation.
 
 Under those three conditions a symbol accumulates and cannot do otherwise. New readings are
 added; old ones are almost never removed; and a modern Mason may hold four of the eight
@@ -187,7 +187,7 @@ the journal of that name — has argued against treating religious objects as ve
 ideas held elsewhere. On that older account, a symbol is a container: the meaning is in the
 mind and the object merely refers to it.
 
-The material-religion argument is that this gets the relation backwards. Objects are not
+The material-religion argument is that this gets the relation backward. Objects are not
 illustrations of beliefs; they are part of how belief is constituted, sustained and
 transmitted. What people do with things — handle them, wear them, arrange them, look at them
 — is not secondary to what they think.[^2]

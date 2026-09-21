@@ -34,7 +34,7 @@ the same person.
 Part VIII established what the Masonic apparatus does: confiscates attention, encodes in the
 body, exploits controlled information, stages revelation, ratifies socially. Part X showed
 that the Golden Dawn's operative work — the ritual of which is agreed by everyone to be magic
-— uses the same components, trained more deliberately and practised more often.
+— uses the same components, trained more deliberately and practiced more often.
 
 If the Golden Dawn's ceremonies are magic and the Masonic ceremony uses the same apparatus
 for the same kind of end, the distinction becomes hard to state.
@@ -169,7 +169,7 @@ what he was relabelling. A Masonic lodge in 1740 was not doing what Lévi's theo
 It was doing something a later theory would describe in its own terms, which is a different
 relation entirely.
 
-This is the distinction the occult interpreters of Masonry consistently lost. Recognising
+This is the distinction the occult interpreters of Masonry consistently lost. Recognizing
 that a practice fits a description is not the same as finding that the practice was an
 instance of what the description was invented for. The first is a classification. The second
 is a historical claim, and it requires the evidence the first does not.
@@ -187,13 +187,13 @@ participant which the participant cannot do for himself by deciding to.
 
 That description contains no contested term. It is what the ritual does, stated in language
 that commits to nothing about hidden mechanisms, spiritual agencies, or the history of
-European esotericism. Both the practitioner who calls it magic and the sceptic who calls it
-theatre can read it and recognise their subject.
+European esotericism. Both the practitioner who calls it magic and the skeptic who calls it
+theater can read it and recognize their subject.
 
 Whether the sentence makes anyone want to call it magic is, at this point, a matter of
 temperament. What this book has tried to establish is that the sentence is true, that each of
 its components can be documented, and that the argument about what to call it can proceed
-afterwards without any of them being at stake.
+afterward without any of them being at stake.
 
 ---
 

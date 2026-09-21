@@ -26,8 +26,8 @@ Rosenkreuz of the 1750s:**
 The graded initiatory structure — a series of degrees conferred ceremonially, each admitting
 to further teaching, with advancement controlled by superiors.
 
-The temple: a room with officers at fixed stations, an altar at the centre, cardinal
-orientation, and prescribed movement between points. Anyone who has read Chapter 8 recognises
+The temple: a room with officers at fixed stations, an altar at the center, cardinal
+orientation, and prescribed movement between points. Anyone who has read Chapter 8 recognizes
 the blocking immediately.
 
 The officers, with defined stations and functions, including a guardian of the door.
@@ -51,7 +51,7 @@ The grade structure mapped onto the Sephiroth of the Tree of Life — Chapter 29
 point.
 
 The system of correspondences: elements, planets, signs, Hebrew letters, tarot trumps,
-colours, gods, plants, perfumes, all indexed to one structure. This is the Agrippan
+colors, gods, plants, perfumes, all indexed to one structure. This is the Agrippan
 tradition of Chapter 28 welded to Lévi's tarot-Kabbalah equation, and it is the Order's real
 intellectual achievement.
 
@@ -119,7 +119,7 @@ Two things follow that matter for this book.
 **First: their practice is far more attentional than Masonry's.** The Craft does one ceremony
 to a man a few times in his life. The Golden Dawn required daily individual work —
 banishing rituals performed alone, meditation, visualisation practice, record-keeping. That
-is a regime, not an event, and it is much closer to what a modern reader would recognise as
+is a regime, not an event, and it is much closer to what a modern reader would recognize as
 psychological training.
 
 **Second: they inherited the Masonic apparatus's central problem and did not solve it.** Who
@@ -156,7 +156,7 @@ stated it more crisply than I have managed.
 
 On his Masonic status the preceding volume was precise and I will repeat only the conclusion:
 he was deeply involved with Masonic *forms*, through irregular and co-Masonic channels, and
-held no standing that regular Grand Lodges recognised. Both halves of that sentence are
+held no standing that regular Grand Lodges recognized. Both halves of that sentence are
 load-bearing and the popular literature drops one or the other.
 
 ---

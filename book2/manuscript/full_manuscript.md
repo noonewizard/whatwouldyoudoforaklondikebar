@@ -35,7 +35,7 @@ printed constitutions, the eighteenth-century exposures, published catechisms, t
 systems of Preston and Webb, and the twentieth-century publications of orders that no longer
 exist. Where I describe a ceremony I am describing a documented historical text. **Masonic
 ritual varies enormously by jurisdiction, by century and by rite. No working described in
-this book is universal, and none is current.** A Mason reading these chapters may recognise
+this book is universal, and none is current.** A Mason reading these chapters may recognize
 a great deal and may also find things that have never formed part of his experience. Both
 reactions would be correct.
 
@@ -50,9 +50,9 @@ changed profession without telling the reader.
 
 **On borrowed science.** This book uses ritual theory, cognitive science and environmental
 psychology to describe a ceremony none of those disciplines was built to describe. Van
-Gennep published in 1909; Turner in 1969; the experimental programme is younger than most
+Gennep published in 1909; Turner in 1969; the experimental program is younger than most
 of its readers. Applying any of it to a London tavern in 1730 is an inference across two
-centuries and several cultures. I have labelled every instance. Where a finding is
+centuries and several cultures. I have labeled every instance. Where a finding is
 contested — and two of the most tempting findings in this whole subject are contested — I
 say so in the text, not in a note where it can be missed.
 
@@ -132,7 +132,7 @@ find out what actually occurred.
 
 ### PART XI — THE TEST
 44. Does Ritual Change People?
-45. Can Symbols Change Behaviour?
+45. Can Symbols Change Behavior?
 46. Can Architecture Change Consciousness?
 47. Secrecy, Repetition, and Identity
 
@@ -162,7 +162,7 @@ not a person. No single candidate is described in the record from beginning to e
 nobody who went through this wrote down what it was like with the kind of detail a historian
 would want.
 
-So: a composite, built from documented practice, and labelled as one. That is the most any
+So: a composite, built from documented practice, and labeled as one. That is the most any
 honest account can offer, and it is more than enough.
 
 He has been asked to empty his pockets. Coins, keys, a watch if he has one — anything of
@@ -223,7 +223,7 @@ The question I want to ask is harder and, I think, answerable in a way the other
 
 **What does the ritual do?**
 
-Not symbolise. *Do.* To attention, to memory, to identity, to a person's relationship with a
+Not symbolize. *Do.* To attention, to memory, to identity, to a person's relationship with a
 group and with authority and with his own death. The ceremony is a sequence of physical and
 informational conditions imposed on a human nervous system for about an hour, and human
 nervous systems have been studied. Some of what happens in that room is recoverable.
@@ -257,7 +257,7 @@ thing — that there is one ancient initiatory tradition and Freemasonry is a br
 That temptation has produced more bad history than any other idea in this subject, and the
 previous volume spent three hundred pages dismantling the particular versions of it that
 attach to the Craft. There is no Egyptian descent. There is no Templar succession. The
-Rosicrucian ancestry runs backwards. The documented line into Freemasonry comes from the
+Rosicrucian ancestry runs backward. The documented line into Freemasonry comes from the
 medieval building trade, and the documented line out of it goes to the Victorian occultists,
 who took the apparatus and filled it with material they had bought in second-hand
 bookshops.
@@ -457,7 +457,7 @@ evidence gets its full weight, and it deserves it.
 
 But the same books record something else: men who did not lapse. Men who attended for
 forty years, who held every office in turn, who learned thousands of words of ritual by
-heart, who travelled to visit other lodges, who left money to the charity in their wills.
+heart, who traveled to visit other lodges, who left money to the charity in their wills.
 Men, in other words, for whom something evidently took.
 
 Both populations went through the same hour in the same room.
@@ -580,7 +580,7 @@ The removal of metal is explained in Masonic sources by an allusion to the build
 Solomon's Temple, where — the biblical text says — no tool of iron was heard in the house
 while it was in building.[^3] That is the explanation the ritual itself gives, and it is a
 good example of a feature this book will meet repeatedly: **a practice with an obvious
-practical function, supplied afterwards with a scriptural rationale that has nothing to do
+practical function, supplied afterward with a scriptural rationale that has nothing to do
 with the function.**
 
 The practical function is not obscure. A man's coins, his watch, his buckles and his rings
@@ -681,13 +681,13 @@ plainly what I have not described.
 
 I have not told you what the man in it felt. Nobody can. There is no surviving first-person
 account of an eighteenth-century Masonic preparation room written by a candidate in it, and
-if there were, it would have been written afterwards, in the vocabulary the ceremony had by
+if there were, it would have been written afterward, in the vocabulary the ceremony had by
 then supplied him with, which is a problem of its own.
 
 What I have described is a *design* — a set of conditions that we know were imposed, and a
 set of effects that conditions of that kind are known to produce in human beings generally.
 The step from the first to the second is an inference, and I will be making it repeatedly,
-and labelling it every time.
+and labeling it every time.
 
 The door is about to open. Before it does, there is one more condition to account for, and it
 is the one that the whole remaining hour is built around.
@@ -728,7 +728,7 @@ The oldest surviving Masonic ritual text is Scottish, written down in 1696, and 
 mention a blindfold.
 
 The Edinburgh Register House Manuscript describes two degrees, a word, a grip, and a
-catechism of questions and answers. It is brief and practical. It tells you how to recognise
+catechism of questions and answers. It is brief and practical. It tells you how to recognize
 a mason and what to say. There is nothing in it about darkness at all.[^1]
 
 By 1730 the darkness is there, and by 1762 it is elaborate. Prichard's candidate is in "a
@@ -737,7 +737,7 @@ restoration of light, and the formula in which a man is asked what he most desir
 answers: light.[^2]
 
 So the darkness is not original. It arrives with the eighteenth-century development of the
-ceremony, in the same decades that produced the third degree, and it becomes the organising
+ceremony, in the same decades that produced the third degree, and it becomes the organizing
 condition of the whole event.
 
 That dating matters, because it means the darkness was *added* — and things that are added
@@ -788,7 +788,7 @@ He is stopped. He is addressed by people whose position he must infer from sound
 is pressed against his chest that he did not see coming.
 
 **He must build the room from other channels.** Sound, touch, the feel of boards under one
-bare foot, the direction of a draught, the number of paces. This is effortful, and
+bare foot, the direction of a draft, the number of paces. This is effortful, and
 effortful processing is better retained than passive reception. He is, without being told
 to, working hard at a task for the whole duration.
 
@@ -1180,7 +1180,7 @@ Worse: the gap in the evidence is shaped exactly like the thing being looked for
 are asking whether Freemasonry preserved an ancient teaching, and the answer would by
 hypothesis be invisible, then the invisibility of the answer proves nothing at all.
 
-This is a real methodological problem. It is not solved by asserting scepticism. It is
+This is a real methodological problem. It is not solved by asserting skepticism. It is
 solved by asking better questions.
 
 ---
@@ -1204,7 +1204,7 @@ and never did.
 **2. Chronology. Does the timeline permit it?**
 
 The cheapest test available, and the most frequently skipped. A claim requiring an
-organisation to have influenced something that happened before the organisation existed is
+organization to have influenced something that happened before the organization existed is
 finished, and no amount of resonance repairs it.
 
 **3. Transmission. Can you name the route?**
@@ -1219,7 +1219,7 @@ entered a ritual.
 
 The corrective method here is one I take from Alison Butler, who applied it to the Golden
 Dawn. Rather than asking what ideas were in the air, she reconstructed what books were
-physically on the shelves — the catalogued contents of the founders' libraries.[^2] That is
+physically on the shelves — the catalogd contents of the founders' libraries.[^2] That is
 transmission evidence. Ideas in the air are not.
 
 **4. Intertextuality. Does the later source use the earlier one?**
@@ -1227,12 +1227,12 @@ transmission evidence. Ideas in the air are not.
 Resemblance is weak. Quotation is strong. Paraphrase is strong. Shared idiosyncratic error
 is decisive: if two texts make the same odd mistake, one copied the other.
 
-**5. Institutional continuity. Did the organisation persist?**
+**5. Institutional continuity. Did the organization persist?**
 
-Organisations that exist do things. They collect dues, keep lists, rent rooms, quarrel,
+Organizations that exist do things. They collect dues, keep lists, rent rooms, quarrel,
 split, and leave paper. A claim of unbroken institutional descent across centuries with no
-dues, no lists and no quarrels is a claim that an organisation existed in a manner unlike
-every other organisation in recorded history.
+dues, no lists and no quarrels is a claim that an organization existed in a manner unlike
+every other organization in recorded history.
 
 **6. Anachronism. Does the claim contain something that could not yet exist?**
 
@@ -1250,7 +1250,7 @@ Now back to the difficulty. If secrecy produces silence, how can any of this wor
 
 Three reasons, and they are sufficient.
 
-**Secrecy leaks, and it leaks in predictable directions.** Organisations keep minutes.
+**Secrecy leaks, and it leaks in predictable directions.** Organizations keep minutes.
 Rituals must be taught, which means they must be transmitted, which means they exist
 somewhere recoverable. Disgruntled members publish. Governments raid. Widows sell papers.
 
@@ -1430,7 +1430,7 @@ Her central charge is about a dichotomy. Theories of ritual, she observed, chara
 set thought against action: ritual is what people *do* as opposed to what they *think*, the
 enactment of beliefs held elsewhere. That opposition is not found in the practices being
 described. It is imported by the observer, and it belongs to a long Western philosophical
-habit of separating mind from body and belief from behaviour. Having imported it, scholars
+habit of separating mind from body and belief from behavior. Having imported it, scholars
 then discover it everywhere, and write books explaining how ritual expresses, enacts or
 embodies ideas.
 
@@ -1572,7 +1572,7 @@ written down, taught, reproduced elsewhere by other people, and expected to work
 
 By that standard Masonic initiation qualifies without difficulty. It was specified, taught,
 carried to six continents by men who had learned it in one room and reproduced it in
-another, and adopted wholesale by organisations with entirely different aims on the evident
+another, and adopted wholesale by organizations with entirely different aims on the evident
 assumption that it would keep working.
 
 But there is a trap in the word, and I want to avoid falling into it for forty-five chapters.
@@ -1662,7 +1662,7 @@ register, and about what follows from it.
 
 ### Learned by heart, never by book
 
-In most jurisdictions, Masonic ritual is not read. It is memorised.
+In most jurisdictions, Masonic ritual is not read. It is memorized.
 
 The scale is worth stating because it is routinely underestimated. A Mason who progresses
 through the offices of a lodge in the English constitution commits to memory a body of
@@ -1676,7 +1676,7 @@ centuries among clerks and schoolmasters, and persists now. Some jurisdictions p
 printed rituals for private study; some have historically forbidden even that, requiring the
 text to be learned mouth to ear.[^2]
 
-The practice is old. The Scottish catechisms of the 1690s are memorisation documents: their
+The practice is old. The Scottish catechisms of the 1690s are memorization documents: their
 question-and-answer form exists precisely so that the material can be held and tested
 without writing. And the second Schaw Statute of 1599 requires fellows of craft to be
 examined in "the art of memory and the science thereof," which — whatever else it meant, and
@@ -1700,8 +1700,8 @@ can find contradictions. You can argue about interpretation with the object in f
 both parties. You can also, crucially, *have* it without doing anything — a book on a shelf
 is a possession.
 
-Memorised ritual has none of these properties. It cannot be inspected except by performance.
-It cannot be possessed without labour. It cannot be compared without two people agreeing to
+Memorized ritual has none of these properties. It cannot be inspected except by performance.
+It cannot be possessed without labor. It cannot be compared without two people agreeing to
 perform simultaneously, which is what the examination of a visiting brother actually is.
 And it decays unless used.
 
@@ -1726,14 +1726,14 @@ open book with a square and compasses upon it, and he cannot see any of this —
 arranged for him by other people's hands. One knee is bare against boards. One foot is
 unshod. He stands in prescribed attitudes at prescribed moments. He walks a prescribed
 course. He receives, and later gives, a grip — a particular arrangement of pressure between
-two hands that must be executed correctly to be recognised.
+two hands that must be executed correctly to be recognized.
 
 None of this is decorative. Every item is prescribed in the sources and every item is
 checkable: the grips and steps are among the things a visiting brother is examined on.
 
 And all of it is stored the way physical skills are stored, not the way facts are.
 
-I am going to be careful here, because embodied cognition is a research programme rather
+I am going to be careful here, because embodied cognition is a research program rather
 than a settled result, and its bolder formulations — that thought is *constituted* by bodily
 state rather than merely influenced by it — remain contested.[^4] What is not contested is
 the more modest proposition: that procedural memory and declarative memory are different
@@ -1775,7 +1775,7 @@ information in people rather than in objects, and they are very large advantages
 
 I should state the other side, because a chapter that only lists advantages is advocacy.
 
-Memorised transmission *drifts*. Every generation loses a phrase and supplies another; every
+Memorized transmission *drifts*. Every generation loses a phrase and supplies another; every
 lodge develops local habits; every jurisdiction diverges. The variation in Masonic ritual
 across England, Scotland, Ireland, France and the American states is enormous, and a
 substantial part of it is simply the accumulated error of oral transmission over three
@@ -1832,7 +1832,7 @@ or abbreviated aides-mémoire; some have historically forbidden written texts en
 of the art-of-memory clause.]** The interpretive dispute is set out in Chapter 34 and in the
 preceding volume.
 
-[^4]: On embodied cognition as a research programme, see George Lakoff and Mark Johnson,
+[^4]: On embodied cognition as a research program, see George Lakoff and Mark Johnson,
 *Philosophy in the Flesh* (New York: Basic Books, 1999), and Andy Clark, *Supersizing the
 Mind* (New York: Oxford University Press, 2008). The stronger constitutive claims remain
 contested; this chapter relies only on the distinction between procedural and declarative
@@ -1881,14 +1881,14 @@ blurring into the next.
 By the time the hoodwink comes off he has walked the room perhaps a dozen times without
 seeing it.
 
-**And when he does see it, he recognises it.**
+**And when he does see it, he recognizes it.**
 
 That is the effect, and it is worth dwelling on because it is strange and specific. A man
 opens his eyes on a room he has never laid eyes on, and it is *already familiar*. He knows
 where the east is. He knows the officers are at three points because he has been challenged
 from three points. He knows the distances.
 
-The sensation of recognising a place you have never seen is uncommon in ordinary life, and
+The sensation of recognizing a place you have never seen is uncommon in ordinary life, and
 I would guess — this is speculation and I mark it as such — that it accounts for a
 substantial part of what candidates across three centuries have described as the peculiar
 impressiveness of that moment.
@@ -1901,7 +1901,7 @@ There is a second thing happening, and it is the more consequential.
 
 The room he is learning is not neutral. It has an east, where the principal officer sits,
 often on a raised seat. It has a west and a south with subordinate officers. It has a
-centre. It has a guarded door.
+center. It has a guarded door.
 
 He learns all of this in the dark, in the order the ritual chooses, by being stopped at each
 station and required to account for himself.
@@ -1910,7 +1910,7 @@ Which means that **he acquires the lodge's authority structure as a spatial fact
 anybody explains it to him as a social one.** He does not learn that the Master is senior;
 he learns that there is a voice in the east which the others defer to and to which he is
 conducted last. He does not learn the officers' titles; he learns that there are three
-positions from which he must be challenged before he can reach the centre.
+positions from which he must be challenged before he can reach the center.
 
 Nobody states any of it. He walks it.
 
@@ -1969,7 +1969,7 @@ And the parallel is worthless as evidence anyway, because clockwise circumambula
 close to universal in cultures with any circular ritual movement at all. There are two
 directions available. Half of everything goes one way.
 
-What the sources actually support is duller and more useful: the lodge is modelled on a
+What the sources actually support is duller and more useful: the lodge is modeled on a
 building oriented east–west, the sun's course supplies the natural direction of travel in
 such a building, and the Craft — which was busy identifying itself with geometry, order and
 regularity — found in that a congenial emblem. No cult required.
@@ -1978,7 +1978,7 @@ regularity — found in that a congenial emblem. No cult required.
 
 ### The half-of-everything rule
 
-The clockwise case is worth generalising, because it names a fallacy this book meets in
+The clockwise case is worth generalizing, because it names a fallacy this book meets in
 almost every chapter and the name is useful.
 
 **Where a feature has only a small number of possible forms, a match between two traditions
@@ -2043,7 +2043,7 @@ What cannot:
 That any of this produced a particular state in any particular man. That the effect was
 intended. That the eighteenth century understood what it was doing.
 
-The ceremony is now nearly at its centre. He has been prepared, challenged, admitted and
+The ceremony is now nearly at its center. He has been prepared, challenged, admitted and
 conducted. He is about to be required to speak — and the language he will be required to
 speak in is not the language he uses for anything else.
 
@@ -2134,7 +2134,7 @@ system**, which can only be acquired by having been taught it by someone who had
 
 Several otherwise puzzling features follow directly from this function.
 
-**Why it is memorised verbatim rather than paraphrased.** A paraphrase would pass a test of
+**Why it is memorized verbatim rather than paraphrased.** A paraphrase would pass a test of
 understanding and fail a test of provenance. The examiner is not checking whether the visitor
 grasps the meaning; he is checking whether the visitor learned the words from a legitimate
 source. Exact wording is the evidence. This is why jurisdictional variation matters so much
@@ -2145,7 +2145,7 @@ knowledge: neither party holds the whole thing alone, and the exchange only exis
 are present. Chapter 36 develops this into the argument about what kind of thing the Masonic
 secret is.
 
-**And why it survived the exposures.** A published catechism can be memorised by an impostor,
+**And why it survived the exposures.** A published catechism can be memorized by an impostor,
 and this is exactly what the lodges feared when *Masonry Dissected* appeared in 1730. The
 institution's response — the alteration of certain details, the reliance on personal vouching
 alongside examination — tells us that the form was understood at the time as a security
@@ -2172,7 +2172,7 @@ whereas a man who paraphrases is merely different.
 
 This is the machinery by which oral traditions everywhere have transmitted material across
 centuries, and the Craft is a textbook case. The 1696 catechism and its successors are
-memorisation documents in form as well as function.
+memorization documents in form as well as function.
 
 But there is a second reason, and it is the one that matters for this book.
 
@@ -2199,7 +2199,7 @@ and which I think is the most interesting thing about the catechism.
 **It only exists between two people.**
 
 A catechism is not a text a person can hold. Half of it is questions. A man alone with the
-whole thing memorised is in the position of someone who knows both parts of a duet: he
+whole thing memorized is in the position of someone who knows both parts of a duet: he
 possesses the material and cannot perform it.
 
 To produce the knowledge, two people have to agree to produce it together, in a specific
@@ -2212,7 +2212,7 @@ can answer, and answering requires someone to ask. Status is not a possession bu
 repeatable transaction.
 
 **It makes the examination of strangers possible.** This was the original practical purpose
-and it persisted for centuries: a travelling man presents himself at a strange lodge and is
+and it persisted for centuries: a traveling man presents himself at a strange lodge and is
 examined, and the examination is precisely this — a dialogue in which each party
 demonstrates that he holds the other half.
 
@@ -2233,7 +2233,7 @@ more than you can steal a handshake by describing one.
 ### Rhythm and the recitative voice
 
 A note on delivery, which the printed sources cannot capture and which anyone who has heard
-ritual performed will recognise.
+ritual performed will recognize.
 
 Ritual language across traditions is typically delivered in a register distinct from
 speech: slower, more evenly stressed, pitched differently, with pauses at fixed points.
@@ -2255,7 +2255,7 @@ remember prose we read last week.
 
 The catechism is the tradition's voice. The obligation is the candidate's.
 
-At the centre of the ceremony, after the perambulation and before the light, he is required
+At the center of the ceremony, after the perambulation and before the light, he is required
 to speak — not to answer a question but to make a promise, repeating it phrase by phrase
 after the Master, in the first person, kneeling, in a room full of witnesses.
 
@@ -2324,7 +2324,7 @@ than either a threat or an embarrassment.
 ### Where the language comes from
 
 The penalties are not a Masonic invention and they are not occult. They belong to a
-recognisable family of early modern oath formulae.
+recognizable family of early modern oath formulae.
 
 Oaths of that period routinely specified consequences, often physical, often anatomically
 vivid, invoked upon the swearer by his own mouth. Guild oaths, apprenticeship bonds, legal
@@ -2390,7 +2390,7 @@ reason this chapter exists in the form it does.
 There is a famous experimental finding that appears to explain all of this, and it is
 routinely invoked in discussions of fraternal initiation. In 1959 Elliot Aronson and Judson
 Mills published a study in which participants who underwent a more severe initiation in
-order to join a discussion group subsequently rated that group more favourably than
+order to join a discussion group subsequently rated that group more favorably than
 participants who underwent a mild initiation or none. The interpretation — that people
 resolve the dissonance of having paid a high price for something dull by revaluing the
 thing — became one of the best-known results in social psychology.[^3]
@@ -2412,7 +2412,7 @@ Chapter 38 warning against: taking a striking result and treating its strikingne
 evidence.
 
 So the honest position is narrower. **The general proposition that public, voluntary,
-effortful commitment shapes subsequent behaviour and self-description more than private or
+effortful commitment shapes subsequent behavior and self-description more than private or
 costless assent is reasonably well supported across several literatures.** The specific,
 quantified claim that severity of initiation produces group liking is not something I can
 responsibly build on.
@@ -2436,7 +2436,7 @@ Two consequences follow, and both leave records.
 **Enforcement is social, not penal.** The throat-cutting was never the sanction. The sanction
 was that these men, whom you see monthly and do business with, would know. Lodge minutes
 record the actual mechanism: charges brought, committees appointed, members admonished,
-suspended and excluded.[^4] The penalties in the obligation are theatre; the ballot and the
+suspended and excluded.[^4] The penalties in the obligation are theater; the ballot and the
 exclusion list are the enforcement.
 
 **And the obligation is mutual.** The candidate swears to the lodge, but every man in the
@@ -2463,7 +2463,7 @@ The positive content — aid a brother, keep his lawful secrets, answer his sign
 comparatively brief.
 
 If you wanted to design a ceremony that produced virtuous men, you would presumably load the
-dramatic centre with positive undertakings. Masonry loads it with prohibitions and
+dramatic center with positive undertakings. Masonry loads it with prohibitions and
 concealment.
 
 Two readings are available. The uncharitable one is that the institution's deepest concern
@@ -2535,7 +2535,7 @@ knowledge in Masonic ritual and no evidence of any independent channel.[^1]
 
 That settles the provenance question. It leaves the more interesting one untouched.
 
-**Why did this building, out of all the buildings available, become the organising image of
+**Why did this building, out of all the buildings available, become the organizing image of
 the most successful initiatory system in modern history?**
 
 ---
@@ -2556,17 +2556,17 @@ devised. Which means the Temple can stand for any undertaking executed according
 specifications the builder did not write — which is to say, for a life.
 
 **It was built by a workforce.** The biblical account gives numbers: tens of thousands of
-labourers, hewers and bearers of burdens, with overseers. It is not one architect's vision.
-It is a *collective* achievement with a division of labour and a hierarchy of skill, and
+laborers, hewers and bearers of burdens, with overseers. It is not one architect's vision.
+It is a *collective* achievement with a division of labor and a hierarchy of skill, and
 that maps onto a body of apprentices, fellows and masters with no adjustment whatever.
 
-**It is sacred without being sectarian.** Jews, Christians and Muslims all recognise it. In
+**It is sacred without being sectarian.** Jews, Christians and Muslims all recognize it. In
 1723 Anderson made non-sectarian religion the condition of Masonic membership, and a room
 containing Anglicans, Dissenters, Catholics and — within a few years — Jews needed a
 religious symbol that none of them would contest. There is precisely one building in the
 world that qualifies.
 
-**It has a threshold, an orientation and a centre.** Porch, pillars, holy place, holy of
+**It has a threshold, an orientation and a center.** Porch, pillars, holy place, holy of
 holies. The Temple is not a hall; it is a graded sequence of spaces with access restricted
 at each stage. A system of three degrees is already latent in the floor plan.
 
@@ -2650,7 +2650,7 @@ overwhelmingly members of actual religions which they attended on Sundays. The T
 
 The men who built this system were not constructing a religion. They were constructing a
 room in which men of different religions could stand together, and they needed a shape that
-all of them would recognise and none of them would own.
+all of them would recognize and none of them would own.
 
 ---
 
@@ -2678,7 +2678,7 @@ It is the perfect neutral ground, and neutral ground was exactly what the instit
 needed.
 
 Which means the Craft's most mystical-looking choice may be its most practical — and that
-pattern, a practical solution acquiring a mystical explanation afterwards, is going to
+pattern, a practical solution acquiring a mystical explanation afterward, is going to
 recur in every chapter of this part.
 
 ---
@@ -2692,11 +2692,11 @@ because the candidates were numerous and every one of them fails on the same cri
 carrying a ready-made moral about obedience and preservation. It has, in fact, a minor
 Masonic presence. But it belongs unambiguously to the Christian and Jewish narrative as
 Christians and Jews read it, and it is a vessel rather than a building — nothing can be
-modelled on it, because there is nothing to stand inside.
+modeled on it, because there is nothing to stand inside.
 
 **The Tower of Babel.** A famous building, a famous architectural ambition, and
 catastrophically wrong in its moral: a structure raised in pride and destroyed for it. A
-fraternity organised around building could hardly take as its emblem the one building God
+fraternity organized around building could hardly take as its emblem the one building God
 demolished.
 
 **A cathedral.** The obvious choice for a craft descended from operative masonry, and
@@ -2710,7 +2710,7 @@ settlement depended on not asking members to affiliate with anything that would 
 Christian conscience.
 
 **The Temple of Solomon** survives all four objections at once. It is scriptural, so it is
-respectable. It is architectural, so it can be modelled. Its moral is construction rather
+respectable. It is architectural, so it can be modeled. Its moral is construction rather
 than destruction. It is shared across three traditions and owned operationally by none of
 them in this context. And — the decisive property — **it does not exist**, so no one can
 visit it, no confession maintains it, and no clergy has jurisdiction over its meaning.
@@ -2750,7 +2750,7 @@ descent, and on the textual problems generally, see standard biblical commentary
 # CHAPTER TWELVE
 ## Building the Invisible Temple
 
-In 1926 the Detroit Masonic Temple opened with a tower of fourteen storeys, a theatre
+In 1926 the Detroit Masonic Temple opened with a tower of fourteen stories, a theater
 seating some five thousand people, a ballroom, a chapel, a drill hall, and — by most
 accounts — over a thousand rooms. It remains the largest Masonic building in the world.[^1]
 
@@ -2765,7 +2765,7 @@ the argument I have been making for eleven chapters.
 
 I have argued that Masonic ritual space is *constructed rather than grand*: that the lodge
 works by arrangement — an east declared, stations assigned, a threshold guarded — and not by
-architecture, and that this is precisely why the form travelled. A tradition needing a
+architecture, and that this is precisely why the form traveled. A tradition needing a
 cathedral stays where the cathedral is. A tradition needing a diagram crosses oceans.
 
 That argument is well supported for the eighteenth century and most of the nineteenth. It is
@@ -2795,7 +2795,7 @@ of Christian preaching in between. What the Craft adds is the *trade vocabulary*
 abstract inner temple but one built with a square, a level, a plumb-rule and a gauge, to a
 plan, by a workman who is also the work.
 
-And the move has a consequence the Craft's own writers recognised early. **If the real
+And the move has a consequence the Craft's own writers recognized early. **If the real
 temple is internal, then no external building matters at all.**
 
 That is why the tavern arrangement was never felt as a deficiency. A lodge in a public house
@@ -2806,7 +2806,7 @@ same thing, because the significant construction is happening inside the men pre
 
 ### The anomaly
 
-So the nineteenth-century building programme needs explaining rather than admiring, and it
+So the nineteenth-century building program needs explaining rather than admiring, and it
 is a substantial phenomenon: purpose-built Masonic halls and temples across Britain,
 continental Europe and above all the United States, increasingly large, increasingly
 monumental, frequently classical or Egyptian in idiom, culminating in buildings like the
@@ -2817,7 +2817,7 @@ substantially right.
 
 **1. They could afford it.** The most boring explanation and probably the largest. American
 Masonic membership grew enormously through the later nineteenth century, and a fraternity
-with hundreds of thousands of dues-paying members has capital. Organisations with capital
+with hundreds of thousands of dues-paying members has capital. Organizations with capital
 build.
 
 **2. Post-Morgan respectability.** American Freemasonry had been nearly destroyed by the
@@ -2828,10 +2828,10 @@ the bank and the courthouse.
 
 **3. The high degrees needed stages.** This is the practical driver and it is
 under-appreciated. Craft ritual requires almost nothing. The Scottish Rite degrees, as
-reworked in America in the later nineteenth century, are *theatre* — costumed, scenic,
+reworked in America in the later nineteenth century, are *theater* — costumed, scenic,
 sometimes with painted backdrops, lighting effects and casts of dozens. You cannot stage
-that in a tavern room. The Detroit theatre seating five thousand is not a metaphor; it is a
-theatre.
+that in a tavern room. The Detroit theater seating five thousand is not a metaphor; it is a
+theater.
 
 **4. The symbolism had become meaningful in a new way.** And this is the explanation that
 would support this book's thesis, which is exactly why I distrust it most.
@@ -2843,12 +2843,12 @@ sacred architecture will eventually want to build some.
 
 **Test it.** If explanation 4 is doing the work, we would expect the monumental temples to
 be commissioned by the bodies most committed to the esoteric reading, to be justified in
-esoteric terms in their building records, and to embody specific symbolic programmes in
+esoteric terms in their building records, and to embody specific symbolic programs in
 their design.
 
 Some of that is true. The House of the Temple, designed by John Russell Pope for the
-Scottish Rite's Southern Jurisdiction and completed in 1915, is modelled on the Mausoleum at
-Halicarnassus and is dense with deliberate symbolic programme. That is a building that means
+Scottish Rite's Southern Jurisdiction and completed in 1915, is modeled on the Mausoleum at
+Halicarnassus and is dense with deliberate symbolic program. That is a building that means
 something on purpose.
 
 But it is also the headquarters of the body Albert Pike had led, built by the most
@@ -2906,7 +2906,7 @@ fail.
 
 Which raises the question this part of the book has to answer eventually, and which Chapter
 45 will take up: **does a symbolic instruction with no external criterion change anyone's
-behaviour?**
+behavior?**
 
 Before that there are the instruments themselves — a set of objects from a workman's bag
 that were converted, at a datable moment, into a complete ethical vocabulary.
@@ -2917,7 +2917,7 @@ that were converted, at a datable moment, into a complete ethical vocabulary.
 
 [^1]: On the Detroit Masonic Temple (George D. Mason, 1926), see the standard architectural
 literature and the building's own records. **[SOURCE VERIFICATION REQUIRED — the figures for
-rooms, theatre capacity and storeys are widely repeated and should be verified against a
+rooms, theater capacity and stories are widely repeated and should be verified against a
 primary source before publication.]**
 
 [^2]: William Preston, *Illustrations of Masonry* (London, 1772 and later editions). The
@@ -2931,7 +2931,7 @@ North Carolina Press, 1996), and William Preston Vaughn, *The Antimasonic Party 
 United States, 1826–1843* (Lexington: University Press of Kentucky, 1983).
 
 [^4]: On the House of the Temple (John Russell Pope, completed 1915) and its symbolic
-programme, see the Supreme Council's own publications and James Stevens Curl, *The Art and
+program, see the Supreme Council's own publications and James Stevens Curl, *The Art and
 Architecture of Freemasonry* (London: Batsford, 1991). **[PAGE VERIFICATION REQUIRED.]**
 
 [^5]: On the twentieth-century decline in American Masonic membership, see the Grand Lodge
@@ -2947,7 +2947,7 @@ On the pedestals of most lodges there are two stones.
 
 One is irregular — as it comes from the quarry, with rough faces and no true angle. The
 other is squared: six flat faces, right angles, ready to be laid into a wall and bedded true
-against its neighbours.
+against its neighbors.
 
 They are a teaching aid. The candidate is told, in language that varies by jurisdiction but
 not in substance, that the first represents him as he is and the second as he may become,
@@ -2972,7 +2972,7 @@ the rough ashlar.
 Which means he occupies, simultaneously, the position of the craftsman and the position of
 the material.
 
-I want to take this slowly, because it is the structural centre of the whole system and it
+I want to take this slowly, because it is the structural center of the whole system and it
 is easy to read past as a pleasant metaphor.
 
 A stone does not shape itself. That is the entire logic of masonry: the material is inert
@@ -3089,7 +3089,7 @@ now that complicates the criticism.
 **An instruction without a criterion is not necessarily an instruction without an effect.**
 A man who has been told, in circumstances he will remember for fifty years, that he is
 unfinished material and that the tools are in his hands, has been given a self-description.
-Self-descriptions do things. Whether they do enough to show up in behaviour is the question
+Self-descriptions do things. Whether they do enough to show up in behavior is the question
 Chapter 45 is for, and the answer there is more equivocal than either the Craft's defenders
 or its critics would like.
 
@@ -3129,13 +3129,13 @@ preceding volume and is not re-argued here.
 # CHAPTER FOURTEEN
 ## The Square and the Compasses
 
-It is the most widely recognised emblem in this book and possibly the most widely recognised
+It is the most widely recognized emblem in this book and possibly the most widely recognized
 emblem in the world that is not a national flag or a corporate logo. It is on lodge doors in
 Accra and gravestones in Ohio, on rings and watch-fobs and the sides of buildings, and the
-overwhelming majority of people who recognise it could tell you only that it means
+overwhelming majority of people who recognize it could tell you only that it means
 Freemasons.
 
-Two draughtsman's instruments, interlocked, sometimes with a letter between them.
+Two draftsman's instruments, interlocked, sometimes with a letter between them.
 
 This chapter is not about where they came from — the previous volume dated the layers and
 the finding was that everything documented is craft-derived or biblical and everything
@@ -3213,7 +3213,7 @@ encountered it in a ceremony designed to make it memorable.
 Freemasonry's structural peculiarity. There is no Masonic magisterium. Nobody has ever been
 authorised to say what the square means. Anderson's *Constitutions* of 1723 removed
 doctrinal authority from the institution in order to admit men of different religions, and
-the consequence — probably unintended — was that it could never afterwards adjudicate an
+the consequence — probably unintended — was that it could never afterward adjudicate an
 interpretation of anything.
 
 **A symbol under those three conditions accumulates. It cannot do anything else.**
@@ -3306,7 +3306,7 @@ a sacred letter, not a cosmic diagram — the contents of a workman's bag.
 **Its ethics are verificationist.** The instruments test. The moral system carried by them
 is one of conformity to an external standard indifferent to the person being tested.
 
-**And it was content to be legible.** An organisation seriously concerned with concealment
+**And it was content to be legible.** An organization seriously concerned with concealment
 does not put its emblem on the front of its buildings, its members' gravestones and its
 letterhead.
 
@@ -3353,7 +3353,7 @@ and compasses do not, and the difference is worth the chapter.
 A level tells you whether a surface is horizontal. That is its entire function.
 
 The Masonic interpretation is equality — that we meet on the level, that the level reminds
-us we are descended from the same stock and are travelling to the same destination, and that
+us we are descended from the same stock and are traveling to the same destination, and that
 distinctions of rank are laid aside within the lodge.[^1]
 
 The word did real work in the eighteenth century. English lodges contained men who would not
@@ -3381,15 +3381,15 @@ Masonry, although they were being initiated in Masonic-form ritual in France fro
 Anderson's requirement that a candidate be "free-born" was a relic of guild qualification in
 England and became, transplanted to a slave society, an instrument for excluding formerly
 enslaved men. African Lodge No. 459 in Boston was warranted from England in 1784 and American
-Masonic bodies declined to recognise Prince Hall Masonry for the better part of two
+Masonic bodies declined to recognize Prince Hall Masonry for the better part of two
 centuries, on jurisdictional grounds that were applied to no other case with the same
-rigour.[^2]
+rigor.[^2]
 
 So: a genuine and unusual claim about equality, administered by people with a much narrower
 view of who counted than the claim implies.
 
 That is not hypocrisy exactly. It is a universalist formula stated in advance of anybody's
-willingness to honour it — and the people it excluded picked it up and held the institution
+willingness to honor it — and the people it excluded picked it up and held the institution
 to it, which is a substantial part of why the language mattered.
 
 ---
@@ -3551,7 +3551,7 @@ of admission, and in many cases ceremonies with more elaborate horseplay than an
 Masonic lodge.
 
 None of them produced a philosophy. None of them was adopted by dukes. None of them became
-the organisational template for the entire Western esoteric tradition.
+the organizational template for the entire Western esoteric tradition.
 
 The masons did. And the previous volume's answer to why — that masonry was the one trade
 with a liberal science attached to it — is correct as far as it goes and stops one step too
@@ -3598,7 +3598,7 @@ century had recently finished killing large numbers of people over which parts t
 long pedigree.
 
 *Natural history* observes, and observation in 1720 was a matter of testimony — did you
-believe the traveller who reported the animal?
+believe the traveler who reported the animal?
 
 *Geometry does none of these.* It demonstrates. A proof is not an assertion backed by
 authority, not an argument that might be answered, and not a report you must take on trust.
@@ -3635,7 +3635,7 @@ geometry and what could be built on it.
 So the Craft's adoption of geometry as its sacred science is not a mystical preference. It is
 the logically forced consequence of Anderson's religious settlement. Having ruled out
 everything men disagree about, the institution was left with the one discipline where
-agreement is compelled rather than negotiated — and it made that discipline the centre of its
+agreement is compelled rather than negotiated — and it made that discipline the center of its
 symbolism, its moral vocabulary and its self-description.
 
 ---
@@ -3652,14 +3652,14 @@ in London. The historian Ric Berman has traced the network in detail, and it is 
 and Whig network before it is anything else.[^3]
 
 Newton had shown, within living memory, that the heavens obey mathematics — that the universe
-is, literally, a geometrical object with calculable behaviour.
+is, literally, a geometrical object with calculable behavior.
 
-In that world a fraternity organised around geometry was not archaic. It was the most modern
+In that world a fraternity organized around geometry was not archaic. It was the most modern
 thing available.
 
-This matters because Masonry is habitually read backwards through its nineteenth-century
+This matters because Masonry is habitually read backward through its nineteenth-century
 occult interpreters, who found in the square and compasses a cosmic symbolism of enormous
-antiquity. The men of the 1720s were not looking backwards to Egypt. They were looking at the
+antiquity. The men of the 1720s were not looking backward to Egypt. They were looking at the
 *Principia*. When they called God the Great Architect of the Universe, the most natural
 reading is not that they had recovered a Hermetic doctrine. It is that they had read Newton
 and thought the universe looked designed.
@@ -3819,13 +3819,13 @@ constructed, which is why they are the same four that every geometrical traditio
 culture has used, and why their appearance in two traditions tells you nothing whatever.
 
 **The point.** Position without magnitude, in Euclid's definition. The origin of everything
-constructible and itself unconstructible. In Masonic usage: the individual, the centre, the
+constructible and itself unconstructible. In Masonic usage: the individual, the center, the
 place from which the work proceeds.
 
 **The line.** Extension in one dimension. In Masonic usage: direction, and the connection of
 two points.
 
-**The circle.** Everything equidistant from a centre. In Masonic usage: boundary, and the
+**The circle.** Everything equidistant from a center. In Masonic usage: boundary, and the
 extent within which a man should keep himself.
 
 **The square.** The figure that closes, has four equal angles, and stands.
@@ -3854,7 +3854,7 @@ support.
 meaning, that meaning is probably its meaning. When it has seven, offered by different
 authors in different centuries with no agreement between them, the most likely explanation is
 that **the figure arrived without an interpretation and the interpretations were supplied
-afterwards, independently, by people who felt something ought to be said.**
+afterward, independently, by people who felt something ought to be said.**
 
 That is not a cynical reading. It is what Chapter 14 described as the ordinary process by
 which an undefined symbol in a non-doctrinal institution accumulates sediment. The point
@@ -3885,7 +3885,7 @@ a wheel, a cycle. This is the cheapest kind and the most promiscuous — resembl
 everywhere and constrains nothing.
 
 **Structural meaning.** The figure has a property, and the property is the meaning. A circle
-*has* a boundary and a centre, and everything on it is equidistant from that centre. If you
+*has* a boundary and a center, and everything on it is equidistant from that center. If you
 use a circle to say something about inclusion or about a standard applying equally, you are
 using the structure rather than the appearance, and the meaning is constrained by the
 geometry rather than by free association.
@@ -3942,7 +3942,7 @@ It has a name. It has a documented Masonic appearance in a specific printed book
 specific year. It is a *theorem* rather than an emblem — a thing with a proof, which can be
 right or wrong.
 
-And it was put at the centre of Masonic self-description by the man who wrote the
+And it was put at the center of Masonic self-description by the man who wrote the
 *Constitutions*, in 1723, in a sentence that has been quoted, half-quoted, misquoted and
 built upon for three hundred years.
 
@@ -3989,7 +3989,7 @@ This is a *proposition*: a claim that can be proved, that is either true or fals
 has been demonstrated in more than three hundred different ways over two and a half
 millennia.
 
-And it has been at the centre of Masonic self-description since 1723, which makes it both
+And it has been at the center of Masonic self-description since 1723, which makes it both
 the best-documented symbol in this book and the one most thoroughly encrusted with claims it
 cannot support.
 
@@ -4154,7 +4154,7 @@ will be true after every lodge in the world has closed. Nothing about it depends
 tradition, transmission, authority or belief.
 
 And in a symbolic system otherwise composed entirely of things that mean whatever their
-holders take them to mean, the Craft placed at its centre — and on the jewel of the man who
+holders take them to mean, the Craft placed at its center — and on the jewel of the man who
 has completed his term in the chair — the one object in the building that is not a matter of
 interpretation at all.
 
@@ -4283,7 +4283,7 @@ Renaissance architectural theory genuinely did hold that proportion carried mean
 the harmonic ratios of music, the proportions of the human body, and the dimensions of
 well-made buildings expressed a single order. Rudolf Wittkower's *Architectural Principles in
 the Age of Humanism* established the scholarship on this, and it is not esoteric: it was
-mainstream theory, taught and practised.[^1]
+mainstream theory, taught and practiced.[^1]
 
 Villalpando's reconstruction of the Temple, which supplied Europe's visual idea of it, is
 explicitly a proportional argument — the claim being that the Temple's proportions were
@@ -4356,7 +4356,7 @@ belief. Those properties, transferred to conduct, are the whole moral architectu
 Craft.
 
 **And it took a vocabulary of shapes that crosses languages.** A square is a square in every
-tongue, which is why the system travelled.
+tongue, which is why the system traveled.
 
 The numbers are prosaic. The proportional tradition did not come in. The Great Architect is a
 vacancy.
@@ -4635,13 +4635,13 @@ VERIFICATION REQUIRED.]**
 
 On a first-degree tracing board there is a star.
 
-It is usually five-pointed, usually in the centre or above, usually radiant. It is called the
+It is usually five-pointed, usually in the center or above, usually radiant. It is called the
 Blazing Star, and it is among the most prominent images in Masonic visual culture.
 
 The Craft's own sources cannot agree on what it means.
 
 It has been explained as Providence; as the sun; as the star that guided the Magi; as the
-glory at the centre; as prudence; as the Deity. Different eighteenth- and nineteenth-century
+glory at the center; as prudence; as the Deity. Different eighteenth- and nineteenth-century
 authorities give different answers, and several give more than one.[^1]
 
 That inconsistency is not a defect in the record. It is the evidence, and this chapter is
@@ -4671,7 +4671,7 @@ it, so nobody invented a rival.
 **Anchored symbols produce agreement. Unanchored symbols produce literature.**
 
 By that test the Blazing Star arrived as a decorative or compositional element — stars are
-what one puts in the upper part of an emblematic design — and acquired meanings afterwards,
+what one puts in the upper part of an emblematic design — and acquired meanings afterward,
 in the ordinary way.
 
 ---
@@ -4716,7 +4716,7 @@ The Blazing Star is usually, though not invariably, drawn with five points, and 
 five-pointed star is also the form of the pentagram used in ceremonial magic. The inference
 drawn from this is immediate and appears in book after book.
 
-It should not be drawn, for three reasons that are worth setting out because they generalise.
+It should not be drawn, for three reasons that are worth setting out because they generalize.
 
 **The form is not distinctive.** A five-pointed star is among the small number of shapes
 producible by an untrained hand in a single continuous stroke, and it appears independently
@@ -4752,7 +4752,7 @@ Western culture so completely that it is now impossible to see the figure withou
 
 This matters for Freemasonry in a specific way. The Blazing Star was in Masonic use for more
 than a century before Lévi wrote, with the various vague Providential meanings listed above,
-and no orientation doctrine whatever. The pentagram reading arrives afterwards and reaches
+and no orientation doctrine whatever. The pentagram reading arrives afterward and reaches
 Masonry principally through Albert Pike, who took a great deal from Lévi without attribution
 and whose *Morals and Dogma* of 1871 was given to Scottish Rite initiates for a century.
 
@@ -4890,7 +4890,7 @@ Bibles, in emblem books, on pulpits, above altars. The triangle signifies the Tr
 radiance signifies glory. The eye signifies that God sees.
 
 It was in use across Catholic and Protestant Europe for two centuries before anyone put one
-on a Masonic document, and it continued in ordinary devotional use long afterwards. You can
+on a Masonic document, and it continued in ordinary devotional use long afterward. You can
 find it today on eighteenth-century parish churches in England whose builders had no
 connection to any lodge.
 
@@ -4982,12 +4982,12 @@ God is *Dieu*, which does not.
 So French Masonic sources supply alternatives. *Gloire*. *Grandeur*. *Génie*. The letter was
 retained and new meanings were found to justify it.[^2]
 
-**That is precisely backwards from how an ancient symbol behaves.** A symbol carrying
+**That is precisely backward from how an ancient symbol behaves.** A symbol carrying
 inherited meaning arrives with its content and the content constrains its use. This one
 arrived as a *shape* and had to have content supplied locally, in each language, to explain
 why it was there.
 
-The letter travelled as a letter. The meanings were improvised behind it.
+The letter traveled as a letter. The meanings were improvised behind it.
 
 ### The overlay
 
@@ -5041,7 +5041,7 @@ originally meant.**
 Which is a useful thing to know when reading about any tradition, and it will be the
 operating principle of Chapter 38.
 
-We are done with the daylight symbols now. What remains at the centre of Freemasonry is a
+We are done with the daylight symbols now. What remains at the center of Freemasonry is a
 murder.
 
 ---
@@ -5131,7 +5131,7 @@ person, while men he knows conduct a search for a body that is his.
 I want to be careful about what I claim here, and the claim is deliberately narrow.
 
 **I do not know what that is like, and neither does anybody writing about it.** There is no
-adequate first-person account. The few descriptions we have were written afterwards, by men
+adequate first-person account. The few descriptions we have were written afterward, by men
 using the vocabulary the ceremony had just given them, which is the standard problem with
 initiatory testimony and is close to insurmountable.
 
@@ -5139,7 +5139,7 @@ What can be said is structural, and it is enough to be going on with.
 
 **He is not representing a dead man. He is doing what a dead man does**, which is nothing,
 while others act. The distinction between playing a part and occupying a position is the
-distinction between theatre and ritual, and this ceremony sits on the line: there is a script
+distinction between theater and ritual, and this ceremony sits on the line: there is a script
 and there are roles, and yet the protagonist has not read the script and is not acting.
 
 **The passivity is total and it is the only moment in the ceremony where it is.** Everywhere
@@ -5222,11 +5222,11 @@ and does not affect the argument. The question is not why the plot required the 
 three centuries. A legend in which the word is recovered was equally constructible — the
 Royal Arch constructed one within twenty years. The Craft kept the version that withholds.
 
-**"This over-reads a piece of tavern theatre."** The degree was performed, in its early
+**"This over-reads a piece of tavern theater."** The degree was performed, in its early
 decades, by amateurs in upper rooms with improvised properties, and treating it as a
 considered piece of ritual engineering may be dignifying something that was assembled for
 effect. The objection has force, and the answer to it is the one Chapter 6 gives: what
-matters for this book is not the sophistication of the makers but the behaviour of the
+matters for this book is not the sophistication of the makers but the behavior of the
 result. A device can be built carelessly and still work, and three centuries of continuous
 use is the relevant evidence about whether this one does.
 
@@ -5363,7 +5363,7 @@ the phenomenon in detail: hundreds of grades, most now lost, composed by identif
 in identifiable decades.
 
 Look at what they are *about*. The Elect degrees pursue and punish the murderers. The Royal
-Arch recovers the lost name. The Rose-Croix supplies a Christological fulfilment in which
+Arch recovers the lost name. The Rose-Croix supplies a Christological fulfillment in which
 the Word is the Word made flesh. The Templar degrees provide a continuing order that
 preserved what was hidden.
 
@@ -5441,7 +5441,7 @@ I find that last point genuinely admirable, and I want to register that it cuts 
 grain of everything else this book has found. An institution that manufactured an antique
 pedigree for itself, that absorbed whatever interpretation was poured into it, and that
 generated three centuries of speculative literature — nevertheless placed, at its own
-summit, a formal acknowledgement that the answer is not in its possession.
+summit, a formal acknowledgment that the answer is not in its possession.
 
 ---
 
@@ -5512,7 +5512,7 @@ work before this chapter is finalised.]**
 [^3]: On the eighteenth-century proliferation of high degrees and their character as answers
 to the third degree, see the preceding volume.
 
-[^4]: On the divine Name, its concealment and the substitution practised in reading, see
+[^4]: On the divine Name, its concealment and the substitution practiced in reading, see
 Gershom Scholem, *Major Trends in Jewish Mysticism* (New York: Schocken, 1946), and Joseph
 Dan, *Kabbalah: A Very Short Introduction* (New York: Oxford University Press, 2006).
 
@@ -5628,7 +5628,7 @@ disagreement principle applies: had they intended a doctrine, they would probabl
 recorded one.
 
 What can be said without interpretation is structural, and the structure is consistent.
-**In a system organised around what is not given, the one thing given is another person.**
+**In a system organized around what is not given, the one thing given is another person.**
 Whether that was designed, arrived at, or is an artefact of the fact that somebody has to
 get the candidate up, the arrangement is what it is — and Chapter 47's argument that the
 Craft's measurable effects are the social ones rather than the private ones begins here.
@@ -5658,7 +5658,7 @@ a promise given and a hand taken, and that the second is the last thing that hap
 
 ### The comparative question, properly posed
 
-There is a legitimate comparative enquiry here and it is worth distinguishing from the
+There is a legitimate comparative inquiry here and it is worth distinguishing from the
 illegitimate one.
 
 **Illegitimate:** Masonry's raising resembles Osiris, therefore Masonry descends from Egypt.
@@ -5768,7 +5768,7 @@ enormous material culture, and Freemasonry's participation in it is unremarkable
 Skulls on tombs. The hourglass and scythe on eighteenth-century gravestones, thousands of
 which survive in English and American churchyards. The *vanitas* still life, with its guttering
 candle and its bubble and its decaying fruit. The danse macabre. The death's-head ring. The
-memorial mourning jewellery of the Georgian period, which was a substantial industry.
+memorial mourning jewelry of the Georgian period, which was a substantial industry.
 
 A culture with high mortality, public funerals, and a theological framework in which the hour
 of death was the decisive moment of a life produced these objects constantly, and
@@ -5841,7 +5841,7 @@ as the square and the plumb — and what they measure is time remaining.
 The hourglass does not say that you will live again. It says that a quantity is running out
 and cannot be refilled. The scythe does not say that the harvest is gathered in; it says that
 the cut is coming. The twenty-four-inch gauge, which is a working tool rather than a
-mortality emblem, is explained as dividing the day into portions for labour, refreshment and
+mortality emblem, is explained as dividing the day into portions for labor, refreshment and
 service — which is to say, as an instrument for allocating a resource that is finite.
 
 **Read as a set, the Craft's death symbolism is not about the afterlife. It is about the
@@ -5867,7 +5867,7 @@ should consider his own.
 
 **What is he rehearsing?**
 
-Not immortality: the ceremony makes no promise. Not judgement: nothing is weighed.
+Not immortality: the ceremony makes no promise. Not judgment: nothing is weighed.
 
 He is rehearsing *being absent while other people continue*. That is what the minutes on the
 floor consist of: the lodge proceeding in his absence, about him, searching for him. He hears
@@ -5929,7 +5929,7 @@ Bullock, *Revolutionary Brotherhood* (Chapel Hill: University of North Carolina 
 historical literature. **[SOURCE VERIFICATION REQUIRED.]**
 
 [^4]: The interpretation of the twenty-four-inch gauge varies by jurisdiction; the division
-of the day into portions for labour, refreshment and service is the common English form.
+of the day into portions for labor, refreshment and service is the common English form.
 
 [^5]: On the acacia and its identification with the shittim wood of Exodus 25, see the
 preceding volume.
@@ -6013,7 +6013,7 @@ this is the manipulation of properties, not traffic with persons. He was nervous
 anyway.
 
 **1533 — Agrippa.** Three books: natural, celestial, ceremonial. *Magia* is philosophy
-completed — the study of nature in its lower storey, the heavens in its middle, and the
+completed — the study of nature in its lower story, the heavens in its middle, and the
 divine in its upper. And Book Three crosses Ficino's line, addressing angels and
 intelligences by name.
 
@@ -6200,7 +6200,7 @@ else in the Western esoteric inheritance does.
 
 **It converts a purpose into a procedure.** A practitioner with an aim — healing, protection,
 an intellectual operation — looks up the corresponding column and finds the hour, the metal,
-the plant, the colour, the name. The table tells him what to assemble. Without it he would
+the plant, the color, the name. The table tells him what to assemble. Without it he would
 have to invent, and invention has no authority.
 
 **It makes rituals composable.** Because every element is indexed to the same structure, a
@@ -6210,7 +6210,7 @@ matters most, and it is rare. Most ritual traditions transmit *specific* ceremon
 correspondence system transmits a grammar.
 
 **And it is a memory system.** This is the property least often noticed and, I suspect, the
-most historically important. A table organises an enormous quantity of heterogeneous material
+most historically important. A table organizes an enormous quantity of heterogeneous material
 — names, plants, metals, hours, angels — into a small number of columns anchored to figures
 everyone already knows. That is exactly the structure of the classical art of memory, and it
 is why the material survived: it was storable.
@@ -6222,7 +6222,7 @@ is why the material survived: it was storable.
 The preceding volume established the transmission and I will not re-argue it: Agrippa
 drafted around 1510, published in 1533; an English translation appeared in 1651; the work
 remained in the second-hand trade for two centuries; and in the 1880s it was on the shelves
-of William Wynn Westcott's Hermetic library of two hundred and eighty-six items, catalogued
+of William Wynn Westcott's Hermetic library of two hundred and eighty-six items, catalogd
 by Alison Butler.[^2]
 
 From there it entered the Golden Dawn's system of attributions, and from there Crowley's
@@ -6231,7 +6231,7 @@ From there it entered the Golden Dawn's system of attributions, and from there C
 **Availability is not transmission**, and the difference matters here in a specific way. The
 same books were equally available to Freemasons for the same two centuries. They did not
 enter Masonic ritual. The exposures of 1723 to 1762 contain no correspondences, no planetary
-hours, no angelic names, no metals, no colours.
+hours, no angelic names, no metals, no colors.
 
 Two traditions, one library, and only one of them took the tables.
 
@@ -6330,7 +6330,7 @@ depend on the observation that instruments of measurement do not consult the per
 measured — which remains true, and will go on being true.
 
 The Craft built its one correspondence system out of the only material that could not be
-falsified: the behaviour of a carpenter's square.
+falsified: the behavior of a carpenter's square.
 
 ---
 
@@ -6344,11 +6344,11 @@ And the tool's real achievement is worth stating without condescension, because 
 cosmology's falsity has tended to obscure it.
 
 Somebody, working across fifteen centuries, built a system in which every element of a vast
-inherited symbolic vocabulary — gods, plants, metals, hours, numbers, letters, colours,
+inherited symbolic vocabulary — gods, plants, metals, hours, numbers, letters, colors,
 cards — could be located on a single structure and combined with any other element with
 guaranteed consistency.
 
-That is a serious intellectual artefact. It organises more material than any other structure
+That is a serious intellectual artefact. It organizes more material than any other structure
 in Western esotericism, it is learnable, it is generative, and it has been in continuous
 practical use for five hundred years.
 
@@ -6429,7 +6429,7 @@ theology written by and for a people who had been expelled from Spain within liv
 selected techniques.
 
 **Hermetic Qabalah** — the system of the Golden Dawn and after, which adds tarot attributions,
-elemental and planetary mappings, colour scales and a grade structure, **none of which has
+elemental and planetary mappings, color scales and a grade structure, **none of which has
 any Jewish precedent.**
 
 They are connected by a real lineage and they are not the same thing. Anyone who tells you
@@ -6465,7 +6465,7 @@ determinate and standing in a defined relation to the ones before — the Tree w
 object in the entire Western inheritance with the right shape.
 
 They mapped the grades onto the Sephiroth. Neophyte at the bottom, ascending. Each grade
-carries its sphere's attributions, its colours, its elements, its tarot cards.
+carries its sphere's attributions, its colors, its elements, its tarot cards.
 
 The result is the most complete initiatory architecture ever constructed in the West, and
 it was assembled in London in the 1880s out of a Latin anthology of 1677 and a set of
@@ -6546,7 +6546,7 @@ If it were independently arrived at, we should expect what convergence always le
 structure without the arbitrary detail. A recovery-of-the-Name narrative can be constructed
 from the biblical and post-biblical material available to any educated Protestant of the
 period, without contact with Jewish mystical tradition at all, and the fact that the degree's
-apparatus is architectural and vault-centred rather than sefirotic is weak evidence in that
+apparatus is architectural and vault-centerd rather than sefirotic is weak evidence in that
 direction.
 
 **Where this study leaves it.** Neither has been established. The route has not been found and
@@ -6579,7 +6579,7 @@ centuries of learned practice behind it.
 A set of procedures flexible enough to transform any word into a related word will, applied
 to a large enough body of material, produce meaningful-looking results from anything at all.
 The techniques' legitimacy within their own tradition — where they operate under constraints
-of community, canon and rabbinic judgement — does not transfer to their use by an
+of community, canon and rabbinic judgment — does not transfer to their use by an
 enthusiast with a Masonic word and an afternoon.
 
 Chapter 38 runs the test. Here it is enough to state the rule: **the reality of a technique
@@ -6591,7 +6591,7 @@ is not evidence for any particular result obtained with it.**
 
 Not a doctrine that Freemasonry absorbed. It absorbed none.
 
-A *map* — with enough structure to organise a graded ascent, which no other object in the
+A *map* — with enough structure to organize a graded ascent, which no other object in the
 European inheritance possessed — which was attached to a Masonic ceremonial form in London
 in 1888 by three Freemasons working from a Latin book of 1677 and an English translation of
 1887.
@@ -6889,7 +6889,7 @@ three things become visible that could not be seen from inside Freemasonry alone
 
 **Grading is forced.** It appears in Mithraism, the guilds, the military, the professions,
 Masonry and every occult order — and it appears because competence has to be taught in
-sequence and because organisations need internal differentiation. The Neoplatonic cosmology
+sequence and because organizations need internal differentiation. The Neoplatonic cosmology
 of Chapter 29 supplies a *justification* for grading; it does not supply the practice, which
 arises wherever anyone teaches anything difficult.
 
@@ -6952,7 +6952,7 @@ Incorporation with the apron, the place, the new form of address.
 
 **And the fit is a fit, not a discovery.**
 
-Van Gennep was generalising from ethnographic reports that did not include eighteenth-century
+Van Gennep was generalizing from ethnographic reports that did not include eighteenth-century
 England. Turner built his account on Ndembu material in central Africa. Neither had a London
 tavern in mind. When their schema describes Masonic initiation well, what has been shown is
 that a general pattern accommodates an instance — which is what general patterns are for, and
@@ -7015,7 +7015,7 @@ The first two make it hard to classify. The third makes it hard to study, becaus
 that probably matters most is the thing no model describes.
 
 Which leaves the question of what a symbol actually *is* — how a piece of metal or a
-geometric figure or a word comes to carry enough weight that people organise their lives
+geometric figure or a word comes to carry enough weight that people organize their lives
 around it.
 
 ---
@@ -7042,7 +7042,7 @@ VERIFICATION REQUIRED throughout.]**
 position, not as authority; the universalist reading it represents is not supported by the
 current scholarship on the ancient material.
 
-[^5]: On the documented descent of the Masonic degree sequence from guild organisation, see
+[^5]: On the documented descent of the Masonic degree sequence from guild organization, see
 the preceding volume.
 
 
@@ -7057,7 +7057,7 @@ You can buy one. It costs very little. It has no properties beyond the geometric
 nothing in the absence of a person using it, and if you leave it in a drawer for a century it
 will be a piece of metal bent at ninety degrees when you take it out.
 
-And men have organised their lives around it.
+And men have organized their lives around it.
 
 This chapter asks how that is possible — what has to be true about an object, and about the
 people using it, for a hand tool to become something a person would decline to betray.
@@ -7135,14 +7135,14 @@ three conditions.
 **A concrete object with a function.** The anchor. Every layer of meaning the square carries
 is a variation on *testing*: testing an angle, testing conduct, testing a man against a
 standard. Six hundred years of use and the meanings never wandered from the instrument's
-behaviour.
+behavior.
 
 **Prolonged use by many people.** Three centuries, millions of members, each encountering the
 object in a ceremony designed to make it memorable.
 
 **An institution that declines to fix the meaning.** Anderson removed doctrinal authority in
 1723 in order to admit men of different religions, and the consequence — very likely
-unintended — was that the Craft could never afterwards adjudicate an interpretation.
+unintended — was that the Craft could never afterward adjudicate an interpretation.
 
 Under those three conditions a symbol accumulates and cannot do otherwise. New readings are
 added; old ones are almost never removed; and a modern Mason may hold four of the eight
@@ -7237,7 +7237,7 @@ the journal of that name — has argued against treating religious objects as ve
 ideas held elsewhere. On that older account, a symbol is a container: the meaning is in the
 mind and the object merely refers to it.
 
-The material-religion argument is that this gets the relation backwards. Objects are not
+The material-religion argument is that this gets the relation backward. Objects are not
 illustrations of beliefs; they are part of how belief is constituted, sustained and
 transmitted. What people do with things — handle them, wear them, arrange them, look at them
 — is not secondary to what they think.[^2]
@@ -7323,7 +7323,7 @@ it for an hour.
 Start with the problem, because the achievement is invisible until the problem is stated.
 
 A man arrives at a lodge in 1740 carrying a life. He has a business with debts in it. He has
-a wife, or does not and minds. He has a pain in his back, a dispute with a neighbour, a
+a wife, or does not and minds. He has a pain in his back, a dispute with a neighbor, a
 letter he has not answered, and an opinion about the government. His attention, in ordinary
 conditions, is distributed across all of that continuously and involuntarily.
 
@@ -7368,7 +7368,7 @@ Five confiscations, and what remains is a man with nothing to attend to except t
 
 ### Attention as a ritual currency
 
-I want to generalise this, because I think it is the most portable finding in the book.
+I want to generalize this, because I think it is the most portable finding in the book.
 
 Ritual traditions differ enormously in doctrine, in geography and in history, and they
 converge with remarkable consistency on a small set of techniques. Fasting. Darkness.
@@ -7570,7 +7570,7 @@ ad Herennium*, in Cicero and in Quintilian, and it was standard equipment for an
 to speak at length without notes.
 
 **The Renaissance elaboration.** By the sixteenth century the technique had grown enormously
-ambitious. Giulio Camillo built a memory theatre. Giordano Bruno proposed systems in which
+ambitious. Giulio Camillo built a memory theater. Giordano Bruno proposed systems in which
 the imagined building was the cosmos and the images were drawn from astrological and magical
 correspondence, so that mastering the memory system would be mastering the structure of
 reality. Frances Yates traced this development in *The Art of Memory* in 1966, and it is one
@@ -7586,7 +7586,7 @@ the point at which something more than stonecutting enters the craft.
 **I think it is probably the first**, and the preceding volume set out why. The surrounding
 clauses of the statute are about apprenticeship terms and fines. The lodge's business was a
 trade. And the thing a mason actually needed to hold in his head — the catechism, the
-questions and answers by which he could be recognised — is precisely what the ordinary
+questions and answers by which he could be recognized — is precisely what the ordinary
 mnemonic art existed to serve.
 
 **Verdict: plausible, suggestive, unproved**, and it stays unproved because the statute does
@@ -7615,7 +7615,7 @@ Four hundred and twenty-seven years of an institution testing its members on rec
 
 ### Why this is the durable design decision
 
-Chapter 7 argued that memorised transmission makes the Craft's knowledge constitutively
+Chapter 7 argued that memorized transmission makes the Craft's knowledge constitutively
 active — that you cannot be a lapsed holder of it the way you can be a lapsed owner of a
 creed. This chapter presses the point further, because the consequences are larger than I
 first saw.
@@ -7705,7 +7705,7 @@ has used it.**
 
 One last observation, which is not quite an argument.
 
-What the Craft actually preserved by all this — the memorisation, the examination, the
+What the Craft actually preserved by all this — the memorization, the examination, the
 four-century insistence on recall — is a catechism about a building that does not exist, a
 legend about a man who did not die, and a set of moral interpretations of carpenter's tools.
 
@@ -7790,7 +7790,7 @@ That is what changed. Everything else is inference.
 
 The social-psychological literature on group membership and self-concept is large and the
 general findings are not controversial: that categories which are made salient and are
-confirmed by others become self-descriptive, and that self-descriptions influence behaviour.
+confirmed by others become self-descriptive, and that self-descriptions influence behavior.
 
 The mechanisms are unglamorous. Repeated use of a category in address. Visible markers.
 Differential treatment by insiders and outsiders. Obligations attached to the category.
@@ -7898,7 +7898,7 @@ What it might produce instead:
 
 **A memory** — durable, dated, retrievable for fifty years. Well evidenced.
 
-**A set of obligations** — with documented behavioural consequences in charity, relief and
+**A set of obligations** — with documented behavioral consequences in charity, relief and
 mutual aid. Well evidenced.
 
 **A vocabulary** — the tools, the Temple, the level, the unfinished work — available for
@@ -8042,7 +8042,7 @@ Chapter 9 gave the mechanism and it belongs here in its proper place.
 
 **The Masonic secret is not a fact. It is a two-person procedure.**
 
-A catechism is half questions. A man alone who has memorised the whole thing possesses the
+A catechism is half questions. A man alone who has memorized the whole thing possesses the
 material and cannot perform it, in the way that a person who knows both parts of a duet still
 cannot sing a duet. To produce the knowledge, two people must agree to produce it together,
 each holding up his half, in the right order.
@@ -8069,9 +8069,9 @@ towns that held them. It processed in the streets in full regalia. It laid the c
 of public buildings in public, with the governor watching and the newspapers reporting. It
 buried its members in uniform, along the high street, in front of everyone.
 
-An organisation conducting a covert operation does not do these things.
+An organization conducting a covert operation does not do these things.
 
-And this is not a defence of Freemasonry so much as a description of what kind of object it
+And this is not a defense of Freemasonry so much as a description of what kind of object it
 is. **The Craft was never hiding its existence, its membership, its premises, its officers,
 its finances or its purposes.** All of that was public and much of it was ostentatious. What
 it withheld was an hour's ceremony and a set of recognition tokens — and it withheld those
@@ -8110,20 +8110,20 @@ The argument of this chapter is that Masonic secrecy works precisely because the
 content is slight, and the argument is strong enough that it should be tested where it
 predicts failure.
 
-If a thin secret is a functional secret, then organisations whose secrets are *thick* — where
+If a thin secret is a functional secret, then organizations whose secrets are *thick* — where
 real, consequential, checkable information is withheld — should behave differently, and they
 do.
 
 **A thick secret can be destroyed.** When the substance is genuine information, disclosure
 ends it. Intelligence services, commercial laboratories and criminal conspiracies all
-organise around this fact, and their security practices are correspondingly expensive:
+organize around this fact, and their security practices are correspondingly expensive:
 compartmentalisation, vetting, surveillance of members, sanctions that are real rather than
 symbolic.
 
 **Masonry does none of this**, and has never needed to. Its penalties are ceremonial and were
-recognised as such by the courts and by the members. Its membership is, in most jurisdictions
+recognized as such by the courts and by the members. Its membership is, in most jurisdictions
 and most periods, a matter of public record — regalia is worn in processions, lodge buildings
-are signposted, obituaries name membership. An organisation with something to lose by
+are signposted, obituaries name membership. An organization with something to lose by
 disclosure does not advertise its membership on gravestones.
 
 **And the historical test has been run.** Masonic ritual was published in 1730, repeatedly
@@ -8153,13 +8153,13 @@ That Diana Vaughan was an invention and her creator knew it. That the Cipher Man
 were compiled in the nineteenth century. That the tarot-Kabbalah system was assembled in the
 1850s.
 
-Every one of those concealments was practised by somebody claiming *to reveal* Masonic
+Every one of those concealments was practiced by somebody claiming *to reveal* Masonic
 secrets, or claiming an authority *derived* from Masonic structures.
 
 And every one was eventually exposed by ordinary documentary research — by people asking
 where the letter was, what the date was, who had held the manuscript.
 
-**The organisation accused of hiding everything hid very little, and did it badly. The people
+**The organization accused of hiding everything hid very little, and did it badly. The people
 accusing it, and the people claiming to inherit from it, hid a great deal, and did it well.**
 
 That asymmetry is the most useful thing a reader can take from this book into any other
@@ -8207,7 +8207,7 @@ European Masonry examined the Templar claim and set it aside for want of evidenc
 
 The preceding volume told that story as a case of manufactured antiquity. This chapter tells
 it as a case of something else, because the same sequence has happened so many times, in so
-many organisations, that it is better understood as a *structural property* than as a series
+many organizations, that it is better understood as a *structural property* than as a series
 of individual frauds.
 
 ---
@@ -8221,7 +8221,7 @@ sequence because the regularity is the point.
 Authority flows downward from whoever holds the higher grades. This works, and works well,
 and may work for decades.
 
-**Phase two. Ascent.** The organisation grows. Members advance. And some of them reach the
+**Phase two. Ascent.** The organization grows. Members advance. And some of them reach the
 top — where they discover that above the highest grade there is nothing except the people
 who issued it.
 
@@ -8283,7 +8283,7 @@ syllabus.
 **Retention.** A member who has received everything has no further reason to attend. A member
 who has received two-thirds has a reason next month.
 
-**Differentiation.** An organisation needs internal structure, and grades supply it without
+**Differentiation.** An organization needs internal structure, and grades supply it without
 requiring anybody to assess merit, which is contentious. Grades can be conferred on time
 served.
 
@@ -8368,7 +8368,7 @@ available*, and it is indistinguishable from the true one.
 This is the same structure as the unfalsifiable secret and it will be examined properly in
 Chapter 39, where it becomes a philosophical problem rather than an institutional one.
 
-Here I want to note only its practical consequence, which is that graded organisations are
+Here I want to note only its practical consequence, which is that graded organizations are
 extremely difficult to reform from within and extremely easy to hollow out. The mechanism
 that protects a genuine pedagogy from impatience protects an empty one from scrutiny, and
 from inside they are the same.
@@ -8378,8 +8378,8 @@ test this book has been applying since Chapter 5.
 
 **Produce the document.**
 
-Which is a good rule for organisations. It is a much harder rule to apply to a claim about a
-pattern — where there is no document, no superior and no organisation, only an arrangement of
+Which is a good rule for organizations. It is a much harder rule to apply to a claim about a
+pattern — where there is no document, no superior and no organization, only an arrangement of
 things that somebody says was put there on purpose.
 
 ---
@@ -8542,7 +8542,7 @@ The gematria test was arithmetic. Here is the same lesson in two dimensions, bec
 geometric version of this error is commoner than the numerical one and harder to see through.
 
 The procedure for discovering sacred geometry in a building goes like this. Obtain a plan.
-Identify significant points — corners, column centres, door thresholds, altar position. Draw
+Identify significant points — corners, column centers, door thresholds, altar position. Draw
 lines between some of them. Observe that certain of the lines meet at angles close to
 seventy-two degrees, or that certain distances stand close to the golden ratio, or that a
 pentagram can be fitted so that its vertices fall near five of the points.
@@ -8550,7 +8550,7 @@ pentagram can be fitted so that its vertices fall near five of the points.
 Every step in that procedure is a decision, and none of the decisions is constrained.
 
 **Which points count as significant?** A medieval church offers hundreds — every pier, every
-respond, every boss, the corners of every bay, the centre of every window. A modern
+respond, every boss, the corners of every bay, the center of every window. A modern
 supermarket car park offers just as many: light standards, drainage gullies, the corners of
 the painted bays, the entrance gates.
 
@@ -8572,7 +8572,7 @@ it resembles a surveyed plan rather than a perfect abstraction. Nothing was desi
 It is a grid.
 
 I then searched for a regular pentagram whose five vertices fall on lattice points. Four
-hundred thousand random placements of centre, radius and rotation were tried, and the best
+hundred thousand random placements of center, radius and rotation were tried, and the best
 was refined by local optimisation.
 
 **Result: a pentagram whose five vertices land on five lattice points with a maximum
@@ -8609,7 +8609,7 @@ accommodate a result, you have stopped testing and started fitting.
 CHIRAM and HURAM, and reports only the spelling that worked, has made three attempts and
 reported one. Keep a log. The log will be embarrassing, which is what it is for.
 
-**Build the control first.** Not afterwards, when the exciting result is already in hand and
+**Build the control first.** Not afterward, when the exciting result is already in hand and
 the control has become an obstacle to it. Choose the control corpus before you know what the
 real corpus will yield. I chose the root vegetables before computing a single value, and I
 recommend the practice precisely because I did not enjoy the outcome.
@@ -8642,13 +8642,13 @@ Hebrew Bible itself — Sheshach for Babel at Jeremiah 25:26 — and is a genuin
 Jewish exegesis.
 
 **Gematria, notarikon and temurah are real**, with centuries of learned practice behind them,
-operating within a tradition that had a canon, a community and rabbinic judgement to
+operating within a tradition that had a canon, a community and rabbinic judgment to
 constrain results.
 
 **And there is no evidence whatever that any of these carried Masonic doctrine.** The Craft's
 secrecy was oral and performative, not cryptographic. The exposures show plain language. A
 tradition that could not keep its catechism out of the newspapers for seven years was not
-running an encryption programme.
+running an encryption program.
 
 **The rule: the reality of a technique is not evidence for any particular result obtained
 with it.** Hammers exist. That does not make every hole a hammer-blow.
@@ -8706,7 +8706,7 @@ and Joseph Dan, *Kabbalah: A Very Short Introduction* (New York: Oxford Universi
 
 [^4a]: **The pentagram fitting described above was performed by the author.** A 12 × 8
 lattice of 96 points with uniform jitter of ±0.03 units was generated; 400,000 random
-placements of a regular pentagram (centre, circumradius, rotation) were tested for vertices
+placements of a regular pentagram (center, circumradius, rotation) were tested for vertices
 falling within 0.5 units of a lattice point; the best was refined by local optimisation. The
 reported figure — maximum vertex deviation 0.20 units, 5.7 per cent of the circumradius — is
 the output of that procedure. The procedure and the tolerance were fixed before the search
@@ -8716,7 +8716,7 @@ was run.
 English gematria (A=1 … Z=26) on the two twenty-word sets listed in the text. The complete
 figures for both sets are given in Appendix F so that the reader may check them.** The
 control-set words were selected for their lack of symbolic content before the calculation
-was run, not afterwards.
+was run, not afterward.
 
 [^5]: James Anderson, *The Constitutions of the Free-Masons* (London, 1723). See Chapter 18,
 where the verification status of the passage is set out.
@@ -8739,7 +8739,7 @@ it continuously since the eighteenth century, usually in response to the exposur
 words are printed, and no, you have not been initiated. The Golden Dawn made it. Crowley made
 it.
 
-It is also the perfect defence of an empty secret, and that is the problem.
+It is also the perfect defense of an empty secret, and that is the problem.
 
 ---
 
@@ -8752,7 +8752,7 @@ at all.
 
 Polanyi's argument is that a great deal of human competence is *tacit* — real, reliable,
 demonstrable on demand, and not reducible to propositions. His examples are ordinary. A
-person who can ride a bicycle cannot state the rule they follow. A doctor who can recognise a
+person who can ride a bicycle cannot state the rule they follow. A doctor who can recognize a
 condition from across a room often cannot say what they saw. A wine-taster, a joiner, a
 radiographer, a mother who knows her child is ill before any symptom is nameable.
 
@@ -8779,7 +8779,7 @@ what performing it gives you.**
 
 And yet.
 
-Notice the shape of the claim once it is generalised. *There is a content that exists, that
+Notice the shape of the claim once it is generalized. *There is a content that exists, that
 cannot be stated, and that is available only to those who have undergone the procedure.*
 
 **Nothing about that structure requires there to be any content.**
@@ -8871,7 +8871,7 @@ the false case predict.
 comparison — men of similar background, disposition and circumstance who did not undergo it —
 and we do not, for the reasons Chapter 44 sets out at length. Without it, the argument reduces
 to noticing that some Masons were admirable, which is true of the members of every large
-organisation that has ever existed.
+organization that has ever existed.
 
 None of these is offered in bad faith. All three are what one reaches for when a question
 matters and the evidence will not settle it, and this book has felt the pull of each.
@@ -8889,13 +8889,13 @@ by someone who lacks the transformation. That is Polanyi's test and it is not an
 demand: every other kind of tacit knowledge meets it.
 
 What would that look like? Not a claim about inner states, which are not inspectable, but a
-behavioural regularity: a consistent difference in how such men respond to some situation,
+behavioral regularity: a consistent difference in how such men respond to some situation,
 measurable by someone blind to whether the subject is an initiate. The Craft's own doctrine
-implies several — judgement under pressure, conduct toward strangers, the keeping of
+implies several — judgment under pressure, conduct toward strangers, the keeping of
 undertakings when keeping them is costly. Any one of them could in principle be operationalised.
 
 Nobody has, and it should be said clearly that the Craft has no obligation to. It is not a
-research programme, and it has never asked to be believed on experimental grounds. But the
+research program, and it has never asked to be believed on experimental grounds. But the
 absence means that the strong version of the claim sits permanently in the category of
 things that might be true, that their holders sincerely believe, and that no one can check —
 which is a large category, containing much that is false and some that is not.
@@ -9009,7 +9009,7 @@ operator. Type E is his, not mine, and I neither endorse nor deny it.
 
 What can be said is narrower and remarkable enough. **Lévi located the mechanism of magic in
 the operator's attention, imagination and will, and described the ceremonial apparatus as
-existing to organise those.** That is a functional account of ritual efficacy, produced in
+existing to organize those.** That is a functional account of ritual efficacy, produced in
 1854, by a man with no access to any of the disciplines that would later make such accounts
 respectable.
 
@@ -9242,8 +9242,8 @@ Rosenkreuz of the 1750s:**
 The graded initiatory structure — a series of degrees conferred ceremonially, each admitting
 to further teaching, with advancement controlled by superiors.
 
-The temple: a room with officers at fixed stations, an altar at the centre, cardinal
-orientation, and prescribed movement between points. Anyone who has read Chapter 8 recognises
+The temple: a room with officers at fixed stations, an altar at the center, cardinal
+orientation, and prescribed movement between points. Anyone who has read Chapter 8 recognizes
 the blocking immediately.
 
 The officers, with defined stations and functions, including a guardian of the door.
@@ -9267,7 +9267,7 @@ The grade structure mapped onto the Sephiroth of the Tree of Life — Chapter 29
 point.
 
 The system of correspondences: elements, planets, signs, Hebrew letters, tarot trumps,
-colours, gods, plants, perfumes, all indexed to one structure. This is the Agrippan
+colors, gods, plants, perfumes, all indexed to one structure. This is the Agrippan
 tradition of Chapter 28 welded to Lévi's tarot-Kabbalah equation, and it is the Order's real
 intellectual achievement.
 
@@ -9335,7 +9335,7 @@ Two things follow that matter for this book.
 **First: their practice is far more attentional than Masonry's.** The Craft does one ceremony
 to a man a few times in his life. The Golden Dawn required daily individual work —
 banishing rituals performed alone, meditation, visualisation practice, record-keeping. That
-is a regime, not an event, and it is much closer to what a modern reader would recognise as
+is a regime, not an event, and it is much closer to what a modern reader would recognize as
 psychological training.
 
 **Second: they inherited the Masonic apparatus's central problem and did not solve it.** Who
@@ -9372,7 +9372,7 @@ stated it more crisply than I have managed.
 
 On his Masonic status the preceding volume was precise and I will repeat only the conclusion:
 he was deeply involved with Masonic *forms*, through irregular and co-Masonic channels, and
-held no standing that regular Grand Lodges recognised. Both halves of that sentence are
+held no standing that regular Grand Lodges recognized. Both halves of that sentence are
 load-bearing and the popular literature drops one or the other.
 
 ---
@@ -9506,7 +9506,7 @@ its interpretation.
 
 **Which produces the finding this chapter rests on: the most successful transmission of
 Masonic ritual into the twentieth-century esoteric world ran through the bodies that regular
-Freemasonry did not recognise.**
+Freemasonry did not recognize.**
 
 Not the United Grand Lodge of England. Le Droit Humain, and Besant, and a body of
 theosophical doctrine attached to a ceremony the Craft had spent two centuries declining to
@@ -9523,7 +9523,7 @@ merely performers; they are stations through which energy is directed. The Maste
 in the east is functional. The circumambulation establishes a current. The obligation creates
 a link. The moment of restored light is a specific transfer, and it acts on the candidate's
 subtle constitution — which, in Theosophical anatomy, consists of bodies at several levels,
-with centres that can be opened.
+with centers that can be opened.
 
 Grades correspond to stages in this process. Ritual objects have properties. The ceremony
 performed correctly produces a determinate effect; performed carelessly, it does not.
@@ -9644,7 +9644,7 @@ the other.
 He assumed the ceremony had a mechanism; that the mechanism could be described; that the
 description would be specific rather than edifying; and that different parts of the ritual
 did different jobs. Every one of those assumptions is one this book proceeds on. He then
-filled the mechanism with subtle bodies and coloured rays, because that was the vocabulary
+filled the mechanism with subtle bodies and colored rays, because that was the vocabulary
 available to him in 1926, and the fill is worthless.
 
 **And the lesson runs in both directions.** This book's own mechanism is filled with
@@ -9785,7 +9785,7 @@ never read a word of Pike?
 **He had something, and it was not nothing, and it was not what the occult literature
 describes.**
 
-He had a body of material memorised so thoroughly he could deliver it at eighty. He had a
+He had a body of material memorized so thoroughly he could deliver it at eighty. He had a
 dated memory of an evening he would describe as having made an impression. He had a set of
 obligations with documented consequences — the charity accounts are real and the sums are
 large. He had a form of address, a place in a room, and a burial.
@@ -9878,7 +9878,7 @@ absence is not explicable by secrecy, since the Golden Dawn was secret too and i
 in libraries.
 
 **It requires the initiated few to behave differently.** They would, at minimum, need to
-recognise each other and to conduct their business somewhere. Three centuries of hostile
+recognize each other and to conduct their business somewhere. Three centuries of hostile
 investigation — parliamentary, journalistic, ecclesiastical, police — have looked for exactly
 this, with subpoena powers in some cases, and have found lodges arguing about subscriptions.
 
@@ -9926,7 +9926,7 @@ Here is the strongest evidence against this book's thesis, and I am putting it f
 
 Open the minute books and what you find, in lodge after lodge, decade after decade, is
 **attrition**. Members proposed, balloted, initiated, and then not present. Summonses
-unanswered. Dues unpaid. Names struck off. Committees appointed to enquire into the
+unanswered. Dues unpaid. Names struck off. Committees appointed to inquire into the
 circumstances of brethren in arrears.
 
 The pattern is universal enough that it barely registers as remarkable to anyone who works
@@ -9938,7 +9938,7 @@ who came for a while, enjoyed the dinners, drifted away, and was struck off.**
 
 That is not a marginal exception to be noted and passed over. On any reasonable estimate it
 describes a very large proportion — quite possibly a majority — of everyone who ever went
-through the ceremony this book has spent forty-three chapters analysing.
+through the ceremony this book has spent forty-three chapters analyzing.
 
 Any honest test has to start there.
 
@@ -9980,7 +9980,7 @@ biography routinely records members reciting ritual in old age.
 The ceremony reliably installed something durable and retrievable. That much is a matter of
 record.
 
-**2. Social obligation with behavioural consequences.** Well evidenced, and this is the
+**2. Social obligation with behavioral consequences.** Well evidenced, and this is the
 strongest finding in the chapter.
 
 Masonic charity is documented in accounts rather than in rhetoric. Relief of distressed
@@ -9988,7 +9988,7 @@ brethren, provision for widows and orphans, the great charitable foundations of 
 nineteenth century. The sums are real, they were paid by members, and they were paid on the
 strength of an obligation sworn in a room.
 
-**This is a behavioural effect of ritual commitment, measured in money, recorded in ledgers.**
+**This is a behavioral effect of ritual commitment, measured in money, recorded in ledgers.**
 It is the one place where the question *does the ceremony change what people do* has a clean
 affirmative answer.
 
@@ -10021,7 +10021,7 @@ There is a body of modern research that bears on this and I have to be more care
 than most writers on this subject are.
 
 **Dimitris Xygalatas and colleagues** have measured effects of high-ordeal ritual on living
-populations — physiological synchrony, prosocial behaviour, charitable giving — in fieldwork
+populations — physiological synchrony, prosocial behavior, charitable giving — in fieldwork
 including the Thaipusam Kavadi in Mauritius and the Anastenaria fire-walking of northern
 Greece. The findings are real and the methods are careful.[^2]
 
@@ -10058,7 +10058,7 @@ are worth naming because they apply to every claim anyone makes about what initi
 random sample of men. They are, by the act of applying, people already disposed toward
 associational life, already possessed of the fee, already known to a member willing to
 propose them, and already attracted to whatever the institution appeared to offer. If
-Masons were more charitable than their neighbours, the ceremony is one candidate
+Masons were more charitable than their neighbors, the ceremony is one candidate
 explanation and prior disposition is another, and nothing in the historical record can
 separate them. The same objection applies with equal force to every study of every
 voluntary association ever conducted, which is why the honest literature on fraternal
@@ -10092,15 +10092,15 @@ accompanied by what would be required to know it.
 
 A serious contemporary study is possible, and to this study's knowledge has never been
 done. Initiation is a scheduled event with a known date; candidates are identified in
-advance; the intervention is standardised within a jurisdiction; and — the feature that
+advance; the intervention is standardized within a jurisdiction; and — the feature that
 makes the design tractable — there is very often a **waiting period** between acceptance and
 ceremony, which supplies a natural comparison group of men who have been approved but not
-yet initiated. Measure both groups before, and measure again at intervals afterwards.
+yet initiated. Measure both groups before, and measure again at intervals afterward.
 
 What to measure would have to be decided in advance and pre-registered, which is the point
 at which most such proposals collapse, because the Craft's own claim — that its members are
 made better men — is not operationalised anywhere in its literature. A study would have to
-choose: charitable giving, which is at least countable; some behavioural measure of
+choose: charitable giving, which is at least countable; some behavioral measure of
 cooperation; or self-reported identification, which is easy to collect and measures mainly
 whether people say they belong.
 
@@ -10119,7 +10119,7 @@ all of the present uncertainty sits in the second category rather than the first
 Assemble it honestly and this is what the evidence supports.
 
 **Masonic ritual reliably produces: durable memory, a maintained self-description, and
-obligations with documented behavioural consequences in charity and mutual aid.**
+obligations with documented behavioral consequences in charity and mutual aid.**
 
 **It does not reliably produce: continued participation. A large proportion of initiates
 lapsed.**
@@ -10186,7 +10186,7 @@ VERIFICATION REQUIRED — figures.]**
 ---
 
 # CHAPTER FORTY-FIVE
-## Can Symbols Change Behaviour?
+## Can Symbols Change Behavior?
 
 A man is given a square and told that it teaches him to regulate his actions.
 
@@ -10201,7 +10201,7 @@ is equally substantial and rather more interesting.
 
 ### The problem with the question
 
-The difficulty is that behaviour has many causes and symbols are among the weakest.
+The difficulty is that behavior has many causes and symbols are among the weakest.
 
 Consider what else was acting on an eighteenth-century Mason's conduct. Religion, in a
 century when almost everyone attended some form of worship. Law. Reputation, in small
@@ -10212,7 +10212,7 @@ A moral instruction attached to a hand tool, delivered once in a ceremony, is co
 all of that, and the null hypothesis — that it made no measurable difference — is not
 unreasonable and cannot be dismissed rhetorically.
 
-So the honest approach is to look for places where Masonic obligation would predict behaviour
+So the honest approach is to look for places where Masonic obligation would predict behavior
 *different from* what the other pressures predict, and see whether it occurred.
 
 There are three such places and the evidence differs sharply between them.
@@ -10235,11 +10235,11 @@ proves nothing.
 
 What counts is the *pattern* of giving. Masonic relief was directed preferentially to
 brethren and their dependants, including brethren who were strangers, in distant places, with
-no relationship to the donor except the shared obligation. A travelling Mason in distress in
+no relationship to the donor except the shared obligation. A traveling Mason in distress in
 a foreign port had a claim on men who had never met him, and the claim was frequently
-honoured.
+honored.
 
-**That is a behaviour the other pressures do not predict.** Religion enjoins charity to the
+**That is a behavior the other pressures do not predict.** Religion enjoins charity to the
 poor generally, not to a specific class of strangers identified by a recognition system. The
 preferential direction is the fingerprint of the obligation, and it is visible in the ledgers.
 
@@ -10288,7 +10288,7 @@ squared.
 
 I have looked for indirect evidence and not found any that survives. One might hope that
 Masonic membership correlates with something measurable — lower rates of prosecution,
-different patterns of bequest, distinctive behaviour in business — but the confounds are
+different patterns of bequest, distinctive behavior in business — but the confounds are
 overwhelming. Masons were disproportionately drawn from social strata that differ on all
 those measures for other reasons.
 
@@ -10303,7 +10303,7 @@ tests whether anything specifically Masonic is doing the work.
 
 The eighteenth and nineteenth centuries produced a large family of mutual-aid bodies —
 friendly societies, benefit clubs, burial societies, the Oddfellows, the Foresters, and
-dozens of smaller organisations. Many had initiation ceremonies. Many had regalia, passwords,
+dozens of smaller organizations. Many had initiation ceremonies. Many had regalia, passwords,
 lodge structures and graded offices. Most provided exactly what Masonic relief provided:
 sickness payments, funeral benefit, provision for widows.
 
@@ -10323,8 +10323,8 @@ where the machine acts.
 
 There is one feature the friendly societies do not share, and it should be noted rather than
 inflated: the geographical reach. A friendly society's benefit was payable by the branch a
-member subscribed to. The Masonic claim travelled — a stranger in a foreign port, with no
-subscription relationship to anyone present, could make it and frequently have it honoured.
+member subscribed to. The Masonic claim traveled — a stranger in a foreign port, with no
+subscription relationship to anyone present, could make it and frequently have it honored.
 Whether that reflects something about the obligation or merely about the Craft's unusual
 international distribution is not settled by the records this study consulted.
 
@@ -10350,7 +10350,7 @@ argues that the same property — permanent incompletion — is the central desi
 whole system.
 
 So the absence of evidence here is not a gap in the record. It is a consequence of what kind
-of claim it is, and a reader who understands that will be properly sceptical of anyone, in
+of claim it is, and a reader who understands that will be properly skeptical of anyone, in
 any century, who says the matter has been settled either way.
 
 ---
@@ -10491,7 +10491,7 @@ a compass.
 **Stations are assigned.** Three officers at three points converts an empty room into a
 diagram with positions that mean something.
 
-**A centre is established** — a place where things are done *to* someone, and to which the
+**A center is established** — a place where things are done *to* someone, and to which the
 candidate is conducted.
 
 **A boundary is guarded.** This is the single most important architectural act in the room,
@@ -10542,7 +10542,7 @@ The candidate learns the room blind, by walking it, before he sees it. He is con
 a fixed circuit, challenged at fixed points, stopped and moved on, for some minutes.
 
 When the hoodwink comes off, **the room is already familiar** — and the experience of
-recognising a place you have never seen is uncommon enough that I suspect it accounts for a
+recognizing a place you have never seen is uncommon enough that I suspect it accounts for a
 substantial part of what candidates across three centuries have described as the peculiar
 impressiveness of that moment.
 
@@ -10563,7 +10563,7 @@ Washington and the enormous Detroit temple of 1926.
 
 Four explanations were offered there and tested. Affluence and membership growth.
 Post-Morgan respectability politics. The staging requirements of the high degrees, which are
-theatre and need machinery. And the esoteric reinterpretation of Masonic symbolism making
+theater and need machinery. And the esoteric reinterpretation of Masonic symbolism making
 grandeur meaningful.
 
 The first three account for most of the phenomenon. The fourth — the one that would have
@@ -10598,7 +10598,7 @@ Almost certainly not, because for most of the relevant period there was none —
 ceremony worked anyway, in rooms whose only qualification was that a door could be shut.
 
 **What did the work was the arrangement, not the building.** An east declared, a boundary
-guarded, a centre, a route walked in the dark.
+guarded, a center, a route walked in the dark.
 
 That is a set of instructions rather than a structure, and instructions fit in a man's head,
 which is why they crossed the Atlantic in sea chests while the cathedrals stayed where they
@@ -10620,7 +10620,7 @@ Chicago Press, 1987).
 [^3]: On the lodge's declared rather than surveyed east, see the monitorial literature and
 Chapter 8 above.
 
-[^4]: On the nineteenth-century Masonic building programme and the subsequent membership
+[^4]: On the nineteenth-century Masonic building program and the subsequent membership
 decline, see Chapter 12 above and the sources cited there. **[SOURCE VERIFICATION REQUIRED
 — membership figures from Grand Lodge returns.]**
 
@@ -10777,7 +10777,7 @@ been disposed to stay anyway — but it means the causal arrow is not obviously 
 The honest formulation is that career and commitment are mutually reinforcing, which is
 harder to study than either alone and is exactly why nobody has.
 
-**Second: this is not distinctively ritual.** Any organisation with a graded office
+**Second: this is not distinctively ritual.** Any organization with a graded office
 structure — a choir, a regiment, a trade union — produces long-serving members who know the
 procedures from every side, and nobody calls that a technology of transformation. Why should
 the lodge be different?
@@ -10797,7 +10797,7 @@ findings in the psychology this book has used. Vivid, singular, emotionally mark
 are massively over-represented in autobiographical recall relative to their causal weight.
 A gradual thirty-year process has no retrieval cue attached to it. The night has one. Asked
 what Masonry did to him, a man reports the memory that comes to mind, which is the memory
-that was encoded to be memorable. That his testimony centres on the evening is evidence
+that was encoded to be memorable. That his testimony centers on the evening is evidence
 about memory, not about mechanism.
 
 ---
@@ -10821,7 +10821,7 @@ Does attendance density in years two to five predict retention at year twenty? D
 early office predict it better than attendance alone? Is there a threshold — an office, a
 year, a number of ceremonies witnessed — after which lapse becomes rare? Do members who
 reach the chair differ in their pre-chair records from those who do not, or does the
-difference appear only afterwards? Is charitable subscription, which the accounts also
+difference appear only afterward? Is charitable subscription, which the accounts also
 record, related to career stage?
 
 None of these requires a theory of ritual efficacy to ask. They are questions about
@@ -10903,7 +10903,7 @@ and initiation are all doing in different vocabularies.
 
 **Is that true, or is it a family resemblance dressed as an identity?**
 
-This is the philosophical centre of the book and I have not found a clean answer. What I have
+This is the philosophical center of the book and I have not found a clean answer. What I have
 found is a way of asking it that makes the alternatives visible.
 
 ---
@@ -11032,7 +11032,7 @@ cannot change — people change constantly, through age, circumstance, illness, 
 employment. It is that **change which the person themselves intends, in a direction they have
 chosen, against an existing disposition, is unusually difficult to bring about.** That is the
 problem, and it is a real one with a modern literature of its own: the gap between intention
-and behaviour is one of the more robust findings in psychology, and the interventions that
+and behavior is one of the more robust findings in psychology, and the interventions that
 close it are known to be few.
 
 Stated that way, the convergence looks less mysterious and more explicable. Any technique
@@ -11062,7 +11062,7 @@ Two restrictions, because the argument above is the kind that invites overreach.
 **It does not make the traditions equivalent.** Saying that Masonic initiation, alchemical
 practice and Neoplatonic theurgy converge on six components is not saying they are the same
 thing, that their practitioners wanted the same outcome, or that any of them would have
-recognised the description. They differ in what they thought they were doing, in what they
+recognized the description. They differ in what they thought they were doing, in what they
 thought was acting, and in what they expected to result. The convergence is at the level of
 technique, and technique is the shallowest level at which two practices can agree.
 
@@ -11193,7 +11193,7 @@ the same person.
 Part VIII established what the Masonic apparatus does: confiscates attention, encodes in the
 body, exploits controlled information, stages revelation, ratifies socially. Part X showed
 that the Golden Dawn's operative work — the ritual of which is agreed by everyone to be magic
-— uses the same components, trained more deliberately and practised more often.
+— uses the same components, trained more deliberately and practiced more often.
 
 If the Golden Dawn's ceremonies are magic and the Masonic ceremony uses the same apparatus
 for the same kind of end, the distinction becomes hard to state.
@@ -11328,7 +11328,7 @@ what he was relabelling. A Masonic lodge in 1740 was not doing what Lévi's theo
 It was doing something a later theory would describe in its own terms, which is a different
 relation entirely.
 
-This is the distinction the occult interpreters of Masonry consistently lost. Recognising
+This is the distinction the occult interpreters of Masonry consistently lost. Recognizing
 that a practice fits a description is not the same as finding that the practice was an
 instance of what the description was invented for. The first is a classification. The second
 is a historical claim, and it requires the evidence the first does not.
@@ -11346,13 +11346,13 @@ participant which the participant cannot do for himself by deciding to.
 
 That description contains no contested term. It is what the ritual does, stated in language
 that commits to nothing about hidden mechanisms, spiritual agencies, or the history of
-European esotericism. Both the practitioner who calls it magic and the sceptic who calls it
-theatre can read it and recognise their subject.
+European esotericism. Both the practitioner who calls it magic and the skeptic who calls it
+theater can read it and recognize their subject.
 
 Whether the sentence makes anyone want to call it magic is, at this point, a matter of
 temperament. What this book has tried to establish is that the sentence is true, that each of
 its components can be documented, and that the argument about what to call it can proceed
-afterwards without any of them being at stake.
+afterward without any of them being at stake.
 
 ---
 
@@ -11479,7 +11479,7 @@ says: *the thing you came for is not here, it is not withheld from you by us, an
 that it is not here is what we have to teach.*
 
 Whether this constitutes wisdom or merely an elegant way of managing disappointment is a
-judgement the evidence cannot settle, and this book will not pretend otherwise. What can be
+judgment the evidence cannot settle, and this book will not pretend otherwise. What can be
 said is narrower and more defensible: of the two structures, the deferring one is the one
 that keeps working after the ceremony ends. If the unit of analysis is the career and not
 the ceremony — the claim this book has argued since Chapter 6 — then a design that leaves
@@ -11491,7 +11491,7 @@ something permanently open is a better instrument than one that closes.
 
 The same logic governs the building.
 
-Masonic symbolism is organised around a temple that was completed, destroyed, and is being
+Masonic symbolism is organized around a temple that was completed, destroyed, and is being
 built again — and the rebuilding is never shown finished. The candidate is a rough ashlar
 being worked toward a perfect one, and no ritual anywhere declares the work done. Lodges
 close; members die; the temple remains under construction. The imagery of the unfinished
@@ -11502,11 +11502,11 @@ internal coherence of a symbolic system, not about that system's origins and not
 truth. Nothing here shows that the eighteenth-century compilers intended a doctrine of
 permanent incompletion; the more probable history, as Chapter 24 set out, is that a legend
 was assembled from available materials, that the substitution was a narrative necessity
-before it was a philosophy, and that the philosophical reading accumulated afterwards as
+before it was a philosophy, and that the philosophical reading accumulated afterward as
 generations of members made sense of what they had been given. A system can be coherent
 without having been designed coherent. Much of what this book has described as architecture
 is architecture of that kind: not drawn in advance, but arrived at, kept because it worked,
-and rationalised later.
+and rationalized later.
 
 That is not a debunking. A cathedral whose proportions were arrived at by trial still stands
 up.
@@ -11538,7 +11538,7 @@ precisely why the letters were free to drift.
 
 ---
 
-### THE ROOM AFTERWARDS
+### THE ROOM AFTERWARD
 
 There is a moment at the end of every lodge meeting that no exposure records and no esoteric
 commentary discusses, because nothing happens in it.
@@ -11563,10 +11563,10 @@ chapters have taken some trouble to describe: a controlled deprivation, a staged
 sequence of images compressed past the point of paraphrase, a set of obligations taken in
 front of people who will hold him to them, and a promise that something has been withheld
 which he will not be given. Tomorrow he goes to work. Whether any of it took — whether he is
-among the minority for whom this becomes the organising structure of a life or the majority
+among the minority for whom this becomes the organizing structure of a life or the majority
 who, as the lodge minutes examined in Chapter 44 record with painful consistency, will lapse
 within a few years — is not determined in the room. It is determined in the twenty years
-afterwards, by repetition, by office, by the company he keeps, and by what he does with a
+afterward, by repetition, by office, by the company he keeps, and by what he does with a
 word he has been told he does not have.
 
 The ritual's final instruction to him, stripped of its ceremonial clothing, is remarkably
@@ -11604,7 +11604,7 @@ with a hand on his shoulder and no idea what was on the other side.
 Fifty chapters later the honest thing to report is that the door was never locked. Anyone
 could have found out what was behind it. The rituals have been in print since 1730; the
 catechisms were published by men who had been through them; the archives of the major grand
-lodges are open to researchers; the symbolism has been catalogued, photographed, and argued
+lodges are open to researchers; the symbolism has been catalogd, photographed, and argued
 over for three hundred years. Almost everything this book has described could have been read
 by anyone, at any point in the last two centuries, without joining anything.
 
@@ -11616,7 +11616,7 @@ What this study set out to ask was not what Masonic ritual means. It asked what 
 and the answer, assembled from ritual analysis, from the history of the texts, from
 cognitive science, from environmental psychology, and from what the lodge records actually
 show about the men who went through it, turns out to be both less than the esoteric
-literature claims and more than the sceptical literature allows.
+literature claims and more than the skeptical literature allows.
 
 Less, because nothing found here requires a hidden mechanism. The ceremony is a sequence of
 ordinary human operations: sensory restriction, controlled disorientation, images presented
@@ -11628,12 +11628,12 @@ literature that has nothing to do with Freemasonry. There is no residue left ove
 explaining by an occult transmission, a surviving mystery school, or a secret the
 institution is keeping.
 
-More, because the sceptical account — that this is a dinner club with fancy dress, that
-nothing is happening, that the whole apparatus is theatre — does not survive contact with
+More, because the skeptical account — that this is a dinner club with fancy dress, that
+nothing is happening, that the whole apparatus is theater — does not survive contact with
 the evidence either. Something is happening. The comparative record (Chapter 45) shows the
 same structures independently invented across unrelated societies, which is what happens
 when a technique works. The lodge records show a minority for whom this became the
-organising frame of an adult life. The mechanisms are real mechanisms, and the reason
+organizing frame of an adult life. The mechanisms are real mechanisms, and the reason
 initiation is ubiquitous is not that humans are gullible but that this particular
 arrangement of symbol, restriction, obligation, and company does something to people that
 lecture and argument do not.
@@ -11733,7 +11733,7 @@ come up, the room will turn back into a room, and he will go and have dinner wit
 names he is still learning.
 
 Whether anything was done to him will not be visible that night. It will be visible, if it
-is visible at all, in twenty years, in the shape of the life he made afterwards — which is
+is visible at all, in twenty years, in the shape of the life he made afterward — which is
 the only place the effects of any initiation have ever been visible, in any society, in any
 century.
 
@@ -11749,7 +11749,7 @@ It was a method. And methods only work on people who use them.
 
 Each entry gives: the symbol; where it appears in ritual and furnishing; the interpretation
 the ritual itself supplies (the *anchored* meaning); interpretations supplied from outside
-the system (*unanchored* accretions); and the chapter where it is analysed.
+the system (*unanchored* accretions); and the chapter where it is analyzed.
 
 The anchored/unanchored distinction is the one set out in Chapter 20, following Peirce's
 division of sign-types. An anchored meaning is one the ritual states or demonstrably
@@ -11770,10 +11770,10 @@ vary between constitutions. Nothing below should be taken as universal Masonic p
 | **Plumb** | Worn by the Junior Warden | Uprightness of conduct | The vertical axis; descent of influence from above | 13, 21 |
 | **Rough ashlar** | Lodge furniture; tracing board | The candidate in his unimproved state | The prima materia of alchemy; the unredeemed soul of Gnostic systems | 11, 48 |
 | **Perfect ashlar** | Lodge furniture; tracing board | The result of education and discipline | The philosopher's stone; the perfected adept | 11, 48 |
-| **Gavel** | Master and Wardens; Entered Apprentice working tool | Divesting the heart of vices; force applied with judgement | Numerological readings via gematria (see Appendix F) | 21, 38 |
+| **Gavel** | Master and Wardens; Entered Apprentice working tool | Divesting the heart of vices; force applied with judgment | Numerological readings via gematria (see Appendix F) | 21, 38 |
 | **Twenty-four-inch gauge** | Entered Apprentice working tool | Division of the day; the ordering of time | Zodiacal and horary correspondences | 21 |
 | **Two pillars** | Porchway or entrance; tracing board | Named in 1 Kings 7 and 2 Chronicles 3; strength and establishment | Kabbalistic pillars of severity and mercy; the Tree of Life columns | 17, 41 |
-| **Blazing star / glory** | Centre of the lodge in many workings | Variously the sun, providence, or a guide | Sirius; the pentagram of ceremonial magic; the Eye of Horus | 22, 41 |
+| **Blazing star / glory** | Center of the lodge in many workings | Variously the sun, providence, or a guide | Sirius; the pentagram of ceremonial magic; the Eye of Horus | 22, 41 |
 | **Letter G** | Suspended in the East in many American and some other workings; absent elsewhere | Geometry; and, in most workings, God | Gnosis; Hebrew *gimel*; a concealed divine name | 17, 20 |
 | **All-seeing eye** | Tracing board; regalia | Divine observation of human conduct | Illuminati insignia; Egyptian derivation; surveillance conspiracy readings | 22, 42 |
 | **Chequered pavement** | Lodge floor | The mingled good and evil of human life | Dualist metaphysics; a chessboard of cosmic forces | 12, 14 |
@@ -11783,7 +11783,7 @@ vary between constitutions. Nothing below should be taken as universal Masonic p
 | **Skull and crossbones** | Some chambers of reflection and higher-degree workings; not universal | Memento mori | Templar survival; necromantic practice | 24 |
 | **Hoodwink** | Preparation of the candidate | Ignorance before instruction; darkness preceding light | Sensory-deprivation mysticism; "astral" preparation | 7, 31 |
 | **Cable tow** | Preparation of the candidate | Obligation and its limits; the bond and its length | Umbilical symbolism; binding in a magical sense | 7, 9 |
-| **Apron** | Invested at initiation | Badge of innocence and of labour; the workman's garment | Egyptian and Mithraic garment derivations | 19, 30 |
+| **Apron** | Invested at initiation | Badge of innocence and of labor; the workman's garment | Egyptian and Mithraic garment derivations | 19, 30 |
 | **Volume of the Sacred Law** | Open on the pedestal; varies by jurisdiction and candidate | The rule and guide of faith | That a specific book is required; that it functions as a grimoire | 12, 29 |
 | **Three lesser lights** | Around the lodge | Sun, moon, Master of the lodge | Planetary magic; triple-goddess readings | 22 |
 | **Circumambulation** | Movement of the candidate about the lodge | Progress; presentation to the officers; the journey | Solar-course ritual magic; drawing a magical circle | 8, 19 |
@@ -11825,7 +11825,7 @@ The documentary record begins with the Scottish lodge minutes of the late sixtee
 The English record of non-operative admission begins with Elias Ashmole's diary entry for 16
 October 1646. The first Grand Lodge was constituted in London; the traditional date of 1717
 rests on Anderson's 1738 account, and the dating has been reopened by recent scholarship
-favouring 1721 — a dispute set out in the preceding volume and summarised in Chapter 3.
+favoring 1721 — a dispute set out in the preceding volume and summarised in Chapter 3.
 
 The third degree is not attested before the 1720s. This is the single most important
 chronological fact in the book: the Hiramic legend, on which almost every esoteric
@@ -11882,7 +11882,7 @@ States in the nineteenth century.
 
 The Templar orders are a matter of frequent confusion. They are eighteenth- and
 nineteenth-century chivalric *creations*; they are not, and do not by their own official
-accounts claim to be, an organisational continuation of the medieval order suppressed in
+accounts claim to be, an organizational continuation of the medieval order suppressed in
 1312. The lineage claims belong to the fringe literature, not to the bodies themselves.
 
 ---
@@ -11894,7 +11894,7 @@ Templar descent through "Unknown Superiors" whom Hund could never produce. Inves
 effectively dissolved at the Convent of Wilhelmsbad (1782), which rejected the Templar
 claim.
 
-Its importance is as a case study: a Masonic body organised entirely around an unverifiable
+Its importance is as a case study: a Masonic body organized entirely around an unverifiable
 transmission claim, examined by its own members using something close to historical method,
 and abandoned when the claim failed. Chapter 42 uses it as a control on how Masonic bodies
 have actually handled origin claims.
@@ -11906,11 +11906,11 @@ have actually handled origin claims.
 Jean-Baptiste Willermoz reorganised the Strict Observance material into the Rectified
 Scottish Rite after Wilhelmsbad, retaining a Christian-mystical orientation. Martinez de
 Pasqually's Ordre des Chevaliers Maçons Élus Coëns de l'Univers (from the 1760s) was
-genuinely theurgic — it practised invocation — and is therefore one of the very few bodies in
+genuinely theurgic — it practiced invocation — and is therefore one of the very few bodies in
 this appendix where operative magical practice is documented rather than alleged.
 
 This matters for the argument of the book. When occult practice enters Masonic-adjacent
-organisations, it does so visibly, with named founders, dated documents, and explicit
+organizations, it does so visibly, with named founders, dated documents, and explicit
 instructions. Its absence from the Craft degrees is not an absence of evidence; it is
 evidence of absence of that kind of material. See Chapter 30.
 
@@ -11922,8 +11922,8 @@ evidence of absence of that kind of material. See Chapter 30.
 |---|---|---|---|
 | Societas Rosicruciana in Anglia (SRIA) | 1866–67 | Membership restricted to Master Masons; not a Masonic body | Supplied personnel and material to the Golden Dawn |
 | Hermetic Order of the Golden Dawn | 1887–88 | **Not Masonic** | Founders were Masons; borrowed grade structure and ritual form. Its founding warrant was forged — established in the preceding volume |
-| Ordo Templi Orientis | c. 1902 onward | **Not Masonic**; regular bodies do not recognise it | Adopted degree structure; Crowley's reworking from 1912 |
-| Co-Masonry (Le Droit Humain, 1893) | 1893 | Initiates women; not recognised by most regular grand lodges | Theosophical connections through Besant; Chapter 43 |
+| Ordo Templi Orientis | c. 1902 onward | **Not Masonic**; regular bodies do not recognize it | Adopted degree structure; Crowley's reworking from 1912 |
+| Co-Masonry (Le Droit Humain, 1893) | 1893 | Initiates women; not recognized by most regular grand lodges | Theosophical connections through Besant; Chapter 43 |
 | Memphis-Misraïm | 19th c. | Irregular in most jurisdictions | Very high degree counts; heavy Egyptological framing |
 
 The distinction drawn throughout this book is between bodies that *are* Masonic, bodies whose
@@ -12016,7 +12016,7 @@ measure. Chapter 10.
 
 **Doctrinal mode / imagistic mode.** Harvey Whitehouse's two attractors in religious
 transmission: frequent, low-arousal, routinised practice versus rare, high-arousal,
-sensorily vivid practice. Masonic initiation sits awkwardly between them, which is analysed
+sensorily vivid practice. Masonic initiation sits awkwardly between them, which is analyzed
 rather than smoothed over in Chapter 34.
 
 **Flashbulb memory.** Vivid, confidently held memory of a surprising event. Note: high
@@ -12031,7 +12031,7 @@ category imposed by scholars rather than a natural kind. Adopted in this book as
 discipline: it forbids the move from *this resembles ritual X* to *this descends from ritual
 X*. Chapter 6.
 
-**Ritual criticism.** Ronald Grimes's programme for evaluating rites as performances that can
+**Ritual criticism.** Ronald Grimes's program for evaluating rites as performances that can
 succeed or fail. Chapter 47.
 
 **Symbolic compression.** Used in this book for the property of a symbol that carries more
@@ -12070,7 +12070,7 @@ this discovery is itself the instruction. Chapters 36, 50.
 ## Timeline: Masonry and the Analytic Disciplines
 
 Two columns, deliberately. The left records the development of the Masonic ritual apparatus.
-The right records the development of the disciplines this book uses to analyse it. Reading
+The right records the development of the disciplines this book uses to analyze it. Reading
 them together makes visible a fact that is otherwise easy to miss: **almost every tool used
 to explain what initiation does to a person was invented long after the ritual was.**
 
@@ -12128,7 +12128,7 @@ not independently confirm.
 | 1994 | | Snoek's work on Masonic ritual transmission |
 | 1999 | | **McKay, Bar-Natan, Bar-Hillel & Kalai, "Solving the Bible Code Puzzle," *Statistical Science* 14** — the control test |
 | 2000 | | Whitehouse, *Arguments and Icons* — modes of religiosity |
-| 2001 | | Boyer & Liénard on ritualized behaviour |
+| 2001 | | Boyer & Liénard on ritualized behavior |
 | 2002 | | McCauley & Lawson, *Bringing Ritual to Mind* |
 | 2007 | | Meyers-Levy & Zhu, ceiling-height priming — *widely cited; replication contested* |
 | 2011– | | Xygalatas and colleagues, field experiments on high-ordeal ritual |
@@ -12201,7 +12201,7 @@ affirms nor refutes it; it declines the question, and says so each time the ques
 2. **Chronology** — does the proposed source predate the proposed recipient?
 3. **Transmission** — is there a documented route, or only a possibility of one?
 4. **Intertextuality** — is there verbal dependence, or only thematic resemblance?
-5. **Institutional continuity** — did an organisation persist, or is continuity inferred?
+5. **Institutional continuity** — did an organization persist, or is continuity inferred?
 6. **Anachronism** — does the claim require someone to have known what was not yet known?
 
 A claim failing question 2 is dead. A claim failing only question 4 may still be true but is
@@ -12460,7 +12460,7 @@ attribution of the 47th Proposition **[PAGE VERIFICATION REQUIRED]**.
 
 **Lodge minutes, membership registers, and disciplinary records.**
 *Establish:* attendance, finance, charity, exclusion, lapse. **The only Tier-One evidence
-bearing on whether the ritual had behavioural consequences**, and therefore the most
+bearing on whether the ritual had behavioral consequences**, and therefore the most
 important material in the book for Chapters 44 and 46.
 *Limitation, stated frankly:* this study worked from published transactions and secondary
 summaries of lodge records rather than from archival originals. The argument of Chapter 44
@@ -12563,7 +12563,7 @@ reader expected, that is why.
 # APPENDIX H
 ## Recommended Further Reading
 
-Annotated, and organised by what a reader might want to do next. Entries marked **†** are
+Annotated, and organized by what a reader might want to do next. Entries marked **†** are
 where to start in that category. Full citations are in the bibliography; this appendix gives
 the reasons.
 
@@ -12582,7 +12582,7 @@ anything else.
 
 **Margaret Jacob, *Living the Enlightenment* (Oxford, 1991).** Masonry as sociability and
 civil society — the best account of what lodges were *for* in the terms their members would
-have recognised.
+have recognized.
 
 **Andrew Prescott and Susan Mitchell Sommers**, on the dating of the first Grand Lodge. Their
 reopening of the 1717/1721 question is the most consequential recent revision.
@@ -12634,7 +12634,7 @@ high-arousal rites do to transmission.
 **Robert McCauley and E. Thomas Lawson, *Bringing Ritual to Mind* (2002).** Ritual form and
 cognitive representation.
 
-**Pascal Boyer and Pierre Liénard**, on ritualized behaviour and hazard-precaution systems.
+**Pascal Boyer and Pierre Liénard**, on ritualized behavior and hazard-precaution systems.
 
 **Dimitris Xygalatas** and colleagues, on field experiments with high-ordeal ritual. The
 closest thing in existence to measurement of the effects this book discusses, conducted on
@@ -12697,7 +12697,7 @@ Named, because vagueness here would be cowardice.
 nineteenth-century American Masonic thought, and worthless as history of anything earlier.
 Pike's sources were Lévi and the Orientalist literature of his own century.
 
-**Manly P. Hall, *The Secret Teachings of All Ages* (1928).** Beautiful, encyclopaedic, and
+**Manly P. Hall, *The Secret Teachings of All Ages* (1928).** Beautiful, encyclopedic, and
 without apparatus. Almost nothing in it can be traced to a source.
 
 **C. W. Leadbeater, *The Hidden Life in Freemasonry* (1926).** Valuable as evidence of what
@@ -13090,7 +13090,7 @@ against Drosnin; Aronson and Mills **with** their replication problems; Meyers-L
 
 ---
 
-# ILLUSTRATION LIST — FINAL PROGRAMME
+# ILLUSTRATION LIST — FINAL PROGRAM
 
 **46 plates**, within the brief's range of 40–60. Every item is a real, locatable object,
 with two declared exceptions (items 45 and 46) which are diagrams made for this book and
@@ -13098,7 +13098,7 @@ captioned unambiguously as such. **No image is invented.** Rights status must be
 with each holding institution before publication; **[SVR]** marks a shelfmark or accession
 number still to be verified.
 
-The programme illustrates **mechanism**, not provenance: the objects a candidate handled,
+The program illustrates **mechanism**, not provenance: the objects a candidate handled,
 the spaces he moved through, the diagrams that carried the system, and — a category this
 book needs and most do not — the figures belonging to the methodological chapters.
 
@@ -13202,7 +13202,7 @@ faster than any paragraph can teach it.
 ## ARCHITECTURE OF ARRANGEMENT
 
 Items 22–24 and 26 support the argument that the lodge's architectural effect is a property
-of *arrangement* rather than grandeur — an ordinary upstairs room, correctly organised,
+of *arrangement* rather than grandeur — an ordinary upstairs room, correctly organized,
 doing the work. The nineteenth-century purpose-built temples are the exception Chapter 12
 has to explain rather than the rule it rests on, and the plate sequence is ordered to make
 that visible.
@@ -13210,7 +13210,7 @@ that visible.
 ## PERMISSIONS AND A FALLBACK SET
 
 Institutional reproduction fees, chiefly for the Library and Museum of Freemasonry in London,
-will be the largest single production cost. A fallback programme of approximately 22 plates
+will be the largest single production cost. A fallback program of approximately 22 plates
 drawn entirely from Internet Archive, Wellcome Collection (CC BY) and Library of Congress
 public-domain holdings, plus the two original diagrams, can carry the book at minimal cost
 without losing any argument. The items lost under the fallback are illustrative rather than
@@ -13263,7 +13263,7 @@ Jean-Baptiste · Xygalatas, Dimitris · Yates, Frances (the Yates thesis; its st
 
 ---
 
-## B — ORGANISATIONS AND RITES
+## B — ORGANIZATIONS AND RITES
 
 Antients and Moderns (schism; Union of 1813) · Co-Masonry (Le Droit Humain, 1893) ·
 Élus Coëns · Golden Dawn, Hermetic Order of the (**not Masonic**; forged warrant) · Grand
@@ -13333,7 +13333,7 @@ the book spends chapters establishing, and a merged entry destroys it.
 | Esotericism / Occultism | "Esotericism, *see* Occultism" |
 | Hermetism / Hermeticism | one entry |
 | Magic, Types A–E | "Magic" |
-| Masonic bodies / bodies whose members were Masons / bodies borrowing Masonic form | "Masonic organisations" |
+| Masonic bodies / bodies whose members were Masons / bodies borrowing Masonic form | "Masonic organizations" |
 | Historical claim / psychological claim / metaphysical claim | one entry per topic |
 | Availability (of a text) / transmission | one entry |
 

@@ -62,7 +62,7 @@ which is why Freemasonry could spread across a continent and then a world while 
 priesthood could not.
 
 **Verification is distributed.** Any member can perform it, anywhere, without
-reference to a central authority. A travelling Mason arriving in a strange city
+reference to a central authority. A traveling Mason arriving in a strange city
 could be checked by people who had never heard of him, which was the practical
 problem the system solved in the first place.
 

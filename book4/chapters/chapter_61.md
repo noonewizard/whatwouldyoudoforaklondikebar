@@ -30,7 +30,7 @@ from remote regions, builds, and dedicates. The 1 Kings account of Solomon's Tem
 contains every element.
 
 This is not a claim that 1 Kings borrowed from Gudea. It is a claim about genre:
-**temple-building accounts were a recognised form with a standard shape, and the
+**temple-building accounts were a recognized form with a standard shape, and the
 biblical account is written in that form.** That matters for how we read it. The
 elements a modern reader finds most striking — the divine sanction, the foreign
 craftsman, the emphasis on cost — are the genre's conventions, not distinctive
@@ -43,11 +43,11 @@ features requiring special explanation.
 Four things, all of them practical.
 
 **It demonstrated capacity.** A monumental building is an unfakeable display of
-command over labour, materials, transport, and time. Everyone who sees it knows
+command over labor, materials, transport, and time. Everyone who sees it knows
 what it cost.
 
-**It localized the deity.** A god with an address is a god whose favour has a
-place, and whoever controls the place mediates the favour.
+**It localized the deity.** A god with an address is a god whose favor has a
+place, and whoever controls the place mediates the favor.
 
 **It concentrated revenue.** Temples in the ancient world were economic
 institutions — receiving offerings, holding treasure, sometimes lending. A central
@@ -59,7 +59,7 @@ adjacent to the palace complex, on the king's acropolis. It was, institutionally
 a royal sanctuary. The prophetic literature knows this and can use it as a
 reproach — Amos's confrontation at Bethel turns on the shrine being the king's.
 
-The biblical narrative attaches a dynastic promise to the building programme
+The biblical narrative attaches a dynastic promise to the building program
 directly: David is told his son will build the house and his throne will be
 established. Temple and dynasty are two aspects of one claim.
 
@@ -89,7 +89,7 @@ The clearest case in the whole record is the Second Temple's expansion.
 
 Herod the Great was not of Davidic descent, was of Idumean ancestry, and ruled by
 Roman appointment. His legitimacy was contested throughout his reign. He undertook
-the most ambitious building programme in the region's history, and its centrepiece
+the most ambitious building program in the region's history, and its centerpiece
 was a total reconstruction of the Temple on a vastly enlarged platform.
 
 The political reading is not cynical and it is not speculative. A ruler with a

@@ -25,7 +25,7 @@ It is its own inverse: applying it twice returns the original. There is no key.
 | 10 | **י** yod | ↔ | **מ** mem | 13 |
 | 11 | **כ** kaf | ↔ | **ל** lamed | 12 |
 
-Final (sofit) forms are normalised to their medial equivalents before
+Final (sofit) forms are normalized to their medial equivalents before
 transformation: ך→כ, ם→מ, ן→נ, ף→פ, ץ→צ.
 
 ---

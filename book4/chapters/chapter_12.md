@@ -56,7 +56,7 @@ proportion in musical ratios and saying so. Palladio publishes his schemes.
 **In every case the design is documented by the designer.** That is the standard
 Book III's Chapter 45 established for architectural claims, and it is the only
 standard that distinguishes a proportioned building from a building someone has
-measured afterwards.
+measured afterward.
 
 **1 Kings supplies no rule.** It reports dimensions. It does not say why those
 dimensions, does not derive them from a module, and does not state a principle
@@ -99,7 +99,7 @@ the evidence cannot settle either way. What it demonstrates is that **this metho
 cannot answer it.**
 
 A search across a hundred-odd ratios with a five per cent tolerance will find φ in
-almost any dimension set, because φ sits in a crowded neighbourhood: 8:5 is 1.6,
+almost any dimension set, because φ sits in a crowded neighborhood: 8:5 is 1.6,
 13:8 is 1.625, 5:3 is 1.667, and any building using small whole numbers will
 generate several of these.
 
@@ -116,7 +116,7 @@ would say so. It did not.
 ### The honest summary
 
 **The Temple's proportions are simple, legible, and unremarkable.** Three to one,
-two to one, and a cube at the centre. They are consistent with careful building
+two to one, and a cube at the center. They are consistent with careful building
 and inconsistent with nothing.
 
 **No proportional rule is stated in the text**, and the one claim in wide

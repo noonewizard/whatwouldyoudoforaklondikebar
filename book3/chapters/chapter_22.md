@@ -43,7 +43,7 @@ and a key or method is required to get from one to the other.
 Nothing of the kind happens here.
 
 The letters of the word are the letters of the word. Nothing is substituted,
-transposed or transformed. What changes is the *division of labour between two
+transposed or transformed. What changes is the *division of labor between two
 speakers* — who says which part — and that is a fact about the performance, not
 about the text.
 
@@ -84,7 +84,7 @@ performs the word's status every time it is used, which is more effective than
 asserting it.
 
 **And it requires two.** Like the catechism, the exchange cannot be performed
-alone. A man practising in front of a mirror cannot do it. The word, in its proper
+alone. A man practicing in front of a mirror cannot do it. The word, in its proper
 form, *only exists between people* — which is the observation the preceding volume
 built its account of Masonic secrecy on, and which explains why publication of the
 letters changed so little.
@@ -101,7 +101,7 @@ standing — rather than in terms of security against a third party.
 
 This is the same gesture as the Jewish substitution of *Adonai* for the
 Tetragrammaton: the word is acknowledged and not uttered, and the not-uttering is an
-act of honour.
+act of honor.
 
 **Whether Masonic practice borrowed this or arrived at it independently is not
 established and I do not think it can be.** The parallel is real. The route is not
@@ -110,7 +110,7 @@ spoken whole or not spoken whole, and traditions that want to mark a word as
 special have very few moves available.
 
 The honest position is that the security function and the reverential function are
-both present, that the sources emphasise the second, that the first works whether
+both present, that the sources emphasize the second, that the first works whether
 or not anyone intended it, and that the two are not in competition. A practice can
 do two things.
 
@@ -169,13 +169,13 @@ learning that the challenger holds the word, because the challenger has to produ
 his own portions correctly. Neither party has to trust the other first. This is a
 nontrivial property that modern protocols take some trouble to achieve.
 
-**None of this was theorised.** There is no eighteenth-century Masonic text setting
+**None of this was theorized.** There is no eighteenth-century Masonic text setting
 out a security model. What there is, is a practice that has these properties, and
 the properties are why it worked.
 
 **Which is the pattern of this entire book.** Good solutions to stable problems are
 arrived at by people who could not have described what they had arrived at, and are
-describable afterwards in a vocabulary that did not yet exist. Convergence, not
+describable afterward in a vocabulary that did not yet exist. Convergence, not
 descent — and the convergence is on the problem, not on anybody's tradition.
 
 ---

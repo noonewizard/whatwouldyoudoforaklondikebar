@@ -29,7 +29,7 @@ by acts of emplacement, attention and differentiation.
 
 **The two accounts are not equally testable.** The substantive account makes a
 claim historical method cannot reach. The relational account makes a claim about
-observable human behaviour, and the behaviour is observable.
+observable human behavior, and the behavior is observable.
 
 This book therefore works with the relational account throughout — not because the
 substantive one is false, which it is not this book's business to determine, but
@@ -55,8 +55,8 @@ examines what crossing one does to a person's attention and memory.
 else is positioned. The Temple faces east; the lodge has an east. Chapter 36
 examines how loosely "east" can be held while still doing its work.
 
-**Centre.** A point toward which the whole arrangement is oriented and from which
-access is most restricted. Chapter 7 is about what happens when that centre is
+**Center.** A point toward which the whole arrangement is oriented and from which
+access is most restricted. Chapter 7 is about what happens when that center is
 made empty and dark.
 
 **All four are arrangements, not substances.** Any group of people can perform
@@ -80,7 +80,7 @@ Israelite men, for priests.[^2]
 **This is a social structure expressed as a floor plan**, and it is legible
 without any theology at all. Tell me how far into a building each category of
 person may go, and I can tell you a great deal about how that society is
-organised.
+organized.
 
 Chapter 83 develops this as the book's "architecture as governance" argument. What
 matters here is the observation that **the Temple's most consistent message is not

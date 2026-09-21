@@ -59,7 +59,7 @@ person, while men he knows conduct a search for a body that is his.
 I want to be careful about what I claim here, and the claim is deliberately narrow.
 
 **I do not know what that is like, and neither does anybody writing about it.** There is no
-adequate first-person account. The few descriptions we have were written afterwards, by men
+adequate first-person account. The few descriptions we have were written afterward, by men
 using the vocabulary the ceremony had just given them, which is the standard problem with
 initiatory testimony and is close to insurmountable.
 
@@ -67,7 +67,7 @@ What can be said is structural, and it is enough to be going on with.
 
 **He is not representing a dead man. He is doing what a dead man does**, which is nothing,
 while others act. The distinction between playing a part and occupying a position is the
-distinction between theatre and ritual, and this ceremony sits on the line: there is a script
+distinction between theater and ritual, and this ceremony sits on the line: there is a script
 and there are roles, and yet the protagonist has not read the script and is not acting.
 
 **The passivity is total and it is the only moment in the ceremony where it is.** Everywhere
@@ -150,11 +150,11 @@ and does not affect the argument. The question is not why the plot required the 
 three centuries. A legend in which the word is recovered was equally constructible — the
 Royal Arch constructed one within twenty years. The Craft kept the version that withholds.
 
-**"This over-reads a piece of tavern theatre."** The degree was performed, in its early
+**"This over-reads a piece of tavern theater."** The degree was performed, in its early
 decades, by amateurs in upper rooms with improvised properties, and treating it as a
 considered piece of ritual engineering may be dignifying something that was assembled for
 effect. The objection has force, and the answer to it is the one Chapter 6 gives: what
-matters for this book is not the sophistication of the makers but the behaviour of the
+matters for this book is not the sophistication of the makers but the behavior of the
 result. A device can be built carelessly and still work, and three centuries of continuous
 use is the relevant evidence about whether this one does.
 

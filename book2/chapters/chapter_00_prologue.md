@@ -12,7 +12,7 @@ not a person. No single candidate is described in the record from beginning to e
 nobody who went through this wrote down what it was like with the kind of detail a historian
 would want.
 
-So: a composite, built from documented practice, and labelled as one. That is the most any
+So: a composite, built from documented practice, and labeled as one. That is the most any
 honest account can offer, and it is more than enough.
 
 He has been asked to empty his pockets. Coins, keys, a watch if he has one — anything of
@@ -73,7 +73,7 @@ The question I want to ask is harder and, I think, answerable in a way the other
 
 **What does the ritual do?**
 
-Not symbolise. *Do.* To attention, to memory, to identity, to a person's relationship with a
+Not symbolize. *Do.* To attention, to memory, to identity, to a person's relationship with a
 group and with authority and with his own death. The ceremony is a sequence of physical and
 informational conditions imposed on a human nervous system for about an hour, and human
 nervous systems have been studied. Some of what happens in that room is recoverable.
@@ -107,7 +107,7 @@ thing — that there is one ancient initiatory tradition and Freemasonry is a br
 That temptation has produced more bad history than any other idea in this subject, and the
 previous volume spent three hundred pages dismantling the particular versions of it that
 attach to the Craft. There is no Egyptian descent. There is no Templar succession. The
-Rosicrucian ancestry runs backwards. The documented line into Freemasonry comes from the
+Rosicrucian ancestry runs backward. The documented line into Freemasonry comes from the
 medieval building trade, and the documented line out of it goes to the Victorian occultists,
 who took the apparatus and filled it with material they had bought in second-hand
 bookshops.

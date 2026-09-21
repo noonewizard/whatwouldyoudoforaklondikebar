@@ -12,7 +12,7 @@ asks what that world thought the Temple was.
 
 The first correction, and it governs everything else.
 
-The eighteenth century did not set religion aside in favour of reason. It argued
+The eighteenth century did not set religion aside in favor of reason. It argued
 about religion incessantly, with reason as the instrument. Newton spent more
 manuscript pages on prophecy and chronology than on physics. Biblical chronology
 was a live scholarly field. Natural theology — the argument from the world's design
@@ -31,7 +31,7 @@ better than an object that was both.
 
 **A chronological anchor.** Ancient chronology was genuinely unsettled, and
 synchronizing biblical, Egyptian, Greek, and Assyrian records was a major scholarly
-programme. The Temple's construction, tied to a reign, was a fixed point people
+program. The Temple's construction, tied to a reign, was a fixed point people
 argued over. Chapter 68 showed Newton doing exactly this.
 
 **An origin for architecture.** Villalpando's thesis, that the classical orders
@@ -47,7 +47,7 @@ understood was a religion compatible with a century that wanted faith to be
 reasonable.
 
 Anderson's first Charge, asking for the religion in which all men agree, belongs to
-that programme — and the Temple was an unusually good emblem for it, being
+that program — and the Temple was an unusually good emblem for it, being
 pre-Christian, shared, and specified in numbers rather than in doctrines.
 
 ---
@@ -87,7 +87,7 @@ accounts given within the tradition itself, for geometry, understood as the nobl
 of sciences.
 
 The modern usage — sacred geometry as a system of hidden ratios encoding spiritual
-truths, with φ at its centre — is a nineteenth- and twentieth-century construction,
+truths, with φ at its center — is a nineteenth- and twentieth-century construction,
 as Chapter 56 dated it, and it is a different idea wearing an older phrase.
 
 Confusing them produces a specific and common historical error: reading

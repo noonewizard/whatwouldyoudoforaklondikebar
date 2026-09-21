@@ -19,7 +19,7 @@ The documentary record begins with the Scottish lodge minutes of the late sixtee
 The English record of non-operative admission begins with Elias Ashmole's diary entry for 16
 October 1646. The first Grand Lodge was constituted in London; the traditional date of 1717
 rests on Anderson's 1738 account, and the dating has been reopened by recent scholarship
-favouring 1721 — a dispute set out in the preceding volume and summarised in Chapter 3.
+favoring 1721 — a dispute set out in the preceding volume and summarised in Chapter 3.
 
 The third degree is not attested before the 1720s. This is the single most important
 chronological fact in the book: the Hiramic legend, on which almost every esoteric
@@ -76,7 +76,7 @@ States in the nineteenth century.
 
 The Templar orders are a matter of frequent confusion. They are eighteenth- and
 nineteenth-century chivalric *creations*; they are not, and do not by their own official
-accounts claim to be, an organisational continuation of the medieval order suppressed in
+accounts claim to be, an organizational continuation of the medieval order suppressed in
 1312. The lineage claims belong to the fringe literature, not to the bodies themselves.
 
 ---
@@ -88,7 +88,7 @@ Templar descent through "Unknown Superiors" whom Hund could never produce. Inves
 effectively dissolved at the Convent of Wilhelmsbad (1782), which rejected the Templar
 claim.
 
-Its importance is as a case study: a Masonic body organised entirely around an unverifiable
+Its importance is as a case study: a Masonic body organized entirely around an unverifiable
 transmission claim, examined by its own members using something close to historical method,
 and abandoned when the claim failed. Chapter 42 uses it as a control on how Masonic bodies
 have actually handled origin claims.
@@ -100,11 +100,11 @@ have actually handled origin claims.
 Jean-Baptiste Willermoz reorganised the Strict Observance material into the Rectified
 Scottish Rite after Wilhelmsbad, retaining a Christian-mystical orientation. Martinez de
 Pasqually's Ordre des Chevaliers Maçons Élus Coëns de l'Univers (from the 1760s) was
-genuinely theurgic — it practised invocation — and is therefore one of the very few bodies in
+genuinely theurgic — it practiced invocation — and is therefore one of the very few bodies in
 this appendix where operative magical practice is documented rather than alleged.
 
 This matters for the argument of the book. When occult practice enters Masonic-adjacent
-organisations, it does so visibly, with named founders, dated documents, and explicit
+organizations, it does so visibly, with named founders, dated documents, and explicit
 instructions. Its absence from the Craft degrees is not an absence of evidence; it is
 evidence of absence of that kind of material. See Chapter 30.
 
@@ -116,8 +116,8 @@ evidence of absence of that kind of material. See Chapter 30.
 |---|---|---|---|
 | Societas Rosicruciana in Anglia (SRIA) | 1866–67 | Membership restricted to Master Masons; not a Masonic body | Supplied personnel and material to the Golden Dawn |
 | Hermetic Order of the Golden Dawn | 1887–88 | **Not Masonic** | Founders were Masons; borrowed grade structure and ritual form. Its founding warrant was forged — established in the preceding volume |
-| Ordo Templi Orientis | c. 1902 onward | **Not Masonic**; regular bodies do not recognise it | Adopted degree structure; Crowley's reworking from 1912 |
-| Co-Masonry (Le Droit Humain, 1893) | 1893 | Initiates women; not recognised by most regular grand lodges | Theosophical connections through Besant; Chapter 43 |
+| Ordo Templi Orientis | c. 1902 onward | **Not Masonic**; regular bodies do not recognize it | Adopted degree structure; Crowley's reworking from 1912 |
+| Co-Masonry (Le Droit Humain, 1893) | 1893 | Initiates women; not recognized by most regular grand lodges | Theosophical connections through Besant; Chapter 43 |
 | Memphis-Misraïm | 19th c. | Irregular in most jurisdictions | Very high degree counts; heavy Egyptological framing |
 
 The distinction drawn throughout this book is between bodies that *are* Masonic, bodies whose

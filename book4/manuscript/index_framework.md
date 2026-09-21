@@ -60,7 +60,7 @@ Daemonum*, 27 · Regius Poem, 30 · Revelation, 62, 86 · *Testament of Solomon*
 ## Concepts
 
 art of memory, 51, 81 · ashlar, rough and perfect, 43–45, 87, 89 · Atbash, 74, 75,
-App. N · authentication vs exclusion, 82 · awe, 51 · behaviour settings, 46 ·
+App. N · authentication vs exclusion, 82 · awe, 51 · behavior settings, 46 ·
 cherubim, 9, 71 · concinnitas, 56 · control conditions, 72–74, 79, App. L–N ·
 disagreement principle, 32, 40 · doorway effect, 48 · emplacement, 34, 36 ·
 event segmentation, 48 · evidence hierarchies, App. D · five-level model, App. A ·

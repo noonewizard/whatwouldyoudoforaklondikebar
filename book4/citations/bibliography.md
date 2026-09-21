@@ -4,7 +4,7 @@
 evidence scale for individual claims (source level and claim-evidence level are
 related but distinct — a Level A primary source can still support only an E4
 claim if the claim itself is disputed). ✔ = verified against a copy or reliable
-catalogue record; ~ = details substantially confirmed, page-level verification
+catalog record; ~ = details substantially confirmed, page-level verification
 outstanding; **[SVR]** = source verification required.
 
 ---

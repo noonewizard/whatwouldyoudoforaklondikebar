@@ -2,7 +2,7 @@
 ## Master Claim Ratings
 
 Every claim this book rated, with its chapter. Ordered by rating, not by
-sympathy: several claims favourable to Freemasonry are rated E6, and several
+sympathy: several claims favorable to Freemasonry are rated E6, and several
 unfavourable ones are too.
 
 ### E1 — Documented, uncontested
@@ -48,7 +48,7 @@ unfavourable ones are too.
 | Ceiling height changes cognitive style (Meyers-Levy & Zhu 2007) | 49 |
 | The Royal Arch as a possible exception to the no-Kabbalah-before-1854 finding | 52 |
 
-### E5 — Later interpretation projected backwards
+### E5 — Later interpretation projected backward
 
 | Claim | Ch. |
 |---|---|

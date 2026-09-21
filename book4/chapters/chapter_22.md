@@ -59,7 +59,7 @@ degrees, a word, a grip, a question-and-answer sequence. No murder, no Grand
 Master, no raising.
 
 **The third degree with the legend appears in the printed record in the 1720s**,
-and Prichard's *Masonry Dissected* of 1730 gives it in recognisable form.[^2]
+and Prichard's *Masonry Dissected* of 1730 gives it in recognizable form.[^2]
 
 **Between these lies a gap of roughly three decades** in which the character was
 constructed. Nobody claims authorship. No document records a decision. The degree

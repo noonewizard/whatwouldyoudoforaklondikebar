@@ -62,7 +62,7 @@ formation. The unfinished work becomes the unfinished self.
 
 This is the point at which the Temple becomes what Part I called a symbolic
 universe: not a symbol among others but a frame in which other symbols are
-located. A symbolic universe is recognisable by a specific property — **it can
+located. A symbolic universe is recognizable by a specific property — **it can
 absorb new material without being altered.** Additional degrees, new emblems,
 imported philosophical systems, later esoteric enthusiasms: all could be given a
 place in the Temple, because the Temple had rooms.
@@ -112,7 +112,7 @@ chronology forbids it.
 
 It does not license the opposite dismissal either — that the Temple is a
 decorative fiction and nothing follows from it. Something does follow. The men who
-built this symbolic structure were doing something recognisable and serious: they
+built this symbolic structure were doing something recognizable and serious: they
 were constructing a shared imaginative space in which moral formation could be
 staged, at a moment when the older shared spaces had become contested. That the
 historical claims attached to it are false does not make the construction
@@ -126,5 +126,5 @@ very interesting — but *what does it make possible, and what does it cost?*
 
 Part VIII takes up the first half of that question by walking into the room. What
 does the lodge actually look like, and how much of it is genuinely Temple-derived?
-The answer, again, is less than the tradition claims and more than the sceptics
+The answer, again, is less than the tradition claims and more than the skeptics
 allow.

@@ -30,7 +30,7 @@ doing the work here, it is not the phonetics.
 **The speech is not addressed to anything.** God is not commanding an existing
 substance to rearrange itself, or summoning a power, or negotiating with a rival.
 There is no second party. This is a significant difference from the surrounding
-literature, and it is where Genesis is doing something that its neighbours are not.
+literature, and it is where Genesis is doing something that its neighbors are not.
 
 **And naming follows creation rather than accomplishing it.** God makes the light
 and *then* calls it day. The name is a subsequent act, and Genesis 2 will hand that
@@ -43,7 +43,7 @@ theology.
 
 ---
 
-### The neighbours
+### The neighbors
 
 Comparison here is legitimate and it is also where a great deal of overreach
 begins, so the rules from Chapter 5 apply from the outset.

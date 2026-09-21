@@ -74,7 +74,7 @@ measure. Chapter 10.
 
 **Doctrinal mode / imagistic mode.** Harvey Whitehouse's two attractors in religious
 transmission: frequent, low-arousal, routinised practice versus rare, high-arousal,
-sensorily vivid practice. Masonic initiation sits awkwardly between them, which is analysed
+sensorily vivid practice. Masonic initiation sits awkwardly between them, which is analyzed
 rather than smoothed over in Chapter 34.
 
 **Flashbulb memory.** Vivid, confidently held memory of a surprising event. Note: high
@@ -89,7 +89,7 @@ category imposed by scholars rather than a natural kind. Adopted in this book as
 discipline: it forbids the move from *this resembles ritual X* to *this descends from ritual
 X*. Chapter 6.
 
-**Ritual criticism.** Ronald Grimes's programme for evaluating rites as performances that can
+**Ritual criticism.** Ronald Grimes's program for evaluating rites as performances that can
 succeed or fail. Chapter 47.
 
 **Symbolic compression.** Used in this book for the property of a symbol that carries more

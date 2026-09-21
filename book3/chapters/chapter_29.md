@@ -2,7 +2,7 @@
 ## Enochian
 
 This is the most important chapter in Part VI, and it is about a language that did
-not exist before 1582 and did afterwards.
+not exist before 1582 and did afterward.
 
 We know when it appeared. We know who was in the room. We have the diaries, kept
 day by day, in the handwriting of a man who was among the most learned in England.
@@ -39,8 +39,8 @@ The method is the part that matters and it is minutely documented.
 
 Angels displayed tables — grids of letters. Kelley reported which cell was being
 indicated, letter by letter, and Dee recorded. Much of the material was given
-**backwards**, letter by letter in reverse order, on the stated grounds that the
-texts were too dangerous to be transmitted forwards.
+**backward**, letter by letter in reverse order, on the stated grounds that the
+texts were too dangerous to be transmitted forward.
 
 The result, over seven years, was substantial: a script of twenty-one characters;
 a body of text including the "Calls" or "Keys"; a vocabulary with translations
@@ -49,7 +49,7 @@ derived by reading letters out of the grids in various directions.[^2]
 
 **The angels also supplied the translations.** This is worth pausing on. The
 practitioners did not have to work out what the language meant by philological
-labour, because the meaning came with it — which removes the one check that would
+labor, because the meaning came with it — which removes the one check that would
 otherwise have been available.
 
 ---
@@ -62,12 +62,12 @@ The scholarly assessment is mixed and the mixture is instructive.
 one would expect if the material was produced by English speakers and not if it
 were an independent tongue. The vocabulary is limited. There is no corpus outside
 the sessions. Nobody has demonstrated productive grammar — the ability to generate
-new well-formed sentences that competent speakers would recognise.
+new well-formed sentences that competent speakers would recognize.
 
 **For**: the material has considerably more internal structure than random
 generation would produce. The alphabet is consistent. The texts are long, and
 constructed rather than improvised. Whatever was happening, it was not
-straightforward fabrication of a casual kind, and the labour involved was
+straightforward fabrication of a casual kind, and the labor involved was
 enormous.
 
 **The honest summary** is that Enochian is a constructed language of limited
@@ -103,7 +103,7 @@ be angelic instruction, worrying about its implications, and following it into
 decisions that cost him a great deal.
 
 **Sincere belief in reception is entirely compatible with production.** That is the
-finding, and it generalises.
+finding, and it generalizes.
 
 ---
 

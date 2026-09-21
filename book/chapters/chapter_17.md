@@ -1,5 +1,5 @@
 # CHAPTER SEVENTEEN
-## The Lodge as Theatre
+## The Lodge as Theater
 
 Consider the room.
 
@@ -25,7 +25,7 @@ It works because of where they stand.
 
 ### Blocking
 
-Theatre people call the arrangement of bodies in a space *blocking*, and it is the first
+Theater people call the arrangement of bodies in a space *blocking*, and it is the first
 thing a director does, because an audience reads position before it hears a word.
 
 The Masonic lodge is blocked with great precision and the meaning of the positions is never
@@ -36,8 +36,8 @@ association between east, sunrise, authority and knowledge does not need to be t
 anyone raised in a European culture; it is already installed by every church the man has
 ever entered. There is a west, with a second officer, and a south with a third. The
 candidate enters from a direction that is not east. He is conducted around the room in a
-fixed direction, stopping at stations. He is brought to the centre. He kneels at the
-centre. When he rises he is placed somewhere he was not before.
+fixed direction, stopping at stations. He is brought to the center. He kneels at the
+center. When he rises he is placed somewhere he was not before.
 
 None of this is stated as doctrine. All of it is experienced as fact.
 
@@ -55,7 +55,7 @@ prescribed directions is not a tavern room. Nobody has to say so.
 
 ### Script
 
-The eighteenth-century lodge ran on memorised call and response.
+The eighteenth-century lodge ran on memorized call and response.
 
 The catechisms in the exposures give the form. *Are you a Mason? I am so taken and
 accepted among brothers and fellows. How shall I know you to be a Mason? By signs and
@@ -93,8 +93,8 @@ searched for, found, and raised.
 This is a different technology from question and answer, and it is the innovation that
 makes Freemasonry what it became.
 
-The theatre historian's term for what the candidate undergoes is not quite available,
-because ordinary theatre has an audience watching actors. Here the audience *are* the
+The theater historian's term for what the candidate undergoes is not quite available,
+because ordinary theater has an audience watching actors. Here the audience *are* the
 actors, and the protagonist has not read the script, does not know what happens next,
 cannot see for part of it, and is the only person in the room who does not know how it
 ends.
@@ -110,7 +110,7 @@ the same piece repeatedly, each time for a single spectator who is also the lead
 
 ### Kit
 
-The material culture deserves a paragraph, because it is where the theatre becomes visible
+The material culture deserves a paragraph, because it is where the theater becomes visible
 to us at this distance.
 
 **The apron.** A working mason's protective garment, made of leather, entirely practical in
@@ -140,7 +140,7 @@ the eighteenth century's contribution, not at the Craft's inheritance.
 
 ---
 
-### Why theatre rather than teaching
+### Why theater rather than teaching
 
 A question worth asking directly: why go to this trouble? If the aim is to convey that a
 man should be upright, why not say so?

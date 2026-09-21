@@ -61,7 +61,7 @@ virtues are 1 Corinthians 13:13.
 
 **The dating.** The ladder is not in the earliest catechisms. It appears in the developed
 tracing-board imagery of the later eighteenth and early nineteenth centuries, when the
-visual symbolism of the degrees was being elaborated and standardised.[^1]
+visual symbolism of the degrees was being elaborated and standardized.[^1]
 
 **The additions.** The mapping of the ladder onto a Kabbalistic or planetary ascent —
 seven rungs for seven spheres, in the Hermetic manner of Chapter 6 — is an occult reading
@@ -76,7 +76,7 @@ no esoteric source, and the Masonic version's three rungs are Pauline, not plane
 
 ### The Blazing Star
 
-**The claim.** A star, usually five-pointed, in the centre of the lodge floor or on the
+**The claim.** A star, usually five-pointed, in the center of the lodge floor or on the
 tracing board. Interpretations offered in the Masonic sources include Providence, the
 guiding star, the sun, and glory.
 
@@ -116,8 +116,8 @@ and it therefore dates from the period in which English-speaking people were mak
 symbols, which is the eighteenth century.
 
 The point survives translation, too: in French lodges the letter persists, sometimes with
-*Gloire*, *Grandeur*, *Génie* supplied — that is, the letter travelled as a letter and
-acquired new meanings to justify itself, which is exactly backwards from how an ancient
+*Gloire*, *Grandeur*, *Génie* supplied — that is, the letter traveled as a letter and
+acquired new meanings to justify itself, which is exactly backward from how an ancient
 symbol behaves.
 
 **The additions.** The occult readings are numerous and inventive: the Hebrew letter *yod*,
@@ -176,7 +176,7 @@ substantially to the twentieth century and overwhelmingly to the period after ab
 
 The Great Seal's designers — a committee process running from 1776 to 1782, with the final
 design by Charles Thomson, Secretary of Congress — used the Eye of Providence because it
-was a standard emblem of divine favour in the visual vocabulary of the period. Thomson was
+was a standard emblem of divine favor in the visual vocabulary of the period. Thomson was
 not a Freemason.[^4] The unfinished pyramid comes from a different committee proposal
 entirely. The design was not reproduced on the dollar bill until 1935.
 

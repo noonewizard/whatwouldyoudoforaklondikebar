@@ -103,7 +103,7 @@ journey and ascent. It has been in continuous Muslim religious use, with
 interruptions, since the seventh century.
 
 For Christianity, the platform's significance is largely historical and
-typological; Christian sacred geography in Jerusalem centres on the Church of the
+typological; Christian sacred geography in Jerusalem centers on the Church of the
 Holy Sepulchre, and the Byzantine period deliberately left the platform in ruins.
 
 ---
@@ -139,7 +139,7 @@ mainstream Jewish religious opinion, the majority of which either defers
 restoration to a messianic future or holds the entire question to be not presently
 actionable.
 
-**Second: there is no Masonic programme to rebuild the Temple, and the claim that
+**Second: there is no Masonic program to rebuild the Temple, and the claim that
 there is rests on a category error.** Every finding of Parts VII through IX points
 the same way: the Masonic Temple is a symbolic and ritual structure, explicitly
 identified as such in Masonic instruction itself, and its central image is an

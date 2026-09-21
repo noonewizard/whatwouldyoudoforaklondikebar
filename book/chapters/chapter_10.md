@@ -32,7 +32,7 @@ the foundational achievements of modern Jewish scholarship.[^1]
 
 Its central structure is the ten *sefirot*: emanations or aspects through which the
 unknowable God — *Ein Sof*, the Infinite — becomes manifest. They have names (Crown,
-Wisdom, Understanding, Mercy, Severity, Beauty, Eternity, Splendour, Foundation, Kingdom)
+Wisdom, Understanding, Mercy, Severity, Beauty, Eternity, Splendor, Foundation, Kingdom)
 and they are arranged in a pattern that later diagrams render as a tree.
 
 Two further features matter for what follows. First, **the letters are real**. Hebrew is
@@ -72,7 +72,7 @@ which transliterates to something very like *Yeheshuah*: Jesus. The unspeakable 
 God becomes speakable at the Incarnation.
 
 It is ingenious. It is also, as an account of the Hebrew tradition, without foundation. No
-Jewish Kabbalist had ever performed that operation or would have recognised its logic.
+Jewish Kabbalist had ever performed that operation or would have recognized its logic.
 
 That pattern holds across the whole Christian Cabalistic enterprise. The techniques —
 gematria (numerical equivalence of letters), notarikon (treating words as acronyms), temurah
@@ -81,7 +81,7 @@ operator decided in advance what he was looking for and the techniques are flexi
 to supply it.
 
 I want to be precise about the criticism. The charge is not that Christian Cabalists were
-dishonest. Most were sincere, some were learned, and Reuchlin's defence of Jewish books was
+dishonest. Most were sincere, some were learned, and Reuchlin's defense of Jewish books was
 an act of real courage in a dangerous moment. The charge is methodological: they were
 operating inside the *prisca theologia*, where all traditions must agree, and so they could
 not find disagreement. A method that cannot produce a negative result is not finding
@@ -166,7 +166,7 @@ that the source of the claim was a French author of the 1850s, and that the mate
 entered his tradition within his grandfather's lifetime.
 
 There is one genuine complication, and honesty requires it. The Royal Arch degree, which
-took shape in England and Ireland in the middle of the eighteenth century, centres on the
+took shape in England and Ireland in the middle of the eighteenth century, centers on the
 recovery of a lost divine name. That is a theme with real resonance in the Jewish mystical
 tradition, and it is not obviously borrowed from Lévi or anyone after him, because it
 predates them by a century. Where the Royal Arch came from is one of the genuinely open

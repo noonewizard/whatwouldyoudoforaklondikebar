@@ -20,14 +20,14 @@ substance but the same thing, attenuated.
 
 Which means that everything in the universe is continuous with its source, arranged in
 descending order, and — this is the part that will matter for the next fifteen hundred
-years — the sequence can be run backwards.
+years — the sequence can be run backward.
 
 ---
 
 ### The architecture
 
 It is worth seeing what that geometry provides, because it is provided to everyone who
-comes afterwards.
+comes afterward.
 
 You get **levels**. The cosmos is not flat. It has an order of dignity, and things occupy
 positions in it.
@@ -86,7 +86,7 @@ page that follows.
 **First: ritual is epistemology.** Iamblichus is not saying that ritual is a helpful
 supplement to philosophy. He is saying that there are things which cannot be known by
 thinking and can be known by doing — that certain kinds of knowledge are available only
-through performed action, and are not reducible to propositions afterwards. This is the
+through performed action, and are not reducible to propositions afterward. This is the
 oldest and most rigorous statement in the Western tradition of the claim that initiation
 transmits something a book cannot.
 
@@ -121,7 +121,7 @@ teaching will be staged. Its practitioners will occupy positions. There will be 
 further up and those further down, and the further up will know things the further down do
 not, and will decide when they are ready.
 
-That is not a mystical proposition. It is an organisational consequence of a cosmological
+That is not a mystical proposition. It is an organizational consequence of a cosmological
 premise, and it produces an identical institutional shape every single time, regardless of
 content.
 

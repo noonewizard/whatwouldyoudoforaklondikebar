@@ -3,7 +3,7 @@
 
 Compiled for Chapter 65. The column that matters is the last one.
 
-| Building | Date | Architect | Style | Modelled on the Temple? |
+| Building | Date | Architect | Style | Modeled on the Temple? |
 |---|---|---|---|---|
 | Freemasons' Hall, Great Queen St, London | 1927–33 (site occupied from 1775) | Ashley & Newman | Art Deco | No |
 | Freemasons' Hall, George St, Edinburgh | early 20th c. | — | Classical | No |
@@ -24,7 +24,7 @@ when Villalpando's engravings had been in print for three centuries and the
 biblical dimensions were in every Bible.
 
 The conclusion drawn in Chapter 65: the Temple was never an architectural
-programme. It is a ritual and mnemonic frame, and a frame requires enclosure, a
+program. It is a ritual and mnemonic frame, and a frame requires enclosure, a
 controllable door, and room to move a candidate about in. Everything else is the
 architecture of the period.
 

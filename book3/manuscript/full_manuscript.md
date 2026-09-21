@@ -54,7 +54,7 @@ transformations performed on them in Parts III and IX were carried out by machin
 and checked against standard published figures.
 
 The author's Hebrew is not independent. Where a reading depends on philological
-judgement, the text names the scholar whose judgement it follows. This is stated
+judgment, the text names the scholar whose judgment it follows. This is stated
 once here and not repeated, but it applies throughout.
 
 
@@ -74,7 +74,7 @@ ordinary business of a club: money, minutes, an argument about the dinner.
 On the other side of the door, in the dark of a landing, a man is waiting. He has
 been prepared, which is a word doing a great deal of work. He does not know what is
 coming. He knows only that something is about to be done to him, and that
-afterwards he will be inside.
+afterward he will be inside.
 
 He knocks.
 
@@ -300,7 +300,7 @@ word and a grip. There are two degrees. There is no Hiram, no murder, no loss an
 no substitution. The word is simply a word that Masons have and others do not.[^3]
 
 **The third degree appears in the 1720s.** Prichard's *Masonry Dissected* of 1730
-is the first full printed account, and it contains the legend in recognisable
+is the first full printed account, and it contains the legend in recognizable
 form.[^4] Between the catechisms and Prichard lies a gap of roughly three decades
 in which something was built.
 
@@ -362,7 +362,7 @@ referent to supply one.
 
 **"Can it be recovered?"** — assumes it went somewhere. Words do not.
 
-**"What does it symbolise?"** — a better question, and the one Masonic commentary
+**"What does it symbolize?"** — a better question, and the one Masonic commentary
 has answered for two hundred years, with answers that multiply rather than converge.
 Truth. The divine name. Moral character. Lost innocence. The knowledge of God.
 Consciousness. Identity. The proliferation is itself evidence, and Chapter 21 of
@@ -457,7 +457,7 @@ The word, nine times in ten, is sitting there in plain sight.
 If that is right, then the Masonic drama is not about missing information.
 
 A system whose climax is the announcement that a word is unavailable, followed by
-the provision of a substitute that is labelled as one, is a system making a
+the provision of a substitute that is labeled as one, is a system making a
 distinction — between having a word and having whatever else one might have. It is
 telling the candidate, in the only vocabulary available to a ritual, that
 possession of a string is not the same as possession of what the string stands for.
@@ -562,7 +562,7 @@ Now read the magical and religious material with that in hand, because it stops
 looking naive.
 
 A tradition that holds a name to confer power over its bearer is not making a
-category error. It is generalising, perhaps too far, from something that is
+category error. It is generalizing, perhaps too far, from something that is
 genuinely true of names: **a name is an instrument of address.** To have someone's
 name is to be able to call them. In ordinary social life this is unremarkable and
 constantly useful — it is why we learn the names of people we want things from,
@@ -576,7 +576,7 @@ other end of the line is a different question, and not one this book will answer
 
 The point for now is narrower. **A tradition treating names as power is reasoning
 from the structure of naming, not from superstition.** Whether the reasoning
-generalises is the question, and it is a real question rather than an obvious
+generalizes is the question, and it is a real question rather than an obvious
 mistake.
 
 ---
@@ -870,7 +870,7 @@ A caution, because the performative material is easily overextended and frequent
 is.
 
 Austin's category covers utterances whose effects are **conventional**. The marriage
-is real because a society has agreed on a procedure and recognises its outcome. The
+is real because a society has agreed on a procedure and recognizes its outcome. The
 verdict binds because a legal system enforces it. The promise obliges because we
 have a practice of holding people to promises. **In every case the power lies in
 the convention, not in the sound.**
@@ -971,7 +971,7 @@ taxonomy; readers wanting the distinctions properly should consult Lectures II�
 [^2]: John R. Searle, *Speech Acts* (Cambridge: Cambridge University Press, 1969),
 develops the account in a direction Austin did not live to pursue.
 
-[^3]: On the ritual obligation and the evidence for its behavioural consequences,
+[^3]: On the ritual obligation and the evidence for its behavioral consequences,
 see the preceding volume of this series, Part XI.
 
 
@@ -1034,7 +1034,7 @@ he is and how many people are present, which leaves him with exactly what the
 ceremony intends to give him: the voice, when it comes, and nothing else.
 
 **It signals that a boundary has been crossed.** Ordinary sociability is noisy.
-People arriving at a lodge meeting talk; they talk at dinner afterwards. The
+People arriving at a lodge meeting talk; they talk at dinner afterward. The
 silence in between is one of the clearest markers that the room has changed status
 — which is Jonathan Z. Smith's point about sacred space, that sacrality is a matter
 of placement and designation rather than of substance.[^2] Silence is one of the
@@ -1063,12 +1063,12 @@ that is never articulated cannot be disclosed.**
 And a large part of what Masonic ritual conveys is of this kind. Not concealed —
 simply not put into words by anyone, including the people who have it. The manner
 of a ceremony. The timing. What the room feels like when it is done well and what
-is wrong when it is done badly. The judgement a Past Master exercises when he
+is wrong when it is done badly. The judgment a Past Master exercises when he
 prompts a nervous officer. None of this is secret. All of it is unwritten, and most
 of it is unwritable.
 
 Michael Polanyi's term for this is **tacit knowledge** — the category of things we
-know and cannot state.[^3] His examples are ordinary: recognising a face,
+know and cannot state.[^3] His examples are ordinary: recognizing a face,
 riding a bicycle, knowing that a chemical reaction has gone wrong from the look of
 it. The knowledge is real, it is demonstrable, it is transmissible by
 apprenticeship, and it does not survive being written down because it was never in
@@ -1167,7 +1167,7 @@ what the rough ashlar means, because nothing authorises a correction.
 **Two things follow, and they pull in opposite directions.**
 
 **The tradition became extraordinarily accommodating.** A Christian, a Jew, a deist
-and a sceptic can all work the same ceremony and take from it whatever their
+and a skeptic can all work the same ceremony and take from it whatever their
 convictions allow. This is why Masonry spread across confessional boundaries that
 almost nothing else crossed in the eighteenth century, and it is a genuine
 achievement.
@@ -1270,7 +1270,7 @@ centuries before anyone had a word for it, by people solving a practical problem
 
 Several otherwise puzzling features fall out of that function.
 
-**Why memorised verbatim rather than paraphrased.** A paraphrase would demonstrate
+**Why memorized verbatim rather than paraphrased.** A paraphrase would demonstrate
 understanding and fail to demonstrate provenance. The examiner is not checking
 whether the visitor grasps the meaning of the answers; he is checking whether the
 visitor learned the words from a legitimate source. **Exact wording is the
@@ -1282,12 +1282,12 @@ working is genuine and cannot prove it by this method.
 **Why it takes two people.** The knowledge is distributed. Neither party holds the
 whole exchange alone; the questions belong to one and the answers to the other, and
 the thing only exists when both are present. A catechism cannot be performed by a
-man alone in a room, which means it cannot be practised into existence by someone
+man alone in a room, which means it cannot be practiced into existence by someone
 who has read it.
 
 **And why publication did not destroy it.** When *Masonry Dissected* appeared in
 1730 the lodges were alarmed, and their alarm was rational: an impostor could now
-memorise the answers. The institutional response — altering certain details,
+memorize the answers. The institutional response — altering certain details,
 leaning harder on personal vouching alongside examination — tells us that the form
 was understood at the time as a security mechanism and defended as one.[^2]
 
@@ -1342,7 +1342,7 @@ descends from a Hebrew, Egyptian or Templar original — six questions apply.
 *Provenance*: where does the document come from? *Chronology*: does the source
 predate the recipient? *Transmission*: is there a documented route, or only a
 possibility? *Intertextuality*: is there verbal dependence, or only thematic
-resemblance? *Continuity*: did an organisation persist, or is persistence inferred?
+resemblance? *Continuity*: did an organization persist, or is persistence inferred?
 *Anachronism*: does the claim require someone to have known what was not yet known?
 
 When something is claimed to have been **discovered** — that a word, a number or a
@@ -1474,7 +1474,7 @@ doing the work here, it is not the phonetics.
 **The speech is not addressed to anything.** God is not commanding an existing
 substance to rearrange itself, or summoning a power, or negotiating with a rival.
 There is no second party. This is a significant difference from the surrounding
-literature, and it is where Genesis is doing something that its neighbours are not.
+literature, and it is where Genesis is doing something that its neighbors are not.
 
 **And naming follows creation rather than accomplishing it.** God makes the light
 and *then* calls it day. The name is a subsequent act, and Genesis 2 will hand that
@@ -1487,7 +1487,7 @@ theology.
 
 ---
 
-### The neighbours
+### The neighbors
 
 Comparison here is legitimate and it is also where a great deal of overreach
 begins, so the rules from Chapter 5 apply from the outset.
@@ -1710,7 +1710,7 @@ Three centuries later the Stoics take the term and make it do cosmology.
 For them the *logos* is divine reason pervading matter — immanent, active,
 identified with God, with fate, with providence, and with the fire from which
 everything comes and to which it returns. The *logos spermatikos*, the
-"seed-bearing reason," is the principle by which the cosmos organises itself into
+"seed-bearing reason," is the principle by which the cosmos organizes itself into
 the particular things it contains.
 
 Two features are worth marking because they will be inherited. The Stoic *logos* is
@@ -1765,7 +1765,7 @@ others did.
 The first eighteen verses of the Gospel of John are a hymn, and they are carefully
 built. The opening phrase deliberately echoes Genesis 1. The *logos* is pre-existent,
 was with God, was God, and was the agent through which all things came to be —
-which is recognisably Philonic. Light and darkness are introduced. The *logos* comes
+which is recognizably Philonic. Light and darkness are introduced. The *logos* comes
 to its own and is not received.
 
 Then verse fourteen.
@@ -2026,9 +2026,9 @@ still drinking from that well without knowing it.[^1]
 
 **And the Hebrew case does not fit the pattern.** Jewish avoidance of pronouncing
 the Tetragrammaton is not an attempt to prevent others from gaining power over God.
-That reading gets the theology exactly backwards. It is **reverence**: the Name is
+That reading gets the theology exactly backward. It is **reverence**: the Name is
 not withheld from enemies, it is withheld from ordinary use, and the substitution
-of *Adonai* is an act of honour rather than of security. Chapter 10 treats this
+of *Adonai* is an act of honor rather than of security. Chapter 10 treats this
 properly.
 
 The half-of-everything rule from the preceding volume applies here with force.
@@ -2040,8 +2040,8 @@ goes one way.**
 
 ### Adam's language, and the men who looked for it
 
-The Genesis scene generated a research programme that ran for fifteen centuries,
-and it is worth a paragraph because the programme's failure is instructive.
+The Genesis scene generated a research program that ran for fifteen centuries,
+and it is worth a paragraph because the program's failure is instructive.
 
 If Adam named the animals and his names were ratified, then the original language
 was presumably one in which names fit their objects — a language in which the word
@@ -2061,7 +2061,7 @@ calling it nature's.
 
 The reader should keep this failure in view when Part IX examines claims that a
 Hebrew word, transformed, reveals something true about its referent. Those claims
-are the Adamic programme in miniature, and they inherit its problem.
+are the Adamic program in miniature, and they inherit its problem.
 
 ---
 
@@ -2128,7 +2128,7 @@ jobs**, and separating them resolves a confusion that runs through the commentar
 The degree name classifies. The word of the degree identifies. Writers who treat
 the Masonic word as though it described a state of the soul have collapsed the
 second into the first — and the ritual itself keeps them apart, which is a point in
-its favour.
+its favor.
 
 ---
 
@@ -2397,7 +2397,7 @@ By the later Second Temple period, restriction is visible. The Septuagint, the
 Greek translation made from the third century BCE onward, renders YHWH as *kyrios*,
 "Lord" — a translation choice that already presupposes the substitution.[^1] Some
 Greek manuscripts leave the Hebrew letters standing in the Greek text, untranslated
-and unpronounced, which is a striking piece of scribal behaviour: the copyist
+and unpronounced, which is a striking piece of scribal behavior: the copyist
 writes Greek until he reaches the Name, then writes Hebrew, then resumes.
 
 At Qumran the practice varies and is informative. Some scrolls write the divine Name
@@ -2406,7 +2406,7 @@ written in the square Aramaic script that had become standard. The Name is
 typographically quarantined. Some scribes leave blank spaces to be filled later by
 someone more qualified. Some substitute four dots.[^2]
 
-**All of this is behaviour around a word that is still perfectly legible.** Nobody
+**All of this is behavior around a word that is still perfectly legible.** Nobody
 is hiding it. They are marking it, and the marking is reverential.
 
 By the rabbinic period the position is that the Name is pronounced only in the
@@ -2462,7 +2462,7 @@ wrong. The name was not secret, it was not guarded against outsiders, and there 
 nothing to recover that a reader of the Hebrew Bible does not already have in front
 of them.
 
-**What was lost was a practice, and practices are lost by not being practised.**
+**What was lost was a practice, and practices are lost by not being practiced.**
 
 ---
 
@@ -2508,7 +2508,7 @@ in principle nameable.
 
 They are frequently merged, and the merge produces a very attractive and very
 unfounded story in which the pronunciation was allowed to lapse *because* the
-divine was recognised as ineffable. There is no evidence for that causal claim. The
+divine was recognized as ineffable. There is no evidence for that causal claim. The
 restriction looks like reverence in practice long before anyone articulates a
 doctrine of ineffability, and the doctrine arrives in its developed form from a
 philosophical tradition with Greek parentage.
@@ -2553,7 +2553,7 @@ stopped saying them. That is why scholars can say anything at all about how the
 Name sounded.
 
 **The thing that was allowed to lapse is precisely the thing nobody needed for any
-other purpose.** What was useful — the names of one's ancestors and neighbours —
+other purpose.** What was useful — the names of one's ancestors and neighbors —
 survived intact, because it was in constant use and because using it was never the
 thing that was restricted.
 
@@ -2632,7 +2632,7 @@ Five of them — kaf, mem, nun, pe, tsadi — take a different shape at the end 
 word. These are the *sofit* or final forms, and they are a scribal convenience
 rather than separate letters. This matters more than it sounds: any computation
 performed on Hebrew must decide what to do with them, and a program that does not
-recognise them will silently drop letters and return confident wrong answers.
+recognize them will silently drop letters and return confident wrong answers.
 This book's own calculations did exactly that at one point, and Chapter 14 reports
 the consequence.
 
@@ -2964,7 +2964,7 @@ several more of those coming.
 
 ### What the Name probably sounded like, and how confident anyone can be
 
-The scholarly reconstruction generally favours something like *Yahweh*, and the
+The scholarly reconstruction generally favors something like *Yahweh*, and the
 reasoning is worth setting out because it shows the limits.
 
 The evidence is indirect and of three kinds. **Transcriptions into other
@@ -2978,7 +2978,7 @@ causative or simple imperfect.
 
 Put together, the reconstruction is reasonable and widely held.
 
-**It is also an inference, and it should be labelled as one.** Nobody has heard the
+**It is also an inference, and it should be labeled as one.** Nobody has heard the
 word pronounced by a native speaker in a living liturgical tradition. The Greek
 transcriptions are second-hand reports by writers with their own agendas, working
 across a phonological gap. The theophoric evidence gives a truncated form, not the
@@ -3026,7 +3026,7 @@ Israel Yeivin, *Introduction to the Tiberian Masorah* (Missoula: Scholars Press,
 1980).
 
 [^2]: Petrus Galatinus, *De arcanis catholicae veritatis* (Ortona, 1518). The
-attribution of the form's popularisation to Galatinus is conventional; earlier
+attribution of the form's popularization to Galatinus is conventional; earlier
 occurrences have been argued for, and the priority question is not settled.
 **[SOURCE VERIFICATION REQUIRED — earliest attested occurrence.]**
 
@@ -3108,7 +3108,7 @@ And then, in 70 CE, the machine was destroyed.
 ### What the destruction took
 
 Not the words. The words were in the scrolls, and the scrolls survived, and Judaism
-after 70 became a religion organised around the text in a way it had not been
+after 70 became a religion organized around the text in a way it had not been
 before.
 
 What went was **everything that made the words operative**.
@@ -3183,8 +3183,8 @@ does not exist, and nobody has produced one.
 
 What explains the resemblance is that **both traditions are solving the same
 problem with a small set of available moves.** When a community must go on
-operating a system whose authorising centre is absent, it has three options: pretend
-the centre is present, abandon the system, or adopt a declared substitute. The third
+operating a system whose authorising center is absent, it has three options: pretend
+the center is present, abandon the system, or adopt a declared substitute. The third
 is the only one that is both honest and survivable, and it has been independently
 reached many times.
 
@@ -3202,7 +3202,7 @@ the temptation to claim otherwise is strongest.
 A general difficulty that the Temple case displays with unusual clarity, and which
 every institution in this book has had to face.
 
-**What happens when the authorising centre of a system stops existing?**
+**What happens when the authorising center of a system stops existing?**
 
 There are only three moves available.
 
@@ -3211,7 +3211,7 @@ the authority persists. This is sustainable only as long as nobody checks, and i
 the move that produced von Hund's Unknown Superiors and Mathers's Secret Chiefs —
 both of which collapsed when the check came.
 
-**Abandon the system.** Conclude that without the centre the practice is void, and
+**Abandon the system.** Conclude that without the center the practice is void, and
 stop. This is the most logically consistent option and it is almost never taken,
 because institutions do not willingly dissolve.
 
@@ -3222,7 +3222,7 @@ that stands in, and say that it does.
 remarkable how often it is taken by traditions with no contact with each other.
 
 Rabbinic Judaism took it: prayer for sacrifice, study for Temple service,
-substitution declared and theorised. **Nobody pretended the Temple was still
+substitution declared and theorized. **Nobody pretended the Temple was still
 standing.**
 
 Christian communions took it after the deaths of the apostles: succession
@@ -3255,7 +3255,7 @@ therefore in possession of a fact that does nothing.
 This is not a disappointment. It is the point.
 
 **What the Temple case establishes is that a word is the least of what is needed**,
-and that a tradition organised around the loss of one may be making a claim not
+and that a tradition organized around the loss of one may be making a claim not
 about vocabulary but about everything vocabulary sits inside — the authority to
 speak, the place in which speaking counts, the condition of the speaker.
 
@@ -3343,7 +3343,7 @@ the program was wrong.
 
 It held a table of the twenty-two letters and their values, looked up each
 character of a word, and summed. Clean, simple, and it silently ignored any
-character it did not recognise — which included all five final forms.
+character it did not recognize — which included all five final forms.
 
 So *Elohim*, אלהים, ending in final mem, computed as 46. The correct value is 86.
 The program had dropped a letter worth 40 and returned a confident answer.
@@ -3397,7 +3397,7 @@ open-ended. A shared language, with agreed spellings. And a community with
 standards about what counted as a reading worth making, in which a proposal that
 struck everyone as forced simply did not survive.
 
-**Remove canon, community and judgement, and the technique becomes a machine for
+**Remove canon, community and judgment, and the technique becomes a machine for
 producing anything.** That is what happened to it, and the rest of this chapter
 measures the damage.
 
@@ -3620,7 +3620,7 @@ dozen schemes available gives six outputs, and an interpreter free to choose amo
 them has six chances to find something usable. Add the option of applying a scheme
 twice, or applying one scheme to part of a word, and the space expands further.
 
-This is not a hostile characterisation. The tradition genuinely does treat these as
+This is not a hostile characterization. The tradition genuinely does treat these as
 alternative legitimate operations, and there is no rule specifying which applies
 where. The freedom is real and it is built in.
 
@@ -3645,7 +3645,7 @@ about Hebrew words, with orthography agreed within narrow limits. There was litt
 scope for choosing a convenient spelling, because the spellings were known and a
 forced one would be noticed immediately.
 
-**A community with judgement.** This is the strongest constraint and the least
+**A community with judgment.** This is the strongest constraint and the least
 formal. Rabbinic interpretation was conducted in public, among people trained in
 the same material, who would say so if a proposal was strained. A notarikon that
 struck the room as contrived did not survive the afternoon. The technique had no
@@ -3678,7 +3678,7 @@ absent.
 **The techniques did not get worse. Their environment did.**
 
 This is the finding of the chapter and it is worth stating in a form that
-generalises: *a method's reliability is not a property of the method. It is a
+generalizes: *a method's reliability is not a property of the method. It is a
 property of the method plus the constraints it runs under.* Gematria inside the
 rabbinic academy and gematria on a website are the same arithmetic and different
 epistemic situations, and the difference is entirely in the second term.
@@ -3700,7 +3700,7 @@ ensure that it was true, and the tradition did not claim they did. A notarikon
 expansion that survived the room was a good expansion, not a demonstrated fact
 about the text's composition.
 
-**So the comparison is not rigour versus sloppiness. It is one register mistaken
+**So the comparison is not rigor versus sloppiness. It is one register mistaken
 for another.**
 
 The modern error is a category error rather than a competence error. Somebody takes
@@ -3715,7 +3715,7 @@ being made, and the claim is made by the person, not the arithmetic.
 ### The techniques as a diagnostic
 
 A practical use for the material in this chapter that has nothing to do with
-Freemasonry, and which is worth setting out because it generalises.
+Freemasonry, and which is worth setting out because it generalizes.
 
 **The presence of these techniques in a body of material is a dating signal.**
 
@@ -3733,7 +3733,7 @@ strained reading.
 
 **Christian-Kabbalistic usage** applies the same techniques to the same canon and
 extracts Christian conclusions. The technique is inherited; the target is new. Pico
-finding the Trinity in *bereshit* is a recognisable move with a recognisable date.
+finding the Trinity in *bereshit* is a recognizable move with a recognizable date.
 
 **Occult usage** applies them to anything — to non-Hebrew words, to proper names, to
 modern material — and the target lexicon expands to whatever the interpreter
@@ -3836,7 +3836,7 @@ mem. The result is כשדים — **Kasdim**, the Chaldeans.
 I ran both. Both reproduce exactly.[^1]
 
 Three features of these attestations deserve attention, because they constrain
-everything built on the technique afterwards.
+everything built on the technique afterward.
 
 **Both are Hebrew to Hebrew.** The input is a Hebrew string and the output is a
 Hebrew word. No translation, no transliteration, no crossing between languages.
@@ -3999,9 +3999,9 @@ And there is a strong philological alternative that has been available for a lon
 time: that *Baphomet* is a corruption of *Mahomet* — that the charge was of
 venerating an idol of Muhammad, which was a standard accusation against groups
 suspected of eastern contamination, and which Christians of the period wrongly
-believed Muslims practised.
+believed Muslims practiced.
 
-**That explanation requires nothing but the ordinary behaviour of medieval
+**That explanation requires nothing but the ordinary behavior of medieval
 polemic**, and it accounts for the variant forms as transmission noise.
 
 **So the claim asks us to apply a Hebrew cipher to a word of uncertain form, from
@@ -4070,7 +4070,7 @@ A man is building a temple. Three of his workmen want something he has and will 
 give. They confront him at the three entrances in turn; he refuses each; the third
 kills him. His body is concealed, searched for, found, and raised.
 
-That is the legend, in the barest form that most jurisdictions would recognise, and
+That is the legend, in the barest form that most jurisdictions would recognize, and
 it is worth noticing how little of it is in the Bible.
 
 ---
@@ -4108,7 +4108,7 @@ narrowest form.
 
 The Scottish catechisms of 1696 to about 1714 have two degrees and no Hiram. The
 third degree with the legend appears in the printed record in the 1720s, and
-Prichard's *Masonry Dissected* of 1730 gives it in recognisable form.[^2]
+Prichard's *Masonry Dissected* of 1730 gives it in recognizable form.[^2]
 
 So the legend is composed, or assembled, or stabilised — the sources do not let us
 say which — somewhere in the 1720s, in England, by persons unknown.
@@ -4143,7 +4143,7 @@ Apply the six transmission questions from Chapter 5.
 traditions to the London of the 1720s. *Intertextuality* fails: there is no verbal
 dependence, no shared distinctive vocabulary, no quotation, none of the fingerprints
 by which textual descent is established. *Institutional continuity* fails: no
-organisation persisted. *Anachronism* is a problem for several, since the
+organization persisted. *Anachronism* is a problem for several, since the
 scholarship on Osiris, Tammuz and Attis available to eighteenth-century readers was
 thin and much of what is now asserted about them post-dates the ritual by a century
 or more.
@@ -4173,7 +4173,7 @@ local and traceable.
 **The names are biblical.** Hiram, Solomon, Tyre, the widow's son — all from Kings
 and Chronicles, all available to any reader of an English Bible.
 
-**The setting is the Temple**, which was already the organising image of Masonic
+**The setting is the Temple**, which was already the organizing image of Masonic
 symbolism before the third degree existed.
 
 **The vocabulary is architectural.** Builders, workmen, entrances, tools, wages,
@@ -4219,7 +4219,7 @@ serves the structure, not the other way round.
 Whether anyone thought it through in these terms is doubtful. Chapter 18 argues
 that the degree was very probably arrived at rather than designed — that a legend
 was assembled, that it worked, and that the philosophical reading accumulated
-afterwards as generations of members made sense of what they had been handed.
+afterward as generations of members made sense of what they had been handed.
 
 **A structure can be coherent without having been designed coherent.** A cathedral
 whose proportions were reached by trial still stands up.
@@ -4236,7 +4236,7 @@ tribe of Naphtali, his father a man of Tyre.
 
 The phrase is distinctive. It is not a generic descriptor; it is a specific
 biographical detail, supplied by the biblical text, and the Masonic material picks
-it up and uses it — "the widow's son" becoming a recognised designation.
+it up and uses it — "the widow's son" becoming a recognized designation.
 
 **This is what verbal dependence looks like**, and it is worth pausing on because
 this book has spent so much time reporting its absence.
@@ -4305,7 +4305,7 @@ rising gods in the *Encyclopedia of Religion*. **[PAGE VERIFICATION REQUIRED.]**
 # CHAPTER EIGHTEEN
 ## The Lost Word
 
-This is the chapter the book has been walking towards, and its conclusion is
+This is the chapter the book has been walking toward, and its conclusion is
 negative in a way that took me some time to accept.
 
 **There is no lost word.**
@@ -4476,7 +4476,7 @@ smaller bodies now known only from their own paperwork.
 Higher degrees offered more: more knowledge, more titles, more elaborate
 ceremonies, and — repeatedly — the recovery of what the Craft had withheld. Secrets
 promised, lineages asserted, unknown superiors invoked. Von Hund's Strict Observance
-was organised entirely around the claim that hidden masters were directing it, and
+was organized entirely around the claim that hidden masters were directing it, and
 he could never produce one.
 
 **The market wanted delivery, and the market was served.**
@@ -4541,7 +4541,7 @@ nobody put it there on purpose.
 [^1]: On the Royal Arch, its contested early history and its relation to the Craft
 degrees — which differs materially by constitution — see Chapter 19 below and the
 preceding volume of this series. The Articles of Union of 1813 produced the
-formula by which English Masonry recognised three degrees "including the Supreme
+formula by which English Masonry recognized three degrees "including the Supreme
 Order of the Holy Royal Arch." **[SOURCE VERIFICATION REQUIRED — article and page.]**
 
 [^2]: On the substituted word's variation between jurisdictions and over time, and
@@ -4578,7 +4578,7 @@ the practice must continue. It is everywhere in religious and legal life, and it
 almost always explicit rather than concealed.
 
 *Adonai* for the Tetragrammaton: a substitution, openly known, universally
-practised, and never mistaken by anyone inside the tradition for the thing itself.
+practiced, and never mistaken by anyone inside the tradition for the thing itself.
 
 Prayer for sacrifice in rabbinic Judaism after 70 CE: a substitution on a much
 larger scale, articulated and defended.
@@ -4687,7 +4687,7 @@ available in Latin since 1677, and men who read Latin could read it — which is
 availability, not transmission, and Chapter 34 sets out the difference.
 
 Against a Jewish-mystical source: the degree's apparatus is architectural and
-vault-centred, not sefirotic. There is no Tree, no emanation, no letter-cosmology.
+vault-centerd, not sefirotic. There is no Tree, no emanation, no letter-cosmology.
 If Kabbalah were the source, one would expect some of its distinctive machinery to
 have come along, and none of it did.
 
@@ -4860,7 +4860,7 @@ The exposures printed the first element and could not print the rest.
 
 They gave the words. They described the grips and signs in prose, which is not the
 same as conveying them. They printed the catechisms, which an impostor could
-memorise — and which he would then have to reproduce under examination by a man who
+memorize — and which he would then have to reproduce under examination by a man who
 had performed them for twenty years and would hear the wrongness in the rhythm
 before he heard it in the content.
 
@@ -4968,7 +4968,7 @@ knowledge-based verification to credentials issued by a certifying authority.
 
 **And note the new failure mode it introduced.** A document can be forged, stolen or
 sold, in ways a grip cannot. The nineteenth century duly produced impostors
-travelling on false certificates, and grand lodges duly began circulating warnings
+traveling on false certificates, and grand lodges duly began circulating warnings
 about them — which is an entirely modern problem, generated by the solution to the
 older one.
 
@@ -5060,8 +5060,8 @@ direction each time.
 
 **From receiving to producing.** In the first degree the candidate is largely
 acted upon; he answers when asked and is told things. By the third he has a part in
-a drama, and in the years afterwards he will perform the ceremonies for others. The
-preceding volume made this the centre of its argument: the unit of analysis is the
+a drama, and in the years afterward he will perform the ceremonies for others. The
+preceding volume made this the center of its argument: the unit of analysis is the
 career, not the evening, and the career is a long migration from the middle of the
 room to the chair.
 
@@ -5236,7 +5236,7 @@ preceding volume of this series.
 preceding volume, together with its necessary qualification: agreement among
 sources is evidence of transmission only where the agreed meaning is arbitrary
 rather than obvious. A square makes right angles, and every tradition asked to
-moralise one will reach for rectitude.
+moralize one will reach for rectitude.
 
 
 ---
@@ -5286,7 +5286,7 @@ and a key or method is required to get from one to the other.
 Nothing of the kind happens here.
 
 The letters of the word are the letters of the word. Nothing is substituted,
-transposed or transformed. What changes is the *division of labour between two
+transposed or transformed. What changes is the *division of labor between two
 speakers* — who says which part — and that is a fact about the performance, not
 about the text.
 
@@ -5327,7 +5327,7 @@ performs the word's status every time it is used, which is more effective than
 asserting it.
 
 **And it requires two.** Like the catechism, the exchange cannot be performed
-alone. A man practising in front of a mirror cannot do it. The word, in its proper
+alone. A man practicing in front of a mirror cannot do it. The word, in its proper
 form, *only exists between people* — which is the observation the preceding volume
 built its account of Masonic secrecy on, and which explains why publication of the
 letters changed so little.
@@ -5344,7 +5344,7 @@ standing — rather than in terms of security against a third party.
 
 This is the same gesture as the Jewish substitution of *Adonai* for the
 Tetragrammaton: the word is acknowledged and not uttered, and the not-uttering is an
-act of honour.
+act of honor.
 
 **Whether Masonic practice borrowed this or arrived at it independently is not
 established and I do not think it can be.** The parallel is real. The route is not
@@ -5353,7 +5353,7 @@ spoken whole or not spoken whole, and traditions that want to mark a word as
 special have very few moves available.
 
 The honest position is that the security function and the reverential function are
-both present, that the sources emphasise the second, that the first works whether
+both present, that the sources emphasize the second, that the first works whether
 or not anyone intended it, and that the two are not in competition. A practice can
 do two things.
 
@@ -5412,13 +5412,13 @@ learning that the challenger holds the word, because the challenger has to produ
 his own portions correctly. Neither party has to trust the other first. This is a
 nontrivial property that modern protocols take some trouble to achieve.
 
-**None of this was theorised.** There is no eighteenth-century Masonic text setting
+**None of this was theorized.** There is no eighteenth-century Masonic text setting
 out a security model. What there is, is a practice that has these properties, and
 the properties are why it worked.
 
 **Which is the pattern of this entire book.** Good solutions to stable problems are
 arrived at by people who could not have described what they had arrived at, and are
-describable afterwards in a vocabulary that did not yet exist. Convergence, not
+describable afterward in a vocabulary that did not yet exist. Convergence, not
 descent — and the convergence is on the problem, not on anybody's tradition.
 
 ---
@@ -5643,7 +5643,7 @@ cipher of the weakest kind, and there is no Masonic codebook — no list assigni
 concealed meanings to words, no glossary requiring possession.
 
 **What Masonry does have is *jargon*, and jargon is a third thing.** Technical
-vocabulary — terms with specialised meanings understood within a trade or body — is
+vocabulary — terms with specialized meanings understood within a trade or body — is
 not concealment. Every profession has it. It makes outsiders feel excluded and it
 exists to be precise, not to hide, and the exposures translated it without
 difficulty.
@@ -5665,7 +5665,7 @@ they succeed.
 
 Ask this of Masonic practice and the answers are small and consistent. The curious
 servant who might open a minute book. The stranger in the churchyard reading a
-gravestone. The neighbour who wonders what the certificate on the wall says.
+gravestone. The neighbor who wonders what the certificate on the wall says.
 
 **Against those adversaries, an unkeyed monoalphabetic grid is entirely adequate.**
 
@@ -5903,7 +5903,7 @@ Geometry — and, in most sources, also as God.
 matter as settled.**
 
 By the disagreement principle, that pattern indicates a symbol that arrived without
-a fixed meaning and acquired readings afterwards. And there is a further
+a fixed meaning and acquired readings afterward. And there is a further
 consideration that decides it: **the G is an English letter.** It works in English,
 where God and Geometry both begin with it. It does not work in French, or in
 Hebrew, or in Latin.
@@ -6102,7 +6102,7 @@ compromised.
 **Consider what that implies.** A state using a nomenclator has a cipher secretary,
 a distribution problem, a key-management procedure, and a replacement schedule. The
 Papal and Venetian services employed professional cryptanalysts. Codebreaking was a
-recognised office with a salary.
+recognized office with a salary.
 
 **This is what a body with something to hide actually does**, and the documentary
 traces are everywhere: the codebooks survive, the correspondence about them
@@ -6247,7 +6247,7 @@ visible, one- and two-letter words are identifiable, and the structure of the
 message is on display.
 
 **And the texts are short.** Short ciphertexts resist frequency analysis better
-than long ones, which sounds like a defence and is not — because short Masonic
+than long ones, which sounds like a defense and is not — because short Masonic
 texts are names and dates, and a name-and-date inscription on a Masonic gravestone
 is guessable from context by anyone who has seen another one.
 
@@ -6268,7 +6268,7 @@ that these men could not have found a better cipher is not credible.
 
 Who was the adversary? Chapter 23 asked the question and the pigpen answers it. The
 curious servant who might open a minute book left on a table. The stranger in a
-churchyard. The neighbour wondering what the certificate says.
+churchyard. The neighbor wondering what the certificate says.
 
 Against those, an unkeyed grid is entirely adequate. It stops the casual reader and
 it stops nobody else, which is exactly the level of protection the situation
@@ -6403,7 +6403,7 @@ a practitioner is instructed to say this:
 *ablanathanalba*
 
 It is not a word in Greek. It is not a word in Egyptian, Hebrew, Aramaic, Coptic or
-any other language of the region. It reads the same backwards as forwards, which is
+any other language of the region. It reads the same backward as forward, which is
 clearly deliberate, and it appears across a wide range of texts and amulets, which
 means it was transmitted rather than improvised.
 
@@ -6425,7 +6425,7 @@ one letter removed each line, sequences running through the seven Greek vowels.[
 
 Scholars have spent a long time trying to identify the originals and the results
 are partial. Some elements resolve; many do not. The honest summary is that **the
-corpus mixes recognisable borrowings with material that was never meaningful in any
+corpus mixes recognizable borrowings with material that was never meaningful in any
 language.**
 
 And that mixture is the interesting part.
@@ -6470,18 +6470,18 @@ have acquired a property that traditions using ordinary language do not have.
 
 Chapter 3 established the class of utterances that change the world by being
 spoken, and found the power lying in the convention rather than in the sound. A
-marriage is real because a society recognises the procedure.
+marriage is real because a society recognizes the procedure.
 
 **Magical utterance claims something different.** It claims that the words act on
 the world directly — that the substance changes, the spirit comes, the fever
 breaks — with no social convention mediating and no institution required to
-recognise anything.
+recognize anything.
 
 This is a genuinely different claim and the difference is not a matter of degree.
 
 A performative fails if the speaker lacks standing. A magical formula, on its own
 account, fails if the speaker lacks *knowledge or purity or technique* — but not
-because a community declined to recognise him. The Greek papyri are full of
+because a community declined to recognize him. The Greek papyri are full of
 instructions for solitary operations, and the practitioner does not need a
 congregation.
 
@@ -6532,12 +6532,12 @@ Timings. Names. Claimed results. The grimoire tradition of Chapter 28 is enormou
 and explicit: it tells you what to say, when, wearing what, having fasted how long,
 and what will happen.
 
-Where bodies adjacent to Freemasonry actually practised theurgy, they did this
-too. Martinez de Pasqually's Élus Coëns, from the 1760s, practised invocation, and
+Where bodies adjacent to Freemasonry actually practiced theurgy, they did this
+too. Martinez de Pasqually's Élus Coëns, from the 1760s, practiced invocation, and
 we know because the instructions survive — named founder, dated documents, explicit
 procedures.[^2]
 
-**When operative practice enters an organisation, it does so visibly.**
+**When operative practice enters an organization, it does so visibly.**
 
 Craft ritual contains none of it. Not in the eighteenth-century exposures, written
 by hostile parties who would have been delighted to report it. Not in the ritual
@@ -6695,7 +6695,7 @@ Notice that this makes the practice, on its own account, thoroughly orthodox —
 is precisely what the grimoire authors maintained and the Church did not accept. A
 man compelling a demon in the name of God could describe himself as exercising
 dominion granted at creation. The authorities took the view that the traffic itself
-was the offence, regardless of which names were used.
+was the offense, regardless of which names were used.
 
 ---
 
@@ -6707,7 +6707,7 @@ The Hebrew divine names in the grimoires arrived through a long chain, and the
 chain degraded them.
 
 **Some are genuine**: *Adonai*, *Elohim*, *Tetragrammaton* (as a Greek description
-rather than a name), *Shaddai*, *Eheieh*. These are recognisable and their
+rather than a name), *Shaddai*, *Eheieh*. These are recognizable and their
 provenance is clear.
 
 **Some are artefacts.** *Agla* is a notarikon — the initials of *Atah Gibor
@@ -6882,7 +6882,7 @@ REQUIRED — edition and line reference.]**
 ## Enochian
 
 This is the most important chapter in Part VI, and it is about a language that did
-not exist before 1582 and did afterwards.
+not exist before 1582 and did afterward.
 
 We know when it appeared. We know who was in the room. We have the diaries, kept
 day by day, in the handwriting of a man who was among the most learned in England.
@@ -6919,8 +6919,8 @@ The method is the part that matters and it is minutely documented.
 
 Angels displayed tables — grids of letters. Kelley reported which cell was being
 indicated, letter by letter, and Dee recorded. Much of the material was given
-**backwards**, letter by letter in reverse order, on the stated grounds that the
-texts were too dangerous to be transmitted forwards.
+**backward**, letter by letter in reverse order, on the stated grounds that the
+texts were too dangerous to be transmitted forward.
 
 The result, over seven years, was substantial: a script of twenty-one characters;
 a body of text including the "Calls" or "Keys"; a vocabulary with translations
@@ -6929,7 +6929,7 @@ derived by reading letters out of the grids in various directions.[^2]
 
 **The angels also supplied the translations.** This is worth pausing on. The
 practitioners did not have to work out what the language meant by philological
-labour, because the meaning came with it — which removes the one check that would
+labor, because the meaning came with it — which removes the one check that would
 otherwise have been available.
 
 ---
@@ -6942,12 +6942,12 @@ The scholarly assessment is mixed and the mixture is instructive.
 one would expect if the material was produced by English speakers and not if it
 were an independent tongue. The vocabulary is limited. There is no corpus outside
 the sessions. Nobody has demonstrated productive grammar — the ability to generate
-new well-formed sentences that competent speakers would recognise.
+new well-formed sentences that competent speakers would recognize.
 
 **For**: the material has considerably more internal structure than random
 generation would produce. The alphabet is consistent. The texts are long, and
 constructed rather than improvised. Whatever was happening, it was not
-straightforward fabrication of a casual kind, and the labour involved was
+straightforward fabrication of a casual kind, and the labor involved was
 enormous.
 
 **The honest summary** is that Enochian is a constructed language of limited
@@ -6983,7 +6983,7 @@ be angelic instruction, worrying about its implications, and following it into
 decisions that cost him a great deal.
 
 **Sincere belief in reception is entirely compatible with production.** That is the
-finding, and it generalises.
+finding, and it generalizes.
 
 ---
 
@@ -7165,7 +7165,7 @@ That function does not require the script to be unreadable. It requires it to be
 *visibly other*, which is a much lower bar and which these alphabets clear
 comfortably. A seal, an amulet, a talisman inscribed in angelic characters is
 doing the work a gothic typeface does on a legal document, or Latin on a
-memorial — signalling register rather than withholding content.
+memorial — signaling register rather than withholding content.
 
 **And appropriateness.** If angels have a script, then writing intended for angelic
 attention should be in it. The logic is entirely internal to the system and it is
@@ -7258,7 +7258,7 @@ alphabetic, syllabic or logographic.
 **Deciphering one is a major intellectual achievement.** Ventris on Linear B took
 years and required a statistical approach, a guess about the underlying language
 that most experts thought wrong, and a confirming inscription that arrived
-afterwards.
+afterward.
 
 **Now consider Malachim.** Twenty-two or twenty-six signs, one-to-one with a known
 alphabet, written left to right or right to left according to the underlying
@@ -7323,7 +7323,7 @@ divine authority, prescribe operations, claim results, and write in scripts that
 announce their own category.
 
 **Masonry does none of this.** Its word is a credential. Its ritual has no operator
-and claims no effect in the world. Its cipher is a labelling device on a
+and claims no effect in the world. Its cipher is a labeling device on a
 gravestone. Where its symbolism resembles magical symbolism, the resemblance is at
 the level of ceremonial form — preparation, prescription, boundary, orientation —
 which is the entailed repertoire of ceremony as such and shared by every tradition
@@ -7533,7 +7533,7 @@ Three registers, one set of letters, mapped in parallel.
 **This is the structure usually called a doctrine of correspondences**, and it is
 worth being precise about what such a doctrine claims. It is not merely that the
 three domains resemble one another. It is that they share a common articulation —
-that the same twenty-two principles organise space, time and the person, so that
+that the same twenty-two principles organize space, time and the person, so that
 learning the structure of one is learning the structure of all.
 
 **The macrocosm-microcosm idea in its Hebrew form.**
@@ -7624,7 +7624,7 @@ In their developed form, with the names that became standard:
 
 **Keter** (crown), **Chokhmah** (wisdom), **Binah** (understanding), **Chesed**
 (loving-kindness), **Gevurah** (severity), **Tiferet** (beauty), **Netzach**
-(victory or endurance), **Hod** (splendour), **Yesod** (foundation), **Malkhut**
+(victory or endurance), **Hod** (splendor), **Yesod** (foundation), **Malkhut**
 (kingdom).
 
 They are arranged in three columns — usually described as a right pillar of mercy,
@@ -7655,7 +7655,7 @@ qualification: Yehuda Liebes and others have argued for a circle of authors rath
 than a single one, and the question of how much older material the text
 incorporates remains live.[^1]
 
-Then **Safed in the sixteenth century**: Cordovero's systematisation, and Isaac
+Then **Safed in the sixteenth century**: Cordovero's systematization, and Isaac
 Luria's reworking, which introduced the ideas of divine contraction, the shattering
 of the vessels, and cosmic repair — and which became, through Luria's students, the
 dominant form of Kabbalah in the Jewish world.
@@ -7679,7 +7679,7 @@ Ricius's Latin *Portae Lucis* of 1516, a translation of Gikatilla's *Sha'arei
 Orah*, showing a bearded figure holding a tree of ten spheres.[^2]
 
 Manuscript diagrams exist earlier and the concept is certainly older than any
-drawing of it. But **the standardised image, with the paths fixed and the
+drawing of it. But **the standardized image, with the paths fixed and the
 arrangement settled, belongs to print** — and print is what made it standard, because
 a printed diagram is identical in every copy and a manuscript one is not.
 
@@ -7716,7 +7716,7 @@ nineteenth-century French innovation as though it were medieval Spanish.
 **And they are not a system of universal correspondences.** The Jewish sources
 assign a great deal to the *sefirot* — attributes, patriarchs, parts of the body,
 stages of a process — but they do not constitute the comprehensive
-letter-planet-metal-colour-perfume-deity grammar that a modern reader expects. That
+letter-planet-metal-color-perfume-deity grammar that a modern reader expects. That
 comprehensiveness comes from the Hermetic reconstruction, and it comes from
 Agrippa's tables rather than from Kabbalah.
 
@@ -7752,7 +7752,7 @@ making the claim inside a non-Masonic body.
 *Accepted, disputed or speculative?* **Speculative.**
 
 **And there is a simpler explanation that fits everything.** The two pillars are in
-1 Kings 7 and 2 Chronicles 3, by name, with dimensions. A tradition organised around
+1 Kings 7 and 2 Chronicles 3, by name, with dimensions. A tradition organized around
 Solomon's Temple, using biblical furniture throughout, would put the Temple's
 pillars in its symbolism without needing any Kabbalah at all.
 
@@ -7780,7 +7780,7 @@ And the assignments are not fixed by the Jewish material. Which letter belongs t
 which path is not settled in the sources, and authorities differ.
 
 **That latitude is what the nineteenth century filled.** Lévi's tarot
-correspondence, the planetary attributions, the colour scales, the Egyptian deities,
+correspondence, the planetary attributions, the color scales, the Egyptian deities,
 the perfumes and plants and precious stones of Crowley's *777* — all of it fits into
 slots that the diagram created and the tradition left open.
 
@@ -7805,7 +7805,7 @@ strongest.
 
 The Tree of Life is an extraordinarily flexible diagram. Ten positions, three
 columns, twenty-two paths, and a tradition of applying it to whatever needs
-analysing. Almost any structure with roughly that many elements can be mapped onto
+analyzing. Almost any structure with roughly that many elements can be mapped onto
 it, and once mapped, the correspondence looks compelling.
 
 **That flexibility is exactly why a mapping proves nothing.**
@@ -7868,7 +7868,7 @@ It was not interpretation. It was a **practice**, undertaken for its effects, an
 the effects Abulafia reports are substantial: an untying of the knots that bind the
 soul, an overflowing, a condition he describes in terms of prophecy.[^1]
 
-He was not a marginal figure in his own estimation. He travelled to attempt an
+He was not a marginal figure in his own estimation. He traveled to attempt an
 audience with Pope Nicholas III — an episode that could have ended very badly and
 did not, the Pope having died before the meeting — and he attracted enough
 opposition from Solomon ibn Adret, the leading halakhic authority of the day, to
@@ -7882,7 +7882,7 @@ Here is a place where scholarship divides and the division matters for Book III'
 argument, so it should be stated rather than glossed.
 
 **Gershom Scholem** created the modern academic study of Jewish mysticism, and his
-synthesis placed the *theosophical* strand at the centre: the *sefirot*, the
+synthesis placed the *theosophical* strand at the center: the *sefirot*, the
 structure of the divine, the *Zohar*. Abulafia's ecstatic and linguistic practice
 appears in Scholem's account as a significant but somewhat marginal current.
 
@@ -7974,7 +7974,7 @@ Spain — moved against him, and the objection was not that the technique was
 ineffective. It was that it was **dangerous and presumptuous**: that a man claiming
 prophecy was claiming something the tradition held to have ceased, and that the
 practice invited exactly the kind of individual religious authority that a
-law-centred tradition is organised to prevent.
+law-centerd tradition is organized to prevent.
 
 **Note the shape of the objection.** Nobody argued that permuting letters does
 nothing. The argument was about who may do what, and on whose authority — which is
@@ -8087,7 +8087,7 @@ magic and Kabbalah.**
 
 Giovanni Pico della Mirandola did not get his disputation. The Pope appointed a
 commission, the commission condemned thirteen of the theses, Pico published a
-defence, the defence made matters worse, and he spent time in custody in France
+defense, the defense made matters worse, and he spent time in custody in France
 before being rehabilitated. He died at thirty-one.
 
 **But the claim was made, in print, and it opened a channel that ran for four
@@ -8137,7 +8137,7 @@ literature confiscated and burned, Reuchlin was asked for an opinion and gave on
 against — on the grounds that the books contained matter of value to Christians.
 The controversy ran for years and consumed the attention of learned Europe.[^1]
 
-**Note the shape of the defence.** Reuchlin saved Hebrew books by arguing that
+**Note the shape of the defense.** Reuchlin saved Hebrew books by arguing that
 Christians needed them. That is not tolerance in the modern sense and it should not
 be read as such, but it preserved a great deal, and the consequences for European
 scholarship were substantial.
@@ -8216,7 +8216,7 @@ enormous collaborative editions setting Hebrew, Greek, Latin, Aramaic and Syriac
 parallel columns, produced at vast expense over decades. The scholarship in them is
 serious, and modern textual criticism is a descendant.
 
-**And the preservation was real.** Reuchlin's defence of Hebrew books against
+**And the preservation was real.** Reuchlin's defense of Hebrew books against
 confiscation was mounted on instrumental grounds — Christians need them — and it
 saved a great deal.
 
@@ -8629,7 +8629,7 @@ in the Masonic textual tradition, and it is straightforwardly a medieval educati
 curriculum in a document written for masons.
 
 **The seven required to make a lodge perfect**: a quorum rule, of the kind every
-organisation has.
+organization has.
 
 Where seven comes from more broadly is not mysterious either: the seven classical
 planets, which are simply the celestial bodies visible to the naked eye that move
@@ -8696,7 +8696,7 @@ available but recorded.
 
 A useful negative case, because it shows the test working in the other direction.
 
-If Masonry were organised around a numerical doctrine, we would expect the
+If Masonry were organized around a numerical doctrine, we would expect the
 canonical numbers to appear *systematically* — not merely to be present, but to
 structure things.
 
@@ -8711,17 +8711,17 @@ formula is an administrative rule. **Nothing in the lodge is arranged in sevens.
 There are not seven officers, or seven stations, or seven steps, or seven
 ornaments, or seven degrees.
 
-**Compare a system that genuinely is organised numerically.** The Golden Dawn's
+**Compare a system that genuinely is organized numerically.** The Golden Dawn's
 grade structure maps onto the ten sephirot, deliberately and completely — each grade
 assigned to a position, with the correspondences stated in the order's own papers.
-That is what a numerical organising principle looks like from inside, and it is
+That is what a numerical organizing principle looks like from inside, and it is
 visible without any decipherment.
 
 **Masonry has three of some things, two of others, five of a few, and no discernible
 scheme**, which is exactly what one would expect from a ceremony assembled over
 decades from whatever was to hand.
 
-**An organising number organises.** Where it is genuinely present, you do not have
+**An organizing number organizes.** Where it is genuinely present, you do not have
 to hunt for it.
 
 ---
@@ -8798,7 +8798,7 @@ astronomical and the awkwardness of the fraction is the reason calendars are
 complicated.
 
 **Twelve is entailed by arithmetic convenience and the sky.** A tradition that uses
-twelve has not inherited a doctrine; it has noticed what its neighbours noticed.
+twelve has not inherited a doctrine; it has noticed what its neighbors noticed.
 
 Masonic use of twelve is slight, which is itself worth registering. It is not a
 Masonic number in any significant sense.
@@ -8855,12 +8855,12 @@ mechanics to paying audiences in London. Ric Berman's work has traced the networ
 detail, and it is a Newtonian and Whig network before it is anything else.[^2]
 
 Newton had shown, within living memory, that the heavens obey mathematics — that the
-universe is a geometrical object with calculable behaviour.
+universe is a geometrical object with calculable behavior.
 
-**In that world, a fraternity organised around geometry was not archaic. It was the
+**In that world, a fraternity organized around geometry was not archaic. It was the
 most modern thing available.**
 
-This matters because Masonry is habitually read backwards through its
+This matters because Masonry is habitually read backward through its
 nineteenth-century occult interpreters, who found in the square and compasses a
 cosmic symbolism of enormous antiquity. The men of the 1720s were not looking back
 to Egypt. They were looking at the *Principia*. When they called God the Great
@@ -9022,7 +9022,7 @@ enumerates five. The number reports a quantity and carries nothing else.
 selection may have been for a reason. This is the only category that can carry a
 doctrine.
 
-**Found.** A reader has discovered the number in material that was not organised
+**Found.** A reader has discovered the number in material that was not organized
 around it — by counting something nobody thought to count, or by arithmetic
 performed on values assigned later.
 
@@ -9422,7 +9422,7 @@ of those defensible choices was a list that guaranteed the result.
 
 ### Why the remedy is procedural, not personal
 
-Which leads to the point this whole part is organised around.
+Which leads to the point this whole part is organized around.
 
 **None of these failures is corrigible by being careful.**
 
@@ -9440,7 +9440,7 @@ content of Test 4, and it is why that test is the decisive one.
 
 It also explains why the remedy feels so unsatisfying to people who are confident
 they are being rigorous. Writing the method down in advance is an admission that
-one's future judgement cannot be trusted — and the people most certain that theirs
+one's future judgment cannot be trusted — and the people most certain that theirs
 can are the ones for whom the admission is most necessary.
 
 ---
@@ -9533,7 +9533,7 @@ has fallen into place — arrives identically whether the structure is real or
 constructed. Subjective confidence tracks the *strength of the perceptual signal*,
 not its accuracy, and the two are only loosely related.
 
-This is why sincerity is not a defence and why intelligence is not a protection. A
+This is why sincerity is not a defense and why intelligence is not a protection. A
 person who reports being struck by a correspondence is reporting accurately on
 their own experience, and their experience contains no information about whether
 the correspondence is designed.
@@ -9587,11 +9587,11 @@ learnedly, and without noticing that accommodation has replaced testing.
 The literature this book examines is not written by fools. It is written, much of
 it, by people of real learning: Pike read widely, Mathers taught himself several
 languages, Waite's erudition was genuine. **Their learning was the instrument of the
-error, not a defence against it**, because it supplied more material to find
+error, not a defense against it**, because it supplied more material to find
 patterns in and more resources for explaining away the failures.
 
 The only thing that helps is the procedural discipline that Chapter 42 sets out,
-and it helps precisely because it does not depend on the analyst's judgement.
+and it helps precisely because it does not depend on the analyst's judgment.
 
 ---
 
@@ -9857,7 +9857,7 @@ announced solutions. **No two have agreed**, and no proposed method has enabled 
 stranger to reproduce the result unaided.
 
 **Intentionality: passes.** Somebody wrote it, deliberately, at length, with
-illustrations. The labour is undeniable.
+illustrations. The labor is undeniable.
 
 So the Voynich passes the tests that concern the object and fails the tests that
 concern the decipherments. **This is exactly the right result**, and it shows the
@@ -9891,7 +9891,7 @@ negative.
 **This asymmetry is not a bias against the interesting claims.** It is a property of
 the evidence. Real encodings announce themselves — they produce sentences, they
 replicate, they come with carvers and authors and manuscripts. Claimed encodings
-that require elaborate defence require it because the evidence is thin, and the
+that require elaborate defense require it because the evidence is thin, and the
 elaboration is doing the work the evidence cannot.
 
 **When a decipherment needs a long argument, the argument is the finding.**
@@ -9980,7 +9980,7 @@ anyway.
 reproduce the result without further guidance?
 
 If the claimant must intervene — *not quite, try this spelling, allow that vowel* —
-the method is underspecified and what is being transmitted is judgement, not
+the method is underspecified and what is being transmitted is judgment, not
 procedure.
 
 **8 — HISTORICAL PLAUSIBILITY.** Could the alleged author have used this method?
@@ -10101,7 +10101,7 @@ and a chapter that did not say so would be incomplete.
 Three observations from having tried.
 
 **The tests are experienced as obstacles once a result is in hand.** Before the
-result, a control is an obvious precaution. Afterwards, it is a thing standing
+result, a control is an obvious precaution. Afterward, it is a thing standing
 between you and an interesting finding, and the mind supplies reasons why it is not
 quite applicable here. I felt this distinctly at the second stage of the Atbash work
 and I am not confident I would have gone on to the third if the book had not been
@@ -10120,9 +10120,9 @@ entire difference between an observation and a finding.
 
 **The practical remedy is to write the tests down as a checklist and go through them
 in order, in writing, including the ones that seem obviously satisfied.** This
-sounds bureaucratic. It is bureaucratic. Bureaucracy is what you use when judgement
+sounds bureaucratic. It is bureaucratic. Bureaucracy is what you use when judgment
 is known to be unreliable, and Chapter 40 established that on this particular
-question everyone's judgement is unreliable, including the judgement of people who
+question everyone's judgment is unreliable, including the judgment of people who
 have read Chapter 40.
 
 ---
@@ -10218,7 +10218,7 @@ demonstrated historical encoding, and let the difference do the work.
 
 ### What the material is
 
-The genre is recognisable. Videos, forum threads, self-published books, long posts
+The genre is recognizable. Videos, forum threads, self-published books, long posts
 with diagrams. The recurring subjects:
 
 **Atbash applied to Masonic words**, following Schonfield's Baphomet argument into
@@ -10527,7 +10527,7 @@ the space — it produces it, by acts of designation, boundary and attention.[^1
 
 The room is not special. It is a room over a pub, or a hall, or in later periods a
 purpose-built building — and the Craft has never claimed otherwise. What makes it a
-lodge is an act: the lodge is *opened*, by a prescribed procedure, and afterwards it
+lodge is an act: the lodge is *opened*, by a prescribed procedure, and afterward it
 is *closed*, and between those two acts the room has a different status.
 
 **The designation is explicit, it is performed, and it is reversible.** After the
@@ -10749,7 +10749,7 @@ vertices fall near some of the points.
 **Every step is a decision and none is constrained.**
 
 **Which points count?** A medieval church offers hundreds — every pier, respond,
-boss, bay corner, window centre. The number of candidate points is large and the
+boss, bay corner, window center. The number of candidate points is large and the
 selection is made by the analyst.
 
 **How close is close enough?** The golden ratio is 1.618. Is 1.61 a hit? 1.65? 1.58?
@@ -10785,7 +10785,7 @@ geometric practice is a real discipline with real results.
 with designed proportions from one without. It returns a positive either way.
 
 This is not a claim that no building has sacred geometry. Many do. **It is a claim
-about a method** — that the method of measuring afterwards and finding ratios cannot
+about a method** — that the method of measuring afterward and finding ratios cannot
 tell us which, and that only documentary evidence of the design process can.
 
 ---
@@ -10868,7 +10868,7 @@ systems in religious architecture, studied through treatises, drawings and lodge
 books. It has a literature and it has findings.
 
 **Masonic geometry** is a rhetorical and moral usage: geometry praised as
-foundational, its instruments moralised, no construction performed.
+foundational, its instruments moralized, no construction performed.
 
 **Modern New Age sacred geometry** is a retrospective-fitting practice applied to
 whatever is to hand, without stated tolerances or controls, and it has the epistemic
@@ -11026,7 +11026,7 @@ regularity — a stated and sufficient explanation requiring no ancient cult.
 circumambulation is close to universal wherever there is circular ritual movement at
 all. **There are two directions. Half of everything goes one way.**
 
-What the sources support is duller and more useful: the lodge is modelled on a
+What the sources support is duller and more useful: the lodge is modeled on a
 building oriented east to west, the sun's course supplies the natural direction of
 travel in such a building, and a Craft busy identifying itself with order and
 regularity found in that a congenial emblem.
@@ -11048,7 +11048,7 @@ left without a principal station. Now, is that entailed?
 
 Partly. A room needs stations distributed around it, and three stations in a
 rectangular space will naturally take positions that are not adjacent. But the
-specific exclusion of the north, and its characterisation as dark, is not forced by
+specific exclusion of the north, and its characterization as dark, is not forced by
 anything about rooms.
 
 **The explanation offered in the sources is solar**: the sun never reaches the
@@ -11059,7 +11059,7 @@ that receives no direct light.
 hemisphere the north face of a building is the one that stays in shadow. Anyone who
 has lived in a house knows which rooms are cold.
 
-Which makes it entailed after all — by the sun's actual behaviour at the latitudes
+Which makes it entailed after all — by the sun's actual behavior at the latitudes
 where the ritual was composed.
 
 **And it generates a testable prediction**, which is the useful part. If the
@@ -11081,7 +11081,7 @@ astronomy.**
 
 ### The rule, stated for use
 
-Part X's methodological contribution, and it generalises well beyond this subject.
+Part X's methodological contribution, and it generalizes well beyond this subject.
 
 **Before being impressed by a parallel, count the alternatives.**
 
@@ -11138,7 +11138,7 @@ actually supplies.
 ### The six layers
 
 **One: INFORMATION.** *I know the word.* I have the string. I could write it down,
-spell it, recognise it if I heard it.
+spell it, recognize it if I heard it.
 
 This is the thinnest relation and it is what the exposures transferred. Anyone who
 bought *Masonry Dissected* in 1730 for sixpence acquired it.
@@ -11165,7 +11165,7 @@ cannot be transmitted as such.
 **Five: EMBODIMENT.** *I live according to what it signifies.* The word's content
 has become a disposition — something visible in conduct rather than held in mind.
 
-**Six: WISDOM.** *I understand when and why it matters.* Judgement about the
+**Six: WISDOM.** *I understand when and why it matters.* Judgment about the
 occasion: knowing which situations call for the thing the word names, and which do
 not.
 
@@ -11184,7 +11184,7 @@ initiated and never returned has four without three in any meaningful sense, bec
 authority unexercised decays. A man may have five without two — living decently
 without being able to articulate why — and a great many people do.
 
-And six is not the crown of a sequence. Judgement about occasions is its own thing
+And six is not the crown of a sequence. Judgment about occasions is its own thing
 and does not follow from the others; there are learned fools and wise illiterates,
 and everyone knows it.
 
@@ -11315,7 +11315,7 @@ layer?* can be asked — and the answer usually dissolves the disagreement.
 Which brings the scheme to the point it was built for.
 
 The third degree gives the candidate a word at layer one — he has the string,
-labelled as a substitute. It gives him authority at layer three: he is a Master
+labeled as a substitute. It gives him authority at layer three: he is a Master
 Mason with everything that entails.
 
 **And it tells him that the thing itself is unavailable.**
@@ -11384,7 +11384,7 @@ unusually good, and the classical art of memory exploited exactly this by
 attaching things to be remembered to imagined rooms.[^1]
 
 **It is rhythmic and dialogic.** A catechism has a shape — question and answer,
-with expected stress and cadence. Verse is easier to memorise than prose for the
+with expected stress and cadence. Verse is easier to memorize than prose for the
 same reason, and the effect is substantial. An examiner who knows the rhythm hears
 a wrong answer as a stumble before he hears it as an error.
 
@@ -11492,7 +11492,7 @@ this book's argument.
 
 The ceremonies have transmitted with remarkable fidelity. A visitor from an English
 lodge can follow an Australian one; the structure, the sequence, the officers, the
-essential actions are recognisable across three centuries and six continents. Where
+essential actions are recognizable across three centuries and six continents. Where
 variation exists it is local and traceable, and the jurisdictions are aware of their
 differences.
 
@@ -11570,7 +11570,7 @@ preceding volume, Chapter 47.
 ## The Word as Credential
 
 Every reader of this book proves their identity to a machine several times a day,
-using a method a Masonic lodge in 1750 would have recognised and, in one important
+using a method a Masonic lodge in 1750 would have recognized and, in one important
 respect, improved on.
 
 This chapter draws that comparison and then states, twice, that it is an analogy.
@@ -11669,12 +11669,12 @@ Three disanalogies, stated because a comparison that only flatters is not analys
 
 **Masonic authentication is not adversarial in the modern sense.** The threat model
 is an occasional impostor seeking charity, not a funded adversary at scale. Systems
-designed against casual opportunists and systems designed against organised attack
+designed against casual opportunists and systems designed against organized attack
 are different objects, and the difference is not one of degree.
 
-**The Masonic verifier is a person exercising judgement.** He hears hesitation,
-recognises a manner, weighs plausibility. Modern authentication is designed
-precisely to remove judgement, because judgement does not scale and is
+**The Masonic verifier is a person exercising judgment.** He hears hesitation,
+recognizes a manner, weighs plausibility. Modern authentication is designed
+precisely to remove judgment, because judgment does not scale and is
 inconsistent. **What the lodge relies on is what the engineer tries to eliminate.**
 
 **And the Masonic system had no revocation.** A password can be changed; a
@@ -11707,7 +11707,7 @@ public — and the system did not fail. By the standard above, that means the sy
 was never relying on obscurity.
 
 **What it relies on is that the valuable parts are not transmissible as
-information.** Standing is conferred, not learned. Competence is practised, not
+information.** Standing is conferred, not learned. Competence is practiced, not
 read. Membership is a relation, not a fact.
 
 In modern terms: **the Craft's security model does not depend on keeping a secret,
@@ -11724,7 +11724,7 @@ things in a system happen not to be the kind of thing that can be written down.
 Two things, and then the warning again.
 
 **It explains why the design is good.** A reader who wonders whether Masonic
-recognition was a serious system or a piece of theatre can be told that its
+recognition was a serious system or a piece of theater can be told that its
 structure is the structure of contemporary best practice, arrived at independently.
 That is a real finding about the eighteenth century.
 
@@ -11799,7 +11799,7 @@ do not say this is what it means, and Chapter 21's disagreement principle applie
 had they intended a doctrine, they would probably have recorded one.
 
 **What can be said without interpretation is structural, and the structure is
-consistent. In a system organised around what is not given, the one thing given is
+consistent. In a system organized around what is not given, the one thing given is
 another person.**
 
 ---
@@ -11827,7 +11827,7 @@ Whatever initiation does, it does not do it to everyone, and quite possibly does
 do it to most.
 
 **A minority are different**, and the records show that too: men for whom the
-fraternity became the organising structure of an adult life, across decades. The
+fraternity became the organizing structure of an adult life, across decades. The
 honest summary is a distribution, not a mechanism that fires.
 
 ---
@@ -12009,7 +12009,7 @@ that mystical literature trades on the confusion. A claim that cannot be stated
 cannot be checked. **The move is available to anybody, and the sincere and the
 fraudulent make it in identical language.**
 
-I would be making it here for a reason I recognise: it is the ending the book seems
+I would be making it here for a reason I recognize: it is the ending the book seems
 to want.
 
 ---
@@ -12197,7 +12197,7 @@ been told to give, and the answer will be right, and the door will open.
 
 **Chapter 3 established what that is.** A performative utterance: words that do not
 describe the world but alter it, whose power lies in a convention that both parties
-recognise. Not magic. A social fact, made by saying, of the same family as a verdict
+recognize. Not magic. A social fact, made by saying, of the same family as a verdict
 or a promise.
 
 He will be led into a dark room among men he cannot see.
@@ -12245,7 +12245,7 @@ the Craft took none of them, which tells us what it was doing.
 
 **The Hebrew techniques are real and are not ciphers.** Gematria, notarikon and
 temurah are homiletic devices that operated under constraints of canon, community
-and judgement. Remove the constraints and they generate anything — a quarter of
+and judgment. Remove the constraints and they generate anything — a quarter of
 ordinary Hebrew words collide with another.
 
 **Every Kabbalistic reading of the Masonic word postdates 1854**, entering through
@@ -12332,7 +12332,7 @@ why, because they did not know they had done it.
 
 ---
 
-### The room afterwards
+### The room afterward
 
 He will go in, and it will take about an hour, and then the lodge will close.
 
@@ -12356,7 +12356,7 @@ will not be given.
 
 **Whether anything was done to him will not be visible tonight.** The preceding
 volume established that it is visible, if at all, in twenty years — in the shape of
-the life he made afterwards, which is the only place the effects of any initiation
+the life he made afterward, which is the only place the effects of any initiation
 have ever been visible.
 
 ---
@@ -12369,7 +12369,7 @@ linguistic: a question, an answer, and a world rearranged by the saying.
 That is still true and it is now less mysterious and, I think, more interesting.
 
 **Words do open doors.** Not by acting on the hinges. By acting on the man holding
-them, who recognises a formula, and admits the speaker, because a convention exists
+them, who recognizes a formula, and admits the speaker, because a convention exists
 that both of them are inside.
 
 That is the whole mechanism, and there is nothing hidden in it.
@@ -12491,12 +12491,12 @@ the evidence clearer, and those are not in tension.
 
 **What the research dissolves is the manufactured mystery.** The cipher that was
 never a cipher. The ancient transmission with no carrier. The decipherment whose
-success criterion was written afterwards. The sacred geometry found by a method
+success criterion was written afterward. The sacred geometry found by a method
 that finds it in a car park. The numbers that turn out to be a page reference and an
 administrative total.
 
 That material is gone, and it should be. It was never load-bearing, and the people
-who built this tradition would not have recognised it.
+who built this tradition would not have recognized it.
 
 **What is left standing is harder and older.**
 
@@ -12585,7 +12585,7 @@ required.
 | 1499 | | **Trithemius**, *Steganographia* (pub. 1606) | |
 | 1516 | First widely printed Tree of Life diagram (*Portae Lucis*) | | |
 | 1517 | Reuchlin, *De arte cabalistica* | | |
-| **1518** | **Galatinus popularises "Jehovah"** | | |
+| **1518** | **Galatinus popularizes "Jehovah"** | | |
 | 1533 | **Agrippa** — magical alphabets, divine names | | |
 | c. 1552–62 | *Sefer Yetzirah* in Latin (Postel); Hebrew printing (Mantua) | | |
 | **1582–89** | | **Dee and Kelley — Enochian produced** | |
@@ -12725,7 +12725,7 @@ to the planets, the days of the week, and the openings of the head.
 and principal organs and functions.
 
 Note that the "seven doubles" reflect a phonological fact about Hebrew — these
-letters have both plosive and fricative realisations — and that resh's inclusion is
+letters have both plosive and fricative realizations — and that resh's inclusion is
 disputed in the manuscript tradition. **A correspondence system built on a
 phonological feature is built on something real**, and the assignments laid over it
 are interpretation.
@@ -12772,7 +12772,7 @@ It is its own inverse: applying it twice returns the original. There is no key.
 | 10 | **י** yod | ↔ | **מ** mem | 13 |
 | 11 | **כ** kaf | ↔ | **ל** lamed | 12 |
 
-Final (sofit) forms are normalised to their medial equivalents before
+Final (sofit) forms are normalized to their medial equivalents before
 transformation: ך→כ, ם→מ, ן→נ, ף→פ, ץ→צ.
 
 ---
@@ -12992,7 +12992,7 @@ Every genuine cryptographic system has one: a specific party, with capabilities,
 from whom something specific is being withheld, whose resources shape the design.
 
 For Masonic practice the answers are small and consistent: the curious servant who
-might open a minute book; the stranger reading a gravestone; the neighbour
+might open a minute book; the stranger reading a gravestone; the neighbor
 wondering what the certificate says.
 
 **Against those, an unkeyed monoalphabetic grid is entirely adequate.**
@@ -13074,12 +13074,12 @@ Without the check it would have gone into the book, and a reader would have had 
 know the correct figure already to catch it.
 
 And the failure mode is **general**. A procedure that silently skips characters it
-does not recognise will produce confident wrong results, and this is close to the
+does not recognize will produce confident wrong results, and this is close to the
 standard failure in the literature this book examines. Published gematria claims
 depend on decisions about final forms, spelling and system, and most publications do
 not state them.
 
-The corrected routine normalises final forms to their medial equivalents.
+The corrected routine normalizes final forms to their medial equivalents.
 
 ---
 
@@ -13140,7 +13140,7 @@ from somebody having noticed it and said something interesting, and the interest
 part was supplied by the interpreter.
 
 **This is not a debunking of rabbinic gematria.** The tradition operated in a
-homiletic register, under constraints of canon, community and judgement, and did
+homiletic register, under constraints of canon, community and judgment, and did
 not claim to be recovering concealed information. The modern error is the category
 error: treating a device for generating reflection as a device for recovering fact.
 
@@ -13287,12 +13287,12 @@ to priestly and Temple contexts, and ended as a public practice with the Temple 
 70 CE. **There was no decree.** A practice narrowed until there was nothing left to
 transmit.
 
-**The reconstruction.** Scholarship generally favours something like *Yahweh*, on
+**The reconstruction.** Scholarship generally favors something like *Yahweh*, on
 three kinds of indirect evidence: Greek transcriptions in patristic sources
 (*Iao*, *Iabe*); theophoric personal names, which preserve *Yeho-* and *-yahu* in a
 living tradition; and the verbal root.
 
-**This is an inference and should be labelled as one.** Nobody has heard the word
+**This is an inference and should be labeled as one.** Nobody has heard the word
 pronounced in a living liturgical tradition. It is a reconstruction of the general
 reliability of other historical-linguistic reconstructions, which is good, and not
 the same as a recording.
@@ -13489,7 +13489,7 @@ None of these has occurred. All of them could.
 | **A** | Primary historical evidence |
 | **B** | Peer-reviewed scholarship |
 | **C** | University press monographs |
-| **D** | Recognised scholarly reference works |
+| **D** | Recognized scholarly reference works |
 | **E** | Established specialist publications |
 | **F** | Popular sources, used **only** to document popular belief |
 
@@ -13621,7 +13621,7 @@ Reported in Chapter 43. Method fixed before execution.
 
 A 12 × 8 lattice of **96 points** with uniform jitter of ±0.03 units — the spacing
 of an ordinary street grid, containing nothing by construction. **400,000** random
-placements of a regular pentagram (centre, circumradius, rotation) tested for
+placements of a regular pentagram (center, circumradius, rotation) tested for
 vertices falling within 0.5 units of a lattice point; best result refined by local
 optimisation.
 
@@ -13802,7 +13802,7 @@ category disguise the poverty of the third.
 # BIBLIOGRAPHY — BOOK III
 
 **138 entries.** Level A–F per §XXXIII. ✔ = citation verified against a copy or a
-reliable catalogue record; ~ = details substantially confirmed, page-level
+reliable catalog record; ~ = details substantially confirmed, page-level
 verification outstanding; **[SVR]** = source verification required before
 publication.
 
@@ -14009,7 +14009,7 @@ Used per §XXXIII to document what is claimed, never what is true.
 
 ---
 
-# ILLUSTRATION LIST — FINAL PROGRAMME
+# ILLUSTRATION LIST — FINAL PROGRAM
 
 **58 plates**, within §LI's 50–75. Every item is a real, locatable object, with three
 declared exceptions (55–57), which are diagrams made for this book and captioned as
@@ -14110,10 +14110,10 @@ undisputed occurrences, that both are Hebrew-to-Hebrew, and that both are proper
 nouns whose plain forms appear elsewhere in the same book.
 
 **56 — The control-test figure.** Three panels. Left: BAPHOMET's 216 admissible
-Hebrew spellings, one highlighted. Centre: the same procedure on matched control
+Hebrew spellings, one highlighted. Center: the same procedure on matched control
 names, nothing highlighted. **Right, in the same weight: the target list, with
 *Sophia* circled and annotated "added by the claim."**
-Caption: *the transformation is real; the answer key was written afterwards.*
+Caption: *the transformation is real; the answer key was written afterward.*
 
 **57 — The pigpen grid.** The layout, a worked inscription, and the letter-frequency
 histograms of plaintext and ciphertext side by side — identical, which is the flaw.
@@ -14188,7 +14188,7 @@ Vigenère, Blaise de · Vitruvius · Westcott, William Wynn · Yates, Frances
 
 ---
 
-## B — ORGANISATIONS AND RITES
+## B — ORGANIZATIONS AND RITES
 
 Antients and Moderns · Craft (Blue Lodge) · Élus Coëns · Golden Dawn, Hermetic
 Order of the (**not Masonic**) · Grand Lodge of England · Knights Templar · Quatuor
@@ -14266,7 +14266,7 @@ Non-negotiable. Each is a distinction the book spends chapters establishing.
 | Cipher / code / jargon | one entry |
 | Cryptography / steganography | one entry |
 | Secret / symbol / metaphor / coincidence | one entry |
-| Masonic bodies / bodies whose members were Masons / bodies borrowing Masonic form | "Masonic organisations" |
+| Masonic bodies / bodies whose members were Masons / bodies borrowing Masonic form | "Masonic organizations" |
 | Availability / transmission | one entry |
 | Meaning / intention | one entry |
 | Entailed / arbitrary | — |

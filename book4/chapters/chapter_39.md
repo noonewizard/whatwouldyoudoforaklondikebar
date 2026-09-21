@@ -99,7 +99,7 @@ Two working tools of a medieval and early modern building trade, and the sacred
 book of the society in which the fraternity formed.
 
 That is a perfectly coherent set. It says: *this is a craft, its instruments carry
-moral meaning, and it is conducted under an acknowledgement of the divine.* It is
+moral meaning, and it is conducted under an acknowledgment of the divine.* It is
 the natural emblem-set for what Freemasonry was in 1723 — a trade's institutional
 descendant, moralizing its own equipment, in a Christian country.
 

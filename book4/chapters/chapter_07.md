@@ -33,7 +33,7 @@ That is Chapter 66's subject arriving early, in a single unresolved ten-cubit ga
 ### The room's actual content
 
 Two olive-wood cherubim, ten cubits high, wings spread so that the outer wings
-touched the walls and the inner wings met at the centre. Beneath them, the Ark.
+touched the walls and the inner wings met at the center. Beneath them, the Ark.
 
 And after the Ark's disappearance — which happens at no point the text records,
 simply ceasing to be mentioned — the Second Temple's innermost room was, according
@@ -48,7 +48,7 @@ curiosity precisely because the expectation was otherwise.
 
 ---
 
-### What an empty centre does
+### What an empty center does
 
 This is the observation this chapter exists to make, and it connects directly to
 the preceding volume in this series.
@@ -56,7 +56,7 @@ the preceding volume in this series.
 Book III examined a tradition whose central ceremony announces that a word is
 unavailable and hands the candidate an explicit substitute. Its finding was that
 the withholding is not a failure of the system but its most durable feature —
-that a structure organised around something declared absent goes on generating
+that a structure organized around something declared absent goes on generating
 interest indefinitely, while a structure that delivers is finished the moment it
 delivers.
 
@@ -114,7 +114,7 @@ the innermost room is one you cannot see in, and offers that as the point rather
 than as a limitation.
 
 Chapter 50 takes up what darkness does perceptually. Here it is enough to note
-that **a sacred centre which is both empty and unlit has removed every possible
+that **a sacred center which is both empty and unlit has removed every possible
 object of inspection** — and that a tradition can maintain that arrangement for
 centuries without anyone's confidence being damaged by it.
 

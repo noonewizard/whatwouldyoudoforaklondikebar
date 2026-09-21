@@ -43,7 +43,7 @@ not a debunking.** The material is real.
 
 ### Where it goes wrong
 
-The failure mode is expansion, and it has a recognisable shape.
+The failure mode is expansion, and it has a recognizable shape.
 
 The argument starts from a defensible claim — *the Temple is described using
 cosmological imagery* — and slides to a much larger one: *the Temple is therefore a
@@ -79,7 +79,7 @@ methodologically permissive, and the source of a good deal of comparative
 overreach that the discipline has since walked back.[^4]
 
 **What survives the caution**: the observation that many traditions locate a
-centre and describe it in vertical terms is accurate.
+center and describe it in vertical terms is accurate.
 
 **What does not**: the inference that all such traditions are drawing on a common
 archaic source, or that the similarity is evidence of anything beyond the fact that
@@ -87,7 +87,7 @@ human beings orient in three dimensions and find height meaningful. Chapter 49
 examines why vertical symbolism is so reliably available — and the answer is
 embodied and unremarkable.
 
-**Half of everything goes one way.** A tradition that locates its sacred centre
+**Half of everything goes one way.** A tradition that locates its sacred center
 somewhere must either place it high or not; most place it high; this tells us
 about gravity and sightlines rather than about transmission.
 
@@ -102,7 +102,7 @@ Temple's destruction was experienced as a cosmic event rather than a military
 setback.**
 
 If the Temple is merely a building, its loss is a grievous national catastrophe.
-If the Temple is the point at which order is maintained — the centre, the
+If the Temple is the point at which order is maintained — the center, the
 mountain, the garden, the source — then its destruction is a rupture in the
 structure of things, and the literature of the exile reads exactly that way.
 

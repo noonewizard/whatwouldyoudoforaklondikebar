@@ -25,7 +25,7 @@ mind**, and a great deal of later writing has assumed the reverse (ch 57).
 
 Figures 3–4 and figure 5 grow from the *same* scriptural warrant — 1 Kings 4:33
 and Wisdom of Solomon 7 — read by different people for different purposes. One
-warrant produced both a tradition of spirit-commanding manuals and a programme for
+warrant produced both a tradition of spirit-commanding manuals and a program for
 experimental science.
 
 The warrant did not determine the outcome. The readers did (ch 57).

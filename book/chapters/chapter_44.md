@@ -31,12 +31,12 @@ and expected to work again.
 
 By that standard, the Masonic initiation is unambiguously a technology. It was specified in
 detail. It was taught. It was carried to four continents by men who had learned it in one
-room and reproduced it in another. It was adopted wholesale by organisations with entirely
+room and reproduced it in another. It was adopted wholesale by organizations with entirely
 different aims — friendly societies, Rosicrucian orders, magical societies, women's orders,
 Black fraternal bodies — on the evident assumption that it would go on working.
 
 And it did. That is the interesting part. A ritual designed in eighteenth-century London for
-English gentlemen produced recognisably similar effects on free Black Bostonians in 1787,
+English gentlemen produced recognizably similar effects on free Black Bostonians in 1787,
 Parisian duchesses in 1775, Bengali clerks in 1860, Prussian alchemists in 1780, and
 Victorian magicians in 1890.
 
@@ -74,7 +74,7 @@ this cleanly, and Victor Turner's elaboration of the middle phase supplies the v
 for what happens in it: the stripping of status, the equality of initiands, the openness of
 the person in transition.[^1]
 
-I offer those as descriptive tools. Van Gennep was generalising from ethnographic reports
+I offer those as descriptive tools. Van Gennep was generalizing from ethnographic reports
 of other societies; Turner was working with Ndembu material. Neither had a London tavern in
 mind, and the fit — while genuinely good — is a fit between a general pattern and an
 instance, not evidence of any historical relationship.
@@ -104,7 +104,7 @@ memory encoding we have. This is not a mystical claim; it is the reason people r
 where they were during disasters and forget entire ordinary Tuesdays.
 
 **Commitment** engages a mechanism social psychology has documented extensively: a public,
-effortful, voluntary declaration changes subsequent behaviour and self-description far more
+effortful, voluntary declaration changes subsequent behavior and self-description far more
 than a private or costless one. The candidate has spoken the words himself, in front of
 people, having gone to trouble to get there.
 
@@ -161,7 +161,7 @@ this book's thesis.[^3]
 Bogdan's contention is that rituals of initiation are the principal *transmission vehicle*
 of Western esotericism in the modern period — that the reason esoteric currents survived
 from the Renaissance into the twentieth century is not a chain of secret teachers but the
-existence of initiatory organisations capable of carrying them.
+existence of initiatory organizations capable of carrying them.
 
 Put that beside the finding of Parts III to VI and the picture completes itself.
 
@@ -170,7 +170,7 @@ institutional carrier. They existed in books. Books are a poor transmission medi
 tradition: they preserve content but not practice, community, authority or continuity. A
 book can sit unread for two centuries.
 
-Freemasonry supplied what the books could not: an *organisational form* for graded
+Freemasonry supplied what the books could not: an *organizational form* for graded
 initiatory instruction, reproducible anywhere, requiring no central authority, capable of
 holding any content.
 
@@ -200,7 +200,7 @@ University of New York Press, 2007). **[SOURCE VERIFICATION REQUIRED — pages f
 transmission-vehicle argument.]**
 
 [^4]: On arousal and memory encoding, and on the effects of public voluntary commitment on
-subsequent behaviour, see the standard experimental literature. These are offered as
+subsequent behavior, see the standard experimental literature. These are offered as
 general findings about human beings, not as claims about any particular historical
 individual; see the discussion of claim-types in Chapter 2. **[SOURCE VERIFICATION REQUIRED
 — specific citations to be supplied.]**

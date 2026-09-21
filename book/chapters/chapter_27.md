@@ -55,7 +55,7 @@ This is theurgy, in precisely the Iamblichan sense set out in Chapter 7: ritual 
 directed at contact with intelligences above the human, understood by its practitioners as
 religious rather than magical, and undertaken for the purpose of the operator's ascent.
 
-Martinez's students recorded whether operations succeeded. Some did, in their judgement;
+Martinez's students recorded whether operations succeeded. Some did, in their judgment;
 many did not. The correspondence about this is one of the most curious bodies of material
 in eighteenth-century religious history: serious, literate men, writing to each other about
 whether a working had produced its sign, in the tones of colleagues comparing experimental
@@ -73,7 +73,7 @@ nothing esoteric. Chapter 26 showed a claim of ancient descent manufactured and 
 repudiated.
 
 Here, at last, is the real thing: genuine operative magic, inside a genuinely Masonic
-organisational structure, with doctrine, ritual texts, practitioners and results.
+organizational structure, with doctrine, ritual texts, practitioners and results.
 
 And its date is 1761.
 
@@ -116,7 +116,7 @@ a hundred and thirty years later, in a different order, and arrive at a similar 
 
 The other student went the opposite way, and had the greater institutional effect.
 
-Jean-Baptiste Willermoz was a Lyon silk merchant, an organiser of formidable ability, and a
+Jean-Baptiste Willermoz was a Lyon silk merchant, an organizer of formidable ability, and a
 man who spent his long life inside Masonic structures. He had been a Coën. He had also
 joined the Strict Observance. And he concluded — correctly — that von Hund's rite had a
 magnificent chivalric form and no doctrine worth the name.
@@ -154,7 +154,7 @@ Four things, and I want them explicit.
 carried down within it. Poured in, by named men, in the 1760s and 1770s.
 
 **Two: the Masonic form was the container, not the source.** Martinez used Masonic degree
-structure because it was the available technology for organising graded initiatory
+structure because it was the available technology for organizing graded initiatory
 instruction in eighteenth-century France. His doctrine owes nothing to Masonic ritual, and
 Masonic ritual acquired nothing from him.
 

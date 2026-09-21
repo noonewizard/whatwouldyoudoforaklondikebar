@@ -42,7 +42,7 @@ Three centuries later the Stoics take the term and make it do cosmology.
 For them the *logos* is divine reason pervading matter — immanent, active,
 identified with God, with fate, with providence, and with the fire from which
 everything comes and to which it returns. The *logos spermatikos*, the
-"seed-bearing reason," is the principle by which the cosmos organises itself into
+"seed-bearing reason," is the principle by which the cosmos organizes itself into
 the particular things it contains.
 
 Two features are worth marking because they will be inherited. The Stoic *logos* is
@@ -97,7 +97,7 @@ others did.
 The first eighteen verses of the Gospel of John are a hymn, and they are carefully
 built. The opening phrase deliberately echoes Genesis 1. The *logos* is pre-existent,
 was with God, was God, and was the agent through which all things came to be —
-which is recognisably Philonic. Light and darkness are introduced. The *logos* comes
+which is recognizably Philonic. Light and darkness are introduced. The *logos* comes
 to its own and is not received.
 
 Then verse fourteen.

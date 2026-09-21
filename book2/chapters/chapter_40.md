@@ -55,7 +55,7 @@ operator. Type E is his, not mine, and I neither endorse nor deny it.
 
 What can be said is narrower and remarkable enough. **Lévi located the mechanism of magic in
 the operator's attention, imagination and will, and described the ceremonial apparatus as
-existing to organise those.** That is a functional account of ritual efficacy, produced in
+existing to organize those.** That is a functional account of ritual efficacy, produced in
 1854, by a man with no access to any of the disciplines that would later make such accounts
 respectable.
 

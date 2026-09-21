@@ -5,7 +5,7 @@ In 1489 Marsilio Ficino published a book of medical advice for intellectuals.
 
 *De vita libri tres* — *Three Books on Life* — was addressed to scholars, and its
 diagnosis was that they are a sickly population. They sit still. They think too hard. They
-are dried out and cooled by the labour of study, which makes them melancholic, and
+are dried out and cooled by the labor of study, which makes them melancholic, and
 melancholy is governed by Saturn, the cold and heavy planet.
 
 The first two books offer the sort of advice you would expect: diet, exercise, sleep,
@@ -16,7 +16,7 @@ The third book proposes that the scholar can improve his condition by drawing do
 influence of the Sun.
 
 Not metaphorically. Ficino's instructions are practical. Surround yourself with solar
-things: gold, saffron, and the colour yellow; heliotrope and other plants that follow the
+things: gold, saffron, and the color yellow; heliotrope and other plants that follow the
 sun; cockerels, which announce it. Take solar substances internally. Arrange your room to
 admit morning light. And — the recommendation that has fascinated everyone who has read
 him since — make music in the Solar mode, sing hymns to the sun, accompany yourself on a
@@ -66,7 +66,7 @@ seems to have been uneasy. But the *frame* held, and it is the frame, not the pr
 that travels.
 
 Four hundred years later, the Golden Dawn will construct an enormous system of
-correspondences — colours, plants, metals, perfumes, god-names, tarot cards — on exactly
+correspondences — colors, plants, metals, perfumes, god-names, tarot cards — on exactly
 Ficino's logic, and will insist, exactly as he did, that what it is doing is a science of
 nature rather than a traffic with spirits. And they will have read him, or read people who
 had.
@@ -98,7 +98,7 @@ What survives, for our purposes, is a method and a claim.
 
 The method is **concordance**: the conviction that apparently incompatible traditions are
 saying the same thing in different idioms, and that a sufficiently learned reader can
-demonstrate it. Nine hundred theses from a dozen traditions, harmonised. This is the
+demonstrate it. Nine hundred theses from a dozen traditions, harmonized. This is the
 *prisca theologia* of Chapter 6 turned into an operating procedure, and it is the direct
 ancestor of every comparative-mythological synthesis in this book — Pike's above all.
 
@@ -157,7 +157,7 @@ operating in the material this book covers four centuries later.
 new system will want an ancient pedigree.
 
 **That all wisdom traditions agree beneath their surfaces.** Therefore resemblance is
-evidence of common source, and the harmonising of traditions is scholarship rather than
+evidence of common source, and the harmonizing of traditions is scholarship rather than
 invention.
 
 **That the cosmos is a connected system of correspondences.** Therefore operative work on

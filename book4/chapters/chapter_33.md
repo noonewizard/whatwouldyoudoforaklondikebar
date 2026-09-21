@@ -132,4 +132,4 @@ of the Temple has to specify whose Masonry, when.
 **The critical evidence is public.** Nothing in this chapter comes from a
 disclosure. It comes from printed books, published constitutions, dated minutes,
 and papal bulls — a paper trail that any reader can follow, and which has been
-followed, with exceptional rigour, by Masonic historians themselves.
+followed, with exceptional rigor, by Masonic historians themselves.

@@ -67,7 +67,7 @@ Verification tags: **✔** = bibliographic data confirmed in this research phase
 25. **[A]** ~ [Pérau, Gabriel-Louis.] *Le Secret des Francs-Maçons*. Geneva/Paris, 1742.
 26. **[A]** ~ [Travenol, Louis.] *L'Ordre des Francs-Maçons Trahi*. Amsterdam, 1745.
 27. **[A]** ~ Morgan, William. *Illustrations of Masonry, by One of the Fraternity*.
-    Batavia, N.Y., 1826. (The book at the centre of the Morgan affair.)
+    Batavia, N.Y., 1826. (The book at the center of the Morgan affair.)
 28. **[C]** ~ Knoop, Douglas, G. P. Jones, and Douglas Hamer, eds. *The Early Masonic
     Catechisms*. 2nd edn., rev. Harry Carr. London: Quatuor Coronati Lodge, 1963.
 29. **[C]** ~ Knoop, Jones, and Hamer, eds. *The Two Earliest Masonic MSS.: The Regius

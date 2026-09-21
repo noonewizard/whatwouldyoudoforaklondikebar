@@ -44,7 +44,7 @@ Masonic material despite constant conflation.
 ### Three
 
 **Biblical**: the Temple's tripartite plan — porch, hall, inner sanctuary — and the
-three-storey side chambers. The tripartite plan is, as Chapter 5 showed, a
+three-story side chambers. The tripartite plan is, as Chapter 5 showed, a
 regional architectural type.
 
 **Structural**: three is the minimum number that makes a sequence, and a building

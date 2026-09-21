@@ -13,8 +13,8 @@ Benjamin Franklin's edition of Anderson's *Constitutions* was the first Masonic 
 printed in America.[^1]
 
 It is a small event with a large meaning. Freemasonry did not arrive in the colonies as an
-exotic import to be marvelled at. It arrived as a going concern, with a printed rulebook, a
-recognised procedure, and a local printer willing to underwrite it — and within forty years
+exotic import to be marveled at. It arrived as a going concern, with a printed rulebook, a
+recognized procedure, and a local printer willing to underwrite it — and within forty years
 it would be one of the few institutions in British North America that existed
 simultaneously in every colony, with a common language and mutual recognition across a
 thousand miles.
@@ -38,7 +38,7 @@ clubs, no professional associations in the modern sense. A body that met regular
 accounts, elected officers, dined, and admitted men by ballot was supplying something for
 which there was no competition.
 
-**The second is distance.** A merchant travelling from Charleston to Boston, or from
+**The second is distance.** A merchant traveling from Charleston to Boston, or from
 Philadelphia to London, arrived among strangers and needed a way to establish that he was
 respectable, solvent and worth extending credit to. Masonry supplied exactly that: a
 recognition system, a claim on hospitality, and a network of men who had sworn to assist
@@ -76,7 +76,7 @@ What did they actually do? Largely what English lodges did, with local variation
 They met in taverns. They worked three degrees. They dined, at length and with a great deal
 to drink — the Masonic songs at the end of Franklin's *Constitutions* were not decorative.
 They processed publicly on St John's Day, in aprons, to a church service, and the sermon
-was frequently printed. They buried their members with Masonic honours. They laid corner
+was frequently printed. They buried their members with Masonic honors. They laid corner
 stones.
 
 That last practice deserves a note, because it became characteristically American. A Masonic
@@ -84,7 +84,7 @@ corner-stone ceremony is a public ritual in which the fraternity's private symbo
 square, level, plumb, corn, wine and oil — is performed in the open, at a civic occasion, to
 consecrate a public building. It is the single most visible thing American Freemasonry has
 ever done, and it establishes something important about its self-understanding: this was an
-organisation that understood itself as *civic*, with a public role, using its ceremonial to
+organization that understood itself as *civic*, with a public role, using its ceremonial to
 bless the construction of a shared society.
 
 A body engaged in a secret conspiracy does not do its rituals on the courthouse steps with

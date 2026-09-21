@@ -16,7 +16,7 @@ been told to give, and the answer will be right, and the door will open.
 
 **Chapter 3 established what that is.** A performative utterance: words that do not
 describe the world but alter it, whose power lies in a convention that both parties
-recognise. Not magic. A social fact, made by saying, of the same family as a verdict
+recognize. Not magic. A social fact, made by saying, of the same family as a verdict
 or a promise.
 
 He will be led into a dark room among men he cannot see.
@@ -64,7 +64,7 @@ the Craft took none of them, which tells us what it was doing.
 
 **The Hebrew techniques are real and are not ciphers.** Gematria, notarikon and
 temurah are homiletic devices that operated under constraints of canon, community
-and judgement. Remove the constraints and they generate anything — a quarter of
+and judgment. Remove the constraints and they generate anything — a quarter of
 ordinary Hebrew words collide with another.
 
 **Every Kabbalistic reading of the Masonic word postdates 1854**, entering through
@@ -151,7 +151,7 @@ why, because they did not know they had done it.
 
 ---
 
-### The room afterwards
+### The room afterward
 
 He will go in, and it will take about an hour, and then the lodge will close.
 
@@ -175,7 +175,7 @@ will not be given.
 
 **Whether anything was done to him will not be visible tonight.** The preceding
 volume established that it is visible, if at all, in twenty years — in the shape of
-the life he made afterwards, which is the only place the effects of any initiation
+the life he made afterward, which is the only place the effects of any initiation
 have ever been visible.
 
 ---
@@ -188,7 +188,7 @@ linguistic: a question, an answer, and a world rearranged by the saying.
 That is still true and it is now less mysterious and, I think, more interesting.
 
 **Words do open doors.** Not by acting on the hinges. By acting on the man holding
-them, who recognises a formula, and admits the speaker, because a convention exists
+them, who recognizes a formula, and admits the speaker, because a convention exists
 that both of them are inside.
 
 That is the whole mechanism, and there is nothing hidden in it.

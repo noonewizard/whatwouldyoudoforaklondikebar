@@ -79,7 +79,7 @@ continuous, overlapping, and frequently contested sacred significance for Judais
 Christianity, and Islam, each of which has held it, built on it, lost it, and
 returned to it.
 
-For Judaism it is the site of the Temple, the direction of prayer, and the centre
+For Judaism it is the site of the Temple, the direction of prayer, and the center
 of a hope for restoration.
 
 For Christianity it is the place of the crucifixion and resurrection, and — in a
@@ -101,14 +101,14 @@ The city detached from its geography early and thoroughly.
 The New Testament's closing vision describes a new Jerusalem descending from
 heaven, measured, gated, and without a temple — because, the text says, the Lord
 is its temple. Medieval European world maps frequently place Jerusalem at the
-centre of the inhabited earth. Pilgrimage produced reproductions: chapels built to
+center of the inhabited earth. Pilgrimage produced reproductions: chapels built to
 the measurements of the Holy Sepulchre, calvaries and sacred mounts laid out to
 allow the journey to be performed at home.
 
 **By the time Freemasonry took up the Temple, Jerusalem had been a portable idea in
 Europe for a thousand years.** Anderson's readers did not need to have been there;
 nobody had been there. They had inherited a city that functioned, as the Temple
-did, as a place one could locate oneself in without travelling.
+did, as a place one could locate oneself in without traveling.
 
 That is the condition in which the next chapter's subject has to be approached —
 and it is also the reason the next chapter requires more care than any other in

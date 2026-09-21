@@ -49,7 +49,7 @@ the phenomenon in detail: hundreds of grades, most now lost, composed by identif
 in identifiable decades.
 
 Look at what they are *about*. The Elect degrees pursue and punish the murderers. The Royal
-Arch recovers the lost name. The Rose-Croix supplies a Christological fulfilment in which
+Arch recovers the lost name. The Rose-Croix supplies a Christological fulfillment in which
 the Word is the Word made flesh. The Templar degrees provide a continuing order that
 preserved what was hidden.
 
@@ -127,7 +127,7 @@ I find that last point genuinely admirable, and I want to register that it cuts 
 grain of everything else this book has found. An institution that manufactured an antique
 pedigree for itself, that absorbed whatever interpretation was poured into it, and that
 generated three centuries of speculative literature — nevertheless placed, at its own
-summit, a formal acknowledgement that the answer is not in its possession.
+summit, a formal acknowledgment that the answer is not in its possession.
 
 ---
 
@@ -198,7 +198,7 @@ work before this chapter is finalised.]**
 [^3]: On the eighteenth-century proliferation of high degrees and their character as answers
 to the third degree, see the preceding volume.
 
-[^4]: On the divine Name, its concealment and the substitution practised in reading, see
+[^4]: On the divine Name, its concealment and the substitution practiced in reading, see
 Gershom Scholem, *Major Trends in Jewish Mysticism* (New York: Schocken, 1946), and Joseph
 Dan, *Kabbalah: A Very Short Introduction* (New York: Oxford University Press, 2006).
 

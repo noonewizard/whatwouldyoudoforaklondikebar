@@ -41,7 +41,7 @@ genealogy. His historical preface behaves the way such prefaces behaved in his
 period: it establishes the dignity of an institution by placing it in a line of
 descent.
 
-This is a recognisable literary form with recognisable conventions, and modern
+This is a recognizable literary form with recognizable conventions, and modern
 readers consistently apply the wrong standard to it. Guild and corporate
 traditional histories of the era routinely traced their crafts to biblical or
 classical founders. A company of smiths might claim Tubal-cain; a company of
@@ -57,7 +57,7 @@ historical realization.
 
 That last move is the hinge of this book. In the Old Charges, geometry is primary
 and the Temple is a station. In Anderson, **the Temple becomes the place where
-geometry was most fully expressed** — and therefore the natural centre of a craft
+geometry was most fully expressed** — and therefore the natural center of a craft
 that understands itself as geometry's inheritor.
 
 ---
@@ -79,7 +79,7 @@ intended the resemblance as retrojection or as recognition is not recoverable fr
 the text. The effect is the same either way: a reader in 1723 encountering both
 descriptions could hardly fail to see one in the other.
 
-**He placed it at the centre of a chain that leads to the reader.** This is the
+**He placed it at the center of a chain that leads to the reader.** This is the
 decisive rhetorical act. The Temple is not merely described; it is described as
 *ours*.
 

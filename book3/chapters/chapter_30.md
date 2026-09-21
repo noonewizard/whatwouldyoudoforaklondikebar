@@ -45,7 +45,7 @@ That function does not require the script to be unreadable. It requires it to be
 *visibly other*, which is a much lower bar and which these alphabets clear
 comfortably. A seal, an amulet, a talisman inscribed in angelic characters is
 doing the work a gothic typeface does on a legal document, or Latin on a
-memorial — signalling register rather than withholding content.
+memorial — signaling register rather than withholding content.
 
 **And appropriateness.** If angels have a script, then writing intended for angelic
 attention should be in it. The logic is entirely internal to the system and it is
@@ -138,7 +138,7 @@ alphabetic, syllabic or logographic.
 **Deciphering one is a major intellectual achievement.** Ventris on Linear B took
 years and required a statistical approach, a guess about the underlying language
 that most experts thought wrong, and a confirming inscription that arrived
-afterwards.
+afterward.
 
 **Now consider Malachim.** Twenty-two or twenty-six signs, one-to-one with a known
 alphabet, written left to right or right to left according to the underlying
@@ -203,7 +203,7 @@ divine authority, prescribe operations, claim results, and write in scripts that
 announce their own category.
 
 **Masonry does none of this.** Its word is a credential. Its ritual has no operator
-and claims no effect in the world. Its cipher is a labelling device on a
+and claims no effect in the world. Its cipher is a labeling device on a
 gravestone. Where its symbolism resembles magical symbolism, the resemblance is at
 the level of ceremonial form — preparation, prescription, boundary, orientation —
 which is the entailed repertoire of ceremony as such and shared by every tradition

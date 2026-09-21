@@ -3,13 +3,13 @@
 
 On a first-degree tracing board there is a star.
 
-It is usually five-pointed, usually in the centre or above, usually radiant. It is called the
+It is usually five-pointed, usually in the center or above, usually radiant. It is called the
 Blazing Star, and it is among the most prominent images in Masonic visual culture.
 
 The Craft's own sources cannot agree on what it means.
 
 It has been explained as Providence; as the sun; as the star that guided the Magi; as the
-glory at the centre; as prudence; as the Deity. Different eighteenth- and nineteenth-century
+glory at the center; as prudence; as the Deity. Different eighteenth- and nineteenth-century
 authorities give different answers, and several give more than one.[^1]
 
 That inconsistency is not a defect in the record. It is the evidence, and this chapter is
@@ -39,7 +39,7 @@ it, so nobody invented a rival.
 **Anchored symbols produce agreement. Unanchored symbols produce literature.**
 
 By that test the Blazing Star arrived as a decorative or compositional element — stars are
-what one puts in the upper part of an emblematic design — and acquired meanings afterwards,
+what one puts in the upper part of an emblematic design — and acquired meanings afterward,
 in the ordinary way.
 
 ---
@@ -84,7 +84,7 @@ The Blazing Star is usually, though not invariably, drawn with five points, and 
 five-pointed star is also the form of the pentagram used in ceremonial magic. The inference
 drawn from this is immediate and appears in book after book.
 
-It should not be drawn, for three reasons that are worth setting out because they generalise.
+It should not be drawn, for three reasons that are worth setting out because they generalize.
 
 **The form is not distinctive.** A five-pointed star is among the small number of shapes
 producible by an untrained hand in a single continuous stroke, and it appears independently
@@ -120,7 +120,7 @@ Western culture so completely that it is now impossible to see the figure withou
 
 This matters for Freemasonry in a specific way. The Blazing Star was in Masonic use for more
 than a century before Lévi wrote, with the various vague Providential meanings listed above,
-and no orientation doctrine whatever. The pentagram reading arrives afterwards and reaches
+and no orientation doctrine whatever. The pentagram reading arrives afterward and reaches
 Masonry principally through Albert Pike, who took a great deal from Lévi without attribution
 and whose *Morals and Dogma* of 1871 was given to Scottish Rite initiates for a century.
 

@@ -67,12 +67,12 @@ Without the check it would have gone into the book, and a reader would have had 
 know the correct figure already to catch it.
 
 And the failure mode is **general**. A procedure that silently skips characters it
-does not recognise will produce confident wrong results, and this is close to the
+does not recognize will produce confident wrong results, and this is close to the
 standard failure in the literature this book examines. Published gematria claims
 depend on decisions about final forms, spelling and system, and most publications do
 not state them.
 
-The corrected routine normalises final forms to their medial equivalents.
+The corrected routine normalizes final forms to their medial equivalents.
 
 ---
 
@@ -133,7 +133,7 @@ from somebody having noticed it and said something interesting, and the interest
 part was supplied by the interpreter.
 
 **This is not a debunking of rabbinic gematria.** The tradition operated in a
-homiletic register, under constraints of canon, community and judgement, and did
+homiletic register, under constraints of canon, community and judgment, and did
 not claim to be recovering concealed information. The modern error is the category
 error: treating a device for generating reflection as a device for recovering fact.
 

@@ -66,7 +66,7 @@ three things become visible that could not be seen from inside Freemasonry alone
 
 **Grading is forced.** It appears in Mithraism, the guilds, the military, the professions,
 Masonry and every occult order — and it appears because competence has to be taught in
-sequence and because organisations need internal differentiation. The Neoplatonic cosmology
+sequence and because organizations need internal differentiation. The Neoplatonic cosmology
 of Chapter 29 supplies a *justification* for grading; it does not supply the practice, which
 arises wherever anyone teaches anything difficult.
 
@@ -129,7 +129,7 @@ Incorporation with the apron, the place, the new form of address.
 
 **And the fit is a fit, not a discovery.**
 
-Van Gennep was generalising from ethnographic reports that did not include eighteenth-century
+Van Gennep was generalizing from ethnographic reports that did not include eighteenth-century
 England. Turner built his account on Ndembu material in central Africa. Neither had a London
 tavern in mind. When their schema describes Masonic initiation well, what has been shown is
 that a general pattern accommodates an instance — which is what general patterns are for, and
@@ -192,7 +192,7 @@ The first two make it hard to classify. The third makes it hard to study, becaus
 that probably matters most is the thing no model describes.
 
 Which leaves the question of what a symbol actually *is* — how a piece of metal or a
-geometric figure or a word comes to carry enough weight that people organise their lives
+geometric figure or a word comes to carry enough weight that people organize their lives
 around it.
 
 ---
@@ -219,5 +219,5 @@ VERIFICATION REQUIRED throughout.]**
 position, not as authority; the universalist reading it represents is not supported by the
 current scholarship on the ancient material.
 
-[^5]: On the documented descent of the Masonic degree sequence from guild organisation, see
+[^5]: On the documented descent of the Masonic degree sequence from guild organization, see
 the preceding volume.

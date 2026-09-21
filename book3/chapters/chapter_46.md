@@ -124,7 +124,7 @@ regularity — a stated and sufficient explanation requiring no ancient cult.
 circumambulation is close to universal wherever there is circular ritual movement at
 all. **There are two directions. Half of everything goes one way.**
 
-What the sources support is duller and more useful: the lodge is modelled on a
+What the sources support is duller and more useful: the lodge is modeled on a
 building oriented east to west, the sun's course supplies the natural direction of
 travel in such a building, and a Craft busy identifying itself with order and
 regularity found in that a congenial emblem.
@@ -146,7 +146,7 @@ left without a principal station. Now, is that entailed?
 
 Partly. A room needs stations distributed around it, and three stations in a
 rectangular space will naturally take positions that are not adjacent. But the
-specific exclusion of the north, and its characterisation as dark, is not forced by
+specific exclusion of the north, and its characterization as dark, is not forced by
 anything about rooms.
 
 **The explanation offered in the sources is solar**: the sun never reaches the
@@ -157,7 +157,7 @@ that receives no direct light.
 hemisphere the north face of a building is the one that stays in shadow. Anyone who
 has lived in a house knows which rooms are cold.
 
-Which makes it entailed after all — by the sun's actual behaviour at the latitudes
+Which makes it entailed after all — by the sun's actual behavior at the latitudes
 where the ritual was composed.
 
 **And it generates a testable prediction**, which is the useful part. If the
@@ -179,7 +179,7 @@ astronomy.**
 
 ### The rule, stated for use
 
-Part X's methodological contribution, and it generalises well beyond this subject.
+Part X's methodological contribution, and it generalizes well beyond this subject.
 
 **Before being impressed by a parallel, count the alternatives.**
 

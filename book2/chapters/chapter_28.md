@@ -50,7 +50,7 @@ else in the Western esoteric inheritance does.
 
 **It converts a purpose into a procedure.** A practitioner with an aim — healing, protection,
 an intellectual operation — looks up the corresponding column and finds the hour, the metal,
-the plant, the colour, the name. The table tells him what to assemble. Without it he would
+the plant, the color, the name. The table tells him what to assemble. Without it he would
 have to invent, and invention has no authority.
 
 **It makes rituals composable.** Because every element is indexed to the same structure, a
@@ -60,7 +60,7 @@ matters most, and it is rare. Most ritual traditions transmit *specific* ceremon
 correspondence system transmits a grammar.
 
 **And it is a memory system.** This is the property least often noticed and, I suspect, the
-most historically important. A table organises an enormous quantity of heterogeneous material
+most historically important. A table organizes an enormous quantity of heterogeneous material
 — names, plants, metals, hours, angels — into a small number of columns anchored to figures
 everyone already knows. That is exactly the structure of the classical art of memory, and it
 is why the material survived: it was storable.
@@ -72,7 +72,7 @@ is why the material survived: it was storable.
 The preceding volume established the transmission and I will not re-argue it: Agrippa
 drafted around 1510, published in 1533; an English translation appeared in 1651; the work
 remained in the second-hand trade for two centuries; and in the 1880s it was on the shelves
-of William Wynn Westcott's Hermetic library of two hundred and eighty-six items, catalogued
+of William Wynn Westcott's Hermetic library of two hundred and eighty-six items, catalogd
 by Alison Butler.[^2]
 
 From there it entered the Golden Dawn's system of attributions, and from there Crowley's
@@ -81,7 +81,7 @@ From there it entered the Golden Dawn's system of attributions, and from there C
 **Availability is not transmission**, and the difference matters here in a specific way. The
 same books were equally available to Freemasons for the same two centuries. They did not
 enter Masonic ritual. The exposures of 1723 to 1762 contain no correspondences, no planetary
-hours, no angelic names, no metals, no colours.
+hours, no angelic names, no metals, no colors.
 
 Two traditions, one library, and only one of them took the tables.
 
@@ -180,7 +180,7 @@ depend on the observation that instruments of measurement do not consult the per
 measured — which remains true, and will go on being true.
 
 The Craft built its one correspondence system out of the only material that could not be
-falsified: the behaviour of a carpenter's square.
+falsified: the behavior of a carpenter's square.
 
 ---
 
@@ -194,11 +194,11 @@ And the tool's real achievement is worth stating without condescension, because 
 cosmology's falsity has tended to obscure it.
 
 Somebody, working across fifteen centuries, built a system in which every element of a vast
-inherited symbolic vocabulary — gods, plants, metals, hours, numbers, letters, colours,
+inherited symbolic vocabulary — gods, plants, metals, hours, numbers, letters, colors,
 cards — could be located on a single structure and combined with any other element with
 guaranteed consistency.
 
-That is a serious intellectual artefact. It organises more material than any other structure
+That is a serious intellectual artefact. It organizes more material than any other structure
 in Western esotericism, it is learnable, it is generative, and it has been in continuous
 practical use for five hundred years.
 

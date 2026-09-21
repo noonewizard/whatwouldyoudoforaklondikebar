@@ -36,7 +36,7 @@ Worse: the gap in the evidence is shaped exactly like the thing being looked for
 are asking whether Freemasonry preserved an ancient teaching, and the answer would by
 hypothesis be invisible, then the invisibility of the answer proves nothing at all.
 
-This is a real methodological problem. It is not solved by asserting scepticism. It is
+This is a real methodological problem. It is not solved by asserting skepticism. It is
 solved by asking better questions.
 
 ---
@@ -60,7 +60,7 @@ and never did.
 **2. Chronology. Does the timeline permit it?**
 
 The cheapest test available, and the most frequently skipped. A claim requiring an
-organisation to have influenced something that happened before the organisation existed is
+organization to have influenced something that happened before the organization existed is
 finished, and no amount of resonance repairs it.
 
 **3. Transmission. Can you name the route?**
@@ -75,7 +75,7 @@ entered a ritual.
 
 The corrective method here is one I take from Alison Butler, who applied it to the Golden
 Dawn. Rather than asking what ideas were in the air, she reconstructed what books were
-physically on the shelves — the catalogued contents of the founders' libraries.[^2] That is
+physically on the shelves — the catalogd contents of the founders' libraries.[^2] That is
 transmission evidence. Ideas in the air are not.
 
 **4. Intertextuality. Does the later source use the earlier one?**
@@ -83,12 +83,12 @@ transmission evidence. Ideas in the air are not.
 Resemblance is weak. Quotation is strong. Paraphrase is strong. Shared idiosyncratic error
 is decisive: if two texts make the same odd mistake, one copied the other.
 
-**5. Institutional continuity. Did the organisation persist?**
+**5. Institutional continuity. Did the organization persist?**
 
-Organisations that exist do things. They collect dues, keep lists, rent rooms, quarrel,
+Organizations that exist do things. They collect dues, keep lists, rent rooms, quarrel,
 split, and leave paper. A claim of unbroken institutional descent across centuries with no
-dues, no lists and no quarrels is a claim that an organisation existed in a manner unlike
-every other organisation in recorded history.
+dues, no lists and no quarrels is a claim that an organization existed in a manner unlike
+every other organization in recorded history.
 
 **6. Anachronism. Does the claim contain something that could not yet exist?**
 
@@ -106,7 +106,7 @@ Now back to the difficulty. If secrecy produces silence, how can any of this wor
 
 Three reasons, and they are sufficient.
 
-**Secrecy leaks, and it leaks in predictable directions.** Organisations keep minutes.
+**Secrecy leaks, and it leaks in predictable directions.** Organizations keep minutes.
 Rituals must be taught, which means they must be transmitted, which means they exist
 somewhere recoverable. Disgruntled members publish. Governments raid. Widows sell papers.
 

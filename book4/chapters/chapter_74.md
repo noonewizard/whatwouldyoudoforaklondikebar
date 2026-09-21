@@ -102,7 +102,7 @@ precisely, and can explain.
 Gematria has not revealed a hidden link between Solomon and peace. It has
 converted a known etymology into a number and presented the number as news. This
 is the commonest form of gematria "result" in the popular literature, and
-recognising it requires no mathematics — only the willingness to ask whether the
+recognizing it requires no mathematics — only the willingness to ask whether the
 words are related before treating the numbers as a discovery.
 
 ---
@@ -125,7 +125,7 @@ silently dropped instead, the Holy of Holies would have been transformed as a
 single fused string and the error would have propagated into a printed table.
 
 Every computational claim in this book is exposed to that class of failure. The
-only defence is to publish the code, which this book does.
+only defense is to publish the code, which this book does.
 
 ---
 

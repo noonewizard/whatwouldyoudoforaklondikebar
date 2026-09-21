@@ -57,7 +57,7 @@ revelation.
 
 Villalpando's engravings accordingly render the Temple as a monumental classical
 building: colonnaded courts, entablatures, orders correctly deployed, the whole
-thing recognisably of a piece with the finest architecture of sixteenth-century
+thing recognizably of a piece with the finest architecture of sixteenth-century
 Rome.
 
 ---

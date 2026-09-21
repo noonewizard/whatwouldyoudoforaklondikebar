@@ -37,7 +37,7 @@ indicates that Clement V absolved the leadership of heresy while suppressing the
 reasons of political expediency.[^1]
 
 Their suppression was total and well documented. There is no medieval evidence of a
-surviving Templar organisation.
+surviving Templar organization.
 
 Between 1314 and the 1730s, nothing in Freemasonry refers to them. The Old Charges do not
 mention them. The Scottish records do not mention them. The catechisms do not mention them.
@@ -81,7 +81,7 @@ Von Hund's problem was structural and it could not be solved.
 The whole rite rested on an authority he could not produce. He had no charter. He could name
 no living superior. The men who had allegedly received him in Paris were dead or
 unidentifiable, and when pressed he could not give a coherent account. He appears to have
-believed his own story — his behaviour over thirty years is very hard to explain otherwise,
+believed his own story — his behavior over thirty years is very hard to explain otherwise,
 and he spent his own fortune on the rite — but belief is not evidence, and by the 1770s his
 followers were asking increasingly hard questions.
 
@@ -116,8 +116,8 @@ Scottish Rite.[^2]
 Let me state what happened there as plainly as I can.
 
 **A body of eighteenth-century European aristocrats, who had every reason to want an
-ancient chivalric pedigree, who had built an international organisation on one, and who had
-staked their honour on it, examined the evidence and concluded that it was not there.**
+ancient chivalric pedigree, who had built an international organization on one, and who had
+staked their honor on it, examined the evidence and concluded that it was not there.**
 
 Then they said so, and reorganised accordingly.
 
@@ -156,9 +156,9 @@ and enough people believed him for long enough to build things.
 
 This is the circularity identified at the end of the last chapter, operating at full scale
 and across centuries. It is the single most common mechanism of false historical belief in
-this entire subject, and once you have seen it here you will recognise it in the
+this entire subject, and once you have seen it here you will recognize it in the
 Rosicrucian orders, in the Golden Dawn's German warrant, and in a dozen twentieth-century
-organisations claiming Egyptian, Essene or Atlantean descent.
+organizations claiming Egyptian, Essene or Atlantean descent.
 
 ---
 
@@ -175,7 +175,7 @@ wide agreement, among the most affecting rituals ever written.
 Does it derive from Rosicrucianism?
 
 The name says so. The evidence does not. Chapter 12 established that there was no
-Rosicrucian organisation in the seventeenth century to descend from, and the Rose-Croix
+Rosicrucian organization in the seventeenth century to descend from, and the Rose-Croix
 degrees show no textual dependence on the manifestos. What they show is a *Christian
 recovery*: an attempt by French Catholic Masons to take back the confessional content that
 Anderson's formula had removed, using a name that carried mystical prestige.

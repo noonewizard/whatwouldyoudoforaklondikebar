@@ -105,6 +105,6 @@ cryptographic — rests on how the printed literature explains it where it expla
 it at all, which is not often.
 
 A book that has spent this Part insisting on controls and declared tolerances
-cannot then assert a favoured reading of a thin source at E1 because the reading is
+cannot then assert a favored reading of a thin source at E1 because the reading is
 attractive. The honest statement is that this is the best available account of a
 practice we know less about than we would like.

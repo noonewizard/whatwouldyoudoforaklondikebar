@@ -75,7 +75,7 @@ to the planets, the days of the week, and the openings of the head.
 and principal organs and functions.
 
 Note that the "seven doubles" reflect a phonological fact about Hebrew — these
-letters have both plosive and fricative realisations — and that resh's inclusion is
+letters have both plosive and fricative realizations — and that resh's inclusion is
 disputed in the manuscript tradition. **A correspondence system built on a
 phonological feature is built on something real**, and the assignments laid over it
 are interpretation.

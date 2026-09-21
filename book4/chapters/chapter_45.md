@@ -40,7 +40,7 @@ Taking them in order.
 The general claim — that what a person repeatedly does alters what they are
 disposed to do — is about as well supported as anything in this territory gets. It
 is the core of virtue ethics from Aristotle onward, and it has a modern research
-literature on habit formation, behavioural consistency, and the situational
+literature on habit formation, behavioral consistency, and the situational
 dependence of conduct.
 
 The modern literature also imposes a serious correction on the classical picture,
@@ -73,7 +73,7 @@ long follow-up, and outcome measures for character that are themselves contested
 What exists instead is a substantial general literature on the effects of
 sustained membership in voluntary associations: on social connection, on civic
 participation, on the wellbeing correlates of regular structured contact with
-other people. That literature is relevant and broadly favourable. It is also
+other people. That literature is relevant and broadly favorable. It is also
 almost entirely silent on whether the *content* of what such organizations teach
 does anything beyond the effect of belonging.
 
@@ -107,7 +107,7 @@ vocabularies do badly, collapsing either into complacency or into shame.
 What cannot be claimed: that the lodge's specific arrangement produces specific
 inner effects; that the proportions of the Temple encode a psychological system;
 that architectural symbolism activates anything in particular. Part X takes up the
-empirical literature on space and behaviour, and it will be considerably more
+empirical literature on space and behavior, and it will be considerably more
 restrained than readers of popular writing on sacred architecture expect.
 
 ### On testimony

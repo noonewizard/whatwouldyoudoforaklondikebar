@@ -13,9 +13,9 @@ That last fact is the chapter's point, and it is routinely lost.
 Three documents, published in Germany within three years of each other.
 
 The *Fama Fraternitatis* (1614) announces a hitherto unknown fraternity founded by
-one Christian Rosenkreutz, who travelled in the East, acquired knowledge, returned
+one Christian Rosenkreutz, who traveled in the East, acquired knowledge, returned
 to Germany, gathered a small brotherhood, and died. The *Confessio Fraternitatis*
-(1615) elaborates the programme. The *Chymische Hochzeit Christiani Rosencreutz*
+(1615) elaborates the program. The *Chymische Hochzeit Christiani Rosencreutz*
 (1616) is an allegorical romance of quite different character.
 
 The *Chymical Wedding* is attributed with reasonable confidence to Johann Valentin
@@ -26,7 +26,7 @@ seriously debated is that **no evidence has ever been found of an actual
 Rosicrucian order existing before the manifestos announced it.** Many people wrote
 seeking admission. Nobody, so far as the record shows, received a reply.
 
-The manifestos are best understood as a programme for universal reformation —
+The manifestos are best understood as a program for universal reformation —
 religious, scientific, and social — issued in a fictional frame at a moment of
 acute European expectation, shortly before the Thirty Years' War.
 
@@ -34,19 +34,19 @@ acute European expectation, shortly before the Thirty Years' War.
 
 ### The vault
 
-The *Fama*'s architectural centrepiece is the tomb of Christian Rosenkreutz,
+The *Fama*'s architectural centerpiece is the tomb of Christian Rosenkreutz,
 discovered by the brethren one hundred and twenty years after his death, behind a
 door bearing an inscription announcing that it would open after that interval.
 
 Its described features are specific. It is a vault of seven sides. It is lit,
-without sun or candle, by an artificial sun in the ceiling. At its centre stands a
+without sun or candle, by an artificial sun in the ceiling. At its center stands a
 circular altar. The walls are divided into panels, each carrying figures and
 sentences. Beneath the altar lies the uncorrupted body of the founder, with books.
 
 Several things should be noticed about this description.
 
 **It is heptagonal, not rectilinear.** The Temple's plan is a long rectangle
-divided into three. The vault is a seven-sided chamber with a centre. These are
+divided into three. The vault is a seven-sided chamber with a center. These are
 different architectural imaginations, and the difference is not incidental: one is
 a plan of progression, the other a plan of enclosure.
 
@@ -63,7 +63,7 @@ framework. The Temple of Solomon is not their governing image.
 
 ---
 
-### What happened afterwards
+### What happened afterward
 
 The vault's architecture entered esoteric practice by a route that can be traced.
 

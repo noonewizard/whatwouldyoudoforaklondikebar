@@ -61,7 +61,7 @@ This book tested it directly, on point sets constructed to contain nothing.
 
 **Method, fixed before running.** Generate a jittered rectangular lattice — a plain
 street grid with nothing in it by construction. Search random hexagram placements:
-centre, radius, and rotation chosen at random, with each of the six vertices
+center, radius, and rotation chosen at random, with each of the six vertices
 required to match a distinct lattice point within a fixed capture radius. Report
 the best fit found.
 

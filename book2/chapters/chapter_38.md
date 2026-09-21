@@ -137,7 +137,7 @@ The gematria test was arithmetic. Here is the same lesson in two dimensions, bec
 geometric version of this error is commoner than the numerical one and harder to see through.
 
 The procedure for discovering sacred geometry in a building goes like this. Obtain a plan.
-Identify significant points — corners, column centres, door thresholds, altar position. Draw
+Identify significant points — corners, column centers, door thresholds, altar position. Draw
 lines between some of them. Observe that certain of the lines meet at angles close to
 seventy-two degrees, or that certain distances stand close to the golden ratio, or that a
 pentagram can be fitted so that its vertices fall near five of the points.
@@ -145,7 +145,7 @@ pentagram can be fitted so that its vertices fall near five of the points.
 Every step in that procedure is a decision, and none of the decisions is constrained.
 
 **Which points count as significant?** A medieval church offers hundreds — every pier, every
-respond, every boss, the corners of every bay, the centre of every window. A modern
+respond, every boss, the corners of every bay, the center of every window. A modern
 supermarket car park offers just as many: light standards, drainage gullies, the corners of
 the painted bays, the entrance gates.
 
@@ -167,7 +167,7 @@ it resembles a surveyed plan rather than a perfect abstraction. Nothing was desi
 It is a grid.
 
 I then searched for a regular pentagram whose five vertices fall on lattice points. Four
-hundred thousand random placements of centre, radius and rotation were tried, and the best
+hundred thousand random placements of center, radius and rotation were tried, and the best
 was refined by local optimisation.
 
 **Result: a pentagram whose five vertices land on five lattice points with a maximum
@@ -204,7 +204,7 @@ accommodate a result, you have stopped testing and started fitting.
 CHIRAM and HURAM, and reports only the spelling that worked, has made three attempts and
 reported one. Keep a log. The log will be embarrassing, which is what it is for.
 
-**Build the control first.** Not afterwards, when the exciting result is already in hand and
+**Build the control first.** Not afterward, when the exciting result is already in hand and
 the control has become an obstacle to it. Choose the control corpus before you know what the
 real corpus will yield. I chose the root vegetables before computing a single value, and I
 recommend the practice precisely because I did not enjoy the outcome.
@@ -237,13 +237,13 @@ Hebrew Bible itself — Sheshach for Babel at Jeremiah 25:26 — and is a genuin
 Jewish exegesis.
 
 **Gematria, notarikon and temurah are real**, with centuries of learned practice behind them,
-operating within a tradition that had a canon, a community and rabbinic judgement to
+operating within a tradition that had a canon, a community and rabbinic judgment to
 constrain results.
 
 **And there is no evidence whatever that any of these carried Masonic doctrine.** The Craft's
 secrecy was oral and performative, not cryptographic. The exposures show plain language. A
 tradition that could not keep its catechism out of the newspapers for seven years was not
-running an encryption programme.
+running an encryption program.
 
 **The rule: the reality of a technique is not evidence for any particular result obtained
 with it.** Hammers exist. That does not make every hole a hammer-blow.
@@ -301,7 +301,7 @@ and Joseph Dan, *Kabbalah: A Very Short Introduction* (New York: Oxford Universi
 
 [^4a]: **The pentagram fitting described above was performed by the author.** A 12 × 8
 lattice of 96 points with uniform jitter of ±0.03 units was generated; 400,000 random
-placements of a regular pentagram (centre, circumradius, rotation) were tested for vertices
+placements of a regular pentagram (center, circumradius, rotation) were tested for vertices
 falling within 0.5 units of a lattice point; the best was refined by local optimisation. The
 reported figure — maximum vertex deviation 0.20 units, 5.7 per cent of the circumradius — is
 the output of that procedure. The procedure and the tolerance were fixed before the search
@@ -311,7 +311,7 @@ was run.
 English gematria (A=1 … Z=26) on the two twenty-word sets listed in the text. The complete
 figures for both sets are given in Appendix F so that the reader may check them.** The
 control-set words were selected for their lack of symbolic content before the calculation
-was run, not afterwards.
+was run, not afterward.
 
 [^5]: James Anderson, *The Constitutions of the Free-Masons* (London, 1723). See Chapter 18,
 where the verification status of the passage is set out.

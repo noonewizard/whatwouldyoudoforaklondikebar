@@ -7,7 +7,7 @@ shape of the gap has been filled, repeatedly, with whatever the filler wanted to
 Scotland has lodge minutes from 1598. England has essentially nothing comparable until the
 1720s. There are a handful of references — a diary entry here, a company record there, a
 naturalist's paragraph — and then a silence of decades, and then, quite suddenly, a fully
-organised Grand Lodge with a printed constitution.
+organized Grand Lodge with a printed constitution.
 
 What England does have, in abundance, is manuscripts of a different kind.
 
@@ -33,7 +33,7 @@ It begins before the Flood. The children of Lamech discover the sciences, and, k
 the world will be destroyed by either fire or water, inscribe them on two pillars — one of
 marble that will not burn, one of brick that will not sink — so that the knowledge will
 survive. After the Flood the pillars are found. Geometry passes to Egypt, where Abraham
-teaches it; Euclid systematises it and instructs the sons of Egyptian nobility in the
+teaches it; Euclid systematizes it and instructs the sons of Egyptian nobility in the
 mason's craft. The craft passes to Israel, where Solomon employs eighty thousand masons on
 the Temple. Thence to France, and thence, with St Alban and later with King Athelstan, to
 England.
@@ -71,7 +71,7 @@ a lodge at Masons' Hall in London in March 1682. Ashmole is our best English wit
 tells us nothing about content.
 
 **The company records.** The London Company of Masons — the livery company, a trade
-organisation of a different kind — has references from the 1620s onward to something called
+organization of a different kind — has references from the 1620s onward to something called
 the Accepcion or Acception: a body within or alongside the Company into which men could be
 "accepted," including men who were not members of the Company at all. Payments are
 recorded. It cost more to be accepted if you were not a member.[^3] This is thin evidence,
@@ -83,7 +83,7 @@ paragraphs to what he called the Society of Free-Masons. He reports that the cus
 spread more or less all over the nation; that persons of the most eminent quality do not
 disdain to be of the fellowship; that admission involves a meeting of at least five or six
 of the ancients of the Order, a collation, gloves given to the candidate and to his wife,
-and the communication of certain secret signs by which members recognise one another
+and the communication of certain secret signs by which members recognize one another
 anywhere. He also reports that they have a written history of the craft — he clearly had
 seen a copy of the Old Charges — and he thought the history was nonsense, saying so at
 some length.[^4]
@@ -97,7 +97,7 @@ Free-Masons was to have a convention at St Paul's, and mentions Sir Christopher 
 those to be adopted.[^5]
 
 That is the English seventeenth century. Two diary entries, some company accounts, a
-sceptical naturalist and an antiquary's note.
+skeptical naturalist and an antiquary's note.
 
 ---
 
@@ -154,7 +154,7 @@ across Europe within twenty years.
 Something happened in London between about 1716 and 1723.
 
 We know less about what it was than almost anyone assumes, and the reason is that our
-principal source for it is a man writing fifteen years afterwards with an institutional
+principal source for it is a man writing fifteen years afterward with an institutional
 interest in the answer.
 
 ---

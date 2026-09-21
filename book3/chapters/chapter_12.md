@@ -138,7 +138,7 @@ several more of those coming.
 
 ### What the Name probably sounded like, and how confident anyone can be
 
-The scholarly reconstruction generally favours something like *Yahweh*, and the
+The scholarly reconstruction generally favors something like *Yahweh*, and the
 reasoning is worth setting out because it shows the limits.
 
 The evidence is indirect and of three kinds. **Transcriptions into other
@@ -152,7 +152,7 @@ causative or simple imperfect.
 
 Put together, the reconstruction is reasonable and widely held.
 
-**It is also an inference, and it should be labelled as one.** Nobody has heard the
+**It is also an inference, and it should be labeled as one.** Nobody has heard the
 word pronounced by a native speaker in a living liturgical tradition. The Greek
 transcriptions are second-hand reports by writers with their own agendas, working
 across a phonological gap. The theophoric evidence gives a truncated form, not the
@@ -200,7 +200,7 @@ Israel Yeivin, *Introduction to the Tiberian Masorah* (Missoula: Scholars Press,
 1980).
 
 [^2]: Petrus Galatinus, *De arcanis catholicae veritatis* (Ortona, 1518). The
-attribution of the form's popularisation to Galatinus is conventional; earlier
+attribution of the form's popularization to Galatinus is conventional; earlier
 occurrences have been argued for, and the priority question is not settled.
 **[SOURCE VERIFICATION REQUIRED — earliest attested occurrence.]**
 

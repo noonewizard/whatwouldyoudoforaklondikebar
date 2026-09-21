@@ -43,7 +43,7 @@ vocabulary into traditions with no Jewish or Christian reference at all.
 **Popular culture.** The Temple, Masonic secrecy, and hidden knowledge became a
 durable commercial genre. Dan Brown's *The Lost Symbol* (2009) is set substantially
 in the House of the Temple in Washington — the Scottish Rite headquarters that
-Chapter 65 noted is modelled on a Greek tomb.
+Chapter 65 noted is modeled on a Greek tomb.
 
 ---
 

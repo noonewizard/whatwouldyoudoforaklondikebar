@@ -36,7 +36,7 @@ Not looking for a hidden geometrical code, and not, on any evidence this book ha
 found, looking for anything esoteric in the modern sense.
 
 Newton's Temple work serves two purposes that are continuous with the rest of his
-non-scientific labour.
+non-scientific labor.
 
 **Chronology.** Newton believed the received chronologies of antiquity were wrong
 and had inflated the age of pagan civilizations at the expense of the biblical

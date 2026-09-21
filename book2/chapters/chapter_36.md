@@ -80,7 +80,7 @@ Chapter 9 gave the mechanism and it belongs here in its proper place.
 
 **The Masonic secret is not a fact. It is a two-person procedure.**
 
-A catechism is half questions. A man alone who has memorised the whole thing possesses the
+A catechism is half questions. A man alone who has memorized the whole thing possesses the
 material and cannot perform it, in the way that a person who knows both parts of a duet still
 cannot sing a duet. To produce the knowledge, two people must agree to produce it together,
 each holding up his half, in the right order.
@@ -107,9 +107,9 @@ towns that held them. It processed in the streets in full regalia. It laid the c
 of public buildings in public, with the governor watching and the newspapers reporting. It
 buried its members in uniform, along the high street, in front of everyone.
 
-An organisation conducting a covert operation does not do these things.
+An organization conducting a covert operation does not do these things.
 
-And this is not a defence of Freemasonry so much as a description of what kind of object it
+And this is not a defense of Freemasonry so much as a description of what kind of object it
 is. **The Craft was never hiding its existence, its membership, its premises, its officers,
 its finances or its purposes.** All of that was public and much of it was ostentatious. What
 it withheld was an hour's ceremony and a set of recognition tokens — and it withheld those
@@ -148,20 +148,20 @@ The argument of this chapter is that Masonic secrecy works precisely because the
 content is slight, and the argument is strong enough that it should be tested where it
 predicts failure.
 
-If a thin secret is a functional secret, then organisations whose secrets are *thick* — where
+If a thin secret is a functional secret, then organizations whose secrets are *thick* — where
 real, consequential, checkable information is withheld — should behave differently, and they
 do.
 
 **A thick secret can be destroyed.** When the substance is genuine information, disclosure
 ends it. Intelligence services, commercial laboratories and criminal conspiracies all
-organise around this fact, and their security practices are correspondingly expensive:
+organize around this fact, and their security practices are correspondingly expensive:
 compartmentalisation, vetting, surveillance of members, sanctions that are real rather than
 symbolic.
 
 **Masonry does none of this**, and has never needed to. Its penalties are ceremonial and were
-recognised as such by the courts and by the members. Its membership is, in most jurisdictions
+recognized as such by the courts and by the members. Its membership is, in most jurisdictions
 and most periods, a matter of public record — regalia is worn in processions, lodge buildings
-are signposted, obituaries name membership. An organisation with something to lose by
+are signposted, obituaries name membership. An organization with something to lose by
 disclosure does not advertise its membership on gravestones.
 
 **And the historical test has been run.** Masonic ritual was published in 1730, repeatedly
@@ -191,13 +191,13 @@ That Diana Vaughan was an invention and her creator knew it. That the Cipher Man
 were compiled in the nineteenth century. That the tarot-Kabbalah system was assembled in the
 1850s.
 
-Every one of those concealments was practised by somebody claiming *to reveal* Masonic
+Every one of those concealments was practiced by somebody claiming *to reveal* Masonic
 secrets, or claiming an authority *derived* from Masonic structures.
 
 And every one was eventually exposed by ordinary documentary research — by people asking
 where the letter was, what the date was, who had held the manuscript.
 
-**The organisation accused of hiding everything hid very little, and did it badly. The people
+**The organization accused of hiding everything hid very little, and did it badly. The people
 accusing it, and the people claiming to inherit from it, hid a great deal, and did it well.**
 
 That asymmetry is the most useful thing a reader can take from this book into any other

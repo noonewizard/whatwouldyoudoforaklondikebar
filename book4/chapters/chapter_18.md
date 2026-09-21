@@ -54,7 +54,7 @@ inscription. The Temple is the setting.
 
 ### What the Ark contained
 
-The one place where writing and the building meet directly, and it is the centre.
+The one place where writing and the building meet directly, and it is the center.
 
 The Holy of Holies contained the Ark, and the Ark contained — on the account of
 1 Kings 8:9 — the two tablets of stone.

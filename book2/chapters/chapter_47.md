@@ -144,7 +144,7 @@ been disposed to stay anyway — but it means the causal arrow is not obviously 
 The honest formulation is that career and commitment are mutually reinforcing, which is
 harder to study than either alone and is exactly why nobody has.
 
-**Second: this is not distinctively ritual.** Any organisation with a graded office
+**Second: this is not distinctively ritual.** Any organization with a graded office
 structure — a choir, a regiment, a trade union — produces long-serving members who know the
 procedures from every side, and nobody calls that a technology of transformation. Why should
 the lodge be different?
@@ -164,7 +164,7 @@ findings in the psychology this book has used. Vivid, singular, emotionally mark
 are massively over-represented in autobiographical recall relative to their causal weight.
 A gradual thirty-year process has no retrieval cue attached to it. The night has one. Asked
 what Masonry did to him, a man reports the memory that comes to mind, which is the memory
-that was encoded to be memorable. That his testimony centres on the evening is evidence
+that was encoded to be memorable. That his testimony centers on the evening is evidence
 about memory, not about mechanism.
 
 ---
@@ -188,7 +188,7 @@ Does attendance density in years two to five predict retention at year twenty? D
 early office predict it better than attendance alone? Is there a threshold — an office, a
 year, a number of ceremonies witnessed — after which lapse becomes rare? Do members who
 reach the chair differ in their pre-chair records from those who do not, or does the
-difference appear only afterwards? Is charitable subscription, which the accounts also
+difference appear only afterward? Is charitable subscription, which the accounts also
 record, related to career stage?
 
 None of these requires a theory of ritual efficacy to ask. They are questions about

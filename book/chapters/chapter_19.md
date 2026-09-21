@@ -13,7 +13,7 @@ not entirely agree.
 
 From that, Western Europe built a thousand years of architecture, a theory of proportion,
 a political vocabulary, and the central symbol of the world's largest fraternal
-organisation.
+organization.
 
 The Temple is the most productive building in history, and it is not there.
 
@@ -142,11 +142,11 @@ available only as description, which means it is available only as imagination.
 design not of one's own making — which is to say, for a life.
 
 **It was built by a workforce.** The biblical account gives numbers: tens of thousands of
-labourers, hewers, bearers of burdens, overseers. It is a *collective* achievement with a
-division of labour and a hierarchy of skill — which maps onto a lodge of apprentices,
+laborers, hewers, bearers of burdens, overseers. It is a *collective* achievement with a
+division of labor and a hierarchy of skill — which maps onto a lodge of apprentices,
 fellows and masters with no adjustment at all.
 
-**It is sacred without being sectarian.** Jews, Christians and Muslims all recognise it.
+**It is sacred without being sectarian.** Jews, Christians and Muslims all recognize it.
 Anderson's formula requires exactly this: a religious symbol available to everyone in the
 room. There is no other building in the world that qualifies.
 
@@ -157,7 +157,7 @@ God. That metaphor was seventeen centuries old when the Craft picked it up. It w
 esoteric secret. It was in every sermon.
 
 Put those five properties together and you have the ideal symbolic object: universally
-recognised, infinitely interpretable, incapable of refutation, and already pre-loaded with
+recognized, infinitely interpretable, incapable of refutation, and already pre-loaded with
 the meaning *you are the building*.
 
 The eighteenth century did not select the Temple because it possessed hidden knowledge of

@@ -11,8 +11,8 @@ Picture the material not as a family tree but as an hourglass.
 
 **The upper chamber** holds everything before the lodge. The Greek Hermetica of the second
 and third centuries, mistaken for Egyptian scripture from 1471 until Casaubon corrected the
-record in 1614 and for two centuries afterwards. Neoplatonic emanation and Iamblichan
-theurgy. Ficino's astral medicine and Pico's concordance. Agrippa's three-storey synthesis
+record in 1614 and for two centuries afterward. Neoplatonic emanation and Iamblichan
+theurgy. Ficino's astral medicine and Pico's concordance. Agrippa's three-story synthesis
 of natural, celestial and ceremonial magic. Christian Cabala, at one remove from the Jewish
 tradition and heading for three more. Alchemy, in the laboratory and in allegory. The
 Rosicrucian manifestos, announcing a brotherhood that did not exist. Böhme's inward light.
@@ -40,7 +40,7 @@ legend about a murdered architect.
 lives.
 
 In those decades Freemasonry became the dominant European form for initiatory association:
-graded, secret, ritualised, theatrical, portable — and, decisively, *empty of fixed
+graded, secret, ritualized, theatrical, portable — and, decisively, *empty of fixed
 content*. A degree is a container with a shape and no cargo.
 
 And from the 1740s, the esoteric currents began to be poured into it. Not carried down
@@ -113,7 +113,7 @@ short and can be taken in complete sincerity.
 **And because a graded hierarchy requires a top.** If the Chiefs are three men who wrote the
 rituals last year, the grades confer nothing. Somebody must be above them. Von Hund needed
 Unknown Superiors; Blavatsky needed Mahatmas; Westcott needed Fräulein Sprengel; Mathers
-needed Secret Chiefs. None could produce one, and every one of those organisations broke on
+needed Secret Chiefs. None could produce one, and every one of those organizations broke on
 the demand.
 
 ---
@@ -124,7 +124,7 @@ The third thread of this book was a word, and the answer has been accumulating s
 Chapter 2.
 
 *Magic* did not stay still. In Iamblichus it names what its practitioner insists is not
-magic. In Ficino it is medicine. In Agrippa it is philosophy in three storeys. By 1700 it
+magic. In Ficino it is medicine. In Agrippa it is philosophy in three stories. By 1700 it
 is chiefly a term for what respectable knowledge is not. And then in 1854 an ex-seminarian
 socialist picks it up and gives it a meaning it had never quite had: an inner science of
 will, imagination and symbol, directed at the transformation of the operator.

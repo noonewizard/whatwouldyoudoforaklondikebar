@@ -39,7 +39,7 @@ toward the holiest place. In the lodge, the place of greatest dignity is the eas
 and the candidate approaches it from the west.
 
 This is not a small discrepancy, and it is not usually noticed. If the lodge were
-modelled on the Temple's plan, the Master would sit in the West.
+modeled on the Temple's plan, the Master would sit in the West.
 
 ---
 

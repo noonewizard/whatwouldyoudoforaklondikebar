@@ -44,10 +44,10 @@ to devise any device.
 So: a different tribe, a different name-form, and a craftsman who has grown from a
 bronze specialist into a universal artificer.
 
-**This book reports the discrepancy rather than harmonising it.** Harmonisations
+**This book reports the discrepancy rather than harmonizing it.** Harmonisations
 exist — a mother of Danite origin married into Naphtali, or the reverse — and they
 are possible. They are also exactly the kind of move this book's method is
-suspicious of, since a harmonisation that cannot be tested is a hypothesis dressed
+suspicious of, since a harmonization that cannot be tested is a hypothesis dressed
 as a reconciliation.
 
 **The more economical reading is that Chronicles is doing something.** Its author,
@@ -72,12 +72,12 @@ Chronicles gives **חורם אבי** — *Huram abi*. The second element is the 
 Hebrew word *av*, "father," with a first-person singular possessive suffix: **"my
 father."**
 
-In context it functions as **a title of honour or respect**, a recognised usage in
-which a senior craftsman, counsellor or official is called "father" by a superior
+In context it functions as **a title of honor or respect**, a recognized usage in
+which a senior craftsman, counselor or official is called "father" by a superior
 or a community. Joseph is called a father to Pharaoh; the usage is not unusual.[^4]
 
 **So "Huram-abi" most economically reads as "Huram my master" or "Huram my
-counsellor" — a designation, not a surname.**
+counselor" — a designation, not a surname.**
 
 2 Chronicles 4:16 gives a related form, *Huram aviv*, "Huram his father," which
 points the same way.

@@ -17,7 +17,7 @@ answer different questions.
 | **E** | Non-peer-reviewed but serious secondary work | Older Masonic historiography; popular scholarly synthesis |
 | **F** | Polemic, hearsay, anonymous, promotional, or self-published | Barruel; the Taxil material; internet claim literature |
 
-Level F material is analysed in this book **as cultural evidence** — evidence of
+Level F material is analyzed in this book **as cultural evidence** — evidence of
 what people believe and circulate — and is never treated as authoritative about
 the events it describes. Chapters 77 and 78 do exactly this.
 

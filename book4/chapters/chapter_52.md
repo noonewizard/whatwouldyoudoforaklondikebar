@@ -3,7 +3,7 @@
 # CHAPTER FIFTY-TWO
 ## The Temple in Jewish Mysticism
 
-There is a genuine Jewish mystical tradition centred on the Temple. It is old, it
+There is a genuine Jewish mystical tradition centerd on the Temple. It is old, it
 is textually documented, it has been studied by serious scholars for a century, and
 it has nothing to do with Freemasonry.
 
@@ -104,7 +104,7 @@ disrespect as well as a historical error.
 What the comparison legitimately yields is a convergence, not a lineage. Two
 traditions, a millennium and a half apart, both organized themselves around a
 destroyed building; both built graded structures with guarded thresholds; both made
-approach to a centre the shape of their central practice. The obvious explanation
+approach to a center the shape of their central practice. The obvious explanation
 is not that one learned from the other. It is that **a destroyed temple is a
 powerful thing to think with, and the same building was available to both.**
 

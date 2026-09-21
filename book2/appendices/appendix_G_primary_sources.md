@@ -35,7 +35,7 @@ attribution of the 47th Proposition **[PAGE VERIFICATION REQUIRED]**.
 
 **Lodge minutes, membership registers, and disciplinary records.**
 *Establish:* attendance, finance, charity, exclusion, lapse. **The only Tier-One evidence
-bearing on whether the ritual had behavioural consequences**, and therefore the most
+bearing on whether the ritual had behavioral consequences**, and therefore the most
 important material in the book for Chapters 44 and 46.
 *Limitation, stated frankly:* this study worked from published transactions and secondary
 summaries of lodge records rather than from archival originals. The argument of Chapter 44

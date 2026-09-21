@@ -87,9 +87,9 @@ well: bounded, sequenced, traversable, stable.
 
 And this is not a modern rediscovery imposed on the past. The art of memory was a
 standard part of rhetorical training from antiquity through the Renaissance, using
-buildings — frequently, explicitly, temples and theatres — as the storage
+buildings — frequently, explicitly, temples and theaters — as the storage
 structure. William Schaw's statutes to the Scottish masons in 1598 and 1599
-reference the art of memory as something masons were expected to practise. This is
+reference the art of memory as something masons were expected to practice. This is
 a documented sixteenth-century link between an organized building trade and a
 technique for storing knowledge in imagined architecture, and it is one of the more
 remarkable facts in this book's evidence.
@@ -105,7 +105,7 @@ Dacher Keltner and Jonathan Haidt proposed in 2003 that awe is elicited by
 perceived vastness together with a need for cognitive accommodation — encountering
 something that does not fit one's existing frames. Subsequent research has
 associated awe experiences with a diminished sense of self, altered time
-perception, and, in some studies, increased prosocial behaviour.
+perception, and, in some studies, increased prosocial behavior.
 
 Vast enclosed spaces are, by that definition, close to purpose-built awe elicitors.
 If any part of the popular claim about sacred architecture is going to be
@@ -114,7 +114,7 @@ vindicated, this is where.
 The honest caveats: the awe literature is young; effect sizes are generally modest;
 several findings come from small samples and laboratory inductions using
 photographs or video rather than buildings; and it belongs, in part, to the same
-methodological neighbourhood as the results Chapter 49 treated cautiously. Rate it
+methodological neighborhood as the results Chapter 49 treated cautiously. Rate it
 **E3 to E4: a real and replicated phenomenon whose specific effects are still being
 established.**
 
@@ -132,7 +132,7 @@ This reframes the whole of the Temple's afterlife. The reason a building that no
 longer exists could carry twenty-five centuries of accumulated meaning is not that
 its proportions encoded anything. It is that a described architecture gives the
 human memory system exactly the scaffold it works best with: named parts, fixed
-relations, a route through them, and a centre.
+relations, a route through them, and a center.
 
 Solomon's Temple is a set of rooms in which a civilization stored things. Courts,
 hall, sanctuary; two pillars, a sea, a stair; an outside, an inside, and an

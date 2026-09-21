@@ -16,7 +16,7 @@ This is a *proposition*: a claim that can be proved, that is either true or fals
 has been demonstrated in more than three hundred different ways over two and a half
 millennia.
 
-And it has been at the centre of Masonic self-description since 1723, which makes it both
+And it has been at the center of Masonic self-description since 1723, which makes it both
 the best-documented symbol in this book and the one most thoroughly encrusted with claims it
 cannot support.
 
@@ -181,7 +181,7 @@ will be true after every lodge in the world has closed. Nothing about it depends
 tradition, transmission, authority or belief.
 
 And in a symbolic system otherwise composed entirely of things that mean whatever their
-holders take them to mean, the Craft placed at its centre — and on the jewel of the man who
+holders take them to mean, the Craft placed at its center — and on the jewel of the man who
 has completed his term in the chair — the one object in the building that is not a matter of
 interpretation at all.
 

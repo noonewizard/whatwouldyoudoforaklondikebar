@@ -40,7 +40,7 @@ year gap in his participation.
 **Robert Plot, *The Natural History of Staffordshire*** (1686).
 *Establish:* that the custom was widespread, that persons of quality joined, that admission
 involved a collation and secret signs, and that a written craft history circulated.
-*Note:* a sceptical witness, which increases its value.
+*Note:* a skeptical witness, which increases its value.
 
 **John Aubrey, *Natural History of Wiltshire*** (MS 1686).
 
@@ -118,4 +118,4 @@ Originalschriften des Illuminatenordens* (Munich, 1787); Morgan, *Illustrations 
 
 *Establish:* the existence, dating and content of accusations.
 *Do not establish:* anything about Freemasonry. Used exclusively as evidence of belief —
-except the Illuminati papers, which are genuine documents of a real organisation.
+except the Illuminati papers, which are genuine documents of a real organization.

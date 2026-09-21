@@ -7,7 +7,7 @@ Here is the strongest evidence against this book's thesis, and I am putting it f
 
 Open the minute books and what you find, in lodge after lodge, decade after decade, is
 **attrition**. Members proposed, balloted, initiated, and then not present. Summonses
-unanswered. Dues unpaid. Names struck off. Committees appointed to enquire into the
+unanswered. Dues unpaid. Names struck off. Committees appointed to inquire into the
 circumstances of brethren in arrears.
 
 The pattern is universal enough that it barely registers as remarkable to anyone who works
@@ -19,7 +19,7 @@ who came for a while, enjoyed the dinners, drifted away, and was struck off.**
 
 That is not a marginal exception to be noted and passed over. On any reasonable estimate it
 describes a very large proportion — quite possibly a majority — of everyone who ever went
-through the ceremony this book has spent forty-three chapters analysing.
+through the ceremony this book has spent forty-three chapters analyzing.
 
 Any honest test has to start there.
 
@@ -61,7 +61,7 @@ biography routinely records members reciting ritual in old age.
 The ceremony reliably installed something durable and retrievable. That much is a matter of
 record.
 
-**2. Social obligation with behavioural consequences.** Well evidenced, and this is the
+**2. Social obligation with behavioral consequences.** Well evidenced, and this is the
 strongest finding in the chapter.
 
 Masonic charity is documented in accounts rather than in rhetoric. Relief of distressed
@@ -69,7 +69,7 @@ brethren, provision for widows and orphans, the great charitable foundations of 
 nineteenth century. The sums are real, they were paid by members, and they were paid on the
 strength of an obligation sworn in a room.
 
-**This is a behavioural effect of ritual commitment, measured in money, recorded in ledgers.**
+**This is a behavioral effect of ritual commitment, measured in money, recorded in ledgers.**
 It is the one place where the question *does the ceremony change what people do* has a clean
 affirmative answer.
 
@@ -102,7 +102,7 @@ There is a body of modern research that bears on this and I have to be more care
 than most writers on this subject are.
 
 **Dimitris Xygalatas and colleagues** have measured effects of high-ordeal ritual on living
-populations — physiological synchrony, prosocial behaviour, charitable giving — in fieldwork
+populations — physiological synchrony, prosocial behavior, charitable giving — in fieldwork
 including the Thaipusam Kavadi in Mauritius and the Anastenaria fire-walking of northern
 Greece. The findings are real and the methods are careful.[^2]
 
@@ -139,7 +139,7 @@ are worth naming because they apply to every claim anyone makes about what initi
 random sample of men. They are, by the act of applying, people already disposed toward
 associational life, already possessed of the fee, already known to a member willing to
 propose them, and already attracted to whatever the institution appeared to offer. If
-Masons were more charitable than their neighbours, the ceremony is one candidate
+Masons were more charitable than their neighbors, the ceremony is one candidate
 explanation and prior disposition is another, and nothing in the historical record can
 separate them. The same objection applies with equal force to every study of every
 voluntary association ever conducted, which is why the honest literature on fraternal
@@ -173,15 +173,15 @@ accompanied by what would be required to know it.
 
 A serious contemporary study is possible, and to this study's knowledge has never been
 done. Initiation is a scheduled event with a known date; candidates are identified in
-advance; the intervention is standardised within a jurisdiction; and — the feature that
+advance; the intervention is standardized within a jurisdiction; and — the feature that
 makes the design tractable — there is very often a **waiting period** between acceptance and
 ceremony, which supplies a natural comparison group of men who have been approved but not
-yet initiated. Measure both groups before, and measure again at intervals afterwards.
+yet initiated. Measure both groups before, and measure again at intervals afterward.
 
 What to measure would have to be decided in advance and pre-registered, which is the point
 at which most such proposals collapse, because the Craft's own claim — that its members are
 made better men — is not operationalised anywhere in its literature. A study would have to
-choose: charitable giving, which is at least countable; some behavioural measure of
+choose: charitable giving, which is at least countable; some behavioral measure of
 cooperation; or self-reported identification, which is easy to collect and measures mainly
 whether people say they belong.
 
@@ -200,7 +200,7 @@ all of the present uncertainty sits in the second category rather than the first
 Assemble it honestly and this is what the evidence supports.
 
 **Masonic ritual reliably produces: durable memory, a maintained self-description, and
-obligations with documented behavioural consequences in charity and mutual aid.**
+obligations with documented behavioral consequences in charity and mutual aid.**
 
 **It does not reliably produce: continued participation. A large proportion of initiates
 lapsed.**

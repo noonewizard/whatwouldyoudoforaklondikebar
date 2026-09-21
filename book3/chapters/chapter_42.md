@@ -59,7 +59,7 @@ anyway.
 reproduce the result without further guidance?
 
 If the claimant must intervene — *not quite, try this spelling, allow that vowel* —
-the method is underspecified and what is being transmitted is judgement, not
+the method is underspecified and what is being transmitted is judgment, not
 procedure.
 
 **8 — HISTORICAL PLAUSIBILITY.** Could the alleged author have used this method?
@@ -180,7 +180,7 @@ and a chapter that did not say so would be incomplete.
 Three observations from having tried.
 
 **The tests are experienced as obstacles once a result is in hand.** Before the
-result, a control is an obvious precaution. Afterwards, it is a thing standing
+result, a control is an obvious precaution. Afterward, it is a thing standing
 between you and an interesting finding, and the mind supplies reasons why it is not
 quite applicable here. I felt this distinctly at the second stage of the Atbash work
 and I am not confident I would have gone on to the third if the book had not been
@@ -199,9 +199,9 @@ entire difference between an observation and a finding.
 
 **The practical remedy is to write the tests down as a checklist and go through them
 in order, in writing, including the ones that seem obviously satisfied.** This
-sounds bureaucratic. It is bureaucratic. Bureaucracy is what you use when judgement
+sounds bureaucratic. It is bureaucratic. Bureaucracy is what you use when judgment
 is known to be unreliable, and Chapter 40 established that on this particular
-question everyone's judgement is unreliable, including the judgement of people who
+question everyone's judgment is unreliable, including the judgment of people who
 have read Chapter 40.
 
 ---

@@ -13,7 +13,7 @@ demonstrated historical encoding, and let the difference do the work.
 
 ### What the material is
 
-The genre is recognisable. Videos, forum threads, self-published books, long posts
+The genre is recognizable. Videos, forum threads, self-published books, long posts
 with diagrams. The recurring subjects:
 
 **Atbash applied to Masonic words**, following Schonfield's Baphomet argument into

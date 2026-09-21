@@ -121,7 +121,7 @@ Reported in Chapter 43. Method fixed before execution.
 
 A 12 × 8 lattice of **96 points** with uniform jitter of ±0.03 units — the spacing
 of an ordinary street grid, containing nothing by construction. **400,000** random
-placements of a regular pentagram (centre, circumradius, rotation) tested for
+placements of a regular pentagram (center, circumradius, rotation) tested for
 vertices falling within 0.5 units of a lattice point; best result refined by local
 optimisation.
 

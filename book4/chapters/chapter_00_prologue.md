@@ -32,7 +32,7 @@ And yet.
 Open any Bible and the building is described in detail: sixty cubits long, twenty
 wide, thirty high, cedar within and gold over the cedar, two bronze pillars at the
 porch with names, an inner room twenty cubits cubed containing two olive-wood
-cherubim whose wings touched at the centre.
+cherubim whose wings touched at the center.
 
 Walk into almost any Masonic lodge in the world — Perth, Pittsburgh, Lagos,
 Buenos Aires — and you will find that building referenced, gestured at, and in a

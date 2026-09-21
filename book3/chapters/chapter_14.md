@@ -49,7 +49,7 @@ the program was wrong.
 
 It held a table of the twenty-two letters and their values, looked up each
 character of a word, and summed. Clean, simple, and it silently ignored any
-character it did not recognise — which included all five final forms.
+character it did not recognize — which included all five final forms.
 
 So *Elohim*, אלהים, ending in final mem, computed as 46. The correct value is 86.
 The program had dropped a letter worth 40 and returned a confident answer.
@@ -103,7 +103,7 @@ open-ended. A shared language, with agreed spellings. And a community with
 standards about what counted as a reading worth making, in which a proposal that
 struck everyone as forced simply did not survive.
 
-**Remove canon, community and judgement, and the technique becomes a machine for
+**Remove canon, community and judgment, and the technique becomes a machine for
 producing anything.** That is what happened to it, and the rest of this chapter
 measures the damage.
 

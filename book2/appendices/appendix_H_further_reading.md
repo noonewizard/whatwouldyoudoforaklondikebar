@@ -1,7 +1,7 @@
 # APPENDIX H
 ## Recommended Further Reading
 
-Annotated, and organised by what a reader might want to do next. Entries marked **†** are
+Annotated, and organized by what a reader might want to do next. Entries marked **†** are
 where to start in that category. Full citations are in the bibliography; this appendix gives
 the reasons.
 
@@ -20,7 +20,7 @@ anything else.
 
 **Margaret Jacob, *Living the Enlightenment* (Oxford, 1991).** Masonry as sociability and
 civil society — the best account of what lodges were *for* in the terms their members would
-have recognised.
+have recognized.
 
 **Andrew Prescott and Susan Mitchell Sommers**, on the dating of the first Grand Lodge. Their
 reopening of the 1717/1721 question is the most consequential recent revision.
@@ -72,7 +72,7 @@ high-arousal rites do to transmission.
 **Robert McCauley and E. Thomas Lawson, *Bringing Ritual to Mind* (2002).** Ritual form and
 cognitive representation.
 
-**Pascal Boyer and Pierre Liénard**, on ritualized behaviour and hazard-precaution systems.
+**Pascal Boyer and Pierre Liénard**, on ritualized behavior and hazard-precaution systems.
 
 **Dimitris Xygalatas** and colleagues, on field experiments with high-ordeal ritual. The
 closest thing in existence to measurement of the effects this book discusses, conducted on
@@ -135,7 +135,7 @@ Named, because vagueness here would be cowardice.
 nineteenth-century American Masonic thought, and worthless as history of anything earlier.
 Pike's sources were Lévi and the Orientalist literature of his own century.
 
-**Manly P. Hall, *The Secret Teachings of All Ages* (1928).** Beautiful, encyclopaedic, and
+**Manly P. Hall, *The Secret Teachings of All Ages* (1928).** Beautiful, encyclopedic, and
 without apparatus. Almost nothing in it can be traced to a source.
 
 **C. W. Leadbeater, *The Hidden Life in Freemasonry* (1926).** Valuable as evidence of what

@@ -101,7 +101,7 @@ should be held firmly.
 
 A room that makes everyone look at one thing has determined the input. It has not
 determined what anybody makes of it. The candidate looking at the emblem the
-Deacon is indicating may be moved, bored, sceptical, or thinking about the journey
+Deacon is indicating may be moved, bored, skeptical, or thinking about the journey
 home. Attention is a channel; it is not content.
 
 What attention does supply is **shared reference**: everyone present knows what

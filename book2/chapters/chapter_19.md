@@ -86,7 +86,7 @@ Renaissance architectural theory genuinely did hold that proportion carried mean
 the harmonic ratios of music, the proportions of the human body, and the dimensions of
 well-made buildings expressed a single order. Rudolf Wittkower's *Architectural Principles in
 the Age of Humanism* established the scholarship on this, and it is not esoteric: it was
-mainstream theory, taught and practised.[^1]
+mainstream theory, taught and practiced.[^1]
 
 Villalpando's reconstruction of the Temple, which supplied Europe's visual idea of it, is
 explicitly a proportional argument — the claim being that the Temple's proportions were
@@ -159,7 +159,7 @@ belief. Those properties, transferred to conduct, are the whole moral architectu
 Craft.
 
 **And it took a vocabulary of shapes that crosses languages.** A square is a square in every
-tongue, which is why the system travelled.
+tongue, which is why the system traveled.
 
 The numbers are prosaic. The proportional tradition did not come in. The Great Architect is a
 vacancy.

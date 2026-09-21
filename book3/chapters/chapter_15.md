@@ -65,7 +65,7 @@ dozen schemes available gives six outputs, and an interpreter free to choose amo
 them has six chances to find something usable. Add the option of applying a scheme
 twice, or applying one scheme to part of a word, and the space expands further.
 
-This is not a hostile characterisation. The tradition genuinely does treat these as
+This is not a hostile characterization. The tradition genuinely does treat these as
 alternative legitimate operations, and there is no rule specifying which applies
 where. The freedom is real and it is built in.
 
@@ -90,7 +90,7 @@ about Hebrew words, with orthography agreed within narrow limits. There was litt
 scope for choosing a convenient spelling, because the spellings were known and a
 forced one would be noticed immediately.
 
-**A community with judgement.** This is the strongest constraint and the least
+**A community with judgment.** This is the strongest constraint and the least
 formal. Rabbinic interpretation was conducted in public, among people trained in
 the same material, who would say so if a proposal was strained. A notarikon that
 struck the room as contrived did not survive the afternoon. The technique had no
@@ -123,7 +123,7 @@ absent.
 **The techniques did not get worse. Their environment did.**
 
 This is the finding of the chapter and it is worth stating in a form that
-generalises: *a method's reliability is not a property of the method. It is a
+generalizes: *a method's reliability is not a property of the method. It is a
 property of the method plus the constraints it runs under.* Gematria inside the
 rabbinic academy and gematria on a website are the same arithmetic and different
 epistemic situations, and the difference is entirely in the second term.
@@ -145,7 +145,7 @@ ensure that it was true, and the tradition did not claim they did. A notarikon
 expansion that survived the room was a good expansion, not a demonstrated fact
 about the text's composition.
 
-**So the comparison is not rigour versus sloppiness. It is one register mistaken
+**So the comparison is not rigor versus sloppiness. It is one register mistaken
 for another.**
 
 The modern error is a category error rather than a competence error. Somebody takes
@@ -160,7 +160,7 @@ being made, and the claim is made by the person, not the arithmetic.
 ### The techniques as a diagnostic
 
 A practical use for the material in this chapter that has nothing to do with
-Freemasonry, and which is worth setting out because it generalises.
+Freemasonry, and which is worth setting out because it generalizes.
 
 **The presence of these techniques in a body of material is a dating signal.**
 
@@ -178,7 +178,7 @@ strained reading.
 
 **Christian-Kabbalistic usage** applies the same techniques to the same canon and
 extracts Christian conclusions. The technique is inherited; the target is new. Pico
-finding the Trinity in *bereshit* is a recognisable move with a recognisable date.
+finding the Trinity in *bereshit* is a recognizable move with a recognizable date.
 
 **Occult usage** applies them to anything — to non-Hebrew words, to proper names, to
 modern material — and the target lexicon expands to whatever the interpreter

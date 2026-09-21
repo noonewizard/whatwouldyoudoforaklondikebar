@@ -104,7 +104,7 @@ inverted its lighting.
 
 None of this is a deception, and nobody involved was hiding anything. It is what
 happens when a powerful frame receives material from a different source: the frame
-supplies the setting, the material supplies the content, and afterwards everyone
+supplies the setting, the material supplies the content, and afterward everyone
 assumes the content came from the setting.
 
 That assumption is the single most persistent error in the popular understanding

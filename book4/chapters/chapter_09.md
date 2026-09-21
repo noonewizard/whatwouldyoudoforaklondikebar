@@ -45,7 +45,7 @@ throughout the region.
 **Thrones flanked by winged sphinxes are an attested Levantine royal form**, known
 from ivory carvings and from the iconography of enthroned figures.[^4]
 
-Against that background, the biblical cherubim are recognisable: **winged composite
+Against that background, the biblical cherubim are recognizable: **winged composite
 guardian beings, positioned at boundaries and beside thrones, in a region where
 that is exactly what such figures do.**
 
@@ -80,7 +80,7 @@ view.
 One observation worth making, because it connects the objects to Chapter 7.
 
 The inner sanctuary's two cherubim face the room with wings spread, meeting at the
-centre. Beneath and between them is the Ark.
+center. Beneath and between them is the Ark.
 
 **The arrangement is a throne** — a seat flanked by guardians, in the regional
 royal idiom — **and the seat is unoccupied.** Nothing sits there. The text does not

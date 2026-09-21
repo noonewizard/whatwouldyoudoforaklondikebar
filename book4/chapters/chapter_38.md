@@ -48,7 +48,7 @@ A long-standing scholarly proposal is that the names are the opening words of
 dynastic formulae inscribed on the pillars — something on the order of "he will
 establish [the throne of David forever]" — which would make them abbreviations of
 sentences rather than names. It is a proposal, not a finding, and should be
-labelled as one.
+labeled as one.
 
 ---
 
@@ -59,7 +59,7 @@ candidates include commemorative or dynastic monuments, cultic markers defining 
 threshold, stands for fire or incense, and representations of something in the
 divine order — a cosmic gateway, in one common reading.
 
-The comparative evidence is genuine and should be stated in its favour. Paired
+The comparative evidence is genuine and should be stated in its favor. Paired
 free-standing pillars or columns at temple entrances are attested in the Levantine
 and Syrian architectural repertoire, and Herodotus reports two pillars, of gold and
 of emerald, in the temple of Heracles at Tyre — a relevant datum, since the
@@ -79,7 +79,7 @@ with Jachin and Boaz.
 
 The Temple pillars appear in the early catechism and exposure material of the
 eighteenth century, firmly enough that by 1762 a commercially successful exposure
-could be titled *Jachin and Boaz* and expect the names to be recognised. Their
+could be titled *Jachin and Boaz* and expect the names to be recognized. Their
 place at the lodge's entrance, and their treatment as objects of explanation,
 belongs to that century.
 
@@ -124,7 +124,7 @@ nineteenth-century writer could make the connection without inheriting it.
 
 *Is the interpretation modern?* Yes.
 
-*Is it accepted, disputed, or speculative?* Speculative, and recognised as such by
+*Is it accepted, disputed, or speculative?* Speculative, and recognized as such by
 documentary Masonic scholarship.
 
 ---

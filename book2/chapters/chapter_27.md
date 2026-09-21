@@ -74,7 +74,7 @@ this is the manipulation of properties, not traffic with persons. He was nervous
 anyway.
 
 **1533 — Agrippa.** Three books: natural, celestial, ceremonial. *Magia* is philosophy
-completed — the study of nature in its lower storey, the heavens in its middle, and the
+completed — the study of nature in its lower story, the heavens in its middle, and the
 divine in its upper. And Book Three crosses Ficino's line, addressing angels and
 intelligences by name.
 

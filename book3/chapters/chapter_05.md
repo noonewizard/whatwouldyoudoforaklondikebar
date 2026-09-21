@@ -47,7 +47,7 @@ centuries before anyone had a word for it, by people solving a practical problem
 
 Several otherwise puzzling features fall out of that function.
 
-**Why memorised verbatim rather than paraphrased.** A paraphrase would demonstrate
+**Why memorized verbatim rather than paraphrased.** A paraphrase would demonstrate
 understanding and fail to demonstrate provenance. The examiner is not checking
 whether the visitor grasps the meaning of the answers; he is checking whether the
 visitor learned the words from a legitimate source. **Exact wording is the
@@ -59,12 +59,12 @@ working is genuine and cannot prove it by this method.
 **Why it takes two people.** The knowledge is distributed. Neither party holds the
 whole exchange alone; the questions belong to one and the answers to the other, and
 the thing only exists when both are present. A catechism cannot be performed by a
-man alone in a room, which means it cannot be practised into existence by someone
+man alone in a room, which means it cannot be practiced into existence by someone
 who has read it.
 
 **And why publication did not destroy it.** When *Masonry Dissected* appeared in
 1730 the lodges were alarmed, and their alarm was rational: an impostor could now
-memorise the answers. The institutional response — altering certain details,
+memorize the answers. The institutional response — altering certain details,
 leaning harder on personal vouching alongside examination — tells us that the form
 was understood at the time as a security mechanism and defended as one.[^2]
 
@@ -119,7 +119,7 @@ descends from a Hebrew, Egyptian or Templar original — six questions apply.
 *Provenance*: where does the document come from? *Chronology*: does the source
 predate the recipient? *Transmission*: is there a documented route, or only a
 possibility? *Intertextuality*: is there verbal dependence, or only thematic
-resemblance? *Continuity*: did an organisation persist, or is persistence inferred?
+resemblance? *Continuity*: did an organization persist, or is persistence inferred?
 *Anachronism*: does the claim require someone to have known what was not yet known?
 
 When something is claimed to have been **discovered** — that a word, a number or a

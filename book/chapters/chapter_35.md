@@ -8,7 +8,7 @@ been convicted, on both occasions, of writing books.
 
 The first, *La Bible de la liberté*, had appeared in 1841 and been seized within days: a
 work of revolutionary socialism in prophetic register, declaring that the poor were the true
-inheritors and that the existing order was an offence against God. The second, in 1847,
+inheritors and that the existing order was an offense against God. The second, in 1847,
 belonged to the same current. Between them he had written on the emancipation of women, on
 the Christian communism of Lamennais and Buchez, and in a milieu that included Flora
 Tristan, the utopian socialists and the Catholic left.
@@ -101,7 +101,7 @@ and the whole system is a single key.
 No Jewish source contains this. No pre-modern source of any kind contains it. It is Lévi's,
 published in the 1850s.
 
-And it became, within forty years, the organising structure of the entire Anglo-American
+And it became, within forty years, the organizing structure of the entire Anglo-American
 magical tradition. The Golden Dawn built its grade system on it. Crowley elaborated it in
 *Liber 777* and in the *Book of Thoth*. Every tarot deck on sale today with Hebrew letters
 or Sephirotic attributions is downstream of a Frenchman's analogy from a numerical
@@ -111,7 +111,7 @@ I want to be clear that I do not say this to belittle it. It is an extraordinari
 productive idea, and systems do not have to be ancient to work. But the sequence must be
 stated correctly, because the reverse is asserted constantly: the tarot-Kabbalah system is
 not ancient wisdom that Lévi recovered. It is a nineteenth-century construction that later
-practitioners projected backwards.
+practitioners projected backward.
 
 ---
 
@@ -147,7 +147,7 @@ He was poor for most of his life and made his living by writing and by teaching 
 He married a woman much younger than himself who left him. He was, by the accounts of those
 who knew him, gentle, learned, talkative and somewhat vain. He performed at least one
 recorded ceremonial operation — an evocation of Apollonius of Tyana, conducted in London in
-1854, which he described afterwards in careful and rather deflating terms: he saw
+1854, which he described afterward in careful and rather deflating terms: he saw
 something, he was exhausted, he was not certain what had happened, and he advised against
 repeating it.[^4]
 
@@ -181,7 +181,7 @@ will — all of it is in the Order's material.
 extensively and almost entirely without attribution — in *Morals and Dogma*, which was
 published in 1871 and given to Scottish Rite initiates for the following century.
 
-That last route is the one this book has been travelling toward since Chapter 1.
+That last route is the one this book has been traveling toward since Chapter 1.
 
 Because it means that when an American Mason opened the standard commentary on his own
 degrees and found Kabbalah, the astral light, the pentagram, comparative mythology and the

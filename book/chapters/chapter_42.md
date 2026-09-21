@@ -11,7 +11,7 @@ Assign each trump to a path. Assign each path a Hebrew letter, since the Hebrew 
 also has twenty-two letters. Now assign the four suits to the four elements, and the court
 cards to the elemental subdivisions, and the numbered cards to the Sephiroth in the four
 worlds. Add the planets and the zodiac, which distribute across the letters according to a
-scheme in the *Sefer Yetzirah*. Add colours, in four scales. Add gods, from every pantheon.
+scheme in the *Sefer Yetzirah*. Add colors, in four scales. Add gods, from every pantheon.
 Add perfumes, plants, stones, animals, and diseases.
 
 You now have a system in which everything corresponds to everything else, in which any
@@ -66,7 +66,7 @@ a Victorian editorial decision and it was argued about.
 signs mapped onto the letters and paths, with the "Rose Cross" diagram binding them
 together.
 
-**The colour scales.** Four scales of colour, one per Kabbalistic world, assigned to every
+**The color scales.** Four scales of color, one per Kabbalistic world, assigned to every
 Sephirah and path, used for visualisation and talismanic work. This is entirely the Order's
 own.
 
@@ -99,7 +99,7 @@ commandments, and from a people.
 
 Detach the diagram from all of that, assign Egyptian gods to it, hang a card game on its
 paths, and use it to structure the grades of a Victorian magical society, and you have
-produced something the tradition's own practitioners would not recognise as theirs.
+produced something the tradition's own practitioners would not recognize as theirs.
 
 That is a fair criticism and it is correct.
 
@@ -123,7 +123,7 @@ Jewish, or a preservation of anything.**
 Which brings the question this chapter is really about.
 
 The Golden Dawn's system is an achievement. Whatever one thinks of magic, the construction
-of a complete, internally consistent symbolic architecture capable of organising the whole
+of a complete, internally consistent symbolic architecture capable of organizing the whole
 of Western religious imagery is a serious intellectual feat, and it was performed by
 identifiable people in about a decade.
 
@@ -152,7 +152,7 @@ nothing but each other's opinion. Someone must be above them, or the ladder has 
 
 That third reason is structural and it is why this keeps happening. Von Hund needed Unknown
 Superiors. Blavatsky needed Mahatmas. Westcott needed Fräulein Sprengel. Mathers needed
-Secret Chiefs. None of them could produce one. Every one of their organisations broke on the
+Secret Chiefs. None of them could produce one. Every one of their organizations broke on the
 demand.
 
 **An initiatory hierarchy requires an ultimate authority, and if there is no real one, one

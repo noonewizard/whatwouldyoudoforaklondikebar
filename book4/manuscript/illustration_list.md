@@ -11,13 +11,13 @@ summarizes the sections.
 manuscript, an excavation plan, a building, a printed plate, a photograph — or an
 original diagram declared as such.
 
-**Reconstructions are labelled as reconstructions.** Chapter 66 established why
+**Reconstructions are labeled as reconstructions.** Chapter 66 established why
 this matters: a drawing removes the uncertainty a text contains, and a reader who
 sees only the drawing cannot tell which parts were given and which supplied. Every
 Temple reconstruction plate carries its artist, its date, and a note of which
 textual source it is built on.
 
-**Comparative material is labelled with its own provenance**, not as illustrating
+**Comparative material is labeled with its own provenance**, not as illustrating
 the Temple.
 
 **[SVR]** marks items whose shelfmark, accession number, or museum attribution

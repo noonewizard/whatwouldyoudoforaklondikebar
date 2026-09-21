@@ -12,7 +12,7 @@ in the ancient world was thinking in these terms. The Temple was not designed as
 information system, its builders had no such concept, and finding computational
 structure in it says something about the analytic vocabulary, not about the
 builders' intentions. This is precisely the error Chapter 72 named as retrofitting,
-and the only defence against committing it is to declare the analogy as an analogy
+and the only defense against committing it is to declare the analogy as an analogy
 and keep declaring it.
 
 With that said, the analogy earns its place, because it makes one thing precise
@@ -114,7 +114,7 @@ Chapter 45's about moral formation cannot be stated in these terms.
 
 It also flattens intention. Interfaces are designed; the Temple accreted, was
 destroyed, was rebuilt differently, was expanded by a king with a legitimacy
-problem, and was described by writers with theological programmes. Reading the
+problem, and was described by writers with theological programs. Reading the
 result as a specification implies a specifier who did not exist.
 
 The analogy is a lens. It is held up deliberately, for three more chapters, and

@@ -44,7 +44,7 @@ After that, nothing is certain. He was never seen again.[^1]
 We do not know, and I want to be careful, because both certainties on offer are unearned.
 
 The Masonic-apologetic position — that Morgan was paid off and sent to Canada, or emigrated,
-or was later seen abroad — rests on rumours and sightings of the kind that follow every
+or was later seen abroad — rests on rumors and sightings of the kind that follow every
 disappearance, none corroborated.
 
 The anti-Masonic position — that he was rowed into the river and drowned — rests on a
@@ -57,7 +57,7 @@ remarked that the body was "a good enough Morgan until after the election," a li
 followed American politics ever since, and which tells you a great deal about the atmosphere
 of the moment.[^2]
 
-What is certain: Morgan was abducted, by Freemasons, in an organised operation involving
+What is certain: Morgan was abducted, by Freemasons, in an organized operation involving
 many people across several counties, and he disappeared. Several men were tried. The
 convictions obtained were for conspiracy to abduct, and the sentences were light — the
 longest was a matter of years, most were months.
@@ -130,7 +130,7 @@ every reason to assume the worst. The lodge's opacity, which had been an asset f
 century, became the thing that convicted it.
 
 **Two: the conspiracy was real, and it was local and small.** This is the part that neither
-side likes. The abduction of William Morgan *was* a Masonic conspiracy: organised,
+side likes. The abduction of William Morgan *was* a Masonic conspiracy: organized,
 multi-county, involving officials, and followed by obstruction. It was also completely
 unlike the thing the Antimasons believed they had uncovered. It was not directed from
 anywhere. There was no national plan, no international body, no secret ruler. It was a

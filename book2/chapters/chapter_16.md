@@ -12,7 +12,7 @@ of admission, and in many cases ceremonies with more elaborate horseplay than an
 Masonic lodge.
 
 None of them produced a philosophy. None of them was adopted by dukes. None of them became
-the organisational template for the entire Western esoteric tradition.
+the organizational template for the entire Western esoteric tradition.
 
 The masons did. And the previous volume's answer to why — that masonry was the one trade
 with a liberal science attached to it — is correct as far as it goes and stops one step too
@@ -59,7 +59,7 @@ century had recently finished killing large numbers of people over which parts t
 long pedigree.
 
 *Natural history* observes, and observation in 1720 was a matter of testimony — did you
-believe the traveller who reported the animal?
+believe the traveler who reported the animal?
 
 *Geometry does none of these.* It demonstrates. A proof is not an assertion backed by
 authority, not an argument that might be answered, and not a report you must take on trust.
@@ -96,7 +96,7 @@ geometry and what could be built on it.
 So the Craft's adoption of geometry as its sacred science is not a mystical preference. It is
 the logically forced consequence of Anderson's religious settlement. Having ruled out
 everything men disagree about, the institution was left with the one discipline where
-agreement is compelled rather than negotiated — and it made that discipline the centre of its
+agreement is compelled rather than negotiated — and it made that discipline the center of its
 symbolism, its moral vocabulary and its self-description.
 
 ---
@@ -113,14 +113,14 @@ in London. The historian Ric Berman has traced the network in detail, and it is 
 and Whig network before it is anything else.[^3]
 
 Newton had shown, within living memory, that the heavens obey mathematics — that the universe
-is, literally, a geometrical object with calculable behaviour.
+is, literally, a geometrical object with calculable behavior.
 
-In that world a fraternity organised around geometry was not archaic. It was the most modern
+In that world a fraternity organized around geometry was not archaic. It was the most modern
 thing available.
 
-This matters because Masonry is habitually read backwards through its nineteenth-century
+This matters because Masonry is habitually read backward through its nineteenth-century
 occult interpreters, who found in the square and compasses a cosmic symbolism of enormous
-antiquity. The men of the 1720s were not looking backwards to Egypt. They were looking at the
+antiquity. The men of the 1720s were not looking backward to Egypt. They were looking at the
 *Principia*. When they called God the Great Architect of the Universe, the most natural
 reading is not that they had recovered a Hermetic doctrine. It is that they had read Newton
 and thought the universe looked designed.

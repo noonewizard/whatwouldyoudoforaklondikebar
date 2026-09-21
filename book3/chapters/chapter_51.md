@@ -38,7 +38,7 @@ that mystical literature trades on the confusion. A claim that cannot be stated
 cannot be checked. **The move is available to anybody, and the sincere and the
 fraudulent make it in identical language.**
 
-I would be making it here for a reason I recognise: it is the ending the book seems
+I would be making it here for a reason I recognize: it is the ending the book seems
 to want.
 
 ---

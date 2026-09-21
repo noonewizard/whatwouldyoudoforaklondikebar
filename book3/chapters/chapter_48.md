@@ -26,7 +26,7 @@ unusually good, and the classical art of memory exploited exactly this by
 attaching things to be remembered to imagined rooms.[^1]
 
 **It is rhythmic and dialogic.** A catechism has a shape — question and answer,
-with expected stress and cadence. Verse is easier to memorise than prose for the
+with expected stress and cadence. Verse is easier to memorize than prose for the
 same reason, and the effect is substantial. An examiner who knows the rhythm hears
 a wrong answer as a stumble before he hears it as an error.
 
@@ -134,7 +134,7 @@ this book's argument.
 
 The ceremonies have transmitted with remarkable fidelity. A visitor from an English
 lodge can follow an Australian one; the structure, the sequence, the officers, the
-essential actions are recognisable across three centuries and six continents. Where
+essential actions are recognizable across three centuries and six continents. Where
 variation exists it is local and traceable, and the jurisdictions are aware of their
 differences.
 

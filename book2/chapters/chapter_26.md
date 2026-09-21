@@ -23,7 +23,7 @@ enormous material culture, and Freemasonry's participation in it is unremarkable
 Skulls on tombs. The hourglass and scythe on eighteenth-century gravestones, thousands of
 which survive in English and American churchyards. The *vanitas* still life, with its guttering
 candle and its bubble and its decaying fruit. The danse macabre. The death's-head ring. The
-memorial mourning jewellery of the Georgian period, which was a substantial industry.
+memorial mourning jewelry of the Georgian period, which was a substantial industry.
 
 A culture with high mortality, public funerals, and a theological framework in which the hour
 of death was the decisive moment of a life produced these objects constantly, and
@@ -96,7 +96,7 @@ as the square and the plumb — and what they measure is time remaining.
 The hourglass does not say that you will live again. It says that a quantity is running out
 and cannot be refilled. The scythe does not say that the harvest is gathered in; it says that
 the cut is coming. The twenty-four-inch gauge, which is a working tool rather than a
-mortality emblem, is explained as dividing the day into portions for labour, refreshment and
+mortality emblem, is explained as dividing the day into portions for labor, refreshment and
 service — which is to say, as an instrument for allocating a resource that is finite.
 
 **Read as a set, the Craft's death symbolism is not about the afterlife. It is about the
@@ -122,7 +122,7 @@ should consider his own.
 
 **What is he rehearsing?**
 
-Not immortality: the ceremony makes no promise. Not judgement: nothing is weighed.
+Not immortality: the ceremony makes no promise. Not judgment: nothing is weighed.
 
 He is rehearsing *being absent while other people continue*. That is what the minutes on the
 floor consist of: the lodge proceeding in his absence, about him, searching for him. He hears
@@ -184,7 +184,7 @@ Bullock, *Revolutionary Brotherhood* (Chapel Hill: University of North Carolina 
 historical literature. **[SOURCE VERIFICATION REQUIRED.]**
 
 [^4]: The interpretation of the twenty-four-inch gauge varies by jurisdiction; the division
-of the day into portions for labour, refreshment and service is the common English form.
+of the day into portions for labor, refreshment and service is the common English form.
 
 [^5]: On the acacia and its identification with the shittim wood of Exodus 25, see the
 preceding volume.

@@ -64,7 +64,7 @@ from Ottoman decrees of the 1850s and carried forward, with modifications, by
 successive authorities (ch 63).
 
 **Symbolic universe.** A frame in which other symbols are located, rather than a
-symbol among others. Recognisable by its capacity to absorb new material without
+symbol among others. Recognizable by its capacity to absorb new material without
 being altered (ch 34).
 
 **Tracing board.** A painted board carrying the emblems of a degree, set up in the

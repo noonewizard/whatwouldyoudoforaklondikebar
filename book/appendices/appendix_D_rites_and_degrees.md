@@ -18,7 +18,7 @@ the third appears in print in 1730 and was being worked in London lodges from th
 mid-1720s. Worked, with substantial variation, by every regular jurisdiction in the world.
 
 **The Royal Arch.** Developing in England and Ireland from the mid-eighteenth century;
-centred on the recovery of a lost divine name. Declared part of "pure Ancient Masonry" by
+centerd on the recovery of a lost divine name. Declared part of "pure Ancient Masonry" by
 the English Act of Union of 1813. Its origin is an open question.
 
 ---

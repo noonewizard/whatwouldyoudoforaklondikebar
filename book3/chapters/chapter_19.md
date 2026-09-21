@@ -20,7 +20,7 @@ the practice must continue. It is everywhere in religious and legal life, and it
 almost always explicit rather than concealed.
 
 *Adonai* for the Tetragrammaton: a substitution, openly known, universally
-practised, and never mistaken by anyone inside the tradition for the thing itself.
+practiced, and never mistaken by anyone inside the tradition for the thing itself.
 
 Prayer for sacrifice in rabbinic Judaism after 70 CE: a substitution on a much
 larger scale, articulated and defended.
@@ -129,7 +129,7 @@ available in Latin since 1677, and men who read Latin could read it — which is
 availability, not transmission, and Chapter 34 sets out the difference.
 
 Against a Jewish-mystical source: the degree's apparatus is architectural and
-vault-centred, not sefirotic. There is no Tree, no emanation, no letter-cosmology.
+vault-centerd, not sefirotic. There is no Tree, no emanation, no letter-cosmology.
 If Kabbalah were the source, one would expect some of its distinctive machinery to
 have come along, and none of it did.
 

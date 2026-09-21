@@ -107,9 +107,9 @@ still drinking from that well without knowing it.[^1]
 
 **And the Hebrew case does not fit the pattern.** Jewish avoidance of pronouncing
 the Tetragrammaton is not an attempt to prevent others from gaining power over God.
-That reading gets the theology exactly backwards. It is **reverence**: the Name is
+That reading gets the theology exactly backward. It is **reverence**: the Name is
 not withheld from enemies, it is withheld from ordinary use, and the substitution
-of *Adonai* is an act of honour rather than of security. Chapter 10 treats this
+of *Adonai* is an act of honor rather than of security. Chapter 10 treats this
 properly.
 
 The half-of-everything rule from the preceding volume applies here with force.
@@ -121,8 +121,8 @@ goes one way.**
 
 ### Adam's language, and the men who looked for it
 
-The Genesis scene generated a research programme that ran for fifteen centuries,
-and it is worth a paragraph because the programme's failure is instructive.
+The Genesis scene generated a research program that ran for fifteen centuries,
+and it is worth a paragraph because the program's failure is instructive.
 
 If Adam named the animals and his names were ratified, then the original language
 was presumably one in which names fit their objects — a language in which the word
@@ -142,7 +142,7 @@ calling it nature's.
 
 The reader should keep this failure in view when Part IX examines claims that a
 Hebrew word, transformed, reveals something true about its referent. Those claims
-are the Adamic programme in miniature, and they inherit its problem.
+are the Adamic program in miniature, and they inherit its problem.
 
 ---
 
@@ -209,7 +209,7 @@ jobs**, and separating them resolves a confusion that runs through the commentar
 The degree name classifies. The word of the degree identifies. Writers who treat
 the Masonic word as though it described a state of the soul have collapsed the
 second into the first — and the ritual itself keeps them apart, which is a point in
-its favour.
+its favor.
 
 ---
 

@@ -44,7 +44,7 @@ set out.
 | The Golden Dawn borrowed Masonic structure | **Established** | 41 |
 | The Golden Dawn had German Rosicrucian authority | **Refuted** — Mathers said the letters were forged, 1900 | 41 |
 | The O.T.O.'s degrees derive from irregular Masonic rites | **Established** | 43 |
-| Crowley held recognised regular Masonic standing | **Unsupported** | 43 |
+| Crowley held recognized regular Masonic standing | **Unsupported** | 43 |
 | Co-Masonry carried Masonic ritual into Theosophy | **Established** | 29, 40 |
 | Hermetic Qabalah preserves ancient Jewish teaching | **Unsupported** — it is a nineteenth-century construction | 42 |
 
@@ -90,6 +90,6 @@ set out.
 | Claim | Status | Ch. |
 |---|---|---|
 | Freemasonry inherited the Western magical tradition | **Unsupported** | 49, 51 |
-| Freemasonry supplied the organisational form that carried it | **Strong** | 27–29, 41, 44, 51 |
+| Freemasonry supplied the organizational form that carried it | **Strong** | 27–29, 41, 44, 51 |
 | Masonic ritual is a transmissible technology of transformation | **Strong as to mechanism; unevidenced as to moral outcome** | 44, 47 |
 | Both traditions treat ritual and symbol as instruments for changing the operator | **Argued; offered as a hypothesis supported by the evidence, not as a demonstrated finding** | 2, 51 |

@@ -24,7 +24,7 @@ ad Herennium*, in Cicero and in Quintilian, and it was standard equipment for an
 to speak at length without notes.
 
 **The Renaissance elaboration.** By the sixteenth century the technique had grown enormously
-ambitious. Giulio Camillo built a memory theatre. Giordano Bruno proposed systems in which
+ambitious. Giulio Camillo built a memory theater. Giordano Bruno proposed systems in which
 the imagined building was the cosmos and the images were drawn from astrological and magical
 correspondence, so that mastering the memory system would be mastering the structure of
 reality. Frances Yates traced this development in *The Art of Memory* in 1966, and it is one
@@ -40,7 +40,7 @@ the point at which something more than stonecutting enters the craft.
 **I think it is probably the first**, and the preceding volume set out why. The surrounding
 clauses of the statute are about apprenticeship terms and fines. The lodge's business was a
 trade. And the thing a mason actually needed to hold in his head — the catechism, the
-questions and answers by which he could be recognised — is precisely what the ordinary
+questions and answers by which he could be recognized — is precisely what the ordinary
 mnemonic art existed to serve.
 
 **Verdict: plausible, suggestive, unproved**, and it stays unproved because the statute does
@@ -69,7 +69,7 @@ Four hundred and twenty-seven years of an institution testing its members on rec
 
 ### Why this is the durable design decision
 
-Chapter 7 argued that memorised transmission makes the Craft's knowledge constitutively
+Chapter 7 argued that memorized transmission makes the Craft's knowledge constitutively
 active — that you cannot be a lapsed holder of it the way you can be a lapsed owner of a
 creed. This chapter presses the point further, because the consequences are larger than I
 first saw.
@@ -159,7 +159,7 @@ has used it.**
 
 One last observation, which is not quite an argument.
 
-What the Craft actually preserved by all this — the memorisation, the examination, the
+What the Craft actually preserved by all this — the memorization, the examination, the
 four-century insistence on recall — is a catechism about a building that does not exist, a
 legend about a man who did not die, and a set of moral interpretations of carpenter's tools.
 

@@ -123,7 +123,7 @@ Every genuine cryptographic system has one: a specific party, with capabilities,
 from whom something specific is being withheld, whose resources shape the design.
 
 For Masonic practice the answers are small and consistent: the curious servant who
-might open a minute book; the stranger reading a gravestone; the neighbour
+might open a minute book; the stranger reading a gravestone; the neighbor
 wondering what the certificate says.
 
 **Against those, an unkeyed monoalphabetic grid is entirely adequate.**

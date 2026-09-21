@@ -36,12 +36,12 @@ to priestly and Temple contexts, and ended as a public practice with the Temple 
 70 CE. **There was no decree.** A practice narrowed until there was nothing left to
 transmit.
 
-**The reconstruction.** Scholarship generally favours something like *Yahweh*, on
+**The reconstruction.** Scholarship generally favors something like *Yahweh*, on
 three kinds of indirect evidence: Greek transcriptions in patristic sources
 (*Iao*, *Iabe*); theophoric personal names, which preserve *Yeho-* and *-yahu* in a
 living tradition; and the verbal root.
 
-**This is an inference and should be labelled as one.** Nobody has heard the word
+**This is an inference and should be labeled as one.** Nobody has heard the word
 pronounced in a living liturgical tradition. It is a reconstruction of the general
 reliability of other historical-linguistic reconstructions, which is good, and not
 the same as a recording.

@@ -174,7 +174,7 @@ cipher of the weakest kind, and there is no Masonic codebook — no list assigni
 concealed meanings to words, no glossary requiring possession.
 
 **What Masonry does have is *jargon*, and jargon is a third thing.** Technical
-vocabulary — terms with specialised meanings understood within a trade or body — is
+vocabulary — terms with specialized meanings understood within a trade or body — is
 not concealment. Every profession has it. It makes outsiders feel excluded and it
 exists to be precise, not to hide, and the exposures translated it without
 difficulty.
@@ -196,7 +196,7 @@ they succeed.
 
 Ask this of Masonic practice and the answers are small and consistent. The curious
 servant who might open a minute book. The stranger in the churchyard reading a
-gravestone. The neighbour who wonders what the certificate on the wall says.
+gravestone. The neighbor who wonders what the certificate on the wall says.
 
 **Against those adversaries, an unkeyed monoalphabetic grid is entirely adequate.**
 

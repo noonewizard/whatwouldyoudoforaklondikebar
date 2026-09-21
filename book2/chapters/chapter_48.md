@@ -15,7 +15,7 @@ and initiation are all doing in different vocabularies.
 
 **Is that true, or is it a family resemblance dressed as an identity?**
 
-This is the philosophical centre of the book and I have not found a clean answer. What I have
+This is the philosophical center of the book and I have not found a clean answer. What I have
 found is a way of asking it that makes the alternatives visible.
 
 ---
@@ -144,7 +144,7 @@ cannot change — people change constantly, through age, circumstance, illness, 
 employment. It is that **change which the person themselves intends, in a direction they have
 chosen, against an existing disposition, is unusually difficult to bring about.** That is the
 problem, and it is a real one with a modern literature of its own: the gap between intention
-and behaviour is one of the more robust findings in psychology, and the interventions that
+and behavior is one of the more robust findings in psychology, and the interventions that
 close it are known to be few.
 
 Stated that way, the convergence looks less mysterious and more explicable. Any technique
@@ -174,7 +174,7 @@ Two restrictions, because the argument above is the kind that invites overreach.
 **It does not make the traditions equivalent.** Saying that Masonic initiation, alchemical
 practice and Neoplatonic theurgy converge on six components is not saying they are the same
 thing, that their practitioners wanted the same outcome, or that any of them would have
-recognised the description. They differ in what they thought they were doing, in what they
+recognized the description. They differ in what they thought they were doing, in what they
 thought was acting, and in what they expected to result. The convergence is at the level of
 technique, and technique is the shallowest level at which two practices can agree.
 

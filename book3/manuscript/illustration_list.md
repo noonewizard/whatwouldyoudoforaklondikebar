@@ -1,4 +1,4 @@
-# ILLUSTRATION LIST — FINAL PROGRAMME
+# ILLUSTRATION LIST — FINAL PROGRAM
 
 **58 plates**, within §LI's 50–75. Every item is a real, locatable object, with three
 declared exceptions (55–57), which are diagrams made for this book and captioned as
@@ -99,10 +99,10 @@ undisputed occurrences, that both are Hebrew-to-Hebrew, and that both are proper
 nouns whose plain forms appear elsewhere in the same book.
 
 **56 — The control-test figure.** Three panels. Left: BAPHOMET's 216 admissible
-Hebrew spellings, one highlighted. Centre: the same procedure on matched control
+Hebrew spellings, one highlighted. Center: the same procedure on matched control
 names, nothing highlighted. **Right, in the same weight: the target list, with
 *Sophia* circled and annotated "added by the claim."**
-Caption: *the transformation is real; the answer key was written afterwards.*
+Caption: *the transformation is real; the answer key was written afterward.*
 
 **57 — The pigpen grid.** The layout, a worked inscription, and the letter-frequency
 histograms of plaintext and ciphertext side by side — identical, which is the flaw.

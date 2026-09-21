@@ -1,4 +1,4 @@
-# ILLUSTRATION LIST — FINAL PROGRAMME
+# ILLUSTRATION LIST — FINAL PROGRAM
 
 **46 plates**, within the brief's range of 40–60. Every item is a real, locatable object,
 with two declared exceptions (items 45 and 46) which are diagrams made for this book and
@@ -6,7 +6,7 @@ captioned unambiguously as such. **No image is invented.** Rights status must be
 with each holding institution before publication; **[SVR]** marks a shelfmark or accession
 number still to be verified.
 
-The programme illustrates **mechanism**, not provenance: the objects a candidate handled,
+The program illustrates **mechanism**, not provenance: the objects a candidate handled,
 the spaces he moved through, the diagrams that carried the system, and — a category this
 book needs and most do not — the figures belonging to the methodological chapters.
 
@@ -110,7 +110,7 @@ faster than any paragraph can teach it.
 ## ARCHITECTURE OF ARRANGEMENT
 
 Items 22–24 and 26 support the argument that the lodge's architectural effect is a property
-of *arrangement* rather than grandeur — an ordinary upstairs room, correctly organised,
+of *arrangement* rather than grandeur — an ordinary upstairs room, correctly organized,
 doing the work. The nineteenth-century purpose-built temples are the exception Chapter 12
 has to explain rather than the rule it rests on, and the plate sequence is ordered to make
 that visible.
@@ -118,7 +118,7 @@ that visible.
 ## PERMISSIONS AND A FALLBACK SET
 
 Institutional reproduction fees, chiefly for the Library and Museum of Freemasonry in London,
-will be the largest single production cost. A fallback programme of approximately 22 plates
+will be the largest single production cost. A fallback program of approximately 22 plates
 drawn entirely from Internet Archive, Wellcome Collection (CC BY) and Library of Congress
 public-domain holdings, plus the two original diagrams, can carry the book at minimal cost
 without losing any argument. The items lost under the fallback are illustrative rather than

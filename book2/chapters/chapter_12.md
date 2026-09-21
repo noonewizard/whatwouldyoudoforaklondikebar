@@ -1,7 +1,7 @@
 # CHAPTER TWELVE
 ## Building the Invisible Temple
 
-In 1926 the Detroit Masonic Temple opened with a tower of fourteen storeys, a theatre
+In 1926 the Detroit Masonic Temple opened with a tower of fourteen stories, a theater
 seating some five thousand people, a ballroom, a chapel, a drill hall, and — by most
 accounts — over a thousand rooms. It remains the largest Masonic building in the world.[^1]
 
@@ -16,7 +16,7 @@ the argument I have been making for eleven chapters.
 
 I have argued that Masonic ritual space is *constructed rather than grand*: that the lodge
 works by arrangement — an east declared, stations assigned, a threshold guarded — and not by
-architecture, and that this is precisely why the form travelled. A tradition needing a
+architecture, and that this is precisely why the form traveled. A tradition needing a
 cathedral stays where the cathedral is. A tradition needing a diagram crosses oceans.
 
 That argument is well supported for the eighteenth century and most of the nineteenth. It is
@@ -46,7 +46,7 @@ of Christian preaching in between. What the Craft adds is the *trade vocabulary*
 abstract inner temple but one built with a square, a level, a plumb-rule and a gauge, to a
 plan, by a workman who is also the work.
 
-And the move has a consequence the Craft's own writers recognised early. **If the real
+And the move has a consequence the Craft's own writers recognized early. **If the real
 temple is internal, then no external building matters at all.**
 
 That is why the tavern arrangement was never felt as a deficiency. A lodge in a public house
@@ -57,7 +57,7 @@ same thing, because the significant construction is happening inside the men pre
 
 ### The anomaly
 
-So the nineteenth-century building programme needs explaining rather than admiring, and it
+So the nineteenth-century building program needs explaining rather than admiring, and it
 is a substantial phenomenon: purpose-built Masonic halls and temples across Britain,
 continental Europe and above all the United States, increasingly large, increasingly
 monumental, frequently classical or Egyptian in idiom, culminating in buildings like the
@@ -68,7 +68,7 @@ substantially right.
 
 **1. They could afford it.** The most boring explanation and probably the largest. American
 Masonic membership grew enormously through the later nineteenth century, and a fraternity
-with hundreds of thousands of dues-paying members has capital. Organisations with capital
+with hundreds of thousands of dues-paying members has capital. Organizations with capital
 build.
 
 **2. Post-Morgan respectability.** American Freemasonry had been nearly destroyed by the
@@ -79,10 +79,10 @@ the bank and the courthouse.
 
 **3. The high degrees needed stages.** This is the practical driver and it is
 under-appreciated. Craft ritual requires almost nothing. The Scottish Rite degrees, as
-reworked in America in the later nineteenth century, are *theatre* — costumed, scenic,
+reworked in America in the later nineteenth century, are *theater* — costumed, scenic,
 sometimes with painted backdrops, lighting effects and casts of dozens. You cannot stage
-that in a tavern room. The Detroit theatre seating five thousand is not a metaphor; it is a
-theatre.
+that in a tavern room. The Detroit theater seating five thousand is not a metaphor; it is a
+theater.
 
 **4. The symbolism had become meaningful in a new way.** And this is the explanation that
 would support this book's thesis, which is exactly why I distrust it most.
@@ -94,12 +94,12 @@ sacred architecture will eventually want to build some.
 
 **Test it.** If explanation 4 is doing the work, we would expect the monumental temples to
 be commissioned by the bodies most committed to the esoteric reading, to be justified in
-esoteric terms in their building records, and to embody specific symbolic programmes in
+esoteric terms in their building records, and to embody specific symbolic programs in
 their design.
 
 Some of that is true. The House of the Temple, designed by John Russell Pope for the
-Scottish Rite's Southern Jurisdiction and completed in 1915, is modelled on the Mausoleum at
-Halicarnassus and is dense with deliberate symbolic programme. That is a building that means
+Scottish Rite's Southern Jurisdiction and completed in 1915, is modeled on the Mausoleum at
+Halicarnassus and is dense with deliberate symbolic program. That is a building that means
 something on purpose.
 
 But it is also the headquarters of the body Albert Pike had led, built by the most
@@ -157,7 +157,7 @@ fail.
 
 Which raises the question this part of the book has to answer eventually, and which Chapter
 45 will take up: **does a symbolic instruction with no external criterion change anyone's
-behaviour?**
+behavior?**
 
 Before that there are the instruments themselves — a set of objects from a workman's bag
 that were converted, at a datable moment, into a complete ethical vocabulary.
@@ -168,7 +168,7 @@ that were converted, at a datable moment, into a complete ethical vocabulary.
 
 [^1]: On the Detroit Masonic Temple (George D. Mason, 1926), see the standard architectural
 literature and the building's own records. **[SOURCE VERIFICATION REQUIRED — the figures for
-rooms, theatre capacity and storeys are widely repeated and should be verified against a
+rooms, theater capacity and stories are widely repeated and should be verified against a
 primary source before publication.]**
 
 [^2]: William Preston, *Illustrations of Masonry* (London, 1772 and later editions). The
@@ -182,7 +182,7 @@ North Carolina Press, 1996), and William Preston Vaughn, *The Antimasonic Party 
 United States, 1826–1843* (Lexington: University Press of Kentucky, 1983).
 
 [^4]: On the House of the Temple (John Russell Pope, completed 1915) and its symbolic
-programme, see the Supreme Council's own publications and James Stevens Curl, *The Art and
+program, see the Supreme Council's own publications and James Stevens Curl, *The Art and
 Architecture of Freemasonry* (London: Batsford, 1991). **[PAGE VERIFICATION REQUIRED.]**
 
 [^5]: On the twentieth-century decline in American Masonic membership, see the Grand Lodge

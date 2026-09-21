@@ -53,7 +53,7 @@ traditions is not evidence that either learned it from the other.
 **This is where the inference fails, and the failure is formal.**
 
 If A models C, and B models C, it does not follow that A models B. Two things
-modelling the same third thing may model different aspects of it, at different
+modeling the same third thing may model different aspects of it, at different
 scales, for different purposes, with no correspondence between their parts.
 
 A map of a country's railways and a map of its rainfall both represent the same
@@ -98,7 +98,7 @@ them would license reading the biblical dimensions as anatomy.
 Something worth keeping.
 
 Temples and bodies are both **bounded structures with an inside, a sequence of
-access, and a centre that is treated as different from everything around it.**
+access, and a center that is treated as different from everything around it.**
 That shared structure is why the analogy keeps being made, independently, in
 places with no contact.
 

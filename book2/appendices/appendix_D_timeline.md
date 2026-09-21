@@ -2,7 +2,7 @@
 ## Timeline: Masonry and the Analytic Disciplines
 
 Two columns, deliberately. The left records the development of the Masonic ritual apparatus.
-The right records the development of the disciplines this book uses to analyse it. Reading
+The right records the development of the disciplines this book uses to analyze it. Reading
 them together makes visible a fact that is otherwise easy to miss: **almost every tool used
 to explain what initiation does to a person was invented long after the ritual was.**
 
@@ -60,7 +60,7 @@ not independently confirm.
 | 1994 | | Snoek's work on Masonic ritual transmission |
 | 1999 | | **McKay, Bar-Natan, Bar-Hillel & Kalai, "Solving the Bible Code Puzzle," *Statistical Science* 14** — the control test |
 | 2000 | | Whitehouse, *Arguments and Icons* — modes of religiosity |
-| 2001 | | Boyer & Liénard on ritualized behaviour |
+| 2001 | | Boyer & Liénard on ritualized behavior |
 | 2002 | | McCauley & Lawson, *Bringing Ritual to Mind* |
 | 2007 | | Meyers-Levy & Zhu, ceiling-height priming — *widely cited; replication contested* |
 | 2011– | | Xygalatas and colleagues, field experiments on high-ordeal ritual |

@@ -7,7 +7,7 @@ Popular writing about sacred architecture makes a strong claim: that buildings a
 on the people inside them, shaping thought and feeling by their proportions. The
 claim is usually made without evidence and usually believed.
 
-Something in the neighbourhood of it is true. Considerably less than is usually
+Something in the neighborhood of it is true. Considerably less than is usually
 asserted, and for reasons that have very little to do with proportion.
 
 This Part goes through the relevant research literature honestly, which means
@@ -31,11 +31,11 @@ route produces encounters. A building with one entrance produces a threshold.
 
 This is the least glamorous claim in this Part and by a wide margin the
 best-supported. Roger Barker's mid-century work on behavior settings documented
-that the observable behaviour of people in a given place is often better predicted
+that the observable behavior of people in a given place is often better predicted
 by the place than by the individuals, and the general point has been absorbed
 into environmental psychology, urban design, and architecture practice.
 
-Applied to the lodge: the arrangement Part VIII described has behavioural
+Applied to the lodge: the arrangement Part VIII described has behavioral
 consequences that require no symbolism at all. The candidate enters at one point,
 under supervision, and moves along a prescribed path in the presence of everyone
 else. Attention converges on him because the geometry converges on him. Nobody has
@@ -80,12 +80,12 @@ Over the past fifteen years, large replication efforts have found that a
 substantial fraction of published findings in social and cognitive psychology do
 not reproduce at their original effect sizes, and that the subfield hit hardest
 was **social priming** — the study of how incidental environmental cues shape
-subsequent judgement and behaviour. Several famous results in that area have
+subsequent judgment and behavior. Several famous results in that area have
 failed well-powered replication attempts.
 
 This matters enormously here, because the claim "the building shapes your thinking"
 is, in its experimental form, a social priming claim. It belongs to the most
-damaged neighbourhood of the field.
+damaged neighborhood of the field.
 
 The consequence for this book is a rule, applied for the rest of Part X: **a
 finding in this area is reported as established only if it is a constraint, a
@@ -104,8 +104,8 @@ supported by a very large body of linguistic evidence. Languages really do
 systematically map abstract domains onto spatial ones.
 
 That linguistic finding is robust. What is far less robust is the experimental
-programme that grew from it, in which manipulating a bodily state was claimed to
-shift an abstract judgement. Several of that programme's signature results have not
+program that grew from it, in which manipulating a bodily state was claimed to
+shift an abstract judgment. Several of that program's signature results have not
 replicated well, including some that were, for a decade, textbook examples.
 
 So the defensible version is: **our vocabulary for inner life is thoroughly
@@ -124,7 +124,7 @@ it is how the language works is not in doubt.
 
 It will conclude that the lodge's effects on the people in it are real, and that
 most of them are explicable by constraint, attention, ceremony, and social
-context — that is, by things Book II already analysed — rather than by properties
+context — that is, by things Book II already analyzed — rather than by properties
 of the architecture as such.
 
 It will not conclude that sacred space is inert. The next chapter takes up the one

@@ -39,7 +39,7 @@ its interpretation.
 
 **Which produces the finding this chapter rests on: the most successful transmission of
 Masonic ritual into the twentieth-century esoteric world ran through the bodies that regular
-Freemasonry did not recognise.**
+Freemasonry did not recognize.**
 
 Not the United Grand Lodge of England. Le Droit Humain, and Besant, and a body of
 theosophical doctrine attached to a ceremony the Craft had spent two centuries declining to
@@ -56,7 +56,7 @@ merely performers; they are stations through which energy is directed. The Maste
 in the east is functional. The circumambulation establishes a current. The obligation creates
 a link. The moment of restored light is a specific transfer, and it acts on the candidate's
 subtle constitution — which, in Theosophical anatomy, consists of bodies at several levels,
-with centres that can be opened.
+with centers that can be opened.
 
 Grades correspond to stages in this process. Ritual objects have properties. The ceremony
 performed correctly produces a determinate effect; performed carelessly, it does not.
@@ -177,7 +177,7 @@ the other.
 He assumed the ceremony had a mechanism; that the mechanism could be described; that the
 description would be specific rather than edifying; and that different parts of the ritual
 did different jobs. Every one of those assumptions is one this book proceeds on. He then
-filled the mechanism with subtle bodies and coloured rays, because that was the vocabulary
+filled the mechanism with subtle bodies and colored rays, because that was the vocabulary
 available to him in 1926, and the fill is worthless.
 
 **And the lesson runs in both directions.** This book's own mechanism is filled with

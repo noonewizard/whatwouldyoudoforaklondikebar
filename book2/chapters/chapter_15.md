@@ -13,7 +13,7 @@ and compasses do not, and the difference is worth the chapter.
 A level tells you whether a surface is horizontal. That is its entire function.
 
 The Masonic interpretation is equality — that we meet on the level, that the level reminds
-us we are descended from the same stock and are travelling to the same destination, and that
+us we are descended from the same stock and are traveling to the same destination, and that
 distinctions of rank are laid aside within the lodge.[^1]
 
 The word did real work in the eighteenth century. English lodges contained men who would not
@@ -41,15 +41,15 @@ Masonry, although they were being initiated in Masonic-form ritual in France fro
 Anderson's requirement that a candidate be "free-born" was a relic of guild qualification in
 England and became, transplanted to a slave society, an instrument for excluding formerly
 enslaved men. African Lodge No. 459 in Boston was warranted from England in 1784 and American
-Masonic bodies declined to recognise Prince Hall Masonry for the better part of two
+Masonic bodies declined to recognize Prince Hall Masonry for the better part of two
 centuries, on jurisdictional grounds that were applied to no other case with the same
-rigour.[^2]
+rigor.[^2]
 
 So: a genuine and unusual claim about equality, administered by people with a much narrower
 view of who counted than the claim implies.
 
 That is not hypocrisy exactly. It is a universalist formula stated in advance of anybody's
-willingness to honour it — and the people it excluded picked it up and held the institution
+willingness to honor it — and the people it excluded picked it up and held the institution
 to it, which is a substantial part of why the language mattered.
 
 ---

@@ -42,7 +42,7 @@ of how correctly it was performed.
 ### What 70 CE removed
 
 Not the letters. The letters are in every scroll, and Judaism after the
-destruction became a religion organised around the text in a way it had not been
+destruction became a religion organized around the text in a way it had not been
 before.
 
 **What went was the other three.**
@@ -103,7 +103,7 @@ practice did not stop when its conditions were destroyed. It changed category,
 from performance to commemoration, and continued in that form for nineteen
 centuries.
 
-Chapter 85 generalises this. Here it is enough to note that **the Temple's most
+Chapter 85 generalizes this. Here it is enough to note that **the Temple's most
 important speech act outlived the Temple by becoming a description of itself**,
 and that the description is still recited.
 
@@ -122,7 +122,7 @@ and nobody has produced one.
 
 What explains the resemblance is what has explained every resemblance in this
 series: **both traditions faced the problem of continuing a practice whose
-authorising centre was gone, and the available responses are few.** Pretend it is
+authorising center was gone, and the available responses are few.** Pretend it is
 still there; abandon the practice; or adopt a declared substitute and say so.
 
 Only the third is both honest and survivable. Both traditions took it

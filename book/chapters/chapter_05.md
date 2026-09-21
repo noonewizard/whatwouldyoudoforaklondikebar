@@ -66,7 +66,7 @@ these are the questions it asks.
 
 Not "where is the tradition said to have come from" — where is the manuscript, the
 letter, the minute book, the printed edition? Who has held it since? What is its
-catalogue number? A claim supported by a document nobody can point to is not supported.
+catalog number? A claim supported by a document nobody can point to is not supported.
 
 This question alone disposes of a startling proportion of the literature. The Golden
 Dawn's authority rested on correspondence with a German adept named Anna Sprengel. Where
@@ -78,8 +78,8 @@ warrant? Baron von Hund spent thirty years being asked and never produced one.
 **2. Chronology. Does the timeline permit it?**
 
 Astonishingly often, it does not. This is the cheapest test available and it is skipped
-constantly. If a claim requires an organisation to have influenced something that
-happened before the organisation existed, the claim is finished, and no amount of
+constantly. If a claim requires an organization to have influenced something that
+happened before the organization existed, the claim is finished, and no amount of
 symbolic resonance will repair it.
 
 **3. Transmission. Can you name the route?**
@@ -94,7 +94,7 @@ that what he read entered the ritual.
 The corrective method here is one I will use repeatedly, and I take it from the
 historian Alison Butler, who applied it to the Golden Dawn. Instead of asking what ideas
 were in the air, she reconstructed what books were physically on the shelves — the actual
-catalogued contents of the founders' libraries.[^3] That is transmission evidence. Ideas
+catalogd contents of the founders' libraries.[^3] That is transmission evidence. Ideas
 in the air are not.
 
 **4. Intertextuality. Does the later source use the earlier one?**
@@ -109,12 +109,12 @@ Arturo de Hoyos went through it line by line against the books Pike had been rea
 demonstrated that large tracts of it are unattributed transcription, substantially from
 Éliphas Lévi.[^4] That is not an opinion about influence. That is a collation.
 
-**5. Institutional continuity. Did the organisation actually persist?**
+**5. Institutional continuity. Did the organization actually persist?**
 
-Organisations that exist do things. They collect dues, keep lists, rent rooms, quarrel,
+Organizations that exist do things. They collect dues, keep lists, rent rooms, quarrel,
 split, and leave paper. A claim of unbroken institutional descent across a gap of
 centuries, with no dues, no lists, no rooms and no quarrels, is a claim that an
-organisation existed in a manner unlike every other organisation in recorded history.
+organization existed in a manner unlike every other organization in recorded history.
 
 The Templars were suppressed between 1307 and 1312 and their last Grand Master was burned
 in 1314. Freemasonry's first documented grand lodge dates from the 1720s. That is a gap of
@@ -153,7 +153,7 @@ darkness for ignorance, height for authority, the circle for completeness, the s
 stability, and death-and-return for transformation. These are not proprietary. They recur
 because human bodies and human societies recur.
 
-The dying-and-rising figure is a useful demonstration. Freemasonry's third degree centres
+The dying-and-rising figure is a useful demonstration. Freemasonry's third degree centers
 on the murder and raising of a master builder. Osiris is killed and restored. Adonis dies
 and returns. Christ is crucified and rises. Alchemical texts describe a putrefaction
 followed by a rebirth. The pattern is everywhere.
@@ -194,7 +194,7 @@ supply the deficiency.
 This is not, mostly, fraud. That distinction matters and I want to make it carefully.
 When Andrew Michael Ramsay told an audience of French Masons in 1737 that their order
 descended from crusader knights, he was not necessarily lying; he may well have believed
-a version of it, and he was certainly performing a recognised eighteenth-century genre in
+a version of it, and he was certainly performing a recognized eighteenth-century genre in
 which an institution's dignity was established by giving it an antique genealogy. When
 William Wynn Westcott produced letters from a German adept who did not exist, that was
 something closer to fraud — but even there, the fraud was in the service of a conviction

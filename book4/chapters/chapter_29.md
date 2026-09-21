@@ -20,7 +20,7 @@ matters more: explains why the claim exists.
 **1. Provenance.** What is the earliest source connecting the Temple's
 construction to magic? Not 1 Kings, not 2 Chronicles, not Ezekiel, not Josephus's
 description of the building. The connection appears in the *Testament of Solomon*,
-where demons are compelled to labour on the Temple — a text surviving in Greek
+where demons are compelled to labor on the Temple — a text surviving in Greek
 manuscripts and generally placed, in its present form, somewhere in the third to
 fifth centuries CE, with earlier strata plausible and disputed. Related material
 appears in the Babylonian Talmud's shamir narratives.
@@ -48,9 +48,9 @@ across the gap? No candidate has ever been produced that survives scrutiny.
 **6. Anachronism.** Does the claim require concepts unavailable in the relevant
 period? Yes, substantially. The framework of the demon-commanding Solomon —
 named hierarchies of spirits, binding by formula, the ring as an instrument of
-compulsion — belongs recognisably to the religious world of late antiquity, with
+compulsion — belongs recognizably to the religious world of late antiquity, with
 its extensive Greek, Egyptian, and Jewish magical papyri and amulet traditions.
-Projecting it onto the tenth century BCE imports a whole cosmology backwards.
+Projecting it onto the tenth century BCE imports a whole cosmology backward.
 
 ---
 
@@ -60,7 +60,7 @@ It is worth reading 1 Kings 5–7 with this question in mind, because the text i
 not silent — it is specific, and what it specifies is mundane.
 
 There is a timber contract with Hiram of Tyre, with stated payments in wheat and
-oil. There is a labour levy, with numbers. There is quarrying and dressing of
+oil. There is a labor levy, with numbers. There is quarrying and dressing of
 stone. There is a named craftsman, a bronze worker, whose lineage and training are
 given. There are dimensions, materials, and the sequence of construction. There
 are cherubim carved of olive wood and overlaid with gold — imagery, not
@@ -117,7 +117,7 @@ under a wisdom given directly by God, is a building whose real nature was never
 reducible to its stones. Such a Temple can be destroyed without being *ended*. Its
 essential character was always somewhere other than in the masonry that fell.
 
-This is not a trick, and it is not naive. It is a serious and recognisable
+This is not a trick, and it is not naive. It is a serious and recognizable
 theological move, and versions of it appear across the tradition: in the heavenly
 Temple that the earthly one copies, in the pattern shown to Moses on the mountain,
 in the Temple of the body, in the rebuilt Temple of vision. Chapter 19 examined

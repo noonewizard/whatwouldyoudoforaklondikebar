@@ -66,7 +66,7 @@ a compass.
 **Stations are assigned.** Three officers at three points converts an empty room into a
 diagram with positions that mean something.
 
-**A centre is established** — a place where things are done *to* someone, and to which the
+**A center is established** — a place where things are done *to* someone, and to which the
 candidate is conducted.
 
 **A boundary is guarded.** This is the single most important architectural act in the room,
@@ -117,7 +117,7 @@ The candidate learns the room blind, by walking it, before he sees it. He is con
 a fixed circuit, challenged at fixed points, stopped and moved on, for some minutes.
 
 When the hoodwink comes off, **the room is already familiar** — and the experience of
-recognising a place you have never seen is uncommon enough that I suspect it accounts for a
+recognizing a place you have never seen is uncommon enough that I suspect it accounts for a
 substantial part of what candidates across three centuries have described as the peculiar
 impressiveness of that moment.
 
@@ -138,7 +138,7 @@ Washington and the enormous Detroit temple of 1926.
 
 Four explanations were offered there and tested. Affluence and membership growth.
 Post-Morgan respectability politics. The staging requirements of the high degrees, which are
-theatre and need machinery. And the esoteric reinterpretation of Masonic symbolism making
+theater and need machinery. And the esoteric reinterpretation of Masonic symbolism making
 grandeur meaningful.
 
 The first three account for most of the phenomenon. The fourth — the one that would have
@@ -173,7 +173,7 @@ Almost certainly not, because for most of the relevant period there was none —
 ceremony worked anyway, in rooms whose only qualification was that a door could be shut.
 
 **What did the work was the arrangement, not the building.** An east declared, a boundary
-guarded, a centre, a route walked in the dark.
+guarded, a center, a route walked in the dark.
 
 That is a set of instructions rather than a structure, and instructions fit in a man's head,
 which is why they crossed the Atlantic in sea chests while the cathedrals stayed where they
@@ -195,7 +195,7 @@ Chicago Press, 1987).
 [^3]: On the lodge's declared rather than surveyed east, see the monitorial literature and
 Chapter 8 above.
 
-[^4]: On the nineteenth-century Masonic building programme and the subsequent membership
+[^4]: On the nineteenth-century Masonic building program and the subsequent membership
 decline, see Chapter 12 above and the sources cited there. **[SOURCE VERIFICATION REQUIRED
 — membership figures from Grand Lodge returns.]**
 

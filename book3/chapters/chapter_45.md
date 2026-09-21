@@ -76,7 +76,7 @@ vertices fall near some of the points.
 **Every step is a decision and none is constrained.**
 
 **Which points count?** A medieval church offers hundreds — every pier, respond,
-boss, bay corner, window centre. The number of candidate points is large and the
+boss, bay corner, window center. The number of candidate points is large and the
 selection is made by the analyst.
 
 **How close is close enough?** The golden ratio is 1.618. Is 1.61 a hit? 1.65? 1.58?
@@ -112,7 +112,7 @@ geometric practice is a real discipline with real results.
 with designed proportions from one without. It returns a positive either way.
 
 This is not a claim that no building has sacred geometry. Many do. **It is a claim
-about a method** — that the method of measuring afterwards and finding ratios cannot
+about a method** — that the method of measuring afterward and finding ratios cannot
 tell us which, and that only documentary evidence of the design process can.
 
 ---
@@ -195,7 +195,7 @@ systems in religious architecture, studied through treatises, drawings and lodge
 books. It has a literature and it has findings.
 
 **Masonic geometry** is a rhetorical and moral usage: geometry praised as
-foundational, its instruments moralised, no construction performed.
+foundational, its instruments moralized, no construction performed.
 
 **Modern New Age sacred geometry** is a retrospective-fitting practice applied to
 whatever is to hand, without stated tolerances or controls, and it has the epistemic

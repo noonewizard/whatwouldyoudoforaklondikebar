@@ -37,11 +37,11 @@ He said so. Readers have persistently forgotten that he said so.
 
 The *Lemegeton*, or *Lesser Key of Solomon*, is a separate seventeenth-century
 compilation of five originally independent texts, of which the first, the
-*Goetia*, is by far the best known. Its catalogue of seventy-two spirits is
+*Goetia*, is by far the best known. Its catalog of seventy-two spirits is
 closely related to the list in Johann Weyer's *Pseudomonarchia Daemonum*,
 appended to his *De praestigiis daemonum* (1563; the demon-list appears in later
 editions from 1577). Weyer was a physician arguing that accused witches were ill
-rather than guilty, and he printed the list partly to expose it. A sceptic's
+rather than guilty, and he printed the list partly to expose it. A skeptic's
 exhibit became a practitioner's directory. This is a recurring pattern in the
 history of magic and worth naming: **publication for refutation is publication.**
 
@@ -78,7 +78,7 @@ stars," of "the natures of living creatures, and the furies of wild beasts," of
 plants, and the virtues of roots." A reader looking for scriptural warrant for a
 book of correspondences between hours, planets, plants, and spirits will find
 this passage extremely convenient. It is not about magic. It is about wisdom as
-encyclopaedic penetration of a created order. But it is one short step from there
+encyclopedic penetration of a created order. But it is one short step from there
 to a book organized by planetary hours.
 
 **Third, Solomon is a king, and therefore a commander.** The grimoire operator's

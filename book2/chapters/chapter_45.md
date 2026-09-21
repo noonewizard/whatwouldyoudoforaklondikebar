@@ -1,5 +1,5 @@
 # CHAPTER FORTY-FIVE
-## Can Symbols Change Behaviour?
+## Can Symbols Change Behavior?
 
 A man is given a square and told that it teaches him to regulate his actions.
 
@@ -14,7 +14,7 @@ is equally substantial and rather more interesting.
 
 ### The problem with the question
 
-The difficulty is that behaviour has many causes and symbols are among the weakest.
+The difficulty is that behavior has many causes and symbols are among the weakest.
 
 Consider what else was acting on an eighteenth-century Mason's conduct. Religion, in a
 century when almost everyone attended some form of worship. Law. Reputation, in small
@@ -25,7 +25,7 @@ A moral instruction attached to a hand tool, delivered once in a ceremony, is co
 all of that, and the null hypothesis — that it made no measurable difference — is not
 unreasonable and cannot be dismissed rhetorically.
 
-So the honest approach is to look for places where Masonic obligation would predict behaviour
+So the honest approach is to look for places where Masonic obligation would predict behavior
 *different from* what the other pressures predict, and see whether it occurred.
 
 There are three such places and the evidence differs sharply between them.
@@ -48,11 +48,11 @@ proves nothing.
 
 What counts is the *pattern* of giving. Masonic relief was directed preferentially to
 brethren and their dependants, including brethren who were strangers, in distant places, with
-no relationship to the donor except the shared obligation. A travelling Mason in distress in
+no relationship to the donor except the shared obligation. A traveling Mason in distress in
 a foreign port had a claim on men who had never met him, and the claim was frequently
-honoured.
+honored.
 
-**That is a behaviour the other pressures do not predict.** Religion enjoins charity to the
+**That is a behavior the other pressures do not predict.** Religion enjoins charity to the
 poor generally, not to a specific class of strangers identified by a recognition system. The
 preferential direction is the fingerprint of the obligation, and it is visible in the ledgers.
 
@@ -101,7 +101,7 @@ squared.
 
 I have looked for indirect evidence and not found any that survives. One might hope that
 Masonic membership correlates with something measurable — lower rates of prosecution,
-different patterns of bequest, distinctive behaviour in business — but the confounds are
+different patterns of bequest, distinctive behavior in business — but the confounds are
 overwhelming. Masons were disproportionately drawn from social strata that differ on all
 those measures for other reasons.
 
@@ -116,7 +116,7 @@ tests whether anything specifically Masonic is doing the work.
 
 The eighteenth and nineteenth centuries produced a large family of mutual-aid bodies —
 friendly societies, benefit clubs, burial societies, the Oddfellows, the Foresters, and
-dozens of smaller organisations. Many had initiation ceremonies. Many had regalia, passwords,
+dozens of smaller organizations. Many had initiation ceremonies. Many had regalia, passwords,
 lodge structures and graded offices. Most provided exactly what Masonic relief provided:
 sickness payments, funeral benefit, provision for widows.
 
@@ -136,8 +136,8 @@ where the machine acts.
 
 There is one feature the friendly societies do not share, and it should be noted rather than
 inflated: the geographical reach. A friendly society's benefit was payable by the branch a
-member subscribed to. The Masonic claim travelled — a stranger in a foreign port, with no
-subscription relationship to anyone present, could make it and frequently have it honoured.
+member subscribed to. The Masonic claim traveled — a stranger in a foreign port, with no
+subscription relationship to anyone present, could make it and frequently have it honored.
 Whether that reflects something about the obligation or merely about the Craft's unusual
 international distribution is not settled by the records this study consulted.
 
@@ -163,7 +163,7 @@ argues that the same property — permanent incompletion — is the central desi
 whole system.
 
 So the absence of evidence here is not a gap in the record. It is a consequence of what kind
-of claim it is, and a reader who understands that will be properly sceptical of anyone, in
+of claim it is, and a reader who understands that will be properly skeptical of anyone, in
 any century, who says the matter has been settled either way.
 
 ---

@@ -32,14 +32,14 @@ blurring into the next.
 By the time the hoodwink comes off he has walked the room perhaps a dozen times without
 seeing it.
 
-**And when he does see it, he recognises it.**
+**And when he does see it, he recognizes it.**
 
 That is the effect, and it is worth dwelling on because it is strange and specific. A man
 opens his eyes on a room he has never laid eyes on, and it is *already familiar*. He knows
 where the east is. He knows the officers are at three points because he has been challenged
 from three points. He knows the distances.
 
-The sensation of recognising a place you have never seen is uncommon in ordinary life, and
+The sensation of recognizing a place you have never seen is uncommon in ordinary life, and
 I would guess — this is speculation and I mark it as such — that it accounts for a
 substantial part of what candidates across three centuries have described as the peculiar
 impressiveness of that moment.
@@ -52,7 +52,7 @@ There is a second thing happening, and it is the more consequential.
 
 The room he is learning is not neutral. It has an east, where the principal officer sits,
 often on a raised seat. It has a west and a south with subordinate officers. It has a
-centre. It has a guarded door.
+center. It has a guarded door.
 
 He learns all of this in the dark, in the order the ritual chooses, by being stopped at each
 station and required to account for himself.
@@ -61,7 +61,7 @@ Which means that **he acquires the lodge's authority structure as a spatial fact
 anybody explains it to him as a social one.** He does not learn that the Master is senior;
 he learns that there is a voice in the east which the others defer to and to which he is
 conducted last. He does not learn the officers' titles; he learns that there are three
-positions from which he must be challenged before he can reach the centre.
+positions from which he must be challenged before he can reach the center.
 
 Nobody states any of it. He walks it.
 
@@ -120,7 +120,7 @@ And the parallel is worthless as evidence anyway, because clockwise circumambula
 close to universal in cultures with any circular ritual movement at all. There are two
 directions available. Half of everything goes one way.
 
-What the sources actually support is duller and more useful: the lodge is modelled on a
+What the sources actually support is duller and more useful: the lodge is modeled on a
 building oriented east–west, the sun's course supplies the natural direction of travel in
 such a building, and the Craft — which was busy identifying itself with geometry, order and
 regularity — found in that a congenial emblem. No cult required.
@@ -129,7 +129,7 @@ regularity — found in that a congenial emblem. No cult required.
 
 ### The half-of-everything rule
 
-The clockwise case is worth generalising, because it names a fallacy this book meets in
+The clockwise case is worth generalizing, because it names a fallacy this book meets in
 almost every chapter and the name is useful.
 
 **Where a feature has only a small number of possible forms, a match between two traditions
@@ -194,7 +194,7 @@ What cannot:
 That any of this produced a particular state in any particular man. That the effect was
 intended. That the eighteenth century understood what it was doing.
 
-The ceremony is now nearly at its centre. He has been prepared, challenged, admitted and
+The ceremony is now nearly at its center. He has been prepared, challenged, admitted and
 conducted. He is about to be required to speak — and the language he will be required to
 speak in is not the language he uses for anything else.
 

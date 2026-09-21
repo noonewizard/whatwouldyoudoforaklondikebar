@@ -26,7 +26,7 @@ Bibles, in emblem books, on pulpits, above altars. The triangle signifies the Tr
 radiance signifies glory. The eye signifies that God sees.
 
 It was in use across Catholic and Protestant Europe for two centuries before anyone put one
-on a Masonic document, and it continued in ordinary devotional use long afterwards. You can
+on a Masonic document, and it continued in ordinary devotional use long afterward. You can
 find it today on eighteenth-century parish churches in England whose builders had no
 connection to any lodge.
 
@@ -118,12 +118,12 @@ God is *Dieu*, which does not.
 So French Masonic sources supply alternatives. *Gloire*. *Grandeur*. *Génie*. The letter was
 retained and new meanings were found to justify it.[^2]
 
-**That is precisely backwards from how an ancient symbol behaves.** A symbol carrying
+**That is precisely backward from how an ancient symbol behaves.** A symbol carrying
 inherited meaning arrives with its content and the content constrains its use. This one
 arrived as a *shape* and had to have content supplied locally, in each language, to explain
 why it was there.
 
-The letter travelled as a letter. The meanings were improvised behind it.
+The letter traveled as a letter. The meanings were improvised behind it.
 
 ### The overlay
 
@@ -177,7 +177,7 @@ originally meant.**
 Which is a useful thing to know when reading about any tradition, and it will be the
 operating principle of Chapter 38.
 
-We are done with the daylight symbols now. What remains at the centre of Freemasonry is a
+We are done with the daylight symbols now. What remains at the center of Freemasonry is a
 murder.
 
 ---

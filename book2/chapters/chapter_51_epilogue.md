@@ -7,7 +7,7 @@ with a hand on his shoulder and no idea what was on the other side.
 Fifty chapters later the honest thing to report is that the door was never locked. Anyone
 could have found out what was behind it. The rituals have been in print since 1730; the
 catechisms were published by men who had been through them; the archives of the major grand
-lodges are open to researchers; the symbolism has been catalogued, photographed, and argued
+lodges are open to researchers; the symbolism has been catalogd, photographed, and argued
 over for three hundred years. Almost everything this book has described could have been read
 by anyone, at any point in the last two centuries, without joining anything.
 
@@ -19,7 +19,7 @@ What this study set out to ask was not what Masonic ritual means. It asked what 
 and the answer, assembled from ritual analysis, from the history of the texts, from
 cognitive science, from environmental psychology, and from what the lodge records actually
 show about the men who went through it, turns out to be both less than the esoteric
-literature claims and more than the sceptical literature allows.
+literature claims and more than the skeptical literature allows.
 
 Less, because nothing found here requires a hidden mechanism. The ceremony is a sequence of
 ordinary human operations: sensory restriction, controlled disorientation, images presented
@@ -31,12 +31,12 @@ literature that has nothing to do with Freemasonry. There is no residue left ove
 explaining by an occult transmission, a surviving mystery school, or a secret the
 institution is keeping.
 
-More, because the sceptical account — that this is a dinner club with fancy dress, that
-nothing is happening, that the whole apparatus is theatre — does not survive contact with
+More, because the skeptical account — that this is a dinner club with fancy dress, that
+nothing is happening, that the whole apparatus is theater — does not survive contact with
 the evidence either. Something is happening. The comparative record (Chapter 45) shows the
 same structures independently invented across unrelated societies, which is what happens
 when a technique works. The lodge records show a minority for whom this became the
-organising frame of an adult life. The mechanisms are real mechanisms, and the reason
+organizing frame of an adult life. The mechanisms are real mechanisms, and the reason
 initiation is ubiquitous is not that humans are gullible but that this particular
 arrangement of symbol, restriction, obligation, and company does something to people that
 lecture and argument do not.
@@ -136,7 +136,7 @@ come up, the room will turn back into a room, and he will go and have dinner wit
 names he is still learning.
 
 Whether anything was done to him will not be visible that night. It will be visible, if it
-is visible at all, in twenty years, in the shape of the life he made afterwards — which is
+is visible at all, in twenty years, in the shape of the life he made afterward — which is
 the only place the effects of any initiation have ever been visible, in any society, in any
 century.
 

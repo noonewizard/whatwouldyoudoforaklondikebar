@@ -32,13 +32,13 @@ constructed, which is why they are the same four that every geometrical traditio
 culture has used, and why their appearance in two traditions tells you nothing whatever.
 
 **The point.** Position without magnitude, in Euclid's definition. The origin of everything
-constructible and itself unconstructible. In Masonic usage: the individual, the centre, the
+constructible and itself unconstructible. In Masonic usage: the individual, the center, the
 place from which the work proceeds.
 
 **The line.** Extension in one dimension. In Masonic usage: direction, and the connection of
 two points.
 
-**The circle.** Everything equidistant from a centre. In Masonic usage: boundary, and the
+**The circle.** Everything equidistant from a center. In Masonic usage: boundary, and the
 extent within which a man should keep himself.
 
 **The square.** The figure that closes, has four equal angles, and stands.
@@ -67,7 +67,7 @@ support.
 meaning, that meaning is probably its meaning. When it has seven, offered by different
 authors in different centuries with no agreement between them, the most likely explanation is
 that **the figure arrived without an interpretation and the interpretations were supplied
-afterwards, independently, by people who felt something ought to be said.**
+afterward, independently, by people who felt something ought to be said.**
 
 That is not a cynical reading. It is what Chapter 14 described as the ordinary process by
 which an undefined symbol in a non-doctrinal institution accumulates sediment. The point
@@ -98,7 +98,7 @@ a wheel, a cycle. This is the cheapest kind and the most promiscuous — resembl
 everywhere and constrains nothing.
 
 **Structural meaning.** The figure has a property, and the property is the meaning. A circle
-*has* a boundary and a centre, and everything on it is equidistant from that centre. If you
+*has* a boundary and a center, and everything on it is equidistant from that center. If you
 use a circle to say something about inclusion or about a standard applying equally, you are
 using the structure rather than the appearance, and the meaning is constrained by the
 geometry rather than by free association.
@@ -155,7 +155,7 @@ It has a name. It has a documented Masonic appearance in a specific printed book
 specific year. It is a *theorem* rather than an emblem — a thing with a proof, which can be
 right or wrong.
 
-And it was put at the centre of Masonic self-description by the man who wrote the
+And it was put at the center of Masonic self-description by the man who wrote the
 *Constitutions*, in 1723, in a sentence that has been quoted, half-quoted, misquoted and
 built upon for three hundred years.
 

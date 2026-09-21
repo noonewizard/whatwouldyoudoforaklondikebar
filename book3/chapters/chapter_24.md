@@ -204,7 +204,7 @@ Geometry — and, in most sources, also as God.
 matter as settled.**
 
 By the disagreement principle, that pattern indicates a symbol that arrived without
-a fixed meaning and acquired readings afterwards. And there is a further
+a fixed meaning and acquired readings afterward. And there is a further
 consideration that decides it: **the G is an English letter.** It works in English,
 where God and Geometry both begin with it. It does not work in French, or in
 Hebrew, or in Latin.

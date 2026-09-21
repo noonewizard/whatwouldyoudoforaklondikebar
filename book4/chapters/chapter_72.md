@@ -6,7 +6,7 @@ discovered inside an object that does not contain it. It requires no dishonesty,
 it is extremely difficult to detect from the inside, and it is the single most
 productive source of false claims in this book's entire subject.
 
-This chapter describes the mechanism, in enough detail to recognise it in
+This chapter describes the mechanism, in enough detail to recognize it in
 operation.
 
 ---

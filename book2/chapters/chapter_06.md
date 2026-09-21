@@ -21,7 +21,7 @@ Her central charge is about a dichotomy. Theories of ritual, she observed, chara
 set thought against action: ritual is what people *do* as opposed to what they *think*, the
 enactment of beliefs held elsewhere. That opposition is not found in the practices being
 described. It is imported by the observer, and it belongs to a long Western philosophical
-habit of separating mind from body and belief from behaviour. Having imported it, scholars
+habit of separating mind from body and belief from behavior. Having imported it, scholars
 then discover it everywhere, and write books explaining how ritual expresses, enacts or
 embodies ideas.
 
@@ -163,7 +163,7 @@ written down, taught, reproduced elsewhere by other people, and expected to work
 
 By that standard Masonic initiation qualifies without difficulty. It was specified, taught,
 carried to six continents by men who had learned it in one room and reproduced it in
-another, and adopted wholesale by organisations with entirely different aims on the evident
+another, and adopted wholesale by organizations with entirely different aims on the evident
 assumption that it would keep working.
 
 But there is a trap in the word, and I want to avoid falling into it for forty-five chapters.

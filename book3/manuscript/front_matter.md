@@ -54,5 +54,5 @@ transformations performed on them in Parts III and IX were carried out by machin
 and checked against standard published figures.
 
 The author's Hebrew is not independent. Where a reading depends on philological
-judgement, the text names the scholar whose judgement it follows. This is stated
+judgment, the text names the scholar whose judgment it follows. This is stated
 once here and not repeated, but it applies throughout.

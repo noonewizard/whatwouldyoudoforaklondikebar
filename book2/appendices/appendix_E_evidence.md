@@ -40,7 +40,7 @@ affirms nor refutes it; it declines the question, and says so each time the ques
 2. **Chronology** — does the proposed source predate the proposed recipient?
 3. **Transmission** — is there a documented route, or only a possibility of one?
 4. **Intertextuality** — is there verbal dependence, or only thematic resemblance?
-5. **Institutional continuity** — did an organisation persist, or is continuity inferred?
+5. **Institutional continuity** — did an organization persist, or is continuity inferred?
 6. **Anachronism** — does the claim require someone to have known what was not yet known?
 
 A claim failing question 2 is dead. A claim failing only question 4 may still be true but is

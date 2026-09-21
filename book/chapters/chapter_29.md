@@ -7,7 +7,7 @@ built on Masonic ritual.
 
 They went on being initiated for the next two hundred and seventy years. The rite they
 worked has its own texts, its own degrees, its own officers and its own symbolism, and it
-was practised across France and beyond, in lodges attached to men's lodges, attended by
+was practiced across France and beyond, in lodges attached to men's lodges, attended by
 duchesses and by the wives and daughters of the bourgeoisie, with published rituals and
 documented membership.
 
@@ -145,7 +145,7 @@ most to carry Masonic ritual into the world beyond the Craft.
 Women's Freemasonry exists now and is substantial: in England the Order of Women
 Freemasons and the Honourable Fraternity of Ancient Freemasons, in France several
 obediences, in America a range of bodies including the Eastern Star, which is a different
-kind of organisation again. The United Grand Lodge of England has since 2018 recognised
+kind of organization again. The United Grand Lodge of England has since 2018 recognized
 these bodies as regular in their practice while not in amity with them, and has issued
 guidance on gender reassignment that would have been unimaginable a generation ago.
 
@@ -156,7 +156,7 @@ What the historical record shows is narrower and more useful: that the exclusion
 from Freemasonry was a social decision of 1723, not a structural property of Masonic
 ritual; that the ritual worked perfectly well for women from 1744; and that a great deal of
 what happened next in the esoteric world happened because of bodies that mainstream
-Freemasonry had declined to recognise.
+Freemasonry had declined to recognize.
 
 Part IV is complete. The eighteenth century took a three-degree English moral ceremony and
 turned it into the universal structure for initiatory association in the Western world —

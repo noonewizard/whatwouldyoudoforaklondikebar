@@ -104,7 +104,7 @@ disagreement principle applies: had they intended a doctrine, they would probabl
 recorded one.
 
 What can be said without interpretation is structural, and the structure is consistent.
-**In a system organised around what is not given, the one thing given is another person.**
+**In a system organized around what is not given, the one thing given is another person.**
 Whether that was designed, arrived at, or is an artefact of the fact that somebody has to
 get the candidate up, the arrangement is what it is — and Chapter 47's argument that the
 Craft's measurable effects are the social ones rather than the private ones begins here.
@@ -134,7 +134,7 @@ a promise given and a hand taken, and that the second is the last thing that hap
 
 ### The comparative question, properly posed
 
-There is a legitimate comparative enquiry here and it is worth distinguishing from the
+There is a legitimate comparative inquiry here and it is worth distinguishing from the
 illegitimate one.
 
 **Illegitimate:** Masonry's raising resembles Osiris, therefore Masonry descends from Egypt.

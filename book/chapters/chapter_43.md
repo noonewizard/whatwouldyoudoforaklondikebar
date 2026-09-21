@@ -45,7 +45,7 @@ that a secret which dies with an order is worth nothing.
 ### A∴A∴ and the problem of authority
 
 In 1907 he founded his own order, the A∴A∴, with George Cecil Jones. Its structure is the
-Golden Dawn's, rationalised: a sequence of grades ascending the Tree, with a curriculum, a
+Golden Dawn's, rationalized: a sequence of grades ascending the Tree, with a curriculum, a
 reading list, and — the significant innovation — a rule that each member knows only the
 person who initiated him and the people he initiates.
 
@@ -84,14 +84,14 @@ The O.T.O. is built on a Masonic degree template. Its early rituals derive from 
 continental high-degree systems. Its terminology is Masonic. Reuss possessed patents of
 various provenance for rites that most regular Grand Lodges regarded as clandestine.
 
-The O.T.O. is not, and never was, recognised by any regular Grand Lodge. Crowley's Masonic
+The O.T.O. is not, and never was, recognized by any regular Grand Lodge. Crowley's Masonic
 initiations — there were several, of different kinds, including one in Mexico in 1900 and
 later contacts with Co-Masonry and with irregular bodies — did not give him a standing that
 regular Freemasonry acknowledged, and he knew it. He wrote about the distinction himself,
 sometimes with irritation and sometimes with amusement.[^2]
 
 So the correct statement is: **Crowley was deeply involved with Masonic *forms*, through
-irregular and co-Masonic channels, and had no recognised standing in regular
+irregular and co-Masonic channels, and had no recognized standing in regular
 Freemasonry.**
 
 Both halves of that sentence are load-bearing. Anti-Masonic writing drops the second half.

@@ -1,7 +1,7 @@
 # BIBLIOGRAPHY — BOOK III
 
 **138 entries.** Level A–F per §XXXIII. ✔ = citation verified against a copy or a
-reliable catalogue record; ~ = details substantially confirmed, page-level
+reliable catalog record; ~ = details substantially confirmed, page-level
 verification outstanding; **[SVR]** = source verification required before
 publication.
 

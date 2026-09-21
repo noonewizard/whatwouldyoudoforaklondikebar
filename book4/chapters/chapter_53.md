@@ -11,7 +11,7 @@ what they did specifically to the Temple.
 
 Book III established the transmission chain and this book does not re-derive it.
 Giovanni Pico della Mirandola's *Conclusiones* of 1486 asserted that Kabbalah, read
-correctly, confirmed Christian doctrine. Johannes Reuchlin developed the programme
+correctly, confirmed Christian doctrine. Johannes Reuchlin developed the program
 in *De verbo mirifico* (1494) and *De arte cabalistica* (1517). Christian Knorr von
 Rosenroth's *Kabbala Denudata* (1677–84) made a substantial body of Kabbalistic
 text available in Latin, and became the principal conduit through which later

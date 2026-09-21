@@ -20,7 +20,7 @@ house's width — and ten cubits deep.[^1]
 **The inner sanctuary**, the *debir*, is twenty cubits long, twenty broad, twenty
 high. A cube.[^2]
 
-**Side chambers** surround the house on three sides in three storeys, built
+**Side chambers** surround the house on three sides in three stories, built
 against the wall but — the text is specific about this — not into it: the wall was
 stepped with rebatements so the beams rested on ledges rather than being socketed
 into the sanctuary masonry. The chambers are five, six and seven cubits wide in
@@ -28,7 +28,7 @@ ascending order.[^3]
 
 That is a **tripartite longitudinal plan**: you enter through a porch at the short
 end, cross a long hall, and arrive at a square innermost room. Chapter 5 shows
-that this is a recognisable regional type.
+that this is a recognizable regional type.
 
 ---
 
@@ -145,7 +145,7 @@ points from the Masoretic Text throughout this passage.
 
 [^5]: 1 Kings 7:15–22. 2 Chronicles 3:15 gives the pillar height as thirty-five
 cubits, a discrepancy with Kings that the commentaries discuss and that this book
-notes rather than harmonises.
+notes rather than harmonizes.
 
 [^6]: 1 Kings 6:23–28.
 

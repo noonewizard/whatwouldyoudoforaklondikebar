@@ -151,7 +151,7 @@ evidence gets its full weight, and it deserves it.
 
 But the same books record something else: men who did not lapse. Men who attended for
 forty years, who held every office in turn, who learned thousands of words of ritual by
-heart, who travelled to visit other lodges, who left money to the charity in their wills.
+heart, who traveled to visit other lodges, who left money to the charity in their wills.
 Men, in other words, for whom something evidently took.
 
 Both populations went through the same hour in the same room.

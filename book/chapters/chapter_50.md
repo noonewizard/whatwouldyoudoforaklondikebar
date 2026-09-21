@@ -22,7 +22,7 @@ Barruel and Robison were not inventing from nothing. They had material.
 
 In 1784 and 1785 the Bavarian government suppressed the Order of the Illuminati, founded in
 1776 by Adam Weishaupt, a professor of canon law at Ingolstadt. The order was real. Its
-programme was real: it aimed at the propagation of rationalist, anticlerical and reformist
+program was real: it aimed at the propagation of rationalist, anticlerical and reformist
 ideas, and its method was real too — systematic infiltration of Masonic lodges, in order to
 use their structure and recruit from their membership.
 
@@ -52,7 +52,7 @@ the state.
 **Its membership was small and its reach limited.** The order existed for about a decade in
 a few German territories with a few thousand members at most.
 
-**Its programme was not revolutionary in the French sense.** Weishaupt's aims were
+**Its program was not revolutionary in the French sense.** Weishaupt's aims were
 Enlightenment-reformist. The order's methods were conspiratorial; its objectives were the
 ordinary objectives of the German Aufklärung.
 
@@ -100,12 +100,12 @@ and thirty years.
 Each of these deserves the full six-question treatment and each has received it elsewhere in
 this book or in the scholarship. Here they are in summary.
 
-**The Priory of Sion.** A French organisation of that name was registered under the law of
+**The Priory of Sion.** A French organization of that name was registered under the law of
 associations on 7 May 1956 by Pierre Plantard and three associates. Forged documents — the
 *dossiers secrets*, purporting to establish a Merovingian bloodline and a grand-mastership
 running through Leonardo, Newton and Victor Hugo — were deposited in the Bibliothèque
 nationale in the 1960s. Plantard's fabrications were exposed by French journalists in the
-1980s and he admitted substantial parts of them. The material was popularised in English by
+1980s and he admitted substantial parts of them. The material was popularized in English by
 *Holy Blood, Holy Grail* in 1982 and then, enormously, by a novel in 2003.
 
 **Verdict: a documented modern fabrication with a registration certificate.** It is the
@@ -170,7 +170,7 @@ from Barruel by way of Taxil and the *Protocols*. The satanic-panic material of 
 and 1990s, which drew on the same iconography, sent people to prison for crimes that did not
 happen.
 
-Conspiracy theory is not a colourful margin of this subject. It is the part of it with a
+Conspiracy theory is not a colorful margin of this subject. It is the part of it with a
 body count.
 
 Which is the best argument I know for the method this book has used. The six questions are

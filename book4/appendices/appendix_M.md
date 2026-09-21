@@ -24,10 +24,10 @@ All eleven values each, for direct comparability.
 | Tabernacle (Exodus 26–27) | 3 |
 | Ezekiel's temple, selected (Ezek 40–41) | 2 |
 | Noah's ark (Genesis 6) | 3 |
-| Parthenon (approx. metres) | 3 |
-| Pantheon, Rome (approx. metres) | 1 |
-| Stonehenge sarsen circle (approx. metres) | 2 |
-| Typical Gothic bay (approx. metres) | 4 |
+| Parthenon (approx. meters) | 3 |
+| Pantheon, Rome (approx. meters) | 1 |
+| Stonehenge sarsen circle (approx. meters) | 2 |
+| Typical Gothic bay (approx. meters) | 4 |
 | **Arbitrary integers 1–11 (no building)** | **4** |
 | Mean | 3.20 |
 | Median | 3 |

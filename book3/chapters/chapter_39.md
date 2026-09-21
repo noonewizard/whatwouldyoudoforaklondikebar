@@ -202,7 +202,7 @@ of those defensible choices was a list that guaranteed the result.
 
 ### Why the remedy is procedural, not personal
 
-Which leads to the point this whole part is organised around.
+Which leads to the point this whole part is organized around.
 
 **None of these failures is corrigible by being careful.**
 
@@ -220,7 +220,7 @@ content of Test 4, and it is why that test is the decisive one.
 
 It also explains why the remedy feels so unsatisfying to people who are confident
 they are being rigorous. Writing the method down in advance is an admission that
-one's future judgement cannot be trusted — and the people most certain that theirs
+one's future judgment cannot be trusted — and the people most certain that theirs
 can are the ones for whom the admission is most necessary.
 
 ---

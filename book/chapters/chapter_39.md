@@ -147,7 +147,7 @@ Three things, and none of them is about Freemasonry.
 willingness of substantial parts of French Catholic opinion to accept, without verification,
 an increasingly baroque account of satanic ritual from a recent convert with a history of
 fraud is the actual scandal, and the Church's more careful minds said so at the time — there
-were sceptics throughout, and some of them were vocal.
+were skeptics throughout, and some of them were vocal.
 
 **Two: about the anti-Masonic tradition.** The most famous evidence in the entire history of
 anti-Masonry is a confessed fabrication. Any body of argument whose central document is
@@ -193,7 +193,7 @@ details of the Trent congress of 1896.]**
 [^2]: Abel Clarin de la Rive, *La Femme et l'enfant dans la franc-maçonnerie universelle*
 (Paris, 1894). The forged "instruction of 14 July 1889" appears there. **[SOURCE
 VERIFICATION REQUIRED — page, and the precise French wording, which should be quoted only
-from the 1894 edition. De la Rive's subsequent acknowledgement that he had been deceived
+from the 1894 edition. De la Rive's subsequent acknowledgment that he had been deceived
 should also be verified and cited.]**
 
 [^3]: Léo Taxil, "Douze ans sous la bannière de l'Église," *Le Frondeur* (Paris), 25 April

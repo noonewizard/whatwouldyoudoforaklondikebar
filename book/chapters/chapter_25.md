@@ -141,7 +141,7 @@ on it.
 
 **Within a century, the practices are cited as evidence for the history.** The existence of
 Templar degrees becomes an argument that Masonry is Templar in origin — which is precisely
-backwards, since the degrees were created because of the claim.
+backward, since the degrees were created because of the claim.
 
 That last step is the one to watch for, because it appears everywhere in this subject. It
 is circular sourcing in institutional form: a claim generates a practice, and the practice

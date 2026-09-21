@@ -44,7 +44,7 @@ and its method is not obvious.
 
 ### What is actually in it
 
-*Morals and Dogma* is a work of comparative mythology and moral philosophy organised around
+*Morals and Dogma* is a work of comparative mythology and moral philosophy organized around
 Masonic symbols. Its method is the concordance of Chapter 8 — Pico's method, four hundred
 years on.
 
@@ -135,7 +135,7 @@ Against that: the scale is very large, the borrowing is often close, and the eff
 whether intended or not — was that thousands of readers took Lévi's nineteenth-century
 synthesis for the ancient wisdom of the Craft.
 
-De Hoyos's own judgement, from inside the institution, is worth noting: he published the
+De Hoyos's own judgment, from inside the institution, is worth noting: he published the
 findings. The Scottish Rite's Grand Archivist produced the edition that demonstrates the
 extent of its most famous author's unacknowledged borrowing, and the Rite printed it.
 

@@ -50,14 +50,14 @@ through the Waite–Smith tarot of 1909, whose High Priestess sits between two
 pillars lettered B and J.
 
 **It maps the ascent.** The graded progress through *sefirot* is presented as a
-journey toward a centre, and Temple language — veils, sanctuaries, holy places — is
+journey toward a center, and Temple language — veils, sanctuaries, holy places — is
 applied to the stages.
 
 **But its ritual architecture is not Solomonic.** This is the finding worth
 reporting, because it cuts against expectation.
 
 The Golden Dawn's own temple imagery is overwhelmingly **Egyptian**, not Jewish.
-Its Neophyte hall is furnished as an Egyptian hall of judgement; its officers bear
+Its Neophyte hall is furnished as an Egyptian hall of judgment; its officers bear
 Egyptian god-forms; its symbolism draws on the Book of the Dead as mediated through
 nineteenth-century Egyptology. Its most elaborate physical structure, the Vault of
 the Adepti, is a seven-sided chamber derived from the Rosicrucian *Fama* of 1614 —
@@ -72,7 +72,7 @@ Temple. It built something else and used Temple vocabulary for it.
 
 Because it clarifies what "the Temple in Hermetic Qabalah" actually is.
 
-It is not an architectural programme. It is a **layer of interpretation applied to
+It is not an architectural program. It is a **layer of interpretation applied to
 symbols already in circulation** — many of them acquired from Freemasonry, whose
 ritual structures the Golden Dawn's founders knew well and drew on directly.
 
@@ -95,7 +95,7 @@ Having dated it, a fair assessment of what it is.
 
 Hermetic Qabalah is a **constructed symbolic language of unusual expressive
 range**. Its great virtue is that it is comprehensive: every card, letter, planet,
-colour, metal, plant, and grade has a place, and the places relate. That makes it a
+color, metal, plant, and grade has a place, and the places relate. That makes it a
 powerful instrument for organizing associative thought, for structuring a
 curriculum, and for generating material — which is exactly what its users have
 used it for.

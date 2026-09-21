@@ -27,7 +27,7 @@ Five of them — kaf, mem, nun, pe, tsadi — take a different shape at the end 
 word. These are the *sofit* or final forms, and they are a scribal convenience
 rather than separate letters. This matters more than it sounds: any computation
 performed on Hebrew must decide what to do with them, and a program that does not
-recognise them will silently drop letters and return confident wrong answers.
+recognize them will silently drop letters and return confident wrong answers.
 This book's own calculations did exactly that at one point, and Chapter 14 reports
 the consequence.
 

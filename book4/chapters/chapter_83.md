@@ -41,18 +41,18 @@ automatically.
 
 A rule written in a book must be read, remembered, invoked, and enforced. A rule
 built into a wall enforces itself, continuously, without anyone deciding to do so
-on any particular occasion, and without the possibility of favour, error, or
+on any particular occasion, and without the possibility of favor, error, or
 mercy.
 
 This is a genuine advantage from the institution's point of view and a genuine cost
-from the person's. The wall does not know that this supplicant has travelled a long
+from the person's. The wall does not know that this supplicant has traveled a long
 way. It does not make exceptions. Its impartiality and its indifference are the
 same property.
 
 Chapter 46 made the point in the register of environmental psychology — that
 buildings determine what is physically possible, and that this is the
-best-supported thing architecture does to behaviour. Governance is what that
-determination looks like when the behaviours in question are social.
+best-supported thing architecture does to behavior. Governance is what that
+determination looks like when the behaviors in question are social.
 
 ---
 
@@ -82,7 +82,7 @@ What may be admitted to attention? What may be approached? What may be spoken?
 What may be touched? What may be known about oneself?
 
 The traditions examined in Part IX all answer these, and they answer them with
-architecture: an inner structure with rooms, an order of access, and a centre.
+architecture: an inner structure with rooms, an order of access, and a center.
 Chapter 42 noted the limitation — a person is not a building, and the metaphor
 imports a coherence that people do not have.
 

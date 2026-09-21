@@ -9,7 +9,7 @@ magic and Kabbalah.**
 
 Giovanni Pico della Mirandola did not get his disputation. The Pope appointed a
 commission, the commission condemned thirteen of the theses, Pico published a
-defence, the defence made matters worse, and he spent time in custody in France
+defense, the defense made matters worse, and he spent time in custody in France
 before being rehabilitated. He died at thirty-one.
 
 **But the claim was made, in print, and it opened a channel that ran for four
@@ -59,7 +59,7 @@ literature confiscated and burned, Reuchlin was asked for an opinion and gave on
 against — on the grounds that the books contained matter of value to Christians.
 The controversy ran for years and consumed the attention of learned Europe.[^1]
 
-**Note the shape of the defence.** Reuchlin saved Hebrew books by arguing that
+**Note the shape of the defense.** Reuchlin saved Hebrew books by arguing that
 Christians needed them. That is not tolerance in the modern sense and it should not
 be read as such, but it preserved a great deal, and the consequences for European
 scholarship were substantial.
@@ -138,7 +138,7 @@ enormous collaborative editions setting Hebrew, Greek, Latin, Aramaic and Syriac
 parallel columns, produced at vast expense over decades. The scholarship in them is
 serious, and modern textual criticism is a descendant.
 
-**And the preservation was real.** Reuchlin's defence of Hebrew books against
+**And the preservation was real.** Reuchlin's defense of Hebrew books against
 confiscation was mounted on instrumental grounds — Christians need them — and it
 saved a great deal.
 

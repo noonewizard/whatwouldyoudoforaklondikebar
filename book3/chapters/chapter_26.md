@@ -83,7 +83,7 @@ visible, one- and two-letter words are identifiable, and the structure of the
 message is on display.
 
 **And the texts are short.** Short ciphertexts resist frequency analysis better
-than long ones, which sounds like a defence and is not — because short Masonic
+than long ones, which sounds like a defense and is not — because short Masonic
 texts are names and dates, and a name-and-date inscription on a Masonic gravestone
 is guessable from context by anyone who has seen another one.
 
@@ -104,7 +104,7 @@ that these men could not have found a better cipher is not credible.
 
 Who was the adversary? Chapter 23 asked the question and the pigpen answers it. The
 curious servant who might open a minute book left on a table. The stranger in a
-churchyard. The neighbour wondering what the certificate says.
+churchyard. The neighbor wondering what the certificate says.
 
 Against those, an unkeyed grid is entirely adequate. It stops the casual reader and
 it stops nobody else, which is exactly the level of protection the situation

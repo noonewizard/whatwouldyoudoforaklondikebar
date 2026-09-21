@@ -138,7 +138,7 @@ A caution, because the performative material is easily overextended and frequent
 is.
 
 Austin's category covers utterances whose effects are **conventional**. The marriage
-is real because a society has agreed on a procedure and recognises its outcome. The
+is real because a society has agreed on a procedure and recognizes its outcome. The
 verdict binds because a legal system enforces it. The promise obliges because we
 have a practice of holding people to promises. **In every case the power lies in
 the convention, not in the sound.**
@@ -239,5 +239,5 @@ taxonomy; readers wanting the distinctions properly should consult Lectures IIâ€
 [^2]: John R. Searle, *Speech Acts* (Cambridge: Cambridge University Press, 1969),
 develops the account in a direction Austin did not live to pursue.
 
-[^3]: On the ritual obligation and the evidence for its behavioural consequences,
+[^3]: On the ritual obligation and the evidence for its behavioral consequences,
 see the preceding volume of this series, Part XI.

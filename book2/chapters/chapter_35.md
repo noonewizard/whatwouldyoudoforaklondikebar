@@ -40,7 +40,7 @@ That is what changed. Everything else is inference.
 
 The social-psychological literature on group membership and self-concept is large and the
 general findings are not controversial: that categories which are made salient and are
-confirmed by others become self-descriptive, and that self-descriptions influence behaviour.
+confirmed by others become self-descriptive, and that self-descriptions influence behavior.
 
 The mechanisms are unglamorous. Repeated use of a category in address. Visible markers.
 Differential treatment by insiders and outsiders. Obligations attached to the category.
@@ -148,7 +148,7 @@ What it might produce instead:
 
 **A memory** — durable, dated, retrievable for fifty years. Well evidenced.
 
-**A set of obligations** — with documented behavioural consequences in charity, relief and
+**A set of obligations** — with documented behavioral consequences in charity, relief and
 mutual aid. Well evidenced.
 
 **A vocabulary** — the tools, the Temple, the level, the unfinished work — available for

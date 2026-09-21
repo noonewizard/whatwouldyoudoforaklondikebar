@@ -23,7 +23,7 @@ than either a threat or an embarrassment.
 ### Where the language comes from
 
 The penalties are not a Masonic invention and they are not occult. They belong to a
-recognisable family of early modern oath formulae.
+recognizable family of early modern oath formulae.
 
 Oaths of that period routinely specified consequences, often physical, often anatomically
 vivid, invoked upon the swearer by his own mouth. Guild oaths, apprenticeship bonds, legal
@@ -89,7 +89,7 @@ reason this chapter exists in the form it does.
 There is a famous experimental finding that appears to explain all of this, and it is
 routinely invoked in discussions of fraternal initiation. In 1959 Elliot Aronson and Judson
 Mills published a study in which participants who underwent a more severe initiation in
-order to join a discussion group subsequently rated that group more favourably than
+order to join a discussion group subsequently rated that group more favorably than
 participants who underwent a mild initiation or none. The interpretation — that people
 resolve the dissonance of having paid a high price for something dull by revaluing the
 thing — became one of the best-known results in social psychology.[^3]
@@ -111,7 +111,7 @@ Chapter 38 warning against: taking a striking result and treating its strikingne
 evidence.
 
 So the honest position is narrower. **The general proposition that public, voluntary,
-effortful commitment shapes subsequent behaviour and self-description more than private or
+effortful commitment shapes subsequent behavior and self-description more than private or
 costless assent is reasonably well supported across several literatures.** The specific,
 quantified claim that severity of initiation produces group liking is not something I can
 responsibly build on.
@@ -135,7 +135,7 @@ Two consequences follow, and both leave records.
 **Enforcement is social, not penal.** The throat-cutting was never the sanction. The sanction
 was that these men, whom you see monthly and do business with, would know. Lodge minutes
 record the actual mechanism: charges brought, committees appointed, members admonished,
-suspended and excluded.[^4] The penalties in the obligation are theatre; the ballot and the
+suspended and excluded.[^4] The penalties in the obligation are theater; the ballot and the
 exclusion list are the enforcement.
 
 **And the obligation is mutual.** The candidate swears to the lodge, but every man in the
@@ -162,7 +162,7 @@ The positive content — aid a brother, keep his lawful secrets, answer his sign
 comparatively brief.
 
 If you wanted to design a ceremony that produced virtuous men, you would presumably load the
-dramatic centre with positive undertakings. Masonry loads it with prohibitions and
+dramatic center with positive undertakings. Masonry loads it with prohibitions and
 concealment.
 
 Two readings are available. The uncharitable one is that the institution's deepest concern

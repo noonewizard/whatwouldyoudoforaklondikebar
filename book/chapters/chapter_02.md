@@ -11,7 +11,7 @@ could act.
 Heinrich Cornelius Agrippa called this *magia*. He also called it the highest of the
 sciences, "the most perfect and chief science, that sacred and sublimer kind of
 philosophy," and he meant it. To him, magic was not a deviation from natural philosophy.
-It was natural philosophy, completed: the study of nature in its lower storey, of the
+It was natural philosophy, completed: the study of nature in its lower story, of the
 heavens in its middle, and of the divine in its upper, all at once.
 
 Two hundred years later, an Englishman using the same word would have meant a village
@@ -19,7 +19,7 @@ woman muttering over a sick cow, and would have used it to mean *fraud*.
 
 A hundred and fifty years after that, a Frenchman who had trained for the priesthood and
 then written revolutionary pamphlets would pick the word up again and mean something
-neither Agrippa nor the Englishman would have recognised: a science of the will, in which
+neither Agrippa nor the Englishman would have recognized: a science of the will, in which
 the operator's own imagination was the instrument and the operator's own transformation
 was the point.
 
@@ -94,7 +94,7 @@ that studied them was called natural magic. Much of it is simply pre-modern scie
 a good deal of it worked.
 
 **Celestial** or **astral magic** adds the heavens: the doctrine that the planets shape
-terrestrial things, and that a practitioner can draw down a favourable influence by
+terrestrial things, and that a practitioner can draw down a favorable influence by
 assembling the right materials at the right time. Marsilio Ficino's medical advice to
 melancholy scholars — sunlight, gold, music in the Solar mode — is astral magic, and he
 published it under a cardinal's nose.
@@ -246,12 +246,12 @@ of magic was produced by, and remained useful to, the disciplinary self-definiti
 religion and science alike.
 
 [^2]: Bernd-Christian Otto and Michael Stausberg, eds., *Defining Magic: A Reader*
-(Sheffield: Equinox, 2013), which collects and analyses the major definitional attempts
+(Sheffield: Equinox, 2013), which collects and analyzes the major definitional attempts
 from antiquity to the present.
 
 [^3]: Heinrich Cornelius Agrippa, *De occulta philosophia libri tres* (Cologne, 1533);
 composed c. 1509–10 and circulated in manuscript long before publication. Critical
-edition: V. Perrone Compagni, ed. (Leiden: Brill, 1992). The characterisation of magic as
+edition: V. Perrone Compagni, ed. (Leiden: Brill, 1992). The characterization of magic as
 "the most perfect and chief science" appears in the opening chapters of Book I; quoted
 here from the standard English rendering. **[SOURCE VERIFICATION REQUIRED — exact
 wording and chapter.]**

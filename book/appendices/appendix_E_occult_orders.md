@@ -14,7 +14,7 @@ the evidentiary status of its origin claim.
 **Masonic relation** Required Master Mason status for admission. The clearest institutional
 evidence of the carriage thesis in the eighteenth century.
 **Origin claim** Descent from a seventeenth-century Rosicrucian brotherhood. **Unsupported:
-no such organisation existed.**
+no such organization existed.**
 **Notes** Its members Wöllner and Bischoffwerder reached ministerial power in Prussia after
 1786. Its grade structure descends to the SRIA and thence to the Golden Dawn.
 
@@ -56,7 +56,7 @@ Orientalism.
 Co-Masonry from 1902.
 **Origin claim** Direction by the Mahatmas or Masters, a hidden brotherhood of adepts.
 **Unsupported.**
-**Notes** Among the most culturally consequential organisations in this book. Its effects on
+**Notes** Among the most culturally consequential organizations in this book. Its effects on
 Indian and Sinhalese cultural nationalism, on modern astrology, and on twentieth-century
 alternative spirituality are large and documented.
 
@@ -104,7 +104,7 @@ Martin had readers, not an order. The doctrinal inheritance is real.**
 ### A∴A∴
 
 **Founded** 1907, by Aleister Crowley and George Cecil Jones.
-**Structure** Golden Dawn grades on the Tree of Life, rationalised, with a curriculum and a
+**Structure** Golden Dawn grades on the Tree of Life, rationalized, with a curriculum and a
 reading list. Each member knows only his initiator and his initiates.
 **Origin claim** Crowley's own attainment and the authority of *Liber AL vel Legis*.
 **Notes** The structural rule is a deliberate solution to the authority crisis that
@@ -119,7 +119,7 @@ Britain and Ireland in 1912 and later head of the order.
 **Structure** A degree ladder built on Masonic high-degree models drawn from irregular
 continental rites, including Memphis and Misraim.
 **Content** After Crowley, Thelema; sexual magic in the higher degrees.
-**Masonic relation** Derived from fringe-Masonic degree systems. **Not recognised by any
+**Masonic relation** Derived from fringe-Masonic degree systems. **Not recognized by any
 regular Grand Lodge.**
 **Origin claim** Templar and Masonic descent. **Unsupported as descent; the borrowing of
 degree structure from irregular Masonic rites is documented.**

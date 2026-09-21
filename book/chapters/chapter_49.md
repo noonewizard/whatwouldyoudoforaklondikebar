@@ -40,7 +40,7 @@ enough to be interesting.
 reference. **Transmission:** no route. **Intertextuality:** nothing Templar in Masonic
 material before the 1730s. **Institutional continuity:** the order was suppressed
 comprehensively and left no successor. **Anachronism:** the claim itself first appears after
-Ramsay's chivalric opening of 1736 and is systematised by von Hund from the 1750s.
+Ramsay's chivalric opening of 1736 and is systematized by von Hund from the 1750s.
 
 **Verdict: UNSUPPORTED — and, unusually, refuted by its own adherents.** The Convent of
 Wilhelmsbad in 1782, composed of men who had built an international order on the claim, set
@@ -50,7 +50,7 @@ it aside for want of evidence.
 
 ### 3. Freemasonry descends from Rosicrucianism
 
-**Provenance:** the manifestos exist; the organisation does not. **Chronology:** the
+**Provenance:** the manifestos exist; the organization does not. **Chronology:** the
 manifestos (1614–16) precede Grand Lodge, but the first actual Rosicrucian *order* — the
 Gold- und Rosenkreuz — postdates it by decades. **Transmission:** none inward.
 **Institutional continuity:** the seventeenth-century brotherhood had no members to
@@ -129,7 +129,7 @@ co-founder said so** — Mathers told the London members in 1900 that Westcott h
 letters.
 
 **Verdict: UNSUPPORTED.** The Golden Dawn is a creative synthesis of extraordinary quality
-assembled from printed books, and the pedigree was supplied afterwards.
+assembled from printed books, and the pedigree was supplied afterward.
 
 ---
 

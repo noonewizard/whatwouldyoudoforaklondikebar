@@ -5,7 +5,7 @@ The Hermetic Order of the Golden Dawn existed, in its original form, for about t
 years. At its peak it had perhaps three hundred members. It fell apart in a series of
 quarrels so undignified that one of them ended in a London police court.
 
-It is the most influential magical organisation in history, and essentially everything in
+It is the most influential magical organization in history, and essentially everything in
 modern Western ceremonial magic descends from it.
 
 ---
@@ -67,7 +67,7 @@ talent will do it.**
 
 So: what did the Golden Dawn take from Freemasonry?
 
-This is the question the whole book has been travelling toward, and it deserves a proper
+This is the question the whole book has been traveling toward, and it deserves a proper
 answer rather than a slogan. Here it is, item by item.
 
 **Borrowed from Masonry.**
@@ -78,8 +78,8 @@ sequence — Neophyte, Zelator, Theoricus, Practicus, Philosophus, then the Seco
 comes via the SRIA from the Gold- und Rosenkreuz of Chapter 28, which is itself a Masonic-
 requiring body.
 
-*The temple.* A room arranged with officers at stations, an altar at the centre, cardinal
-orientation, and movement between points. Anyone who has read Chapter 17 will recognise the
+*The temple.* A room arranged with officers at stations, an altar at the center, cardinal
+orientation, and movement between points. Anyone who has read Chapter 17 will recognize the
 blocking immediately.
 
 *The officers.* A presiding chief, subordinate officers with defined stations and functions,
@@ -108,7 +108,7 @@ is, as Chapter 12 showed, a direct construction from the *Fama Fraternitatis* of
 Life. There is nothing of this in Masonry.
 
 *The system of correspondences.* Elements, planets, zodiacal signs, Hebrew letters, tarot
-trumps, colours, gods, plants and perfumes, all mapped onto each other and onto the Tree.
+trumps, colors, gods, plants and perfumes, all mapped onto each other and onto the Tree.
 This is the Agrippan tradition of Chapter 9 fused with Lévi's tarot-Kabbalah equation of
 Chapter 35 — and it is the Order's greatest single intellectual achievement.
 
@@ -146,7 +146,7 @@ printed books in a private library.
 
 The founders did not find magic hidden in Freemasonry. They took the Masonic apparatus,
 which they knew from the inside, because it was the best available technology for
-organising graded initiatory instruction — and they loaded it with material they had
+organizing graded initiatory instruction — and they loaded it with material they had
 assembled themselves from the antiquarian book trade.
 
 That is the carriage thesis, in its most important single instance, with the components
@@ -180,10 +180,10 @@ The Order broke into fragments: the Stella Matutina, the Alpha et Omega, A. E. W
 Independent and Rectified Rite, and others.
 
 And the mechanism of its destruction is the same mechanism that destroyed the Rite of Strict
-Observance a hundred and twenty years earlier. **An organisation whose authority rests on
+Observance a hundred and twenty years earlier. **An organization whose authority rests on
 superiors who cannot be produced will eventually be asked to produce them.** Von Hund could
 not. Westcott could not. Mathers could not. In each case the demand came from within, and in
-each case the organisation did not survive it.
+each case the organization did not survive it.
 
 ---
 

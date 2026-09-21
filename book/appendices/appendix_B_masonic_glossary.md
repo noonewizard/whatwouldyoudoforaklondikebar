@@ -26,7 +26,7 @@ Masonic allegory, the candidate before and after improvement.
 
 **Cable-tow.** The cord placed about the candidate in the admission ceremony.
 
-**Catechism.** The memorised question-and-answer sequence by which a Mason's standing is
+**Catechism.** The memorized question-and-answer sequence by which a Mason's standing is
 tested and the lodge's symbolism rehearsed.
 
 **Charges, the.** Regulations of conduct read to a candidate. In the Old Charges, appended
@@ -58,7 +58,7 @@ nor murdered.
 **Hoodwink.** The blindfold used in the admission ceremony.
 
 **Irregular / clandestine.** Terms used by a grand body for another body it does not
-recognise. Jurisdictional and political, not historical, and in the American case carrying a
+recognize. Jurisdictional and political, not historical, and in the American case carrying a
 racial history.
 
 **Jachin and Boaz.** The two pillars of Solomon's Temple (1 Kings 7:21), represented in the
@@ -83,14 +83,14 @@ by the Grand Lodge of England on 29 September 1784 with Prince Hall as Master.
 **Provincial / District Grand Lodge.** An administrative body governing lodges in a region
 or territory under a grand lodge.
 
-**Regular.** Recognised by a given grand body as legitimate; see *irregular*.
+**Regular.** Recognized by a given grand body as legitimate; see *irregular*.
 
-**Royal Arch.** A degree centred on the recovery of a lost divine name, developing in England
+**Royal Arch.** A degree centerd on the recovery of a lost divine name, developing in England
 and Ireland in the mid-eighteenth century; included within "pure Ancient Masonry" by the
 Act of Union of 1813.
 
 **Scottish Rite (Ancient and Accepted).** A system of high degrees, thirty-three in its
-developed form, of substantially French origin, organised in America from 1801.
+developed form, of substantially French origin, organized in America from 1801.
 
 **Tracing board.** A design containing the symbols of a degree; originally drawn on the floor
 in chalk and erased after the meeting, later painted on cloth or board.

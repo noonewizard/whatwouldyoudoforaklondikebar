@@ -40,7 +40,7 @@ original Masonic secrets were largely of this type. In the medieval and early mo
 building trades, a mason arriving at a strange site needed to demonstrate that he was
 what he claimed to be — trained, entitled, entered into the craft. A word and a grip did
 that. The Scottish catechisms of the 1690s, our earliest ritual evidence, are substantially
-concerned with exactly this: how to recognise a brother, what to say, what to answer.[^2]
+concerned with exactly this: how to recognize a brother, what to say, what to answer.[^2]
 This kind of secret is damaged by publication, but only in proportion to how many
 impostors bother to read the pamphlet.
 
@@ -152,13 +152,13 @@ the hand of anyone arguing for a hidden transmission, and it deserves a serious 
 
 The answer has three parts.
 
-First, **secrecy is never total, and it leaks in predictable directions**. Organisations
+First, **secrecy is never total, and it leaks in predictable directions**. Organizations
 keep minutes. Members write letters. Rituals must be taught, which means they must be
 transmitted, which means they exist somewhere in a recoverable form. Disgruntled members
 publish. Governments raid. Widows sell papers. The eighteenth-century Bavarian Illuminati
-were as secretive an organisation as this history contains, and we possess their internal
+were as secretive an organization as this history contains, and we possess their internal
 correspondence because the Bavarian state seized it and printed it in 1787. When an
-organisation genuinely existed and genuinely operated, it almost always left a trail.
+organization genuinely existed and genuinely operated, it almost always left a trail.
 *Total* absence of evidence, over centuries, across multiple countries, is itself a fact
 requiring explanation.
 

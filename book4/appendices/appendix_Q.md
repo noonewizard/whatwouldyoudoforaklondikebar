@@ -7,10 +7,10 @@ replication.** Everything else carries its status. This appendix is the register
 
 | Finding | Status | Ch. |
 |---|---|---|
-| Buildings determine what is physically possible; behaviour settings | **Constraint — not in dispute** | 46 |
+| Buildings determine what is physically possible; behavior settings | **Constraint — not in dispute** | 46 |
 | Visual attention is limited and directed by physical arrangement | **Optics — not in dispute** | 47 |
 | Restorative environments; daylight, views, natural settings | **Reasonably supported**; Ulrich (1984) is small and of its period, a landmark rather than a demonstration | 46 |
-| Conceptual metaphor: abstract thought structured spatially | **Robust as linguistics**; the experimental embodiment programme is not | 46, 49 |
+| Conceptual metaphor: abstract thought structured spatially | **Robust as linguistics**; the experimental embodiment program is not | 46, 49 |
 | Event segmentation at boundaries | **Well supported** | 48 |
 | The doorway effect specifically | **Conditional.** More dependent on memory load than early reports suggested; at least one replication failed under low load **[SVR]** | 48 |
 | Ceiling height changes cognitive style (Meyers-Levy & Zhu 2007) | **E4.** Social priming; replication status not verified by this book **[SVR]** | 49 |
@@ -25,7 +25,7 @@ replication.** Everything else carries its status. This appendix is the register
 | A brain region for religious experience | **No such finding exists** | 51 |
 | Situational dependence of apparent character traits | **Well supported**, and it cuts against the architectural model of character | 45 |
 | Self-report of *why* an experience mattered | **Unreliable** — old and replicated | 45 |
-| Voluntary association membership: social and wellbeing correlates | **Broadly favourable**, and silent on whether content matters beyond belonging | 45 |
+| Voluntary association membership: social and wellbeing correlates | **Broadly favorable**, and silent on whether content matters beyond belonging | 45 |
 
 ### The rule behind the register
 

@@ -8,7 +8,7 @@ before that there is nothing.
 This is the most remarkable fact in Masonic history, and it is remarkable in a way that
 cuts against both the parties usually arguing about it. The ancient-wisdom school has to
 explain why a legend supposedly carried from antiquity leaves no trace until the reign of
-George II. The sceptical school has to explain how a drama of that quality was composed by
+George II. The skeptical school has to explain how a drama of that quality was composed by
 persons unknown, adopted across an entire institution within a few years, and left no
 draft, no attribution and no record of the decision.
 
@@ -106,7 +106,7 @@ And Grand Lodge's own records show the third degree being worked in London lodge
 mid-1720s onward, with the practice spreading through that decade.[^2]
 
 A window of roughly six years, in one city, at the exact moment when a new Grand Lodge was
-standardising and publishing and expanding — and when, not coincidentally, London theatre
+standardizing and publishing and expanding — and when, not coincidentally, London theater
 was in one of its most vigorous periods.
 
 ---

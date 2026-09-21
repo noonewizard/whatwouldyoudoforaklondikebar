@@ -5,7 +5,7 @@ A regiment of the British army in the eighteenth century might carry, among its
 impedimenta, a warrant.
 
 Irish Grand Lodge in particular issued charters to lodges attached to regiments rather than
-to places — travelling lodges, which moved with the battalion and could be opened wherever
+to places — traveling lodges, which moved with the battalion and could be opened wherever
 it was quartered. There were hundreds of them. They operated in Ireland, in England, in the
 Americas, in the Caribbean, in India, in the Mediterranean, in Africa, and wherever else the
 British army went, which by the nineteenth century was very nearly everywhere.
@@ -49,7 +49,7 @@ warrants and correspondence flowing back to London, Edinburgh and Dublin.
 
 And here the tension of the last two chapters reappears, sharpened.
 
-Masonic rhetoric was emphatically universal. The Craft declared itself the centre of union
+Masonic rhetoric was emphatically universal. The Craft declared itself the center of union
 among men who would otherwise have remained at a perpetual distance. It admitted men
 without regard to nation or creed. In India, lodges admitted Indians — Parsis first and
 most readily, then Hindus and Muslims — and Anderson's religious formula was stretched to
@@ -61,7 +61,7 @@ surrounding colonial society would have predicted.
 It was also, everywhere, contested and limited. Admission of non-Europeans was resisted in
 many lodges, granted grudgingly in others, and in some colonial contexts effectively
 prohibited by social practice regardless of what the constitutions said. In southern Africa
-and in the Caribbean, colour lines ran through the Craft as they ran through everything
+and in the Caribbean, color lines ran through the Craft as they ran through everything
 else. And the entire imperial Masonic network operated as an instrument of an imperial
 project, whatever its members believed about brotherhood.
 
@@ -74,7 +74,7 @@ numbers and found it useful.
 
 Thierry Zarcone's work on Freemasonry in the Ottoman and Islamic world documents the latter
 case in detail: lodges as sites of reformist politics, of contact between Ottoman elites and
-European ideas, and eventually of nationalist organising — which is to say, Masonic
+European ideas, and eventually of nationalist organizing — which is to say, Masonic
 structures used against the imperial interests that had carried them there.[^2]
 
 The form again. It travels, and it does what its users want.
@@ -86,7 +86,7 @@ The form again. It travels, and it does what its users want.
 A second case, differently instructive.
 
 Jewish men were admitted to English lodges within a few years of the 1723 *Constitutions*,
-at a time when Jews in Britain laboured under substantial civil disabilities and would not
+at a time when Jews in Britain labored under substantial civil disabilities and would not
 be admitted to Parliament for another century and a quarter. Anderson's formula — the
 religion in which all men agree — made it possible, and lodges took the opportunity.
 
@@ -106,7 +106,7 @@ across Europe; Masonic bodies were suppressed in Italy, Germany, Spain and occup
 territories, and Masons were among the groups deported and killed.
 
 That deserves to be stated plainly in a book about Masonic secrecy, because it is the
-clearest possible demonstration of what opacity costs. An organisation that will not
+clearest possible demonstration of what opacity costs. An organization that will not
 explain itself supplies its enemies with a blank surface. In the twentieth century, people
 wrote things on that surface and then killed for them.
 
@@ -148,7 +148,7 @@ The Atlantic and imperial chapters establish something the esoteric chapters can
 precisely because no esotericism is involved.
 
 The Masonic form proved portable to a degree that no other institutional form of its period
-matched. It crossed oceans, empires, languages, religions, classes and the colour line. It
+matched. It crossed oceans, empires, languages, religions, classes and the color line. It
 was used by revolutionaries and loyalists, slaveholders and abolitionists, imperial
 administrators and anti-imperial nationalists, aristocrats and clerks, men and women.
 

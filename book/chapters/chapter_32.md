@@ -7,7 +7,7 @@ Lodge No. 459 in Boston, Massachusetts. Its Master was a free Black man named Pr
 The warrant took three years to arrive. When it did, the lodge it authorised was as regular
 as any in America — chartered by the same body, under the same constitutions, working the
 same degrees. And American Freemasonry spent the next two hundred years declining to
-recognise it.
+recognize it.
 
 The reasons given changed over time. The reason did not.
 
@@ -43,7 +43,7 @@ In March 1775, Prince Hall and fourteen other free Black men were initiated into
 Freemasonry in Boston — not by an American lodge, but by a military lodge attached to a
 British regiment then garrisoning the town, on the eve of the Revolution.[^2]
 
-The circumstance is worth pausing on. Irish military lodges travelling with British
+The circumstance is worth pausing on. Irish military lodges traveling with British
 regiments were among the most prolific initiators in the eighteenth-century Masonic world,
 and they operated with a latitude that settled lodges did not. When the regiment departed,
 the fifteen men were left with a permission to meet as a lodge but without a charter to
@@ -60,7 +60,7 @@ Lodge that had chartered lodges across the colonies.
 
 ### The refusal
 
-American Masonic bodies did not recognise it, then or for a very long time afterwards.
+American Masonic bodies did not recognize it, then or for a very long time afterward.
 
 The arguments deployed over two centuries were various: that the warrant lapsed when
 English Grand Lodge authority ended in America; that African Lodge had become irregular by
@@ -68,15 +68,15 @@ failing to affiliate; that territorial jurisdiction was exclusive and a state Gr
 could not permit a second body in its territory. These are real points of Masonic law and
 they were argued with great technical seriousness.
 
-They were also applied to no other case with anything like the same rigour. The territorial
+They were also applied to no other case with anything like the same rigor. The territorial
 argument, in particular, was applied in states where multiple grand bodies had coexisted
-without difficulty, and was maintained in jurisdictions that recognised foreign grand
+without difficulty, and was maintained in jurisdictions that recognized foreign grand
 lodges thousands of miles away while refusing the one in their own city.
 
 The stated reasons were jurisdictional. The operative reason was race, and the historical
 scholarship is unanimous on this.[^3]
 
-Recognition came slowly and unevenly. Some northern jurisdictions recognised Prince Hall
+Recognition came slowly and unevenly. Some northern jurisdictions recognized Prince Hall
 Grand Lodges from the late twentieth century; a number of southern ones did not do so until
 the twenty-first; at the time of writing, a small number still have not.
 
@@ -84,12 +84,12 @@ the twenty-first; at the time of writing, a small number still have not.
 
 ### What it means for this book
 
-I have placed this chapter at the structural centre of the book's argument, and not for the
+I have placed this chapter at the structural center of the book's argument, and not for the
 reason a reader might expect. It is here because it is *evidence*.
 
 Part IV showed Masonic form being filled with content from outside: chivalric, Templar,
 theurgic, alchemical. Chapter 29 showed it filled with Genesis and adapted for women. The
-pattern was clear but a sceptic could still object that all of those cases involve
+pattern was clear but a skeptic could still object that all of those cases involve
 initiatory or religious content, and that there might be something in Masonic ritual that
 specifically invites it.
 
@@ -99,7 +99,7 @@ Here the same form — identical degrees, identical warrant, identical ritual �
 by a community for whom its meaning is *neither esoteric nor moral but political*: an
 institution of self-governance in a society that permitted them none. A lodge is a body
 that elects its own officers, keeps its own funds, disciplines its own members, buries its
-own dead with honour, and corresponds as an equal with bodies abroad. For free Black
+own dead with honor, and corresponds as an equal with bodies abroad. For free Black
 Bostonians in 1787, none of those capacities was available anywhere else.
 
 Chernoh Sesay's work on the social origins of Black Freemasonry makes the case in detail:
@@ -138,7 +138,7 @@ globe while proclaiming universal brotherhood, and their local application of th
 brotherhood was calibrated precisely to colonial racial hierarchy.[^5]
 
 I do not think this makes the universalist language hypocritical, exactly. I think it makes
-it *unfinished* — a claim made in advance of anybody's willingness to honour it, which
+it *unfinished* — a claim made in advance of anybody's willingness to honor it, which
 people then held the institution to. Prince Hall's petitions are an example of exactly that
 move: taking the Revolution's language of natural right and insisting on its application.
 His lodge did the same thing with the Craft's.
@@ -153,7 +153,7 @@ substantial part of why Masonic language proved so useful to the people it exclu
 
 Prince Hall Freemasonry became one of the most important institutions in African American
 life. Through the nineteenth century and into the twentieth, Prince Hall lodges were
-centres of leadership, mutual aid and respectability politics, with a membership that
+centers of leadership, mutual aid and respectability politics, with a membership that
 included a large share of Black professional and civic leadership. W. E. B. Du Bois was a
 member. Thurgood Marshall was a member.
 

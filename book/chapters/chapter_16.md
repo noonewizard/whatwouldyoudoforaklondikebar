@@ -29,7 +29,7 @@ country. The new rule is: be of the religion in which all men agree.
 And since the religion in which all men agree is, necessarily, whatever remains when you
 subtract everything people disagree about, the sentence has the effect of removing
 confessional doctrine from the qualifications for membership. Trinity, sacraments, papal
-authority, predestination, the real presence, church government — the entire catalogue of
+authority, predestination, the real presence, church government — the entire catalog of
 things Europeans had been killing each other over for two centuries — are placed outside
 the lodge door and described as "particular Opinions."
 
@@ -59,12 +59,12 @@ demonstrated Newton's work publicly, a Fellow of the Royal Society, and Grand Ma
 1719.[^2]
 
 Berman's argument is that this group did not inherit Freemasonry so much as reconfigure it
-— that the organisation was radically reshaped by a small, largely self-appointed core
-with a coherent social and political programme.
+— that the organization was radically reshaped by a small, largely self-appointed core
+with a coherent social and political program.
 
 Margaret Jacob, approaching from a different angle, places the same development inside the
 emergence of European civil society: lodges as places where men of different ranks met on
-declared equality, elected their officers, kept accounts, debated procedure, and practised
+declared equality, elected their officers, kept accounts, debated procedure, and practiced
 a form of associational life that had few other outlets in the period. Her term for this
 is the making of a new kind of public.[^3]
 
@@ -83,7 +83,7 @@ no interest in flattering its subject.
 
 The achievement is real and should not be patronised. In 1723, within living memory of a
 civil war fought partly over church government, in a country with penal laws against
-Catholics and disabilities against Dissenters and Jews, a public organisation declared that
+Catholics and disabilities against Dissenters and Jews, a public organization declared that
 it would not ask. Jewish members appear in London lodges within a few years of the
 *Constitutions*.[^4] Continental lodges would admit across confessional lines in places
 where that was socially extraordinary. The lodge was, for a great many eighteenth-century

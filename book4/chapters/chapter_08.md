@@ -102,7 +102,7 @@ continued, the pilgrimages continued, the restriction on entering the Holy of
 Holies continued to mean something.
 
 That is the pattern this book keeps finding, and it is worth naming early:
-**removal did not diminish the centre. It completed it.** Chapter 85 returns to
+**removal did not diminish the center. It completed it.** Chapter 85 returns to
 this when the whole building has gone the same way.
 
 ---
@@ -113,7 +113,7 @@ this when the whole building has gone the same way.
 
 [^2]: 1 Kings 8:9 says the Ark contained only the two tablets; Hebrews 9:4 gives a
 fuller list, reflecting a different tradition. The discrepancy is noted, not
-harmonised.
+harmonized.
 
 [^3]: 1 Kings 8:1–9.
 

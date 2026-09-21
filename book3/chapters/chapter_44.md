@@ -73,7 +73,7 @@ the space — it produces it, by acts of designation, boundary and attention.[^1
 
 The room is not special. It is a room over a pub, or a hall, or in later periods a
 purpose-built building — and the Craft has never claimed otherwise. What makes it a
-lodge is an act: the lodge is *opened*, by a prescribed procedure, and afterwards it
+lodge is an act: the lodge is *opened*, by a prescribed procedure, and afterward it
 is *closed*, and between those two acts the room has a different status.
 
 **The designation is explicit, it is performed, and it is reversible.** After the

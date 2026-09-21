@@ -8,7 +8,7 @@ signed a document regulating the masons of his kingdom, and thereby — without 
 intention of doing so — began Freemasonry.
 
 William Schaw was a courtier. He had charge of the royal building works: palaces,
-repairs, the machinery of a small monarchy's architectural ambitions. He had travelled on
+repairs, the machinery of a small monarchy's architectural ambitions. He had traveled on
 the continent, he was a Catholic in a Protestant country, and he seems to have been the
 kind of administrator who thinks institutions should be tidy. The statutes he issued in
 1598 and again, more remarkably, in 1599 are administrative documents. They are about
@@ -93,10 +93,10 @@ Which would you expect a Scottish master mason to be tested on?
 
 The statutes' own context suggests the first. The surrounding clauses are about
 apprenticeship terms and fines. The lodge's business was a trade. And the thing a mason
-needed to memorise — the catechism, the questions and answers by which he could be
-recognised — is exactly the kind of material the ordinary mnemonic art was for.
+needed to memorize — the catechism, the questions and answers by which he could be
+recognized — is exactly the kind of material the ordinary mnemonic art was for.
 
-The transmission question is also unanswered. Schaw had travelled; he was educated; the
+The transmission question is also unanswered. Schaw had traveled; he was educated; the
 Scottish court had continental connections. It is *possible* that he knew the Brunian
 tradition. Nobody has produced evidence that he did.
 
@@ -150,7 +150,7 @@ Step back and look at what exists in Scotland by, say, 1650.
 
 A network of permanent local bodies. Each with a written record. Each with authority over
 its members. Each with an admission ceremony involving an oath. Each holding a body of
-memorised material — a catechism of questions and answers, a word, a grip — which
+memorized material — a catechism of questions and answers, a word, a grip — which
 distinguishes members from non-members. Each with a legendary history reaching to
 antiquity. And each, increasingly, containing men who have nothing to do with the trade
 the whole thing is nominally about.

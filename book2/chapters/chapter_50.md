@@ -75,7 +75,7 @@ says: *the thing you came for is not here, it is not withheld from you by us, an
 that it is not here is what we have to teach.*
 
 Whether this constitutes wisdom or merely an elegant way of managing disappointment is a
-judgement the evidence cannot settle, and this book will not pretend otherwise. What can be
+judgment the evidence cannot settle, and this book will not pretend otherwise. What can be
 said is narrower and more defensible: of the two structures, the deferring one is the one
 that keeps working after the ceremony ends. If the unit of analysis is the career and not
 the ceremony — the claim this book has argued since Chapter 6 — then a design that leaves
@@ -87,7 +87,7 @@ something permanently open is a better instrument than one that closes.
 
 The same logic governs the building.
 
-Masonic symbolism is organised around a temple that was completed, destroyed, and is being
+Masonic symbolism is organized around a temple that was completed, destroyed, and is being
 built again — and the rebuilding is never shown finished. The candidate is a rough ashlar
 being worked toward a perfect one, and no ritual anywhere declares the work done. Lodges
 close; members die; the temple remains under construction. The imagery of the unfinished
@@ -98,11 +98,11 @@ internal coherence of a symbolic system, not about that system's origins and not
 truth. Nothing here shows that the eighteenth-century compilers intended a doctrine of
 permanent incompletion; the more probable history, as Chapter 24 set out, is that a legend
 was assembled from available materials, that the substitution was a narrative necessity
-before it was a philosophy, and that the philosophical reading accumulated afterwards as
+before it was a philosophy, and that the philosophical reading accumulated afterward as
 generations of members made sense of what they had been given. A system can be coherent
 without having been designed coherent. Much of what this book has described as architecture
 is architecture of that kind: not drawn in advance, but arrived at, kept because it worked,
-and rationalised later.
+and rationalized later.
 
 That is not a debunking. A cathedral whose proportions were arrived at by trial still stands
 up.
@@ -134,7 +134,7 @@ precisely why the letters were free to drift.
 
 ---
 
-### THE ROOM AFTERWARDS
+### THE ROOM AFTERWARD
 
 There is a moment at the end of every lodge meeting that no exposure records and no esoteric
 commentary discusses, because nothing happens in it.
@@ -159,10 +159,10 @@ chapters have taken some trouble to describe: a controlled deprivation, a staged
 sequence of images compressed past the point of paraphrase, a set of obligations taken in
 front of people who will hold him to them, and a promise that something has been withheld
 which he will not be given. Tomorrow he goes to work. Whether any of it took — whether he is
-among the minority for whom this becomes the organising structure of a life or the majority
+among the minority for whom this becomes the organizing structure of a life or the majority
 who, as the lodge minutes examined in Chapter 44 record with painful consistency, will lapse
 within a few years — is not determined in the room. It is determined in the twenty years
-afterwards, by repetition, by office, by the company he keeps, and by what he does with a
+afterward, by repetition, by office, by the company he keeps, and by what he does with a
 word he has been told he does not have.
 
 The ritual's final instruction to him, stripped of its ceremonial clothing, is remarkably

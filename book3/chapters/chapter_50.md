@@ -35,7 +35,7 @@ do not say this is what it means, and Chapter 21's disagreement principle applie
 had they intended a doctrine, they would probably have recorded one.
 
 **What can be said without interpretation is structural, and the structure is
-consistent. In a system organised around what is not given, the one thing given is
+consistent. In a system organized around what is not given, the one thing given is
 another person.**
 
 ---
@@ -63,7 +63,7 @@ Whatever initiation does, it does not do it to everyone, and quite possibly does
 do it to most.
 
 **A minority are different**, and the records show that too: men for whom the
-fraternity became the organising structure of an adult life, across decades. The
+fraternity became the organizing structure of an adult life, across decades. The
 honest summary is a distribution, not a mechanism that fires.
 
 ---

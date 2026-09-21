@@ -37,7 +37,7 @@ The first and most famous treatise, *Poimandres*, describes a vision. A great be
 appears to the narrator and shows him the origin of things: light, then a descending
 darkness, then the formation of the cosmos by a divine Mind. Humanity is made in the image
 of that Mind, falls into matter through love of its own reflection, and is therefore
-double — mortal in body, immortal in essence. The purpose of human life is to recognise
+double — mortal in body, immortal in essence. The purpose of human life is to recognize
 this, and to ascend.
 
 The ascent is described concretely. The soul rises through the spheres of the seven
@@ -117,9 +117,9 @@ Look at the structure of that claim, because it is the load-bearing wall of ever
 this book examines.
 
 It says: *the truth is old, it is one, it is scattered across traditions in disguised
-forms, and a sufficiently learned person can recognise it beneath the disguises.*
+forms, and a sufficiently learned person can recognize it beneath the disguises.*
 
-Every element of that is a licence. If the truth is old, then novelty is suspect and
+Every element of that is a license. If the truth is old, then novelty is suspect and
 antiquity is authority. If it is one, then any resemblance between two traditions is
 evidence of their common source rather than a coincidence. If it is disguised, then the
 absence of explicit evidence is exactly what you would expect. And if only the learned can
@@ -148,7 +148,7 @@ Nothing, yet. That is the point, and I want to state it here because the temptat
 jump the gap is enormous.
 
 In 1471 there is no Freemasonry. There are masons' lodges in Scotland and England — sheds
-by building sites, trade organisations with customs and legends — and there is nothing in
+by building sites, trade organizations with customs and legends — and there is nothing in
 them that connects to Ficino's Florence in any documented way. The Old Charges of the
 English masons, which had been circulating for eighty years by then, do contain a mythic
 history of the craft, and that history does reach back to Egypt: it has the seven liberal

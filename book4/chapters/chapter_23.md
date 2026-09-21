@@ -56,7 +56,7 @@ vocabulary, no quotation, no idiosyncratic detail crossing from any of the
 proposed sources into the Masonic material. The names are biblical. The setting is
 biblical. The tools are a working mason's.
 
-**Institutional continuity**: fails. No organisation persisted.
+**Institutional continuity**: fails. No organization persisted.
 
 **And the comparison is weak on its own terms.** Several of the standard
 "dying-and-rising gods" have been argued not to die, or not to rise, or to do
@@ -123,7 +123,7 @@ was performed on.
 
 ### NOTES
 
-[^1]: The threefold structure is catalogued in the standard folklore indices; its
+[^1]: The threefold structure is catalogd in the standard folklore indices; its
 ubiquity is not in dispute.
 
 [^2]: On the contested status of the "dying and rising god" category, see the

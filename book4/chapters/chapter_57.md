@@ -18,7 +18,7 @@ served grimoire attribution. It served something else far more consequentially.
 
 **Francis Bacon's *New Atlantis*, published posthumously in 1627, names its
 research institution Salomon's House.** It is a college of natural philosophers
-with laboratories, instruments, gardens, and a division of intellectual labour,
+with laboratories, instruments, gardens, and a division of intellectual labor,
 dedicated to the knowledge of causes and the enlargement of human empire over
 nature. It is the single most influential fictional institution in the history of
 science, and the Royal Society's founders explicitly looked to it.
@@ -29,7 +29,7 @@ same verse that licensed the grimoires, producing the opposite institution.
 
 That divergence is one of the most instructive facts in this book. A single
 scriptural warrant, read by different people with different purposes, generates
-both a tradition of spirit-commanding manuals and a programme for experimental
+both a tradition of spirit-commanding manuals and a program for experimental
 science. The warrant did not determine the outcome. The readers did.
 
 ---
@@ -39,7 +39,7 @@ science. The warrant did not determine the outcome. The readers did.
 The second Renaissance Solomon is political, and he is everywhere.
 
 To call a monarch a new Solomon was standard panegyric: it claimed wisdom,
-justice, magnificence, and divine favour in one figure. James VI and I was hailed
+justice, magnificence, and divine favor in one figure. James VI and I was hailed
 as a British Solomon, and the comparison was made at his funeral. Solomon's
 judgment between the two mothers was a stock subject for the decoration of
 courtrooms and town halls across Europe, where its point was jurisdictional — this
@@ -47,7 +47,7 @@ is where wise judgment is given.
 
 The architectural expression of this is the **Escorial**, built for Philip II of
 Spain between 1563 and 1584 under Juan Bautista de Toledo and Juan de Herrera. Its
-Solomonic programme is not a modern interpretation: the identification of Philip
+Solomonic program is not a modern interpretation: the identification of Philip
 with Solomon and of the building with the Temple was explicit in its own period,
 in its iconography and in the writings surrounding it. The Jesuit Temple
 reconstruction that Chapter 67 examines was produced in that Spanish court orbit,

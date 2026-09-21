@@ -60,8 +60,8 @@ refinement of the Deuteronomistic tradition is debated, and this book does not
 need to resolve it. What matters here is the shape: **the Temple is a house for
 something about God, and the something is verbal.**
 
-Readers of the preceding volume in this series will recognise the ground. That
-book spent four hundred pages on what happens when a tradition organises itself
+Readers of the preceding volume in this series will recognize the ground. That
+book spent four hundred pages on what happens when a tradition organizes itself
 around a word that can be lost. This one begins where that one ended — with the
 observation that the word in question had, for a period, a physical address.
 
@@ -72,8 +72,8 @@ observation that the word in question had, for a period, a physical address.
 Strip away the theology and the functions are legible.
 
 **It locates.** A place to go, fixed, known, the same tomorrow. This is
-administratively enormous and it is the reason kings build temples: a centralised
-cult is a centralised polity.
+administratively enormous and it is the reason kings build temples: a centralized
+cult is a centralized polity.
 
 **It restricts.** Every temple in the ancient world graded access — courtyards,
 inner courts, sanctuaries, an innermost room. Who may go how far is the building's
@@ -108,7 +108,7 @@ in the region at the time.
 That is worth establishing before anything else, because a great deal of
 subsequent argument — on all sides — proceeds as though the Temple were either
 uniquely miraculous or uniquely suspicious. It is neither. It is a building of a
-recognisable type, described in a text, on a site nobody can dig.
+recognizable type, described in a text, on a site nobody can dig.
 
 The rest of this book is about what happened to it.
 

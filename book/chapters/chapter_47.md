@@ -54,7 +54,7 @@ is itself an experience.
 
 Three bodies of work bear on this, and I will name what each was built for.
 
-**Embodied cognition.** The research programme arguing that thought is not confined to
+**Embodied cognition.** The research program arguing that thought is not confined to
 symbolic manipulation in the head but is constituted in part by bodily state, posture and
 action. Its relevance here is straightforward: a proposition learned while kneeling, in the
 dark, under stress, is not the same cognitive object as the same proposition read in a
@@ -65,8 +65,8 @@ encoded more durably than neutral ones. This is the best-evidenced element in th
 and it is the most banal: the initiation is memorable because it is alarming.
 
 **Whitehouse's modes of religiosity.** Harvey Whitehouse's framework distinguishes two
-patterns of religious transmission: a *doctrinal* mode, characterised by frequent,
-low-arousal, verbally transmitted teaching, and an *imagistic* mode, characterised by
+patterns of religious transmission: a *doctrinal* mode, characterized by frequent,
+low-arousal, verbally transmitted teaching, and an *imagistic* mode, characterized by
 infrequent, high-arousal, sensorially rich ritual that produces intense personal memory and
 strong small-group bonds.[^1]
 
@@ -139,7 +139,7 @@ are not culturally specific propositions; they are conditions of being a person 
 in a room with other people.
 
 That is why the Masonic apparatus crossed every boundary that stopped everything else it
-travelled with. Anderson's deism did not survive the journey to Catholic France intact — the
+traveled with. Anderson's deism did not survive the journey to Catholic France intact — the
 high degrees Christianised it within twenty years. The English moral commentary did not
 survive the journey to Prussia — the Rosicrucians replaced it with alchemy. The Craft's
 whole interpretive content was stripped and replaced, repeatedly, everywhere it went.
@@ -163,7 +163,7 @@ Lawson, *Bringing Ritual to Mind: Psychological Foundations of Cultural Forms* (
 Cambridge University Press, 2002). Both frameworks were developed on material unrelated to
 Freemasonry and are used here as lenses, not as evidence.
 
-[^2]: On embodied cognition as a research programme, and on arousal effects in memory
+[^2]: On embodied cognition as a research program, and on arousal effects in memory
 encoding, see the standard literature. **[SOURCE VERIFICATION REQUIRED — specific citations
 to be supplied; the claims made in this chapter are deliberately general.]**
 

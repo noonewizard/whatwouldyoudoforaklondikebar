@@ -13,7 +13,7 @@ it continuously since the eighteenth century, usually in response to the exposur
 words are printed, and no, you have not been initiated. The Golden Dawn made it. Crowley made
 it.
 
-It is also the perfect defence of an empty secret, and that is the problem.
+It is also the perfect defense of an empty secret, and that is the problem.
 
 ---
 
@@ -26,7 +26,7 @@ at all.
 
 Polanyi's argument is that a great deal of human competence is *tacit* — real, reliable,
 demonstrable on demand, and not reducible to propositions. His examples are ordinary. A
-person who can ride a bicycle cannot state the rule they follow. A doctor who can recognise a
+person who can ride a bicycle cannot state the rule they follow. A doctor who can recognize a
 condition from across a room often cannot say what they saw. A wine-taster, a joiner, a
 radiographer, a mother who knows her child is ill before any symptom is nameable.
 
@@ -53,7 +53,7 @@ what performing it gives you.**
 
 And yet.
 
-Notice the shape of the claim once it is generalised. *There is a content that exists, that
+Notice the shape of the claim once it is generalized. *There is a content that exists, that
 cannot be stated, and that is available only to those who have undergone the procedure.*
 
 **Nothing about that structure requires there to be any content.**
@@ -145,7 +145,7 @@ the false case predict.
 comparison — men of similar background, disposition and circumstance who did not undergo it —
 and we do not, for the reasons Chapter 44 sets out at length. Without it, the argument reduces
 to noticing that some Masons were admirable, which is true of the members of every large
-organisation that has ever existed.
+organization that has ever existed.
 
 None of these is offered in bad faith. All three are what one reaches for when a question
 matters and the evidence will not settle it, and this book has felt the pull of each.
@@ -163,13 +163,13 @@ by someone who lacks the transformation. That is Polanyi's test and it is not an
 demand: every other kind of tacit knowledge meets it.
 
 What would that look like? Not a claim about inner states, which are not inspectable, but a
-behavioural regularity: a consistent difference in how such men respond to some situation,
+behavioral regularity: a consistent difference in how such men respond to some situation,
 measurable by someone blind to whether the subject is an initiate. The Craft's own doctrine
-implies several — judgement under pressure, conduct toward strangers, the keeping of
+implies several — judgment under pressure, conduct toward strangers, the keeping of
 undertakings when keeping them is costly. Any one of them could in principle be operationalised.
 
 Nobody has, and it should be said clearly that the Craft has no obligation to. It is not a
-research programme, and it has never asked to be believed on experimental grounds. But the
+research program, and it has never asked to be believed on experimental grounds. But the
 absence means that the strong version of the claim sits permanently in the category of
 things that might be true, that their holders sincerely believe, and that no one can check —
 which is a large category, containing much that is false and some that is not.

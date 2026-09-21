@@ -41,7 +41,7 @@ makes the author, who is not a Mason in any settled sense, the authority on
 Masonry's meaning. And it converts every absence of evidence into evidence of the
 loss.
 
-An unfalsifiable structure is not thereby false. But it should be recognised for
+An unfalsifiable structure is not thereby false. But it should be recognized for
 what it is, and it should shift the burden rather than relieve it.
 
 ---

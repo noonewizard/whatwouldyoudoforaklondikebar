@@ -66,7 +66,7 @@ And then, in 70 CE, the machine was destroyed.
 ### What the destruction took
 
 Not the words. The words were in the scrolls, and the scrolls survived, and Judaism
-after 70 became a religion organised around the text in a way it had not been
+after 70 became a religion organized around the text in a way it had not been
 before.
 
 What went was **everything that made the words operative**.
@@ -141,8 +141,8 @@ does not exist, and nobody has produced one.
 
 What explains the resemblance is that **both traditions are solving the same
 problem with a small set of available moves.** When a community must go on
-operating a system whose authorising centre is absent, it has three options: pretend
-the centre is present, abandon the system, or adopt a declared substitute. The third
+operating a system whose authorising center is absent, it has three options: pretend
+the center is present, abandon the system, or adopt a declared substitute. The third
 is the only one that is both honest and survivable, and it has been independently
 reached many times.
 
@@ -160,7 +160,7 @@ the temptation to claim otherwise is strongest.
 A general difficulty that the Temple case displays with unusual clarity, and which
 every institution in this book has had to face.
 
-**What happens when the authorising centre of a system stops existing?**
+**What happens when the authorising center of a system stops existing?**
 
 There are only three moves available.
 
@@ -169,7 +169,7 @@ the authority persists. This is sustainable only as long as nobody checks, and i
 the move that produced von Hund's Unknown Superiors and Mathers's Secret Chiefs —
 both of which collapsed when the check came.
 
-**Abandon the system.** Conclude that without the centre the practice is void, and
+**Abandon the system.** Conclude that without the center the practice is void, and
 stop. This is the most logically consistent option and it is almost never taken,
 because institutions do not willingly dissolve.
 
@@ -180,7 +180,7 @@ that stands in, and say that it does.
 remarkable how often it is taken by traditions with no contact with each other.
 
 Rabbinic Judaism took it: prayer for sacrifice, study for Temple service,
-substitution declared and theorised. **Nobody pretended the Temple was still
+substitution declared and theorized. **Nobody pretended the Temple was still
 standing.**
 
 Christian communions took it after the deaths of the apostles: succession
@@ -213,7 +213,7 @@ therefore in possession of a fact that does nothing.
 This is not a disappointment. It is the point.
 
 **What the Temple case establishes is that a word is the least of what is needed**,
-and that a tradition organised around the loss of one may be making a claim not
+and that a tradition organized around the loss of one may be making a claim not
 about vocabulary but about everything vocabulary sits inside — the authority to
 speak, the place in which speaking counts, the condition of the speaker.
 

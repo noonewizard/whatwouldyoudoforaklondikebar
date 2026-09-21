@@ -29,11 +29,11 @@ respectively in Egyptian, Ionic, Corinthian, Renaissance, Oriental, Gothic, and
 Norman styles.
 
 *Detroit Masonic Temple.* Completed in the 1920s to George D. Mason's design; the
-largest Masonic building in the world, in a Neo-Gothic idiom, with a theatre, a
+largest Masonic building in the world, in a Neo-Gothic idiom, with a theater, a
 ballroom, and a great many lodge rooms.
 
 *The House of the Temple, Washington.* Headquarters of the Scottish Rite's
-Southern Jurisdiction, built 1911–15 to John Russell Pope's design. It is modelled
+Southern Jurisdiction, built 1911–15 to John Russell Pope's design. It is modeled
 on the Mausoleum at Halicarnassus — a Greek tomb.
 
 *Elsewhere.* Egyptian Revival is unusually common in American Masonic and
@@ -58,14 +58,14 @@ Asia Minor.
 There is no shortage of means or ambition here. These are expensive, deliberate,
 architect-designed buildings commissioned by institutions with money. Villalpando's
 reconstruction had been in print for three centuries and the biblical dimensions
-are in every Bible. If the Temple had been an architectural programme, someone would
+are in every Bible. If the Temple had been an architectural program, someone would
 have built it.
 
 ---
 
 ### Why not
 
-Because the Temple was never an architectural programme. It was a ritual and
+Because the Temple was never an architectural program. It was a ritual and
 mnemonic frame, and Parts VIII and X established what that means.
 
 A frame does not need to be reproduced in stone, because it is not doing its work
@@ -77,7 +77,7 @@ space to move a candidate about in. Everything else is the architecture of the
 period, chosen for the ordinary reasons buildings are chosen: cost, fashion,
 civic dignity, and what the architect proposed.
 
-The Masonic building programme is therefore evidence *against* the strongest
+The Masonic building program is therefore evidence *against* the strongest
 version of the Temple claim and *for* the version this book has been developing.
 A tradition that genuinely believed itself the custodian of the Temple's design
 would have built the design. A tradition that uses the Temple as a declared
@@ -102,7 +102,7 @@ is what Freemasonry largely was in the places and times it built most.
 
 And they are, many of them, **now too large**. Membership in most Western
 jurisdictions has declined sharply since the mid-twentieth century, and a great
-many of these buildings have been sold, subdivided, converted to theatres and
+many of these buildings have been sold, subdivided, converted to theaters and
 event spaces, or demolished.
 
 There is an irony in this that the tradition might find instructive rather than

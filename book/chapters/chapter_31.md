@@ -43,7 +43,7 @@ them is doctrinal.
 **A pre-existing intercolonial network.** In 1774 there was almost nothing connecting
 politically active men in Boston to politically active men in Charleston. There were no
 national newspapers, no political parties, no federal institutions. There *were* Masonic
-lodges, mutually recognising, with a common ceremonial and an obligation of assistance.
+lodges, mutually recognizing, with a common ceremonial and an obligation of assistance.
 When men from thirteen colonies had to learn to trust each other very quickly, some of them
 already had a framework for doing so.
 
@@ -69,7 +69,7 @@ content, and there was none available to require.
 
 ### What Masonry did not supply
 
-It did not supply a programme. Masonic ritual contains no politics. Anderson's
+It did not supply a program. Masonic ritual contains no politics. Anderson's
 *Constitutions* explicitly instruct members to be peaceable subjects, never to be concerned
 in plots against the state, and to submit to the civil powers. The lodge's own rules forbade
 political discussion within it.
@@ -78,7 +78,7 @@ And the membership was divided. This is the fact that disposes of the conspiracy
 most efficiently, and it is almost never mentioned.
 
 **There were Loyalist Freemasons.** Many of them. Masonic lodges existed in the British
-army; military lodges travelled with regiments and were among the most important vehicles
+army; military lodges traveled with regiments and were among the most important vehicles
 of Masonic expansion in the eighteenth century. Officers on both sides of the war were
 Masons. Some American lodges split; some ceased working; some carried on with members who
 would end the war in Nova Scotia.
@@ -100,15 +100,15 @@ reasonable fidelity: the Antients' St Andrew's Lodge was the home of Joseph Warr
 Revere, and its members were prominent in the patriot movement.
 
 It was at the Green Dragon Tavern, which St Andrew's Lodge owned a share of, that the
-Boston Tea Party was organised — and the lodge's minutes for the evening of 16 December
+Boston Tea Party was organized — and the lodge's minutes for the evening of 16 December
 1773 record that the lodge closed early on account of the small number of members present.
 This has been cited for two centuries as evidence of Masonic direction of the Tea Party.
-What it is evidence of is that the men who threw the tea into the harbour were also the men
+What it is evidence of is that the men who threw the tea into the harbor were also the men
 who attended that lodge, which is a different claim, and a true one.[^2]
 
 The distinction is exactly the distinction this book keeps insisting on. Overlapping
 membership is not institutional action. A room where the patriots met is not a patriot
-organisation, any more than a tavern is.
+organization, any more than a tavern is.
 
 ---
 
@@ -125,7 +125,7 @@ He wrote courteous letters to Masonic bodies. He laid the Capitol corner stone i
 
 He also, in 1798, wrote a letter to a Reverend G. W. Snyder, who had sent him a copy of
 Robison's *Proofs of a Conspiracy*, in which he said that he did not believe the lodges of
-Freemasons in this country had, as societies, endeavoured to propagate the doctrines of the
+Freemasons in this country had, as societies, endeavored to propagate the doctrines of the
 Illuminati or the principles of Jacobinism, and that he had not been in a lodge more than
 once or twice in the last thirty years.[^3]
 

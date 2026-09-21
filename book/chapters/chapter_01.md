@@ -30,7 +30,7 @@ almost nothing.
 
 Half past four on the sixteenth of October in the north of England: the light is going.
 Not gone — the sun would set within the hour — but low and thin and coming in sideways,
-the particular grey-gold of a Lancashire autumn afternoon. It had been a wet month. The
+the particular gray-gold of a Lancashire autumn afternoon. It had been a wet month. The
 Mersey, which runs past Warrington on its way to the sea, would have been high.
 
 I am reconstructing, and I want to flag that I am reconstructing, because this book is
@@ -90,7 +90,7 @@ poetry that remains a serious scholarly landmark. He collected manuscripts of Jo
 He cast horoscopes for himself and others with relentless diligence. He was fascinated by
 the Rosicrucian manifestos, which had been published in Germany when he was a child, and
 he copied out a letter of application to the Fraternity of the Rosy Cross — an
-organisation that, as we shall see, did not exist. He was, in short, precisely the kind
+organization that, as we shall see, did not exist. He was, in short, precisely the kind
 of seventeenth-century Englishman whom a modern reader expects to find in an esoteric
 society. Therefore, the argument goes, Freemasonry in 1646 must have had something
 esoteric in it. Why else would he join?
@@ -130,7 +130,7 @@ We do not have the question *what secret did Ashmole learn?* There is no evidenc
 learned a secret, and the earliest surviving descriptions of what a candidate learned in
 a seventeenth-century lodge — Scottish catechisms written down fifty years later, which
 we will look at closely — describe a word, a handgrip, and a short set of questions and
-answers. Useful for recognising a fellow craftsman on a strange building site. Not a
+answers. Useful for recognizing a fellow craftsman on a strange building site. Not a
 revelation.
 
 We have, instead, a harder and more interesting question: *why did men who had nothing
@@ -141,7 +141,7 @@ Because that is what was happening, all over Britain, in the middle of the seven
 century. In Scotland, where the records are far better, non-operative members — men
 described in the minutes as "gentlemen" — begin appearing in lodges of working masons
 from 1600 onward. In England the evidence is thinner and later, but by the 1640s men
-like Ashmole are being "accepted" into a craft they will never practise. Something about
+like Ashmole are being "accepted" into a craft they will never practice. Something about
 the masons' lodge — its oath, its privacy, its brotherhood, its old written legends
 tracing the craft back through Euclid to the building of Solomon's Temple — was
 attractive to men who had no professional use for it at all.
@@ -159,7 +159,7 @@ without ever quite telling any of them what it meant.
 
 There is a version of this book that answers the Ashmole question. It would say: he
 joined because the lodge preserved the Hermetic and alchemical wisdom he had spent his
-life pursuing, and he recognised it. It would note that he was an alchemist and a
+life pursuing, and he recognized it. It would note that he was an alchemist and a
 Freemason, and treat the conjunction as a channel.
 
 I am not going to write that sentence, and the reason is worth stating once, clearly,
@@ -188,8 +188,8 @@ everything, and then does not mention the subject again until he is sixty-five y
 old.
 
 What he had joined was not ancient, not Egyptian, and not — in any sense he would have
-recognised — magical. It was a small, strange, locally-run association with medieval
-roots in a trade he did not practise, and it was in the middle of becoming something
+recognized — magical. It was a small, strange, locally-run association with medieval
+roots in a trade he did not practice, and it was in the middle of becoming something
 else entirely.
 
 To understand what it became, and why a hundred years later men would be performing

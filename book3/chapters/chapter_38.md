@@ -21,7 +21,7 @@ enumerates five. The number reports a quantity and carries nothing else.
 selection may have been for a reason. This is the only category that can carry a
 doctrine.
 
-**Found.** A reader has discovered the number in material that was not organised
+**Found.** A reader has discovered the number in material that was not organized
 around it — by counting something nobody thought to count, or by arithmetic
 performed on values assigned later.
 

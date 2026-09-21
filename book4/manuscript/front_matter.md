@@ -26,7 +26,7 @@ every argument in it depends on the distinction holding.
 
 **The building** — what physically stood in Jerusalem, insofar as evidence can
 establish it. This is the thinnest of the five, for a reason stated in Chapter 4
-and never afterwards forgotten.
+and never afterward forgotten.
 
 **The text** — what ancient authors wrote about it, which is a different claim
 from what existed.

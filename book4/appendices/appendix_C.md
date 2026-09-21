@@ -57,5 +57,5 @@ table should be read as resolving a dispute the book left open.
 | 1885–97 | The Taxil hoax, to its public confession on 19 April 1897 |
 | 1887–88 | Golden Dawn founded |
 | 1909 / 1935 | Crowley's *777* / Fortune's *The Mystical Qabalah* |
-| 1911–15 | House of the Temple, Washington — modelled on a Greek tomb |
+| 1911–15 | House of the Temple, Washington — modeled on a Greek tomb |
 | 1927–33 | Freemasons' Hall, London — Art Deco |

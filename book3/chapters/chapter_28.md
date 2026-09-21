@@ -57,7 +57,7 @@ Notice that this makes the practice, on its own account, thoroughly orthodox —
 is precisely what the grimoire authors maintained and the Church did not accept. A
 man compelling a demon in the name of God could describe himself as exercising
 dominion granted at creation. The authorities took the view that the traffic itself
-was the offence, regardless of which names were used.
+was the offense, regardless of which names were used.
 
 ---
 
@@ -69,7 +69,7 @@ The Hebrew divine names in the grimoires arrived through a long chain, and the
 chain degraded them.
 
 **Some are genuine**: *Adonai*, *Elohim*, *Tetragrammaton* (as a Greek description
-rather than a name), *Shaddai*, *Eheieh*. These are recognisable and their
+rather than a name), *Shaddai*, *Eheieh*. These are recognizable and their
 provenance is clear.
 
 **Some are artefacts.** *Agla* is a notarikon — the initials of *Atah Gibor

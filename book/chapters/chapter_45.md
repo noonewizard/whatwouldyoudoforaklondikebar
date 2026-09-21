@@ -9,10 +9,10 @@ doctrine. There is no Masonic theology. There is no Masonic philosophy. There is
 authorised interpretation of the square, the compasses, the Temple, the pillars, or the
 raising of Hiram. There is not, and has never been, any body empowered to supply one.
 
-Every organisation in this book that acquired a doctrine — the Élus Coëns, the Rectified
+Every organization in this book that acquired a doctrine — the Élus Coëns, the Rectified
 Rite, the Gold- und Rosenkreuz, Theosophy, the Golden Dawn, Thelema — acquired it from
-outside, and in almost every case the doctrine outlived its organisation by less time than
-the organisation's borrowed Masonic structure did.
+outside, and in almost every case the doctrine outlived its organization by less time than
+the organization's borrowed Masonic structure did.
 
 This chapter is about why the emptiness is the point.
 
@@ -46,7 +46,7 @@ proposition stays the size it was issued. An undefined symbol accommodates a who
 
 **And it is portable across everything.** A moral proposition is embedded in a moral
 framework, which is embedded in a religion, which divides people. A tool is not. The square
-travelled to Catholic France, Lutheran Prussia, Jewish London, Hindu and Parsi Bengal,
+traveled to Catholic France, Lutheran Prussia, Jewish London, Hindu and Parsi Bengal,
 Ottoman Istanbul and Black Boston, and it worked in every one, because it never said
 anything that any of them could object to.
 
@@ -78,7 +78,7 @@ content can be run.
 
 Load Christian theology and you get the Rose-Croix. Load Martinez's angelology and you get
 the Élus Coëns. Load alchemy and you get the Gold and Rosy Cross. Load Genesis and women's
-association and you get the Adoption Rite. Load Black political self-organisation and you
+association and you get the Adoption Rite. Load Black political self-organization and you
 get African Lodge. Load mutual insurance and you get the Oddfellows. Load Hermetic Qabalah
 and you get the Golden Dawn. Load Thelema and you get the O.T.O.
 
@@ -159,7 +159,7 @@ the argument at all.
 is documented in its own place.
 
 [^3]: On the working tools and their moral interpretation, see Chapter 18, and William
-Preston, *Illustrations of Masonry* (London, 1772), which systematised the lectures;
+Preston, *Illustrations of Masonry* (London, 1772), which systematized the lectures;
 interpretations differ substantially by jurisdiction and period.
 
 [^4]: The observation that undefined symbols resist refutation and accumulate personal

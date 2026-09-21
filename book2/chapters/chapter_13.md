@@ -5,7 +5,7 @@ On the pedestals of most lodges there are two stones.
 
 One is irregular — as it comes from the quarry, with rough faces and no true angle. The
 other is squared: six flat faces, right angles, ready to be laid into a wall and bedded true
-against its neighbours.
+against its neighbors.
 
 They are a teaching aid. The candidate is told, in language that varies by jurisdiction but
 not in substance, that the first represents him as he is and the second as he may become,
@@ -30,7 +30,7 @@ the rough ashlar.
 Which means he occupies, simultaneously, the position of the craftsman and the position of
 the material.
 
-I want to take this slowly, because it is the structural centre of the whole system and it
+I want to take this slowly, because it is the structural center of the whole system and it
 is easy to read past as a pleasant metaphor.
 
 A stone does not shape itself. That is the entire logic of masonry: the material is inert
@@ -147,7 +147,7 @@ now that complicates the criticism.
 **An instruction without a criterion is not necessarily an instruction without an effect.**
 A man who has been told, in circumstances he will remember for fifty years, that he is
 unfinished material and that the tools are in his hands, has been given a self-description.
-Self-descriptions do things. Whether they do enough to show up in behaviour is the question
+Self-descriptions do things. Whether they do enough to show up in behavior is the question
 Chapter 45 is for, and the answer there is more equivocal than either the Craft's defenders
 or its critics would like.
 

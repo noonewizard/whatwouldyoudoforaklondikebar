@@ -104,7 +104,7 @@ legend puts its loss during construction rather than destruction, which is exact
 the sort of detail that dissolves an elegant parallel and which an author invested
 in the parallel might not go looking for.
 
-The test of a method is whether it catches your own favoured idea. This one did.
+The test of a method is whether it catches your own favored idea. This one did.
 
 ---
 

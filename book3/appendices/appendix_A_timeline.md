@@ -29,7 +29,7 @@ required.
 | 1499 | | **Trithemius**, *Steganographia* (pub. 1606) | |
 | 1516 | First widely printed Tree of Life diagram (*Portae Lucis*) | | |
 | 1517 | Reuchlin, *De arte cabalistica* | | |
-| **1518** | **Galatinus popularises "Jehovah"** | | |
+| **1518** | **Galatinus popularizes "Jehovah"** | | |
 | 1533 | **Agrippa** — magical alphabets, divine names | | |
 | c. 1552–62 | *Sefer Yetzirah* in Latin (Postel); Hebrew printing (Mantua) | | |
 | **1582–89** | | **Dee and Kelley — Enochian produced** | |

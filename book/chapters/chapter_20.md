@@ -2,11 +2,11 @@
 ## The Square and the Compasses
 
 It is on gravestones in Ohio and on lodge doors in Ghana. It is on pocket watches, ties,
-rings, car bumpers and the sides of buildings. It is one of the most widely recognised
-emblems in the world, and the vast majority of people who recognise it could not say what
+rings, car bumpers and the sides of buildings. It is one of the most widely recognized
+emblems in the world, and the vast majority of people who recognize it could not say what
 it means beyond "Freemasons."
 
-Two draughtsman's instruments, interlocked. Sometimes a letter G between them. Sometimes,
+Two draftsman's instruments, interlocked. Sometimes a letter G between them. Sometimes,
 in American usage, the compasses are described as opened to a particular angle, and the
 relative position of square and compasses varies with the degree.
 
@@ -167,7 +167,7 @@ And they establish that the Craft was **content to be legible**. A body seriousl
 with concealment does not put its emblem on the front of its buildings.
 
 That last point is worth holding onto when we reach the conspiracy literature in Chapter
-50. The organisation accused of running the world by stealth has, for two centuries,
+50. The organization accused of running the world by stealth has, for two centuries,
 advertised its premises with a sign, published its constitutions, listed its officers in
 directories, and marched in public processions in full regalia at the laying of corner
 stones.

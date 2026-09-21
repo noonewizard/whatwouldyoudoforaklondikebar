@@ -11,9 +11,9 @@ independently — which is, in the end, the point of the exercise.
 | Level | Category | Use |
 |---|---|---|
 | **A** | Primary sources: period documents, manuscripts, original editions, contemporary observation | Load-bearing evidence |
-| **B** | Scholarly secondary sources: university presses, peer-reviewed journals, recognised specialists | Interpretation, framing, correction |
+| **B** | Scholarly secondary sources: university presses, peer-reviewed journals, recognized specialists | Interpretation, framing, correction |
 | **C** | Critical editions of primary texts, with apparatus | Access to A with scholarly support |
-| **D** | Popular, partisan or derivative material | **Evidence of belief only**, and labelled as such in the text, not merely in a note |
+| **D** | Popular, partisan or derivative material | **Evidence of belief only**, and labeled as such in the text, not merely in a note |
 
 **Two rules override the hierarchy.**
 
@@ -49,7 +49,7 @@ someone could have read it. It does not tell you anyone did.
 language with the earlier one? Resemblance is weak; quotation is strong; shared
 idiosyncratic error is decisive.
 
-**5. Institutional continuity.** Did the organisation actually persist? Organisations that
+**5. Institutional continuity.** Did the organization actually persist? Organizations that
 exist collect dues, keep lists, rent rooms, quarrel and leave paper.
 
 **6. Anachronism.** Does the claim contain something that could not yet have existed? A
@@ -105,7 +105,7 @@ alike — is the silent slide from *they believed* to *they experienced* to *it 
 
 ---
 
-### VI. Signalling in the text
+### VI. Signaling in the text
 
 **Reconstruction must be marked.** Where prose reconstructs an atmosphere rather than
 reporting a source, the text says so — by an explicit frame, by conditional grammar, or by a

@@ -40,7 +40,7 @@ Chapter 24 is that insight applied by people who had not read Simmel.
 A thing withheld acquires worth proportional to the difficulty of obtaining it, and a person
 who has undergone difficulty to obtain it will not easily conclude that it was worthless.
 
-This is not manipulation, and it is not peculiar to esoteric organisations. It operates in
+This is not manipulation, and it is not peculiar to esoteric organizations. It operates in
 medical training, in military selection, in the apprenticeship of any craft, and in every
 institution that has ever made entry costly. It is also not simply irrational: costly entry
 genuinely does select for commitment, and a group whose members have all paid a price has
@@ -73,7 +73,7 @@ sequence is so regular that it can be written as a life cycle.
 **Phase one.** A body is founded with graded access to withheld material. Authority flows
 from the top, and the arrangement works.
 
-**Phase two.** The organisation grows. Members ascend. Some reach the top and find that the
+**Phase two.** The organization grows. Members ascend. Some reach the top and find that the
 material runs out — that there is nothing above the highest grade except the people who
 issued it.
 
@@ -89,7 +89,7 @@ a German adept, to Mahatmas, to Secret Chiefs.
 Von Hund: phases one through six, 1750s to 1782. Westcott and Mathers: 1888 to 1900.
 Blavatsky's Society survived longer but fought the same battle repeatedly. Crowley, having
 watched one collapse, designed the A∴A∴ specifically so that phase three could not be
-organised.
+organized.
 
 **The manufactured superior is not a moral failing peculiar to charlatans. It is a
 structural requirement of graded secrecy, and the demand for it arises from below.**
@@ -138,16 +138,16 @@ membership of shopkeepers and clerks — is visible in none of them.
 Which leaves the difficulty this book has had to work around throughout.
 
 Secrecy produces gaps in the record, and the gaps are the same shape as the thing everyone
-is looking for. If an organisation concealed its practices, then the absence of evidence for
+is looking for. If an organization concealed its practices, then the absence of evidence for
 a practice is not evidence of absence.
 
 I set out the three-part answer in Chapter 3 and it has been vindicated by everything since.
 
-**Secrecy leaks.** Every organisation in this book left a record. The Illuminati's papers
+**Secrecy leaks.** Every organization in this book left a record. The Illuminati's papers
 were seized and printed in 1787. The Golden Dawn's rituals were published by Crowley in 1909
 and Regardie in 1937. The Masonic secrets were in the newspapers by 1723. Westcott's German
 letters were examined and found wanting. Taxil confessed in a hall full of journalists.
-Organisations that actually exist leave paper, because they have to.
+Organizations that actually exist leave paper, because they have to.
 
 **The claim of secrecy is testable even when the secret is not.** We cannot examine an
 undisclosed transmission. We can examine when the claim of it was first made, by whom, with
@@ -174,11 +174,11 @@ his Kabbalah from a Frenchman he did not name. That von Hund had no warrant. Tha
 Vaughan did not exist. That the Cipher Manuscripts were compiled in the nineteenth century.
 That the tarot-Kabbalah system was invented in the 1850s.
 
-Every one of those concealments was practised by someone claiming *to reveal* Masonic
+Every one of those concealments was practiced by someone claiming *to reveal* Masonic
 secrets, or claiming authority *derived* from Masonic structures — and every one was
 eventually exposed by ordinary documentary research.
 
-The organisation accused of hiding everything hid very little. The people accusing it, and
+The organization accused of hiding everything hid very little. The people accusing it, and
 the people claiming to inherit from it, hid a great deal.
 
 That asymmetry is, I think, the single most useful thing a reader can take from this book

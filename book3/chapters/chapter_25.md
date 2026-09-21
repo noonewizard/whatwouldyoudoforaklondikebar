@@ -168,7 +168,7 @@ compromised.
 **Consider what that implies.** A state using a nomenclator has a cipher secretary,
 a distribution problem, a key-management procedure, and a replacement schedule. The
 Papal and Venetian services employed professional cryptanalysts. Codebreaking was a
-recognised office with a salary.
+recognized office with a salary.
 
 **This is what a body with something to hide actually does**, and the documentary
 traces are everywhere: the codebooks survive, the correspondence about them

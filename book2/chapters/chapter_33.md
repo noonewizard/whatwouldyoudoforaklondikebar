@@ -16,7 +16,7 @@ it for an hour.
 Start with the problem, because the achievement is invisible until the problem is stated.
 
 A man arrives at a lodge in 1740 carrying a life. He has a business with debts in it. He has
-a wife, or does not and minds. He has a pain in his back, a dispute with a neighbour, a
+a wife, or does not and minds. He has a pain in his back, a dispute with a neighbor, a
 letter he has not answered, and an opinion about the government. His attention, in ordinary
 conditions, is distributed across all of that continuously and involuntarily.
 
@@ -61,7 +61,7 @@ Five confiscations, and what remains is a man with nothing to attend to except t
 
 ### Attention as a ritual currency
 
-I want to generalise this, because I think it is the most portable finding in the book.
+I want to generalize this, because I think it is the most portable finding in the book.
 
 Ritual traditions differ enormously in doctrine, in geography and in history, and they
 converge with remarkable consistency on a small set of techniques. Fasting. Darkness.

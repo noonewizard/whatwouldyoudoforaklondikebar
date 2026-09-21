@@ -85,7 +85,7 @@ enough to find out what actually happened to them.
 14. Ashmole's Warrington
 15. 1717, or 1721
 16. The Religion in Which All Men Agree
-17. The Lodge as Theatre
+17. The Lodge as Theater
 18. The Geometry of Initiation
 19. Solomon's Temple
 20. The Square and the Compasses

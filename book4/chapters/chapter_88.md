@@ -28,7 +28,7 @@ artefact who became the protagonist of a ceremony.
 
 ### The builders we cannot name
 
-**The labour levy.** 1 Kings gives numbers — tens of thousands of men, conscripted,
+**The labor levy.** 1 Kings gives numbers — tens of thousands of men, conscripted,
 working in shifts in the quarries and the forests. Not one of them is named.
 
 **The medieval masons** whose Old Charges Chapter 32 examined. A few names survive

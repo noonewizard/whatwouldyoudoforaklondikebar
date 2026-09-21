@@ -35,7 +35,7 @@ printed constitutions, the eighteenth-century exposures, published catechisms, t
 systems of Preston and Webb, and the twentieth-century publications of orders that no longer
 exist. Where I describe a ceremony I am describing a documented historical text. **Masonic
 ritual varies enormously by jurisdiction, by century and by rite. No working described in
-this book is universal, and none is current.** A Mason reading these chapters may recognise
+this book is universal, and none is current.** A Mason reading these chapters may recognize
 a great deal and may also find things that have never formed part of his experience. Both
 reactions would be correct.
 
@@ -50,9 +50,9 @@ changed profession without telling the reader.
 
 **On borrowed science.** This book uses ritual theory, cognitive science and environmental
 psychology to describe a ceremony none of those disciplines was built to describe. Van
-Gennep published in 1909; Turner in 1969; the experimental programme is younger than most
+Gennep published in 1909; Turner in 1969; the experimental program is younger than most
 of its readers. Applying any of it to a London tavern in 1730 is an inference across two
-centuries and several cultures. I have labelled every instance. Where a finding is
+centuries and several cultures. I have labeled every instance. Where a finding is
 contested — and two of the most tempting findings in this whole subject are contested — I
 say so in the text, not in a note where it can be missed.
 
@@ -132,7 +132,7 @@ find out what actually occurred.
 
 ### PART XI — THE TEST
 44. Does Ritual Change People?
-45. Can Symbols Change Behaviour?
+45. Can Symbols Change Behavior?
 46. Can Architecture Change Consciousness?
 47. Secrecy, Repetition, and Identity
 

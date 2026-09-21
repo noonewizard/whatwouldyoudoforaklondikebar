@@ -42,7 +42,7 @@ word and a grip. There are two degrees. There is no Hiram, no murder, no loss an
 no substitution. The word is simply a word that Masons have and others do not.[^3]
 
 **The third degree appears in the 1720s.** Prichard's *Masonry Dissected* of 1730
-is the first full printed account, and it contains the legend in recognisable
+is the first full printed account, and it contains the legend in recognizable
 form.[^4] Between the catechisms and Prichard lies a gap of roughly three decades
 in which something was built.
 
@@ -104,7 +104,7 @@ referent to supply one.
 
 **"Can it be recovered?"** — assumes it went somewhere. Words do not.
 
-**"What does it symbolise?"** — a better question, and the one Masonic commentary
+**"What does it symbolize?"** — a better question, and the one Masonic commentary
 has answered for two hundred years, with answers that multiply rather than converge.
 Truth. The divine name. Moral character. Lost innocence. The knowledge of God.
 Consciousness. Identity. The proliferation is itself evidence, and Chapter 21 of
@@ -199,7 +199,7 @@ The word, nine times in ten, is sitting there in plain sight.
 If that is right, then the Masonic drama is not about missing information.
 
 A system whose climax is the announcement that a word is unavailable, followed by
-the provision of a substitute that is labelled as one, is a system making a
+the provision of a substitute that is labeled as one, is a system making a
 distinction — between having a word and having whatever else one might have. It is
 telling the candidate, in the only vocabulary available to a ritual, that
 possession of a string is not the same as possession of what the string stands for.

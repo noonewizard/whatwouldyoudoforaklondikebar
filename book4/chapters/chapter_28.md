@@ -15,14 +15,14 @@ everything.
 
 What can be said about a tenth-century BCE Judahite king named Solomon was set
 out in Part II and will not be re-argued. The short form: a monarch of that name
-is plausible; the scale and splendour attributed to him by the biblical text are
+is plausible; the scale and splendor attributed to him by the biblical text are
 disputed, sometimes sharply; the archaeological record for a tenth-century
 Jerusalem of imperial scope is thin and contested; and no extrabiblical text
 names him. He is a figure we approach through a narrative composed centuries
 after him.
 
 **He has no attested connection to magic of any kind.** Not a hostile one, not a
-favourable one. The category does not arise.
+favorable one. The category does not arise.
 
 ### Solomon Two: the biblical and legendary wisdom king
 

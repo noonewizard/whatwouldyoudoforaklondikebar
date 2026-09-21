@@ -27,7 +27,7 @@ masonry from antiquity to England.
 
 It closes with the **charges** themselves: practical and moral obligations.
 Be true to God and Holy Church. Be true to your master. Do not take work you
-cannot perform. Do not supplant a fellow. Do not harbour thieves. Pay your
+cannot perform. Do not supplant a fellow. Do not harbor thieves. Pay your
 fellows truly. Call one another brother or fellow. These are the rules of a trade
 that has to work with people it cannot supervise, and they are the least
 mysterious and most consistently transmitted part of the whole corpus.
@@ -59,7 +59,7 @@ exact reverse of the relationship that later popular accounts assume.
 Old Charges corpus the figure appears under a remarkable spread of names — forms
 transmitted variously as Aynon, Aynone, Dyon, Ajuon, Benaim, and others still,
 with copyists evidently working from exemplars they could not always read. The
-variation was catalogued in detail by the twentieth century's documentary Masonic
+variation was catalogd in detail by the twentieth century's documentary Masonic
 scholars, Douglas Knoop and G. P. Jones among them, in their editions and studies
 of the early manuscripts.
 
@@ -78,7 +78,7 @@ was not.** What the Old Charges transmit is the position — there was a master
 mason at the Temple, sent by the King of Tyre — and the name attached to that
 position is textual noise accumulating over generations of copying.
 
-This has a direct and important consequence. The figure who occupies the centre of
+This has a direct and important consequence. The figure who occupies the center of
 the third degree in the eighteenth century and after cannot be shown, on this
 evidence, to descend from an operative tradition preserving his name. The name in
 the operative documents is precisely the part that did not survive intact. Chapter
@@ -93,7 +93,7 @@ It is worth stating the absences as plainly as the presences, because the
 absences are evidence.
 
 There is no death of the master mason. No murder, no search, no recovery. The
-narrative element that would later become Freemasonry's dramatic centre is not in
+narrative element that would later become Freemasonry's dramatic center is not in
 these documents.
 
 There is no lost word.
@@ -105,7 +105,7 @@ charged.
 
 There is no magic, no Kabbalah, no sacred geometry in the modern occult sense. The
 geometry of the Old Charges is Euclid's: a practical and dignified science, the
-foundation of the trade's claim to be a liberal art rather than mere labour.
+foundation of the trade's claim to be a liberal art rather than mere labor.
 
 ---
 

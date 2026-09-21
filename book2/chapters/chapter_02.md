@@ -46,7 +46,7 @@ The removal of metal is explained in Masonic sources by an allusion to the build
 Solomon's Temple, where — the biblical text says — no tool of iron was heard in the house
 while it was in building.[^3] That is the explanation the ritual itself gives, and it is a
 good example of a feature this book will meet repeatedly: **a practice with an obvious
-practical function, supplied afterwards with a scriptural rationale that has nothing to do
+practical function, supplied afterward with a scriptural rationale that has nothing to do
 with the function.**
 
 The practical function is not obscure. A man's coins, his watch, his buckles and his rings
@@ -147,13 +147,13 @@ plainly what I have not described.
 
 I have not told you what the man in it felt. Nobody can. There is no surviving first-person
 account of an eighteenth-century Masonic preparation room written by a candidate in it, and
-if there were, it would have been written afterwards, in the vocabulary the ceremony had by
+if there were, it would have been written afterward, in the vocabulary the ceremony had by
 then supplied him with, which is a problem of its own.
 
 What I have described is a *design* — a set of conditions that we know were imposed, and a
 set of effects that conditions of that kind are known to produce in human beings generally.
 The step from the first to the second is an inference, and I will be making it repeatedly,
-and labelling it every time.
+and labeling it every time.
 
 The door is about to open. Before it does, there is one more condition to account for, and it
 is the one that the whole remaining hour is built around.

@@ -103,7 +103,7 @@ None of these has occurred. All of them could.
 | **A** | Primary historical evidence |
 | **B** | Peer-reviewed scholarship |
 | **C** | University press monographs |
-| **D** | Recognised scholarly reference works |
+| **D** | Recognized scholarly reference works |
 | **E** | Established specialist publications |
 | **F** | Popular sources, used **only** to document popular belief |
 

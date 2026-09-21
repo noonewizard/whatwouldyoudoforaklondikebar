@@ -5,7 +5,7 @@ The oldest surviving Masonic ritual text is Scottish, written down in 1696, and 
 mention a blindfold.
 
 The Edinburgh Register House Manuscript describes two degrees, a word, a grip, and a
-catechism of questions and answers. It is brief and practical. It tells you how to recognise
+catechism of questions and answers. It is brief and practical. It tells you how to recognize
 a mason and what to say. There is nothing in it about darkness at all.[^1]
 
 By 1730 the darkness is there, and by 1762 it is elaborate. Prichard's candidate is in "a
@@ -14,7 +14,7 @@ restoration of light, and the formula in which a man is asked what he most desir
 answers: light.[^2]
 
 So the darkness is not original. It arrives with the eighteenth-century development of the
-ceremony, in the same decades that produced the third degree, and it becomes the organising
+ceremony, in the same decades that produced the third degree, and it becomes the organizing
 condition of the whole event.
 
 That dating matters, because it means the darkness was *added* — and things that are added
@@ -65,7 +65,7 @@ He is stopped. He is addressed by people whose position he must infer from sound
 is pressed against his chest that he did not see coming.
 
 **He must build the room from other channels.** Sound, touch, the feel of boards under one
-bare foot, the direction of a draught, the number of paces. This is effortful, and
+bare foot, the direction of a draft, the number of paces. This is effortful, and
 effortful processing is better retained than passive reception. He is, without being told
 to, working hard at a task for the whole duration.
 

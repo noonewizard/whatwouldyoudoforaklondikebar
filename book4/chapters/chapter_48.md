@@ -29,7 +29,7 @@ threshold does not have magical properties; it is simply a very salient cue that
 one situation has ended and another begun.
 
 Event segmentation itself is on solid ground. It has a large literature, converging
-behavioural and neuroimaging evidence, and it explains a range of findings beyond
+behavioral and neuroimaging evidence, and it explains a range of findings beyond
 this one.
 
 ### The qualification

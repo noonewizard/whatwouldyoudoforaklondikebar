@@ -31,11 +31,11 @@ Proposals for the biblical cubit's length cluster in a range of roughly 44 to 52
 centimetres, with the "long" or royal cubit running several centimetres above the
 common one. **The uncertainty is on the order of ten to fifteen per cent.**
 
-**What follows for this book**: any statement of the form "the Temple was X metres
+**What follows for this book**: any statement of the form "the Temple was X meters
 long" carries that band, and any argument depending on a precise metric value is
 resting on a number the sources do not supply. **Ratios, by contrast, are
 unaffected** — sixty to twenty is three to one whatever the cubit was, which is
-why Chapter 12 works in ratios and this one does not work in metres.
+why Chapter 12 works in ratios and this one does not work in meters.
 
 ---
 

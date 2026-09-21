@@ -31,7 +31,7 @@ important external datum in this entire area of study.**
 
 This asymmetry is rarely stated plainly in popular treatments, in either
 direction. Defenders of biblical historicity cite Tel Dan and let the confidence
-transfer silently from father to son. Sceptics cite Solomon's absence and let it
+transfer silently from father to son. Skeptics cite Solomon's absence and let it
 transfer backward onto David. Neither move is warranted. The honest position is
 that the evidence for the two men is not the same, and that Solomon's is thinner.
 
@@ -47,7 +47,7 @@ F. Albright and defended in modified forms by scholars including Kenneth Kitchen
 and Amihai Mazar, holds that the biblical account reflects a real tenth-century
 polity substantial enough to have undertaken monumental construction. Certain
 archaeological features — notably the six-chambered gates at Megiddo, Hazor and
-Gezer — were long read as evidence of a centralised building programme, and the
+Gezer — were long read as evidence of a centralized building program, and the
 biblical note that Solomon fortified exactly those three cities was taken as
 confirmation.[^2]
 
@@ -55,7 +55,7 @@ confirmation.[^2]
 Finkelstein's "Low Chronology," holds that the strata containing those gates
 should be dated roughly a century later, to the Omride kings of the ninth
 century — which would remove the material basis for a tenth-century Solomonic
-building programme entirely. On this reading, tenth-century Jerusalem was a modest
+building program entirely. On this reading, tenth-century Jerusalem was a modest
 highland town, and the grand United Monarchy is a retrojection by later writers
 building a usable past.[^3]
 
@@ -76,7 +76,7 @@ otherwise is selling something.
 Directly and uncomfortably: **if the Low Chronology or a more radical position is
 correct, the Temple as described in 1 Kings 6 may never have existed in the tenth
 century at all**, and the description may be a later idealisation — possibly
-modelled on the Second Temple its authors could actually see, projected backward
+modeled on the Second Temple its authors could actually see, projected backward
 onto a founder-king.
 
 If the traditional position is correct, a tenth-century Temple of roughly the
@@ -87,7 +87,7 @@ author's to close, and that — crucially — *the rest of the book does not dep
 the answer.*
 
 That last point is worth dwelling on. Everything from Chapter 6 onward concerns
-what the Temple *became*: how it was read, rebuilt, symbolised, ritualised and
+what the Temple *became*: how it was read, rebuilt, symbolized, ritualized and
 imagined. That history is entirely real and entirely documented regardless of what
 stood in Jerusalem in 960 BCE. **A building that was never built can still
 generate three thousand years of consequence, and if anything the consequence is
@@ -101,7 +101,7 @@ One further distinction, because it is routinely lost.
 
 The Solomon of Kings is not a flat hagiography. He is granted wisdom at Gibeon,
 judges the two mothers, builds the Temple, receives the Queen of Sheba — and then
-1 Kings 11 turns on him hard: foreign wives, foreign gods, a forced labour levy,
+1 Kings 11 turns on him hard: foreign wives, foreign gods, a forced labor levy,
 and a kingdom that splits immediately on his death precisely because of the burden
 he imposed.[^4]
 

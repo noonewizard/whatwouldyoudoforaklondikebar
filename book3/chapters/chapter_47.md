@@ -14,7 +14,7 @@ actually supplies.
 ### The six layers
 
 **One: INFORMATION.** *I know the word.* I have the string. I could write it down,
-spell it, recognise it if I heard it.
+spell it, recognize it if I heard it.
 
 This is the thinnest relation and it is what the exposures transferred. Anyone who
 bought *Masonry Dissected* in 1730 for sixpence acquired it.
@@ -41,7 +41,7 @@ cannot be transmitted as such.
 **Five: EMBODIMENT.** *I live according to what it signifies.* The word's content
 has become a disposition — something visible in conduct rather than held in mind.
 
-**Six: WISDOM.** *I understand when and why it matters.* Judgement about the
+**Six: WISDOM.** *I understand when and why it matters.* Judgment about the
 occasion: knowing which situations call for the thing the word names, and which do
 not.
 
@@ -60,7 +60,7 @@ initiated and never returned has four without three in any meaningful sense, bec
 authority unexercised decays. A man may have five without two — living decently
 without being able to articulate why — and a great many people do.
 
-And six is not the crown of a sequence. Judgement about occasions is its own thing
+And six is not the crown of a sequence. Judgment about occasions is its own thing
 and does not follow from the others; there are learned fools and wise illiterates,
 and everyone knows it.
 
@@ -191,7 +191,7 @@ layer?* can be asked — and the answer usually dissolves the disagreement.
 Which brings the scheme to the point it was built for.
 
 The third degree gives the candidate a word at layer one — he has the string,
-labelled as a substitute. It gives him authority at layer three: he is a Master
+labeled as a substitute. It gives him authority at layer three: he is a Master
 Mason with everything that entails.
 
 **And it tells him that the thing itself is unavailable.**

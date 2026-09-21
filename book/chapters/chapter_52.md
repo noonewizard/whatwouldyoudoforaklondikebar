@@ -21,14 +21,14 @@ it will not produce a motive unless a letter turns up.
 
 **2. Who composed the Hiramic legend, and when exactly?**
 
-The central ritual of the world's largest fraternal organisation has no known author. It
+The central ritual of the world's largest fraternal organization has no known author. It
 appears complete in a hostile pamphlet in 1730 and there is nothing before it. Lodge minutes
 of the 1720s may still yield the earliest minuted working of a third degree; the composition
 itself is probably lost.
 
 **3. Where did the Royal Arch come from?**
 
-A degree centred on the recovery of a lost divine name, appearing in England and Ireland in
+A degree centerd on the recovery of a lost divine name, appearing in England and Ireland in
 the middle of the eighteenth century, with no clear parentage in the Craft degrees and no
 clear continental source. The question of whether its concern with the Name reflects any
 genuine contact with Jewish or Christian-Kabbalistic material, or is an independent
@@ -164,7 +164,7 @@ We know what Freemasonry was, how it formed, what its ritual contained, when its
 appear, how it spread, what was added and by whom, and how it carried the Western esoteric
 tradition into the modern world. That is a great deal, and almost all of it can be checked.
 
-We do not know why a Lancashire antiquary wanted in, who wrote the legend at the centre of
+We do not know why a Lancashire antiquary wanted in, who wrote the legend at the center of
 it all, what a candidate actually felt in the dark, or why the people who built these systems
 so consistently insisted they had found them.
 

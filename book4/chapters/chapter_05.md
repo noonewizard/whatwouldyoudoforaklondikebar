@@ -4,7 +4,7 @@
 In 1980 a farmer near the village of 'Ain Dara in northern Syria turned up a
 carved basalt lion. Excavation followed, and what emerged was a temple: Iron Age,
 monumental, well preserved, and built on a plan that anyone who has read 1 Kings 6
-will recognise immediately.
+will recognize immediately.
 
 ---
 
@@ -94,10 +94,10 @@ dropped.
 **It supports the general picture** that formal temple architecture on the
 regional pattern existed in Judah in this era.
 
-**And it complicates the biblical account of cultic centralisation**, because it
+**And it complicates the biblical account of cultic centralization**, because it
 is a substantial temple operating close to Jerusalem in a period when the
 Deuteronomistic ideology insists worship should have been concentrated at the
-Jerusalem Temple alone. Either centralisation was less complete in practice than
+Jerusalem Temple alone. Either centralization was less complete in practice than
 in theory, or it came later than the text implies.
 
 This book notes that complication rather than smoothing it, because smoothing it
@@ -121,7 +121,7 @@ toward an inner sanctum, and differs in nearly everything else — plan, materia
 scale, and the religious system it served.
 
 Its real value is as a control. **The fact that Egyptian, Mesopotamian and
-Levantine temples all restrict access toward a centre tells us that restriction is
+Levantine temples all restrict access toward a center tells us that restriction is
 a near-universal solution to a near-universal problem**, not that any of them
 learned it from the others. This is the half-of-everything rule from the preceding
 volumes, applied to architecture: when a design feature has very few possible

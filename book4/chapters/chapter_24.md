@@ -3,8 +3,8 @@
 
 Why a builder?
 
-Most initiatory traditions centre a priest, a king, a prophet, or a god. Masonry
-centres a man who worked in bronze, and the choice is not obvious.
+Most initiatory traditions center a priest, a king, a prophet, or a god. Masonry
+centers a man who worked in bronze, and the choice is not obvious.
 
 ---
 
@@ -14,7 +14,7 @@ The dullest explanation is substantially correct and should be stated first.
 
 **Freemasonry descends, institutionally and nominally, from stonemasons' lodges.**
 The Scottish evidence of the sixteenth and seventeenth centuries — the Schaw
-Statutes, the lodge minutes — concerns actual working masons organising an actual
+Statutes, the lodge minutes — concerns actual working masons organizing an actual
 trade. The Old Charges are craft documents with a craft legendary history.
 
 **A trade's hero is a tradesman.** Guild traditions across medieval Europe
@@ -34,9 +34,9 @@ not, and this is why the choice turned out to be so productive.
 **Competence that is checkable.** A builder's work stands or falls — literally. The
 preceding volume made this point about ritual competence and it applies with more
 force to craft: a badly cut stone is visibly badly cut, and no authority can
-declare otherwise. **A tradition organised around a craftsman inherits a model of
+declare otherwise. **A tradition organized around a craftsman inherits a model of
 knowledge in which claims are testable by their results**, which is an unusual and
-valuable thing for a symbolic system to have at its centre.
+valuable thing for a symbolic system to have at its center.
 
 **Knowledge that is transmitted by apprenticeship.** Craft skill cannot be
 acquired from a book; it must be shown, by a person, to a person, over time. This

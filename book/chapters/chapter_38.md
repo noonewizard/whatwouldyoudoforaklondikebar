@@ -73,7 +73,7 @@ tens of thousands of Masons, in a nineteenth-century Christian society, without 
 anticipating how it would look if extracted.
 
 That was a serious misjudgement of his audience, and it was not the only one. The same
-chapter and its neighbours contain a great deal of material about dualism, about the
+chapter and its neighbors contain a great deal of material about dualism, about the
 Gnostics, about the equal antiquity of light and darkness, and about the limitations of
 dogmatic religion, all written in a tone of Olympian comparison that assumes a reader with
 Pike's own detachment.
@@ -120,7 +120,7 @@ that Freemasons worship the goat-headed figure.
 
 **Stage six, the twentieth century onward.** Lévi's drawing becomes the standard visual
 representation of Satan in Western popular culture, appearing in films, on records, and
-eventually as a bronze statue erected by a modern religious organisation making a First
+eventually as a bronze statue erected by a modern religious organization making a First
 Amendment point.
 
 ---

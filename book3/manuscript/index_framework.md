@@ -36,7 +36,7 @@ Vigenère, Blaise de · Vitruvius · Westcott, William Wynn · Yates, Frances
 
 ---
 
-## B — ORGANISATIONS AND RITES
+## B — ORGANIZATIONS AND RITES
 
 Antients and Moderns · Craft (Blue Lodge) · Élus Coëns · Golden Dawn, Hermetic
 Order of the (**not Masonic**) · Grand Lodge of England · Knights Templar · Quatuor
@@ -114,7 +114,7 @@ Non-negotiable. Each is a distinction the book spends chapters establishing.
 | Cipher / code / jargon | one entry |
 | Cryptography / steganography | one entry |
 | Secret / symbol / metaphor / coincidence | one entry |
-| Masonic bodies / bodies whose members were Masons / bodies borrowing Masonic form | "Masonic organisations" |
+| Masonic bodies / bodies whose members were Masons / bodies borrowing Masonic form | "Masonic organizations" |
 | Availability / transmission | one entry |
 | Meaning / intention | one entry |
 | Entailed / arbitrary | — |

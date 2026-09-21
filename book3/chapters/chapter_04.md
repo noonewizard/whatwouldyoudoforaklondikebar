@@ -55,7 +55,7 @@ he is and how many people are present, which leaves him with exactly what the
 ceremony intends to give him: the voice, when it comes, and nothing else.
 
 **It signals that a boundary has been crossed.** Ordinary sociability is noisy.
-People arriving at a lodge meeting talk; they talk at dinner afterwards. The
+People arriving at a lodge meeting talk; they talk at dinner afterward. The
 silence in between is one of the clearest markers that the room has changed status
 — which is Jonathan Z. Smith's point about sacred space, that sacrality is a matter
 of placement and designation rather than of substance.[^2] Silence is one of the
@@ -84,12 +84,12 @@ that is never articulated cannot be disclosed.**
 And a large part of what Masonic ritual conveys is of this kind. Not concealed —
 simply not put into words by anyone, including the people who have it. The manner
 of a ceremony. The timing. What the room feels like when it is done well and what
-is wrong when it is done badly. The judgement a Past Master exercises when he
+is wrong when it is done badly. The judgment a Past Master exercises when he
 prompts a nervous officer. None of this is secret. All of it is unwritten, and most
 of it is unwritable.
 
 Michael Polanyi's term for this is **tacit knowledge** — the category of things we
-know and cannot state.[^3] His examples are ordinary: recognising a face,
+know and cannot state.[^3] His examples are ordinary: recognizing a face,
 riding a bicycle, knowing that a chemical reaction has gone wrong from the look of
 it. The knowledge is real, it is demonstrable, it is transmissible by
 apprenticeship, and it does not survive being written down because it was never in
@@ -188,7 +188,7 @@ what the rough ashlar means, because nothing authorises a correction.
 **Two things follow, and they pull in opposite directions.**
 
 **The tradition became extraordinarily accommodating.** A Christian, a Jew, a deist
-and a sceptic can all work the same ceremony and take from it whatever their
+and a skeptic can all work the same ceremony and take from it whatever their
 convictions allow. This is why Masonry spread across confessional boundaries that
 almost nothing else crossed in the eighteenth century, and it is a genuine
 achievement.

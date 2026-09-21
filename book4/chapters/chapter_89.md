@@ -44,7 +44,7 @@ finished structure is invited to a comparison they will lose. A person invited t
 identify with a building under construction is invited to an accurate description
 of themselves.
 
-**It distributes credit and defers judgement.** No one person raises an unfinished
+**It distributes credit and defers judgment.** No one person raises an unfinished
 building, and no one moment settles whether it was well built. This is a
 considerable kindness, and it is also, less comfortably, a considerable evasion —
 a project that is never complete is never assessable.
@@ -65,7 +65,7 @@ has a real one.
 
 **Permanent incompletion can excuse permanent non-delivery.** An institution that
 describes itself as always building is an institution that never has to show a
-building. A moral programme that is by definition unfinishable cannot fail, because
+building. A moral program that is by definition unfinishable cannot fail, because
 failure requires a standard that a deadline supplies and this one has none.
 
 Freemasonry has been susceptible to this. So has every tradition of gradual

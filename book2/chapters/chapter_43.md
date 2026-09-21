@@ -86,7 +86,7 @@ never read a word of Pike?
 **He had something, and it was not nothing, and it was not what the occult literature
 describes.**
 
-He had a body of material memorised so thoroughly he could deliver it at eighty. He had a
+He had a body of material memorized so thoroughly he could deliver it at eighty. He had a
 dated memory of an evening he would describe as having made an impression. He had a set of
 obligations with documented consequences — the charity accounts are real and the sums are
 large. He had a form of address, a place in a room, and a burial.
@@ -179,7 +179,7 @@ absence is not explicable by secrecy, since the Golden Dawn was secret too and i
 in libraries.
 
 **It requires the initiated few to behave differently.** They would, at minimum, need to
-recognise each other and to conduct their business somewhere. Three centuries of hostile
+recognize each other and to conduct their business somewhere. Three centuries of hostile
 investigation — parliamentary, journalistic, ecclesiastical, police — have looked for exactly
 this, with subpoena powers in some cases, and have found lodges arguing about subscriptions.
 

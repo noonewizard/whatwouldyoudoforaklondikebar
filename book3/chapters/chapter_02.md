@@ -59,7 +59,7 @@ Now read the magical and religious material with that in hand, because it stops
 looking naive.
 
 A tradition that holds a name to confer power over its bearer is not making a
-category error. It is generalising, perhaps too far, from something that is
+category error. It is generalizing, perhaps too far, from something that is
 genuinely true of names: **a name is an instrument of address.** To have someone's
 name is to be able to call them. In ordinary social life this is unremarkable and
 constantly useful — it is why we learn the names of people we want things from,
@@ -73,7 +73,7 @@ other end of the line is a different question, and not one this book will answer
 
 The point for now is narrower. **A tradition treating names as power is reasoning
 from the structure of naming, not from superstition.** Whether the reasoning
-generalises is the question, and it is a real question rather than an obvious
+generalizes is the question, and it is a real question rather than an obvious
 mistake.
 
 ---

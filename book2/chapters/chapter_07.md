@@ -20,7 +20,7 @@ register, and about what follows from it.
 
 ### Learned by heart, never by book
 
-In most jurisdictions, Masonic ritual is not read. It is memorised.
+In most jurisdictions, Masonic ritual is not read. It is memorized.
 
 The scale is worth stating because it is routinely underestimated. A Mason who progresses
 through the offices of a lodge in the English constitution commits to memory a body of
@@ -34,7 +34,7 @@ centuries among clerks and schoolmasters, and persists now. Some jurisdictions p
 printed rituals for private study; some have historically forbidden even that, requiring the
 text to be learned mouth to ear.[^2]
 
-The practice is old. The Scottish catechisms of the 1690s are memorisation documents: their
+The practice is old. The Scottish catechisms of the 1690s are memorization documents: their
 question-and-answer form exists precisely so that the material can be held and tested
 without writing. And the second Schaw Statute of 1599 requires fellows of craft to be
 examined in "the art of memory and the science thereof," which — whatever else it meant, and
@@ -58,8 +58,8 @@ can find contradictions. You can argue about interpretation with the object in f
 both parties. You can also, crucially, *have* it without doing anything — a book on a shelf
 is a possession.
 
-Memorised ritual has none of these properties. It cannot be inspected except by performance.
-It cannot be possessed without labour. It cannot be compared without two people agreeing to
+Memorized ritual has none of these properties. It cannot be inspected except by performance.
+It cannot be possessed without labor. It cannot be compared without two people agreeing to
 perform simultaneously, which is what the examination of a visiting brother actually is.
 And it decays unless used.
 
@@ -84,14 +84,14 @@ open book with a square and compasses upon it, and he cannot see any of this —
 arranged for him by other people's hands. One knee is bare against boards. One foot is
 unshod. He stands in prescribed attitudes at prescribed moments. He walks a prescribed
 course. He receives, and later gives, a grip — a particular arrangement of pressure between
-two hands that must be executed correctly to be recognised.
+two hands that must be executed correctly to be recognized.
 
 None of this is decorative. Every item is prescribed in the sources and every item is
 checkable: the grips and steps are among the things a visiting brother is examined on.
 
 And all of it is stored the way physical skills are stored, not the way facts are.
 
-I am going to be careful here, because embodied cognition is a research programme rather
+I am going to be careful here, because embodied cognition is a research program rather
 than a settled result, and its bolder formulations — that thought is *constituted* by bodily
 state rather than merely influenced by it — remain contested.[^4] What is not contested is
 the more modest proposition: that procedural memory and declarative memory are different
@@ -133,7 +133,7 @@ information in people rather than in objects, and they are very large advantages
 
 I should state the other side, because a chapter that only lists advantages is advocacy.
 
-Memorised transmission *drifts*. Every generation loses a phrase and supplies another; every
+Memorized transmission *drifts*. Every generation loses a phrase and supplies another; every
 lodge develops local habits; every jurisdiction diverges. The variation in Masonic ritual
 across England, Scotland, Ireland, France and the American states is enormous, and a
 substantial part of it is simply the accumulated error of oral transmission over three
@@ -190,7 +190,7 @@ or abbreviated aides-mémoire; some have historically forbidden written texts en
 of the art-of-memory clause.]** The interpretive dispute is set out in Chapter 34 and in the
 preceding volume.
 
-[^4]: On embodied cognition as a research programme, see George Lakoff and Mark Johnson,
+[^4]: On embodied cognition as a research program, see George Lakoff and Mark Johnson,
 *Philosophy in the Flesh* (New York: Basic Books, 1999), and Andy Clark, *Supersizing the
 Mind* (New York: Oxford University Press, 2008). The stronger constitutive claims remain
 contested; this chapter relies only on the distinction between procedural and declarative

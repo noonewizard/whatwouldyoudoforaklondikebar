@@ -28,7 +28,7 @@ By the later Second Temple period, restriction is visible. The Septuagint, the
 Greek translation made from the third century BCE onward, renders YHWH as *kyrios*,
 "Lord" — a translation choice that already presupposes the substitution.[^1] Some
 Greek manuscripts leave the Hebrew letters standing in the Greek text, untranslated
-and unpronounced, which is a striking piece of scribal behaviour: the copyist
+and unpronounced, which is a striking piece of scribal behavior: the copyist
 writes Greek until he reaches the Name, then writes Hebrew, then resumes.
 
 At Qumran the practice varies and is informative. Some scrolls write the divine Name
@@ -37,7 +37,7 @@ written in the square Aramaic script that had become standard. The Name is
 typographically quarantined. Some scribes leave blank spaces to be filled later by
 someone more qualified. Some substitute four dots.[^2]
 
-**All of this is behaviour around a word that is still perfectly legible.** Nobody
+**All of this is behavior around a word that is still perfectly legible.** Nobody
 is hiding it. They are marking it, and the marking is reverential.
 
 By the rabbinic period the position is that the Name is pronounced only in the
@@ -93,7 +93,7 @@ wrong. The name was not secret, it was not guarded against outsiders, and there 
 nothing to recover that a reader of the Hebrew Bible does not already have in front
 of them.
 
-**What was lost was a practice, and practices are lost by not being practised.**
+**What was lost was a practice, and practices are lost by not being practiced.**
 
 ---
 
@@ -139,7 +139,7 @@ in principle nameable.
 
 They are frequently merged, and the merge produces a very attractive and very
 unfounded story in which the pronunciation was allowed to lapse *because* the
-divine was recognised as ineffable. There is no evidence for that causal claim. The
+divine was recognized as ineffable. There is no evidence for that causal claim. The
 restriction looks like reverence in practice long before anyone articulates a
 doctrine of ineffability, and the doctrine arrives in its developed form from a
 philosophical tradition with Greek parentage.
@@ -184,7 +184,7 @@ stopped saying them. That is why scholars can say anything at all about how the
 Name sounded.
 
 **The thing that was allowed to lapse is precisely the thing nobody needed for any
-other purpose.** What was useful — the names of one's ancestors and neighbours —
+other purpose.** What was useful — the names of one's ancestors and neighbors —
 survived intact, because it was in constant use and because using it was never the
 thing that was restricted.
 

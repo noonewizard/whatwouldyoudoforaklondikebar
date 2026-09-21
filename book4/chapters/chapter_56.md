@@ -50,7 +50,7 @@ it does not say.
 **The idea that φ is a universal law of beauty is nineteenth-century.** Adolf
 Zeising proposed it as such in the 1850s. Matila Ghyka popularized it for the
 twentieth century in the 1930s. Le Corbusier's Modulor made it a modern design
-programme. Every retrospective discovery of φ in Greek and Renaissance buildings
+program. Every retrospective discovery of φ in Greek and Renaissance buildings
 postdates that proposal — which is the classic signature of a method finding what
 it was built to find.
 

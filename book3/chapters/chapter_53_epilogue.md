@@ -89,12 +89,12 @@ the evidence clearer, and those are not in tension.
 
 **What the research dissolves is the manufactured mystery.** The cipher that was
 never a cipher. The ancient transmission with no carrier. The decipherment whose
-success criterion was written afterwards. The sacred geometry found by a method
+success criterion was written afterward. The sacred geometry found by a method
 that finds it in a car park. The numbers that turn out to be a page reference and an
 administrative total.
 
 That material is gone, and it should be. It was never load-bearing, and the people
-who built this tradition would not have recognised it.
+who built this tradition would not have recognized it.
 
 **What is left standing is harder and older.**
 

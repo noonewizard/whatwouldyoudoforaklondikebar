@@ -3,7 +3,7 @@
 
 There is a building in almost every town in the English-speaking world that you have
 walked past without looking at. It has no display window. Its door is usually locked.
-Above the door, or set into the brick, there is a symbol: two draughtsman's instruments
+Above the door, or set into the brick, there is a symbol: two draftsman's instruments
 crossed, a square and a pair of compasses, sometimes with a letter G between them.
 Nothing else identifies it. In a small American town it may be the second-largest
 building on the main street. In an English market town it may be a converted chapel. In
@@ -58,7 +58,7 @@ And here is the difficulty with the second story.
 If Freemasonry is nothing but moral allegory and charity dinners, then somebody needs to
 explain why, in 1761, a Bordeaux merchant named Martinez de Pasqually was conducting
 theurgic invocations of angelic intelligences inside a structure of Masonic degrees, and
-why the man who systematised his work went on to found a Masonic rite that still exists.
+why the man who systematized his work went on to found a Masonic rite that still exists.
 Somebody needs to explain why the Gold- und Rosenkreuz, the most politically influential
 occult order of the eighteenth century, required that a candidate be a Freemason before
 it would teach him alchemy. Somebody needs to explain why the three men who founded the
@@ -68,7 +68,7 @@ has, beneath its Egyptian costume and its Hebrew letters, the unmistakable skele
 lodge.
 
 Both stories are wrong. They are wrong in the same way. They both assume that if
-Freemasonry and magic are related, the relationship must run *backwards* — from
+Freemasonry and magic are related, the relationship must run *backward* — from
 antiquity, through a hidden channel, into the present.
 
 The evidence says the traffic runs the other way.
@@ -125,7 +125,7 @@ is a habit of asking *by what route, in what year, through whose hands*.
 
 It is, third, an argument about a word. *Magic* is not a stable thing. In Iamblichus it
 names something its practitioners insist is emphatically not magic. In Ficino it is
-medicine. In Agrippa it is a philosophy of nature in three storeys. By 1700 it has
+medicine. In Agrippa it is a philosophy of nature in three stories. By 1700 it has
 become chiefly a term for what respectable knowledge is not. And then in 1854 a defrocked
 French seminarian who had spent the 1840s writing socialist pamphlets picks the word up
 again and gives it a meaning it had never quite had: an inner science of will,

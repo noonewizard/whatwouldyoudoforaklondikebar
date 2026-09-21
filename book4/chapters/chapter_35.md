@@ -41,7 +41,7 @@ the erasure was part of the closing.
 
 Over time the drawn floor gave way to a painted floor-cloth, and the floor-cloth
 to the portable tracing board: a framed painting, set up on an easel, carrying the
-emblems of the degree. Recognisable painted boards belong to the decades around
+emblems of the degree. Recognizable painted boards belong to the decades around
 1800, and the designs that became standard in English practice — those associated
 with John Harris in the 1840s — are Victorian.
 
@@ -51,7 +51,7 @@ Three consequences follow.
 the room was rented and the landlord wanted his dining room back.
 
 **It was visual and inventoried.** A drawing can hold a fixed set of emblems and
-be checked against a standard. This favours accumulation: a board has room for one
+be checked against a standard. This favors accumulation: a board has room for one
 more symbol.
 
 **It changed when the medium changed.** A chalked floor, a painted cloth, and a

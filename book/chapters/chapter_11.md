@@ -66,7 +66,7 @@ The technical vocabulary, briefly, because the imagery will recur.
 
 **Prima materia**: the first matter, the undifferentiated substance from which the work
 begins. Identifying it is the tradition's central puzzle, and the texts are deliberately
-unhelpful — it is said to be common, despised, found everywhere and recognised by nobody.
+unhelpful — it is said to be common, despised, found everywhere and recognized by nobody.
 
 **Sulphur, mercury, salt**: the three principles. Not the everyday substances but the
 qualities they exemplify — combustibility, volatility and fixity, roughly. Paracelsus's
@@ -84,7 +84,7 @@ number and order vary by author because the authors were describing different pr
 **The stone**: the goal. Capable of transmuting base metals into gold; in some accounts
 also a universal medicine.
 
-And through all of it, the death. The nigredo is not a metaphor added for colour. It is the
+And through all of it, the death. The nigredo is not a metaphor added for color. It is the
 descriptive heart of the work: the matter must be killed, must rot, must go black and
 stink, before anything can be made of it. The illustrated alchemical books of the sixteenth
 and seventeenth centuries render this with striking literalness — a king and queen in a
@@ -121,7 +121,7 @@ one test the claim passes without difficulty, and it is the weakest of the six.
 
 **Transmission.** Can anyone name the route — a person, a text, a meeting? No. We do not
 know who composed the third degree. That is one of the real mysteries of Masonic history:
-the central ritual of the world's largest fraternal organisation has no known author and no
+the central ritual of the world's largest fraternal organization has no known author and no
 datable moment of composition. It appears, fully formed, in a hostile pamphlet in 1730, and
 there is no surviving draft.
 
@@ -133,7 +133,7 @@ legendary history; and the ordinary dramatic repertoire of the period. The vocab
 architectural and biblical throughout. There is no sulphur, no mercury, no nigredo, no
 stone.
 
-**Institutional continuity.** Was there an organisation carrying alchemical teaching into
+**Institutional continuity.** Was there an organization carrying alchemical teaching into
 the lodges? Not in the relevant period. In the 1770s there will be — the Gold- und
 Rosenkreuz, which we come to in Chapter 28, and which is a genuine, documented, institutional
 link between alchemy and Masonic structure. But that is forty years *after* the third
@@ -198,7 +198,7 @@ reformation of the world.
 
 The brotherhood did not exist. The author later called the third pamphlet a joke. And the
 template it established — invisible superiors, a hidden founder, a tomb, a coming
-transformation — would be used, and reused, and reused, by almost every organisation in the
+transformation — would be used, and reused, and reused, by almost every organization in the
 remainder of this book.
 
 ---

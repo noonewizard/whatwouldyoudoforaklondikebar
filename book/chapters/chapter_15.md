@@ -1,7 +1,7 @@
 # CHAPTER FIFTEEN
 ## 1717, or 1721
 
-Every organisation needs a birthday, and Freemasonry's is printed on the front of its own
+Every organization needs a birthday, and Freemasonry's is printed on the front of its own
 buildings.
 
 The story is told in James Anderson's *New Book of Constitutions*, published in 1738. Four
@@ -40,7 +40,7 @@ There is no contemporary newspaper report of the 1717 meeting. No lodge minute. 
 No diary entry. Nothing.
 
 Apply the first of our six questions — *where is the physical object?* — and the answer is:
-there is one book, printed twenty-one years afterwards, by an interested party.
+there is one book, printed twenty-one years afterward, by an interested party.
 
 That does not make the story false. Institutions frequently record their own beginnings
 late and imperfectly, and Anderson was writing within the lifetime of participants who
@@ -70,7 +70,7 @@ Sit with that for a moment.
 
 The Salutation Tavern in Tavistock Street is a two- or three-minute walk from St Paul's
 Churchyard. If a Grand Lodge comprising four lodges had been meeting in that immediate
-neighbourhood continuously since June 1717 — holding annual assemblies, electing Grand
+neighborhood continuously since June 1717 — holding annual assemblies, electing Grand
 Masters, constituting new lodges — then in January 1721 it should not have been difficult
 to assemble enough Masons to initiate a candidate a few streets away. And a well-connected
 antiquary who moved in exactly the circles from which the Grand Lodge's membership was
@@ -91,7 +91,7 @@ at Stationers' Hall on 24 June 1721.
 The case for that date is circumstantial but coherent. It is the first Grand Lodge event
 for which there is decent contemporary evidence. It marks the moment a nobleman took the
 chair, which is when a tavern association becomes an institution with social weight and
-national ambitions. It is immediately followed by everything that looks like organisational
+national ambitions. It is immediately followed by everything that looks like organizational
 activity: the commissioning of Anderson's *Constitutions*, the start of the minute book,
 rapid expansion, and the first newspaper attention.
 
@@ -149,7 +149,7 @@ Now hold that observation up against the rest of this book.
 
 If the *documented, minute-keeping, Enlightenment* end of this history acquired a false or
 at least unverifiable origin date within twenty-one years — what should we expect of
-organisations that kept no minutes, published nothing, swore their members to silence, and
+organizations that kept no minutes, published nothing, swore their members to silence, and
 had every incentive to claim antiquity?
 
 We should expect exactly what we find. The Templar descent of the Rite of Strict
@@ -174,9 +174,9 @@ Lodge.
 
 What is at issue is the founding date of a *governing body* — an administrative
 superstructure imposed on an existing practice. That superstructure mattered enormously,
-because it standardised ritual, printed constitutions, chartered lodges abroad, and turned
+because it standardized ritual, printed constitutions, chartered lodges abroad, and turned
 a scattered custom into an international institution. But it did not create Freemasonry. It
-organised it.
+organized it.
 
 And in doing so, it produced the document that would define what Freemasonry was permitted
 to mean for the next three hundred years — a printed book of 1723, containing a mythical

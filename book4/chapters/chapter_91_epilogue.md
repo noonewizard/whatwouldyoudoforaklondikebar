@@ -121,7 +121,7 @@ Freemasonry actually does exactly where it was. Chapter 87 listed what survives,
 and four things survived, and they were the four that were doing the work all
 along.
 
-The Temple in Jerusalem was built by conscripted labour for a king with a claim to
+The Temple in Jerusalem was built by conscripted labor for a king with a claim to
 make, and it was burned, and the ground it stood on is contested still. That
 building is gone and this book has been honest about how little of it can be
 recovered.

@@ -11,7 +11,7 @@ visible rather than inferred.
 ### Rome, and the spoils
 
 The Roman treatment of the Temple after 70 CE was not incidental destruction. It
-was a programme.
+was a program.
 
 The spoils were paraded in Rome. The triumphal arch erected for Titus, which
 stands today at the edge of the Forum, carries a relief of the procession with the
@@ -36,13 +36,13 @@ temple to Jupiter, completing the substitution architecturally.
 ### Monumentalism as argument
 
 Augustus was credited with the boast that he found Rome brick and left it marble.
-Whether or not he said it, the programme it describes was real: a regime
+Whether or not he said it, the program it describes was real: a regime
 established by civil war reconstructing its capital in permanent materials.
 
 The logic is consistent wherever it appears. **Monumental architecture is a claim
 about duration made by institutions that are not durable.** It is expensive
 precisely because expense is the message — a regime that can immobilize this much
-labour and stone in a form that cannot be quickly undone is asserting that it
+labor and stone in a form that cannot be quickly undone is asserting that it
 expects to be here when the building is old.
 
 The assertion is usually wrong, and the buildings frequently outlive the regimes by
@@ -69,7 +69,7 @@ care.
 
 Two consequences.
 
-**The first concerns what the Temple was for its neighbours and conquerors.** It
+**The first concerns what the Temple was for its neighbors and conquerors.** It
 was an asset. Its destruction was a transfer, its revenue was a prize, and its
 replacement on the same ground by another god's house was a statement everyone
 understood. None of this is hostile interpretation; it is what the Roman sources

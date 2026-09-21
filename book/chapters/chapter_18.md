@@ -41,7 +41,7 @@ art. A mason has one, and the Old Charges make sure he knows it.
 
 That single fact does more to explain the emergence of speculative Freemasonry than any
 theory of ancient transmission. Here is a trade whose own founding documents tell its
-members that they practise a branch of philosophy. Give that trade a lodge system, a
+members that they practice a branch of philosophy. Give that trade a lodge system, a
 written record and an oath, and then let educated gentlemen hear the Charges read aloud at
 an admission — and the attraction is not mysterious at all.
 
@@ -50,10 +50,10 @@ an admission — and the attraction is not mysterious at all.
 The lodge that produced the 1723 *Constitutions* was thick with Fellows of the Royal
 Society. Desaguliers demonstrated Newtonian mechanics for a living. Newton had, in living
 memory, shown that the motions of the heavens obeyed mathematics — that the universe was,
-literally, a geometrical object. In that world, a fraternity organised around geometry was
+literally, a geometrical object. In that world, a fraternity organized around geometry was
 not archaic. It was modern.
 
-This is a point that gets lost when Freemasonry is read backwards through its
+This is a point that gets lost when Freemasonry is read backward through its
 nineteenth-century occult interpreters. The Grand Lodge of the 1720s was not looking
 backward to Egypt. It was looking at Newton. Its Grand Master was a man who did experiments
 in public. The symbolism of the square and compasses in that decade sits closer to the
@@ -91,7 +91,7 @@ Transfer that to conduct and you have a complete ethical vocabulary with no meta
 it. To act on the square is to act correctly, and correctness is not a matter of opinion,
 because a right angle is not a matter of opinion. To be upright is to be plumb. To meet
 another man on the level is to acknowledge that the standard applies to both of you
-regardless of rank — and in a society organised by rank, in a room containing a duke and an
+regardless of rank — and in a society organized by rank, in a room containing a duke and an
 apothecary, that is not a platitude.
 
 This is the operation the Craft performs on every object it touches, and it is worth naming
@@ -145,7 +145,7 @@ will be tested properly in Part VII.
 
 One last observation before we go to the Temple.
 
-Speculative Freemasonry is a system of building imagery practised by people who do not
+Speculative Freemasonry is a system of building imagery practiced by people who do not
 build anything.
 
 The lodge has a floor, pillars, a covering of clouded canopy or starry heaven, a
@@ -183,7 +183,7 @@ creation.
 
 [^4]: The moral interpretation of the working tools is set out in the eighteenth-century
 ritual sources and in William Preston, *Illustrations of Masonry* (London, 1772), which
-systematised the lectures. Wordings vary considerably by jurisdiction and period.
+systematized the lectures. Wordings vary considerably by jurisdiction and period.
 
 [^5]: The Academy inscription is reported by late sources and is probably apocryphal; the
 argument that geometry turns the soul toward being is Plato, *Republic* VII.

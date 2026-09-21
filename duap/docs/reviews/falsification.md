@@ -41,11 +41,17 @@ answered, because they are correct.
 | 8 | Legal rights are too unclear to license | **Fatal for individuals, manageable for organisations** |
 | 9 | A company-controlled protocol will not be adopted; a foundation will not be funded | **Unresolved and serious** |
 | 10 | Privacy law makes the ledger itself a liability | **Manageable**, at a cost already paid in the design |
+| 11 | The AI content vertical already has a standard and a deployed meter | **FATAL to the beachhead.** RSL owns terms; Cloudflare owns the gate |
 
-Three verdicts are fatal. They remove the consumer marketplace, the
-individual-payout product and the mass-market wallet from the plan.
-Two more are unresolved and could remove the rest. What survives is
-narrower than the original concept and is stated in §12.
+Four verdicts are fatal. They remove the consumer marketplace, the
+individual-payout product, the mass-market wallet, and the AI web-content
+beachhead. Two more are unresolved and could remove the rest. What survives
+is much narrower than the original concept and is stated in §13.
+
+Kill attempt 11 was added after the others, during competitive research,
+and it invalidated the beachhead the first ten had left standing. It is the
+clearest demonstration in this repository of why the research was worth
+doing before more engineering: the answer changed.
 
 ---
 
@@ -428,7 +434,86 @@ data class and timing across a long enough window describes a person.
 
 ---
 
-## 11. Kill attempts that failed too easily to keep
+## 11. "The AI content vertical already has a standard and a deployed meter"
+
+**This one succeeds, and it removes the beachhead.**
+
+**The argument.** DUAP's most plausible first market was AI training and
+inference data licensing: real money, measurable usage, identifiable
+counterparties. Between the start of this design work and this review, that
+market acquired both an open standard and an incumbent meter.
+
+Really Simple Licensing launched on 10 September 2025 and published RSL 1.0
+on 10 December 2025, managed by the non-profit RSL Collective. It is an
+XML vocabulary for machine-readable licensing and compensation terms,
+discoverable through `robots.txt`, HTTP headers, RSS and HTML link
+elements, and it explicitly supports pay-per-crawl and pay-per-inference
+compensation models [search-summary]
+([RSL 1.0](https://rslstandard.org/rsl);
+[The Register](https://www.theregister.com/2025/12/10/really_simple_licensing_spec_takes/)).
+
+Cloudflare launched pay-per-crawl in July 2025 using HTTP 402, with a
+$0.001 minimum per successful retrieval and publisher-set pricing.
+Publishers are reported to send over one billion 402 responses to AI
+crawlers per day across its network, with early adopters including Condé
+Nast, Time, the Associated Press, BuzzFeed, Reddit, Pinterest and Stack
+Overflow [search-summary]
+([TechCrunch](https://techcrunch.com/2025/07/01/cloudflare-launches-a-marketplace-that-lets-websites-charge-ai-bots-for-scraping/);
+[Cloudflare](https://blog.cloudflare.com/introducing-ai-crawl-control/)).
+
+More than a dozen intermediaries have formed since 2024 — TollBit, ProRata,
+ScalePost, Sphere AI, Created by Humans, Miso.ai among them
+[search-summary]
+([Brookings](https://www.brookings.edu/articles/same-gatekeepers-new-tollbooths-in-the-ai-content-licensing-market/)).
+
+An open standard, an infrastructure incumbent operating at web scale, a
+collective rights organisation, and a dozen funded intermediaries. A new
+protocol entering here is not filling a gap; it is arriving late to a
+market that solved the problem differently while it was being designed.
+
+**Why it is fatal to the beachhead and not to the protocol.** Read what
+each of these actually does. RSL declares terms *prior to* access; its
+specification defines no usage reporting, no receipt and no audit
+mechanism. Cloudflare's meter is Cloudflare's meter: the publisher trusts
+it, the AI company trusts it, and neither can check it. Both are correct
+designs for the crawl boundary, where an intermediary genuinely sits in the
+path and a trusted count is cheap and sufficient.
+
+Neither extends past that boundary — and RSL makes the gap unusually
+explicit, because it declares a **pay-per-inference** term that nothing in
+its stack can measure. Inference happens inside the buyer's
+infrastructure. No crawl gate observes it. No CDN counts it. A term exists,
+priced, in an official standard, with no mechanism to establish what is
+owed under it.
+
+**So the verdict splits.** The AI *web-content crawl* market is closed:
+RSL owns terms, Cloudflare owns the gate, and DUAP has no differentiated
+capability there. What is not closed is usage that occurs where no
+intermediary can sit — inference, fine-tuning, derivation, internal
+redistribution — and for that the only available evidence is a
+self-report, which today is not signed, not sequenced, not
+cross-checkable, and not linked to the licence it exercises.
+
+**What that leaves is smaller and better-defined than what DUAP started
+with:** signed self-reports with non-repudiation, gap detection and
+cross-reporter double-count detection, for usage no gate can observe. That
+is strictly better than nothing, which is the current state, and honestly
+weaker than a gate, which is why DUAP should never be proposed where a gate
+will do.
+
+**Verdict: FATAL to the beachhead.** `docs/market/go-to-market.md` must be
+written against the residual, not against AI content licensing, and any
+plan that still names AI web-content licensing as the entry point is
+out of date.
+
+**What would extend this to a full kill:** RSL adding usage reporting and
+receipts, which the RSL Collective has both the motive and the standing to
+do. If that happens, DUAP's remaining claim in this vertical disappears and
+the project should contribute there instead of competing.
+
+---
+
+## 12. Kill attempts that failed too easily to keep
 
 Recorded so the list above is not mistaken for the whole attack surface.
 
@@ -445,35 +530,64 @@ Recorded so the list above is not mistaken for the whole attack surface.
 
 ---
 
-## 12. What survives
+## 13. What survives
 
 Stripping out everything the kill attempts removed:
 
-**Removed outright:** the consumer data marketplace; individual
-data-payout income as a product; the mass-market wallet as a first product;
-attribution-based pricing; any claim that usage is cryptographically proven;
-any framing in which a person's privacy rights are a licensable asset.
+**Removed outright:**
 
-**Survives, conditionally:** a usage-accounting and evidence layer for
-*organisations* licensing data to each other under metered, recurring
-terms, where the parties are numerous enough or the terms dynamic enough
-that bilateral spreadsheets are failing; with aggregation as a mandatory
-cost constraint; with inclusion rather than influence as the AI claim; and
-with the protocol's limits published as machine-readable data rather than
-prose.
+- the consumer data marketplace, and individual data-payout income as a
+  product (kill 2, kill 4);
+- the mass-market data wallet as a first product (kill 2, kill 8);
+- any framing in which a person's privacy rights are a licensable asset
+  (kill 8);
+- attribution-based pricing (kill 6);
+- any claim that usage is cryptographically proven (kill 5);
+- **AI web-content licensing as the beachhead** (kill 11) — RSL declares
+  the terms, Cloudflare meters the crawl, and DUAP has nothing
+  differentiated to offer at a boundary where an intermediary already sits;
+- and, following from kill 11, any proposal of DUAP where a gate will do.
+  A trusted intermediary in the path is cheaper and already deployed.
+  DUAP is for usage no gate can observe, or it is for nothing.
 
-**Unresolved, and decisive:** whether concentrated buyers will adopt an
-accounting layer that makes them auditable, and whether a governance
-structure exists that is neutral enough to be adopted and funded enough to
-be maintained.
+**Survives, conditionally — and this is now one sentence rather than a
+category:**
+
+> Signed, sequenced, cross-checkable usage evidence for data use that
+> occurs **inside a counterparty's infrastructure**, where no intermediary
+> can sit in the path, linked to the licence that authorized it and
+> aggregated into an obligation both parties can reconcile.
+
+The conditions attached to it, each from a kill attempt that survived only
+by imposing one:
+
+| Condition | From |
+|---|---|
+| Organisations, not individuals | kill 2, kill 8 |
+| Aggregate evidence; per-event receipts are uneconomic | kill 4 |
+| Inclusion, never influence, as the AI claim | kill 6 |
+| Never described as proof that usage occurred | kill 5 |
+| Never proposed where a gate is available | kill 11 |
+| Bind RSL, ODRL, the Dataspace Protocol; define only the usage object | kill 1 |
+
+The concrete instance this points at is **pay-per-inference**: a term RSL
+already standardises, that parties are already agreeing, and that nothing
+deployed can measure. That is a real, named, currently-unserved gap rather
+than a category of opportunity, and it is small enough to be tested.
+
+**Unresolved, and decisive:** whether any buyer will meter and sign its own
+internal use for a counterparty's benefit (kill 7), and whether a
+governance structure exists that is neutral enough to be adopted and funded
+enough to be maintained (kill 9).
 
 **The honest summary:** the technical thesis survived its own vertical
 slice and a second implementation. The consumer economic thesis did not
-survive contact with arithmetic. The enterprise economic thesis is
-unresolved and is not a question engineering can answer — which means the
-next work is not more protocol.
+survive contact with arithmetic. The beachhead did not survive contact with
+the current market. What is left is a narrow, well-defined, and genuinely
+unserved gap whose viability turns on a question no amount of engineering
+can answer — which is why the next work is not more protocol.
 
-## 13. Evidence that would stop the project
+## 14. Evidence that would stop the project
 
 Stated in advance so the answer cannot be rationalised later.
 
@@ -491,3 +605,11 @@ Stated in advance so the answer cannot be rationalised later.
 5. Failure to attract a second independent implementation within eighteen
    months of publishing the specification, which would falsify the kernel's
    central claim by demonstration rather than argument.
+6. RSL, or the RSL Collective, adding usage reporting and receipts. This
+   is now the most likely single event to end the project's remaining
+   claim, and the right response is to contribute there rather than
+   compete. Kill attempt 11 escalated to a full kill.
+7. Evidence that pay-per-inference terms are not actually being agreed, or
+   are being settled on estimates both parties accept without wanting
+   evidence. That would remove the one named, currently-unserved gap in
+   §13 and leave nothing specific behind it.

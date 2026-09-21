@@ -1,0 +1,25 @@
+[package]
+name = "duap-ledger"
+description = "DUAP double-entry ledger, invoicing, disputes, netting and settlement instructions"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+duap-canon = { path = "../duap-canon", version = "0.1.0" }
+duap-model = { path = "../duap-model", version = "0.1.0" }
+duap-meter = { path = "../duap-meter", version = "0.1.0" }
+duap-valuation = { path = "../duap-valuation", version = "0.1.0" }
+serde.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+criterion.workspace = true
+
+[[bench]]
+name = "ledger_bench"
+harness = false

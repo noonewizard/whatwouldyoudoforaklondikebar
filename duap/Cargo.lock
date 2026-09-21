@@ -399,6 +399,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "duap-ledger"
+version = "0.1.0"
+dependencies = [
+ "criterion",
+ "duap-canon",
+ "duap-meter",
+ "duap-model",
+ "duap-valuation",
+ "proptest",
+ "serde",
+ "thiserror",
+]
+
+[[package]]
 name = "duap-meter"
 version = "0.1.0"
 dependencies = [
@@ -438,6 +452,19 @@ dependencies = [
  "proptest",
  "serde",
  "serde_json",
+ "thiserror",
+]
+
+[[package]]
+name = "duap-valuation"
+version = "0.1.0"
+dependencies = [
+ "criterion",
+ "duap-canon",
+ "duap-meter",
+ "duap-model",
+ "proptest",
+ "serde",
  "thiserror",
 ]
 

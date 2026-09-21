@@ -7,6 +7,8 @@ members = [
     "crates/duap-auth",
     "crates/duap-provenance",
     "crates/duap-meter",
+    "crates/duap-valuation",
+    "crates/duap-ledger",
 ]
 
 [workspace.package]

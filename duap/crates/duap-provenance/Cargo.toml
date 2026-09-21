@@ -1,0 +1,25 @@
+[package]
+name = "duap-provenance"
+description = "DUAP transparency log, inclusion and consistency proofs, and the derivation graph"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+duap-canon = { path = "../duap-canon", version = "0.1.0" }
+duap-crypto = { path = "../duap-crypto", version = "0.1.0" }
+duap-model = { path = "../duap-model", version = "0.1.0" }
+serde.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+criterion.workspace = true
+serde_json.workspace = true
+
+[[bench]]
+name = "log_bench"
+harness = false

@@ -1,5 +1,8 @@
 //! Run the synthetic end-to-end DUAP demonstration.
 //!
+//! STATUS: REFERENCE. Every participant, subject and value is synthetic;
+//! see rule 07.
+//!
 //! `cargo run -p duap-demo` prints a human-readable transcript.
 //! `cargo run -p duap-demo -- --json` prints the machine-readable result.
 

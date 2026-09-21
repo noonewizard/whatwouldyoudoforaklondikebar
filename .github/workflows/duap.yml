@@ -69,9 +69,16 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: '1.24'
-          cache-dependency-path: duap/gateway/go.sum
+          # The gateway deliberately has no external dependencies -- it is
+          # the independent implementation, and a shared dependency with
+          # the Rust would weaken that. So there is no go.sum to key a
+          # cache on.
+          cache: false
       - name: Vet
         run: go vet ./...
+        working-directory: duap/gateway
+      - name: Formatting
+        run: test -z "$(gofmt -l .)"
         working-directory: duap/gateway
       - name: Tests
         run: go test ./...
@@ -112,12 +119,14 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - uses: dtolnay/rust-toolchain@stable
+      - uses: actions/setup-go@v5
+        with: {go-version: '1.24', cache: false}
+      # The generator runs rustfmt and gofmt over its own output, so this
+      # comparison is meaningful: without that, `cargo fmt` would reformat
+      # a generated file and every later run would report it as stale.
       - name: Taxonomy regenerates identically
         run: |
-          python3 ontology/gen_code.py
-          git diff --exit-code -- crates/duap-model/src/taxonomy.rs \
-                                  sdk/python/duap/taxonomy.py \
-                                  sdk/typescript/src/taxonomy.ts
+          python3 ontology/gen_code.py --check
       - name: Economic model regenerates identically
         run: |
           python3 economics/model.py

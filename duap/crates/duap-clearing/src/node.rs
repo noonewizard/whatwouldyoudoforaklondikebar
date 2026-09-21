@@ -569,7 +569,7 @@ impl ClearingNode {
                 .decisions
                 .get(&first.to_string())
                 .cloned()
-                .unwrap_or_else(|| unreachable_decision());
+                .unwrap_or_else(unreachable_decision);
 
             let Some(rule) = decision.pricing.clone() else {
                 unpriced.push(key.clone());

@@ -301,9 +301,11 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
         GrantId([0x55; 16]),
         terms,
         t(0),
-        t(365 * 86_400),
-        RevocationPolicy::AfterNotice { hours: 1 },
-        Currency::EUR,
+        duap_sdk::GrantPolicy {
+            expires_at: t(365 * 86_400),
+            revocation: RevocationPolicy::AfterNotice { hours: 1 },
+            currency: Currency::EUR,
+        },
     )?;
     // The node verifies the grant's signature before storing it.
     let grant_signers = grant_env.verify(
@@ -727,7 +729,7 @@ pub fn run() -> Result<DemoResult, Box<dyn std::error::Error>> {
     node.log.append(duap_provenance::LogEntry {
         kind: duap_provenance::EntryKind::Revocation,
         object: revocation.digest()?,
-        submitter: format!("org:duap/subject-agent").parse()?,
+        submitter: "org:duap/subject-agent".to_string().parse()?,
         sequenced_at: t(25_201),
         shard: Some("eu".into()),
     })?;

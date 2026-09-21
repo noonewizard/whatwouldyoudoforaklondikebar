@@ -1,4 +1,6 @@
 //! Errors for the DUAP object model.
+//!
+//! STATUS: REFERENCE.
 
 use thiserror::Error;
 

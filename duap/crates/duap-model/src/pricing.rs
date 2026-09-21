@@ -212,7 +212,7 @@ impl PricingRule {
                         reason: "a revenue share must not be negative".into(),
                     });
                 }
-                if share.num as i128 > share.den as i128 {
+                if share.num > share.den as i128 {
                     return Err(ModelError::Invalid {
                         field: "pricing.share",
                         reason: "a revenue share above 100% is rejected as a modelling error"

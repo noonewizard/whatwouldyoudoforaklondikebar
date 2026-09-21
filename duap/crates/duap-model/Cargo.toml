@@ -19,5 +19,5 @@ time.workspace = true
 getrandom.workspace = true
 
 [dev-dependencies]
-duap-crypto = { path = "../duap-crypto" }
+duap-crypto = { path = "../duap-crypto", version = "0.1.0" }
 proptest.workspace = true

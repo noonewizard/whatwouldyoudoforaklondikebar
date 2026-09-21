@@ -51,7 +51,7 @@ pub mod controller;
 pub mod subject;
 
 pub use controller::{ControllerAgent, SdkError, UsageRecord};
-pub use subject::SubjectAgent;
+pub use subject::{GrantPolicy, SubjectAgent};
 
 use duap_canon::digest::HashAlg;
 use duap_crypto::{Envelope, KeyRegistry, SuitePolicy, VerificationContext};
@@ -195,8 +195,8 @@ pub fn generate_receipt(
 /// Everything an integration normally needs.
 pub mod prelude {
     pub use crate::{
-        ControllerAgent, SdkError, SubjectAgent, UsageRecord, calculate_charge, create_invoice,
-        generate_receipt, query_provenance, verify_receipt,
+        ControllerAgent, GrantPolicy, SdkError, SubjectAgent, UsageRecord, calculate_charge,
+        create_invoice, generate_receipt, query_provenance, verify_receipt,
     };
     pub use duap_auth::prelude::*;
     pub use duap_crypto::{

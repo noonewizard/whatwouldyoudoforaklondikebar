@@ -128,7 +128,7 @@ impl Currency {
     /// guessing would silently misprice by a factor of 100.
     pub fn from_code(code: &str) -> Option<Currency> {
         let c: [u8; 3] = code.as_bytes().try_into().ok()?;
-        for cur in [
+        [
             Currency::USD,
             Currency::EUR,
             Currency::GBP,
@@ -138,12 +138,9 @@ impl Currency {
             Currency::INR,
             Currency::KRW,
             Currency::BHD,
-        ] {
-            if cur.code == c {
-                return Some(cur);
-            }
-        }
-        None
+        ]
+        .into_iter()
+        .find(|cur| cur.code == c)
     }
 
     pub fn as_str(&self) -> &str {
@@ -383,13 +380,11 @@ impl Precise {
                 }
             }
             Rounding::TowardZero => {
-                if self.nmu >= 0 {
-                    q
-                } else if r == 0 {
-                    q
-                } else {
-                    q + 1
-                }
+                // `q` is the floor. For a non-negative value the floor is
+                // already toward zero; for a negative one, toward zero is
+                // the ceiling, which is `q + 1` unless the division was
+                // exact.
+                if self.nmu >= 0 || r == 0 { q } else { q + 1 }
             }
             Rounding::HalfUp => {
                 // Half away from zero.

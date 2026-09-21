@@ -321,7 +321,7 @@ impl Gateway {
         // The grant's declared subject key must be one of the signers:
         // otherwise anyone with an authorization-signer role could issue
         // grants in another subject's name.
-        if !signers.iter().any(|k| *k == grant.subject_key) {
+        if !signers.contains(&grant.subject_key) {
             return bad(
                 403,
                 "subject_key_mismatch",
@@ -384,7 +384,7 @@ impl Gateway {
         };
         // Only the grant's own subject key may revoke it.
         match node.authorizations.grant(&rev.grant, rev.epoch) {
-            Some(g) if signers.iter().any(|k| *k == g.subject_key) => {}
+            Some(g) if signers.contains(&g.subject_key) => {}
             Some(_) => {
                 return bad(
                     403,
@@ -620,7 +620,7 @@ impl Gateway {
             serde_json::json!({
                 "count": rs.len(),
                 "receipts": rs.iter().map(|(r, env)| serde_json::json!({
-                    "id": r.id().map(|s| s).unwrap_or_default(),
+                    "id": r.id().unwrap_or_default(),
                     "controller": r.controller.to_string(),
                     "operation": r.coverage.operation.code(),
                     "quantity": r.coverage.quantity.amount,

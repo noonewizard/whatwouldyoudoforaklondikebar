@@ -340,7 +340,8 @@ impl<'a> Decoder<'a> {
                     at: start,
                     reason: "`undefined` is not part of the DUAP data model",
                 }),
-                25 | 26 | 27 => Err(CanonError::Unsupported {
+                // Half, single and double precision (RFC 8949 sec. 3.3).
+                25..=27 => Err(CanonError::Unsupported {
                     at: start,
                     reason: "floating point is not part of the DUAP data model",
                 }),

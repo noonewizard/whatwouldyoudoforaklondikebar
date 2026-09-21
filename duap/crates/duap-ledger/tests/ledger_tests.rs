@@ -571,7 +571,7 @@ fn netting_conserves_positions_and_bounds_transfers() {
         after.values().all(|v| *v == 0),
         "netting must settle every position"
     );
-    assert!(transfers.len() <= positions.len() - 1);
+    assert!(transfers.len() < positions.len());
 }
 
 #[test]

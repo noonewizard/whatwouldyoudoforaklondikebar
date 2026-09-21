@@ -5,7 +5,11 @@ One ontology, four languages. Divergence between SDK taxonomies would be an
 interoperability break that no amount of testing on one side would catch, so
 the enums are never hand-written. CI runs this with --check.
 """
-import json, pathlib, sys, hashlib
+import hashlib
+import json
+import pathlib
+import subprocess
+import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 ONT = json.loads((ROOT / "ontology" / "duap-ontology-v1.json").read_text())
@@ -591,12 +595,48 @@ TARGETS = {
     "gateway/internal/taxonomy/taxonomy.go": gen_go,
 }
 
+# Formatters applied to generated output before it is written or compared.
+#
+# Without this, generation is not idempotent: the emitters produce valid but
+# unformatted source, `cargo fmt` reformats it in place, and the next
+# regeneration undoes the formatting. CI would then flag hand-editing of a
+# generated file on every run that touched formatting, which is exactly the
+# false alarm that teaches people to ignore the check. Running the language's
+# own formatter here makes generated output a fixed point.
+FORMATTERS = {
+    ".rs": ["rustfmt", "--edition", "2024", "--emit", "stdout", "--quiet"],
+    ".go": ["gofmt"],
+}
+
+
+def formatted(rel: str, text: str) -> str:
+    """Run the language formatter over generated text, if one is available.
+
+    A missing formatter is not fatal -- the generator must work on a machine
+    with only Python -- but it is reported, because the output will then not
+    match what CI produces.
+    """
+    cmd = FORMATTERS.get(pathlib.Path(rel).suffix)
+    if cmd is None:
+        return text
+    try:
+        out = subprocess.run(
+            cmd, input=text, capture_output=True, text=True, check=True
+        )
+    except FileNotFoundError:
+        print(f"note: {cmd[0]} not found; {rel} left unformatted", file=sys.stderr)
+        return text
+    except subprocess.CalledProcessError as e:
+        print(f"note: {cmd[0]} failed on {rel}: {e.stderr.strip()}", file=sys.stderr)
+        return text
+    return out.stdout
+
 if __name__ == "__main__":
     check = "--check" in sys.argv
     stale = []
     for rel, fn in TARGETS.items():
         path = ROOT / rel
-        text = fn()
+        text = formatted(rel, fn())
         if check:
             if not path.exists() or path.read_text() != text:
                 stale.append(rel)

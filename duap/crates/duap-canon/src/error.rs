@@ -1,4 +1,8 @@
 //! Error type for canonical encoding, decoding, and digesting.
+//!
+//! STATUS: REFERENCE. Every variant names what was rejected and why, so a
+//! strict-decode failure tells an implementer which rule their encoder
+//! broke rather than that something was wrong.
 
 use thiserror::Error;
 

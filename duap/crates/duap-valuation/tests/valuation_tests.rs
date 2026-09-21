@@ -182,7 +182,7 @@ fn revenue_share_needs_declared_revenue() {
     ));
 
     let inputs = PricingInputs {
-        declared_revenue: Some(Money::new(Currency::EUR, 100_00)), // 100.00 EUR
+        declared_revenue: Some(Money::new(Currency::EUR, 10_000)), // 100.00 EUR in minor units
         ..Default::default()
     };
     let b = e.price(&k, &counter(1), &rule, &inputs).unwrap();

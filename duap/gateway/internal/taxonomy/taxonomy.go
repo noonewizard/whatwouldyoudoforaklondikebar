@@ -45,67 +45,67 @@ var validSensitivityTier = func() map[SensitivityTier]struct{} {
 type DataClass string
 
 const (
-	DataClassIdentityDirect DataClass = "identity.direct"
-	DataClassIdentityPseudonymous DataClass = "identity.pseudonymous"
-	DataClassIdentityGovernment DataClass = "identity.government"
-	DataClassContactEmail DataClass = "contact.email"
-	DataClassContactPhone DataClass = "contact.phone"
-	DataClassContactPostal DataClass = "contact.postal"
-	DataClassLocationPrecise DataClass = "location.precise"
-	DataClassLocationCoarse DataClass = "location.coarse"
-	DataClassLocationInferredHome DataClass = "location.inferred_home"
-	DataClassLocationInferredWork DataClass = "location.inferred_work"
-	DataClassLocationTrajectory DataClass = "location.trajectory"
-	DataClassDeviceIdentifier DataClass = "device.identifier"
-	DataClassDeviceFingerprint DataClass = "device.fingerprint"
-	DataClassDeviceConfiguration DataClass = "device.configuration"
-	DataClassDeviceNetwork DataClass = "device.network"
-	DataClassBehaviorWebBrowsing DataClass = "behavior.web_browsing"
-	DataClassBehaviorAppUsage DataClass = "behavior.app_usage"
-	DataClassBehaviorSearch DataClass = "behavior.search"
-	DataClassBehaviorContentConsumption DataClass = "behavior.content_consumption"
-	DataClassBehaviorSocialGraph DataClass = "behavior.social_graph"
-	DataClassBehaviorKeystrokeDynamics DataClass = "behavior.keystroke_dynamics"
-	DataClassBehaviorAttention DataClass = "behavior.attention"
-	DataClassTransactionPurchase DataClass = "transaction.purchase"
+	DataClassIdentityDirect               DataClass = "identity.direct"
+	DataClassIdentityPseudonymous         DataClass = "identity.pseudonymous"
+	DataClassIdentityGovernment           DataClass = "identity.government"
+	DataClassContactEmail                 DataClass = "contact.email"
+	DataClassContactPhone                 DataClass = "contact.phone"
+	DataClassContactPostal                DataClass = "contact.postal"
+	DataClassLocationPrecise              DataClass = "location.precise"
+	DataClassLocationCoarse               DataClass = "location.coarse"
+	DataClassLocationInferredHome         DataClass = "location.inferred_home"
+	DataClassLocationInferredWork         DataClass = "location.inferred_work"
+	DataClassLocationTrajectory           DataClass = "location.trajectory"
+	DataClassDeviceIdentifier             DataClass = "device.identifier"
+	DataClassDeviceFingerprint            DataClass = "device.fingerprint"
+	DataClassDeviceConfiguration          DataClass = "device.configuration"
+	DataClassDeviceNetwork                DataClass = "device.network"
+	DataClassBehaviorWebBrowsing          DataClass = "behavior.web_browsing"
+	DataClassBehaviorAppUsage             DataClass = "behavior.app_usage"
+	DataClassBehaviorSearch               DataClass = "behavior.search"
+	DataClassBehaviorContentConsumption   DataClass = "behavior.content_consumption"
+	DataClassBehaviorSocialGraph          DataClass = "behavior.social_graph"
+	DataClassBehaviorKeystrokeDynamics    DataClass = "behavior.keystroke_dynamics"
+	DataClassBehaviorAttention            DataClass = "behavior.attention"
+	DataClassTransactionPurchase          DataClass = "transaction.purchase"
 	DataClassTransactionPaymentInstrument DataClass = "transaction.payment_instrument"
-	DataClassFinancialAccount DataClass = "financial.account"
-	DataClassFinancialCreditworthiness DataClass = "financial.creditworthiness"
-	DataClassFinancialIncome DataClass = "financial.income"
-	DataClassContentUserGenerated DataClass = "content.user_generated"
-	DataClassContentCommunications DataClass = "content.communications"
-	DataClassContentMedia DataClass = "content.media"
-	DataClassBiometricTemplate DataClass = "biometric.template"
-	DataClassBiometricDerived DataClass = "biometric.derived"
-	DataClassHealthClinical DataClass = "health.clinical"
-	DataClassHealthWearable DataClass = "health.wearable"
-	DataClassHealthInferred DataClass = "health.inferred"
-	DataClassProtectedRaceEthnicity DataClass = "protected.race_ethnicity"
-	DataClassProtectedReligion DataClass = "protected.religion"
-	DataClassProtectedPolitical DataClass = "protected.political"
-	DataClassProtectedSexualOrientation DataClass = "protected.sexual_orientation"
-	DataClassProtectedGenetic DataClass = "protected.genetic"
-	DataClassProtectedImmigration DataClass = "protected.immigration"
-	DataClassMinorAny DataClass = "minor.any"
-	DataClassEducationRecord DataClass = "education.record"
-	DataClassEmploymentRecord DataClass = "employment.record"
-	DataClassTelemetryEnterprise DataClass = "telemetry.enterprise"
-	DataClassTelemetrySecurity DataClass = "telemetry.security"
-	DataClassTelemetryVehicle DataClass = "telemetry.vehicle"
-	DataClassTelemetryIotHome DataClass = "telemetry.iot_home"
-	DataClassTelemetryIotIndustrial DataClass = "telemetry.iot_industrial"
-	DataClassSensorEnvironmental DataClass = "sensor.environmental"
-	DataClassSensorImagingPublic DataClass = "sensor.imaging_public"
-	DataClassIndustrialProcess DataClass = "industrial.process"
-	DataClassScientificMeasurement DataClass = "scientific.measurement"
-	DataClassScientificHumanSubject DataClass = "scientific.human_subject"
-	DataClassDerivedProfile DataClass = "derived.profile"
-	DataClassDerivedSegment DataClass = "derived.segment"
-	DataClassDerivedEmbedding DataClass = "derived.embedding"
-	DataClassDerivedAggregate DataClass = "derived.aggregate"
-	DataClassDerivedDpAggregate DataClass = "derived.dp_aggregate"
-	DataClassDerivedSynthetic DataClass = "derived.synthetic"
-	DataClassDerivedModelParameters DataClass = "derived.model_parameters"
+	DataClassFinancialAccount             DataClass = "financial.account"
+	DataClassFinancialCreditworthiness    DataClass = "financial.creditworthiness"
+	DataClassFinancialIncome              DataClass = "financial.income"
+	DataClassContentUserGenerated         DataClass = "content.user_generated"
+	DataClassContentCommunications        DataClass = "content.communications"
+	DataClassContentMedia                 DataClass = "content.media"
+	DataClassBiometricTemplate            DataClass = "biometric.template"
+	DataClassBiometricDerived             DataClass = "biometric.derived"
+	DataClassHealthClinical               DataClass = "health.clinical"
+	DataClassHealthWearable               DataClass = "health.wearable"
+	DataClassHealthInferred               DataClass = "health.inferred"
+	DataClassProtectedRaceEthnicity       DataClass = "protected.race_ethnicity"
+	DataClassProtectedReligion            DataClass = "protected.religion"
+	DataClassProtectedPolitical           DataClass = "protected.political"
+	DataClassProtectedSexualOrientation   DataClass = "protected.sexual_orientation"
+	DataClassProtectedGenetic             DataClass = "protected.genetic"
+	DataClassProtectedImmigration         DataClass = "protected.immigration"
+	DataClassMinorAny                     DataClass = "minor.any"
+	DataClassEducationRecord              DataClass = "education.record"
+	DataClassEmploymentRecord             DataClass = "employment.record"
+	DataClassTelemetryEnterprise          DataClass = "telemetry.enterprise"
+	DataClassTelemetrySecurity            DataClass = "telemetry.security"
+	DataClassTelemetryVehicle             DataClass = "telemetry.vehicle"
+	DataClassTelemetryIotHome             DataClass = "telemetry.iot_home"
+	DataClassTelemetryIotIndustrial       DataClass = "telemetry.iot_industrial"
+	DataClassSensorEnvironmental          DataClass = "sensor.environmental"
+	DataClassSensorImagingPublic          DataClass = "sensor.imaging_public"
+	DataClassIndustrialProcess            DataClass = "industrial.process"
+	DataClassScientificMeasurement        DataClass = "scientific.measurement"
+	DataClassScientificHumanSubject       DataClass = "scientific.human_subject"
+	DataClassDerivedProfile               DataClass = "derived.profile"
+	DataClassDerivedSegment               DataClass = "derived.segment"
+	DataClassDerivedEmbedding             DataClass = "derived.embedding"
+	DataClassDerivedAggregate             DataClass = "derived.aggregate"
+	DataClassDerivedDpAggregate           DataClass = "derived.dp_aggregate"
+	DataClassDerivedSynthetic             DataClass = "derived.synthetic"
+	DataClassDerivedModelParameters       DataClass = "derived.model_parameters"
 )
 
 // AllDataClasss lists every registered value, in ontology order.
@@ -191,25 +191,25 @@ var validDataClass = func() map[DataClass]struct{} {
 type CollectionMethod string
 
 const (
-	CollectionMethodExplicitForm CollectionMethod = "explicit.form"
-	CollectionMethodExplicitUpload CollectionMethod = "explicit.upload"
-	CollectionMethodPassiveCookie CollectionMethod = "passive.cookie"
-	CollectionMethodPassivePixel CollectionMethod = "passive.pixel"
-	CollectionMethodPassiveSdk CollectionMethod = "passive.sdk"
-	CollectionMethodPassiveServerLog CollectionMethod = "passive.server_log"
-	CollectionMethodPassiveFingerprint CollectionMethod = "passive.fingerprint"
-	CollectionMethodPassiveNetwork CollectionMethod = "passive.network"
-	CollectionMethodDeviceSensor CollectionMethod = "device.sensor"
-	CollectionMethodDeviceOsApi CollectionMethod = "device.os_api"
-	CollectionMethodObservationCamera CollectionMethod = "observation.camera"
-	CollectionMethodObservationAudio CollectionMethod = "observation.audio"
-	CollectionMethodMachineVehicleBus CollectionMethod = "machine.vehicle_bus"
-	CollectionMethodMachineIndustrialBus CollectionMethod = "machine.industrial_bus"
+	CollectionMethodExplicitForm          CollectionMethod = "explicit.form"
+	CollectionMethodExplicitUpload        CollectionMethod = "explicit.upload"
+	CollectionMethodPassiveCookie         CollectionMethod = "passive.cookie"
+	CollectionMethodPassivePixel          CollectionMethod = "passive.pixel"
+	CollectionMethodPassiveSdk            CollectionMethod = "passive.sdk"
+	CollectionMethodPassiveServerLog      CollectionMethod = "passive.server_log"
+	CollectionMethodPassiveFingerprint    CollectionMethod = "passive.fingerprint"
+	CollectionMethodPassiveNetwork        CollectionMethod = "passive.network"
+	CollectionMethodDeviceSensor          CollectionMethod = "device.sensor"
+	CollectionMethodDeviceOsApi           CollectionMethod = "device.os_api"
+	CollectionMethodObservationCamera     CollectionMethod = "observation.camera"
+	CollectionMethodObservationAudio      CollectionMethod = "observation.audio"
+	CollectionMethodMachineVehicleBus     CollectionMethod = "machine.vehicle_bus"
+	CollectionMethodMachineIndustrialBus  CollectionMethod = "machine.industrial_bus"
 	CollectionMethodAcquisitionThirdParty CollectionMethod = "acquisition.third_party"
-	CollectionMethodAcquisitionBroker CollectionMethod = "acquisition.broker"
-	CollectionMethodAcquisitionPublic CollectionMethod = "acquisition.public"
-	CollectionMethodAcquisitionScrape CollectionMethod = "acquisition.scrape"
-	CollectionMethodInferenceDerived CollectionMethod = "inference.derived"
+	CollectionMethodAcquisitionBroker     CollectionMethod = "acquisition.broker"
+	CollectionMethodAcquisitionPublic     CollectionMethod = "acquisition.public"
+	CollectionMethodAcquisitionScrape     CollectionMethod = "acquisition.scrape"
+	CollectionMethodInferenceDerived      CollectionMethod = "inference.derived"
 )
 
 // AllCollectionMethods lists every registered value, in ontology order.
@@ -253,18 +253,18 @@ var validCollectionMethod = func() map[CollectionMethod]struct{} {
 type Unit string
 
 const (
-	UnitRecord Unit = "record"
-	UnitByte Unit = "byte"
-	UnitSubjectDay Unit = "subject_day"
-	UnitQuery Unit = "query"
-	UnitInference Unit = "inference"
-	UnitImpression Unit = "impression"
-	UnitToken Unit = "token"
-	UnitComparison Unit = "comparison"
-	UnitEpisode Unit = "episode"
-	UnitRetrieval Unit = "retrieval"
+	UnitRecord       Unit = "record"
+	UnitByte         Unit = "byte"
+	UnitSubjectDay   Unit = "subject_day"
+	UnitQuery        Unit = "query"
+	UnitInference    Unit = "inference"
+	UnitImpression   Unit = "impression"
+	UnitToken        Unit = "token"
+	UnitComparison   Unit = "comparison"
+	UnitEpisode      Unit = "episode"
+	UnitRetrieval    Unit = "retrieval"
 	UnitGradientStep Unit = "gradient_step"
-	UnitShare Unit = "share"
+	UnitShare        Unit = "share"
 )
 
 // AllUnits lists every registered value, in ontology order.
@@ -301,62 +301,62 @@ var validUnit = func() map[Unit]struct{} {
 type Operation string
 
 const (
-	OperationCollectObserve Operation = "collect.observe"
-	OperationCollectReceive Operation = "collect.receive"
-	OperationCollectGenerate Operation = "collect.generate"
-	OperationStorePersist Operation = "store.persist"
-	OperationStoreReplicate Operation = "store.replicate"
-	OperationStoreBackup Operation = "store.backup"
-	OperationAccessRead Operation = "access.read"
-	OperationAccessQuery Operation = "access.query"
-	OperationAccessIndex Operation = "access.index"
-	OperationAccessExportView Operation = "access.export_view"
-	OperationProcessTransform Operation = "process.transform"
-	OperationProcessAggregate Operation = "process.aggregate"
-	OperationProcessClassify Operation = "process.classify"
-	OperationProcessProfile Operation = "process.profile"
-	OperationProcessScore Operation = "process.score"
-	OperationProcessPersonalize Operation = "process.personalize"
-	OperationProcessRecommend Operation = "process.recommend"
-	OperationProcessPredict Operation = "process.predict"
-	OperationProcessMatch Operation = "process.match"
-	OperationProcessDeidentify Operation = "process.deidentify"
-	OperationProcessAnonymize Operation = "process.anonymize"
-	OperationProcessDpRelease Operation = "process.dp_release"
-	OperationTransferInternal Operation = "transfer.internal"
-	OperationTransferAffiliate Operation = "transfer.affiliate"
-	OperationTransferProcessor Operation = "transfer.processor"
-	OperationTransferController Operation = "transfer.controller"
-	OperationTransferSale Operation = "transfer.sale"
-	OperationTransferLicense Operation = "transfer.license"
-	OperationTransferApiAccess Operation = "transfer.api_access"
+	OperationCollectObserve             Operation = "collect.observe"
+	OperationCollectReceive             Operation = "collect.receive"
+	OperationCollectGenerate            Operation = "collect.generate"
+	OperationStorePersist               Operation = "store.persist"
+	OperationStoreReplicate             Operation = "store.replicate"
+	OperationStoreBackup                Operation = "store.backup"
+	OperationAccessRead                 Operation = "access.read"
+	OperationAccessQuery                Operation = "access.query"
+	OperationAccessIndex                Operation = "access.index"
+	OperationAccessExportView           Operation = "access.export_view"
+	OperationProcessTransform           Operation = "process.transform"
+	OperationProcessAggregate           Operation = "process.aggregate"
+	OperationProcessClassify            Operation = "process.classify"
+	OperationProcessProfile             Operation = "process.profile"
+	OperationProcessScore               Operation = "process.score"
+	OperationProcessPersonalize         Operation = "process.personalize"
+	OperationProcessRecommend           Operation = "process.recommend"
+	OperationProcessPredict             Operation = "process.predict"
+	OperationProcessMatch               Operation = "process.match"
+	OperationProcessDeidentify          Operation = "process.deidentify"
+	OperationProcessAnonymize           Operation = "process.anonymize"
+	OperationProcessDpRelease           Operation = "process.dp_release"
+	OperationTransferInternal           Operation = "transfer.internal"
+	OperationTransferAffiliate          Operation = "transfer.affiliate"
+	OperationTransferProcessor          Operation = "transfer.processor"
+	OperationTransferController         Operation = "transfer.controller"
+	OperationTransferSale               Operation = "transfer.sale"
+	OperationTransferLicense            Operation = "transfer.license"
+	OperationTransferApiAccess          Operation = "transfer.api_access"
 	OperationTransferExportJurisdiction Operation = "transfer.export_jurisdiction"
-	OperationTransferPublish Operation = "transfer.publish"
-	OperationAiPretrain Operation = "ai.pretrain"
-	OperationAiFinetune Operation = "ai.finetune"
-	OperationAiInstructionTune Operation = "ai.instruction_tune"
-	OperationAiPreferenceData Operation = "ai.preference_data"
-	OperationAiRlEnvironment Operation = "ai.rl_environment"
-	OperationAiEmbed Operation = "ai.embed"
-	OperationAiIndexRetrieval Operation = "ai.index_retrieval"
-	OperationAiRetrieve Operation = "ai.retrieve"
-	OperationAiInferenceInput Operation = "ai.inference_input"
-	OperationAiEvaluate Operation = "ai.evaluate"
-	OperationAiSynthesize Operation = "ai.synthesize"
-	OperationAiDistill Operation = "ai.distill"
-	OperationAiUnlearn Operation = "ai.unlearn"
-	OperationCommercialAdvertise Operation = "commercial.advertise"
-	OperationCommercialMeasure Operation = "commercial.measure"
-	OperationCommercialPrice Operation = "commercial.price"
-	OperationCommercialUnderwrite Operation = "commercial.underwrite"
-	OperationCommercialMarketResearch Operation = "commercial.market_research"
-	OperationCommercialProductImprove Operation = "commercial.product_improve"
-	OperationCommercialFraudDetect Operation = "commercial.fraud_detect"
-	OperationCommercialResell Operation = "commercial.resell"
-	OperationLifecycleRetain Operation = "lifecycle.retain"
-	OperationLifecycleDelete Operation = "lifecycle.delete"
-	OperationLifecycleRestrict Operation = "lifecycle.restrict"
-	OperationLifecyclePort Operation = "lifecycle.port"
+	OperationTransferPublish            Operation = "transfer.publish"
+	OperationAiPretrain                 Operation = "ai.pretrain"
+	OperationAiFinetune                 Operation = "ai.finetune"
+	OperationAiInstructionTune          Operation = "ai.instruction_tune"
+	OperationAiPreferenceData           Operation = "ai.preference_data"
+	OperationAiRlEnvironment            Operation = "ai.rl_environment"
+	OperationAiEmbed                    Operation = "ai.embed"
+	OperationAiIndexRetrieval           Operation = "ai.index_retrieval"
+	OperationAiRetrieve                 Operation = "ai.retrieve"
+	OperationAiInferenceInput           Operation = "ai.inference_input"
+	OperationAiEvaluate                 Operation = "ai.evaluate"
+	OperationAiSynthesize               Operation = "ai.synthesize"
+	OperationAiDistill                  Operation = "ai.distill"
+	OperationAiUnlearn                  Operation = "ai.unlearn"
+	OperationCommercialAdvertise        Operation = "commercial.advertise"
+	OperationCommercialMeasure          Operation = "commercial.measure"
+	OperationCommercialPrice            Operation = "commercial.price"
+	OperationCommercialUnderwrite       Operation = "commercial.underwrite"
+	OperationCommercialMarketResearch   Operation = "commercial.market_research"
+	OperationCommercialProductImprove   Operation = "commercial.product_improve"
+	OperationCommercialFraudDetect      Operation = "commercial.fraud_detect"
+	OperationCommercialResell           Operation = "commercial.resell"
+	OperationLifecycleRetain            Operation = "lifecycle.retain"
+	OperationLifecycleDelete            Operation = "lifecycle.delete"
+	OperationLifecycleRestrict          Operation = "lifecycle.restrict"
+	OperationLifecyclePort              Operation = "lifecycle.port"
 )
 
 // AllOperations lists every registered value, in ontology order.
@@ -437,45 +437,45 @@ var validOperation = func() map[Operation]struct{} {
 type Purpose string
 
 const (
-	PurposeService Purpose = "service"
-	PurposeServiceCore Purpose = "service.core"
-	PurposeServiceAccount Purpose = "service.account"
-	PurposeServiceSupport Purpose = "service.support"
-	PurposeServicePersonalization Purpose = "service.personalization"
-	PurposeSecurity Purpose = "security"
-	PurposeSecurityFraud Purpose = "security.fraud"
-	PurposeSecurityAbuse Purpose = "security.abuse"
-	PurposeSecurityAuthentication Purpose = "security.authentication"
-	PurposeLegal Purpose = "legal"
-	PurposeLegalObligation Purpose = "legal.obligation"
-	PurposeLegalClaims Purpose = "legal.claims"
-	PurposeLegalAudit Purpose = "legal.audit"
-	PurposeOperations Purpose = "operations"
-	PurposeOperationsReliability Purpose = "operations.reliability"
-	PurposeOperationsCapacity Purpose = "operations.capacity"
-	PurposeImprovement Purpose = "improvement"
-	PurposeImprovementAnalytics Purpose = "improvement.analytics"
-	PurposeImprovementExperimentation Purpose = "improvement.experimentation"
-	PurposeImprovementAiTraining Purpose = "improvement.ai_training"
-	PurposeImprovementAiEvaluation Purpose = "improvement.ai_evaluation"
-	PurposeMarketing Purpose = "marketing"
-	PurposeMarketingDirect Purpose = "marketing.direct"
-	PurposeMarketingAdvertising Purpose = "marketing.advertising"
+	PurposeService                        Purpose = "service"
+	PurposeServiceCore                    Purpose = "service.core"
+	PurposeServiceAccount                 Purpose = "service.account"
+	PurposeServiceSupport                 Purpose = "service.support"
+	PurposeServicePersonalization         Purpose = "service.personalization"
+	PurposeSecurity                       Purpose = "security"
+	PurposeSecurityFraud                  Purpose = "security.fraud"
+	PurposeSecurityAbuse                  Purpose = "security.abuse"
+	PurposeSecurityAuthentication         Purpose = "security.authentication"
+	PurposeLegal                          Purpose = "legal"
+	PurposeLegalObligation                Purpose = "legal.obligation"
+	PurposeLegalClaims                    Purpose = "legal.claims"
+	PurposeLegalAudit                     Purpose = "legal.audit"
+	PurposeOperations                     Purpose = "operations"
+	PurposeOperationsReliability          Purpose = "operations.reliability"
+	PurposeOperationsCapacity             Purpose = "operations.capacity"
+	PurposeImprovement                    Purpose = "improvement"
+	PurposeImprovementAnalytics           Purpose = "improvement.analytics"
+	PurposeImprovementExperimentation     Purpose = "improvement.experimentation"
+	PurposeImprovementAiTraining          Purpose = "improvement.ai_training"
+	PurposeImprovementAiEvaluation        Purpose = "improvement.ai_evaluation"
+	PurposeMarketing                      Purpose = "marketing"
+	PurposeMarketingDirect                Purpose = "marketing.direct"
+	PurposeMarketingAdvertising           Purpose = "marketing.advertising"
 	PurposeMarketingAdvertisingContextual Purpose = "marketing.advertising.contextual"
 	PurposeMarketingAdvertisingBehavioral Purpose = "marketing.advertising.behavioral"
-	PurposeMarketingMeasurement Purpose = "marketing.measurement"
-	PurposeCommerce Purpose = "commerce"
-	PurposeCommerceSale Purpose = "commerce.sale"
-	PurposeCommerceLicensing Purpose = "commerce.licensing"
-	PurposeCommerceBrokerage Purpose = "commerce.brokerage"
-	PurposeRisk Purpose = "risk"
-	PurposeRiskCredit Purpose = "risk.credit"
-	PurposeRiskInsurance Purpose = "risk.insurance"
-	PurposeRiskPricing Purpose = "risk.pricing"
-	PurposeResearch Purpose = "research"
-	PurposeResearchScientific Purpose = "research.scientific"
-	PurposeResearchPublicInterest Purpose = "research.public_interest"
-	PurposeResearchCommercial Purpose = "research.commercial"
+	PurposeMarketingMeasurement           Purpose = "marketing.measurement"
+	PurposeCommerce                       Purpose = "commerce"
+	PurposeCommerceSale                   Purpose = "commerce.sale"
+	PurposeCommerceLicensing              Purpose = "commerce.licensing"
+	PurposeCommerceBrokerage              Purpose = "commerce.brokerage"
+	PurposeRisk                           Purpose = "risk"
+	PurposeRiskCredit                     Purpose = "risk.credit"
+	PurposeRiskInsurance                  Purpose = "risk.insurance"
+	PurposeRiskPricing                    Purpose = "risk.pricing"
+	PurposeResearch                       Purpose = "research"
+	PurposeResearchScientific             Purpose = "research.scientific"
+	PurposeResearchPublicInterest         Purpose = "research.public_interest"
+	PurposeResearchCommercial             Purpose = "research.commercial"
 )
 
 // AllPurposes lists every registered value, in ontology order.
@@ -539,27 +539,27 @@ var validPurpose = func() map[Purpose]struct{} {
 type Regime string
 
 const (
-	RegimeEuGdpr Regime = "eu.gdpr"
-	RegimeEuDataAct Regime = "eu.data_act"
-	RegimeEuAiAct Regime = "eu.ai_act"
-	RegimeUkUkGdpr Regime = "uk.uk_gdpr"
-	RegimeUsCaCcpa Regime = "us.ca.ccpa"
-	RegimeUsCoCpa Regime = "us.co.cpa"
-	RegimeUsVaVcdpa Regime = "us.va.vcdpa"
-	RegimeUsHipaa Regime = "us.hipaa"
-	RegimeUsGlba Regime = "us.glba"
-	RegimeUsFcra Regime = "us.fcra"
-	RegimeUsCoppa Regime = "us.coppa"
-	RegimeUsFerpa Regime = "us.ferpa"
-	RegimeUsIlBipa Regime = "us.il.bipa"
-	RegimeBrLgpd Regime = "br.lgpd"
-	RegimeCaPipeda Regime = "ca.pipeda"
-	RegimeJpAppi Regime = "jp.appi"
-	RegimeKrPipa Regime = "kr.pipa"
-	RegimeInDpdp Regime = "in.dpdp"
-	RegimeCnPipl Regime = "cn.pipl"
+	RegimeEuGdpr       Regime = "eu.gdpr"
+	RegimeEuDataAct    Regime = "eu.data_act"
+	RegimeEuAiAct      Regime = "eu.ai_act"
+	RegimeUkUkGdpr     Regime = "uk.uk_gdpr"
+	RegimeUsCaCcpa     Regime = "us.ca.ccpa"
+	RegimeUsCoCpa      Regime = "us.co.cpa"
+	RegimeUsVaVcdpa    Regime = "us.va.vcdpa"
+	RegimeUsHipaa      Regime = "us.hipaa"
+	RegimeUsGlba       Regime = "us.glba"
+	RegimeUsFcra       Regime = "us.fcra"
+	RegimeUsCoppa      Regime = "us.coppa"
+	RegimeUsFerpa      Regime = "us.ferpa"
+	RegimeUsIlBipa     Regime = "us.il.bipa"
+	RegimeBrLgpd       Regime = "br.lgpd"
+	RegimeCaPipeda     Regime = "ca.pipeda"
+	RegimeJpAppi       Regime = "jp.appi"
+	RegimeKrPipa       Regime = "kr.pipa"
+	RegimeInDpdp       Regime = "in.dpdp"
+	RegimeCnPipl       Regime = "cn.pipl"
 	RegimeAuPrivacyAct Regime = "au.privacy_act"
-	RegimeZaPopia Regime = "za.popia"
+	RegimeZaPopia      Regime = "za.popia"
 )
 
 // AllRegimes lists every registered value, in ontology order.
@@ -605,13 +605,13 @@ var validRegime = func() map[Regime]struct{} {
 type LawfulBasis string
 
 const (
-	LawfulBasisConsent LawfulBasis = "consent"
-	LawfulBasisContract LawfulBasis = "contract"
-	LawfulBasisLegalObligation LawfulBasis = "legal_obligation"
-	LawfulBasisVitalInterests LawfulBasis = "vital_interests"
-	LawfulBasisPublicTask LawfulBasis = "public_task"
-	LawfulBasisLegitimateInterests LawfulBasis = "legitimate_interests"
-	LawfulBasisOptOutRespected LawfulBasis = "opt_out_respected"
+	LawfulBasisConsent               LawfulBasis = "consent"
+	LawfulBasisContract              LawfulBasis = "contract"
+	LawfulBasisLegalObligation       LawfulBasis = "legal_obligation"
+	LawfulBasisVitalInterests        LawfulBasis = "vital_interests"
+	LawfulBasisPublicTask            LawfulBasis = "public_task"
+	LawfulBasisLegitimateInterests   LawfulBasis = "legitimate_interests"
+	LawfulBasisOptOutRespected       LawfulBasis = "opt_out_respected"
 	LawfulBasisProtocolAuthorization LawfulBasis = "protocol_authorization"
 )
 
@@ -652,354 +652,354 @@ var TierRank = map[SensitivityTier]int{
 
 // DataClassSensitivity gives the default tier for each class.
 var DataClassSensitivity = map[DataClass]SensitivityTier{
-	DataClassIdentityDirect: SensitivityTierT3,
-	DataClassIdentityPseudonymous: SensitivityTierT2,
-	DataClassIdentityGovernment: SensitivityTierT4,
-	DataClassContactEmail: SensitivityTierT2,
-	DataClassContactPhone: SensitivityTierT2,
-	DataClassContactPostal: SensitivityTierT3,
-	DataClassLocationPrecise: SensitivityTierT4,
-	DataClassLocationCoarse: SensitivityTierT2,
-	DataClassLocationInferredHome: SensitivityTierT4,
-	DataClassLocationInferredWork: SensitivityTierT3,
-	DataClassLocationTrajectory: SensitivityTierT4,
-	DataClassDeviceIdentifier: SensitivityTierT2,
-	DataClassDeviceFingerprint: SensitivityTierT3,
-	DataClassDeviceConfiguration: SensitivityTierT1,
-	DataClassDeviceNetwork: SensitivityTierT2,
-	DataClassBehaviorWebBrowsing: SensitivityTierT2,
-	DataClassBehaviorAppUsage: SensitivityTierT2,
-	DataClassBehaviorSearch: SensitivityTierT3,
-	DataClassBehaviorContentConsumption: SensitivityTierT2,
-	DataClassBehaviorSocialGraph: SensitivityTierT3,
-	DataClassBehaviorKeystrokeDynamics: SensitivityTierT3,
-	DataClassBehaviorAttention: SensitivityTierT3,
-	DataClassTransactionPurchase: SensitivityTierT2,
+	DataClassIdentityDirect:               SensitivityTierT3,
+	DataClassIdentityPseudonymous:         SensitivityTierT2,
+	DataClassIdentityGovernment:           SensitivityTierT4,
+	DataClassContactEmail:                 SensitivityTierT2,
+	DataClassContactPhone:                 SensitivityTierT2,
+	DataClassContactPostal:                SensitivityTierT3,
+	DataClassLocationPrecise:              SensitivityTierT4,
+	DataClassLocationCoarse:               SensitivityTierT2,
+	DataClassLocationInferredHome:         SensitivityTierT4,
+	DataClassLocationInferredWork:         SensitivityTierT3,
+	DataClassLocationTrajectory:           SensitivityTierT4,
+	DataClassDeviceIdentifier:             SensitivityTierT2,
+	DataClassDeviceFingerprint:            SensitivityTierT3,
+	DataClassDeviceConfiguration:          SensitivityTierT1,
+	DataClassDeviceNetwork:                SensitivityTierT2,
+	DataClassBehaviorWebBrowsing:          SensitivityTierT2,
+	DataClassBehaviorAppUsage:             SensitivityTierT2,
+	DataClassBehaviorSearch:               SensitivityTierT3,
+	DataClassBehaviorContentConsumption:   SensitivityTierT2,
+	DataClassBehaviorSocialGraph:          SensitivityTierT3,
+	DataClassBehaviorKeystrokeDynamics:    SensitivityTierT3,
+	DataClassBehaviorAttention:            SensitivityTierT3,
+	DataClassTransactionPurchase:          SensitivityTierT2,
 	DataClassTransactionPaymentInstrument: SensitivityTierT4,
-	DataClassFinancialAccount: SensitivityTierT4,
-	DataClassFinancialCreditworthiness: SensitivityTierT4,
-	DataClassFinancialIncome: SensitivityTierT3,
-	DataClassContentUserGenerated: SensitivityTierT3,
-	DataClassContentCommunications: SensitivityTierT4,
-	DataClassContentMedia: SensitivityTierT3,
-	DataClassBiometricTemplate: SensitivityTierT4,
-	DataClassBiometricDerived: SensitivityTierT4,
-	DataClassHealthClinical: SensitivityTierT4,
-	DataClassHealthWearable: SensitivityTierT3,
-	DataClassHealthInferred: SensitivityTierT4,
-	DataClassProtectedRaceEthnicity: SensitivityTierT4,
-	DataClassProtectedReligion: SensitivityTierT4,
-	DataClassProtectedPolitical: SensitivityTierT4,
-	DataClassProtectedSexualOrientation: SensitivityTierT4,
-	DataClassProtectedGenetic: SensitivityTierT4,
-	DataClassProtectedImmigration: SensitivityTierT4,
-	DataClassMinorAny: SensitivityTierT4,
-	DataClassEducationRecord: SensitivityTierT3,
-	DataClassEmploymentRecord: SensitivityTierT3,
-	DataClassTelemetryEnterprise: SensitivityTierT1,
-	DataClassTelemetrySecurity: SensitivityTierT2,
-	DataClassTelemetryVehicle: SensitivityTierT3,
-	DataClassTelemetryIotHome: SensitivityTierT3,
-	DataClassTelemetryIotIndustrial: SensitivityTierT0,
-	DataClassSensorEnvironmental: SensitivityTierT0,
-	DataClassSensorImagingPublic: SensitivityTierT3,
-	DataClassIndustrialProcess: SensitivityTierT0,
-	DataClassScientificMeasurement: SensitivityTierT0,
-	DataClassScientificHumanSubject: SensitivityTierT4,
-	DataClassDerivedProfile: SensitivityTierT3,
-	DataClassDerivedSegment: SensitivityTierT2,
-	DataClassDerivedEmbedding: SensitivityTierT3,
-	DataClassDerivedAggregate: SensitivityTierT1,
-	DataClassDerivedDpAggregate: SensitivityTierT0,
-	DataClassDerivedSynthetic: SensitivityTierT1,
-	DataClassDerivedModelParameters: SensitivityTierT2,
+	DataClassFinancialAccount:             SensitivityTierT4,
+	DataClassFinancialCreditworthiness:    SensitivityTierT4,
+	DataClassFinancialIncome:              SensitivityTierT3,
+	DataClassContentUserGenerated:         SensitivityTierT3,
+	DataClassContentCommunications:        SensitivityTierT4,
+	DataClassContentMedia:                 SensitivityTierT3,
+	DataClassBiometricTemplate:            SensitivityTierT4,
+	DataClassBiometricDerived:             SensitivityTierT4,
+	DataClassHealthClinical:               SensitivityTierT4,
+	DataClassHealthWearable:               SensitivityTierT3,
+	DataClassHealthInferred:               SensitivityTierT4,
+	DataClassProtectedRaceEthnicity:       SensitivityTierT4,
+	DataClassProtectedReligion:            SensitivityTierT4,
+	DataClassProtectedPolitical:           SensitivityTierT4,
+	DataClassProtectedSexualOrientation:   SensitivityTierT4,
+	DataClassProtectedGenetic:             SensitivityTierT4,
+	DataClassProtectedImmigration:         SensitivityTierT4,
+	DataClassMinorAny:                     SensitivityTierT4,
+	DataClassEducationRecord:              SensitivityTierT3,
+	DataClassEmploymentRecord:             SensitivityTierT3,
+	DataClassTelemetryEnterprise:          SensitivityTierT1,
+	DataClassTelemetrySecurity:            SensitivityTierT2,
+	DataClassTelemetryVehicle:             SensitivityTierT3,
+	DataClassTelemetryIotHome:             SensitivityTierT3,
+	DataClassTelemetryIotIndustrial:       SensitivityTierT0,
+	DataClassSensorEnvironmental:          SensitivityTierT0,
+	DataClassSensorImagingPublic:          SensitivityTierT3,
+	DataClassIndustrialProcess:            SensitivityTierT0,
+	DataClassScientificMeasurement:        SensitivityTierT0,
+	DataClassScientificHumanSubject:       SensitivityTierT4,
+	DataClassDerivedProfile:               SensitivityTierT3,
+	DataClassDerivedSegment:               SensitivityTierT2,
+	DataClassDerivedEmbedding:             SensitivityTierT3,
+	DataClassDerivedAggregate:             SensitivityTierT1,
+	DataClassDerivedDpAggregate:           SensitivityTierT0,
+	DataClassDerivedSynthetic:             SensitivityTierT1,
+	DataClassDerivedModelParameters:       SensitivityTierT2,
 }
 
 // DataClassReidRisk gives the re-identification prior on a 0-100 scale.
 var DataClassReidRisk = map[DataClass]int{
-	DataClassIdentityDirect: 95,
-	DataClassIdentityPseudonymous: 60,
-	DataClassIdentityGovernment: 98,
-	DataClassContactEmail: 85,
-	DataClassContactPhone: 88,
-	DataClassContactPostal: 80,
-	DataClassLocationPrecise: 92,
-	DataClassLocationCoarse: 45,
-	DataClassLocationInferredHome: 90,
-	DataClassLocationInferredWork: 78,
-	DataClassLocationTrajectory: 96,
-	DataClassDeviceIdentifier: 70,
-	DataClassDeviceFingerprint: 82,
-	DataClassDeviceConfiguration: 35,
-	DataClassDeviceNetwork: 66,
-	DataClassBehaviorWebBrowsing: 72,
-	DataClassBehaviorAppUsage: 64,
-	DataClassBehaviorSearch: 80,
-	DataClassBehaviorContentConsumption: 58,
-	DataClassBehaviorSocialGraph: 86,
-	DataClassBehaviorKeystrokeDynamics: 84,
-	DataClassBehaviorAttention: 70,
-	DataClassTransactionPurchase: 68,
+	DataClassIdentityDirect:               95,
+	DataClassIdentityPseudonymous:         60,
+	DataClassIdentityGovernment:           98,
+	DataClassContactEmail:                 85,
+	DataClassContactPhone:                 88,
+	DataClassContactPostal:                80,
+	DataClassLocationPrecise:              92,
+	DataClassLocationCoarse:               45,
+	DataClassLocationInferredHome:         90,
+	DataClassLocationInferredWork:         78,
+	DataClassLocationTrajectory:           96,
+	DataClassDeviceIdentifier:             70,
+	DataClassDeviceFingerprint:            82,
+	DataClassDeviceConfiguration:          35,
+	DataClassDeviceNetwork:                66,
+	DataClassBehaviorWebBrowsing:          72,
+	DataClassBehaviorAppUsage:             64,
+	DataClassBehaviorSearch:               80,
+	DataClassBehaviorContentConsumption:   58,
+	DataClassBehaviorSocialGraph:          86,
+	DataClassBehaviorKeystrokeDynamics:    84,
+	DataClassBehaviorAttention:            70,
+	DataClassTransactionPurchase:          68,
 	DataClassTransactionPaymentInstrument: 90,
-	DataClassFinancialAccount: 88,
-	DataClassFinancialCreditworthiness: 85,
-	DataClassFinancialIncome: 75,
-	DataClassContentUserGenerated: 76,
-	DataClassContentCommunications: 90,
-	DataClassContentMedia: 82,
-	DataClassBiometricTemplate: 99,
-	DataClassBiometricDerived: 88,
-	DataClassHealthClinical: 94,
-	DataClassHealthWearable: 80,
-	DataClassHealthInferred: 86,
-	DataClassProtectedRaceEthnicity: 70,
-	DataClassProtectedReligion: 70,
-	DataClassProtectedPolitical: 72,
-	DataClassProtectedSexualOrientation: 74,
-	DataClassProtectedGenetic: 99,
-	DataClassProtectedImmigration: 76,
-	DataClassMinorAny: 80,
-	DataClassEducationRecord: 78,
-	DataClassEmploymentRecord: 80,
-	DataClassTelemetryEnterprise: 25,
-	DataClassTelemetrySecurity: 55,
-	DataClassTelemetryVehicle: 80,
-	DataClassTelemetryIotHome: 74,
-	DataClassTelemetryIotIndustrial: 5,
-	DataClassSensorEnvironmental: 3,
-	DataClassSensorImagingPublic: 70,
-	DataClassIndustrialProcess: 4,
-	DataClassScientificMeasurement: 4,
-	DataClassScientificHumanSubject: 88,
-	DataClassDerivedProfile: 84,
-	DataClassDerivedSegment: 50,
-	DataClassDerivedEmbedding: 65,
-	DataClassDerivedAggregate: 12,
-	DataClassDerivedDpAggregate: 2,
-	DataClassDerivedSynthetic: 20,
-	DataClassDerivedModelParameters: 40,
+	DataClassFinancialAccount:             88,
+	DataClassFinancialCreditworthiness:    85,
+	DataClassFinancialIncome:              75,
+	DataClassContentUserGenerated:         76,
+	DataClassContentCommunications:        90,
+	DataClassContentMedia:                 82,
+	DataClassBiometricTemplate:            99,
+	DataClassBiometricDerived:             88,
+	DataClassHealthClinical:               94,
+	DataClassHealthWearable:               80,
+	DataClassHealthInferred:               86,
+	DataClassProtectedRaceEthnicity:       70,
+	DataClassProtectedReligion:            70,
+	DataClassProtectedPolitical:           72,
+	DataClassProtectedSexualOrientation:   74,
+	DataClassProtectedGenetic:             99,
+	DataClassProtectedImmigration:         76,
+	DataClassMinorAny:                     80,
+	DataClassEducationRecord:              78,
+	DataClassEmploymentRecord:             80,
+	DataClassTelemetryEnterprise:          25,
+	DataClassTelemetrySecurity:            55,
+	DataClassTelemetryVehicle:             80,
+	DataClassTelemetryIotHome:             74,
+	DataClassTelemetryIotIndustrial:       5,
+	DataClassSensorEnvironmental:          3,
+	DataClassSensorImagingPublic:          70,
+	DataClassIndustrialProcess:            4,
+	DataClassScientificMeasurement:        4,
+	DataClassScientificHumanSubject:       88,
+	DataClassDerivedProfile:               84,
+	DataClassDerivedSegment:               50,
+	DataClassDerivedEmbedding:             65,
+	DataClassDerivedAggregate:             12,
+	DataClassDerivedDpAggregate:           2,
+	DataClassDerivedSynthetic:             20,
+	DataClassDerivedModelParameters:       40,
 }
 
 // OperationMeter gives the natural unit for each operation.
 var OperationMeter = map[Operation]Unit{
-	OperationCollectObserve: UnitRecord,
-	OperationCollectReceive: UnitRecord,
-	OperationCollectGenerate: UnitRecord,
-	OperationStorePersist: UnitSubjectDay,
-	OperationStoreReplicate: UnitSubjectDay,
-	OperationStoreBackup: UnitSubjectDay,
-	OperationAccessRead: UnitRecord,
-	OperationAccessQuery: UnitQuery,
-	OperationAccessIndex: UnitRecord,
-	OperationAccessExportView: UnitRecord,
-	OperationProcessTransform: UnitRecord,
-	OperationProcessAggregate: UnitRecord,
-	OperationProcessClassify: UnitInference,
-	OperationProcessProfile: UnitInference,
-	OperationProcessScore: UnitInference,
-	OperationProcessPersonalize: UnitInference,
-	OperationProcessRecommend: UnitInference,
-	OperationProcessPredict: UnitInference,
-	OperationProcessMatch: UnitRecord,
-	OperationProcessDeidentify: UnitRecord,
-	OperationProcessAnonymize: UnitRecord,
-	OperationProcessDpRelease: UnitQuery,
-	OperationTransferInternal: UnitRecord,
-	OperationTransferAffiliate: UnitRecord,
-	OperationTransferProcessor: UnitRecord,
-	OperationTransferController: UnitRecord,
-	OperationTransferSale: UnitRecord,
-	OperationTransferLicense: UnitRecord,
-	OperationTransferApiAccess: UnitQuery,
+	OperationCollectObserve:             UnitRecord,
+	OperationCollectReceive:             UnitRecord,
+	OperationCollectGenerate:            UnitRecord,
+	OperationStorePersist:               UnitSubjectDay,
+	OperationStoreReplicate:             UnitSubjectDay,
+	OperationStoreBackup:                UnitSubjectDay,
+	OperationAccessRead:                 UnitRecord,
+	OperationAccessQuery:                UnitQuery,
+	OperationAccessIndex:                UnitRecord,
+	OperationAccessExportView:           UnitRecord,
+	OperationProcessTransform:           UnitRecord,
+	OperationProcessAggregate:           UnitRecord,
+	OperationProcessClassify:            UnitInference,
+	OperationProcessProfile:             UnitInference,
+	OperationProcessScore:               UnitInference,
+	OperationProcessPersonalize:         UnitInference,
+	OperationProcessRecommend:           UnitInference,
+	OperationProcessPredict:             UnitInference,
+	OperationProcessMatch:               UnitRecord,
+	OperationProcessDeidentify:          UnitRecord,
+	OperationProcessAnonymize:           UnitRecord,
+	OperationProcessDpRelease:           UnitQuery,
+	OperationTransferInternal:           UnitRecord,
+	OperationTransferAffiliate:          UnitRecord,
+	OperationTransferProcessor:          UnitRecord,
+	OperationTransferController:         UnitRecord,
+	OperationTransferSale:               UnitRecord,
+	OperationTransferLicense:            UnitRecord,
+	OperationTransferApiAccess:          UnitQuery,
 	OperationTransferExportJurisdiction: UnitRecord,
-	OperationTransferPublish: UnitRecord,
-	OperationAiPretrain: UnitToken,
-	OperationAiFinetune: UnitToken,
-	OperationAiInstructionTune: UnitToken,
-	OperationAiPreferenceData: UnitComparison,
-	OperationAiRlEnvironment: UnitEpisode,
-	OperationAiEmbed: UnitRecord,
-	OperationAiIndexRetrieval: UnitRecord,
-	OperationAiRetrieve: UnitRetrieval,
-	OperationAiInferenceInput: UnitInference,
-	OperationAiEvaluate: UnitRecord,
-	OperationAiSynthesize: UnitRecord,
-	OperationAiDistill: UnitToken,
-	OperationAiUnlearn: UnitRecord,
-	OperationCommercialAdvertise: UnitImpression,
-	OperationCommercialMeasure: UnitImpression,
-	OperationCommercialPrice: UnitInference,
-	OperationCommercialUnderwrite: UnitInference,
-	OperationCommercialMarketResearch: UnitRecord,
-	OperationCommercialProductImprove: UnitRecord,
-	OperationCommercialFraudDetect: UnitInference,
-	OperationCommercialResell: UnitRecord,
-	OperationLifecycleRetain: UnitSubjectDay,
-	OperationLifecycleDelete: UnitRecord,
-	OperationLifecycleRestrict: UnitRecord,
-	OperationLifecyclePort: UnitRecord,
+	OperationTransferPublish:            UnitRecord,
+	OperationAiPretrain:                 UnitToken,
+	OperationAiFinetune:                 UnitToken,
+	OperationAiInstructionTune:          UnitToken,
+	OperationAiPreferenceData:           UnitComparison,
+	OperationAiRlEnvironment:            UnitEpisode,
+	OperationAiEmbed:                    UnitRecord,
+	OperationAiIndexRetrieval:           UnitRecord,
+	OperationAiRetrieve:                 UnitRetrieval,
+	OperationAiInferenceInput:           UnitInference,
+	OperationAiEvaluate:                 UnitRecord,
+	OperationAiSynthesize:               UnitRecord,
+	OperationAiDistill:                  UnitToken,
+	OperationAiUnlearn:                  UnitRecord,
+	OperationCommercialAdvertise:        UnitImpression,
+	OperationCommercialMeasure:          UnitImpression,
+	OperationCommercialPrice:            UnitInference,
+	OperationCommercialUnderwrite:       UnitInference,
+	OperationCommercialMarketResearch:   UnitRecord,
+	OperationCommercialProductImprove:   UnitRecord,
+	OperationCommercialFraudDetect:      UnitInference,
+	OperationCommercialResell:           UnitRecord,
+	OperationLifecycleRetain:            UnitSubjectDay,
+	OperationLifecycleDelete:            UnitRecord,
+	OperationLifecycleRestrict:          UnitRecord,
+	OperationLifecyclePort:              UnitRecord,
 }
 
 // OperationDerives reports whether an operation can create a derived object.
 var OperationDerives = map[Operation]bool{
-	OperationCollectObserve: false,
-	OperationCollectReceive: false,
-	OperationCollectGenerate: true,
-	OperationStorePersist: false,
-	OperationStoreReplicate: false,
-	OperationStoreBackup: false,
-	OperationAccessRead: false,
-	OperationAccessQuery: false,
-	OperationAccessIndex: true,
-	OperationAccessExportView: true,
-	OperationProcessTransform: true,
-	OperationProcessAggregate: true,
-	OperationProcessClassify: true,
-	OperationProcessProfile: true,
-	OperationProcessScore: true,
-	OperationProcessPersonalize: false,
-	OperationProcessRecommend: false,
-	OperationProcessPredict: true,
-	OperationProcessMatch: true,
-	OperationProcessDeidentify: true,
-	OperationProcessAnonymize: true,
-	OperationProcessDpRelease: true,
-	OperationTransferInternal: false,
-	OperationTransferAffiliate: false,
-	OperationTransferProcessor: false,
-	OperationTransferController: false,
-	OperationTransferSale: false,
-	OperationTransferLicense: false,
-	OperationTransferApiAccess: false,
+	OperationCollectObserve:             false,
+	OperationCollectReceive:             false,
+	OperationCollectGenerate:            true,
+	OperationStorePersist:               false,
+	OperationStoreReplicate:             false,
+	OperationStoreBackup:                false,
+	OperationAccessRead:                 false,
+	OperationAccessQuery:                false,
+	OperationAccessIndex:                true,
+	OperationAccessExportView:           true,
+	OperationProcessTransform:           true,
+	OperationProcessAggregate:           true,
+	OperationProcessClassify:            true,
+	OperationProcessProfile:             true,
+	OperationProcessScore:               true,
+	OperationProcessPersonalize:         false,
+	OperationProcessRecommend:           false,
+	OperationProcessPredict:             true,
+	OperationProcessMatch:               true,
+	OperationProcessDeidentify:          true,
+	OperationProcessAnonymize:           true,
+	OperationProcessDpRelease:           true,
+	OperationTransferInternal:           false,
+	OperationTransferAffiliate:          false,
+	OperationTransferProcessor:          false,
+	OperationTransferController:         false,
+	OperationTransferSale:               false,
+	OperationTransferLicense:            false,
+	OperationTransferApiAccess:          false,
 	OperationTransferExportJurisdiction: false,
-	OperationTransferPublish: false,
-	OperationAiPretrain: true,
-	OperationAiFinetune: true,
-	OperationAiInstructionTune: true,
-	OperationAiPreferenceData: true,
-	OperationAiRlEnvironment: true,
-	OperationAiEmbed: true,
-	OperationAiIndexRetrieval: true,
-	OperationAiRetrieve: false,
-	OperationAiInferenceInput: false,
-	OperationAiEvaluate: true,
-	OperationAiSynthesize: true,
-	OperationAiDistill: true,
-	OperationAiUnlearn: true,
-	OperationCommercialAdvertise: false,
-	OperationCommercialMeasure: false,
-	OperationCommercialPrice: false,
-	OperationCommercialUnderwrite: false,
-	OperationCommercialMarketResearch: false,
-	OperationCommercialProductImprove: false,
-	OperationCommercialFraudDetect: false,
-	OperationCommercialResell: false,
-	OperationLifecycleRetain: false,
-	OperationLifecycleDelete: false,
-	OperationLifecycleRestrict: false,
-	OperationLifecyclePort: false,
+	OperationTransferPublish:            false,
+	OperationAiPretrain:                 true,
+	OperationAiFinetune:                 true,
+	OperationAiInstructionTune:          true,
+	OperationAiPreferenceData:           true,
+	OperationAiRlEnvironment:            true,
+	OperationAiEmbed:                    true,
+	OperationAiIndexRetrieval:           true,
+	OperationAiRetrieve:                 false,
+	OperationAiInferenceInput:           false,
+	OperationAiEvaluate:                 true,
+	OperationAiSynthesize:               true,
+	OperationAiDistill:                  true,
+	OperationAiUnlearn:                  true,
+	OperationCommercialAdvertise:        false,
+	OperationCommercialMeasure:          false,
+	OperationCommercialPrice:            false,
+	OperationCommercialUnderwrite:       false,
+	OperationCommercialMarketResearch:   false,
+	OperationCommercialProductImprove:   false,
+	OperationCommercialFraudDetect:      false,
+	OperationCommercialResell:           false,
+	OperationLifecycleRetain:            false,
+	OperationLifecycleDelete:            false,
+	OperationLifecycleRestrict:          false,
+	OperationLifecyclePort:              false,
 }
 
 // UnitAdditive reports whether quantities may be summed.
 var UnitAdditive = map[Unit]bool{
-	UnitRecord: true,
-	UnitByte: true,
-	UnitSubjectDay: true,
-	UnitQuery: true,
-	UnitInference: true,
-	UnitImpression: true,
-	UnitToken: true,
-	UnitComparison: true,
-	UnitEpisode: true,
-	UnitRetrieval: true,
+	UnitRecord:       true,
+	UnitByte:         true,
+	UnitSubjectDay:   true,
+	UnitQuery:        true,
+	UnitInference:    true,
+	UnitImpression:   true,
+	UnitToken:        true,
+	UnitComparison:   true,
+	UnitEpisode:      true,
+	UnitRetrieval:    true,
 	UnitGradientStep: true,
-	UnitShare: false,
+	UnitShare:        false,
 }
 
 // PurposeParent gives the parent in the purpose lattice ("" at a root).
 var PurposeParent = map[Purpose]Purpose{
-	PurposeService: "",
-	PurposeServiceCore: PurposeService,
-	PurposeServiceAccount: PurposeService,
-	PurposeServiceSupport: PurposeService,
-	PurposeServicePersonalization: PurposeService,
-	PurposeSecurity: "",
-	PurposeSecurityFraud: PurposeSecurity,
-	PurposeSecurityAbuse: PurposeSecurity,
-	PurposeSecurityAuthentication: PurposeSecurity,
-	PurposeLegal: "",
-	PurposeLegalObligation: PurposeLegal,
-	PurposeLegalClaims: PurposeLegal,
-	PurposeLegalAudit: PurposeLegal,
-	PurposeOperations: "",
-	PurposeOperationsReliability: PurposeOperations,
-	PurposeOperationsCapacity: PurposeOperations,
-	PurposeImprovement: "",
-	PurposeImprovementAnalytics: PurposeImprovement,
-	PurposeImprovementExperimentation: PurposeImprovement,
-	PurposeImprovementAiTraining: PurposeImprovement,
-	PurposeImprovementAiEvaluation: PurposeImprovement,
-	PurposeMarketing: "",
-	PurposeMarketingDirect: PurposeMarketing,
-	PurposeMarketingAdvertising: PurposeMarketing,
+	PurposeService:                        "",
+	PurposeServiceCore:                    PurposeService,
+	PurposeServiceAccount:                 PurposeService,
+	PurposeServiceSupport:                 PurposeService,
+	PurposeServicePersonalization:         PurposeService,
+	PurposeSecurity:                       "",
+	PurposeSecurityFraud:                  PurposeSecurity,
+	PurposeSecurityAbuse:                  PurposeSecurity,
+	PurposeSecurityAuthentication:         PurposeSecurity,
+	PurposeLegal:                          "",
+	PurposeLegalObligation:                PurposeLegal,
+	PurposeLegalClaims:                    PurposeLegal,
+	PurposeLegalAudit:                     PurposeLegal,
+	PurposeOperations:                     "",
+	PurposeOperationsReliability:          PurposeOperations,
+	PurposeOperationsCapacity:             PurposeOperations,
+	PurposeImprovement:                    "",
+	PurposeImprovementAnalytics:           PurposeImprovement,
+	PurposeImprovementExperimentation:     PurposeImprovement,
+	PurposeImprovementAiTraining:          PurposeImprovement,
+	PurposeImprovementAiEvaluation:        PurposeImprovement,
+	PurposeMarketing:                      "",
+	PurposeMarketingDirect:                PurposeMarketing,
+	PurposeMarketingAdvertising:           PurposeMarketing,
 	PurposeMarketingAdvertisingContextual: PurposeMarketingAdvertising,
 	PurposeMarketingAdvertisingBehavioral: PurposeMarketingAdvertising,
-	PurposeMarketingMeasurement: PurposeMarketing,
-	PurposeCommerce: "",
-	PurposeCommerceSale: PurposeCommerce,
-	PurposeCommerceLicensing: PurposeCommerce,
-	PurposeCommerceBrokerage: PurposeCommerce,
-	PurposeRisk: "",
-	PurposeRiskCredit: PurposeRisk,
-	PurposeRiskInsurance: PurposeRisk,
-	PurposeRiskPricing: PurposeRisk,
-	PurposeResearch: "",
-	PurposeResearchScientific: PurposeResearch,
-	PurposeResearchPublicInterest: PurposeResearch,
-	PurposeResearchCommercial: PurposeResearch,
+	PurposeMarketingMeasurement:           PurposeMarketing,
+	PurposeCommerce:                       "",
+	PurposeCommerceSale:                   PurposeCommerce,
+	PurposeCommerceLicensing:              PurposeCommerce,
+	PurposeCommerceBrokerage:              PurposeCommerce,
+	PurposeRisk:                           "",
+	PurposeRiskCredit:                     PurposeRisk,
+	PurposeRiskInsurance:                  PurposeRisk,
+	PurposeRiskPricing:                    PurposeRisk,
+	PurposeResearch:                       "",
+	PurposeResearchScientific:             PurposeResearch,
+	PurposeResearchPublicInterest:         PurposeResearch,
+	PurposeResearchCommercial:             PurposeResearch,
 }
 
 // PurposeCommercial reports whether a purpose is commercial exploitation.
 var PurposeCommercial = map[Purpose]bool{
-	PurposeService: false,
-	PurposeServiceCore: false,
-	PurposeServiceAccount: false,
-	PurposeServiceSupport: false,
-	PurposeServicePersonalization: false,
-	PurposeSecurity: false,
-	PurposeSecurityFraud: false,
-	PurposeSecurityAbuse: false,
-	PurposeSecurityAuthentication: false,
-	PurposeLegal: false,
-	PurposeLegalObligation: false,
-	PurposeLegalClaims: false,
-	PurposeLegalAudit: false,
-	PurposeOperations: false,
-	PurposeOperationsReliability: false,
-	PurposeOperationsCapacity: false,
-	PurposeImprovement: true,
-	PurposeImprovementAnalytics: true,
-	PurposeImprovementExperimentation: true,
-	PurposeImprovementAiTraining: true,
-	PurposeImprovementAiEvaluation: true,
-	PurposeMarketing: true,
-	PurposeMarketingDirect: true,
-	PurposeMarketingAdvertising: true,
+	PurposeService:                        false,
+	PurposeServiceCore:                    false,
+	PurposeServiceAccount:                 false,
+	PurposeServiceSupport:                 false,
+	PurposeServicePersonalization:         false,
+	PurposeSecurity:                       false,
+	PurposeSecurityFraud:                  false,
+	PurposeSecurityAbuse:                  false,
+	PurposeSecurityAuthentication:         false,
+	PurposeLegal:                          false,
+	PurposeLegalObligation:                false,
+	PurposeLegalClaims:                    false,
+	PurposeLegalAudit:                     false,
+	PurposeOperations:                     false,
+	PurposeOperationsReliability:          false,
+	PurposeOperationsCapacity:             false,
+	PurposeImprovement:                    true,
+	PurposeImprovementAnalytics:           true,
+	PurposeImprovementExperimentation:     true,
+	PurposeImprovementAiTraining:          true,
+	PurposeImprovementAiEvaluation:        true,
+	PurposeMarketing:                      true,
+	PurposeMarketingDirect:                true,
+	PurposeMarketingAdvertising:           true,
 	PurposeMarketingAdvertisingContextual: true,
 	PurposeMarketingAdvertisingBehavioral: true,
-	PurposeMarketingMeasurement: true,
-	PurposeCommerce: true,
-	PurposeCommerceSale: true,
-	PurposeCommerceLicensing: true,
-	PurposeCommerceBrokerage: true,
-	PurposeRisk: true,
-	PurposeRiskCredit: true,
-	PurposeRiskInsurance: true,
-	PurposeRiskPricing: true,
-	PurposeResearch: false,
-	PurposeResearchScientific: false,
-	PurposeResearchPublicInterest: false,
-	PurposeResearchCommercial: true,
+	PurposeMarketingMeasurement:           true,
+	PurposeCommerce:                       true,
+	PurposeCommerceSale:                   true,
+	PurposeCommerceLicensing:              true,
+	PurposeCommerceBrokerage:              true,
+	PurposeRisk:                           true,
+	PurposeRiskCredit:                     true,
+	PurposeRiskInsurance:                  true,
+	PurposeRiskPricing:                    true,
+	PurposeResearch:                       false,
+	PurposeResearchScientific:             false,
+	PurposeResearchPublicInterest:         false,
+	PurposeResearchCommercial:             true,
 }
 
 // PurposeCovers reports whether broad is narrow or an ancestor of it.

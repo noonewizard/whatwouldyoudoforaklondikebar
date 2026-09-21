@@ -12,9 +12,9 @@
 //! What the log provides:
 //!
 //! * **Existence with an upper bound on time.** An entry in a signed tree
-//!    head dated T proves the object existed no later than T. Combined with
-//!    the signature's `created` field it bounds backdating: a controller
-//!    cannot claim an authorization it only obtained afterwards.
+//!   head dated T proves the object existed no later than T. Combined with
+//!   the signature's `created` field it bounds backdating: a controller
+//!   cannot claim an authorization it only obtained afterwards.
 //! * **Append-only history.** Consistency proofs between tree heads make
 //!   deletion and reordering detectable.
 //! * **Non-equivocation, conditionally.** A log that shows different

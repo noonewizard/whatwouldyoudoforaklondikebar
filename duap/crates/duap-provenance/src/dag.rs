@@ -426,9 +426,7 @@ impl ProvenanceGraph {
             return Ok(());
         }
         // Compare share < min_share as exact cross-multiplication.
-        if (share.num as i128) * (policy.min_share.den as i128)
-            < (policy.min_share.num as i128) * (share.den as i128)
-        {
+        if share.num * (policy.min_share.den as i128) < policy.min_share.num * (share.den as i128) {
             *dropped = dropped.add(share)?;
             return Ok(());
         }

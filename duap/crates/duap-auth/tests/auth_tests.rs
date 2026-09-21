@@ -552,7 +552,7 @@ fn revocation_suppresses_from_its_effective_time() {
         Purpose::ServiceCore,
     );
 
-    assert!(evaluate(&g, &[rev.clone()], &before, &ctx()).permitted());
+    assert!(evaluate(&g, std::slice::from_ref(&rev), &before, &ctx()).permitted());
     let d = evaluate(&g, &[rev], &after, &ctx());
     assert!(!d.permitted());
     assert_eq!(d.reason, DecisionReason::RevokedTerm { term: 1 });
@@ -583,7 +583,7 @@ fn notice_period_delays_effect() {
         Operation::AccessQuery,
         Purpose::ServiceCore,
     );
-    assert!(evaluate(&g, &[rev.clone()], &during, &ctx()).permitted());
+    assert!(evaluate(&g, std::slice::from_ref(&rev), &during, &ctx()).permitted());
 
     let mut later = during.clone();
     later.occurred_at = Timestamp::from_secs(T0 + 48 * 3600);
@@ -633,7 +633,7 @@ fn scoped_revocation_only_hits_its_scope() {
         Operation::AccessQuery,
         Purpose::ServiceCore,
     );
-    assert!(!evaluate(&g, &[rev.clone()], &marketing, &ctx()).permitted());
+    assert!(!evaluate(&g, std::slice::from_ref(&rev), &marketing, &ctx()).permitted());
     assert!(evaluate(&g, &[rev], &service, &ctx()).permitted());
 }
 

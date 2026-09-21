@@ -9,7 +9,15 @@
 set -uo pipefail
 cd "$(git rev-parse --show-toplevel 2>/dev/null || echo .)" || exit 0
 
-files=$(git diff --cached --name-only --diff-filter=ACM 2>/dev/null || true)
+# Two modes. With no argument it scans the staged change, which is what the
+# pre-commit hook wants. With --all it scans every tracked file, which is
+# what CI wants: a hook that only ever sees diffs never notices what landed
+# before it existed.
+if [ "${1:-}" = "--all" ]; then
+  files=$(git ls-files 2>/dev/null || true)
+else
+  files=$(git diff --cached --name-only --diff-filter=ACM 2>/dev/null || true)
+fi
 [ -z "$files" ] && exit 0
 
 # Only inspect this project's files.
@@ -40,8 +48,13 @@ for f in $files; do
     report "$f contains something shaped like a US social security number"
   fi
 
-  # Payment card shapes (13-19 digits with the usual separators).
-  if grep -nE '\b(4[0-9]{12}([0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13})\b' "$f" 2>/dev/null | head -1 | grep -q .; then
+  # Payment card shapes. The lookarounds exclude digit runs that are part
+  # of a longer number: `\b` matches after a decimal point, so a float like
+  # 2.5560241107087633 in a results file reads as a Mastercard prefix. That
+  # false positive was real -- found by running this hook over the whole
+  # tree rather than over a staged diff -- and a filter that cries wolf on
+  # research output is a filter people learn to bypass.
+  if grep -nP '(?<![\d.])(4\d{12}(\d{3})?|5[1-5]\d{14}|3[47]\d{13})(?![\d.])' "$f" 2>/dev/null | head -1 | grep -q .; then
     report "$f contains something shaped like a payment card number"
   fi
 

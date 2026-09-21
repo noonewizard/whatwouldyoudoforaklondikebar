@@ -659,7 +659,12 @@ pub fn authorization() -> VectorFile {
         Operation::AccessQuery,
         Purpose::ServiceCore,
     );
-    let d = evaluate(&grant, &[rev.clone()], &ev, &EvalContext::verified());
+    let d = evaluate(
+        &grant,
+        std::slice::from_ref(&rev),
+        &ev,
+        &EvalContext::verified(),
+    );
     out.push(v(
         "authz/revoked",
         Level::L4,

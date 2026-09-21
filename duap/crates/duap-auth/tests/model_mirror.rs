@@ -176,7 +176,12 @@ fn revocation_is_prospective() {
 
     for at in [T0 + 10, T0 + 99, T0 + 100, T0 + 500] {
         let ev = event(&g, DataClass::LocationCoarse, Purpose::ServiceCore, at);
-        let d = evaluate(&g, &[rev.clone()], &ev, &EvalContext::verified());
+        let d = evaluate(
+            &g,
+            std::slice::from_ref(&rev),
+            &ev,
+            &EvalContext::verified(),
+        );
         let in_force = at >= T0 + 100;
         if in_force {
             assert!(!d.permitted(), "a revocation in force at {at} did not deny");
@@ -207,7 +212,12 @@ fn no_escape_by_amendment() {
             Purpose::ServiceCore,
             T0 + 200,
         );
-        let d = evaluate(&current, &[rev.clone()], &ev, &EvalContext::verified());
+        let d = evaluate(
+            &current,
+            std::slice::from_ref(&rev),
+            &ev,
+            &EvalContext::verified(),
+        );
         assert!(
             !d.permitted(),
             "epoch {epoch} escaped a revocation issued against epoch 1"

@@ -22,6 +22,20 @@ pub struct SubjectAgent {
     key: SecretKey,
 }
 
+/// The policy parameters of a grant, grouped so they cannot be transposed
+/// positionally.
+///
+/// STATUS: PROTOTYPE, with the crate.
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct GrantPolicy {
+    /// When the grant stops authorizing, regardless of revocation.
+    pub expires_at: Timestamp,
+    /// How withdrawal takes effect.
+    pub revocation: RevocationPolicy,
+    /// The currency every price in the grant's terms is denominated in.
+    pub currency: Currency,
+}
+
 impl SubjectAgent {
     pub fn new(root: SubjectRoot, key: SecretKey) -> SubjectAgent {
         SubjectAgent { root, key }
@@ -64,15 +78,19 @@ impl SubjectAgent {
     }
 
     /// Issue a grant with an explicit expiry and revocation policy.
+    ///
+    /// The policy parameters travel together in [`GrantPolicy`] rather than
+    /// as a widening positional list: an expiry and a revocation policy
+    /// are both `Timestamp`-adjacent and easy to transpose at a call site,
+    /// and a transposed grant is one that expires when it should have been
+    /// revocable.
     pub fn authorize_with(
         &mut self,
         controller: &OrgId,
         id: GrantId,
         terms: Vec<Term>,
         at: Timestamp,
-        expires_at: Timestamp,
-        revocation: RevocationPolicy,
-        currency: Currency,
+        policy: GrantPolicy,
     ) -> Result<(Grant, Envelope), SdkError> {
         let grant = GrantBuilder::new(
             id,
@@ -80,11 +98,11 @@ impl SubjectAgent {
             self.key.key_id(),
             controller.clone(),
             at,
-            currency,
+            policy.currency,
         )
         .terms(terms)
-        .expires_at(expires_at)
-        .revocation(revocation)
+        .expires_at(policy.expires_at)
+        .revocation(policy.revocation)
         .build()?;
         let mut env = Envelope::seal(duap_auth::GRANT_DOMAIN, &grant)?;
         env.sign(&self.key, at.0, None)?;

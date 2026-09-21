@@ -1,4 +1,9 @@
 //! Errors for key handling, signing, and verification.
+//!
+//! STATUS: REFERENCE. Verification failures deliberately do not report
+//! *why* a signature did not verify beyond the suite and key involved:
+//! a detailed failure reason is an oracle, and the caller's correct
+//! response to any of them is identical.
 
 use thiserror::Error;
 

@@ -1,5 +1,10 @@
 //! Generate or check the DUAP conformance vectors.
 //!
+//! STATUS: REFERENCE. `generate` is the only supported way to change a
+//! vector file; hand-editing one produces a wire format no implementation
+//! agrees with, and `tests/vectors_test.rs` fails the build when the
+//! committed files stop matching this generator.
+//!
 //! ```text
 //! duap-conformance generate <dir>   write the vectors
 //! duap-conformance check <dir>      re-derive and compare

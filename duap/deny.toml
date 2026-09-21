@@ -1,0 +1,46 @@
+# cargo-deny configuration.
+#
+# Rule 05 requires an ADR to add an external dependency to a crate on the
+# trust path. This file is the mechanical half of that: it fails the build
+# when an advisory, a licence or a source appears that nobody decided on.
+
+[graph]
+all-features = true
+
+[advisories]
+# A known vulnerability in a dependency is a build failure, not a warning.
+# There is no "we'll get to it" state for a protocol whose objects are
+# evidence.
+yanked = "deny"
+ignore = []
+
+[licenses]
+# Permissive only. The specification, schemas, vectors and verifier must be
+# independently implementable (GOVERNANCE.md section 2), and a copyleft
+# dependency on the trust path would undermine that for downstream
+# implementers.
+version = 2
+confidence-threshold = 0.93
+allow = [
+    "Apache-2.0",
+    "MIT",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "Unicode-3.0",
+    "Zlib",
+]
+
+[bans]
+multiple-versions = "warn"
+wildcards = "deny"
+# Nothing on the trust path may pull in a second cryptographic
+# implementation by accident: two implementations of the same primitive is
+# two places for a verification bug to hide, and only one of them gets
+# reviewed.
+deny = []
+skip = []
+
+[sources]
+unknown-registry = "deny"
+unknown-git = "deny"
+allow-registry = ["https://github.com/rust-lang/crates.io-index"]

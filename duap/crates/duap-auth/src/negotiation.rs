@@ -148,6 +148,14 @@ pub enum RejectCode {
 }
 
 /// Any message in the exchange.
+///
+/// `Request` is around 400 bytes larger than the other variants, so clippy
+/// suggests boxing it. Not taken: a negotiation constructs a handful of
+/// these over its lifetime, the enum is passed by reference through
+/// `apply`, and boxing would add an indirection and an allocation to buy
+/// stack space nothing here is short of. The wire format is unaffected
+/// either way.
+#[allow(clippy::large_enum_variant)]
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(tag = "t", rename_all = "snake_case")]
 pub enum NegotiationMessage {

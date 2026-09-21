@@ -25,6 +25,7 @@ unusual capability or produces a wrong but bounded result), **low**
 | VS-7 | low | duap-auth | fixed | `negotiation` referenced a formal model that did not exist |
 | VS-8 | medium | all crates | open | Crate maturity markers claim PRODUCTION without meeting the entry criteria |
 | VS-9 | medium | duap-conformance | fixed | The conformance vectors were not checked by `cargo test` |
+| CI-01 | low | ontology | fixed | Generated code was not formatter-idempotent, so the staleness check could not work |
 | RISK-01 | n/a | protocol | accepted | A dishonest clearing node can issue a receipt for usage it never evaluated |
 | RISK-02 | n/a | protocol | accepted | Usage outside instrumentation is invisible |
 
@@ -282,3 +283,38 @@ without being verifiable.
 by hand. Wiring it in needs a CI workflow with a Go toolchain, which does
 not exist yet and is tracked as part of the CI work rather than as a
 separate finding.
+
+## CI-01 — Generated code was not formatter-idempotent (fixed)
+
+**Found by:** writing the CI workflow and running its checks over the whole
+tree for the first time, 2026-09-21.
+**Severity:** low in effect, structural in kind. Rule 06 requires generated
+files to be regenerated rather than hand-edited, with the regeneration
+checked in CI. The check could not have worked: `ontology/gen_code.py`
+emitted valid but unformatted source, `cargo fmt` reformatted
+`crates/duap-model/src/taxonomy.rs` in place, and the next regeneration
+undid the formatting. A staleness check would have reported a 161-line
+diff on every run that touched formatting, which is the false alarm that
+teaches people to ignore a check.
+
+The Go emitter had the same defect in a more visible form: the committed
+`gateway/internal/taxonomy/taxonomy.go` had never been `gofmt`-clean, which
+`gofmt -l` confirms against the pre-fix file.
+
+**Fix:** the generator now runs the language's own formatter over its
+output before writing or comparing, so generated output is a fixed point.
+A missing formatter is reported and not fatal, because the generator must
+still work on a machine with only Python. CI runs
+`python3 ontology/gen_code.py --check` and a `gofmt -l` gate.
+
+**Related findings in the same session, both fixed in place:** the
+personal-data hook's payment-card pattern used `\b`, which matches after a
+decimal point, so the float `2.5560241107087633` in a research results file
+read as a card number; and the maturity-marker hook's vocabulary omitted
+`PROTOTYPE`, silently disabling itself across four crates (ADR-0015).
+
+**The general lesson, recorded because it generalises past these three:**
+all three defects existed because the checks only ever inspected staged
+diffs. A check that has never been run over the whole tree has never been
+tested against the tree, and the first full run found a defect in every
+one of them.

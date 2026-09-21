@@ -1,6 +1,8 @@
 //! Serde helper that encodes `Vec<u8>` as a CBOR byte string rather than an
 //! array of integers.
 //!
+//! STATUS: REFERENCE.
+//!
 //! Serde has no byte-string type, so `Vec<u8>` round-trips through `ciborium`
 //! as `[u8, u8, ...]` by default -- 1-2 bytes per element instead of one, and
 //! a different canonical encoding from every other implementation. Protocol
@@ -10,7 +12,7 @@ use serde::de::{Error as DeError, SeqAccess, Visitor};
 use serde::{Deserializer, Serializer};
 use std::fmt;
 
-pub fn serialize<S: Serializer>(v: &Vec<u8>, s: S) -> Result<S::Ok, S::Error> {
+pub fn serialize<S: Serializer>(v: &[u8], s: S) -> Result<S::Ok, S::Error> {
     s.serialize_bytes(v)
 }
 

@@ -29,4 +29,4 @@ hex.workspace = true
 clap.workspace = true
 
 [dev-dependencies]
-duap-sdk = { path = "../duap-sdk" }
+duap-sdk = { path = "../duap-sdk", version = "0.1.0" }

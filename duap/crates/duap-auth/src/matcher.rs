@@ -19,9 +19,11 @@ use serde::{Deserialize, Serialize};
 /// A set over a dimension. `Any` is the identity for conjunction.
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(tag = "k", deny_unknown_fields)]
+#[derive(Default)]
 pub enum Selector<T> {
     /// Matches everything on this dimension.
     #[serde(rename = "any")]
+    #[default]
     Any,
     /// Matches exactly the listed values.
     #[serde(rename = "in")]
@@ -51,17 +53,13 @@ impl<T: PartialEq> Selector<T> {
     }
 }
 
-impl<T> Default for Selector<T> {
-    fn default() -> Self {
-        Selector::Any
-    }
-}
-
 /// Selector over data classes, with namespace support.
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(tag = "k", deny_unknown_fields)]
+#[derive(Default)]
 pub enum ClassSelector {
     #[serde(rename = "any")]
+    #[default]
     Any,
     #[serde(rename = "in")]
     In {
@@ -87,12 +85,6 @@ pub enum ClassSelector {
     },
 }
 
-impl Default for ClassSelector {
-    fn default() -> Self {
-        ClassSelector::Any
-    }
-}
-
 impl ClassSelector {
     pub fn matches(&self, c: DataClass) -> bool {
         match self {
@@ -110,8 +102,10 @@ impl ClassSelector {
 /// Selector over purposes, lattice-aware.
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
 #[serde(tag = "k", deny_unknown_fields)]
+#[derive(Default)]
 pub enum PurposeSelector {
     #[serde(rename = "any")]
+    #[default]
     Any,
     /// Matches the listed purposes and everything below them in the lattice.
     #[serde(rename = "under")]
@@ -137,12 +131,6 @@ pub enum PurposeSelector {
         #[serde(rename = "v")]
         value: bool,
     },
-}
-
-impl Default for PurposeSelector {
-    fn default() -> Self {
-        PurposeSelector::Any
-    }
 }
 
 impl PurposeSelector {

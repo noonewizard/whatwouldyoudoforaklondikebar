@@ -5,3 +5,5 @@ target/
 *.pyc
 .venv/
 /benchmarks/results/*.tmp
+formal/states
+formal/tla2tools.jar

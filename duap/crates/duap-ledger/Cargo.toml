@@ -17,6 +17,7 @@ serde.workspace = true
 thiserror.workspace = true
 
 [dev-dependencies]
+duap-valuation = { path = "../duap-valuation" }
 proptest.workspace = true
 criterion.workspace = true
 

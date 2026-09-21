@@ -24,6 +24,7 @@ unusual capability or produces a wrong but bounded result), **low**
 | VS-6 | low | duap-auth | open | Two representations of the same pricing concept |
 | VS-7 | low | duap-auth | open | `negotiation` is speculative machinery in a non-experimental crate |
 | VS-8 | medium | all crates | open | Crate maturity markers claim PRODUCTION without meeting the entry criteria |
+| VS-9 | medium | duap-conformance | fixed | The conformance vectors were not checked by `cargo test` |
 | RISK-01 | n/a | protocol | accepted | A dishonest clearing node can issue a receipt for usage it never evaluated |
 | RISK-02 | n/a | protocol | accepted | Usage outside instrumentation is invisible |
 
@@ -231,3 +232,31 @@ module headers that drift independently.
 
 **Owner:** `chief-architect`. **Status:** open at the time of the review;
 closed by the status-only commit that follows it.
+
+## VS-9 — The conformance vectors were not checked by `cargo test` (fixed)
+
+**Found by:** the vertical-slice review of 2026-09-21, while assessing
+whether `duap-conformance` met its claimed status.
+**Severity:** medium. The 93 vectors in `spec/vectors/` were checked only by
+running `cargo run -p duap-conformance -- check` by hand. A change that
+altered a vector left `cargo test --workspace` green. Since a changed vector
+*is* a wire-format change, this is the one regression that most needs to
+fail loudly and was the one that failed silently.
+
+There is no CI in this repository yet, so "the pipeline would have caught
+it" was not available as an answer.
+
+**Reproduction (before the fix):** edit any digest in
+`spec/vectors/canonical-encoding.json`; `cargo test --workspace` passes.
+
+**Fix:** `crates/duap-conformance/tests/vectors_test.rs`, three tests:
+every committed vector passes the self-check; every committed file is
+byte-identical to what the generator produces, with the error message
+naming the ADR requirement and the regeneration command; and every claimed
+conformance level has at least one vector, so a level cannot be advertised
+without being verifiable.
+
+**Remaining gap:** the Go verifier in `gateway/cmd/duap-verify` is still run
+by hand. Wiring it in needs a CI workflow with a Go toolchain, which does
+not exist yet and is tracked as part of the CI work rather than as a
+separate finding.

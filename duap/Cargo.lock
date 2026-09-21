@@ -399,6 +399,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "duap-meter"
+version = "0.1.0"
+dependencies = [
+ "criterion",
+ "duap-canon",
+ "duap-crypto",
+ "duap-model",
+ "duap-provenance",
+ "proptest",
+ "serde",
+ "thiserror",
+]
+
+[[package]]
 name = "duap-model"
 version = "0.1.0"
 dependencies = [

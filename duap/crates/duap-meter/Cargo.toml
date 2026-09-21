@@ -1,0 +1,25 @@
+[package]
+name = "duap-meter"
+description = "DUAP metering: deduplication, replay and gap detection, double-count detection, windowed aggregation"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+duap-canon = { path = "../duap-canon", version = "0.1.0" }
+duap-crypto = { path = "../duap-crypto", version = "0.1.0" }
+duap-model = { path = "../duap-model", version = "0.1.0" }
+serde.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+duap-provenance = { path = "../duap-provenance" }
+proptest.workspace = true
+criterion.workspace = true
+
+[[bench]]
+name = "meter_bench"
+harness = false

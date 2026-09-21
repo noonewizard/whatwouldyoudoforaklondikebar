@@ -26,6 +26,7 @@ unusual capability or produces a wrong but bounded result), **low**
 | VS-8 | medium | all crates | open | Crate maturity markers claim PRODUCTION without meeting the entry criteria |
 | VS-9 | medium | duap-conformance | fixed | The conformance vectors were not checked by `cargo test` |
 | CI-01 | low | ontology | fixed | Generated code was not formatter-idempotent, so the staleness check could not work |
+| FUZZ-01 | high | duap-canon | fixed | Nine bytes of input overflowed the decoder's length bounds check |
 | RISK-01 | n/a | protocol | accepted | A dishonest clearing node can issue a receipt for usage it never evaluated |
 | RISK-02 | n/a | protocol | accepted | Usage outside instrumentation is invisible |
 
@@ -387,3 +388,46 @@ all three defects existed because the checks only ever inspected staged
 diffs. A check that has never been run over the whole tree has never been
 tested against the tree, and the first full run found a defect in every
 one of them.
+
+## FUZZ-01 — Integer overflow in the decoder's length bounds check (fixed)
+
+**Found by:** `fuzz/fuzz_targets/canon_decode.rs`, within two minutes of
+its first run, 2026-09-21.
+**Severity:** high. The decoder runs on a network path and this is nine
+bytes of unauthenticated input.
+
+**Input:** `7b ff ff ff ff ff ff ff ff` — CBOR major type 3 (text string),
+additional information 27, so an eight-byte length follows, set to
+`u64::MAX`.
+
+**Defect:** `Decoder::len_of` computed `self.pos + n` and compared it
+against the input length. With `n = usize::MAX` the addition overflows.
+Under debug assertions it panics; without them it wraps, and a wrapped
+comparison can pass the bounds check it exists to enforce.
+
+**Reproduction:** `duap_canon::codec::decode(&[0x7b, 0xff, 0xff, 0xff,
+0xff, 0xff, 0xff, 0xff, 0xff])`.
+
+**Fix:** compare in `u64` against the remaining input rather than
+computing `pos + n` at all. `collection_len` had the same shape and was
+rewritten the same way, though its subtraction could not underflow.
+
+**Regression test:**
+`a_64_bit_length_header_cannot_overflow_the_bounds_check` in
+`crates/duap-canon/tests/regressions.rs`, generalised from the single
+input to all four length-carrying major types, because the same header
+shape reaches the same helper from each.
+
+**Why this matters beyond the fix.** Property tests, 269 unit tests, a
+second independent implementation in Go and three model-checked
+specifications had all missed it. Each was looking somewhere else: the
+property tests generate valid values, the Go implementation was written
+from the same specification, and the models abstract away encoding
+entirely. Coverage-guided fuzzing was the only technique in the repository
+pointed at the space of *invalid* inputs, and it was the last one added.
+
+`benchmarks/results/2026-09-21-fuzzing.md` records the campaign:
+31,263,965 executions across six targets after the fix, no further
+findings.
+
+**Owner:** `protocol-engineer`. **Status:** fixed.

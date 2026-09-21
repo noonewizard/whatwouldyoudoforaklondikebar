@@ -354,38 +354,51 @@ impl<'a> Decoder<'a> {
         }
     }
 
+    /// Bytes left to read. `pos` never exceeds `b.len()`, so this cannot
+    /// underflow.
+    fn remaining(&self) -> u64 {
+        (self.b.len() - self.pos) as u64
+    }
+
+    /// Length of a byte or text string, validated against what is left.
+    ///
+    /// The comparison is made in `u64` against the remaining input rather
+    /// than by computing `pos + n`. A 64-bit length header is entirely
+    /// attacker-controlled -- `0x7b` followed by eight `0xff` bytes asks
+    /// for a text string of `u64::MAX` -- and `pos + n` overflows on it.
+    /// With debug assertions that panics; without them it wraps, and a
+    /// wrapped comparison can pass. Nine bytes of input either way.
+    ///
+    /// Found by `fuzz/fuzz_targets/canon_decode.rs` within two minutes of
+    /// its first run; recorded as FUZZ-01 in `security/findings.md`.
     fn len_of(&self, arg: u64) -> Result<usize> {
-        let n = usize::try_from(arg).map_err(|_| CanonError::TooLarge {
-            len: usize::MAX,
-            max: MAX_INPUT_LEN,
-        })?;
-        if self.pos + n > self.b.len() {
+        if arg > self.remaining() {
             return Err(CanonError::UnexpectedEof {
                 at: self.pos,
-                want: n,
+                want: usize::try_from(arg).unwrap_or(usize::MAX),
             });
         }
-        Ok(n)
+        // `arg <= remaining <= usize::MAX`, so this cannot truncate.
+        Ok(arg as usize)
     }
 
     fn collection_len(&self, arg: u64) -> Result<usize> {
-        let n = usize::try_from(arg).unwrap_or(usize::MAX);
-        if n > MAX_COLLECTION_LEN {
+        if arg > MAX_COLLECTION_LEN as u64 {
             return Err(CanonError::TooLarge {
-                len: n,
+                len: usize::try_from(arg).unwrap_or(usize::MAX),
                 max: MAX_COLLECTION_LEN,
             });
         }
         // Each remaining item costs at least one byte, so a length larger than
         // the remaining input is malformed. This bounds allocation from a
         // hostile length header without allocating first.
-        if n > self.b.len() - self.pos {
+        if arg > self.remaining() {
             return Err(CanonError::UnexpectedEof {
                 at: self.pos,
-                want: n,
+                want: usize::try_from(arg).unwrap_or(usize::MAX),
             });
         }
-        Ok(n)
+        Ok(arg as usize)
     }
 }
 

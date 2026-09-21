@@ -160,6 +160,28 @@ jobs:
       - name: No production crate enables an insecure feature
         run: python3 tools/check_insecure_features.py
 
+  fuzz:
+    name: Fuzz smoke test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@nightly
+      - name: Install cargo-fuzz
+        run: cargo install --locked cargo-fuzz
+      # A short run per target, to catch a regression that reintroduces a
+      # crash a previous campaign found. This is a smoke test, not a
+      # campaign: FUZZ-01 took two minutes to find, but nothing here
+      # should be read as evidence of absence. Long runs belong on a
+      # schedule, not on a pull request.
+      - name: Smoke-test every target
+        run: |
+          for t in $(cargo +nightly fuzz list); do
+            echo "::group::$t"
+            cargo +nightly fuzz run "$t" -- -max_total_time=60 -print_final_stats=1
+            echo "::endgroup::"
+          done
+        working-directory: duap/fuzz
+
   security:
     name: Dependency and advisory scanning
     runs-on: ubuntu-latest

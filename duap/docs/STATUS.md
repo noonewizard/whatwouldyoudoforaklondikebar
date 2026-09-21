@@ -51,7 +51,7 @@ Two readings that are applied consistently here:
 
 | Subsystem | Status | Evidence | What blocks the next state |
 |---|---|---|---|
-| `duap-canon` | REFERENCE | L1 vectors; property tests for encoder/decoder agreement; reproduced by the Go implementation | No coverage-guided fuzzing of the decoder. It parses adversary-supplied bytes, so this is the highest-value missing test in the repository. |
+| `duap-canon` | REFERENCE | L1 vectors; property tests for encoder/decoder agreement; reproduced by the Go implementation; 3.2M fuzzed executions after FUZZ-01 was fixed | No independent review. The fuzzing campaign was 16 minutes across six targets, which finds bugs and never shows their absence. |
 | `duap-crypto` | REFERENCE | L2 vectors; Ed25519, ML-DSA-44/65 and the hybrid suite tested against them | Not audited. A cryptographic subsystem cannot reach PRODUCTION without an independent audit however well it is tested, and none has been commissioned. |
 | `duap-model` | REFERENCE | Event and taxonomy vectors; round-trip and strict-decode tests; a constant root secret is refused by the compiler outside opted-in crates | No independent review. |
 | `duap-auth` | REFERENCE | L4 vectors; `Authorization.tla` and `Negotiation.tla` exhaustive within bounds; two sets of mirror tests | No independent review. |

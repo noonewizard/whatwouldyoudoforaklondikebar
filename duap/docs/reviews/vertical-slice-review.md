@@ -23,7 +23,7 @@ happened to its eight decisions since:
 | 3. Absorb `PricingRule::PerUnit` before the wire format freezes | **Done.** ADR-0016; vectors regenerated, golden transcript moved by two digest lines and no economic figure (VS-6) |
 | 4. Type-level control on the pseudonym salt | **Done.** `RootSecretSource`, a feature-gated `InsecureFixedSecret`, and a checker on the opt-in list (VS-5) |
 | 5. Demote or model `negotiation.rs` | **Done.** Both: `formal/Negotiation.tla` written and checked, marker lowered (VS-7) |
-| 6. Coverage-guided fuzzing of the decoder | Open. Still the highest-value missing test |
+| 6. Coverage-guided fuzzing of the decoder | **Done, and it was right.** Six targets; the first found a nine-byte denial-of-service defect in two minutes (FUZZ-01) |
 | 7. Redesign the obligation context interface by ADR | Open |
 | 8. No subsystem advances while a blocker stands | In force; `docs/STATUS.md` is the register |
 

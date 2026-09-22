@@ -2,17 +2,38 @@
 
 ### A Computational Theory of Physically Permitted State Transformation
 
-**Status:** research monograph, second draft.
-Parts I–X are Draft 1. **Parts XI–XIII are a correction pass** responding to a
-directive not to confuse current engineering limits with physical limits. They
-supersede Draft 1 where the two conflict; §36 is a consolidated errata list, and
-§35 re-labels every boundary claim by the *category* that imposes it.
+**Status:** research monograph, third draft.
+**Part I was rewritten in Draft 3** to remove a bias toward the industrial
+interpretation: the framework had been developed as a generalization of existing
+manufacturing compilers, with quantum systems entering as a specialist branch. The
+object is now **Physical State Compilation** across the full level hierarchy, with
+classical manufacturing as one back end. **Part XIV** adds the compilability theorem
+program and the Quantum Physical IR. Parts XI–XIII (Draft 2) are the correction pass
+on engineering-versus-physical limits; §36 is the consolidated errata list and §35
+re-labels every boundary by the *category* that imposes it. Parts II–X remain Draft 1
+and are superseded by Parts XI–XIV where they conflict.
 **Discipline proposed:** *Synthesis Complexity* (see §27 and Final Answer J)
 **Recommended technical name for the artifact:** *Physical Synthesis Compiler* (PSC).
 "Reality Compiler" is retained as a program name only; it should not appear in a
 peer-reviewed title, for reasons given in §2.4.
 
 ---
+
+## The question
+
+> Can computation compile specifications into physically engineered states — including
+> quantum states, engineered interactions, and collective phases of matter — and can
+> those states then be prepared, stabilized, manipulated, measured, and verified?
+
+## The answer, in one line
+
+**Yes on the compressible sector, no on the generic sector, and the compressible
+sector is where all structured physics lives.** For quantum matter the compilable
+class is characterized (CQM(Ω), §39.7) and its existence rests structurally on the
+**area law** — proved in 1D, conjectured generally. The general claim is disproved by
+counting: states with short descriptions are measure-zero in Hilbert space. The same
+is true of classical matter, which is why one criterion — compressibility — covers
+both halves of the framework.
 
 ## What this document is
 
@@ -109,6 +130,7 @@ See §22.
 | 11 | [`11-quantum-matter-compilation.md`](11-quantum-matter-compilation.md) | 29 Quantum Matter Synthesis · 30 Layer Independence · 31 The Compression Argument |
 | 12 | [`12-landscape-and-emergence.md`](12-landscape-and-emergence.md) | 32 Landscape Compilation: Advantage Classes · 33 Instruction vs Emergence · 34 Environment as Resource |
 | 13 | [`13-modality-audit-and-errata.md`](13-modality-audit-and-errata.md) | 35 Modality Audit · 36 Errata to Draft 1 · 37 Revised Two-Track Program · 38 Falsification F-11…F-16 |
+| 14 | [`14-theorem-program-and-qir.md`](14-theorem-program-and-qir.md) | 39 The Compilability Theorem Program · 40 Quantum Physical IR · 41 Minimum Sufficient Measurement Set · 42 Objective Functionals · 43 The Ultimate Research Question |
 | — | [`CLAIM_LEDGER.md`](CLAIM_LEDGER.md) | Every major claim, labeled |
 | — | [`CITATIONS.md`](CITATIONS.md) | Literature audit with recall-confidence annotations |
 | — | [`NOTATION.md`](NOTATION.md) | The proposed notation system, in one place |
@@ -149,16 +171,46 @@ labels that separately.
 
 ---
 
-## One-paragraph summary of the defensible thesis
+## The strategic thesis (Draft 3)
 
-> Physical synthesis can be formalized as compilation, but not as compilation to a
-> state — only as compilation to a *certified acceptance region* over a finite
-> vector of measurable functionals, under a substrate-specific action algebra, with
-> an explicit epistemic budget. The resulting problem has no single complexity
-> class; it has a **complexity vector** whose components (search, simulation,
-> control, verification, fabrication, energy, time) are independently hard and
-> independently reducible. There is no universal physical compiler, but there is a
-> universal *interface*: a specification language and an attestation format can be
-> substrate-independent even though every compiler back end is substrate-specific.
-> That interface — not the assembler — is the defensible core of the program, and it
-> is buildable now.
+> **Reality Compilation is a general framework for compiling formal physical
+> specifications into executable, measurable, and verifiable state transformations
+> across multiple levels of physical description.**
+>
+> Classical manufacturing is one back end. Chemistry is another. Nanofabrication,
+> biological synthesis, and quantum matter are others. The architecture is defined by
+> the abstraction **Specification → Physical Dynamics → Verified State**, and the
+> research program is the determination of how far that abstraction extends — which
+> substrate classes admit it, with what guarantees, and where it provably fails.
+
+## Three targets, typed separately (§2.2)
+
+| | Target | Transformation | Engineered object |
+|---|---|---|---|
+| **A** | Material synthesis | feedstock → material/structure | the instructions |
+| **B** | Quantum-state preparation | ρ₀ → ρ_T in a fixed substrate | the trajectory |
+| **C** | **Quantum-matter synthesis** | substrate + interactions + environment + control → quantum phase | **the Hamiltonian** |
+
+C is the deepest form available: the compiler emits *the law the system will obey*,
+and the system's own dynamics produce the target. That is
+Specification → Physical Dynamics → Verified State with nothing left over.
+
+## The generalized compilation object
+
+```
+    ( 𝔟₀ , S , Ω )  ──Compile──▶  ( P* , H* , L* , Ψ , Π )
+```
+
+preparation protocol, engineered Hamiltonian, engineered dissipative channels,
+verification protocol, provenance. **H\* is designed, not discovered.**
+
+## What survives from the earlier drafts
+
+> Physical synthesis is compilation to a *certified acceptance region*, never to a
+> state — and for quantum matter this is forced rather than convenient, because phases
+> do not exist at finite size (§39.2). The problem has no single complexity class; it
+> has a **complexity vector** with exchange relations. There is no universal compiler
+> for matter, but there is a universal front end (L0–L1 of the IR), a set of universal
+> passes with non-universal costs, and — by the universal-Hamiltonian theorem — a
+> genuine universal compiler for spin-Hamiltonian physics. The primitive is
+> **controlled emergence**; instruction execution is its degenerate case.

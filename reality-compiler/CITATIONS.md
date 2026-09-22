@@ -322,3 +322,40 @@ citation for §35.10's revised universality verdict and is **[high]** confidence
    magnetization data analysis in some papers beyond the retracted ones. The
    203 K / 250 K results are broadly accepted; cite with awareness of the
    controversy.
+
+---
+
+# Draft 3 Addendum — Theorem Program and IR
+
+| Work | Type | Conf. | Relevance |
+|---|---|---|---|
+| Hastings, M. B. (2007). "An area law for one-dimensional quantum systems." *J. Stat. Mech.* P08024. | T | [high] | **§39.9 — the load-bearing citation of the theorem program.** Gapped 1D local Hamiltonians obey an area law, hence admit efficient MPS approximation. |
+| Eisert, J., Cramer, M., Plenio, M. B. (2010). "Colloquium: Area laws for the entanglement entropy." *Rev. Mod. Phys.* 82:277. | R | [high] | §39.9. Status in higher dimensions: conjectured, partial results. |
+| Verstraete, F., Cirac, J. I. (2006). "Matrix product states represent ground states faithfully." *Phys. Rev. B* 73:094423. | T | [high] | §39.3. |
+| Pérez-García, D., Verstraete, F., Wolf, M. M., Cirac, J. I. (2007). "Matrix product state representations." *Quantum Inf. Comput.* 7:401. | T | [high] | §39.3. **Parent-Hamiltonian construction** — Q2 by construction rather than search. |
+| Chen, X., Gu, Z.-C., Wen, X.-G. (2010). "Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order." *Phys. Rev. B* 82:155138. | T | [high] | **§39.2 — the definition of a phase as an equivalence class under finite-depth local unitary circuits, from which Q1's strict failure follows.** |
+| Aharonov, D., Arad, I., Vidick, T. (2013). "Guest column: The quantum PCP conjecture." *ACM SIGACT News* 44(2):47–79. | T,R | [high] | §39.5. The sharpest open question bounding Q3. |
+| Jordan, P., Wigner, E. (1928). *Z. Phys.* 47:631. | T | [high] | §40.3. Fermion→qubit mapping. |
+| Bravyi, S., Kitaev, A. (2002). "Fermionic quantum computation." *Ann. Phys.* 298:210–226. | T | [high] | §40.3. O(log N) Pauli weight. |
+| Jiang, Z., Kalev, A., Mruczkiewicz, W., Neven, H. (2020). "Optimal fermion-to-qubit mapping via ternary trees with applications to reduced quantum states learning." *Quantum* 4:276. | T | [medium] | §40.3. Near-optimal weight. |
+| Kivlichan, I. et al. (2018). "Quantum simulation of electronic structure with linear depth and connectivity." *Phys. Rev. Lett.* 120:110501. | T | [medium] | §40.3. Fermionic swap networks. |
+| Bravyi, S., DiVincenzo, D., Loss, D., Terhal, B. (2008). "Quantum simulation of many-body Hamiltonians using perturbation theory with bounded-strength interactions." *Phys. Rev. Lett.* 101:070503. | T | [high] | §40.3. Perturbative gadgets and their coupling-ratio cost — the honest weak point of cross-class portability. |
+| Childs, A., Su, Y., Tran, M., Wiebe, N., Zhu, S. (2021). "Theory of Trotter error with commutator scaling." *Phys. Rev. X* 11:011020. | T | [high] | §40.3. Tight Trotter bounds. |
+| Bravyi, S., Hastings, M. (2017) / Schrieffer, J. R., Wolff, P. A. (1966). *Phys. Rev.* 149:491. | T | [medium] | §40.3. Effective-Hamiltonian derivation; the 1966 paper for the original transformation. |
+| Nemhauser, Wolsey & Fisher (1978) — already cited in §2 above. | T | [high] | §41.1. The (1−1/e) greedy guarantee for the minimum sufficient measurement set. |
+| Elenberg, E., Khanna, R., Dimakis, A., Negahban, S. (2018). "Restricted strong convexity implies weak submodularity." *Ann. Statist.* 46:3539. | T | [check] | §41.1. Relevant if the discriminating objective is only *weakly* submodular, which is the realistic case; locate before citing. |
+
+## Additional gaps introduced by this addendum
+
+1. **The area-law status in d ≥ 2 is the framework's most important external
+   dependency** and should be re-checked against the mathematical-physics literature
+   before any claim in §39.9 or §43 is published. Partial results exist beyond the
+   1D theorem and the honest label is "conjectured with support," not "expected."
+2. **The quantum PCP conjecture's status** should be tracked continuously for the same
+   reason (§39.5).
+3. **§39.10's five restricted-class theorems (T1–T5) are proposed, not proved.** The
+   assessments of provability are the author's judgment and should be read as research
+   proposals, not results.
+4. **Definition 39.1 (CQM) is a proposed definition, not an established one.** Its
+   four conditions are each grounded in established results, but the class itself and
+   the claim that it is the right one have not been subjected to outside criticism.

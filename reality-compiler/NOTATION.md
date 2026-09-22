@@ -134,3 +134,61 @@ vocabularies answer different questions — *how strong is the evidence* versus 
 imposes the boundary* — and both should be carried. A claim can be
 **ESTABLISHED** (the evidence is solid) that something is **ALLOWED / INACCESSIBLE**
 (no prohibition, no capability).
+
+---
+
+# Draft 3 Addendum — Physical State Compilation
+
+## The generalized compilation object
+
+```
+   ( 𝔟₀ , S , Ω )  ──Compile──▶  ( P* , H* , L* , Ψ , Π )
+```
+
+| Symbol | Meaning |
+|---|---|
+| **P\*** | preparation / control protocol (the time-ordered program of conditions) |
+| **H\*** | engineered Hamiltonian, or effective Hamiltonian H_eff(λ). **Primary output for target class C.** Designed, not discovered |
+| **L\*** | engineered dissipative / environmental channels {L_k(λ)} |
+| **Ψ** | measurement and verification protocol with three-valued decision rule |
+| **Π** | provenance record exposing model identities and validity witnesses |
+
+## Target classes
+
+| Symbol | Class | Transformation |
+|---|---|---|
+| **A** | material synthesis | feedstock → material/structure |
+| **B** | quantum-state preparation | ρ₀ → ρ_T within a fixed substrate |
+| **C** | quantum-matter synthesis | substrate + interactions + environment + control → quantum phase |
+
+## Added symbols
+
+| Symbol | Meaning | Where |
+|---|---|---|
+| 𝓛(σ; λ) | the **landscape**: energy, free-energy, effective-Hamiltonian, Liouvillian, or Floquet quasi-energy structure under controls λ | §2.5 |
+| Λ_Ω | realizable control-parameter space {λ : H(λ), L_k(λ) physically available} | §2.7 |
+| ℒ(S,Ω) = I_verified(S) / (K(P*) + C_ver(Ψ)) | **physical computational leverage.** ℒ ≫ 1 iff physical dynamics are doing the computational work | §2.6, §42.2 |
+| I_verified(S) | information content of the *certified* claim: log₂ of the certified reduction in accessible state-space measure | §2.6 |
+| 𝒜 (roman, in a phase spec) | **alternative hypothesis set** — the named alternatives a witness set must exclude. A required, adversarially reviewed part of any phase specification | §39.2, §41.4 |
+| W ⊆ ℳ | **minimum sufficient measurement set** — the cost-minimal discriminating witness set | §41 |
+| CQM(Ω) | **Compilable Quantum Matter** over substrate Ω — the class satisfying representability, realizability, preparability, verifiability | Def. 39.1 |
+| Δ_L | Liouvillian gap (governs dissipative preparation; distinct from the Hamiltonian gap Δ) | §2.5 |
+| S_stability | instability / sensitivity penalty in the objective: Σ_j s_j·\|∂outcome/∂θ_j\|²·Var(θ_j) | §42.1 |
+| Q1…Q4 | the four independent claims composing Proposition Q | §39.1 |
+| QR-0…QR-4 | the quantum problem family, parallel to RC-0…RC-4 | §3.2 |
+| L0…L4 | Quantum Physical IR layers: specification, abstract model, encoded model, substrate-native, control signals | §40.2 |
+
+## Note on 𝒜
+
+**Symbol collision, flagged.** `𝒜` denotes both the *algebra of conditions* in a
+substrate declaration (§2.7) and the *alternative hypothesis set* in a phase
+specification (§39.2). The contexts do not overlap in practice, but in a submitted
+paper the latter should be renamed — suggested: `Alt(S)`.
+
+## Note on Proposition 3.1
+
+**Spectral invariance** — unitary control preserves the eigenvalue spectrum of ρ — is
+carried as a conservation law in the permission stack (§3.4), between CONSERVATION and
+THERMODYNAMIC. It is a compile-time feasibility screen as cheap and as absolute as the
+classical element balance, and it types the target: any specification requiring an
+entropy change cannot be met by coherent control alone, however good the pulses.

@@ -599,3 +599,40 @@ actually names, once the physics and the complexity theory are taken seriously, 
 compiler for a declared substrate, a calculus of evidence, and an economics of
 verification. That is a smaller claim and a far more valuable one, because it can be
 built, tested, and — this is the point — proven wrong.*
+
+---
+
+## Draft 3 note on the Final Answers
+
+Parts I and XIV revise three of the answers above. The revisions, in place of
+rewriting:
+
+**Answer H (formal definition) is superseded by Definition 2.4**, which carries the
+generalized compilation object (𝔟₀, S, Ω) → (P*, H*, L*, Ψ, Π), the algebra of
+conditions, the realizable control-parameter space Λ_Ω, and the environment as a
+costed free variable.
+
+**Answer D (the extreme theoretical endpoint)** is sharpened. Drafts 1–2 gave "a
+complete machine-checkable map of a declared substrate's reachable set, and a compiler
+complete relative to it." That stands, and §43 now supplies the scope: the endpoint is
+attainable **on the compressible sector**, characterized for quantum matter as
+CQM(Ω) (Definition 39.1) and resting structurally on the area law. The generic sector
+is excluded by a counting argument that no technology can touch — and equally excludes
+generic classical matter, which is why compressibility is the single criterion
+covering both halves of the framework.
+
+**Answer F (claims most likely to be wrong)** gains a fourth, which now outranks the
+other three in consequence:
+
+> **That the area law holds broadly enough in d ≥ 2 to make CQM a fat class.** It is
+> proved in one dimension and conjectured above it. If it fails widely, the compilable
+> sector of quantum matter is much thinner than §39 suggests and the program's scope
+> contracts sharply. This is the framework's largest single external dependency, it is
+> tracked in `CITATIONS.md`, and it is not something this program can resolve on its
+> own.
+
+**Answer J (the discipline name)** is unchanged — *Synthesis Complexity* — but the
+subsidiary vocabulary is extended: **Physical State Compilation** for the field,
+**Quantum Physical Synthesis** for target class C, **Landscape Compilation** for the
+core architectural object, **physical computational leverage** ℒ for the research
+objective, and **CQM(Ω)** for the compilable class.

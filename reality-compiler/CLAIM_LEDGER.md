@@ -219,3 +219,71 @@ per §29's preamble. **[C]** marks a claim that corrects Draft 1.
 | 129 | Extreme regimes are cheap at small volume and unavailable at large volume, so quantum-matter and bulk back ends have opposite environmental economics | **ESTABLISHED** by the cost table | §34.3 |
 | 130 | Ambient-pressure room-temperature superconductivity | **ALLOWED / undiscovered** — no known theorem bounds Tc; the field's failure mode has been verification integrity, not physics | §29.6, §29.9 Target C |
 | 131 | Track B (quantum matter) should be funded before Track A | **PLAUSIBLE**, argued against Draft 1's own criteria | §37 |
+
+---
+
+# Draft 3 Addendum — Physical State Compilation and the Theorem Program
+
+**[R]** marks a claim that revises the framing rather than correcting a fact.
+
+## Framing
+
+| # | Claim | Label | Where |
+|---|---|---|---|
+| 132 **[R]** | The hierarchy classical ≫ quantum was an artifact of where compilers exist today, not of the physics | **Bias, removed** | Part I revision note |
+| 133 **[R]** | No level of the macro→collective hierarchy is privileged; the hardest and most valuable targets are not necessarily classical | **PLAUSIBLE**, argued from §29.3 | §1.2 |
+| 134 | Three target classes (A material synthesis, B state preparation, C quantum-matter synthesis) are not interchangeable and must be typed separately | **ESTABLISHED** by their different invariants and reachable sets | §2.2 |
+| 135 | Target class C is the deepest form of physical compilation: the compiler emits the law the system obeys | **PLAUSIBLE**, argued structurally | §2.2 |
+| 136 | H* is designed, not discovered — the compiler solves an inverse problem over a low-dimensional Λ_Ω | **ESTABLISHED** for the demonstrated platforms | §2.4, §31.3 |
+| 137 | Landscape Compilation is a core architectural object with five dynamical conditions (attraction, robustness, kinetics, selectivity, realizability) | **PLAUSIBLE** — proposed here | Def. 2.2 |
+| 138 | Physical computational leverage ℒ = I_verified/(K(P*)+C_ver); ℒ ≫ 1 iff dynamics carry the computational load | **PLAUSIBLE** — proposed here | Def. 2.3, §42.2 |
+| 139 | Optimizing only 𝔍 systematically under-invests in the substrates where the paradigm's leverage lives | **PLAUSIBLE** | §42.2 |
+
+## Physics
+
+| # | Claim | Label | Where |
+|---|---|---|---|
+| 140 | **Proposition 3.1** — unitary control preserves the spectrum of ρ; cooling and purification are dissipation/measurement problems, not control problems | **ESTABLISHED** (elementary), and belongs in the compile-time screen | §3.5 |
+| 141 | This explains why entropy, not control fidelity, binds cold-atom many-body preparation | **STRONGLY SUPPORTED** | §3.5, §29.9 |
+| 142 | Quantum error correction is the only known *constructed* instance of the digital abstraction outside classical electronics | **ESTABLISHED**; the existence proof for Open Problem 1 | §3.6 |
+| 143 | Specification layers are deterministic upward and degenerate downward; independent control exists only at the nonequilibrium handles | **ESTABLISHED** | §4.2, §30 |
+
+## The theorem program
+
+| # | Claim | Label | Where |
+|---|---|---|---|
+| 144 | **Q1 fails strictly**: phase membership is not a function of finite-size expectation values, since a phase is an equivalence class under finite-depth local unitaries | **ESTABLISHED** | §39.2 |
+| 145 | **Q1′ holds**: a phase-target is a nested family of acceptance regions plus a finite-size-scaling hypothesis against a named alternative set | **ESTABLISHED** as a description of what condensed-matter practice already is | §39.2 |
+| 146 | The acceptance-region reformulation is *forced* for quantum matter, not merely convenient | **ESTABLISHED**, and independent corroboration of Draft 1's central correction | §4.4, §39.2 |
+| 147 | A phase specification without an alternative hypothesis set is ill-formed and should be refused | **PLAUSIBLE** — proposed; supported by the retraction record | §39.2, §41.4 |
+| 148 | **Q2 holds constructively** for tensor-network targets (parent Hamiltonians) and via encoding for spin Hamiltonians (universal families) | **ESTABLISHED** | §39.3 |
+| 149 | **Q2 fails generically**: a generic state has no local parent Hamiltonian (poly parameters vs 2^N dimensions) | **ESTABLISHED** by counting | §39.3 |
+| 150 | **Q3 holds** on three sub-classes: gapped adiabatic paths, measurement-preparable states (constant depth), rapidly mixing engineered Liouvillians | **ESTABLISHED** | §39.4 |
+| 151 | **Q3 fails** in the worst case (QMA-hardness of arbitrary local-Hamiltonian ground states) | **ESTABLISHED** | §39.4 |
+| 152 | If quantum PCP holds, approximate compilation is no easier than exact in the worst case, and no general approximation guarantee can exist | **OPEN** — the single external result most likely to change this program's foundations | §39.5 |
+| 153 | **Q4 holds** on structured targets; quantized/topological estimands are the cheapest | **ESTABLISHED** | §39.6 |
+| 154 | Verifying a quantum simulator in the regime where classical simulation fails | **OPEN** | §39.6 |
+| 155 | **Proposition Q is FALSE in general, TRUE on CQM(Ω)** | **ESTABLISHED** (disproof by counting; positive class characterized) | §39.7–39.8 |
+| 156 | The general disproof applies equally to classical matter — almost no arrangement of 10²³ atoms is specifiable | **ESTABLISHED**; shows the restriction is not a quantum-specific weakness | §39.8 |
+| 157 | **Compilability of quantum matter rests on the area law** — proved in 1D, conjectured in higher d | **ESTABLISHED** as a derivation; the area law itself is **proved in 1D / OPEN in general** | §39.9 |
+| 158 | The framework's scope is co-extensive with how broadly the area law holds | **PLAUSIBLE**, follows from 157 | §39.9, §43.1 |
+
+## The IR
+
+| # | Claim | Label | Where |
+|---|---|---|---|
+| 159 | A layered Quantum Physical IR (L0 spec → L1 algebraic → L2 encoded → L3 native → L4 signals) is well-defined, and the L1→L2 passes are real named transformations with quantified overhead | **ESTABLISHED** — the passes all exist | §40.2–40.3 |
+| 160 | Portability is cheap within a substrate class and expensive across classes, chiefly from perturbative-gadget coupling-ratio blowup | **STRONGLY SUPPORTED** | §40.3 |
+| 161 | The LLVM analogy holds architecturally and fails on cost uniformity: some cross-class compilations are infeasible, not merely slow | **PLAUSIBLE** | §40.3 |
+| 162 | Moiré/solid-state is a structurally different back end — λ is fixed at fabrication, making it the bridge between target classes C and A, and the route to engineered quantum matter outside a cryostat | **PLAUSIBLE**, and strategically important | §40.4 |
+| 163 | Universal: L0 and L1; universal as transformations but not as costs: L1→L2; not universal: L2→L3 | **ESTABLISHED** | §40.5 |
+
+## Verification
+
+| # | Claim | Label | Where |
+|---|---|---|---|
+| 164 | The minimum sufficient measurement set problem is a test-cover problem: NP-hard, submodular, greedily (1−1/e)-approximable | **ESTABLISHED** | §41.1 |
+| 165 | The cost-weighted cover gives a computable preference ordering over witnesses, favoring quantized observables | **PLAUSIBLE** — test F-13 | §41.3 |
+| 166 | Minimality is relative to the declared alternative set, and unconsidered alternatives are the mechanism behind essentially every retracted phase claim | **STRONGLY SUPPORTED** by the retraction record | §41.4 |
+| 167 | The compiler must optimize preparability + stability + measurability + verifiability jointly; fidelity alone is one of four | **PLAUSIBLE** — proposed here | §3.3 |
+| 168 | S_stability is not optional for target classes B and C; its absence is the most common reason optimal control sequences fail in the laboratory | **STRONGLY SUPPORTED** | §42.1 |

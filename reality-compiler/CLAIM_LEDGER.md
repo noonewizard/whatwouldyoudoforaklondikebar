@@ -287,3 +287,22 @@ per §29's preamble. **[C]** marks a claim that corrects Draft 1.
 | 166 | Minimality is relative to the declared alternative set, and unconsidered alternatives are the mechanism behind essentially every retracted phase claim | **STRONGLY SUPPORTED** by the retraction record | §41.4 |
 | 167 | The compiler must optimize preparability + stability + measurability + verifiability jointly; fidelity alone is one of four | **PLAUSIBLE** — proposed here | §3.3 |
 | 168 | S_stability is not optional for target classes B and C; its absence is the most common reason optimal control sequences fail in the laboratory | **STRONGLY SUPPORTED** | §42.1 |
+
+---
+
+# Draft 4 Addendum — Parts III–IV
+
+The full Parts III–IV claim audit, with assumptions, evidence, and falsifiers for each
+claim, is in [`15-audits-parts-III-IV.md`](15-audits-parts-III-IV.md) §A. Recorded here
+are only the **withdrawals and retractions**, since those correct earlier ledger rows.
+
+| # | Earlier claim | Ledger row corrected | Status in Draft 4 |
+|---|---|---|---|
+| W-1 | "Even verifying condition (a) [that the target is the ground state] is QMA-hard" (Draft 1 §8.6) | — | **WITHDRAWN as imprecise.** The exact decision problem is APX-SIM — estimating a local observable on the ground state — which is **P^QMA[log]-complete**, a class believed to strictly contain QMA. Draft 1 understated the hardness while appearing to overstate it. §8.22 |
+| W-2 | "The minimum sufficient measurement set is a test-cover problem: NP-hard, submodular, greedily (1−1/e)-approximable" (Drafts 1–3, §41.1, §16.4) | 164, 165 | **PARTIALLY WITHDRAWN.** True for the **coverage** formulation (monotone submodular, guarantee holds). **False in general for the information formulation** — mutual information over measurement sets is submodular only under conditional independence, and otherwise weakly submodular with a (1−e^{−γ}) guarantee that degrades with γ. §9.8.3 |
+| W-3 | "The criterion is the relaxation time, and nothing else" (Draft 2 §32.3) | 126 | **RETRACTED.** Sub-exponential τ_relax is neither necessary (metastable targets — steel, glass, diamond, every Floquet phase — are reached by *avoiding* relaxation) nor sufficient (fast relaxation to the wrong attractor, or to an unverifiable state, fails). Replaced by the total-verified-cost criterion C_PSE/T_PSE with amortized setup. §8.7 |
+| W-4 | "Quantum error correction is the only known constructed instance of the digital abstraction outside classical electronics" (Draft 3 §3.6) | 142 | **SOFTENED.** No comprehensive literature review supports "only." Classical error correction in digital logic, kinetic proofreading and DNA mismatch repair in biology, and multistable mechanical metamaterials are candidate instances. QEC remains the clearest *deliberately engineered* quantum instance |
+| W-5 | Attractor/landscape compilation presented without prior art | 137 | **PRIOR ART STATED.** Reservoir engineering (Poyatos–Cirac–Zoller 1996), inverse statistical mechanics for targeted self-assembly (Torquato), dissipative state preparation, control-Lyapunov design, and "energy landscape engineering" as established terminology. The contribution is the unification and the six-axis figure of merit, not the mechanism |
+| W-6 | Physical Design-for-Verifiability presented as novel | 55, 20 | **PRIOR ART STATED.** Design for testability (scan chains, BIST, ~1973) is ~50-year prior art in one substrate; design for inspection and design for metrology are established. New: verification cost inside an automated cross-substrate synthesis objective, and the quantum-matter application |
+| W-7 | VERIFY/ASSUME/DERIVE presented as a new epistemic type system | — | **PRIOR ART STATED.** The GUM's Type A / Type B uncertainty distinction is direct prior art and is an international metrology standard. Citing it strengthens the contribution |
+| W-8 | δ_total ≤ δ₁ + δ₂ + ε with ε unspecified (Draft 1 Desideratum 3.1) | 9 | **SHARPENED.** ε = 0 when the downstream guarantee is **uniform** on 𝒦₁ (Theorem D.1, elementary union bound). ε ≤ L·diam(𝒦₁) is the price of nominal-point validation. **The binding condition is not Lipschitz continuity but sufficiency**: P₂'s outcome must factor through Φ₁ as a Markov kernel, or no bound follows at all. §D |

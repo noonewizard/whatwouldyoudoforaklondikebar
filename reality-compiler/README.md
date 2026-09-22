@@ -2,7 +2,17 @@
 
 ### A Computational Theory of Physically Permitted State Transformation
 
-**Status:** research monograph, third draft.
+**Status:** research monograph, fourth draft.
+**Parts III and IV were rewritten in Draft 4** under adversarial review, with formal
+boxes (DEFINITION / THEOREM / PROPOSITION / CONJECTURE / ENGINEERING CRITERION /
+KNOWN LIMIT / OPEN PROBLEM / FALSIFICATION TEST), a claim audit table, a twelve-
+experiment falsification program, a novelty audit, and an eight-perspective
+adversarial review in [`15-audits-parts-III-IV.md`](15-audits-parts-III-IV.md).
+Two Draft 1–3 claims were **withdrawn**: "verifying condition (a) is QMA-hard"
+(the relevant problem, APX-SIM, is P^QMA[log]-complete) and the claim that
+measurement-selection objectives are submodular (true only for the coverage
+formulation). One Draft 2 claim was **retracted**: that relaxation time is the sole
+criterion for landscape-compilation advantage.
 **Part I was rewritten in Draft 3** to remove a bias toward the industrial
 interpretation: the framework had been developed as a generalization of existing
 manufacturing compilers, with quantum systems entering as a specialist branch. The
@@ -130,6 +140,7 @@ See §22.
 | 11 | [`11-quantum-matter-compilation.md`](11-quantum-matter-compilation.md) | 29 Quantum Matter Synthesis · 30 Layer Independence · 31 The Compression Argument |
 | 12 | [`12-landscape-and-emergence.md`](12-landscape-and-emergence.md) | 32 Landscape Compilation: Advantage Classes · 33 Instruction vs Emergence · 34 Environment as Resource |
 | 13 | [`13-modality-audit-and-errata.md`](13-modality-audit-and-errata.md) | 35 Modality Audit · 36 Errata to Draft 1 · 37 Revised Two-Track Program · 38 Falsification F-11…F-16 |
+| — | [`15-audits-parts-III-IV.md`](15-audits-parts-III-IV.md) | Claim audit · Falsification F-1…F-12 · Novelty audit · Compositionality theorem · Adversarial review · Literature additions |
 | 14 | [`14-theorem-program-and-qir.md`](14-theorem-program-and-qir.md) | 39 The Compilability Theorem Program · 40 Quantum Physical IR · 41 Minimum Sufficient Measurement Set · 42 Objective Functionals · 43 The Ultimate Research Question |
 | — | [`CLAIM_LEDGER.md`](CLAIM_LEDGER.md) | Every major claim, labeled |
 | — | [`CITATIONS.md`](CITATIONS.md) | Literature audit with recall-confidence annotations |
@@ -182,6 +193,19 @@ labels that separately.
 > the abstraction **Specification → Physical Dynamics → Verified State**, and the
 > research program is the determination of how far that abstraction extends — which
 > substrate classes admit it, with what guarantees, and where it provably fails.
+
+## The three compiler outcomes (§7.2, §9 final synthesis)
+
+| Outcome | Condition | Output |
+|---|---|---|
+| **COMPILE** | A route exists within the declared substrate and resource envelope | (π*, H*, ℒ*, Ψ*, Π) |
+| **OBSTRUCT** | A defensible obstruction exists, from one of eight certificate classes | an independently checkable certificate |
+| **MEASURE** | Knowledge is insufficient and the best experiment's expected value of information exceeds the value of committing now | e*, its EVOI, its cost, what it resolves |
+
+> A Physical Synthesis Compiler does not compute every microscopic trajectory required
+> to construct an artifact. It searches for physically realizable dynamics, controls,
+> landscapes, and measurement protocols under which the desired physical property
+> emerges with bounded risk and verifiable evidence.
 
 ## Three targets, typed separately (§2.2)
 

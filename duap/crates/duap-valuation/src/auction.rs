@@ -24,6 +24,17 @@
 //! commitments are logged, a bidder can prove after the fact which bids
 //! existed at close.
 //!
+//! # The two phases must not overlap
+//!
+//! A reveal is bounded *below* by `commit_closes` as well as above by
+//! `reveal_closes`. Both bounds are load-bearing: a bid opened while
+//! others can still commit is readable by them, and they can commit to one
+//! unit more. That makes the auction open-ascending for every bidder who
+//! has not yet committed, which is exactly what the sealing is for.
+//!
+//! Only the upper bound was present until finding AUC-01, which
+//! `tests/auction_redteam.rs` demonstrates.
+//!
 //! # What the mechanism does *not* fix
 //!
 //! * **Shill bidding.** A colluding auctioneer and a sham bidder can still
@@ -32,8 +43,19 @@
 //!   organisations with a stake, and the log makes a pattern of losing shill
 //!   bids visible to auditors. This is deterrence, not prevention.
 //!   `THREAT_MODEL.md` T-23.
-//! * **Bidder collusion.** A ring that agrees to suppress bids lowers the
-//!   clearing price, and no single-round mechanism prevents it.
+//! * **Bidder collusion, and specifically withheld reveals.** A ring that
+//!   agrees to suppress bids lowers the clearing price, and no
+//!   single-round mechanism prevents it. What matters here is that this
+//!   implementation makes it *costless*: the second price is computed over
+//!   revealed bids only, reveals are published as they arrive so a bidder
+//!   can decide after seeing others, and there is no deposit to forfeit.
+//!   `tests/auction_redteam.rs` demonstrates one withheld reveal cutting a
+//!   clearing price from 90 to 50. The only defence offered is that the
+//!   withholding is counted in `unrevealed_commitments` and therefore
+//!   visible -- and a withheld reveal is indistinguishable from a crashed
+//!   bidder, so any enforcement must be an economic forfeit that treats
+//!   both alike rather than a judgement about intent. Accepted as
+//!   RISK-03 in `security/findings.md`.
 //! * **Truthful bidding.** Vickrey's dominant-strategy result assumes
 //!   independent private values and no budget constraints. Data lots are
 //!   neither independent nor free of budget effects, so "bidders will bid
@@ -162,6 +184,10 @@ pub enum AuctionError {
     CommitClosed(String),
     #[error("the reveal phase for lot {0} has closed")]
     RevealClosed(String),
+    #[error("the commit phase for lot {0} has not closed; revealing now would break the seal")]
+    RevealTooEarly(String),
+    #[error("lot {0} has a reveal deadline at or before its commit deadline")]
+    InvalidWindow(String),
     #[error("bidder {0} has no commitment in this auction")]
     NoCommitment(String),
     #[error("the reveal from {0} does not open its commitment")]
@@ -208,7 +234,21 @@ impl SealedBidAuction {
         }
     }
 
+    /// Both phases must be well ordered before either accepts anything.
+    ///
+    /// A lot whose reveal deadline is at or before its commit deadline has
+    /// no valid reveal window, and every reveal against it would be
+    /// simultaneously too early and too late. Rejecting the lot outright
+    /// is clearer than rejecting every bid with a confusing reason.
+    fn check_window(&self) -> Result<(), AuctionError> {
+        if self.lot.reveal_closes <= self.lot.commit_closes {
+            return Err(AuctionError::InvalidWindow(self.lot.id.clone()));
+        }
+        Ok(())
+    }
+
     pub fn commit(&mut self, c: BidCommitment) -> Result<(), AuctionError> {
+        self.check_window()?;
         if c.submitted_at > self.lot.commit_closes {
             return Err(AuctionError::CommitClosed(self.lot.id.clone()));
         }
@@ -221,8 +261,18 @@ impl SealedBidAuction {
     }
 
     pub fn reveal(&mut self, r: BidReveal) -> Result<(), AuctionError> {
+        self.check_window()?;
         if r.revealed_at > self.lot.reveal_closes {
             return Err(AuctionError::RevealClosed(self.lot.id.clone()));
+        }
+        // A reveal inside the commit window breaks the seal for everyone
+        // who has not yet committed: they can read the opened bid and
+        // commit to one unit more, which turns a sealed-bid auction into
+        // an open ascending one. Bounding the reveal below is as necessary
+        // as bounding it above, and only the upper bound was there.
+        // Finding AUC-01.
+        if r.revealed_at <= self.lot.commit_closes {
+            return Err(AuctionError::RevealTooEarly(self.lot.id.clone()));
         }
         if r.unit_price.currency != self.currency {
             return Err(AuctionError::CurrencyMismatch {

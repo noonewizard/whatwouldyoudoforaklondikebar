@@ -27,6 +27,8 @@ unusual capability or produces a wrong but bounded result), **low**
 | VS-9 | medium | duap-conformance | fixed | The conformance vectors were not checked by `cargo test` |
 | CI-01 | low | ontology | fixed | Generated code was not formatter-idempotent, so the staleness check could not work |
 | FUZZ-01 | high | duap-canon | fixed | Nine bytes of input overflowed the decoder's length bounds check |
+| AUC-01 | medium | duap-valuation | fixed | A reveal inside the commit window broke the sealed-bid property |
+| RISK-03 | n/a | duap-valuation | accepted | Withholding a reveal lowers the clearing price and costs nothing |
 | RISK-01 | n/a | protocol | accepted | A dishonest clearing node can issue a receipt for usage it never evaluated |
 | RISK-02 | n/a | protocol | accepted | Usage outside instrumentation is invisible |
 
@@ -431,3 +433,72 @@ pointed at the space of *invalid* inputs, and it was the last one added.
 findings.
 
 **Owner:** `protocol-engineer`. **Status:** fixed.
+
+## AUC-01 — A reveal inside the commit window broke the seal (fixed)
+
+**Found by:** red-teaming the auction, 2026-09-22
+(`crates/duap-valuation/tests/auction_redteam.rs`).
+**Severity:** medium. It defeats the one property commit-reveal exists to
+provide, but only in an auction the protocol treats as optional and
+off the critical path.
+
+**Defect:** `SealedBidAuction::reveal` bounded `revealed_at` above by
+`reveal_closes` and did not bound it below by `commit_closes`. A bidder
+could therefore open its bid while others could still commit. Since
+commitments and reveals are published, anyone who had not yet committed
+could read the opened bid and commit to one unit more — converting a
+sealed-bid auction into an open ascending one for every remaining bidder.
+
+**Reproduction (before the fix):** commit at T0, reveal at T0+1 with a
+commit deadline of T0+100. Accepted.
+
+**Fix:** a reveal at or before `commit_closes` is now
+`AuctionError::RevealTooEarly`. The boundary instant is inclusive of the
+commit phase, and the test pins all three cases — inside, exactly at, and
+one tick after.
+
+**Found alongside it (AUC-04):** a lot whose `reveal_closes` is at or
+before its `commit_closes` has no valid reveal window, so every bid would
+have been simultaneously too early and too late. Such a lot is now
+refused outright by both `commit` and `reveal` rather than accepting
+commitments nobody could ever open.
+
+**What the red team could not break:** second-price correctness, the
+reserve as both gate and floor, commitment binding against a changed
+amount or salt, late entry, and deterministic tie-breaking. Seven
+properties held; one did not.
+
+## RISK-03 — Withholding a reveal is free, and lowers the price (accepted)
+
+The second price is computed over *revealed* bids only. A losing bidder
+who declines to open therefore lowers the winner's price, and because
+reveals are published as they arrive, a bidder can make that decision
+after seeing what others have opened.
+
+**Demonstrated:** `auc_02_withholding_a_reveal_lowers_the_price_for_free`.
+Bids of 100, 90 and 50 clear at 90 when everyone reveals, and at **50**
+when the 90 bidder simply does not open. The winner is unchanged; only
+the price moves.
+
+The module documentation already said bidder collusion lowers the
+clearing price. What it did not say, and what this records, is that this
+implementation makes the collusion **costless**: there is no deposit, no
+forfeit, and no penalty of any kind.
+
+**Mitigations that exist:** the count is published in
+`unrevealed_commitments`, so a pattern is visible to auditors over time.
+
+**Residual risk:** deterrence only, and weak. A withheld reveal is
+indistinguishable from a crashed bidder
+(`auc_03_withholding_is_indistinguishable_from_failure` asserts the result
+does not editorialise about which it was, because it cannot know). Any
+enforcement must therefore be an economic forfeit that treats both alike
+— a deposit posted at commit time and lost on non-reveal, which is the
+standard answer and is **UNIMPLEMENTED**.
+
+**Accepted by:** `chief-architect`. The auction is an optional pricing
+mechanism off the protocol's critical path
+(`docs/market/market-design.md` §2), and a deployment that needs
+manipulation resistance should not use it in this form. Recorded rather
+than fixed because the fix is a deposit-and-forfeit mechanism, which is a
+money-handling feature the protocol deliberately does not have.

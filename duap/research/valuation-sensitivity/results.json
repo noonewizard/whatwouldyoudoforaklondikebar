@@ -1,0 +1,211 @@
+{
+  "keys": 244,
+  "classes": 61,
+  "profiles": 4,
+  "policies": 8,
+  "policy_descriptions": {
+    "shipped": "The defaults in MultiplierPolicy::default.",
+    "flat": "Every multiplier 1. The null hypothesis: modifiers add nothing and only quantity and the negotiated base price matter.",
+    "linear-sensitivity": "Sensitivity 1..5 rather than doubling. Same ordinal direction, different curvature -- the disagreement a reasonable person would have with the shipped defaults.",
+    "steep-sensitivity": "Sensitivity quadrupling rather than doubling. Someone who thinks severe data should be priced punitively.",
+    "risk-led": "Price re-identification risk rather than category. Flat sensitivity, steep reid step.",
+    "retention-led": "Price how long they keep it rather than what it is.",
+    "regulator-flavoured": "Heavy on special category and cross-border transfer; the shape a privacy regulator's intuitions would produce.",
+    "no-decay": "The shipped policy with freshness decay switched off. Someone who thinks historical data is as valuable as fresh."
+  },
+  "cardinal_ratio_median": 11.29,
+  "cardinal_ratio_p90": 37.933,
+  "cardinal_ratio_max": 45.158,
+  "cardinal_ratio_max_key": "protected.immigration/stale-cross-border",
+  "cardinal_ratio_median_incl_flat": 25.6,
+  "cardinal_ratio_max_incl_flat": 858.147,
+  "spearman_min": 0.686,
+  "spearman_mean": 0.879,
+  "spearman_min_pair": "retention-led vs no-decay",
+  "strict_inversion_rate_max": 0.215,
+  "top10_overlap_min": 1.0,
+  "share_shift_max_pp": 2.891,
+  "share_shift_max_as_multiple_of_mean_share": 7.055,
+  "share_shift_max_key": "identity.government/exclusive-indefinite",
+  "note_flat": "The `flat` policy charges every key identically, so rank statistics against it are undefined and are excluded. It is retained as the null hypothesis: it answers whether the modifiers change anything at all.",
+  "top_decile_share": {
+    "shipped": 0.564,
+    "flat": 0.102,
+    "linear-sensitivity": 0.469,
+    "steep-sensitivity": 0.658,
+    "risk-led": 0.44,
+    "retention-led": 0.515,
+    "regulator-flavoured": 0.653,
+    "no-decay": 0.505
+  },
+  "pairs": [
+    {
+      "a": "shipped",
+      "b": "flat",
+      "spearman": null,
+      "strict_inversion_rate": null
+    },
+    {
+      "a": "shipped",
+      "b": "linear-sensitivity",
+      "spearman": 0.979,
+      "strict_inversion_rate": 0.044
+    },
+    {
+      "a": "shipped",
+      "b": "steep-sensitivity",
+      "spearman": 0.964,
+      "strict_inversion_rate": 0.065
+    },
+    {
+      "a": "shipped",
+      "b": "risk-led",
+      "spearman": 0.949,
+      "strict_inversion_rate": 0.073
+    },
+    {
+      "a": "shipped",
+      "b": "retention-led",
+      "spearman": 0.919,
+      "strict_inversion_rate": 0.096
+    },
+    {
+      "a": "shipped",
+      "b": "regulator-flavoured",
+      "spearman": 0.929,
+      "strict_inversion_rate": 0.089
+    },
+    {
+      "a": "shipped",
+      "b": "no-decay",
+      "spearman": 0.846,
+      "strict_inversion_rate": 0.121
+    },
+    {
+      "a": "flat",
+      "b": "linear-sensitivity",
+      "spearman": null,
+      "strict_inversion_rate": null
+    },
+    {
+      "a": "flat",
+      "b": "steep-sensitivity",
+      "spearman": null,
+      "strict_inversion_rate": null
+    },
+    {
+      "a": "flat",
+      "b": "risk-led",
+      "spearman": null,
+      "strict_inversion_rate": null
+    },
+    {
+      "a": "flat",
+      "b": "retention-led",
+      "spearman": null,
+      "strict_inversion_rate": null
+    },
+    {
+      "a": "flat",
+      "b": "regulator-flavoured",
+      "spearman": null,
+      "strict_inversion_rate": null
+    },
+    {
+      "a": "flat",
+      "b": "no-decay",
+      "spearman": null,
+      "strict_inversion_rate": null
+    },
+    {
+      "a": "linear-sensitivity",
+      "b": "steep-sensitivity",
+      "spearman": 0.897,
+      "strict_inversion_rate": 0.109
+    },
+    {
+      "a": "linear-sensitivity",
+      "b": "risk-led",
+      "spearman": 0.987,
+      "strict_inversion_rate": 0.029
+    },
+    {
+      "a": "linear-sensitivity",
+      "b": "retention-led",
+      "spearman": 0.964,
+      "strict_inversion_rate": 0.052
+    },
+    {
+      "a": "linear-sensitivity",
+      "b": "regulator-flavoured",
+      "spearman": 0.866,
+      "strict_inversion_rate": 0.132
+    },
+    {
+      "a": "linear-sensitivity",
+      "b": "no-decay",
+      "spearman": 0.765,
+      "strict_inversion_rate": 0.165
+    },
+    {
+      "a": "steep-sensitivity",
+      "b": "risk-led",
+      "spearman": 0.843,
+      "strict_inversion_rate": 0.138
+    },
+    {
+      "a": "steep-sensitivity",
+      "b": "retention-led",
+      "spearman": 0.804,
+      "strict_inversion_rate": 0.161
+    },
+    {
+      "a": "steep-sensitivity",
+      "b": "regulator-flavoured",
+      "spearman": 0.969,
+      "strict_inversion_rate": 0.051
+    },
+    {
+      "a": "steep-sensitivity",
+      "b": "no-decay",
+      "spearman": 0.899,
+      "strict_inversion_rate": 0.118
+    },
+    {
+      "a": "risk-led",
+      "b": "retention-led",
+      "spearman": 0.976,
+      "strict_inversion_rate": 0.04
+    },
+    {
+      "a": "risk-led",
+      "b": "regulator-flavoured",
+      "spearman": 0.814,
+      "strict_inversion_rate": 0.162
+    },
+    {
+      "a": "risk-led",
+      "b": "no-decay",
+      "spearman": 0.713,
+      "strict_inversion_rate": 0.194
+    },
+    {
+      "a": "retention-led",
+      "b": "regulator-flavoured",
+      "spearman": 0.762,
+      "strict_inversion_rate": 0.184
+    },
+    {
+      "a": "retention-led",
+      "b": "no-decay",
+      "spearman": 0.686,
+      "strict_inversion_rate": 0.215
+    },
+    {
+      "a": "regulator-flavoured",
+      "b": "no-decay",
+      "spearman": 0.925,
+      "strict_inversion_rate": 0.099
+    }
+  ]
+}

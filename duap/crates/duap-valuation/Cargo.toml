@@ -15,6 +15,14 @@ duap-meter = { path = "../duap-meter", version = "0.1.0" }
 serde.workspace = true
 thiserror.workspace = true
 
+# Only the `sensitivity` experiment needs JSON; the library itself does
+# not serialise anything to JSON.
+serde_json.workspace = true
+
+[[bin]]
+name = "sensitivity"
+path = "src/bin/sensitivity.rs"
+
 [dev-dependencies]
 proptest.workspace = true
 criterion.workspace = true

@@ -74,6 +74,55 @@ more sensitive costs more, exclusive costs more, stale costs less — and for
 no stronger reason. Any deployment that uses them unchanged in a real
 transaction is using our guess as its price.
 
+### How much the guess matters, measured
+
+That paragraph used to end there, as an assertion.
+`research/valuation-sensitivity/` now measures it: 61 data classes crossed
+with four usage profiles, 244 keys, priced by the real engine under seven
+defensible coefficient policies plus a flat null.
+
+| | Result |
+|---|---|
+| Ratio of highest to lowest charge for the same key, **median** | **11.3×** |
+| Same, 90th percentile / maximum | 37.9× / 45.2× |
+| Spearman rank correlation between policies | **+0.686 to +0.987**, mean +0.879 |
+| Agreement on the ten most expensive keys | **unanimous, every pair** |
+| Strict comparisons that flip, worst pair | 21.5% |
+| Largest movement in one key's share of a fixed portfolio | 2.89 pp — **7.1× the mean share** |
+
+So the claim this section makes is now supported rather than merely
+modest. The multiplier set is a defensible **ordinal** instrument and an
+indefensible **cardinal** one, and the gap between those is about an order
+of magnitude at the median.
+
+Three consequences, each binding:
+
+1. **No artefact may present a multiplier product as a price.** Two
+   parties applying defensible coefficients to the same usage differ 11×
+   at the median. Showing one of those numbers as "the value" of data
+   would be showing one arbitrary point from a wide range.
+2. **Comparative statements may be relied on, with a stated failure
+   rate.** "This usage costs more than that one" survives across
+   policies, unanimously at the top of the distribution, and flips about
+   one time in five at the weakest pair.
+3. **Both parties to a distribution must pin the policy in advance.** A
+   7×-mean-share swing is not a rounding difference. Use
+   `PricingRule::Schedule` and pin the schedule by digest in the grant;
+   choosing a policy at settlement time means choosing who gets paid
+   after seeing the data.
+
+`crates/duap-valuation/tests/ordinal_stability.rs` turns the ordinal
+finding into a property the build enforces, so a change to these
+coefficients cannot quietly invalidate consequence 2. Its floors are
+looser than the measured values — ρ ≥ 0.60 and 7 of 10 top keys — so
+re-tuning is allowed and destroying the ordinal claim is not.
+
+**The limitation that matters most:** all seven policies share the same
+multiplicative functional form, so this measures sensitivity to
+*coefficients*, not to *approach*. A additive, threshold-based or learned
+valuation is not represented, and the strong ordinal agreement is partly
+an artefact of shared structure.
+
 ## 4. Freshness: an exact approximation of decay
 
 Exponential decay is irrational and cannot be represented exactly, and an
@@ -152,3 +201,20 @@ recipients.
 - Not calibrated against any market.
 - Not a claim that the attribute set is complete; four intrinsic
   attributes and the whole market family are missing and named as missing.
+- Not a cardinal instrument. Measured: 11.3× median spread between
+  defensible policies (§3).
+
+## 10. What it is
+
+One thing, stated as narrowly as the evidence supports:
+
+> A reproducible, explainable, **ordinal** adjustment to a negotiated base
+> price, whose ranking is stable across defensible parameterisations and
+> whose absolute output is not.
+
+Reproducible because every factor is an exact rational and the product
+does not depend on order. Explainable because `AppliedMultiplier` retains
+each factor and its reason, so a price can be read line by line — an
+unexplainable price is a dispute waiting to happen. Ordinal because
+§3 measures it to be, and cardinal-only-if-calibrated because nobody has
+calibrated it.

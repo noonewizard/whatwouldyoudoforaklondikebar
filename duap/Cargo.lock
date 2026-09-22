@@ -683,6 +683,7 @@ dependencies = [
  "duap-model",
  "proptest",
  "serde",
+ "serde_json",
  "thiserror",
 ]
 

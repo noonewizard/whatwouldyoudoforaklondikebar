@@ -93,3 +93,44 @@ false-accept bound throughout and is never a variation or a Dirac delta. `𝒞` 
 inventory in a substrate declaration and `𝒞(·)` with arguments is the complexity
 vector; the arity disambiguates, but in a paper they should be renamed (suggested:
 `Inv` for inventory).
+
+---
+
+# Draft 2 Addendum
+
+## Revised and added symbols
+
+| Symbol | Meaning | Note |
+|---|---|---|
+| **𝒜** | algebra of **conditions**, not placements | **Revised.** Primitives are "impose this boundary," "set this field," "couple to this reservoir," "hold this drive." Explicit placement is the degenerate element where one condition affects one degree of freedom. See §33.4 |
+| ℰ | environment envelope, now a **free variable to be costed**, not a constraint | **Revised.** §34 |
+| Λ_Ω | the realizable control-parameter space of a substrate: {λ : H(λ), L_k(λ) physically available} | New. The search space for quantum-matter compilation (§29.4) |
+| H* | the compiled **effective Hamiltonian** — for quantum targets, the compiler's primary output | New. §29.4 |
+| L_k(λ) | engineered Lindblad (dissipation) operators under control λ | New |
+| U* | control sequence / field / pulse / interaction program realizing λ(t) | New |
+| κ(S) = K(H*) / K(target) | **compilation compression ratio** | New. κ ≪ 1 ⟹ emergence leverage; κ ≈ 1 ⟹ explicit placement is correct. §31.1 |
+| K(·) | description length in the declared representation (Kolmogorov-flavored, used operationally as shortest parameter list) | New |
+| τ_relax | physical convergence time of engineered dynamics to the target basin | New. **The classifying variable for advantage class.** §32.3 |
+| Δ | Hamiltonian spectral gap; **Δ_L** the Liouvillian gap for dissipative preparation | New. §32.5 |
+| ξ | correlation length; sets the Lieb–Robinson preparation-depth floor ξ/v | New |
+| ν, z | correlation-length and dynamic critical exponents (Kibble–Zurek) | New |
+
+## Revised compiler signature
+
+```
+Compile( S, Ω, ℰ )  →  ( P*, H*, U*, Ψ, Π )
+```
+
+with H* primary for quantum targets and P* primary for bulk-matter targets. The two
+back ends have opposite environmental cost models (§34.3) and opposite effort
+allocation: bulk targets spend the budget on search, quantum targets on preparation
+protocol synthesis (§31.3).
+
+## Modality labels
+
+Parts XI–XIII use FORBIDDEN / ALLOWED-INACCESSIBLE / DEMONSTRATED / PLAUSIBLE /
+SPECULATIVE / UNSUPPORTED-CONTRADICTED alongside Draft 1's evidence labels. The two
+vocabularies answer different questions — *how strong is the evidence* versus *what
+imposes the boundary* — and both should be carried. A claim can be
+**ESTABLISHED** (the evidence is solid) that something is **ALLOWED / INACCESSIBLE**
+(no prohibition, no capability).

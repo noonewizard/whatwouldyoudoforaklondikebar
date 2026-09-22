@@ -155,3 +155,67 @@ are marked **[P]**; claims originating in this analysis are marked **[A]**.
 | 93 **[A]** | Control methods bound to apparatus, metrology, processes, compositions, and fingerprinting are the plausible patent territory | **PLAUSIBLE** (not legal advice) | §24.2 |
 | 94 **[A]** | The compiler's *outputs* may be worth more in IP terms than the compiler | **PLAUSIBLE** | §24.3 |
 | 95 **[A]** | AI inventorship remains unsettled | **ESTABLISHED** as a statement about legal uncertainty | §24.3 |
+
+---
+
+# Draft 2 Addendum — Quantum Matter, Emergence, and the Modality Corrections
+
+Claims from Parts XI–XIII. These use the modality vocabulary (FORBIDDEN / ALLOWED /
+DEMONSTRATED / PLAUSIBLE / SPECULATIVE / UNSUPPORTED) rather than Draft 1's labels,
+per §29's preamble. **[C]** marks a claim that corrects Draft 1.
+
+## Corrections to Draft 1
+
+| # | Claim | Label | Where |
+|---|---|---|---|
+| 96 **[C]** | Serial atomic assembly cannot make bulk matter | **True, and does not generalize.** The arithmetic bounds serial assembly only | §29.2, E1 |
+| 97 **[C]** | Massively parallel programmable positional assembly at kg/day | **DEMONSTRATED** — ribosomal synthesis, ~10¹⁹ parallel sites | §29.2 |
+| 98 **[C]** | A general-palette artificial parallel molecular assembler | **ALLOWED / INACCESSIBLE** — no prohibition; undemonstrated | §29.2, F-15 |
+| 99 **[C]** | Positioned mechanochemical event rate ceiling ~10¹²–10¹³ /s/site | **FORBIDDEN above it** (vibrational timescale); permissive — biology runs 11 orders below | §29.2 |
+| 100 **[C]** | Room-temperature macroscopic quantum coherence | Splits four ways: ODLRO at 300 K **DEMONSTRATED**; macroscopic superposition at 300 K **ALLOWED / INACCESSIBLE**; embedded RT processor **ALLOWED / INACCESSIBLE**; biological quantum computation **CONTRADICTED** | §29.8, E2 |
+| 101 **[C]** | Matter-wave interference mass frontier | **DEMONSTRATED** at >7,000 atoms / >170 kDa; levitated spheres ~10⁸ amu ground-state cooled. The frontier moves | §29.8 |
+| 102 **[C]** | Decoherence is a rate set by engineering variables, not a law | **ESTABLISHED** as a statement about the structure of decoherence theory | §29.8, F-16 |
+| 103 **[C]** | Topological qubits are SPECULATIVE | **True for Majorana hardware qubits only.** Engineered Abelian and non-Abelian topological order: **DEMONSTRATED** with braiding verified (2023–2024) | §29.6, E4 |
+| 104 **[C]** | Landscape engineering gives no computational advantage | **Over-broad.** True for glassy optimization; **exponential advantage** for many-body state preparation (conditional on BQP ⊄ BPP); **proven depth separation** for adaptive preparation | §32.3, E5 |
+| 105 **[C]** | No universal physical compiler | Holds for bulk matter. **Universal Hamiltonian families are proved to exist**, so a universal compiler exists for spin-Hamiltonian physics | §35.10, E6 |
+| 106 **[C]** | Verification is uniformly costly | **Topological targets are the cheapest verification problem in physics** — the estimand is an integer | Prop. 29.1, E7 |
+| 107 **[C]** | Undecidability/QMA results bound physical achievability | **No.** They bound algorithms answering questions about arbitrary instances. Matter is not constrained by our ability to decide questions about it | §35.2, E9 |
+| 108 **[C]** | The environment envelope is a constraint | **It is a costed free variable** | §34, E10 |
+| 109 **[C]** | The action algebra is an instruction set of placements | **It is an algebra of conditions**; placement is the degenerate case | §33.4, E8 |
+
+## Physical boundaries affirmed (theorem-grade)
+
+| # | Claim | Label | Where |
+|---|---|---|---|
+| 110 | Constant-depth *unitary* local preparation of long-range entanglement | **FORBIDDEN** (Lieb–Robinson) | §29.5 |
+| 111 | Adiabatic passage through a critical point in finite time | **FORBIDDEN**; Kibble–Zurek gives the defect scaling | §29.5 |
+| 112 | Continuous-symmetry breaking at finite T in d ≤ 2, short-range | **FORBIDDEN** (Mermin–Wagner); finite-size systems evade the asymptotics | §29.5 |
+| 113 | Trivial gapped symmetric ground state at half-odd-integer spin per cell | **FORBIDDEN** (Lieb–Schultz–Mattis) — a compile-time static check | §29.5 |
+| 114 | Single chiral fermion on a local Hermitian lattice | **FORBIDDEN** (Nielsen–Ninomiya) | §29.5 |
+| 115 | Passive 2D topological quantum memory at finite T | **FORBIDDEN** (thermal instability of the 2D toric code). 3D self-correction **OPEN**; 4D proved stable | §29.5 |
+| 116 | Universal transversal gate set | **FORBIDDEN** (Eastin–Knill) | §29.5 |
+| 117 | Copying a prepared state for verification | **FORBIDDEN** (no-cloning) | §29.5 |
+
+## The escapes
+
+| # | Claim | Label | Where |
+|---|---|---|---|
+| 118 | Measurement + feedforward prepares long-range-entangled states in constant depth, beating the Lieb–Robinson floor | **DEMONSTRATED** — D₄ non-Abelian order on 27 trapped-ion qubits, >98.4% per-site fidelity, non-Abelian braiding detected by anyon interferometry | §29.5 |
+| 119 | Dissipative preparation is gap-agnostic and self-correcting | **DEMONSTRATED** | §29.5 |
+| 120 | Effective-field engineering can exceed brute-force extremes | **DEMONSTRATED** — strain-induced pseudo-magnetic fields >300 T, above any laboratory magnet | §34.2 |
+| 121 | Nonequilibrium phases with no equilibrium counterpart are compilable | **DEMONSTRATED** — discrete time-crystalline order on multiple platforms | §29.6 |
+
+## New propositions
+
+| # | Claim | Label | Where |
+|---|---|---|---|
+| 122 | Quantum matter escapes the Avogadro problem: a phase is a correlation structure, not a quantity | **ESTABLISHED** by the definition of a phase | §29.1 |
+| 123 | Quantum matter beats structural alloys on 3 of Draft 1's 4 compilability criteria | **PLAUSIBLE**, argued from the criteria | §29.3 |
+| 124 | Prop. 29.1 — topological targets have O(1) verification margin because the estimand is an integer | **ESTABLISHED**; quantized Hall conductance is measured to 1 part in 10⁹ and defines the SI ohm | §29.7 |
+| 125 | Prop. 31.1 — κ = K(H*)/K(target) predicts compilability; κ ≈ 1 means no emergence leverage | **PLAUSIBLE** — test F-14 | §31.1 |
+| 126 | Prop. 32.1 — advantage class is determined by relaxation time alone | **PLAUSIBLE**, with each row independently supported | §32.3 |
+| 127 | Controlled emergence is the general primitive; instruction execution is its degenerate case | **PLAUSIBLE**, argued from scaling, containment, and the industrial record | §33.2 |
+| 128 | Specification layers stack deterministically upward and are degenerate downward; independent control exists only at the nonequilibrium handles | **ESTABLISHED** (Born–Oppenheimer and the definition of a phase) | §30 |
+| 129 | Extreme regimes are cheap at small volume and unavailable at large volume, so quantum-matter and bulk back ends have opposite environmental economics | **ESTABLISHED** by the cost table | §34.3 |
+| 130 | Ambient-pressure room-temperature superconductivity | **ALLOWED / undiscovered** — no known theorem bounds Tc; the field's failure mode has been verification integrity, not physics | §29.6, §29.9 Target C |
+| 131 | Track B (quantum matter) should be funded before Track A | **PLAUSIBLE**, argued against Draft 1's own criteria | §37 |
